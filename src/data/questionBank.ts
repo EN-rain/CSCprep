@@ -1,0 +1,14 @@
+import analyticalAbility from './analyticalAbility.json'
+import filipino from './filipino.json'
+import generalInformation from './generalInformation.json'
+import numericalReasoning from './numericalReasoning.json'
+import verbalReasoning from './verbalReasoning.json'
+import { type Question } from '../types'
+
+export const questionBank: Question[] = [
+  ...(verbalReasoning as Question[]),
+  ...(numericalReasoning as Question[]),
+  ...(analyticalAbility as Question[]),
+  ...(filipino as Question[]),
+  ...(generalInformation as Question[]),
+]

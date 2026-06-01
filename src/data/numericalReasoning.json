@@ -1,0 +1,2403 @@
+[
+  {
+    "id": "nr-001",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 = 1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "65"
+      },
+      {
+        "id": "B",
+        "text": "155"
+      },
+      {
+        "id": "C",
+        "text": "125"
+      },
+      {
+        "id": "D",
+        "text": "550"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-002",
+    "subject": "Numerical Reasoning",
+    "prompt": "Evaluate:   - - + - . 16 ( 24 8 ) 22 8 × 8",
+    "choices": [
+      {
+        "id": "A",
+        "text": "40"
+      },
+      {
+        "id": "B",
+        "text": "48"
+      },
+      {
+        "id": "C",
+        "text": "64"
+      },
+      {
+        "id": "D",
+        "text": "168"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-003",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find the product: 800 x 125.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "925"
+      },
+      {
+        "id": "B",
+        "text": "1000"
+      },
+      {
+        "id": "C",
+        "text": "10 000"
+      },
+      {
+        "id": "D",
+        "text": "100 000"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-004",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find the quotient: 8 000 ÷ 125",
+    "choices": [
+      {
+        "id": "A",
+        "text": "48"
+      },
+      {
+        "id": "B",
+        "text": "64"
+      },
+      {
+        "id": "C",
+        "text": "80"
+      },
+      {
+        "id": "D",
+        "text": "88"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-005",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find the sum: 299 + 943 + 398 + 101",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1,531"
+      },
+      {
+        "id": "B",
+        "text": "1,641"
+      },
+      {
+        "id": "C",
+        "text": "1,741"
+      },
+      {
+        "id": "D",
+        "text": "122,222"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-006",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103 + 104 + 105 + 106 + 107 + 108 + 109 + 110 = 1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1,055"
+      },
+      {
+        "id": "B",
+        "text": "1,065"
+      },
+      {
+        "id": "C",
+        "text": "1,075"
+      },
+      {
+        "id": "D",
+        "text": "5,500"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-007",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the remainder when 192 888 is divided by 81/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "24 111"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-008",
+    "subject": "Numerical Reasoning",
+    "prompt": "Rounding 299 943 to the nearest thousands, the result is",
+    "choices": [
+      {
+        "id": "A",
+        "text": "299 940"
+      },
+      {
+        "id": "B",
+        "text": "299 000"
+      },
+      {
+        "id": "C",
+        "text": "299 900"
+      },
+      {
+        "id": "D",
+        "text": "300 000"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-009",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find the value of x – y1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "48"
+      },
+      {
+        "id": "C",
+        "text": "56"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-010",
+    "subject": "Numerical Reasoning",
+    "prompt": "398.101 is read as",
+    "choices": [
+      {
+        "id": "A",
+        "text": "three hundred ninety eight, one hundred one."
+      },
+      {
+        "id": "B",
+        "text": "three hundred ninety eight and one hundred one."
+      },
+      {
+        "id": "C",
+        "text": "three hundred ninety eight and one hundred one hundredths"
+      },
+      {
+        "id": "D",
+        "text": "three hundred ninety eight and one hundred one thousands"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-011",
+    "subject": "Numerical Reasoning",
+    "prompt": "A number is divisible by 8 if its last three digits is divisible by 8. Which of the following numbers is divisible by 81/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9 208"
+      },
+      {
+        "id": "B",
+        "text": "6 236"
+      },
+      {
+        "id": "C",
+        "text": "88 254"
+      },
+      {
+        "id": "D",
+        "text": "8 886"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-012",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which of the following statements is true1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "If a number is divisible by 5, then it is divisible by 10."
+      },
+      {
+        "id": "B",
+        "text": "If a number is divisible by 10, then it is divisible by 5."
+      },
+      {
+        "id": "C",
+        "text": "If a number is divisble by 3, then it is divisible by 6"
+      },
+      {
+        "id": "D",
+        "text": "If a number is divisible by 4, then it is divisible by 8"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-013",
+    "subject": "Numerical Reasoning",
+    "prompt": "Simplify: ½ (128 – 84) – ½ (128 – 84)",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "44"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-014",
+    "subject": "Numerical Reasoning",
+    "prompt": "Simplify: 33 1/3% of 48 + 12 ½% of 96 – 44 4/9% of 27",
+    "choices": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "48"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-015",
+    "subject": "Numerical Reasoning",
+    "prompt": "Reduce 231/1001 to its lowest terms",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7/11"
+      },
+      {
+        "id": "B",
+        "text": "3/31"
+      },
+      {
+        "id": "C",
+        "text": "3/13"
+      },
+      {
+        "id": "D",
+        "text": "7/13"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-016",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which of the foloowing is true1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-16 > 8"
+      },
+      {
+        "id": "B",
+        "text": "8/64 = ¼"
+      },
+      {
+        "id": "C",
+        "text": "54 – 8 ≥ 8 – 54"
+      },
+      {
+        "id": "D",
+        "text": "9/117 = 1/17   3 5 +"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-017",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find the value of x: ( 72 ) ( 35 )   8 7",
+    "choices": [
+      {
+        "id": "A",
+        "text": "27"
+      },
+      {
+        "id": "B",
+        "text": "36"
+      },
+      {
+        "id": "C",
+        "text": "45"
+      },
+      {
+        "id": "D",
+        "text": "52"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-018",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is 25% of 2281/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "52"
+      },
+      {
+        "id": "B",
+        "text": "57"
+      },
+      {
+        "id": "C",
+        "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "912"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-019",
+    "subject": "Numerical Reasoning",
+    "prompt": "228 is 25% of what number1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "52"
+      },
+      {
+        "id": "B",
+        "text": "57"
+      },
+      {
+        "id": "C",
+        "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "912"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-020",
+    "subject": "Numerical Reasoning",
+    "prompt": "168 is what percent of 6721/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "25%"
+      },
+      {
+        "id": "B",
+        "text": "50%"
+      },
+      {
+        "id": "C",
+        "text": "400%"
+      },
+      {
+        "id": "D",
+        "text": "80%"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-021",
+    "subject": "Numerical Reasoning",
+    "prompt": "Evaluate: 123 x 0.1 + 123 x 0.01 + 123 x 0.001",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13.653"
+      },
+      {
+        "id": "B",
+        "text": "135.53"
+      },
+      {
+        "id": "C",
+        "text": "1 356.3"
+      },
+      {
+        "id": "D",
+        "text": "13 563"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-022",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find 3 ¼ of 16",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "39"
+      },
+      {
+        "id": "D",
+        "text": "52"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-023",
+    "subject": "Numerical Reasoning",
+    "prompt": "Evaluate: 1 + ½ + ¼ + 1/8 = 1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1 3/16"
+      },
+      {
+        "id": "B",
+        "text": "1 3/8"
+      },
+      {
+        "id": "C",
+        "text": "1 5/8"
+      },
+      {
+        "id": "D",
+        "text": "1 7/8"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-024",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find the value of x in the equation: 3x + 7 = 28",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "-7"
+      },
+      {
+        "id": "C",
+        "text": "±7"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-025",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which of the following has the greatest value1/4 8",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2 2 ( 6 )( 8 ) 16"
+      },
+      {
+        "id": "B",
+        "text": "2 3 ( 6 )( 8 ) 1"
+      },
+      {
+        "id": "C",
+        "text": "3 2 ( 6 )( 8 ) 168"
+      },
+      {
+        "id": "D",
+        "text": "4 3 ( 6 )( 8 )"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-026",
+    "subject": "Numerical Reasoning",
+    "prompt": "Whic of the following cannot yield an odd integer when divided by 101/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The sum of two odd integers."
+      },
+      {
+        "id": "B",
+        "text": "The product of a prime number and an odd integer"
+      },
+      {
+        "id": "C",
+        "text": "The product of two odd integers"
+      },
+      {
+        "id": "D",
+        "text": "The sum of three consecutive integers"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-027",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 8x + 12 = 24, what is the value of 24x + 36",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "72"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-028",
+    "subject": "Numerical Reasoning",
+    "prompt": "If a positive integer m is divisible by both 3 and 8, then m must also be divisible by",
+    "choices": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "18"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-029",
+    "subject": "Numerical Reasoning",
+    "prompt": "If positive integers m and n are not both odd, which of the following is always true1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "m + n is even"
+      },
+      {
+        "id": "B",
+        "text": "mn is even"
+      },
+      {
+        "id": "C",
+        "text": "m – n cannot be odd"
+      },
+      {
+        "id": "D",
+        "text": "m + n – 1 is odd"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-030",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find the average temperature change for the 12-day period. Temperature change in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4.8"
+      },
+      {
+        "id": "B",
+        "text": "4.9"
+      },
+      {
+        "id": "C",
+        "text": "5.2"
+      },
+      {
+        "id": "D",
+        "text": "5.4"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-031",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find the set of all odd numbers x satisfying the conditions 5x - 4≤ 0 and 3x – 7 ≥ 0",
+    "choices": [
+      {
+        "id": "A",
+        "text": "   x | x 1"
+      },
+      {
+        "id": "B",
+        "text": " 1"
+      },
+      {
+        "id": "C",
+        "text": "    x | x"
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-032",
+    "subject": "Numerical Reasoning",
+    "prompt": "State the property illustrated. If 8(6) + 4 = 48 + 4 = 52, then 8(6) + 4 = 52",
+    "choices": [
+      {
+        "id": "A",
+        "text": "distributive property of multiplication over addition"
+      },
+      {
+        "id": "B",
+        "text": "commutative property of addition"
+      },
+      {
+        "id": "C",
+        "text": "associative property"
+      },
+      {
+        "id": "D",
+        "text": "transitive property of equality"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-033",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 8 less than the product of a number and -3 is greater than 7, which of the following could be that number1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "-6"
+      },
+      {
+        "id": "B",
+        "text": "-5"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-034",
+    "subject": "Numerical Reasoning",
+    "prompt": "The difference between 8 times a number and 17 is 231. Find the number.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "31"
+      },
+      {
+        "id": "B",
+        "text": "37"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "1 984"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-035",
+    "subject": "Numerical Reasoning",
+    "prompt": "Four times the perimeter of a parking lot is 16 less than 2,000 meters. What is the perimeter of the lot1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "496 m"
+      },
+      {
+        "id": "B",
+        "text": "504 m"
+      },
+      {
+        "id": "C",
+        "text": "992 m"
+      },
+      {
+        "id": "D",
+        "text": "1,008 m"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-036",
+    "subject": "Numerical Reasoning",
+    "prompt": "The amount of last month’s telephone bill, decreased by the product of 3 and Php30.00 equals Php1,319.50",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 1,229.50"
+      },
+      {
+        "id": "B",
+        "text": "Php 1,289.50"
+      },
+      {
+        "id": "C",
+        "text": "Php 1,310.50"
+      },
+      {
+        "id": "D",
+        "text": "Php 1, 409.50"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-037",
+    "subject": "Numerical Reasoning",
+    "prompt": "Eighteen less than seven times the number of sandwiches is 269. How many sandwiches are there1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "32"
+      },
+      {
+        "id": "B",
+        "text": "41"
+      },
+      {
+        "id": "C",
+        "text": "44"
+      },
+      {
+        "id": "D",
+        "text": "45"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-038",
+    "subject": "Numerical Reasoning",
+    "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as the lot. How much does the lot cost1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 5.6M"
+      },
+      {
+        "id": "B",
+        "text": "Php 8.4M"
+      },
+      {
+        "id": "C",
+        "text": "Php 10.5 M"
+      },
+      {
+        "id": "D",
+        "text": "Php 21M"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-039",
+    "subject": "Numerical Reasoning",
+    "prompt": "The sale price of a television set is Php 7,200. The discount rate is 40%. Find its regular price.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 4,320"
+      },
+      {
+        "id": "B",
+        "text": "Php 12,000"
+      },
+      {
+        "id": "C",
+        "text": "Php 6,800"
+      },
+      {
+        "id": "D",
+        "text": "Php 10,000"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-040",
+    "subject": "Numerical Reasoning",
+    "prompt": "The lenghts of the sides of a triangle can be represented by three consecutive integers. The perimeter of the triangle is 96cm. Find the length of the longest side of the triangle.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "28"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "33"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-041",
+    "subject": "Numerical Reasoning",
+    "prompt": "The length of a rectangle is 8 meters more than twice its width. The perimeter is 112 meters. Find its area.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "16m"
+      },
+      {
+        "id": "B",
+        "text": "24m"
+      },
+      {
+        "id": "C",
+        "text": "28 m2"
+      },
+      {
+        "id": "D",
+        "text": "640 m2"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-042",
+    "subject": "Numerical Reasoning",
+    "prompt": "Paula is twice as old as Queenie. Seven years ago the sum of their ages was 16. How old is Queenie now1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-043",
+    "subject": "Numerical Reasoning",
+    "prompt": "For what value of x will x be the average of 2, 4x, 6, 8, 101/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "26"
+      },
+      {
+        "id": "D",
+        "text": "39"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-044",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many integers between 197 and 303 are divisible by 4 or 101/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "26"
+      },
+      {
+        "id": "C",
+        "text": "31"
+      },
+      {
+        "id": "D",
+        "text": "37"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-045",
+    "subject": "Numerical Reasoning",
+    "prompt": "A patient must take his medication every 7 hours starting at 7:00 AM, Sunday. On what day will the patient first receive his medication at 8 AM1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sunday"
+      },
+      {
+        "id": "B",
+        "text": "Wednesday"
+      },
+      {
+        "id": "C",
+        "text": "Thursday"
+      },
+      {
+        "id": "D",
+        "text": "Tuesday"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-046",
+    "subject": "Numerical Reasoning",
+    "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have a regular day of the week on which they shop. What percentage of the shoppers did not have a regular day of shopping1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "32%"
+      },
+      {
+        "id": "B",
+        "text": "48%"
+      },
+      {
+        "id": "C",
+        "text": "64%"
+      },
+      {
+        "id": "D",
+        "text": "96%"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-047",
+    "subject": "Numerical Reasoning",
+    "prompt": "A water container has 100mL of water in it and is 20% full. How many mL of water can this container hold if it is full1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "200 mL"
+      },
+      {
+        "id": "B",
+        "text": "400 mL"
+      },
+      {
+        "id": "C",
+        "text": "500 mL"
+      },
+      {
+        "id": "D",
+        "text": "800 mL"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-048",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many containers each occupies an area of 2 1/8 square meters can be stored in a 952 square meter warehouse1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "358"
+      },
+      {
+        "id": "B",
+        "text": "448"
+      },
+      {
+        "id": "C",
+        "text": "530"
+      },
+      {
+        "id": "D",
+        "text": "630"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-049",
+    "subject": "Numerical Reasoning",
+    "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a month. Next year the starting salary will be raised to Php18,000. What is the rate of increase in the starting salary1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3%"
+      },
+      {
+        "id": "B",
+        "text": "20%"
+      },
+      {
+        "id": "C",
+        "text": "25%"
+      },
+      {
+        "id": "D",
+        "text": "30%"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-050",
+    "subject": "Numerical Reasoning",
+    "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago was Php12,500. There was a 420% increase in the price in the last five years. What is the price per square meter of that lot today1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 17,500"
+      },
+      {
+        "id": "B",
+        "text": "Php 52,500"
+      },
+      {
+        "id": "C",
+        "text": "Php 19,000"
+      },
+      {
+        "id": "D",
+        "text": "Php 65,000"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-051",
+    "subject": "Numerical Reasoning",
+    "prompt": "Last month, a store manager decided to decrease the prices of all items by 10%. This month, he increased the prices by 10%. What would be the price for a pair of pants that had cost Php750 before prices were decreased last month1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "PHp 742.50"
+      },
+      {
+        "id": "B",
+        "text": "Php 750.00"
+      },
+      {
+        "id": "C",
+        "text": "Php 675.00"
+      },
+      {
+        "id": "D",
+        "text": "Php 825.00"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-052",
+    "subject": "Numerical Reasoning",
+    "prompt": "When the original price of an item is increased by a certain rate, the increased price is Php 3,100. When the original price is decreased by the same rate, the decreased price is Php1,900. What is the original price of this item1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php1,200"
+      },
+      {
+        "id": "B",
+        "text": "Php200"
+      },
+      {
+        "id": "C",
+        "text": "Php2,500"
+      },
+      {
+        "id": "D",
+        "text": "Php2,800"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-053",
+    "subject": "Numerical Reasoning",
+    "prompt": "How much must one has to invest in corporate bonds paying 9.6% in order to earn an income of Php12,000 per annum1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php11,520"
+      },
+      {
+        "id": "B",
+        "text": "Php 23,040"
+      },
+      {
+        "id": "C",
+        "text": "Php 125,000"
+      },
+      {
+        "id": "D",
+        "text": "Php 250,000"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-054",
+    "subject": "Numerical Reasoning",
+    "prompt": "How much must be cut form the edge of a piece of glass 16 1/8 cm wide, in order for it to fit into an opening 14 ¾ cm wide1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2 3/8cm"
+      },
+      {
+        "id": "B",
+        "text": "1 7/8cm"
+      },
+      {
+        "id": "C",
+        "text": "1 3/8cm"
+      },
+      {
+        "id": "D",
+        "text": "2 5/8 cm"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-055",
+    "subject": "Numerical Reasoning",
+    "prompt": "A race car traveled for 2 ½ hours with an average speed of 132 5/8 km per hour. Find the total distance it covered.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "264 5/16km"
+      },
+      {
+        "id": "B",
+        "text": "331 9/16km"
+      },
+      {
+        "id": "C",
+        "text": "330 5/16km"
+      },
+      {
+        "id": "D",
+        "text": "135 1/8km"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-056",
+    "subject": "Numerical Reasoning",
+    "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what will be its weight with a full load1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "750 3/8kg"
+      },
+      {
+        "id": "B",
+        "text": "824 3/8kg"
+      },
+      {
+        "id": "C",
+        "text": "720 5/8kg"
+      },
+      {
+        "id": "D",
+        "text": "753 1/8kg"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-057",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many liters will remain in 1 1000-liter storage tank if 8.2% of the liquid has evaporated due to excessive heat1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "918"
+      },
+      {
+        "id": "B",
+        "text": "991.8"
+      },
+      {
+        "id": "C",
+        "text": "999.18"
+      },
+      {
+        "id": "D",
+        "text": "998"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-058",
+    "subject": "Numerical Reasoning",
+    "prompt": "Dante recently sold some stocks for which he originally bought for Php358. If it has increased in value by 116%, how much did he receive for the stock1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php678.27"
+      },
+      {
+        "id": "B",
+        "text": "Php772"
+      },
+      {
+        "id": "C",
+        "text": "Php773.28"
+      },
+      {
+        "id": "D",
+        "text": "Php778"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-059",
+    "subject": "Numerical Reasoning",
+    "prompt": "Mr. Manny Vargas, a real estate broker sold a building for Php175M. How much did he receive if his commission is 5.5% of the sale price of the property1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php9.5M"
+      },
+      {
+        "id": "B",
+        "text": "Php9.7M"
+      },
+      {
+        "id": "C",
+        "text": "Php9.625M"
+      },
+      {
+        "id": "D",
+        "text": "Php180.5M"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-060",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 560 out of 700 examinees passed in the recent Career Service exam for Sub- Professional level, what percent of the examinees passed1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "65%"
+      },
+      {
+        "id": "B",
+        "text": "72%"
+      },
+      {
+        "id": "C",
+        "text": "80%"
+      },
+      {
+        "id": "D",
+        "text": "140%"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-061",
+    "subject": "Numerical Reasoning",
+    "prompt": "Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000 interest. What rate of interest did Asian Bank charge for the loan1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8%"
+      },
+      {
+        "id": "B",
+        "text": "9%"
+      },
+      {
+        "id": "C",
+        "text": "10%"
+      },
+      {
+        "id": "D",
+        "text": "12%"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-062",
+    "subject": "Numerical Reasoning",
+    "prompt": "A store sells shirts for Php1,078 each or 3 for Php2,997. How much would one save by buying 3 shirts at a time instead of 3 shirts, one at a time1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php237"
+      },
+      {
+        "id": "B",
+        "text": "Php921"
+      },
+      {
+        "id": "C",
+        "text": "Php1,237"
+      },
+      {
+        "id": "D",
+        "text": "Php1,921"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-063",
+    "subject": "Numerical Reasoning",
+    "prompt": "A computer can be rented for Php1,745 a week or Php 347.50 a day. You need the computer only for 6 days. At which rate (daily or weekly), would it be cheaper to rent and by how much cheaper1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "weekly: Php340"
+      },
+      {
+        "id": "B",
+        "text": "daily: Php240"
+      },
+      {
+        "id": "C",
+        "text": "daily:Php340"
+      },
+      {
+        "id": "D",
+        "text": "weekly: Php240"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-064",
+    "subject": "Numerical Reasoning",
+    "prompt": "A 1.25 kg of box of Brand A detergent sells for Php 87.50. A 1.5 kg box of Brand B detergent sells for Php103.20. What is the difference in the price per kg.1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 1.20"
+      },
+      {
+        "id": "B",
+        "text": "Php 1.50"
+      },
+      {
+        "id": "C",
+        "text": "Php 1.80"
+      },
+      {
+        "id": "D",
+        "text": "Php 2.00"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-065",
+    "subject": "Numerical Reasoning",
+    "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe per meter1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 830"
+      },
+      {
+        "id": "B",
+        "text": "Php 840"
+      },
+      {
+        "id": "C",
+        "text": "Php 747"
+      },
+      {
+        "id": "D",
+        "text": "Php 749"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-066",
+    "subject": "Numerical Reasoning",
+    "prompt": "A homeowner can rent a chain saw from a rental agency at Php 2,700 a day. The brand new of the same saw can be bought for Php18,900. For how many days could the homeonwer rent the saw before renting would cost more than buying1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-067",
+    "subject": "Numerical Reasoning",
+    "prompt": "Paula uses ten 100-watt bulbs in her house. She uses these bulbs at an average of 5 hours each day. How many KWH do these bulbs use each day1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "5,000"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-068",
+    "subject": "Numerical Reasoning",
+    "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours a year. How many kilowatt-hour is this1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "73.2"
+      },
+      {
+        "id": "B",
+        "text": "732"
+      },
+      {
+        "id": "C",
+        "text": "7,320"
+      },
+      {
+        "id": "D",
+        "text": "7.32"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-069",
+    "subject": "Numerical Reasoning",
+    "prompt": "A DVD movie, purchased for Php440 was marked up 25% on the selling price. Later, as retail prices fell, this movie was marked down 20% on the current sale price. Find its new sale price.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 352"
+      },
+      {
+        "id": "B",
+        "text": "Php 440"
+      },
+      {
+        "id": "C",
+        "text": "Php 500"
+      },
+      {
+        "id": "D",
+        "text": "Php 550"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-070",
+    "subject": "Numerical Reasoning",
+    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480 packs paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes of cards @ 0.80. A 5% sales tax is added. What was the company’s total bill1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 173.25"
+      },
+      {
+        "id": "B",
+        "text": "Php 3,551"
+      },
+      {
+        "id": "C",
+        "text": "Php 971.25"
+      },
+      {
+        "id": "D",
+        "text": "Php 3,728.55"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-071",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many meters of fencing are needed to enclose an 84-meter by 48-meter rectangular garden1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "132m"
+      },
+      {
+        "id": "B",
+        "text": "244m"
+      },
+      {
+        "id": "C",
+        "text": "264m"
+      },
+      {
+        "id": "D",
+        "text": "4,032m2"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-072",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many 1-cm square stickers are needed to cover a photo box 4 cm long, 3cm wide and 5cm high1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "47"
+      },
+      {
+        "id": "B",
+        "text": "60"
+      },
+      {
+        "id": "C",
+        "text": "88"
+      },
+      {
+        "id": "D",
+        "text": "94"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-073",
+    "subject": "Numerical Reasoning",
+    "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is 4cm longer than the shortest side. How long is the shortest side if the perimeter is 67 cm1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "20 cm"
+      },
+      {
+        "id": "B",
+        "text": "23 cm"
+      },
+      {
+        "id": "C",
+        "text": "24 cm"
+      },
+      {
+        "id": "D",
+        "text": "27 cm"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-074",
+    "subject": "Numerical Reasoning",
+    "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm, if its perimeter is 50cm1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-075",
+    "subject": "Numerical Reasoning",
+    "prompt": "By what percent was the price per kilo of chicken inceased1/4 1) The price per kilo of chicken was increased by Php20 2) The price per kilo of chicken was increased by Php120 statement ALONE is sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-076",
+    "subject": "Numerical Reasoning",
+    "prompt": "A real estate broker received a commission of 8% of the selling price of a certain property, what was the selling price of the property1/4 1) The selling price minus the real estate agent’s commission was Php 9,200,000 2) The selling price was 250% of the original purchase price of Php 4,000,000.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-077",
+    "subject": "Numerical Reasoning",
+    "prompt": "Cherry and Keanna were among those who sold raffle tickets to raise money for the club. If Cherry and Keanna sold a total of 168 tickets, how many tickets did Cherry sell1/4 1) Keanna sold 60% as many raffle tickets as Cherry 2) Keanna sold 8% of all the raffle tickets sold. not sufficient. 1) a = 2, and ms = 64 2) m/s = 2 and a/s = ¼ not sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-078",
+    "subject": "Numerical Reasoning",
+    "prompt": "If x and y are integers, is x divisible by 171/4 1) The product xy is divisible by 17 2) y is not divisible by 17 statement ALONE is sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-079",
+    "subject": "Numerical Reasoning",
+    "prompt": "On Saturday monring the printing machine of Gerpress Printing ran continuously at uniform rate to fill a production order. At what time did it completely fill the order that morning1/4 1) The supervisor began the plan for production 8:08am. 2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by 10:18am not sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-080",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many books does Gerard have1/4 1) If Gerard had 18 fewer books, he would have only half as many as he actually has. 2) Gerard has three times as many fiction as non-fiction books. not sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-081",
+    "subject": "Numerical Reasoning",
+    "prompt": "What number is 24% of x1/4 1) 16 is 8% of x 2) 1/8 of x is 1,600",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-082",
+    "subject": "Numerical Reasoning",
+    "prompt": "What was the total amount raised for the Payatas Tragedy from private corporations and personal donations1/4 1) Of the amount donated,48% came from private corporations 2) Of the amount donated, Php15M came from personal donations. statement ALONE is sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-083",
+    "subject": "Numerical Reasoning",
+    "prompt": "Mary’s total score in the three bowling games was 530. What were her scores1/4 1) Mary’s highest score was 198 2) The sum of Mary’s two highest scores was 368 statement ALONE is sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-084",
+    "subject": "Numerical Reasoning",
+    "prompt": "If the value of n closer to 48 than to 781/4 1) 78 – n > n – 48 2) n > 60 not sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-085",
+    "subject": "Numerical Reasoning",
+    "prompt": "In last Saturday’s Midnight Sale at Gaisano Mall a certain shop sold 75% of the shirts in its inventory. Each shirt was sold for Php358. What was the total revenue from the sale of these shirts on that day1/4 1) When the shop opened last Saturday, there were 448 shirts in its inventory 2) All but 112 of the shop’s inventory were sold last Saturday.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-086",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many more boys than girls are there in the room1/4 1) There is a total of 56 girls and boys in the room. 2) The number of boys in the room equals the square of the number of girls in the room. statement ALONE is sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-087",
+    "subject": "Numerical Reasoning",
+    "prompt": "In what year was David born1/4 1) David’s friend Michelle, who is ½ years younger than him, was born in 1979. 2) In 1998, David turned 20 years old not sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-088",
+    "subject": "Numerical Reasoning",
+    "prompt": "A box contains 48 balls, of which 30 are red and 18 are blue. If 16 of the balls are removed, how many of the balls left in the box are blue1/4 1) Of the balls removed, the ratio of the number of red ones to the number of blue ones is 5:3 2) Of the first 8 marbles removed, 5 are red not sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-089",
+    "subject": "Numerical Reasoning",
+    "prompt": "How long did it take Mrs. Lim to drive non-stop on a trip from here home to Ayala Alabang1/4 1) If Mrs. Lim average speed for the trip had been 1.5 times as fast, the trip would have taken 2 hours. 2) Mrs. Lim average speed for the trip was 80 km per hour. not sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-090",
+    "subject": "Numerical Reasoning",
+    "prompt": "If Lorna had a dentist’s appointment on a certain day, was the appointment on a Friday1/4 1) Exactly 64 hours before the appointment, it was Wednesday. 2) The appointment is between 2:00pm to 7:00pm statement ALONE is sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-091",
+    "subject": "Numerical Reasoning",
+    "prompt": "What was the average number of kilometers per liter of gasoline a car can consume during a certain trip1/4 1) The total cost of the gasoline used by the card or the 640-km trip was Php1,152. 2) The cost for the gasoline used by the car for the trip was Php18.00 per liter. statement ALONE is sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-092",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the ratio of a to b1/4 1) a is 8 more than twice b. 2) The ratio of a to 4b is 3 : 7. not sufficient.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "nr-093",
+    "subject": "Numerical Reasoning",
+    "prompt": "At Avanti Review Center, 400 students are enrolled for the Review Program or Academic Advancement Program or both. If 100 of these students are not enrolled in the Review Program, how many of them are enrolled in both Avanti Review Program and Avanti Academic Advancement Program1/4 1) Of the 400 students, 160 are not enrolled in the Academic Advancement Program. 2) A total of 240 of the students are enrolled in the Academic Advancement Program.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "Each statement alone is sufficient."
+      },
+      {
+        "id": "E",
+        "text": "Statements (1) and (2) together are not sufficient."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  }
+]

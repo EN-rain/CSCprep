@@ -1,0 +1,6813 @@
+[
+  {
+    "id": "vr-001",
+    "subject": "Verbal Reasoning",
+    "prompt": "We should never be apathetic towards other people for we have a social responsibility to fulfill.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "indifferent"
+      },
+      {
+        "id": "B",
+        "text": "concerned"
+      },
+      {
+        "id": "C",
+        "text": "generous"
+      },
+      {
+        "id": "D",
+        "text": "worried"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-002",
+    "subject": "Verbal Reasoning",
+    "prompt": "A good leader should be cognizant of the numerous issues that affect his constituents.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "aware"
+      },
+      {
+        "id": "B",
+        "text": "uninformed"
+      },
+      {
+        "id": "C",
+        "text": "confused"
+      },
+      {
+        "id": "D",
+        "text": "idealistic"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-003",
+    "subject": "Verbal Reasoning",
+    "prompt": "Always be careful not to issue any disparaging remarks against other people.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "praising"
+      },
+      {
+        "id": "B",
+        "text": "confusing"
+      },
+      {
+        "id": "C",
+        "text": "damaging"
+      },
+      {
+        "id": "D",
+        "text": "discouragin"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-004",
+    "subject": "Verbal Reasoning",
+    "prompt": "Flowers are ephemeral; they bloom yet wither in a week or so later.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "shrivel"
+      },
+      {
+        "id": "B",
+        "text": "long lasting"
+      },
+      {
+        "id": "C",
+        "text": "beautiful"
+      },
+      {
+        "id": "D",
+        "text": "short lived"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-005",
+    "subject": "Verbal Reasoning",
+    "prompt": "A fastidious person will never find true happiness.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "simple"
+      },
+      {
+        "id": "B",
+        "text": "choosy"
+      },
+      {
+        "id": "C",
+        "text": "greedy"
+      },
+      {
+        "id": "D",
+        "text": "contented"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-006",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Ortigas Center is filled with gargantuan buildings, some having up to 50 floors.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "crowded"
+      },
+      {
+        "id": "B",
+        "text": "old and weak"
+      },
+      {
+        "id": "C",
+        "text": "fist class"
+      },
+      {
+        "id": "D",
+        "text": "gigantic"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-007",
+    "subject": "Verbal Reasoning",
+    "prompt": "Nobody like haughty Monty who kept bragging about his riches.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "arrogant"
+      },
+      {
+        "id": "B",
+        "text": "foolish"
+      },
+      {
+        "id": "C",
+        "text": "respectable"
+      },
+      {
+        "id": "D",
+        "text": "dependable"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-008",
+    "subject": "Verbal Reasoning",
+    "prompt": "The corrupt policeman was discharged form service due to his ignominious act of accepting bribes.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "honorable"
+      },
+      {
+        "id": "B",
+        "text": "disrespectable"
+      },
+      {
+        "id": "C",
+        "text": "unwanted"
+      },
+      {
+        "id": "D",
+        "text": "remarkable"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-009",
+    "subject": "Verbal Reasoning",
+    "prompt": "The impudent child was scolded for answering back to older people.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "respectful"
+      },
+      {
+        "id": "B",
+        "text": "honorable"
+      },
+      {
+        "id": "C",
+        "text": "clever"
+      },
+      {
+        "id": "D",
+        "text": "rude"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-010",
+    "subject": "Verbal Reasoning",
+    "prompt": "Spores are infinitesimal reproductive units of fungi and lower plants.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "invisible"
+      },
+      {
+        "id": "B",
+        "text": "interesting"
+      },
+      {
+        "id": "C",
+        "text": "microscopic"
+      },
+      {
+        "id": "D",
+        "text": "large"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-011",
+    "subject": "Verbal Reasoning",
+    "prompt": "Never trust an insidious person because you’ll never know what goes in his mind.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "honest"
+      },
+      {
+        "id": "B",
+        "text": "treacherous"
+      },
+      {
+        "id": "C",
+        "text": "loyal"
+      },
+      {
+        "id": "D",
+        "text": "trustworthy"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-012",
+    "subject": "Verbal Reasoning",
+    "prompt": "Jessa is an irascible girl who frequently has tantrums.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "impatient"
+      },
+      {
+        "id": "B",
+        "text": "cheerful"
+      },
+      {
+        "id": "C",
+        "text": "hot-tempered"
+      },
+      {
+        "id": "D",
+        "text": "jolly"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-013",
+    "subject": "Verbal Reasoning",
+    "prompt": "Surgeons should be meticulous especially when performing operations.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "careful"
+      },
+      {
+        "id": "B",
+        "text": "careless"
+      },
+      {
+        "id": "C",
+        "text": "strict"
+      },
+      {
+        "id": "D",
+        "text": "lenient"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-014",
+    "subject": "Verbal Reasoning",
+    "prompt": "Christ teaches us to be concerned about putting up riches in heaven and not to be obsessed with mundane things.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "temporary"
+      },
+      {
+        "id": "B",
+        "text": "worldly"
+      },
+      {
+        "id": "C",
+        "text": "insignificant"
+      },
+      {
+        "id": "D",
+        "text": "important"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-015",
+    "subject": "Verbal Reasoning",
+    "prompt": "Rochelle has difficulty seeing things from afar because she is myophic.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "cross-eyed"
+      },
+      {
+        "id": "B",
+        "text": "eagle-yed"
+      },
+      {
+        "id": "C",
+        "text": "farsighted"
+      },
+      {
+        "id": "D",
+        "text": "nearsighted"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-016",
+    "subject": "Verbal Reasoning",
+    "prompt": "Regina, being a chilld of three, is oblivious to the world around her.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "careful"
+      },
+      {
+        "id": "B",
+        "text": "carefree"
+      },
+      {
+        "id": "C",
+        "text": "aware"
+      },
+      {
+        "id": "D",
+        "text": "unmindful"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-017",
+    "subject": "Verbal Reasoning",
+    "prompt": "Man can never be omniscient like God.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "all-knowing"
+      },
+      {
+        "id": "B",
+        "text": "logical"
+      },
+      {
+        "id": "C",
+        "text": "immortal"
+      },
+      {
+        "id": "D",
+        "text": "miraculous"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-018",
+    "subject": "Verbal Reasoning",
+    "prompt": "The piquant mouse was able to find its way out of the maze in a short while.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "dumb"
+      },
+      {
+        "id": "B",
+        "text": "clever"
+      },
+      {
+        "id": "C",
+        "text": "small"
+      },
+      {
+        "id": "D",
+        "text": "unusual"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-019",
+    "subject": "Verbal Reasoning",
+    "prompt": "It is now plausible to say that someday, interplanetary travel will no longer be impossible.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "reasonable"
+      },
+      {
+        "id": "B",
+        "text": "unusual"
+      },
+      {
+        "id": "C",
+        "text": "illogical"
+      },
+      {
+        "id": "D",
+        "text": "extraordinary"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-020",
+    "subject": "Verbal Reasoning",
+    "prompt": "A prudent person is not easily deceived.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "loyal"
+      },
+      {
+        "id": "B",
+        "text": "careless"
+      },
+      {
+        "id": "C",
+        "text": "wise"
+      },
+      {
+        "id": "D",
+        "text": "foolish"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-021",
+    "subject": "Verbal Reasoning",
+    "prompt": "“Spare the rod and spoil the child” is a common aphorism.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "slogan"
+      },
+      {
+        "id": "B",
+        "text": "battle cry"
+      },
+      {
+        "id": "C",
+        "text": "proverb"
+      },
+      {
+        "id": "D",
+        "text": "motto"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-022",
+    "subject": "Verbal Reasoning",
+    "prompt": "Charlie’s deportment is highly commendable.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "belief"
+      },
+      {
+        "id": "B",
+        "text": "behavior"
+      },
+      {
+        "id": "C",
+        "text": "intelligence"
+      },
+      {
+        "id": "D",
+        "text": "competence"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-023",
+    "subject": "Verbal Reasoning",
+    "prompt": "For enmity and hate are contrary to friendship and concord.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "agreement"
+      },
+      {
+        "id": "B",
+        "text": "mutual hatred"
+      },
+      {
+        "id": "C",
+        "text": "confusion"
+      },
+      {
+        "id": "D",
+        "text": "division"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-024",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Filipino’s fortitude is the reason why he seldom complains.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "endurance"
+      },
+      {
+        "id": "B",
+        "text": "peace-loving"
+      },
+      {
+        "id": "C",
+        "text": "discontent"
+      },
+      {
+        "id": "D",
+        "text": "satisfaction"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-025",
+    "subject": "Verbal Reasoning",
+    "prompt": "Poverty should never be viewed as an impediment towards attaining good education.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "reason"
+      },
+      {
+        "id": "B",
+        "text": "way"
+      },
+      {
+        "id": "C",
+        "text": "link"
+      },
+      {
+        "id": "D",
+        "text": "obstruction"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-026",
+    "subject": "Verbal Reasoning",
+    "prompt": "The students were upbraided for misbehaving during the assembly.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "praised"
+      },
+      {
+        "id": "B",
+        "text": "honored"
+      },
+      {
+        "id": "C",
+        "text": "scolded"
+      },
+      {
+        "id": "D",
+        "text": "stopped"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-027",
+    "subject": "Verbal Reasoning",
+    "prompt": "Urbane people are appaled by rude behavious.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "well-mannered"
+      },
+      {
+        "id": "B",
+        "text": "ill-mannered"
+      },
+      {
+        "id": "C",
+        "text": "modern"
+      },
+      {
+        "id": "D",
+        "text": "rich"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-028",
+    "subject": "Verbal Reasoning",
+    "prompt": "Clowns are never vapid but the sick usually are.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "lively and energetic"
+      },
+      {
+        "id": "B",
+        "text": "lacking spirit and liveliness"
+      },
+      {
+        "id": "C",
+        "text": "clumsy"
+      },
+      {
+        "id": "D",
+        "text": "funny"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-029",
+    "subject": "Verbal Reasoning",
+    "prompt": "The client was asked to verify the veracity of the statement of accounts issued.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "accuracy"
+      },
+      {
+        "id": "B",
+        "text": "discrepancy"
+      },
+      {
+        "id": "C",
+        "text": "redundancy"
+      },
+      {
+        "id": "D",
+        "text": "mistake"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-030",
+    "subject": "Verbal Reasoning",
+    "prompt": "Dentists believe that babies should be weaned from feeding bottles as soon as possible to prevent malformation of the infant’s erupting teeth.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "get used to"
+      },
+      {
+        "id": "B",
+        "text": "develop hatred for"
+      },
+      {
+        "id": "C",
+        "text": "free from dependence"
+      },
+      {
+        "id": "D",
+        "text": "make more dependent"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-031",
+    "subject": "Verbal Reasoning",
+    "prompt": "Some people believe that Balete Drive is haunted because a wraith of a woman’s appears there.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "shadow"
+      },
+      {
+        "id": "B",
+        "text": "statue"
+      },
+      {
+        "id": "C",
+        "text": "reflection"
+      },
+      {
+        "id": "D",
+        "text": "ghost"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-032",
+    "subject": "Verbal Reasoning",
+    "prompt": "She looks unkempt with her wavy coarse hair falling freely behind her back.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pretty"
+      },
+      {
+        "id": "B",
+        "text": "neat"
+      },
+      {
+        "id": "C",
+        "text": "prim and proper"
+      },
+      {
+        "id": "D",
+        "text": "untidy"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-033",
+    "subject": "Verbal Reasoning",
+    "prompt": "The room is topsy-turvy, as if a hurricane just passed through.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "disorderly"
+      },
+      {
+        "id": "B",
+        "text": "destroyed"
+      },
+      {
+        "id": "C",
+        "text": "orderly"
+      },
+      {
+        "id": "D",
+        "text": "clean"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-034",
+    "subject": "Verbal Reasoning",
+    "prompt": "Sherlock Holmes is a famous sleuth.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "adventurer"
+      },
+      {
+        "id": "B",
+        "text": "scientist"
+      },
+      {
+        "id": "C",
+        "text": "detective"
+      },
+      {
+        "id": "D",
+        "text": "criminal"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-035",
+    "subject": "Verbal Reasoning",
+    "prompt": "Mindy runmaged through the chest of old clothes for something usable to donate.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "searched thourgh"
+      },
+      {
+        "id": "B",
+        "text": "wandered through"
+      },
+      {
+        "id": "C",
+        "text": "passed through"
+      },
+      {
+        "id": "D",
+        "text": "scattered"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-036",
+    "subject": "Verbal Reasoning",
+    "prompt": "Only a ruffian could do such a heinous act of killing a helpless child.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "an insane person"
+      },
+      {
+        "id": "B",
+        "text": "a brutal person"
+      },
+      {
+        "id": "C",
+        "text": "a lovable person"
+      },
+      {
+        "id": "D",
+        "text": "a confused person"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-037",
+    "subject": "Verbal Reasoning",
+    "prompt": "To augment the policemen’s incom, the government allowed them to take part- time jobs.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "increase"
+      },
+      {
+        "id": "B",
+        "text": "contribute"
+      },
+      {
+        "id": "C",
+        "text": "limit"
+      },
+      {
+        "id": "D",
+        "text": "remove"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-038",
+    "subject": "Verbal Reasoning",
+    "prompt": "A person’s reputation is very important so be very careful not to calumniate anybody.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "embarass"
+      },
+      {
+        "id": "B",
+        "text": "abuse"
+      },
+      {
+        "id": "C",
+        "text": "tease"
+      },
+      {
+        "id": "D",
+        "text": "slander"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-039",
+    "subject": "Verbal Reasoning",
+    "prompt": "The footprints were effaced when the floor was mopped.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "printed"
+      },
+      {
+        "id": "B",
+        "text": "erased"
+      },
+      {
+        "id": "C",
+        "text": "deformed"
+      },
+      {
+        "id": "D",
+        "text": "developed"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-040",
+    "subject": "Verbal Reasoning",
+    "prompt": "The plane overshot the runway and landed on a ditch.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "passed through"
+      },
+      {
+        "id": "B",
+        "text": "passed by"
+      },
+      {
+        "id": "C",
+        "text": "went beyond"
+      },
+      {
+        "id": "D",
+        "text": "did not reach Directions: Choose the correct answer that corresponds to the word opposite in meaning to the bold and italicized word or phrase in the sentence."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-041",
+    "subject": "Verbal Reasoning",
+    "prompt": "Hanna accompanied her sister to the drugstore.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "followed"
+      },
+      {
+        "id": "B",
+        "text": "let go on one’s own"
+      },
+      {
+        "id": "C",
+        "text": "left behind"
+      },
+      {
+        "id": "D",
+        "text": "stopped"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-042",
+    "subject": "Verbal Reasoning",
+    "prompt": "Beside the boulevard are gigantic buildings.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "alley"
+      },
+      {
+        "id": "B",
+        "text": "street"
+      },
+      {
+        "id": "C",
+        "text": "avenue"
+      },
+      {
+        "id": "D",
+        "text": "road"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-043",
+    "subject": "Verbal Reasoning",
+    "prompt": "He often got into trouble because he was brusque.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "blunt"
+      },
+      {
+        "id": "B",
+        "text": "rude"
+      },
+      {
+        "id": "C",
+        "text": "refined"
+      },
+      {
+        "id": "D",
+        "text": "curt"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-044",
+    "subject": "Verbal Reasoning",
+    "prompt": "The reporter’s candid remarks caught the mayoralty candidate off-guard.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "secret"
+      },
+      {
+        "id": "B",
+        "text": "frank"
+      },
+      {
+        "id": "C",
+        "text": "well-thought"
+      },
+      {
+        "id": "D",
+        "text": "reserved"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-045",
+    "subject": "Verbal Reasoning",
+    "prompt": "The mean boys derided the sickly boy.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "made fun of"
+      },
+      {
+        "id": "B",
+        "text": "ridiculed"
+      },
+      {
+        "id": "C",
+        "text": "praised"
+      },
+      {
+        "id": "D",
+        "text": "abandoned"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-046",
+    "subject": "Verbal Reasoning",
+    "prompt": "Charm was ecstatic when she won first prize in the short story writing contest.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "melancholic"
+      },
+      {
+        "id": "B",
+        "text": "overjoyed"
+      },
+      {
+        "id": "C",
+        "text": "worried"
+      },
+      {
+        "id": "D",
+        "text": "energetic"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-047",
+    "subject": "Verbal Reasoning",
+    "prompt": "Migraine headaches are excruciating.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "extremely painful"
+      },
+      {
+        "id": "B",
+        "text": "mild pain"
+      },
+      {
+        "id": "C",
+        "text": "painless"
+      },
+      {
+        "id": "D",
+        "text": "healing"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-048",
+    "subject": "Verbal Reasoning",
+    "prompt": "The quiz proved to be facile so the students got high scores.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "difficult"
+      },
+      {
+        "id": "B",
+        "text": "easy"
+      },
+      {
+        "id": "C",
+        "text": "average"
+      },
+      {
+        "id": "D",
+        "text": "answerable"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-049",
+    "subject": "Verbal Reasoning",
+    "prompt": "The garrulous girls were distanced from each other.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mute"
+      },
+      {
+        "id": "B",
+        "text": "talkative"
+      },
+      {
+        "id": "C",
+        "text": "behaved"
+      },
+      {
+        "id": "D",
+        "text": "quiet"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-050",
+    "subject": "Verbal Reasoning",
+    "prompt": "The heathens used to practice cannibalism.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "uncivilized people"
+      },
+      {
+        "id": "B",
+        "text": "barbaric people"
+      },
+      {
+        "id": "C",
+        "text": "old people"
+      },
+      {
+        "id": "D",
+        "text": "cultured people"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-051",
+    "subject": "Verbal Reasoning",
+    "prompt": "Keep on believing that physical disability is not a hindrance to success.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "block"
+      },
+      {
+        "id": "B",
+        "text": "stepping stone"
+      },
+      {
+        "id": "C",
+        "text": "opportunity"
+      },
+      {
+        "id": "D",
+        "text": "difficulty"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-052",
+    "subject": "Verbal Reasoning",
+    "prompt": "Never operate a machine once you are inebriated.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "sober"
+      },
+      {
+        "id": "B",
+        "text": "drunk"
+      },
+      {
+        "id": "C",
+        "text": "sleepy"
+      },
+      {
+        "id": "D",
+        "text": "active"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-053",
+    "subject": "Verbal Reasoning",
+    "prompt": "The people inveighed against the sharp increase in oil prices.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "admitted"
+      },
+      {
+        "id": "B",
+        "text": "amended"
+      },
+      {
+        "id": "C",
+        "text": "accepted"
+      },
+      {
+        "id": "D",
+        "text": "deliberated"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-054",
+    "subject": "Verbal Reasoning",
+    "prompt": "Some people believe that breaking a mirror is a jinx.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "bad luck"
+      },
+      {
+        "id": "B",
+        "text": "evil"
+      },
+      {
+        "id": "C",
+        "text": "expensive"
+      },
+      {
+        "id": "D",
+        "text": "good luck"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-055",
+    "subject": "Verbal Reasoning",
+    "prompt": "The players were confused when the kibitzers suddenly butted-in during the team’s huddle.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "advisers"
+      },
+      {
+        "id": "B",
+        "text": "spectators"
+      },
+      {
+        "id": "C",
+        "text": "onlookers"
+      },
+      {
+        "id": "D",
+        "text": "crowd"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-056",
+    "subject": "Verbal Reasoning",
+    "prompt": "The lanky lad stood out among the average-sized students.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "fierce-looking"
+      },
+      {
+        "id": "B",
+        "text": "gigantic"
+      },
+      {
+        "id": "C",
+        "text": "short and stout"
+      },
+      {
+        "id": "D",
+        "text": "tall and thin"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-057",
+    "subject": "Verbal Reasoning",
+    "prompt": "The sickly dog was given a lethal dose of morphine tablets.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "fatal"
+      },
+      {
+        "id": "B",
+        "text": "safe"
+      },
+      {
+        "id": "C",
+        "text": "deadly"
+      },
+      {
+        "id": "D",
+        "text": "nasty"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-058",
+    "subject": "Verbal Reasoning",
+    "prompt": "Heinous criminals are truly loathsome.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "repugnant"
+      },
+      {
+        "id": "B",
+        "text": "foul"
+      },
+      {
+        "id": "C",
+        "text": "adorable"
+      },
+      {
+        "id": "D",
+        "text": "nasty"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-059",
+    "subject": "Verbal Reasoning",
+    "prompt": "We listened attentively to the mellifluous sound produced by the Philippine Philharmonic Orchestra.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "harsh"
+      },
+      {
+        "id": "B",
+        "text": "resonant"
+      },
+      {
+        "id": "C",
+        "text": "melodious"
+      },
+      {
+        "id": "D",
+        "text": "mellow"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-060",
+    "subject": "Verbal Reasoning",
+    "prompt": "The free medical and dental checkup conducted by the AFP Group is just a proof of their munificence.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "commitment"
+      },
+      {
+        "id": "B",
+        "text": "generosity"
+      },
+      {
+        "id": "C",
+        "text": "extravagance"
+      },
+      {
+        "id": "D",
+        "text": "stingingness"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-061",
+    "subject": "Verbal Reasoning",
+    "prompt": "Justice calls for penalizing nefarious acts.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "honorable"
+      },
+      {
+        "id": "B",
+        "text": "detestable"
+      },
+      {
+        "id": "C",
+        "text": "infamous"
+      },
+      {
+        "id": "D",
+        "text": "vile"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-062",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Avanti Reviewer Books are noteworthy materials.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "remarkable"
+      },
+      {
+        "id": "B",
+        "text": "substantial"
+      },
+      {
+        "id": "C",
+        "text": "trivial"
+      },
+      {
+        "id": "D",
+        "text": "significant"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-063",
+    "subject": "Verbal Reasoning",
+    "prompt": "You will never get sufficient nourishment if you are obdurate in refusing to eat vegetables.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "stubborn"
+      },
+      {
+        "id": "B",
+        "text": "snoopy"
+      },
+      {
+        "id": "C",
+        "text": "nosey"
+      },
+      {
+        "id": "D",
+        "text": "interfering"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-064",
+    "subject": "Verbal Reasoning",
+    "prompt": "Don’t be so obtrusive but instead, mind your own business.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "reserved"
+      },
+      {
+        "id": "B",
+        "text": "snoopy"
+      },
+      {
+        "id": "C",
+        "text": "nosey"
+      },
+      {
+        "id": "D",
+        "text": "interfering"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-065",
+    "subject": "Verbal Reasoning",
+    "prompt": "I admire people who are modest despite their opulence.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "great wealth"
+      },
+      {
+        "id": "B",
+        "text": "poverty"
+      },
+      {
+        "id": "C",
+        "text": "affluence"
+      },
+      {
+        "id": "D",
+        "text": "lavishness"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-066",
+    "subject": "Verbal Reasoning",
+    "prompt": "Do you always try to be a paragon of virtue1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "model"
+      },
+      {
+        "id": "B",
+        "text": "example"
+      },
+      {
+        "id": "C",
+        "text": "yardstick"
+      },
+      {
+        "id": "D",
+        "text": "anomaly"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-067",
+    "subject": "Verbal Reasoning",
+    "prompt": "Tragic stories had so much pathos that it left me feeling down.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "anguish"
+      },
+      {
+        "id": "B",
+        "text": "woe"
+      },
+      {
+        "id": "C",
+        "text": "intrigue"
+      },
+      {
+        "id": "D",
+        "text": "humor"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-068",
+    "subject": "Verbal Reasoning",
+    "prompt": "Myrna is such a precocious girl who can already read at age three.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "slow learner"
+      },
+      {
+        "id": "B",
+        "text": "bright"
+      },
+      {
+        "id": "C",
+        "text": "inquisitive"
+      },
+      {
+        "id": "D",
+        "text": "advanced"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-069",
+    "subject": "Verbal Reasoning",
+    "prompt": "She had the quixotic idea that she was a reincarnation of British princess.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "wuild"
+      },
+      {
+        "id": "B",
+        "text": "fantastic"
+      },
+      {
+        "id": "C",
+        "text": "realistic"
+      },
+      {
+        "id": "D",
+        "text": "dreamy"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-070",
+    "subject": "Verbal Reasoning",
+    "prompt": "The ramshackle building collapsed easily.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "new"
+      },
+      {
+        "id": "B",
+        "text": "old"
+      },
+      {
+        "id": "C",
+        "text": "outdated"
+      },
+      {
+        "id": "D",
+        "text": "shabby"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-071",
+    "subject": "Verbal Reasoning",
+    "prompt": "An A-rating represents the ultimate honor a film will ever have.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "greatest"
+      },
+      {
+        "id": "B",
+        "text": "pinnacle"
+      },
+      {
+        "id": "C",
+        "text": "least"
+      },
+      {
+        "id": "D",
+        "text": "supreme"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-072",
+    "subject": "Verbal Reasoning",
+    "prompt": "Juan Luna’s painting abilities are uncanny.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "remarkable"
+      },
+      {
+        "id": "B",
+        "text": "ordinary"
+      },
+      {
+        "id": "C",
+        "text": "astonishing"
+      },
+      {
+        "id": "D",
+        "text": "unbelievable"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-073",
+    "subject": "Verbal Reasoning",
+    "prompt": "Lea Salonga’s performance was utterly delightful.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "somewhat"
+      },
+      {
+        "id": "B",
+        "text": "entirely"
+      },
+      {
+        "id": "C",
+        "text": "thoroughly"
+      },
+      {
+        "id": "D",
+        "text": "absolutely"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-074",
+    "subject": "Verbal Reasoning",
+    "prompt": "The stong current of the floodwaters caused the wooden bridge to vacillate.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "collapse"
+      },
+      {
+        "id": "B",
+        "text": "sway"
+      },
+      {
+        "id": "C",
+        "text": "vibrate"
+      },
+      {
+        "id": "D",
+        "text": "be firm"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-075",
+    "subject": "Verbal Reasoning",
+    "prompt": "The vindictive politician spreaed rumors about his opponent.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "revengeful"
+      },
+      {
+        "id": "B",
+        "text": "forgiving"
+      },
+      {
+        "id": "C",
+        "text": "spiteful"
+      },
+      {
+        "id": "D",
+        "text": "malicious"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-076",
+    "subject": "Verbal Reasoning",
+    "prompt": "If words were swords, then her vitriolic remarks could really kill.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "scathing"
+      },
+      {
+        "id": "B",
+        "text": "sarcastic"
+      },
+      {
+        "id": "C",
+        "text": "satirical"
+      },
+      {
+        "id": "D",
+        "text": "kind"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-077",
+    "subject": "Verbal Reasoning",
+    "prompt": "Many students vouch for the effectiveness of the Avanti Review classes.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "guarantee"
+      },
+      {
+        "id": "B",
+        "text": "endorse"
+      },
+      {
+        "id": "C",
+        "text": "affirm"
+      },
+      {
+        "id": "D",
+        "text": "refute"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-078",
+    "subject": "Verbal Reasoning",
+    "prompt": "That yonder youth is more studious than the nearer one.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "lonesome"
+      },
+      {
+        "id": "B",
+        "text": "farther"
+      },
+      {
+        "id": "C",
+        "text": "closer"
+      },
+      {
+        "id": "D",
+        "text": "thither"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-079",
+    "subject": "Verbal Reasoning",
+    "prompt": "Avanti Tutors are all zealous tutors who nourish eager minds.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "vigorous"
+      },
+      {
+        "id": "B",
+        "text": "earnest"
+      },
+      {
+        "id": "C",
+        "text": "indifferent"
+      },
+      {
+        "id": "D",
+        "text": "enthusiastic"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-080",
+    "subject": "Verbal Reasoning",
+    "prompt": "Don’t let trivial things upset you.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "important"
+      },
+      {
+        "id": "B",
+        "text": "trifling"
+      },
+      {
+        "id": "C",
+        "text": "ordinary"
+      },
+      {
+        "id": "D",
+        "text": "inconsequential Directions: Choose the word that corresponds to the word that correctly completes each analogy."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-081",
+    "subject": "Verbal Reasoning",
+    "prompt": "Moby Dick: Herman Melville || The Old Man and the Sea: ________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Charles Dickens"
+      },
+      {
+        "id": "B",
+        "text": "Ernest Hemingway"
+      },
+      {
+        "id": "C",
+        "text": "Charles Perrault"
+      },
+      {
+        "id": "D",
+        "text": "Robert Frost"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-082",
+    "subject": "Verbal Reasoning",
+    "prompt": "Confucius: China || Mahatma Gandhi: ________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "India"
+      },
+      {
+        "id": "B",
+        "text": "Japan"
+      },
+      {
+        "id": "C",
+        "text": "Africa"
+      },
+      {
+        "id": "D",
+        "text": "Philippines"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-083",
+    "subject": "Verbal Reasoning",
+    "prompt": "BIR: Taxes || DPWH: ____________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Public Roads"
+      },
+      {
+        "id": "B",
+        "text": "Houses"
+      },
+      {
+        "id": "C",
+        "text": "Traffic"
+      },
+      {
+        "id": "D",
+        "text": "Churches"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-084",
+    "subject": "Verbal Reasoning",
+    "prompt": "Barangay: Captain || Provincial Government: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Congressmen"
+      },
+      {
+        "id": "B",
+        "text": "Mayor"
+      },
+      {
+        "id": "C",
+        "text": "Senator"
+      },
+      {
+        "id": "D",
+        "text": "Governor"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-085",
+    "subject": "Verbal Reasoning",
+    "prompt": "USA: Washington D.C. || Philippines: ________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Prime Minister"
+      },
+      {
+        "id": "B",
+        "text": "King"
+      },
+      {
+        "id": "C",
+        "text": "Manila"
+      },
+      {
+        "id": "D",
+        "text": "Cebu"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-086",
+    "subject": "Verbal Reasoning",
+    "prompt": "Presidential: President || Parliamentary: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Prime Minister"
+      },
+      {
+        "id": "B",
+        "text": "King"
+      },
+      {
+        "id": "C",
+        "text": "House Speaker"
+      },
+      {
+        "id": "D",
+        "text": "Cardinal"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-087",
+    "subject": "Verbal Reasoning",
+    "prompt": "Tagbanua: Palawan || Kankanaey: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ilocos"
+      },
+      {
+        "id": "B",
+        "text": "Cavite"
+      },
+      {
+        "id": "C",
+        "text": "Benguet"
+      },
+      {
+        "id": "D",
+        "text": "Cebu"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-088",
+    "subject": "Verbal Reasoning",
+    "prompt": "Pyramid: Egypt || Taj Mahal: _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "China"
+      },
+      {
+        "id": "B",
+        "text": "Japan"
+      },
+      {
+        "id": "C",
+        "text": "India"
+      },
+      {
+        "id": "D",
+        "text": "Malaysia"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-089",
+    "subject": "Verbal Reasoning",
+    "prompt": "Tigris-Euphrates: Mesopotamia || Nile River: _______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Egypt"
+      },
+      {
+        "id": "B",
+        "text": "Greece"
+      },
+      {
+        "id": "C",
+        "text": "Italy"
+      },
+      {
+        "id": "D",
+        "text": "Spain"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-090",
+    "subject": "Verbal Reasoning",
+    "prompt": "Mahabharata: India || Gilgamesh: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Assyria"
+      },
+      {
+        "id": "B",
+        "text": "Sumer"
+      },
+      {
+        "id": "C",
+        "text": "Chaldea"
+      },
+      {
+        "id": "D",
+        "text": "Babylon"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-091",
+    "subject": "Verbal Reasoning",
+    "prompt": "Italy: Latin || Greece: _______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Grecian"
+      },
+      {
+        "id": "B",
+        "text": "French"
+      },
+      {
+        "id": "C",
+        "text": "Greek"
+      },
+      {
+        "id": "D",
+        "text": "Greece"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-092",
+    "subject": "Verbal Reasoning",
+    "prompt": "Sistine Madonna: Raphael || Last Supper: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "B",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "C",
+        "text": "Rembrandt"
+      },
+      {
+        "id": "D",
+        "text": "Van Gogh"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-093",
+    "subject": "Verbal Reasoning",
+    "prompt": "Stalagmite: Floor || Stalactite: ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Wall"
+      },
+      {
+        "id": "B",
+        "text": "Ceiling"
+      },
+      {
+        "id": "C",
+        "text": "Mouth"
+      },
+      {
+        "id": "D",
+        "text": "Window"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-094",
+    "subject": "Verbal Reasoning",
+    "prompt": "Catholic: Priest || Moslem: ________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Rajah"
+      },
+      {
+        "id": "B",
+        "text": "Hajji"
+      },
+      {
+        "id": "C",
+        "text": "Koran"
+      },
+      {
+        "id": "D",
+        "text": "Imam"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-095",
+    "subject": "Verbal Reasoning",
+    "prompt": "Giovanni Boccaccio: Decameron || Niccolo Machiavellli: ______________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The Little Prince"
+      },
+      {
+        "id": "B",
+        "text": "Utopia"
+      },
+      {
+        "id": "C",
+        "text": "The Prince"
+      },
+      {
+        "id": "D",
+        "text": "Wealth of Nations"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-096",
+    "subject": "Verbal Reasoning",
+    "prompt": "Samuel Morse: Telegraph || Alexander Graham Bell: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "telescope"
+      },
+      {
+        "id": "B",
+        "text": "telephone"
+      },
+      {
+        "id": "C",
+        "text": "teleportation"
+      },
+      {
+        "id": "D",
+        "text": "door bell"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-097",
+    "subject": "Verbal Reasoning",
+    "prompt": "Parachute: Andre Jacques Garnerin || Television: ___________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "John Logie Baird"
+      },
+      {
+        "id": "B",
+        "text": "William Sony"
+      },
+      {
+        "id": "C",
+        "text": "John Vincent Crowe"
+      },
+      {
+        "id": "D",
+        "text": "Howard Aiken"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-098",
+    "subject": "Verbal Reasoning",
+    "prompt": "Earth is the center: Ptolemy || Sun is the center: ___________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Albert Einstein"
+      },
+      {
+        "id": "B",
+        "text": "Aristotle"
+      },
+      {
+        "id": "C",
+        "text": "Galileo"
+      },
+      {
+        "id": "D",
+        "text": "Copernicus"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-099",
+    "subject": "Verbal Reasoning",
+    "prompt": "Pythagorean Theorem: Pythagoras || Cubic Equation: _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Alfred Noble"
+      },
+      {
+        "id": "B",
+        "text": "Isaac Newton"
+      },
+      {
+        "id": "C",
+        "text": "Tartaglia"
+      },
+      {
+        "id": "D",
+        "text": "Rene Descartes"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-100",
+    "subject": "Verbal Reasoning",
+    "prompt": "Henry Cavendish: Hydrogen || Henry Priestly: ___________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "carbonic acid"
+      },
+      {
+        "id": "B",
+        "text": "oxygen"
+      },
+      {
+        "id": "C",
+        "text": "radium"
+      },
+      {
+        "id": "D",
+        "text": "potassium"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-101",
+    "subject": "Verbal Reasoning",
+    "prompt": "Allied Powers: Russia || Central Powers: _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "France"
+      },
+      {
+        "id": "B",
+        "text": "Britain"
+      },
+      {
+        "id": "C",
+        "text": "Italy"
+      },
+      {
+        "id": "D",
+        "text": "Austria"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-102",
+    "subject": "Verbal Reasoning",
+    "prompt": "Entourage: Attendants || Cortege: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Procession for a Saint"
+      },
+      {
+        "id": "B",
+        "text": "Procession in court"
+      },
+      {
+        "id": "C",
+        "text": "Funeral Procession"
+      },
+      {
+        "id": "D",
+        "text": "Floral Procession"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-103",
+    "subject": "Verbal Reasoning",
+    "prompt": "Islet: Small Island || Rivulet: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Small River"
+      },
+      {
+        "id": "B",
+        "text": "Small Land"
+      },
+      {
+        "id": "C",
+        "text": "Small Review"
+      },
+      {
+        "id": "D",
+        "text": "Small Rebel"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-104",
+    "subject": "Verbal Reasoning",
+    "prompt": "Conspicuous: Obvious || Hideous: _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hidden"
+      },
+      {
+        "id": "B",
+        "text": "ugly"
+      },
+      {
+        "id": "C",
+        "text": "expert in hiding"
+      },
+      {
+        "id": "D",
+        "text": "very bad"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-105",
+    "subject": "Verbal Reasoning",
+    "prompt": "nose: nasal || abdomen: ___________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "abnormal"
+      },
+      {
+        "id": "B",
+        "text": "abdominal"
+      },
+      {
+        "id": "C",
+        "text": "abominate"
+      },
+      {
+        "id": "D",
+        "text": "adenoma"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-106",
+    "subject": "Verbal Reasoning",
+    "prompt": "agnostic: doubts God’s existence || atheist: ___________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "denies God’s existence"
+      },
+      {
+        "id": "B",
+        "text": "denies God as creator"
+      },
+      {
+        "id": "C",
+        "text": "affirms God’s existence"
+      },
+      {
+        "id": "D",
+        "text": "affirms God as creator"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-107",
+    "subject": "Verbal Reasoning",
+    "prompt": "infanticide: killing of infants || genocide: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "killing of genies"
+      },
+      {
+        "id": "B",
+        "text": "killing of geniuses"
+      },
+      {
+        "id": "C",
+        "text": "killing of a race or social group"
+      },
+      {
+        "id": "D",
+        "text": "killing of Geno"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-108",
+    "subject": "Verbal Reasoning",
+    "prompt": "latrine: toilet || lavatory: _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "basin"
+      },
+      {
+        "id": "B",
+        "text": "tub"
+      },
+      {
+        "id": "C",
+        "text": "sink"
+      },
+      {
+        "id": "D",
+        "text": "bathroom"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-109",
+    "subject": "Verbal Reasoning",
+    "prompt": "masticate: chew || eradicate: ____________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "collect"
+      },
+      {
+        "id": "B",
+        "text": "count"
+      },
+      {
+        "id": "C",
+        "text": "complete"
+      },
+      {
+        "id": "D",
+        "text": "throw"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-110",
+    "subject": "Verbal Reasoning",
+    "prompt": "sadism: delight in cruelty to others || masochism: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "delight in building houses"
+      },
+      {
+        "id": "B",
+        "text": "delight in hurting masons"
+      },
+      {
+        "id": "C",
+        "text": "delight in being abused"
+      },
+      {
+        "id": "D",
+        "text": "delight in going to Masses"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-111",
+    "subject": "Verbal Reasoning",
+    "prompt": "Mazurka: Polish || Fandango: ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Russian"
+      },
+      {
+        "id": "B",
+        "text": "Spanish"
+      },
+      {
+        "id": "C",
+        "text": "German"
+      },
+      {
+        "id": "D",
+        "text": "Polish"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-112",
+    "subject": "Verbal Reasoning",
+    "prompt": "nearsighted: myopia || farsighted: ___________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hyperopia"
+      },
+      {
+        "id": "B",
+        "text": "squint"
+      },
+      {
+        "id": "C",
+        "text": "double-vision"
+      },
+      {
+        "id": "D",
+        "text": "blink"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-113",
+    "subject": "Verbal Reasoning",
+    "prompt": "dyslexia: reading || aphasia: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "muscle coordination"
+      },
+      {
+        "id": "B",
+        "text": "speech"
+      },
+      {
+        "id": "C",
+        "text": "eye movement"
+      },
+      {
+        "id": "D",
+        "text": "memory"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-114",
+    "subject": "Verbal Reasoning",
+    "prompt": "maitre d’: head of a restaurant || busboy: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "bus conductor"
+      },
+      {
+        "id": "B",
+        "text": "bus cleaner"
+      },
+      {
+        "id": "C",
+        "text": "waiter’s help"
+      },
+      {
+        "id": "D",
+        "text": "head waiter"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-115",
+    "subject": "Verbal Reasoning",
+    "prompt": "figurine: small figure || heroine: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "small hero"
+      },
+      {
+        "id": "B",
+        "text": "female hero"
+      },
+      {
+        "id": "C",
+        "text": "small drug"
+      },
+      {
+        "id": "D",
+        "text": "female drug"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-116",
+    "subject": "Verbal Reasoning",
+    "prompt": "xerox: photocopier || Adidas",
+    "choices": [
+      {
+        "id": "A",
+        "text": "athlete’s shoes"
+      },
+      {
+        "id": "B",
+        "text": "dress shoes"
+      },
+      {
+        "id": "C",
+        "text": "formal wear"
+      },
+      {
+        "id": "D",
+        "text": "handsome"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-117",
+    "subject": "Verbal Reasoning",
+    "prompt": "Sayonara: Goodbye || Bonjour: ________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Good luck"
+      },
+      {
+        "id": "B",
+        "text": "Good day"
+      },
+      {
+        "id": "C",
+        "text": "Good night"
+      },
+      {
+        "id": "D",
+        "text": "Good evening"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-118",
+    "subject": "Verbal Reasoning",
+    "prompt": "supeerfluous: excessive || supersede: __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "watch over"
+      },
+      {
+        "id": "B",
+        "text": "full of seeds"
+      },
+      {
+        "id": "C",
+        "text": "great seed"
+      },
+      {
+        "id": "D",
+        "text": "take the place of"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-119",
+    "subject": "Verbal Reasoning",
+    "prompt": "nativity: Christmas || senakulo: _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "advent"
+      },
+      {
+        "id": "B",
+        "text": "lent"
+      },
+      {
+        "id": "C",
+        "text": "pentecost"
+      },
+      {
+        "id": "D",
+        "text": "passover"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-120",
+    "subject": "Verbal Reasoning",
+    "prompt": "theme: main idea || moral: _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "a value"
+      },
+      {
+        "id": "B",
+        "text": "a desire"
+      },
+      {
+        "id": "C",
+        "text": "a piece of advice"
+      },
+      {
+        "id": "D",
+        "text": "a standard Directions: Choose the letter that corresponds to the pair of words that is related in the same way as the given pair of words."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-121",
+    "subject": "Verbal Reasoning",
+    "prompt": "blend : mix",
+    "choices": [
+      {
+        "id": "A",
+        "text": "blare : whisper"
+      },
+      {
+        "id": "B",
+        "text": "bleach : whiten"
+      },
+      {
+        "id": "C",
+        "text": "blink : blink"
+      },
+      {
+        "id": "D",
+        "text": "bloom : flower"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-122",
+    "subject": "Verbal Reasoning",
+    "prompt": "abattoir : slaughterhouse",
+    "choices": [
+      {
+        "id": "A",
+        "text": "quay : wharf"
+      },
+      {
+        "id": "B",
+        "text": "quack : duck"
+      },
+      {
+        "id": "C",
+        "text": "snail : slow"
+      },
+      {
+        "id": "D",
+        "text": "clown : fun"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-123",
+    "subject": "Verbal Reasoning",
+    "prompt": "marriageable : nubile",
+    "choices": [
+      {
+        "id": "A",
+        "text": "single : group"
+      },
+      {
+        "id": "B",
+        "text": "music : mobile"
+      },
+      {
+        "id": "C",
+        "text": "puzzle : answer"
+      },
+      {
+        "id": "D",
+        "text": "decipherable : comprehensible"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-124",
+    "subject": "Verbal Reasoning",
+    "prompt": "numismatist : money",
+    "choices": [
+      {
+        "id": "A",
+        "text": "aesthetics : beauty"
+      },
+      {
+        "id": "B",
+        "text": "fetish : obsession"
+      },
+      {
+        "id": "C",
+        "text": "linguist : language"
+      },
+      {
+        "id": "D",
+        "text": "scientist : sense"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-125",
+    "subject": "Verbal Reasoning",
+    "prompt": "anxious : uneasy",
+    "choices": [
+      {
+        "id": "A",
+        "text": "egocentric : self-centered"
+      },
+      {
+        "id": "B",
+        "text": "wary : placid"
+      },
+      {
+        "id": "C",
+        "text": "feeble : strong"
+      },
+      {
+        "id": "D",
+        "text": "scornful : admirable"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-126",
+    "subject": "Verbal Reasoning",
+    "prompt": "goat : kid",
+    "choices": [
+      {
+        "id": "A",
+        "text": "bear : cub"
+      },
+      {
+        "id": "B",
+        "text": "chicken : hen"
+      },
+      {
+        "id": "C",
+        "text": "dog : Dalmatian"
+      },
+      {
+        "id": "D",
+        "text": "tiger : tigress"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-127",
+    "subject": "Verbal Reasoning",
+    "prompt": "key : lock",
+    "choices": [
+      {
+        "id": "A",
+        "text": "litter : trash"
+      },
+      {
+        "id": "B",
+        "text": "pestle : pound"
+      },
+      {
+        "id": "C",
+        "text": "table : desk"
+      },
+      {
+        "id": "D",
+        "text": "sword : scabbard"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-128",
+    "subject": "Verbal Reasoning",
+    "prompt": "dog : kennel",
+    "choices": [
+      {
+        "id": "A",
+        "text": "whale : pond"
+      },
+      {
+        "id": "B",
+        "text": "socks : feet"
+      },
+      {
+        "id": "C",
+        "text": "pig : sty"
+      },
+      {
+        "id": "D",
+        "text": "eagle : barn"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-129",
+    "subject": "Verbal Reasoning",
+    "prompt": "book : leaves",
+    "choices": [
+      {
+        "id": "A",
+        "text": "house : kitchen"
+      },
+      {
+        "id": "B",
+        "text": "chimney : roof"
+      },
+      {
+        "id": "C",
+        "text": "fan : electricity"
+      },
+      {
+        "id": "D",
+        "text": "chair : sitting"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-130",
+    "subject": "Verbal Reasoning",
+    "prompt": "panda : china",
+    "choices": [
+      {
+        "id": "A",
+        "text": "grizzly : Africa"
+      },
+      {
+        "id": "B",
+        "text": "polar bear : America"
+      },
+      {
+        "id": "C",
+        "text": "Pooh : Disneyland"
+      },
+      {
+        "id": "D",
+        "text": "koala : Australia"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-131",
+    "subject": "Verbal Reasoning",
+    "prompt": "jubilant : morose",
+    "choices": [
+      {
+        "id": "A",
+        "text": "humble : modest"
+      },
+      {
+        "id": "B",
+        "text": "joyous : happy"
+      },
+      {
+        "id": "C",
+        "text": "simple : lavish"
+      },
+      {
+        "id": "D",
+        "text": "pompous : pretentious"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-132",
+    "subject": "Verbal Reasoning",
+    "prompt": "tiny : microscopic",
+    "choices": [
+      {
+        "id": "A",
+        "text": "uproar : laughter"
+      },
+      {
+        "id": "B",
+        "text": "large : mammoth"
+      },
+      {
+        "id": "C",
+        "text": "argument : meeting"
+      },
+      {
+        "id": "D",
+        "text": "storm : weather"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-133",
+    "subject": "Verbal Reasoning",
+    "prompt": "to smile : to guffaw",
+    "choices": [
+      {
+        "id": "A",
+        "text": "to walk : to stroll"
+      },
+      {
+        "id": "B",
+        "text": "to frown : to weep"
+      },
+      {
+        "id": "C",
+        "text": "to munch : to eat"
+      },
+      {
+        "id": "D",
+        "text": "to lift : to carry"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-134",
+    "subject": "Verbal Reasoning",
+    "prompt": "hand : arm",
+    "choices": [
+      {
+        "id": "A",
+        "text": "foot : leg"
+      },
+      {
+        "id": "B",
+        "text": "hips : sway"
+      },
+      {
+        "id": "C",
+        "text": "waist : belt"
+      },
+      {
+        "id": "D",
+        "text": "shoulder : neck"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-135",
+    "subject": "Verbal Reasoning",
+    "prompt": "pre : post",
+    "choices": [
+      {
+        "id": "A",
+        "text": "anti : pro"
+      },
+      {
+        "id": "B",
+        "text": "semi : equi"
+      },
+      {
+        "id": "C",
+        "text": "able : can"
+      },
+      {
+        "id": "D",
+        "text": "demi : half"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-136",
+    "subject": "Verbal Reasoning",
+    "prompt": "auditorium : audience",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hall : pictures"
+      },
+      {
+        "id": "B",
+        "text": "movie house : cinema"
+      },
+      {
+        "id": "C",
+        "text": "coliseum : spectators"
+      },
+      {
+        "id": "D",
+        "text": "commuters : transportation"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-137",
+    "subject": "Verbal Reasoning",
+    "prompt": "Edgar Allan Poe : Annabel Lee",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Robert Frost : Medea"
+      },
+      {
+        "id": "B",
+        "text": "Pygmalion : Galatea"
+      },
+      {
+        "id": "C",
+        "text": "Chaucer : Antigone"
+      },
+      {
+        "id": "D",
+        "text": "Shakespeare : Romeo and Juliet"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-138",
+    "subject": "Verbal Reasoning",
+    "prompt": "advise : counsel",
+    "choices": [
+      {
+        "id": "A",
+        "text": "lead : direct"
+      },
+      {
+        "id": "B",
+        "text": "loss : lost"
+      },
+      {
+        "id": "C",
+        "text": "peace : piece"
+      },
+      {
+        "id": "D",
+        "text": "want : quality"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-139",
+    "subject": "Verbal Reasoning",
+    "prompt": "perspire : sweat",
+    "choices": [
+      {
+        "id": "A",
+        "text": "clouds : rain"
+      },
+      {
+        "id": "B",
+        "text": "cry : tears"
+      },
+      {
+        "id": "C",
+        "text": "fan : wind"
+      },
+      {
+        "id": "D",
+        "text": "sad : lonely"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-140",
+    "subject": "Verbal Reasoning",
+    "prompt": "extricate : set free",
+    "choices": [
+      {
+        "id": "A",
+        "text": "journey : far"
+      },
+      {
+        "id": "B",
+        "text": "liquidate : liquefy"
+      },
+      {
+        "id": "C",
+        "text": "implicate : involve"
+      },
+      {
+        "id": "D",
+        "text": "migrate : stay"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-141",
+    "subject": "Verbal Reasoning",
+    "prompt": "maggot : fly",
+    "choices": [
+      {
+        "id": "A",
+        "text": "caterpilla : leaves"
+      },
+      {
+        "id": "B",
+        "text": "bees : wasp"
+      },
+      {
+        "id": "C",
+        "text": "butterfly : moth"
+      },
+      {
+        "id": "D",
+        "text": "tadpole : frog"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-142",
+    "subject": "Verbal Reasoning",
+    "prompt": "he : him",
+    "choices": [
+      {
+        "id": "A",
+        "text": "me : I"
+      },
+      {
+        "id": "B",
+        "text": "they : them"
+      },
+      {
+        "id": "C",
+        "text": "you : yours"
+      },
+      {
+        "id": "D",
+        "text": "her : she"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-143",
+    "subject": "Verbal Reasoning",
+    "prompt": "lie : to recline",
+    "choices": [
+      {
+        "id": "A",
+        "text": "lay : put down"
+      },
+      {
+        "id": "B",
+        "text": "macabre : beauty"
+      },
+      {
+        "id": "C",
+        "text": "nab : release"
+      },
+      {
+        "id": "D",
+        "text": "quench : to thirst"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-144",
+    "subject": "Verbal Reasoning",
+    "prompt": "igloo : Eskimo",
+    "choices": [
+      {
+        "id": "A",
+        "text": "cavemen : cave"
+      },
+      {
+        "id": "B",
+        "text": "palace : kings"
+      },
+      {
+        "id": "C",
+        "text": "destitute : shanty"
+      },
+      {
+        "id": "D",
+        "text": "bees : beehive"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-145",
+    "subject": "Verbal Reasoning",
+    "prompt": "dictionary : word meanings:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "alamanac : synonyms"
+      },
+      {
+        "id": "B",
+        "text": "encyclopedia : word origin"
+      },
+      {
+        "id": "C",
+        "text": "atlas : maps"
+      },
+      {
+        "id": "D",
+        "text": "thesaurus : dinosaurs"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-146",
+    "subject": "Verbal Reasoning",
+    "prompt": "extemporaneous : rehearsed",
+    "choices": [
+      {
+        "id": "A",
+        "text": "live : taped"
+      },
+      {
+        "id": "B",
+        "text": "momentous : important"
+      },
+      {
+        "id": "C",
+        "text": "nefarious : wicked"
+      },
+      {
+        "id": "D",
+        "text": "salubrious : healthful"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-147",
+    "subject": "Verbal Reasoning",
+    "prompt": "tavern : bar",
+    "choices": [
+      {
+        "id": "A",
+        "text": "inn : hotel"
+      },
+      {
+        "id": "B",
+        "text": "apartment : loft"
+      },
+      {
+        "id": "C",
+        "text": "condominium : office"
+      },
+      {
+        "id": "D",
+        "text": "attic : chimney"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-148",
+    "subject": "Verbal Reasoning",
+    "prompt": "duchess : duke",
+    "choices": [
+      {
+        "id": "A",
+        "text": "count : countess"
+      },
+      {
+        "id": "B",
+        "text": "ewe : ram"
+      },
+      {
+        "id": "C",
+        "text": "gentleman : lady"
+      },
+      {
+        "id": "D",
+        "text": "wizard : witch"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-149",
+    "subject": "Verbal Reasoning",
+    "prompt": "dwindle : decrease",
+    "choices": [
+      {
+        "id": "A",
+        "text": "defer : act promptly"
+      },
+      {
+        "id": "B",
+        "text": "deny : grant"
+      },
+      {
+        "id": "C",
+        "text": "forge : stop"
+      },
+      {
+        "id": "D",
+        "text": "multiply : increase"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-150",
+    "subject": "Verbal Reasoning",
+    "prompt": "prowess : cowardice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "adept : skilled"
+      },
+      {
+        "id": "B",
+        "text": "adroit : uncoordinated"
+      },
+      {
+        "id": "C",
+        "text": "garrulous : talkative"
+      },
+      {
+        "id": "D",
+        "text": "hubris : pride"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-151",
+    "subject": "Verbal Reasoning",
+    "prompt": "charisma : charismata",
+    "choices": [
+      {
+        "id": "A",
+        "text": "deer : deers"
+      },
+      {
+        "id": "B",
+        "text": "bacterium : bacteriums"
+      },
+      {
+        "id": "C",
+        "text": "basis : bases"
+      },
+      {
+        "id": "D",
+        "text": "eight : eighty’s"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-152",
+    "subject": "Verbal Reasoning",
+    "prompt": "quintuplet : five",
+    "choices": [
+      {
+        "id": "A",
+        "text": "triplet : three"
+      },
+      {
+        "id": "B",
+        "text": "quartuplet : four"
+      },
+      {
+        "id": "C",
+        "text": "doublet : two"
+      },
+      {
+        "id": "D",
+        "text": "sexton : six"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-153",
+    "subject": "Verbal Reasoning",
+    "prompt": "attention : attn",
+    "choices": [
+      {
+        "id": "A",
+        "text": "approximate : appro"
+      },
+      {
+        "id": "B",
+        "text": "bal : balance"
+      },
+      {
+        "id": "C",
+        "text": "building : bldng"
+      },
+      {
+        "id": "D",
+        "text": "manager : mgr"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-154",
+    "subject": "Verbal Reasoning",
+    "prompt": "arachnophobia : fear of spiders",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hydrophobia : fear of wet objects"
+      },
+      {
+        "id": "B",
+        "text": "claustrophobia : fear of clauses"
+      },
+      {
+        "id": "C",
+        "text": "photophobia : fear of light"
+      },
+      {
+        "id": "D",
+        "text": "xenophobia : fear of sin"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-155",
+    "subject": "Verbal Reasoning",
+    "prompt": "unscrew : tighten",
+    "choices": [
+      {
+        "id": "A",
+        "text": "remove : restore"
+      },
+      {
+        "id": "B",
+        "text": "relinquish : give up"
+      },
+      {
+        "id": "C",
+        "text": "sensitive : make sensitive"
+      },
+      {
+        "id": "D",
+        "text": "stupefy : make insensible"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-156",
+    "subject": "Verbal Reasoning",
+    "prompt": "verbose : speechless",
+    "choices": [
+      {
+        "id": "A",
+        "text": "voracious : greedy"
+      },
+      {
+        "id": "B",
+        "text": "vicious : kind"
+      },
+      {
+        "id": "C",
+        "text": "wanton : lewd"
+      },
+      {
+        "id": "D",
+        "text": "waspish : irritable"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-157",
+    "subject": "Verbal Reasoning",
+    "prompt": "COD : cash on delivery",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DST : daylight saving time"
+      },
+      {
+        "id": "B",
+        "text": "PO : public office"
+      },
+      {
+        "id": "C",
+        "text": "NA : not appointed"
+      },
+      {
+        "id": "D",
+        "text": "RSVP : please approve"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-158",
+    "subject": "Verbal Reasoning",
+    "prompt": "adjacent : near",
+    "choices": [
+      {
+        "id": "A",
+        "text": "congruent : dissimilar"
+      },
+      {
+        "id": "B",
+        "text": "converge : separate"
+      },
+      {
+        "id": "C",
+        "text": "deliberate : intentional"
+      },
+      {
+        "id": "D",
+        "text": "delude : guide"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-159",
+    "subject": "Verbal Reasoning",
+    "prompt": "firmament : sky",
+    "choices": [
+      {
+        "id": "A",
+        "text": "clouds : air"
+      },
+      {
+        "id": "B",
+        "text": "moon : planer"
+      },
+      {
+        "id": "C",
+        "text": "star : gas"
+      },
+      {
+        "id": "D",
+        "text": "soil : groun"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-160",
+    "subject": "Verbal Reasoning",
+    "prompt": "languid : strong",
+    "choices": [
+      {
+        "id": "A",
+        "text": "feeble : active"
+      },
+      {
+        "id": "B",
+        "text": "innocuous : harmless"
+      },
+      {
+        "id": "C",
+        "text": "opportune : timely"
+      },
+      {
+        "id": "D",
+        "text": "truculent : restless Directions: Choose the word or phrases labeled a, b, c, or d which are NOT acceptable in formal written English. Choose e if there is no error."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-161",
+    "subject": "Verbal Reasoning",
+    "prompt": "The House of Representatives’ decision to decrease the budget for the",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. c. Department of Education was met with protests. No error."
+      },
+      {
+        "id": "D",
+        "text": "e."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-162",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Supreme Court upholds the highest principles and standards of morality as",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. c. embodied in the Constitution. No error."
+      },
+      {
+        "id": "D",
+        "text": "e."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-163",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Manila Bulletin has been published the Panorama magazine for over a hundred",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. c. years. No error."
+      },
+      {
+        "id": "D",
+        "text": "e."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-164",
+    "subject": "Verbal Reasoning",
+    "prompt": "The editor-in-chief, together with the writers, confers about the contents of their",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. c. newspapers. No error."
+      },
+      {
+        "id": "D",
+        "text": "e."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-165",
+    "subject": "Verbal Reasoning",
+    "prompt": "Some believes that Mr. Medina’s works satirize the socio-economic condition of the",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. c. people in our country. No error."
+      },
+      {
+        "id": "D",
+        "text": "e."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-166",
+    "subject": "Verbal Reasoning",
+    "prompt": "Studies suggests that exposure to too much violence on television makes one",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. c. equally violent. No error."
+      },
+      {
+        "id": "D",
+        "text": "e."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-167",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Scent of Apples, a story about a Filipino who immigrated to the United States",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. are written by Bienvenido Santos. No error."
+      },
+      {
+        "id": "C",
+        "text": "d."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-168",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Far Eastern University (FEU) also gave he a Docotr of Literature honoris causa",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. in 1959, aside from asking him to be a visiting professor. No error."
+      },
+      {
+        "id": "C",
+        "text": "d. e."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-169",
+    "subject": "Verbal Reasoning",
+    "prompt": "Just like Edgar Allan Poe, it is believed that Nick Joaquin starts getting ideas after",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. c. he has drank alcoholic beverages. No error."
+      },
+      {
+        "id": "D",
+        "text": "e."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-170",
+    "subject": "Verbal Reasoning",
+    "prompt": "Each computer come with either a compact disk player or a DVD player. No error.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "b. c. d. e. Directions: Each sentence below, when put in the correct order would make a well- organized paragraph. Decide what should be the correct order of the sentences, then aswer the questions that follow. I. A. The first procedure is that the bill passes through three readings on separate days."
+      },
+      {
+        "id": "B",
+        "text": "Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again."
+      },
+      {
+        "id": "C",
+        "text": "If the President approves the bill, then it shall be deemed a law."
+      },
+      {
+        "id": "D",
+        "text": "A bill, before becoming a law, undergoes several procedures."
+      },
+      {
+        "id": "E",
+        "text": "On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-171",
+    "subject": "Verbal Reasoning",
+    "prompt": "What should be the first sentence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-172",
+    "subject": "Verbal Reasoning",
+    "prompt": "What should be the fourth sentence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D If the following sentence is added as sentence F: It should be ntoed, however, that the President must communicate his veto within thirty days from receipt of the bill, otherwise, the bill is considered to have been approved by him."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-173",
+    "subject": "Verbal Reasoning",
+    "prompt": "What would the new order of the sentences be1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "B-C-D-E-A-F"
+      },
+      {
+        "id": "B",
+        "text": "D-B-A-F-C-E"
+      },
+      {
+        "id": "C",
+        "text": "D-A-E-C-B-F"
+      },
+      {
+        "id": "D",
+        "text": "A-B-C-D-E-F"
+      },
+      {
+        "id": "E",
+        "text": "C-B-D-A-E-F II. A. Learning to listen is one way of keeping friends."
+      },
+      {
+        "id": "B",
+        "text": "Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker."
+      },
+      {
+        "id": "C",
+        "text": "So learn how to listen, and gain more friends."
+      },
+      {
+        "id": "D",
+        "text": "We also show that we care about what goes on in their lives."
+      },
+      {
+        "id": "E",
+        "text": "By listening, we show our friends that they are important to us."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-174",
+    "subject": "Verbal Reasoning",
+    "prompt": "What should be the third sentence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-175",
+    "subject": "Verbal Reasoning",
+    "prompt": "What should be the fourth sentence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E III. A. Hence, it can be said that the President really has a lot of duties and responsibilities."
+      },
+      {
+        "id": "B",
+        "text": "He has control over department secretaries and can overrule their decisions."
+      },
+      {
+        "id": "C",
+        "text": "Furthermore, the President exercises veto power over bills passed by the Congress."
+      },
+      {
+        "id": "D",
+        "text": "Lastly, he is the Chief Executive, executing the laws and rules of the country."
+      },
+      {
+        "id": "E",
+        "text": "The president in a presidential system is the Head of the State and the Head of Government"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-176",
+    "subject": "Verbal Reasoning",
+    "prompt": "What should be the second sentence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-177",
+    "subject": "Verbal Reasoning",
+    "prompt": "What should be the last sentence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E IV. A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit."
+      },
+      {
+        "id": "B",
+        "text": "Every citizen should lend a hand in pursuing economic progress."
+      },
+      {
+        "id": "C",
+        "text": "One way to do it is to pay one’s taxes correctly."
+      },
+      {
+        "id": "D",
+        "text": "Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects."
+      },
+      {
+        "id": "E",
+        "text": "So be a good citizen and pay your taxes correctly."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-178",
+    "subject": "Verbal Reasoning",
+    "prompt": "What should be the second sentence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-179",
+    "subject": "Verbal Reasoning",
+    "prompt": "What should be fourth sentence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-180",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the appropriate title for the above paragraph1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Economic Progress"
+      },
+      {
+        "id": "B",
+        "text": "A Citizen’s Duty"
+      },
+      {
+        "id": "C",
+        "text": "Taxing the Economy"
+      },
+      {
+        "id": "D",
+        "text": "Taxes and Economic Progress"
+      },
+      {
+        "id": "E",
+        "text": "Lend a Hand for Progress Directions: Choose the letter that corresponds to the word or phrase that will correctly complete each sentence."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-181",
+    "subject": "Verbal Reasoning",
+    "prompt": "Lily __________ remarkable poems even at her young age.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "rites"
+      },
+      {
+        "id": "B",
+        "text": "rights"
+      },
+      {
+        "id": "C",
+        "text": "writes"
+      },
+      {
+        "id": "D",
+        "text": "write"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-182",
+    "subject": "Verbal Reasoning",
+    "prompt": "Being too __________ will undoubtedly make other men hate you.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "vane"
+      },
+      {
+        "id": "B",
+        "text": "vain"
+      },
+      {
+        "id": "C",
+        "text": "vein"
+      },
+      {
+        "id": "D",
+        "text": "vanity"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-183",
+    "subject": "Verbal Reasoning",
+    "prompt": "Due to bad weather, the airline company decided __________ postpone the flight.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "two"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "too"
+      },
+      {
+        "id": "D",
+        "text": "then"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-184",
+    "subject": "Verbal Reasoning",
+    "prompt": "Drunk driving was the reason for __________ accident.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "their"
+      },
+      {
+        "id": "B",
+        "text": "they’re"
+      },
+      {
+        "id": "C",
+        "text": "there"
+      },
+      {
+        "id": "D",
+        "text": "there are"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-185",
+    "subject": "Verbal Reasoning",
+    "prompt": "May I __________ your Titanic compact disk1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "borrow"
+      },
+      {
+        "id": "B",
+        "text": "lend"
+      },
+      {
+        "id": "C",
+        "text": "loan"
+      },
+      {
+        "id": "D",
+        "text": "credit"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-186",
+    "subject": "Verbal Reasoning",
+    "prompt": "__________ the three girls, the eldest is the most diligent.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Between"
+      },
+      {
+        "id": "B",
+        "text": "Among"
+      },
+      {
+        "id": "C",
+        "text": "In"
+      },
+      {
+        "id": "D",
+        "text": "By"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-187",
+    "subject": "Verbal Reasoning",
+    "prompt": "Exposure to air pollution will __________ your asthma.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "cure"
+      },
+      {
+        "id": "B",
+        "text": "deteriorate"
+      },
+      {
+        "id": "C",
+        "text": "aggravate"
+      },
+      {
+        "id": "D",
+        "text": "annoy"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-188",
+    "subject": "Verbal Reasoning",
+    "prompt": "His __________ to Mount Apo was carefully documented.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "assent"
+      },
+      {
+        "id": "B",
+        "text": "ascent"
+      },
+      {
+        "id": "C",
+        "text": "descent"
+      },
+      {
+        "id": "D",
+        "text": "decrease"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-189",
+    "subject": "Verbal Reasoning",
+    "prompt": "The children __________ the ill effects of war.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "have borne"
+      },
+      {
+        "id": "B",
+        "text": "have born"
+      },
+      {
+        "id": "C",
+        "text": "has borne"
+      },
+      {
+        "id": "D",
+        "text": "had born"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-190",
+    "subject": "Verbal Reasoning",
+    "prompt": "The teachers distributed different __________ outlines for the students to follow.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "coarse"
+      },
+      {
+        "id": "B",
+        "text": "corps"
+      },
+      {
+        "id": "C",
+        "text": "course"
+      },
+      {
+        "id": "D",
+        "text": "corpse"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-191",
+    "subject": "Verbal Reasoning",
+    "prompt": "Carl juggles oranges, __________ you1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "why"
+      },
+      {
+        "id": "B",
+        "text": "may"
+      },
+      {
+        "id": "C",
+        "text": "should"
+      },
+      {
+        "id": "D",
+        "text": "can"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-192",
+    "subject": "Verbal Reasoning",
+    "prompt": "The refugees decided to __________ their homes because of the war.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "desert"
+      },
+      {
+        "id": "B",
+        "text": "dessert"
+      },
+      {
+        "id": "C",
+        "text": "deserve"
+      },
+      {
+        "id": "D",
+        "text": "reserve"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-193",
+    "subject": "Verbal Reasoning",
+    "prompt": "My sister __________ to Zamboanga seven years ago.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "migrated"
+      },
+      {
+        "id": "B",
+        "text": "migrating"
+      },
+      {
+        "id": "C",
+        "text": "immigrated"
+      },
+      {
+        "id": "D",
+        "text": "immigrating"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-194",
+    "subject": "Verbal Reasoning",
+    "prompt": "We used __________ sauce for the spahetti last Sunday.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "less"
+      },
+      {
+        "id": "B",
+        "text": "few"
+      },
+      {
+        "id": "C",
+        "text": "a number of"
+      },
+      {
+        "id": "D",
+        "text": "pieces of"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-195",
+    "subject": "Verbal Reasoning",
+    "prompt": "If we work together, we could finish this __________ in a short time.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "piece"
+      },
+      {
+        "id": "B",
+        "text": "peace"
+      },
+      {
+        "id": "C",
+        "text": "please"
+      },
+      {
+        "id": "D",
+        "text": "peas"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-196",
+    "subject": "Verbal Reasoning",
+    "prompt": "When the Apartheid Policy was still in effect, the Blacks were __________ by the Whites1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "praised"
+      },
+      {
+        "id": "B",
+        "text": "hailed"
+      },
+      {
+        "id": "C",
+        "text": "persecuted"
+      },
+      {
+        "id": "D",
+        "text": "prosecuted"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-197",
+    "subject": "Verbal Reasoning",
+    "prompt": "When we __________ the flag, we should all stand up.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "rice"
+      },
+      {
+        "id": "B",
+        "text": "rise"
+      },
+      {
+        "id": "C",
+        "text": "risen"
+      },
+      {
+        "id": "D",
+        "text": "raise"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-198",
+    "subject": "Verbal Reasoning",
+    "prompt": "The DPWH crew worked __________ the night to repair the damaged bridge.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "thre"
+      },
+      {
+        "id": "B",
+        "text": "through"
+      },
+      {
+        "id": "C",
+        "text": "trough"
+      },
+      {
+        "id": "D",
+        "text": "true"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-199",
+    "subject": "Verbal Reasoning",
+    "prompt": "__________ the leader of your group1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Who’s"
+      },
+      {
+        "id": "B",
+        "text": "Whose"
+      },
+      {
+        "id": "C",
+        "text": "Which"
+      },
+      {
+        "id": "D",
+        "text": "Whom’s"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-200",
+    "subject": "Verbal Reasoning",
+    "prompt": "The village elder told many interesting __________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "tale"
+      },
+      {
+        "id": "B",
+        "text": "tail"
+      },
+      {
+        "id": "C",
+        "text": "tails"
+      },
+      {
+        "id": "D",
+        "text": "tales"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-201",
+    "subject": "Verbal Reasoning",
+    "prompt": "Marty __________ Evelyn __________ to dinner.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "asked – out"
+      },
+      {
+        "id": "B",
+        "text": "asked – after"
+      },
+      {
+        "id": "C",
+        "text": "called – out"
+      },
+      {
+        "id": "D",
+        "text": "called – up"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-202",
+    "subject": "Verbal Reasoning",
+    "prompt": "The celebrant __________ candles after we sang.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "blew off"
+      },
+      {
+        "id": "B",
+        "text": "blew up"
+      },
+      {
+        "id": "C",
+        "text": "blew out"
+      },
+      {
+        "id": "D",
+        "text": "blew over"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-203",
+    "subject": "Verbal Reasoning",
+    "prompt": "The secretary __________ due to stress.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "broke even"
+      },
+      {
+        "id": "B",
+        "text": "broke out"
+      },
+      {
+        "id": "C",
+        "text": "broke in"
+      },
+      {
+        "id": "D",
+        "text": "broke down"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-204",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Edsa People’s Revolution __________ the Marcos regime.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "brought in"
+      },
+      {
+        "id": "B",
+        "text": "brought on"
+      },
+      {
+        "id": "C",
+        "text": "brought forth"
+      },
+      {
+        "id": "D",
+        "text": "brought down"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-205",
+    "subject": "Verbal Reasoning",
+    "prompt": "The unexpected __________ of vehicles along Marcos Highway caused heavy traffic.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "build up"
+      },
+      {
+        "id": "B",
+        "text": "build on"
+      },
+      {
+        "id": "C",
+        "text": "build in"
+      },
+      {
+        "id": "D",
+        "text": "build over"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-206",
+    "subject": "Verbal Reasoning",
+    "prompt": "After cleaning the entire house, I felt __________.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "burned in"
+      },
+      {
+        "id": "B",
+        "text": "burned out"
+      },
+      {
+        "id": "C",
+        "text": "burned up"
+      },
+      {
+        "id": "D",
+        "text": "burned over"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-207",
+    "subject": "Verbal Reasoning",
+    "prompt": "The drug pushers tried to __________ the arresting cops.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "buy in"
+      },
+      {
+        "id": "B",
+        "text": "buy off"
+      },
+      {
+        "id": "C",
+        "text": "buy out"
+      },
+      {
+        "id": "D",
+        "text": "buy up"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-208",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Cabinet meeting was __________ on account of the President’s ill health.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "called in"
+      },
+      {
+        "id": "B",
+        "text": "called up"
+      },
+      {
+        "id": "C",
+        "text": "called out"
+      },
+      {
+        "id": "D",
+        "text": "called off"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-209",
+    "subject": "Verbal Reasoning",
+    "prompt": "The tele-novela viewers cried helpleslly when they got __________ by the tragedy that befell the main character.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "carried out"
+      },
+      {
+        "id": "B",
+        "text": "carried away"
+      },
+      {
+        "id": "C",
+        "text": "carried over"
+      },
+      {
+        "id": "D",
+        "text": "carried on"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-210",
+    "subject": "Verbal Reasoning",
+    "prompt": "We should __________ on our expenditures and spend only on our needs.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "cut short"
+      },
+      {
+        "id": "B",
+        "text": "cut up"
+      },
+      {
+        "id": "C",
+        "text": "cut back"
+      },
+      {
+        "id": "D",
+        "text": "cut out"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-211",
+    "subject": "Verbal Reasoning",
+    "prompt": "People of all races should try to __________ with each other.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "get around"
+      },
+      {
+        "id": "B",
+        "text": "get along"
+      },
+      {
+        "id": "C",
+        "text": "get at"
+      },
+      {
+        "id": "D",
+        "text": "get over"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-212",
+    "subject": "Verbal Reasoning",
+    "prompt": "We should grow wiser as time __________.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "goes along"
+      },
+      {
+        "id": "B",
+        "text": "goes by"
+      },
+      {
+        "id": "C",
+        "text": "goes down"
+      },
+      {
+        "id": "D",
+        "text": "goes through"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-213",
+    "subject": "Verbal Reasoning",
+    "prompt": "The partying teens were told to __________ the noise.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hold down"
+      },
+      {
+        "id": "B",
+        "text": "hold forth"
+      },
+      {
+        "id": "C",
+        "text": "hold on"
+      },
+      {
+        "id": "D",
+        "text": "hold with"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-214",
+    "subject": "Verbal Reasoning",
+    "prompt": "A gust of strong wind __________ the old wooden swing.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "knocked around"
+      },
+      {
+        "id": "B",
+        "text": "knocked back"
+      },
+      {
+        "id": "C",
+        "text": "knocked down"
+      },
+      {
+        "id": "D",
+        "text": "knocked out"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-215",
+    "subject": "Verbal Reasoning",
+    "prompt": "A number of factory workers were __________ due to retrenchment.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "laid aside"
+      },
+      {
+        "id": "B",
+        "text": "laid away"
+      },
+      {
+        "id": "C",
+        "text": "laid off"
+      },
+      {
+        "id": "D",
+        "text": "laid out"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-216",
+    "subject": "Verbal Reasoning",
+    "prompt": "We should never __________ people with disabilities for they also have the right to live.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "look down on"
+      },
+      {
+        "id": "B",
+        "text": "look forward to"
+      },
+      {
+        "id": "C",
+        "text": "look out to"
+      },
+      {
+        "id": "D",
+        "text": "look up to"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-217",
+    "subject": "Verbal Reasoning",
+    "prompt": "Stop __________ your younger brother so he will stop crying.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "picking at"
+      },
+      {
+        "id": "B",
+        "text": "picking on"
+      },
+      {
+        "id": "C",
+        "text": "picking out"
+      },
+      {
+        "id": "D",
+        "text": "picking up"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-218",
+    "subject": "Verbal Reasoning",
+    "prompt": "Always __________ your best effort in everything you do.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "put across"
+      },
+      {
+        "id": "B",
+        "text": "pud down"
+      },
+      {
+        "id": "C",
+        "text": "put forth"
+      },
+      {
+        "id": "D",
+        "text": "put out"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-219",
+    "subject": "Verbal Reasoning",
+    "prompt": "Did you help in __________ the table1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "setting apart"
+      },
+      {
+        "id": "B",
+        "text": "settign back"
+      },
+      {
+        "id": "C",
+        "text": "setting down"
+      },
+      {
+        "id": "D",
+        "text": "setting up"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-220",
+    "subject": "Verbal Reasoning",
+    "prompt": "She __________ the details of the program.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "wrote in"
+      },
+      {
+        "id": "B",
+        "text": "wrote off"
+      },
+      {
+        "id": "C",
+        "text": "wrote over"
+      },
+      {
+        "id": "D",
+        "text": "wrote up Directions: Read each selection then answer the questions after each. Choose the letter that corresponds to the correct answer based on the given selections. Example: Virtue, then, is the mean between two vices – the vice arising from excess and the one proceedign from defect. Virtue finds and chooses that which is the mean in both emotion and action – from the Gold Mean by Aristotle"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-221",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the golden mean identified by Aristotle1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Virtue"
+      },
+      {
+        "id": "B",
+        "text": "Vice"
+      },
+      {
+        "id": "C",
+        "text": "Emotion"
+      },
+      {
+        "id": "D",
+        "text": "Action"
+      },
+      {
+        "id": "A",
+        "text": "“All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, that does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, water, are fields of carnage. God having given reason to men, this reason might teach them no to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood.” “Can there be anything more horrible in all nature1/4” - Voltaire"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-222",
+    "subject": "Verbal Reasoning",
+    "prompt": "Which of the following is the reason given why there is war1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Desire for what others have."
+      },
+      {
+        "id": "B",
+        "text": "To exact revenge for a wrongdoing."
+      },
+      {
+        "id": "C",
+        "text": "To fight over women."
+      },
+      {
+        "id": "D",
+        "text": "To prove that one’s race is better than the other."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-223",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the author’s stand on war1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It is horrible"
+      },
+      {
+        "id": "B",
+        "text": "It is important"
+      },
+      {
+        "id": "C",
+        "text": "It is a means to control population"
+      },
+      {
+        "id": "D",
+        "text": "It is a natural product of man’s reason."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-224",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the best title for the selection1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "War"
+      },
+      {
+        "id": "B",
+        "text": "The Products of War"
+      },
+      {
+        "id": "C",
+        "text": "The Need for War"
+      },
+      {
+        "id": "D",
+        "text": "The Elements of War"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-225",
+    "subject": "Verbal Reasoning",
+    "prompt": "What does statement “All animals wage perpetual war...” mean1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "All war never ends."
+      },
+      {
+        "id": "B",
+        "text": "There is always some kind of war occuring someplace."
+      },
+      {
+        "id": "C",
+        "text": "Only animals and not man engage in war."
+      },
+      {
+        "id": "D",
+        "text": "All animals make war all the time."
+      },
+      {
+        "id": "B",
+        "text": "Tell me not in mournful numbers, Life is but an empty dream! – For the soul is dead that slumbers, And things are not what they seem. Life is real! Life is earnest! And the grave is not its goal; Dust thou art, to dust returnest, Was not spoken of the soul. Not enjoyment, and not sorrow, Is our destined end or way; But to act that each tomorrow Find us farther than today. - excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-226",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the poet’s view on life1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Life is empty."
+      },
+      {
+        "id": "B",
+        "text": "Life is lonely"
+      },
+      {
+        "id": "C",
+        "text": "Life is an empty dream"
+      },
+      {
+        "id": "D",
+        "text": "Life is not an empty dream."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-227",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the antecedent of the pronoun its in the line “And the grave is not its goal;”1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "dream"
+      },
+      {
+        "id": "B",
+        "text": "life"
+      },
+      {
+        "id": "C",
+        "text": "real"
+      },
+      {
+        "id": "D",
+        "text": "earnest"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-228",
+    "subject": "Verbal Reasoning",
+    "prompt": "According to the author, what should be our goal in life1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "To enjoy each moment"
+      },
+      {
+        "id": "B",
+        "text": "To act and continually improve our life day by day."
+      },
+      {
+        "id": "C",
+        "text": "To beat sorrow."
+      },
+      {
+        "id": "D",
+        "text": "To die happily."
+      },
+      {
+        "id": "C",
+        "text": "Dreams by Langston Hughes Hold fast to dreams For if dreams die Life is a broken-winged bird That cannot fly. Hold fast to dreams For when dreams go Life is a barren field Frozen with snow."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-229",
+    "subject": "Verbal Reasoning",
+    "prompt": "What figure of speech did the author use in the first stanza1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "simile"
+      },
+      {
+        "id": "B",
+        "text": "hyperbole"
+      },
+      {
+        "id": "C",
+        "text": "metaphor"
+      },
+      {
+        "id": "D",
+        "text": "irony"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-230",
+    "subject": "Verbal Reasoning",
+    "prompt": "The author is a South African Negro during the Apartheid Policy when most blacks were treated as inferior. To what could he be alluding to in the last two lines of the poem1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "white people"
+      },
+      {
+        "id": "B",
+        "text": "slaves"
+      },
+      {
+        "id": "C",
+        "text": "snow"
+      },
+      {
+        "id": "D",
+        "text": "ice"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-231",
+    "subject": "Verbal Reasoning",
+    "prompt": "What effect does the poem have upon the Negroes1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It made them more sad"
+      },
+      {
+        "id": "B",
+        "text": "It made them feel downtrodden"
+      },
+      {
+        "id": "C",
+        "text": "It increased their anger towards Whites"
+      },
+      {
+        "id": "D",
+        "text": "It increased their determination."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-232",
+    "subject": "Verbal Reasoning",
+    "prompt": "Which statement is not a correct inference based on the poem1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Blacks and Whites enjoy equal rights."
+      },
+      {
+        "id": "B",
+        "text": "Blacks are treated inferior over Whites."
+      },
+      {
+        "id": "C",
+        "text": "Blacks also have dreams of a better life."
+      },
+      {
+        "id": "D",
+        "text": "Whites enjoy more rights over Blacks."
+      },
+      {
+        "id": "D",
+        "text": "“Only two things in life are certain, Benjamin Franklin once remarked: death and taxes. But there is one other unpleasant uncertainty: criticism. No one escapes it entirely. And often our careers, our emotional stability, our happiness depend on how we react to it...” “...A Disraeli once remarked. ‘It is much easier to be critical than correct’ – so there will always be plenty of critics in the world, some well intentioned, others cruel. You can defend yourself against the unkind ones by learning to control your emotional reactions, by adopting a calm and rational attitude and by honestly trying to help your critics to rid themselves of their anger. But in the last analysis, your best defense is your own day-to- day conduct. It is keeping your moral standards high. It is having a clear conscience. It is living a life without any necessity whatever for deception or for concealment.” - Norman Vincent Peale"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-233",
+    "subject": "Verbal Reasoning",
+    "prompt": "Why should we all learn how to cope with criticism1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Because reacting to criticism only warns one’s heart."
+      },
+      {
+        "id": "B",
+        "text": "Because reacting to criticism sometimes leads to further trouble."
+      },
+      {
+        "id": "C",
+        "text": "Because reacting to criticism makes one fulfilled."
+      },
+      {
+        "id": "D",
+        "text": "Because criticism are always correct."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-234",
+    "subject": "Verbal Reasoning",
+    "prompt": "According to the author, what is the best defense against criticism1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "a person’s ability to counter-criticize"
+      },
+      {
+        "id": "B",
+        "text": "one’s ability to act with deaf ears"
+      },
+      {
+        "id": "C",
+        "text": "one’s day to day conduct"
+      },
+      {
+        "id": "D",
+        "text": "one’s anger"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-235",
+    "subject": "Verbal Reasoning",
+    "prompt": "Why is it easier to be critical than correct1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Because it is easier to find a flaw in someone else."
+      },
+      {
+        "id": "B",
+        "text": "Because it is easier to control another person’s opinion."
+      },
+      {
+        "id": "C",
+        "text": "Because some people are able to control their opinion."
+      },
+      {
+        "id": "D",
+        "text": "Because some people find it easier to praise other people."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-236",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the best title for the above selection1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Criticisms, its Uses and Abuses"
+      },
+      {
+        "id": "B",
+        "text": "How to Cope with Criticisms"
+      },
+      {
+        "id": "C",
+        "text": "The Ups and Downs of Criticisms"
+      },
+      {
+        "id": "D",
+        "text": "Best Criticisms"
+      },
+      {
+        "id": "E",
+        "text": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, bigrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft. The soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream. - from Book of Questions and Answers Octopus Press"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-237",
+    "subject": "Verbal Reasoning",
+    "prompt": "A person’s fingernails, just like the hair, keeps on growing even after a person’s death. What could account for this occurence1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The dead person’s body keeps on producing new cells to continue the growth of the fingernails and hair."
+      },
+      {
+        "id": "B",
+        "text": "The dead person’s body preserve all the cells so hair and nail growth continue"
+      },
+      {
+        "id": "C",
+        "text": "The energy supply of the cells of the hair and the nails have not yet been fully exhausted so growth still continues."
+      },
+      {
+        "id": "D",
+        "text": "Hair and nails just never stop growing."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-238",
+    "subject": "Verbal Reasoning",
+    "prompt": "What would happen to the soft cells at the base of the follicle if no nourishment comes in1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They would stop multiplying"
+      },
+      {
+        "id": "B",
+        "text": "They would produce white hair"
+      },
+      {
+        "id": "C",
+        "text": "They would go on dividing."
+      },
+      {
+        "id": "D",
+        "text": "They would harden."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-239",
+    "subject": "Verbal Reasoning",
+    "prompt": "What could possibly explain the occurrence of white hair1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The soft cells produces white pigment which gives the hair its white color."
+      },
+      {
+        "id": "B",
+        "text": "The soft cells die which gives the hair its white color."
+      },
+      {
+        "id": "C",
+        "text": "The absence of pigments from the follicle accounts for white hair."
+      },
+      {
+        "id": "D",
+        "text": "The absence of follicle due to old age causes white hair."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-240",
+    "subject": "Verbal Reasoning",
+    "prompt": "Which of the following statements is NOT true1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Hair follicle is composed of two layers."
+      },
+      {
+        "id": "B",
+        "text": "Hair grows from the tip of the follicle."
+      },
+      {
+        "id": "C",
+        "text": "Hair follicle is composed of soft cells."
+      },
+      {
+        "id": "D",
+        "text": "The soft cells need the nourishment brought in through the bloodstream. F. The concepts of Epicureanism are largely known to us through Lucretius, rather than Epicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied. Man himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition. - from The Great Political Theories, Vol. 1 by Michael Curtis"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-241",
+    "subject": "Verbal Reasoning",
+    "prompt": "Who was born an Athenian citizen in Samos in 341 B.C.1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Plato"
+      },
+      {
+        "id": "B",
+        "text": "Aristotle"
+      },
+      {
+        "id": "C",
+        "text": "Lucretius"
+      },
+      {
+        "id": "D",
+        "text": "Epicurus"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-242",
+    "subject": "Verbal Reasoning",
+    "prompt": "What do the Epicureans think about the universe1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It was disorderly with an absence of rule."
+      },
+      {
+        "id": "B",
+        "text": "It was orderly and without a ruler"
+      },
+      {
+        "id": "C",
+        "text": "It was atomic and filled with objects and humans."
+      },
+      {
+        "id": "D",
+        "text": "The universe was full of life moving in and orderly manner."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-243",
+    "subject": "Verbal Reasoning",
+    "prompt": "What was the Epicureans’ ultimate goal1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The pursuit of being godlike"
+      },
+      {
+        "id": "B",
+        "text": "To bring order out of the chaos."
+      },
+      {
+        "id": "C",
+        "text": "The pursuit of happiness"
+      },
+      {
+        "id": "D",
+        "text": "To bring chaos into the world."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-244",
+    "subject": "Verbal Reasoning",
+    "prompt": "Epicureans had a different view about religion. What was it1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Religion controls man."
+      },
+      {
+        "id": "B",
+        "text": "Religion brings man closer to God."
+      },
+      {
+        "id": "C",
+        "text": "Religion is merely a superstition."
+      },
+      {
+        "id": "D",
+        "text": "Religion is man’s way of knowing God."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-245",
+    "subject": "Verbal Reasoning",
+    "prompt": "Which of the following is not a belief of the Epicureans1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "There should be no limit to man’s desires."
+      },
+      {
+        "id": "B",
+        "text": "Man should exercise restraint and self-control."
+      },
+      {
+        "id": "C",
+        "text": "Man should live unknown."
+      },
+      {
+        "id": "D",
+        "text": "Limit desires to those which are strictly necessary. G. What is the happy life1/4 Self-sufficiency and abiding tranquility. This is the gift of greatness of soul, the gift of constancy which perserves in a course judged right. How can these attitudes be attained1/4 By surveying truth in its entirety, by safeguarding in every action order, measure, decorum, a will that is without malice and benign, focused indeviatingly upon reason, once amiable and admirable. The wise man’s soul should have the quality of a god’s. What can a man desire if he possesses everything that is honorable1/4 If the dishonorable can contribute to the optimum state, then the happy life will be comprised of elements other than honorable. And what could be meaner or stupider than to weave the good of the rational soul out of irrational strands1/4"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-246",
+    "subject": "Verbal Reasoning",
+    "prompt": "What constitutes a happy life1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "attainment of everything that one desires"
+      },
+      {
+        "id": "B",
+        "text": "being at peace with everyone"
+      },
+      {
+        "id": "C",
+        "text": "self-sufficiency and tranquility"
+      },
+      {
+        "id": "D",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-247",
+    "subject": "Verbal Reasoning",
+    "prompt": "How can one attain a happy life, according to Seneca1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "by being hypocritical"
+      },
+      {
+        "id": "B",
+        "text": "by getting what one wants no matter what the cost"
+      },
+      {
+        "id": "C",
+        "text": "both a and b"
+      },
+      {
+        "id": "D",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-248",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is an indication that a man’s soul is already like that of a god’s1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "He is at peace with others."
+      },
+      {
+        "id": "B",
+        "text": "He desires everything."
+      },
+      {
+        "id": "C",
+        "text": "He attains everything he desires without limitation."
+      },
+      {
+        "id": "D",
+        "text": "He discerns truth, focuses upon reason, has a will that is without malice."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-249",
+    "subject": "Verbal Reasoning",
+    "prompt": "Which of the following statements is NOT true based on the selection1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Self-sufficiency does not bring happiness."
+      },
+      {
+        "id": "B",
+        "text": "Greatness of soul is attainable."
+      },
+      {
+        "id": "C",
+        "text": "Man should aim to have a soul like that of a god’s."
+      },
+      {
+        "id": "D",
+        "text": "Man should not desire that which is dishonorable. H. Love in the Open Han by Edna St. Vincent Millay Not in a silver casket cool with pearls, Or rich with red corundum or with blue, Locked, and the key withheld, as other girls. Have given their loves, I give my love to you: Not in a lover’s knot, not in a ring Worked in such fashion, and the legend plain- Semper Fidelis, where a secret spring Kennels a drop of mischief in the brain: Love in the open hand, nothing but that, Ungemmed, unhidden, wishing not to hurt, As one should bring you cowslips in a hat Swung from the hand, or apples in her skirt, I bring you, calling out as children do: “Look what I have! – and these are all of you.”"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-250",
+    "subject": "Verbal Reasoning",
+    "prompt": "What stanza states the main idea of the poem1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "stanza 1"
+      },
+      {
+        "id": "B",
+        "text": "stanza 2"
+      },
+      {
+        "id": "C",
+        "text": "stanza 3"
+      },
+      {
+        "id": "D",
+        "text": "main idea is implied"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-251",
+    "subject": "Verbal Reasoning",
+    "prompt": "What figure of speech was used in the third stanza1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "simile"
+      },
+      {
+        "id": "B",
+        "text": "metaphor"
+      },
+      {
+        "id": "C",
+        "text": "personification"
+      },
+      {
+        "id": "D",
+        "text": "hyperbole"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-252",
+    "subject": "Verbal Reasoning",
+    "prompt": "What does the author refer to in the last line “Look what I have! – and these are all for you.”1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "her gifts"
+      },
+      {
+        "id": "B",
+        "text": "her love"
+      },
+      {
+        "id": "C",
+        "text": "her apples"
+      },
+      {
+        "id": "D",
+        "text": "her skirt"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-253",
+    "subject": "Verbal Reasoning",
+    "prompt": "According to the author, how should one manifest his love for someone1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "with reservation"
+      },
+      {
+        "id": "B",
+        "text": "little by little"
+      },
+      {
+        "id": "C",
+        "text": "witwh fancy trappings"
+      },
+      {
+        "id": "D",
+        "text": "without reservation or restrictions"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-254",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the gender of the persona in the poem1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "common"
+      },
+      {
+        "id": "B",
+        "text": "masculine"
+      },
+      {
+        "id": "C",
+        "text": "neuter"
+      },
+      {
+        "id": "D",
+        "text": "feminine I. One day, the guru and his young disciples were seated on the bank of the river, talking and praying together. An uprooted tree came floating down the river and caught in the bank just in front of them. Caught in the branches of the tree was a scorpion which must have been trapped on the tree when it was uprooted by the floodwater upstream. The guru knew that, inevitably, the scorpion would fall from the tree and be drowned in the river. So he reached his hand out to take the scorpion from the tree and to put it safely on land. But as he reached out to rescue the scorpion, it stung his hand, and the guru had to take his hand away in pain. After a moment, the guru reached out to rescue the scorpion again, and the scorpion stung him again. The guru kept trying to save the scorpion and the scorpion kept stinging him until his hand was red and swollen in pain. Finally, one of the young disciples could control himself no longer and he burst out: “Master, why do you keep trying to rescue that foolish scorpion that doesn’t even want to be saved1/4” The guru looked very patiently at the impetuous young disciple and said: “Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting1/4”"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-255",
+    "subject": "Verbal Reasoning",
+    "prompt": "Why did the guru attempt to remove the scorpion from the branches1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Because he did no want the scorpion to die."
+      },
+      {
+        "id": "B",
+        "text": "Because he hates scorpions."
+      },
+      {
+        "id": "C",
+        "text": "Because he wants to throw the scorpion into the waters"
+      },
+      {
+        "id": "D",
+        "text": "Because the scorpion might sting someone else."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-256",
+    "subject": "Verbal Reasoning",
+    "prompt": "What does the statement, “Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting1/4” mean1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "One should always be compassionate even if it is not properly reciprocated."
+      },
+      {
+        "id": "B",
+        "text": "One should stop giving if it hurts."
+      },
+      {
+        "id": "C",
+        "text": "One should be compassionate only to hose who know how to appreciate."
+      },
+      {
+        "id": "D",
+        "text": "One should always count one’s blessings."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-257",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the best title for selection1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The Scorpion"
+      },
+      {
+        "id": "B",
+        "text": "The Guru"
+      },
+      {
+        "id": "C",
+        "text": "True Compassion"
+      },
+      {
+        "id": "D",
+        "text": "The Sting J. Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less sever cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacts, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-258",
+    "subject": "Verbal Reasoning",
+    "prompt": "What statement is NOT true based on the selection1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Scar tissue replaces dead heart muscles."
+      },
+      {
+        "id": "B",
+        "text": "The heart is sustained by branches of arteries originating externally."
+      },
+      {
+        "id": "C",
+        "text": "Oxygen is essential for the heart muscles to function properly."
+      },
+      {
+        "id": "D",
+        "text": "The heart utilizes the blood within itself."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-259",
+    "subject": "Verbal Reasoning",
+    "prompt": "Coronary arteries can become blocked by",
+    "choices": [
+      {
+        "id": "A",
+        "text": "food deposits."
+      },
+      {
+        "id": "B",
+        "text": "blood deposits"
+      },
+      {
+        "id": "C",
+        "text": "too much oxygen in the blood."
+      },
+      {
+        "id": "D",
+        "text": "deposits of fatty materials, connective tissue fibers and calcium."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-260",
+    "subject": "Verbal Reasoning",
+    "prompt": "What causes heart stoppage1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "absence of carbon in the heart muscles"
+      },
+      {
+        "id": "B",
+        "text": "presence of cholesterol in the heart muscles"
+      },
+      {
+        "id": "C",
+        "text": "absence of oxygen in the heart muscles"
+      },
+      {
+        "id": "D",
+        "text": "presence of oxygen in the heart muscles"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-261",
+    "subject": "Verbal Reasoning",
+    "prompt": "Fats in the diet -",
+    "choices": [
+      {
+        "id": "A",
+        "text": "are always useless."
+      },
+      {
+        "id": "B",
+        "text": "normally provides the heart’s energy requirement."
+      },
+      {
+        "id": "C",
+        "text": "always causes heart blockage."
+      },
+      {
+        "id": "D",
+        "text": "normally gets wasted. K. Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignanat cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue (epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-262",
+    "subject": "Verbal Reasoning",
+    "prompt": "How does cancer occur1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cells reproduce what is normally enough"
+      },
+      {
+        "id": "B",
+        "text": "The cells replace the dead cells in the body."
+      },
+      {
+        "id": "C",
+        "text": "The cells uncontrollably multiply producing malignant cells."
+      },
+      {
+        "id": "D",
+        "text": "The cells naturally reproduce malformed, malignant cells."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-263",
+    "subject": "Verbal Reasoning",
+    "prompt": "It is believed that cancer",
+    "choices": [
+      {
+        "id": "A",
+        "text": "can occur in any tissue of the body."
+      },
+      {
+        "id": "B",
+        "text": "affects certain tissues of the body more than it does to other tissues"
+      },
+      {
+        "id": "C",
+        "text": "borth a and b"
+      },
+      {
+        "id": "D",
+        "text": "neither a nor b"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-264",
+    "subject": "Verbal Reasoning",
+    "prompt": "What do you call the type of cancer which affects connective tissues1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "carcinoma"
+      },
+      {
+        "id": "B",
+        "text": "sarcoma"
+      },
+      {
+        "id": "C",
+        "text": "leukemia"
+      },
+      {
+        "id": "D",
+        "text": "all of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-265",
+    "subject": "Verbal Reasoning",
+    "prompt": "Cancer found in the skin would most likely be classifed as",
+    "choices": [
+      {
+        "id": "A",
+        "text": "carcinoma"
+      },
+      {
+        "id": "B",
+        "text": "sarcoma"
+      },
+      {
+        "id": "C",
+        "text": "leukemia"
+      },
+      {
+        "id": "D",
+        "text": "dermacoma"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-266",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the basis for the classification of cancers1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the cancer’s size and weight"
+      },
+      {
+        "id": "B",
+        "text": "the cancer’s location and the tissue affected"
+      },
+      {
+        "id": "C",
+        "text": "the cancer’s length of existence"
+      },
+      {
+        "id": "D",
+        "text": "the cancer’s extent of growth L. When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constric and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion. from: Biology by Norstog and Meyerriecks"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-267",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the best title for the paragraph1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Blood and its Uses"
+      },
+      {
+        "id": "B",
+        "text": "The Evolution of Blood"
+      },
+      {
+        "id": "C",
+        "text": "The Importance of Blood Clots"
+      },
+      {
+        "id": "D",
+        "text": "How a Blood Clot is Formed"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-268",
+    "subject": "Verbal Reasoning",
+    "prompt": "What part of the blood plays an essential role in clot formation1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "blood proteins"
+      },
+      {
+        "id": "B",
+        "text": "fibrin"
+      },
+      {
+        "id": "C",
+        "text": "platelets"
+      },
+      {
+        "id": "D",
+        "text": "red blood cells"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-269",
+    "subject": "Verbal Reasoning",
+    "prompt": "What could happen to a hemophiliac should he get wounded1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "bleed to death"
+      },
+      {
+        "id": "B",
+        "text": "blood clots will form immiediately"
+      },
+      {
+        "id": "C",
+        "text": "he will have unlimited supply of blood"
+      },
+      {
+        "id": "D",
+        "text": "his blood will become infected"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-270",
+    "subject": "Verbal Reasoning",
+    "prompt": "What is the first step in the formation of a blood clot1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Blood from cut vesseel begins to flow"
+      },
+      {
+        "id": "B",
+        "text": "Blood platelets swell and burst, releasing chemicals"
+      },
+      {
+        "id": "C",
+        "text": "Prothrombin is activated"
+      },
+      {
+        "id": "D",
+        "text": "Formation of fibrin threads"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "vr-271",
+    "subject": "Verbal Reasoning",
+    "prompt": "How are fibrin threads formed1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Fibrinogen is converted into fibrin threads by the platelets."
+      },
+      {
+        "id": "B",
+        "text": "Thrombin and calcium ions catalyzes the conversion of fibrinogen to fibrin threads."
+      },
+      {
+        "id": "C",
+        "text": "Fibrin threads occur naturally in the blood."
+      },
+      {
+        "id": "D",
+        "text": "Fibrin threads are the result of the combination of the blood and its platelets."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  }
+]

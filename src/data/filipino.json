@@ -1,0 +1,3701 @@
+[
+  {
+    "id": "fi-001",
+    "subject": "Filipino",
+    "prompt": "Nauulinigan ang pag-uusap ng grupo dahil sa lakas ng tinig nila.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nahihimigan"
+      },
+      {
+        "id": "B",
+        "text": "napakikinggan"
+      },
+      {
+        "id": "C",
+        "text": "nakikita"
+      },
+      {
+        "id": "D",
+        "text": "nararamdaman"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-002",
+    "subject": "Filipino",
+    "prompt": "Karapatan ng bawat batang Pilipino ang magkaroon ng pamilyang mag-aaruga sa kanya.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mag-aalaga"
+      },
+      {
+        "id": "B",
+        "text": "magsasaway"
+      },
+      {
+        "id": "C",
+        "text": "gagabay"
+      },
+      {
+        "id": "D",
+        "text": "tutulong"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-003",
+    "subject": "Filipino",
+    "prompt": "Nagugulumihanan si Rochelle kung anong kurso ang kanyang kukunin sa kolehiyo.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nagtataka"
+      },
+      {
+        "id": "B",
+        "text": "natutuwa"
+      },
+      {
+        "id": "C",
+        "text": "nagpapasalamat"
+      },
+      {
+        "id": "D",
+        "text": "nalilito"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-004",
+    "subject": "Filipino",
+    "prompt": "Tigib na ng pasahero ang dyip nang ito ay umalis.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "punung-puno"
+      },
+      {
+        "id": "B",
+        "text": "kulang-kulang"
+      },
+      {
+        "id": "C",
+        "text": "kaunting-kaunti"
+      },
+      {
+        "id": "D",
+        "text": "maraming-marami"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-005",
+    "subject": "Filipino",
+    "prompt": "Hindi na nakapagpigil ang kaawa-awang katulong kaya isiniwalat ang sama ng loob sa mapang-aping amo.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "isinabi"
+      },
+      {
+        "id": "B",
+        "text": "inilahad"
+      },
+      {
+        "id": "C",
+        "text": "isinigaw"
+      },
+      {
+        "id": "D",
+        "text": "ibinulgar"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-006",
+    "subject": "Filipino",
+    "prompt": "Iminungkuhi ang pagbabawal magtapon ng basura sa di-wastong lugar.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ipinanukala"
+      },
+      {
+        "id": "B",
+        "text": "inilahad"
+      },
+      {
+        "id": "C",
+        "text": "isiniwalat"
+      },
+      {
+        "id": "D",
+        "text": "kinalat"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-007",
+    "subject": "Filipino",
+    "prompt": "Madalas silang mapaaway dahil sa kanilang kapalaluan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "kalabisan"
+      },
+      {
+        "id": "B",
+        "text": "kayabangan"
+      },
+      {
+        "id": "C",
+        "text": "kagandahan"
+      },
+      {
+        "id": "D",
+        "text": "kasinungalingan"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-008",
+    "subject": "Filipino",
+    "prompt": "Pakiramdam niya ay labis-labis ang kanyang suliranin kung kaya siya ay naliligalig.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "matalino"
+      },
+      {
+        "id": "B",
+        "text": "masaya"
+      },
+      {
+        "id": "C",
+        "text": "magulo ang isip"
+      },
+      {
+        "id": "D",
+        "text": "malinaw ang isip"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-009",
+    "subject": "Filipino",
+    "prompt": "Maalwan lamang ang nararapat na dalahin ng isang bata.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "magaan"
+      },
+      {
+        "id": "B",
+        "text": "maganda"
+      },
+      {
+        "id": "C",
+        "text": "malaki"
+      },
+      {
+        "id": "D",
+        "text": "maliit"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-010",
+    "subject": "Filipino",
+    "prompt": "Sa palihan nagagawa ang mga itak, espada at iba pang yari sa bakal.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "palikuran"
+      },
+      {
+        "id": "B",
+        "text": "pamilihang-bayan"
+      },
+      {
+        "id": "C",
+        "text": "palengke"
+      },
+      {
+        "id": "D",
+        "text": "pandayan"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-011",
+    "subject": "Filipino",
+    "prompt": "Hindi mo dapat gawing katuwaan ang pagkutya sa kapwa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pagsumbong"
+      },
+      {
+        "id": "B",
+        "text": "paglibak"
+      },
+      {
+        "id": "C",
+        "text": "pagtampo"
+      },
+      {
+        "id": "D",
+        "text": "pagkurot"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-012",
+    "subject": "Filipino",
+    "prompt": "Ang pag-eensayo ng banda ay nakabubulahaw.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nakaiinis"
+      },
+      {
+        "id": "B",
+        "text": "nakagugulo"
+      },
+      {
+        "id": "C",
+        "text": "nakatutuwa"
+      },
+      {
+        "id": "D",
+        "text": "nakababahala"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-013",
+    "subject": "Filipino",
+    "prompt": "Dapat kang magkamal ng salapi sa mabuting paraan lamang.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "magmana"
+      },
+      {
+        "id": "B",
+        "text": "magnakaw"
+      },
+      {
+        "id": "C",
+        "text": "magtamasa"
+      },
+      {
+        "id": "D",
+        "text": "maghanda"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-014",
+    "subject": "Filipino",
+    "prompt": "Ilan taon ding siniil ng mga dayuhan ang mga Pilipino.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "tinago"
+      },
+      {
+        "id": "B",
+        "text": "inapi"
+      },
+      {
+        "id": "C",
+        "text": "tinimpi"
+      },
+      {
+        "id": "D",
+        "text": "pinalaya"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-015",
+    "subject": "Filipino",
+    "prompt": "Ang anumang alitan ay di dapat hayaang magtagal.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "proyekto"
+      },
+      {
+        "id": "B",
+        "text": "pagkakaibigan"
+      },
+      {
+        "id": "C",
+        "text": "hiniram"
+      },
+      {
+        "id": "D",
+        "text": "bangayan"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-016",
+    "subject": "Filipino",
+    "prompt": "Laganap ang krisis kaya tayo ay dapat magtipid.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "kalat"
+      },
+      {
+        "id": "B",
+        "text": "kapos"
+      },
+      {
+        "id": "C",
+        "text": "limitado"
+      },
+      {
+        "id": "D",
+        "text": "pantay"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-017",
+    "subject": "Filipino",
+    "prompt": "Madaling nababalino sa lihis na gawain ang mga kabataang laki sa langsangan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "natutuwa"
+      },
+      {
+        "id": "B",
+        "text": "namamalik-mata"
+      },
+      {
+        "id": "C",
+        "text": "nagaganyak"
+      },
+      {
+        "id": "D",
+        "text": "nakaiiwas"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-018",
+    "subject": "Filipino",
+    "prompt": "Maraming himutok ang mga mangagawa laban sa kanilang kumpanya gaya ng di pagtaas ng kanilang sahod.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nais"
+      },
+      {
+        "id": "B",
+        "text": "balakid"
+      },
+      {
+        "id": "C",
+        "text": "kilos"
+      },
+      {
+        "id": "D",
+        "text": "reklamo"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-019",
+    "subject": "Filipino",
+    "prompt": "Walang minimithi ang iyong magulang kung di ang mabigyan ka ng magandang kinabukasan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "dinadalangin"
+      },
+      {
+        "id": "B",
+        "text": "ninanais"
+      },
+      {
+        "id": "C",
+        "text": "ikinatutuwa"
+      },
+      {
+        "id": "D",
+        "text": "tinitiis"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-020",
+    "subject": "Filipino",
+    "prompt": "Iwasang sumugba sa alanganin.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "sumugod"
+      },
+      {
+        "id": "B",
+        "text": "tumigil"
+      },
+      {
+        "id": "C",
+        "text": "lumayo"
+      },
+      {
+        "id": "D",
+        "text": "lumapit"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-021",
+    "subject": "Filipino",
+    "prompt": "Huwag mong pukawin ang batang nahihimlay.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "libangin"
+      },
+      {
+        "id": "B",
+        "text": "palayain"
+      },
+      {
+        "id": "C",
+        "text": "pigilin"
+      },
+      {
+        "id": "D",
+        "text": "gisingin"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-022",
+    "subject": "Filipino",
+    "prompt": "Hindi ka dapat magmaktol kung ika’y napagsasabihan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "umiyak"
+      },
+      {
+        "id": "B",
+        "text": "magtampo"
+      },
+      {
+        "id": "C",
+        "text": "magdabog"
+      },
+      {
+        "id": "D",
+        "text": "lumayas"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-023",
+    "subject": "Filipino",
+    "prompt": "Tuwing Marso, ang puno ng mangga ay namumutiktik sa bunga.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "maraming-marami"
+      },
+      {
+        "id": "B",
+        "text": "bilang na bilang"
+      },
+      {
+        "id": "C",
+        "text": "kakaunti"
+      },
+      {
+        "id": "D",
+        "text": "malalaki"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-024",
+    "subject": "Filipino",
+    "prompt": "Kumipot ang Maynila sa dami ng taong naninirahan dito.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "lumuwag"
+      },
+      {
+        "id": "B",
+        "text": "lumaki"
+      },
+      {
+        "id": "C",
+        "text": "sumikip"
+      },
+      {
+        "id": "D",
+        "text": "lumiit"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-025",
+    "subject": "Filipino",
+    "prompt": "Patang-pata siya nang marating ang tuktok ng bundok Apo.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pagod na pagod"
+      },
+      {
+        "id": "B",
+        "text": "masiglang-masigla"
+      },
+      {
+        "id": "C",
+        "text": "masayang-masaya"
+      },
+      {
+        "id": "D",
+        "text": "hinayang na hinayang Panuto: Piliin ang salitang kasalungat ng salitang nakapahilig (italicized)."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-026",
+    "subject": "Filipino",
+    "prompt": "Ang pag-iibigan nina Florante at Laura ay matimyas.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "di-magmamaliw"
+      },
+      {
+        "id": "B",
+        "text": "di-totoo"
+      },
+      {
+        "id": "C",
+        "text": "dalisay"
+      },
+      {
+        "id": "D",
+        "text": "wagas"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-027",
+    "subject": "Filipino",
+    "prompt": "Nilalagyan ng pataba ang halaman upang ito’y yumabong.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "lumago"
+      },
+      {
+        "id": "B",
+        "text": "dumami"
+      },
+      {
+        "id": "C",
+        "text": "malanta"
+      },
+      {
+        "id": "D",
+        "text": "lumiit"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-028",
+    "subject": "Filipino",
+    "prompt": "Namamasyal siya sa parke upang mapawi ang lumbay.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "galak"
+      },
+      {
+        "id": "B",
+        "text": "lungkok"
+      },
+      {
+        "id": "C",
+        "text": "sama ng loob"
+      },
+      {
+        "id": "D",
+        "text": "gulat"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-029",
+    "subject": "Filipino",
+    "prompt": "Hinintay namin ang pagdaong ng 2GO na barko upang salubungin si Ate.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pag-alis"
+      },
+      {
+        "id": "B",
+        "text": "paglapag"
+      },
+      {
+        "id": "C",
+        "text": "paghimpil"
+      },
+      {
+        "id": "D",
+        "text": "pagtigil"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-030",
+    "subject": "Filipino",
+    "prompt": "Palasak na ang paggamit ng kompyuter.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pambihira"
+      },
+      {
+        "id": "B",
+        "text": "pangkaraniwan"
+      },
+      {
+        "id": "C",
+        "text": "laganap"
+      },
+      {
+        "id": "D",
+        "text": "matipid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-031",
+    "subject": "Filipino",
+    "prompt": "Nabaghan siya nang dumating ang kanyang amang dalawang taong naghanap- buhay sa ibang bansa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nagulat"
+      },
+      {
+        "id": "B",
+        "text": "nagtaka"
+      },
+      {
+        "id": "C",
+        "text": "nainis"
+      },
+      {
+        "id": "D",
+        "text": "nahimatay"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-032",
+    "subject": "Filipino",
+    "prompt": "Huwag mong ugaliin ang umalipusta ng iyong kapwa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "laitin"
+      },
+      {
+        "id": "B",
+        "text": "purihin"
+      },
+      {
+        "id": "C",
+        "text": "kagalitan"
+      },
+      {
+        "id": "D",
+        "text": "bastusin"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-033",
+    "subject": "Filipino",
+    "prompt": "Pahapay na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "paunlad"
+      },
+      {
+        "id": "B",
+        "text": "tagilid"
+      },
+      {
+        "id": "C",
+        "text": "pabagsak"
+      },
+      {
+        "id": "D",
+        "text": "pasara"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-034",
+    "subject": "Filipino",
+    "prompt": "Makapal at magalas ang palad ng mga mason at karpintero.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mabuto"
+      },
+      {
+        "id": "B",
+        "text": "magaspang"
+      },
+      {
+        "id": "C",
+        "text": "maliksi"
+      },
+      {
+        "id": "D",
+        "text": "makinis"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-035",
+    "subject": "Filipino",
+    "prompt": "Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mahirap"
+      },
+      {
+        "id": "B",
+        "text": "magulo"
+      },
+      {
+        "id": "C",
+        "text": "maayos"
+      },
+      {
+        "id": "D",
+        "text": "malungkot"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-036",
+    "subject": "Filipino",
+    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "binalutan"
+      },
+      {
+        "id": "B",
+        "text": "tinakpan"
+      },
+      {
+        "id": "C",
+        "text": "dinamitan"
+      },
+      {
+        "id": "D",
+        "text": "hinubaran"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-037",
+    "subject": "Filipino",
+    "prompt": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap mo.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "suwail"
+      },
+      {
+        "id": "B",
+        "text": "matapat"
+      },
+      {
+        "id": "C",
+        "text": "hunghang"
+      },
+      {
+        "id": "D",
+        "text": "matalino"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-038",
+    "subject": "Filipino",
+    "prompt": "Tila walang kapaguran ang mabungalngal na bibig ni Lina.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "tahimik"
+      },
+      {
+        "id": "B",
+        "text": "masalita"
+      },
+      {
+        "id": "C",
+        "text": "madaldal"
+      },
+      {
+        "id": "D",
+        "text": "masakit"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-039",
+    "subject": "Filipino",
+    "prompt": "Napakukupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "napakabilis"
+      },
+      {
+        "id": "B",
+        "text": "napakabagal"
+      },
+      {
+        "id": "C",
+        "text": "napakakuyad"
+      },
+      {
+        "id": "D",
+        "text": "napakadali"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-040",
+    "subject": "Filipino",
+    "prompt": "Patuloy na magdarahop ang taong tamad.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "aasenso"
+      },
+      {
+        "id": "B",
+        "text": "maghihikahos"
+      },
+      {
+        "id": "C",
+        "text": "magiging salat"
+      },
+      {
+        "id": "D",
+        "text": "maghihirap"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-041",
+    "subject": "Filipino",
+    "prompt": "Mahirap pakinggan ang sinasabi ng taong garil.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "utal"
+      },
+      {
+        "id": "B",
+        "text": "bulol"
+      },
+      {
+        "id": "C",
+        "text": "matalino"
+      },
+      {
+        "id": "D",
+        "text": "matatas"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-042",
+    "subject": "Filipino",
+    "prompt": "Kumain ka ng masustansyang pagkain nang hindi maging hawas.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "payat"
+      },
+      {
+        "id": "B",
+        "text": "matipuno"
+      },
+      {
+        "id": "C",
+        "text": "manipis"
+      },
+      {
+        "id": "D",
+        "text": "sakitin"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-043",
+    "subject": "Filipino",
+    "prompt": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong magbigay sa nangangailangan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "waldas"
+      },
+      {
+        "id": "B",
+        "text": "kuripot"
+      },
+      {
+        "id": "C",
+        "text": "matipid"
+      },
+      {
+        "id": "D",
+        "text": "mapera"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-044",
+    "subject": "Filipino",
+    "prompt": "Hungkag ang bigasan dahil nasira ng bagyo ang mga palay.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "salat"
+      },
+      {
+        "id": "B",
+        "text": "puno"
+      },
+      {
+        "id": "C",
+        "text": "bulok"
+      },
+      {
+        "id": "D",
+        "text": "bago"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-045",
+    "subject": "Filipino",
+    "prompt": "Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nabulok"
+      },
+      {
+        "id": "B",
+        "text": "natuyo"
+      },
+      {
+        "id": "C",
+        "text": "namukadkad"
+      },
+      {
+        "id": "D",
+        "text": "nalaglag"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-046",
+    "subject": "Filipino",
+    "prompt": "Totoo bang walang latoy ang pagkain sa ospital1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "walang lasa"
+      },
+      {
+        "id": "B",
+        "text": "walang sangkap"
+      },
+      {
+        "id": "C",
+        "text": "malasa"
+      },
+      {
+        "id": "D",
+        "text": "kakaunti"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-047",
+    "subject": "Filipino",
+    "prompt": "Hindi nilubayan ng mga manunulat ang pagtatanong sa panauhing pandangal.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "tinigilan"
+      },
+      {
+        "id": "B",
+        "text": "iniwasan"
+      },
+      {
+        "id": "C",
+        "text": "dinikitan"
+      },
+      {
+        "id": "D",
+        "text": "pinagpatuloy"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-048",
+    "subject": "Filipino",
+    "prompt": "Ang mga tirahan ng mayayaman ay maagwat sa isa’t isa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hiwa-hiwalay"
+      },
+      {
+        "id": "B",
+        "text": "magkakadikit"
+      },
+      {
+        "id": "C",
+        "text": "layo-layo"
+      },
+      {
+        "id": "D",
+        "text": "maliliit"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-049",
+    "subject": "Filipino",
+    "prompt": "Maantak ang sugat kapag napatakan ng kalamansi.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "malaki"
+      },
+      {
+        "id": "B",
+        "text": "maliit"
+      },
+      {
+        "id": "C",
+        "text": "manhid"
+      },
+      {
+        "id": "D",
+        "text": "mahapdi"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-050",
+    "subject": "Filipino",
+    "prompt": "Tunay na mabalasik ang leon at ang tigre.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "maamo"
+      },
+      {
+        "id": "B",
+        "text": "matapang"
+      },
+      {
+        "id": "C",
+        "text": "masungit"
+      },
+      {
+        "id": "D",
+        "text": "maliit Kawikaan Panuto: Piliin ang salitang kasingkahulugan ng salitang nakapahilig (italicized)."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-051",
+    "subject": "Filipino",
+    "prompt": "Nag-alsa balutan ang katulong sa bahay dahil sa kalupitan ng kanyang amo.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nagtampo"
+      },
+      {
+        "id": "B",
+        "text": "lumayas"
+      },
+      {
+        "id": "C",
+        "text": "nagtago"
+      },
+      {
+        "id": "D",
+        "text": "nagmaktol"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-052",
+    "subject": "Filipino",
+    "prompt": "Hindi totoo ang kanyang katapangan sapagkat bahag ang buntot niya sa harap ng paghihirap.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "malakas ang loob"
+      },
+      {
+        "id": "B",
+        "text": "matapang"
+      },
+      {
+        "id": "C",
+        "text": "duwag"
+      },
+      {
+        "id": "D",
+        "text": "matiyaga"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-053",
+    "subject": "Filipino",
+    "prompt": "Dahil sa paulit-ulit na pagsisinungaling, basa ang papel niya sa karamihan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ayaw nang paniwalaan"
+      },
+      {
+        "id": "B",
+        "text": "ayaw nang pagbigyan"
+      },
+      {
+        "id": "C",
+        "text": "ayaw nang pakinggan"
+      },
+      {
+        "id": "D",
+        "text": "ayaw nang makasama"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-054",
+    "subject": "Filipino",
+    "prompt": "Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang mabuti.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "tuwang-tuwa"
+      },
+      {
+        "id": "B",
+        "text": "galit na galit"
+      },
+      {
+        "id": "C",
+        "text": "lungkot na lungkot"
+      },
+      {
+        "id": "D",
+        "text": "nakapapaso"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-055",
+    "subject": "Filipino",
+    "prompt": "Di-mahapayang gatang ang pagpapalitan ng kuru-kuro ng mga mambabatas.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hindi maumpisahan"
+      },
+      {
+        "id": "B",
+        "text": "hindi magulo"
+      },
+      {
+        "id": "C",
+        "text": "hindi masaya"
+      },
+      {
+        "id": "D",
+        "text": "hindi maawat"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-056",
+    "subject": "Filipino",
+    "prompt": "Noong panahon ng pananakop ng Kastila, ang mga Pilipino ay hawak sa tainga ng mga ito.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "sunud-sunuran"
+      },
+      {
+        "id": "B",
+        "text": "katuwang"
+      },
+      {
+        "id": "C",
+        "text": "kakampi"
+      },
+      {
+        "id": "D",
+        "text": "alipin"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-057",
+    "subject": "Filipino",
+    "prompt": "Mabulaklak ang landas ng taong masikap.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "malabo ang kinabukasan"
+      },
+      {
+        "id": "B",
+        "text": "makulay ang kinabukasan"
+      },
+      {
+        "id": "C",
+        "text": "magulo ang kinabukasan"
+      },
+      {
+        "id": "D",
+        "text": "maganda ang kinabukasan"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-058",
+    "subject": "Filipino",
+    "prompt": "Maliit ang sisidlan ni Mhon kaya iniiwasan siyang biruin.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "walang lakas-loob"
+      },
+      {
+        "id": "B",
+        "text": "walang galang"
+      },
+      {
+        "id": "C",
+        "text": "walang malay"
+      },
+      {
+        "id": "D",
+        "text": "walang pasensiya"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-059",
+    "subject": "Filipino",
+    "prompt": "Mahilig kasing magbasa kahit sa madilim si Tina kaya siya ay nagmamatang- manok.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "lumiliit ang mgata"
+      },
+      {
+        "id": "B",
+        "text": "malabo ang mata"
+      },
+      {
+        "id": "C",
+        "text": "lumuluwa ang mata"
+      },
+      {
+        "id": "D",
+        "text": "kumikislap ang mata"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-060",
+    "subject": "Filipino",
+    "prompt": "Kung minsan, inggit ang nagiging dahilan sa pagsasaulian ng kandila.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pagkasira ng tiwala"
+      },
+      {
+        "id": "B",
+        "text": "pagkasira ng pamilya"
+      },
+      {
+        "id": "C",
+        "text": "pagkasira ng pagkakaibigan"
+      },
+      {
+        "id": "D",
+        "text": "pagkasira ng lipunan"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-061",
+    "subject": "Filipino",
+    "prompt": "Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong kadahilanan kaya siya mapagbigay.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "taos-puso"
+      },
+      {
+        "id": "B",
+        "text": "pakunwari"
+      },
+      {
+        "id": "C",
+        "text": "pasikreto"
+      },
+      {
+        "id": "D",
+        "text": "sapilitan"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-062",
+    "subject": "Filipino",
+    "prompt": "Tiklop-tuhod ang akusado na siya ay patawarin ng biktima.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nagkukunwari"
+      },
+      {
+        "id": "B",
+        "text": "nananakot"
+      },
+      {
+        "id": "C",
+        "text": "nagmamamakawa"
+      },
+      {
+        "id": "D",
+        "text": "gumagapang"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-063",
+    "subject": "Filipino",
+    "prompt": "Ni ayaw man lamang humarap sa tao ang talo-saling na si Eula.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "masungit"
+      },
+      {
+        "id": "B",
+        "text": "isnabera"
+      },
+      {
+        "id": "C",
+        "text": "mahiyain"
+      },
+      {
+        "id": "D",
+        "text": "pangit"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-064",
+    "subject": "Filipino",
+    "prompt": "Di dapat tularan ang mga taong walang kusang-palo.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "walang kusang-loob"
+      },
+      {
+        "id": "B",
+        "text": "walang bait sa sarili"
+      },
+      {
+        "id": "C",
+        "text": "walang nalalaman"
+      },
+      {
+        "id": "D",
+        "text": "walang direksiyon"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-065",
+    "subject": "Filipino",
+    "prompt": "Hindi tama ang ika’y walang lingon-likod. Dapat ay suklian ang kabutihan ng iba sa iyo.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mayabang"
+      },
+      {
+        "id": "B",
+        "text": "mapagmataas"
+      },
+      {
+        "id": "C",
+        "text": "walang utang na loob"
+      },
+      {
+        "id": "D",
+        "text": "walang pagkakautang"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-066",
+    "subject": "Filipino",
+    "prompt": "Makapigil-hininga ang pelikulang Muro Ami.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nakasasabik"
+      },
+      {
+        "id": "B",
+        "text": "nakaaantok"
+      },
+      {
+        "id": "C",
+        "text": "nakaiinis"
+      },
+      {
+        "id": "D",
+        "text": "nakasusuya"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-067",
+    "subject": "Filipino",
+    "prompt": "Halang ang kaluluwa ng taong gumagawa ng karumal-dumal na krimen.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mabait"
+      },
+      {
+        "id": "B",
+        "text": "bastos"
+      },
+      {
+        "id": "C",
+        "text": "maitim ang budhi"
+      },
+      {
+        "id": "D",
+        "text": "matapang"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-068",
+    "subject": "Filipino",
+    "prompt": "Di-maliparan ng uwak ang lupain ng mga Aquino sa Tarlac.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "napakaliit"
+      },
+      {
+        "id": "B",
+        "text": "napakalawak"
+      },
+      {
+        "id": "C",
+        "text": "nakapakadami"
+      },
+      {
+        "id": "D",
+        "text": "napakasikip"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-069",
+    "subject": "Filipino",
+    "prompt": "Makunat pa sa patola si Lola Rosa kaya uugud-ugod na.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "masayahin pa"
+      },
+      {
+        "id": "B",
+        "text": "masigla pa"
+      },
+      {
+        "id": "C",
+        "text": "mukhang bata"
+      },
+      {
+        "id": "D",
+        "text": "napakatanda na"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-070",
+    "subject": "Filipino",
+    "prompt": "Nilubugan ng araw ang mga taong nasalanta ng bagyo ang mga tirahan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nawalan ng pag-asa"
+      },
+      {
+        "id": "B",
+        "text": "dumilim ang paligid"
+      },
+      {
+        "id": "C",
+        "text": "naputulan ng kuryente"
+      },
+      {
+        "id": "D",
+        "text": "naghirap"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-071",
+    "subject": "Filipino",
+    "prompt": "Hindi mo matatagpuan sa kanilang bahay si Cecile, palibhasa ay may puyo sa talampakan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mahilig matulog"
+      },
+      {
+        "id": "B",
+        "text": "mahilig mamasyal"
+      },
+      {
+        "id": "C",
+        "text": "mahilig tumakbo"
+      },
+      {
+        "id": "D",
+        "text": "mahilig mag-aral"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-072",
+    "subject": "Filipino",
+    "prompt": "Binata na si JB kaya siya ay naniningalang-pugad na.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ninigarilyo"
+      },
+      {
+        "id": "B",
+        "text": "nababarkada"
+      },
+      {
+        "id": "C",
+        "text": "nanliligaw"
+      },
+      {
+        "id": "D",
+        "text": "naninirahan nang mag- isa"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-073",
+    "subject": "Filipino",
+    "prompt": "Malimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang dila.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pikon"
+      },
+      {
+        "id": "B",
+        "text": "walang pakialam"
+      },
+      {
+        "id": "C",
+        "text": "masakit magsalita"
+      },
+      {
+        "id": "D",
+        "text": "masayahin"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-074",
+    "subject": "Filipino",
+    "prompt": "Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang kanyang bulsa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "sira ang pantalon"
+      },
+      {
+        "id": "B",
+        "text": "walang pera"
+      },
+      {
+        "id": "C",
+        "text": "nagtitipid"
+      },
+      {
+        "id": "D",
+        "text": "walang panahon"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-075",
+    "subject": "Filipino",
+    "prompt": "Si Karl ay nagtataingang-kawali. Animo’y wala siyang naririnig kahit tinatawag na.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "matigas ang tainga"
+      },
+      {
+        "id": "B",
+        "text": "mahina ang pandinig"
+      },
+      {
+        "id": "C",
+        "text": "barado ang tainga"
+      },
+      {
+        "id": "D",
+        "text": "nagbibingi-bingihan Panuto: Piliin ang titik ng salitang angkop sa patlang."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-076",
+    "subject": "Filipino",
+    "prompt": "Katungkulan ________ sinuman ang tumulong sa kanyang kapwa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nang"
+      },
+      {
+        "id": "B",
+        "text": "ng"
+      },
+      {
+        "id": "C",
+        "text": "namin"
+      },
+      {
+        "id": "D",
+        "text": "natin"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-077",
+    "subject": "Filipino",
+    "prompt": "________ ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Isinulat"
+      },
+      {
+        "id": "B",
+        "text": "Isinabi"
+      },
+      {
+        "id": "C",
+        "text": "Sinulat"
+      },
+      {
+        "id": "D",
+        "text": "Sinabi"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-078",
+    "subject": "Filipino",
+    "prompt": "Ang ________ ng mga manlalaro ay dininig ng komite kahapon.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pakiusapan"
+      },
+      {
+        "id": "B",
+        "text": "pakikipag-usap"
+      },
+      {
+        "id": "C",
+        "text": "ipakiusap"
+      },
+      {
+        "id": "D",
+        "text": "pakiusap"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-079",
+    "subject": "Filipino",
+    "prompt": "Nagulat ang mga tao ________ mabalitaan ang kaguluhang nagaganap sa Mindanao.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nang"
+      },
+      {
+        "id": "B",
+        "text": "ng"
+      },
+      {
+        "id": "C",
+        "text": "noon"
+      },
+      {
+        "id": "D",
+        "text": "datapwat"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-080",
+    "subject": "Filipino",
+    "prompt": "________ mo si Chin ng damit sa kabinet.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Kunin"
+      },
+      {
+        "id": "B",
+        "text": "Utusan"
+      },
+      {
+        "id": "C",
+        "text": "Hanapan"
+      },
+      {
+        "id": "D",
+        "text": "Hanapin"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-081",
+    "subject": "Filipino",
+    "prompt": "________ suliranin ng pagtaas ng presyo ng gasolina ang pinakapaksa ng pulong sa kasalukuyan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Hinggil kay"
+      },
+      {
+        "id": "B",
+        "text": "Ayon kay"
+      },
+      {
+        "id": "C",
+        "text": "Hinggil sa"
+      },
+      {
+        "id": "D",
+        "text": "Ayon sa"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-082",
+    "subject": "Filipino",
+    "prompt": "Ang paglalakbay ________ Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ni"
+      },
+      {
+        "id": "B",
+        "text": "daw"
+      },
+      {
+        "id": "C",
+        "text": "sa"
+      },
+      {
+        "id": "D",
+        "text": "para kay"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-083",
+    "subject": "Filipino",
+    "prompt": "Ang pagkakalat o pagtatapon sa kung saan-saan ay ________ batas.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "sang-ayon"
+      },
+      {
+        "id": "B",
+        "text": "hinggil sa"
+      },
+      {
+        "id": "C",
+        "text": "laban sa"
+      },
+      {
+        "id": "D",
+        "text": "labag sa"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-084",
+    "subject": "Filipino",
+    "prompt": "Pinatay ________ mga Hapones si Jose Abad Santos nang tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "namin"
+      },
+      {
+        "id": "B",
+        "text": "ng"
+      },
+      {
+        "id": "C",
+        "text": "nang"
+      },
+      {
+        "id": "D",
+        "text": "noong"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-085",
+    "subject": "Filipino",
+    "prompt": "________ mo naman sa kanila na magdala ng mapagsasaluhan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Usapin"
+      },
+      {
+        "id": "B",
+        "text": "Usap-Usapan"
+      },
+      {
+        "id": "C",
+        "text": "Ipakiusap"
+      },
+      {
+        "id": "D",
+        "text": "Pakiusap"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-086",
+    "subject": "Filipino",
+    "prompt": "________ G. at Gng. Reyes, matagal na nilang pinag-iipunan ang pangtustos sa pag-aaral mo sa kolehiyo.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ayon sa"
+      },
+      {
+        "id": "B",
+        "text": "Ayon kay"
+      },
+      {
+        "id": "C",
+        "text": "Ayon kina"
+      },
+      {
+        "id": "D",
+        "text": "Sang-ayon kina"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-087",
+    "subject": "Filipino",
+    "prompt": "________ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Winika"
+      },
+      {
+        "id": "B",
+        "text": "Sinulatan"
+      },
+      {
+        "id": "C",
+        "text": "Isinabi"
+      },
+      {
+        "id": "D",
+        "text": "Nalaman"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-088",
+    "subject": "Filipino",
+    "prompt": "Dumating ang Lola ________ kami’y nagdiwang",
+    "choices": [
+      {
+        "id": "A",
+        "text": "kaya"
+      },
+      {
+        "id": "B",
+        "text": "kung"
+      },
+      {
+        "id": "C",
+        "text": "marahil"
+      },
+      {
+        "id": "D",
+        "text": "siguro"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-089",
+    "subject": "Filipino",
+    "prompt": "Ang pagbabara ng mga estero ay dulot ________ walang pakundangang pagtatapon ng basura.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "rin"
+      },
+      {
+        "id": "B",
+        "text": "ng"
+      },
+      {
+        "id": "C",
+        "text": "natin"
+      },
+      {
+        "id": "D",
+        "text": "nila"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-090",
+    "subject": "Filipino",
+    "prompt": "________ maaari ay magtipid tayo nang husto.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Kung"
+      },
+      {
+        "id": "B",
+        "text": "Dahil"
+      },
+      {
+        "id": "C",
+        "text": "Bagamat"
+      },
+      {
+        "id": "D",
+        "text": "Mandin"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-091",
+    "subject": "Filipino",
+    "prompt": "Mapadali ang ating gawain ________ tayo ay magtutulung-tulungan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "upang"
+      },
+      {
+        "id": "B",
+        "text": "kung"
+      },
+      {
+        "id": "C",
+        "text": "kahit"
+      },
+      {
+        "id": "D",
+        "text": "ngunit"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-092",
+    "subject": "Filipino",
+    "prompt": "Masaya sila ________ napakaraming pagsubok ang dumarating sa kanilang pamilya.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "sapagkat"
+      },
+      {
+        "id": "B",
+        "text": "marahil"
+      },
+      {
+        "id": "C",
+        "text": "kahit"
+      },
+      {
+        "id": "D",
+        "text": "kung"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-093",
+    "subject": "Filipino",
+    "prompt": "________ pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Bagaman"
+      },
+      {
+        "id": "B",
+        "text": "Maliban"
+      },
+      {
+        "id": "C",
+        "text": "Samakatwid"
+      },
+      {
+        "id": "D",
+        "text": "Maging"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-094",
+    "subject": "Filipino",
+    "prompt": "Patuloy tayong maghahalinhinan sa pagroronda ________ di pa nahuhuli ang magnanakaw.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "samantala"
+      },
+      {
+        "id": "B",
+        "text": "hanggang"
+      },
+      {
+        "id": "C",
+        "text": "palibhasa"
+      },
+      {
+        "id": "D",
+        "text": "bagaman"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-095",
+    "subject": "Filipino",
+    "prompt": "Nagtatalon sa tuwa si Regina ________ mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "subalit"
+      },
+      {
+        "id": "B",
+        "text": "disin sana’y"
+      },
+      {
+        "id": "C",
+        "text": "nang"
+      },
+      {
+        "id": "D",
+        "text": "ng"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-096",
+    "subject": "Filipino",
+    "prompt": "Hindi maaaring ibilanggo ang sino man dahil ________ kanyang pagkakautang.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "na"
+      },
+      {
+        "id": "B",
+        "text": "ng"
+      },
+      {
+        "id": "C",
+        "text": "nang"
+      },
+      {
+        "id": "D",
+        "text": "sa"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-097",
+    "subject": "Filipino",
+    "prompt": "Nagpapatugtog sila ________ awiting Pilipino.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "sa"
+      },
+      {
+        "id": "B",
+        "text": "nang"
+      },
+      {
+        "id": "C",
+        "text": "ng"
+      },
+      {
+        "id": "D",
+        "text": "na"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-098",
+    "subject": "Filipino",
+    "prompt": "Ang ________ ng mga mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "usapin"
+      },
+      {
+        "id": "B",
+        "text": "pakiusapan"
+      },
+      {
+        "id": "C",
+        "text": "ipakiusap"
+      },
+      {
+        "id": "D",
+        "text": "pakiusap"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-099",
+    "subject": "Filipino",
+    "prompt": "Hindi ________ nabibigyang lunas ang sakit na AIDS sa ngayon.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pa"
+      },
+      {
+        "id": "B",
+        "text": "na"
+      },
+      {
+        "id": "C",
+        "text": "sa"
+      },
+      {
+        "id": "D",
+        "text": "ka"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-100",
+    "subject": "Filipino",
+    "prompt": "________ bang suliranin na hindi kayang lutasin1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "May"
+      },
+      {
+        "id": "B",
+        "text": "Mayroon"
+      },
+      {
+        "id": "C",
+        "text": "Sino"
+      },
+      {
+        "id": "D",
+        "text": "Anong"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-101",
+    "subject": "Filipino",
+    "prompt": "________ patimpalak sa Balagtasan na gaganapin sa plasa.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "May"
+      },
+      {
+        "id": "B",
+        "text": "Mayroon"
+      },
+      {
+        "id": "C",
+        "text": "Anong"
+      },
+      {
+        "id": "D",
+        "text": "Bakit"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-102",
+    "subject": "Filipino",
+    "prompt": "________ ba nagkaroon ng isang bulkan1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sino"
+      },
+      {
+        "id": "B",
+        "text": "Alin"
+      },
+      {
+        "id": "C",
+        "text": "Ano"
+      },
+      {
+        "id": "D",
+        "text": "Paano"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-103",
+    "subject": "Filipino",
+    "prompt": "________ natin ang ating kapwang nangangailangan ng tulong.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Abutan"
+      },
+      {
+        "id": "B",
+        "text": "Kunin"
+      },
+      {
+        "id": "C",
+        "text": "Abutin"
+      },
+      {
+        "id": "D",
+        "text": "Kunan"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-104",
+    "subject": "Filipino",
+    "prompt": "Huwag mong ________ ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "abutin"
+      },
+      {
+        "id": "B",
+        "text": "abutan"
+      },
+      {
+        "id": "C",
+        "text": "kunin"
+      },
+      {
+        "id": "D",
+        "text": "kunan"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-105",
+    "subject": "Filipino",
+    "prompt": "________ mo ang mabibigat na dalahin ng Inay.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Abutan"
+      },
+      {
+        "id": "B",
+        "text": "Tanawin"
+      },
+      {
+        "id": "C",
+        "text": "Kunin"
+      },
+      {
+        "id": "D",
+        "text": "Kunan Panuto: Basahing mabuti ang bawat pangungusap. Hanapin ang salita o grupo ng mga salitang may salungguhit na di wasto ang gamit. Kung walang mali, piliin ang titik e."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-106",
+    "subject": "Filipino",
+    "prompt": "Ano ang nais mapuntahan ng manunula1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ibon"
+      },
+      {
+        "id": "B",
+        "text": "langit"
+      },
+      {
+        "id": "C",
+        "text": "Anghel"
+      },
+      {
+        "id": "D",
+        "text": "hagdan"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-107",
+    "subject": "Filipino",
+    "prompt": "Ano ang tayutay ng ginamit sa unang dalawang linya ng ikalawang saknong1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pagtutulad"
+      },
+      {
+        "id": "B",
+        "text": "pagwawangis"
+      },
+      {
+        "id": "C",
+        "text": "pagmamalabis"
+      },
+      {
+        "id": "D",
+        "text": "pagbibigay katauhan"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-108",
+    "subject": "Filipino",
+    "prompt": "Sa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang tula1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "unang saknong"
+      },
+      {
+        "id": "B",
+        "text": "ikalawang saknong"
+      },
+      {
+        "id": "C",
+        "text": "ikatlong saknong"
+      },
+      {
+        "id": "D",
+        "text": "walang pangunahing kaisipan"
+      },
+      {
+        "id": "B",
+        "text": "Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan. Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani1/4 Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan1/4 Mula sa Likha IV nina Samonte, et al."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-109",
+    "subject": "Filipino",
+    "prompt": "Aling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pakikiisa sa mga proyekto ng pamayanan."
+      },
+      {
+        "id": "B",
+        "text": "Pagpapanatili ng kapayapaan at katahimikan."
+      },
+      {
+        "id": "C",
+        "text": "Paglilinis ng mga sari-sariling bakuran."
+      },
+      {
+        "id": "D",
+        "text": "Pakikiisa sa kapuwa kabataang may masamang bisyo."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-110",
+    "subject": "Filipino",
+    "prompt": "Paano maiaahon ng kabataan ang bansang Pilipinas sa tiyak na kasawian1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan."
+      },
+      {
+        "id": "B",
+        "text": "Sa pamamagitan ng pagtugon sa kani-kaniyang kagustuhan lamang."
+      },
+      {
+        "id": "C",
+        "text": "Parehong tama ang a at b"
+      },
+      {
+        "id": "D",
+        "text": "Walang tamang sagot."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-111",
+    "subject": "Filipino",
+    "prompt": "Ano ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang huling pangungusap ng talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tuwa sapagkat tunay na pag-asa ng bayan ang kabataan."
+      },
+      {
+        "id": "B",
+        "text": "Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal."
+      },
+      {
+        "id": "C",
+        "text": "Galak dahil patuloy ang kabataan sa pagpapaunlad ng bayan."
+      },
+      {
+        "id": "D",
+        "text": "Dalamhati sapagkat naaalala niya ang kabataan ni Rizal."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-112",
+    "subject": "Filipino",
+    "prompt": "“Ang kabataan ay pag-asa ng bayan.” Ano ang implikasyon ng pangungusap na ito1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Masagana ang bayan"
+      },
+      {
+        "id": "B",
+        "text": "Mapayapa ang bayan"
+      },
+      {
+        "id": "C",
+        "text": "May suliranin ang bayan"
+      },
+      {
+        "id": "D",
+        "text": "May bayani ang bayan"
+      },
+      {
+        "id": "C",
+        "text": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-113",
+    "subject": "Filipino",
+    "prompt": "Ano ang Ixora coccinea L.1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pangalan punungkahoy."
+      },
+      {
+        "id": "B",
+        "text": "Pang-agham na pangalan ng Santan."
+      },
+      {
+        "id": "C",
+        "text": "Pang-agham na pangalan ng prutas."
+      },
+      {
+        "id": "D",
+        "text": "Pang-agham ng pangalanng mga halamang namumulaklak."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-114",
+    "subject": "Filipino",
+    "prompt": "Alin sa mga sumusunod na pangungusap ang wasto1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ang lahat ng Santan ay mabango."
+      },
+      {
+        "id": "B",
+        "text": "Ang Santang pula ay galing sa Tsina."
+      },
+      {
+        "id": "C",
+        "text": "Maraming klase ang Santan ngunit walang malaginto ang kulay."
+      },
+      {
+        "id": "D",
+        "text": "Maaaring ipanggamot ang Santan."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-115",
+    "subject": "Filipino",
+    "prompt": "Anong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "dahon"
+      },
+      {
+        "id": "B",
+        "text": "bulaklak"
+      },
+      {
+        "id": "C",
+        "text": "ugat"
+      },
+      {
+        "id": "D",
+        "text": "sanga"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-116",
+    "subject": "Filipino",
+    "prompt": "Ano ang pinakamabuting pamagat para sa talatang nabasa1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ang Ugat ng Santan"
+      },
+      {
+        "id": "B",
+        "text": "Ang Santan"
+      },
+      {
+        "id": "C",
+        "text": "Ang Santan Bilang Gamot"
+      },
+      {
+        "id": "D",
+        "text": "Mga Uri ng Santan"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-117",
+    "subject": "Filipino",
+    "prompt": "Alin sa mga sumusunod ang wastong gamit ng solusyon mula sa pinakulong ugat ng santan1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Maaaring pampagana ng pagkain"
+      },
+      {
+        "id": "B",
+        "text": "Maaaring pantapal sa pilay"
+      },
+      {
+        "id": "C",
+        "text": "Maaaring gawing palamuti"
+      },
+      {
+        "id": "D",
+        "text": "Maaaring pang-alis ng eksema at galis"
+      },
+      {
+        "id": "D",
+        "text": "Bakit mahalaga ang pagbabasa sa ating buhay1/4 Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao. Sa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan. Dagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-118",
+    "subject": "Filipino",
+    "prompt": "Ano ang pangunahing diwa ng seleksiyon1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ang bilang ng nababasa"
+      },
+      {
+        "id": "B",
+        "text": "Ang kahalagahan ng aklat"
+      },
+      {
+        "id": "C",
+        "text": "Ang kahalagahan ng pagbabasa"
+      },
+      {
+        "id": "D",
+        "text": "Ang hirap ng pagbabasa"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-119",
+    "subject": "Filipino",
+    "prompt": "Bakit mahalaga ang pagbabasa1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sapagkat sa halos lahat ng gawain, kasangkot ang pagbabasa."
+      },
+      {
+        "id": "B",
+        "text": "Sapagkat mararating ang daigdig ng pangarap sa pagbabasa."
+      },
+      {
+        "id": "C",
+        "text": "Lahat ng nabanaggit sa tama."
+      },
+      {
+        "id": "D",
+        "text": "Walang tamang sagot."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-120",
+    "subject": "Filipino",
+    "prompt": "Ano ang pinakamainam na pamagat ng nabasa1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ang Kahalagahan ng Pagbabasa"
+      },
+      {
+        "id": "B",
+        "text": "Pagbabasa at Kaunlaran"
+      },
+      {
+        "id": "C",
+        "text": "Pagbabasa ng mga Pilipino"
+      },
+      {
+        "id": "D",
+        "text": "Sa Makulay na Mundo ng Pagbabasa"
+      },
+      {
+        "id": "E",
+        "text": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag- asam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin. Hango sa: Gamiting Pilipino nina Buensuceso, et al."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-121",
+    "subject": "Filipino",
+    "prompt": "Ano ang paksang pangungusap sa talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nakikita sa mata ang iba’t ibang emosyon."
+      },
+      {
+        "id": "B",
+        "text": "Ito ang salamin sa kaluluwa ng tao."
+      },
+      {
+        "id": "C",
+        "text": "Sa pamamagitan nito, nakapagpapahayag siya ng damdamin."
+      },
+      {
+        "id": "D",
+        "text": "Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-122",
+    "subject": "Filipino",
+    "prompt": "Ano ang pinakamainam sa pamagat sa talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ang Mga Emosyon sa Mata"
+      },
+      {
+        "id": "B",
+        "text": "Mata: Bahagi ng Mukha"
+      },
+      {
+        "id": "C",
+        "text": "Ang Iba’t Ibang Gamit ng Mata"
+      },
+      {
+        "id": "D",
+        "text": "Mga Sakit sa Mata"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-123",
+    "subject": "Filipino",
+    "prompt": "Alin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nagpapahiwatig ng emosyon"
+      },
+      {
+        "id": "B",
+        "text": "nagpapakita ng matinding karamdaman"
+      },
+      {
+        "id": "C",
+        "text": "nagbabadya ng galit"
+      },
+      {
+        "id": "D",
+        "text": "nanunukso"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-124",
+    "subject": "Filipino",
+    "prompt": "Paano nagbago ang pananaw ng tao hinggil sa mga mata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon."
+      },
+      {
+        "id": "B",
+        "text": "Natuklasan nila na ang mata ay nakikitaan ng sakit."
+      },
+      {
+        "id": "C",
+        "text": "Natuklasan nila na ang mata ay maaaring mabulag."
+      },
+      {
+        "id": "D",
+        "text": "Natutuhan nila na may palamuti para sa mga mata."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-125",
+    "subject": "Filipino",
+    "prompt": "Anong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mapungay na mata"
+      },
+      {
+        "id": "B",
+        "text": "matang nagsusumamo"
+      },
+      {
+        "id": "C",
+        "text": "nanlilisik na mata"
+      },
+      {
+        "id": "D",
+        "text": "matambaka F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang 1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-126",
+    "subject": "Filipino",
+    "prompt": "Tungkol saan ang grapong nabasa1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pinakamataas na pasahod sa Maynila sa iba’t ibang taon."
+      },
+      {
+        "id": "B",
+        "text": "Pinakamababang pasahod sa Maynila sa iba’t ibang taon."
+      },
+      {
+        "id": "C",
+        "text": "Regional Triparite Wages and Productivity Board"
+      },
+      {
+        "id": "D",
+        "text": "Bilang ng mga mangagawang napasahod sa iba’t ibang taon."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking.",
+    "image": "/question-images/csc11-page-130.png"
+  },
+  {
+    "id": "fi-127",
+    "subject": "Filipino",
+    "prompt": "Gaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 19961/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "₱78.50"
+      },
+      {
+        "id": "B",
+        "text": "₱38.50"
+      },
+      {
+        "id": "C",
+        "text": "₱388.50"
+      },
+      {
+        "id": "D",
+        "text": "₱58.50"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking.",
+    "image": "/question-images/csc11-page-130.png"
+  },
+  {
+    "id": "fi-128",
+    "subject": "Filipino",
+    "prompt": "Kailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nobyembre 1990"
+      },
+      {
+        "id": "B",
+        "text": "Enero 1991"
+      },
+      {
+        "id": "C",
+        "text": "Disyembre 1993"
+      },
+      {
+        "id": "D",
+        "text": "Abril 1994"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking.",
+    "image": "/question-images/csc11-page-130.png"
+  },
+  {
+    "id": "fi-129",
+    "subject": "Filipino",
+    "prompt": "Gaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang ₱1451/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "dalawang buwan"
+      },
+      {
+        "id": "B",
+        "text": "dalawampu’t apat na buwan"
+      },
+      {
+        "id": "C",
+        "text": "limang buwan"
+      },
+      {
+        "id": "D",
+        "text": "dalawampu’t limang buwan"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking.",
+    "image": "/question-images/csc11-page-131.png"
+  },
+  {
+    "id": "fi-130",
+    "subject": "Filipino",
+    "prompt": "Ilang beses nagkaroon ng dalawampung piso (₱20) pagtaas sa minimum wage1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "isa"
+      },
+      {
+        "id": "B",
+        "text": "dalawa"
+      },
+      {
+        "id": "C",
+        "text": "tatlo"
+      },
+      {
+        "id": "D",
+        "text": "wala G."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking.",
+    "image": "/question-images/csc11-page-131.png"
+  },
+  {
+    "id": "fi-131",
+    "subject": "Filipino",
+    "prompt": "Anong pamagat ang angkop sa tsart sa itaas1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Badyet para sa Militar ng Iba’t Ibang Bansa"
+      },
+      {
+        "id": "B",
+        "text": "Kalagayang Pang-Ekonomiya"
+      },
+      {
+        "id": "C",
+        "text": "Badyet at Katayuang Pangmilitar ng mga Piling Bansa"
+      },
+      {
+        "id": "D",
+        "text": "Bilang ng mga Militar sa Iba’t Ibang Bansa"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking.",
+    "image": "/question-images/csc11-page-131.png"
+  },
+  {
+    "id": "fi-132",
+    "subject": "Filipino",
+    "prompt": "Anong bansa ang may pinakamataas na bilang ng tropa1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Japan"
+      },
+      {
+        "id": "B",
+        "text": "South Korea"
+      },
+      {
+        "id": "C",
+        "text": "Brunei"
+      },
+      {
+        "id": "D",
+        "text": "Malaysia"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-133",
+    "subject": "Filipino",
+    "prompt": "Anong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet militar1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Japan"
+      },
+      {
+        "id": "B",
+        "text": "South Korea"
+      },
+      {
+        "id": "C",
+        "text": "Brunei"
+      },
+      {
+        "id": "D",
+        "text": "Malaysia"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-134",
+    "subject": "Filipino",
+    "prompt": "Anong bansa ang may pinakamalaking GDP1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Japan"
+      },
+      {
+        "id": "B",
+        "text": "Brunei"
+      },
+      {
+        "id": "C",
+        "text": "Malaysia"
+      },
+      {
+        "id": "D",
+        "text": "South Korea"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-135",
+    "subject": "Filipino",
+    "prompt": "Ano ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang pangmilitar ng Brunei1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Kulang sila sa pananalapi"
+      },
+      {
+        "id": "B",
+        "text": "Maliit na bansa lamang ang Brunei"
+      },
+      {
+        "id": "C",
+        "text": "Hindi nila kailangan ang militar"
+      },
+      {
+        "id": "D",
+        "text": "Walang nais magsundalo sa kanilang mga tao. Panuto: Basahing mabuti ang bawat pangungusap at sagutin ang mga tanong na sumusunod dito. I."
+      },
+      {
+        "id": "A",
+        "text": "Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito."
+      },
+      {
+        "id": "B",
+        "text": "Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin."
+      },
+      {
+        "id": "C",
+        "text": "Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”."
+      },
+      {
+        "id": "D",
+        "text": "Ano nga ba ang “Clean Air Act”1/4"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-136",
+    "subject": "Filipino",
+    "prompt": "Ano ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A-D-B-C"
+      },
+      {
+        "id": "B",
+        "text": "B-D-A-C"
+      },
+      {
+        "id": "C",
+        "text": "D-A-B-C"
+      },
+      {
+        "id": "D",
+        "text": "D-B-A-C"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-137",
+    "subject": "Filipino",
+    "prompt": "Kung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ang “Clean Air Act” ang tamang solusyon sa lahat ng polusyon."
+      },
+      {
+        "id": "B",
+        "text": "Alamin ang tungkol sa “Clean Air Act”."
+      },
+      {
+        "id": "C",
+        "text": "Kung ikaw ang may-ari ng kumpanya, sang-ayon kaba sa “Clean Air Act”1/4"
+      },
+      {
+        "id": "D",
+        "text": "Tumulong mapanatiling malinis ang hangin."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-138",
+    "subject": "Filipino",
+    "prompt": "Ano ang pinaka-angkop na pamagat sa nabuong talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ang Kalinisan"
+      },
+      {
+        "id": "B",
+        "text": "Ang Clean Air Act"
+      },
+      {
+        "id": "C",
+        "text": "Ang Hangin"
+      },
+      {
+        "id": "D",
+        "text": "Ang Kumpanya II."
+      },
+      {
+        "id": "A",
+        "text": "Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa."
+      },
+      {
+        "id": "B",
+        "text": "Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat."
+      },
+      {
+        "id": "C",
+        "text": "Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan."
+      },
+      {
+        "id": "D",
+        "text": "Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas."
+      },
+      {
+        "id": "E",
+        "text": "At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-139",
+    "subject": "Filipino",
+    "prompt": "Ano ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A-B-C-D-E"
+      },
+      {
+        "id": "B",
+        "text": "A-B-D-C-E"
+      },
+      {
+        "id": "C",
+        "text": "A-D-B-C-E"
+      },
+      {
+        "id": "D",
+        "text": "A-D-C-B-E"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-140",
+    "subject": "Filipino",
+    "prompt": "Ano ang pamamaraang ginamit upang mabuo ang talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pagbibigay ng sanhi at bunga"
+      },
+      {
+        "id": "B",
+        "text": "paglalarawan"
+      },
+      {
+        "id": "C",
+        "text": "paghahambing"
+      },
+      {
+        "id": "D",
+        "text": "pag-iisa-isa o enumerasyon"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-141",
+    "subject": "Filipino",
+    "prompt": "Anong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa ang isang dayuhan1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pangungusap B"
+      },
+      {
+        "id": "B",
+        "text": "pangungusap C"
+      },
+      {
+        "id": "C",
+        "text": "pangungusap D"
+      },
+      {
+        "id": "D",
+        "text": "pangungusap E III."
+      },
+      {
+        "id": "A",
+        "text": "Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas."
+      },
+      {
+        "id": "B",
+        "text": "Sila ay sinundan ng Indones na galing sa Timog Silangang Asya."
+      },
+      {
+        "id": "C",
+        "text": "Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito."
+      },
+      {
+        "id": "D",
+        "text": "Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-142",
+    "subject": "Filipino",
+    "prompt": "Ano ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A-B-C-D"
+      },
+      {
+        "id": "B",
+        "text": "C-A-B-D"
+      },
+      {
+        "id": "C",
+        "text": "C-B-D-A"
+      },
+      {
+        "id": "D",
+        "text": "C-B-A-D"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-143",
+    "subject": "Filipino",
+    "prompt": "Ano ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon."
+      },
+      {
+        "id": "B",
+        "text": "Tatatlong tao lamang ang pangkat ng mga sinaunang Pilipino."
+      },
+      {
+        "id": "C",
+        "text": "Tatlong pangkat ang mga Pilipino ngayon."
+      },
+      {
+        "id": "D",
+        "text": "May tatlong sinaunang Pilipino."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-144",
+    "subject": "Filipino",
+    "prompt": "Ano ang angkop na pamagat para sa talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ita, Indones at Malay"
+      },
+      {
+        "id": "B",
+        "text": "Mga Pangkat ng Tao mula sa Asya"
+      },
+      {
+        "id": "C",
+        "text": "Sino Ako1/4"
+      },
+      {
+        "id": "D",
+        "text": "Ang mga Unang Pangkat ng mga Pilipino"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "fi-145",
+    "subject": "Filipino",
+    "prompt": "Kung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga Indones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A-B-E-C-D"
+      },
+      {
+        "id": "B",
+        "text": "C-A-B-E-D"
+      },
+      {
+        "id": "C",
+        "text": "C-B-E-D-A"
+      },
+      {
+        "id": "D",
+        "text": "C-B-E-A-D"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  }
+]

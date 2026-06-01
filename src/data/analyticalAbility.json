@@ -1,0 +1,2735 @@
+[
+  {
+    "id": "aa-001",
+    "subject": "Analytical Ability",
+    "prompt": "A. Commission on the Filipino Language",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Commission on Human Rights"
+      },
+      {
+        "id": "C",
+        "text": "Commission on Higher Education"
+      },
+      {
+        "id": "D",
+        "text": "Commission on Population"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "CBDA"
+      },
+      {
+        "id": "C",
+        "text": "BCDA"
+      },
+      {
+        "id": "D",
+        "text": "ACBD"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-002",
+    "subject": "Analytical Ability",
+    "prompt": "A. Cooperative Development Authority",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Cottage Industry Development Enterprise"
+      },
+      {
+        "id": "C",
+        "text": "Cottage Industry Technology Center"
+      },
+      {
+        "id": "D",
+        "text": "Council for the Welfare of Children"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "ACBD"
+      },
+      {
+        "id": "C",
+        "text": "BCAD"
+      },
+      {
+        "id": "D",
+        "text": "CBAD"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-003",
+    "subject": "Analytical Ability",
+    "prompt": "A. Food and Nutrition Research Institute",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Fiber Industry Development Authority"
+      },
+      {
+        "id": "C",
+        "text": "Foreign Service Institute"
+      },
+      {
+        "id": "D",
+        "text": "Family Planning Organization of the Philippines"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "BACD"
+      },
+      {
+        "id": "C",
+        "text": "DBCA"
+      },
+      {
+        "id": "D",
+        "text": "DBAC"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-004",
+    "subject": "Analytical Ability",
+    "prompt": "A. Insurance Commission",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Industrial Technology Development Institute"
+      },
+      {
+        "id": "C",
+        "text": "Institute of Labor and Manpower Studies"
+      },
+      {
+        "id": "D",
+        "text": "Instructional Materials Corporation"
+      },
+      {
+        "id": "A",
+        "text": "BDCA"
+      },
+      {
+        "id": "B",
+        "text": "BACD"
+      },
+      {
+        "id": "C",
+        "text": "BCDA"
+      },
+      {
+        "id": "D",
+        "text": "BADC"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-005",
+    "subject": "Analytical Ability",
+    "prompt": "A. Presidential Commission on Good Governance",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Presidential Commission to Fight Poverty"
+      },
+      {
+        "id": "C",
+        "text": "Presidential Commission for the Urban Poor"
+      },
+      {
+        "id": "D",
+        "text": "Presidential Commission on Human Rights"
+      },
+      {
+        "id": "A",
+        "text": "CBAD"
+      },
+      {
+        "id": "B",
+        "text": "CBAD"
+      },
+      {
+        "id": "C",
+        "text": "CABD"
+      },
+      {
+        "id": "D",
+        "text": "CADB"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-006",
+    "subject": "Analytical Ability",
+    "prompt": "A. AA Industrial Chemical Supply",
+    "choices": [
+      {
+        "id": "B",
+        "text": "AB Capital and Investment Corporation"
+      },
+      {
+        "id": "C",
+        "text": "A Soriano Aviation Incorporated"
+      },
+      {
+        "id": "D",
+        "text": "A-1 Driving Company Incorporated"
+      },
+      {
+        "id": "A",
+        "text": "DCAB"
+      },
+      {
+        "id": "B",
+        "text": "DCBA"
+      },
+      {
+        "id": "C",
+        "text": "ABCD"
+      },
+      {
+        "id": "D",
+        "text": "CABD"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-007",
+    "subject": "Analytical Ability",
+    "prompt": "A. Ayala Plans Inc.",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Ayala Health Care, Inc."
+      },
+      {
+        "id": "C",
+        "text": "Ayala Land Inc."
+      },
+      {
+        "id": "D",
+        "text": "Ayala Life Assurance Inc."
+      },
+      {
+        "id": "A",
+        "text": "BCDA"
+      },
+      {
+        "id": "B",
+        "text": "ABCD"
+      },
+      {
+        "id": "C",
+        "text": "DCBA"
+      },
+      {
+        "id": "D",
+        "text": "BACD"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-008",
+    "subject": "Analytical Ability",
+    "prompt": "A. Filspin Incorporated",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Filway Marketing Inc."
+      },
+      {
+        "id": "C",
+        "text": "Filsov Shipping Company"
+      },
+      {
+        "id": "D",
+        "text": "Fina Products Inc."
+      },
+      {
+        "id": "A",
+        "text": "ACDB"
+      },
+      {
+        "id": "B",
+        "text": "CABD"
+      },
+      {
+        "id": "C",
+        "text": "BCAD"
+      },
+      {
+        "id": "D",
+        "text": "BACD"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-009",
+    "subject": "Analytical Ability",
+    "prompt": "A. John Shannon Montessori",
+    "choices": [
+      {
+        "id": "B",
+        "text": "John Paul Hospital"
+      },
+      {
+        "id": "C",
+        "text": "John Robert Powers"
+      },
+      {
+        "id": "D",
+        "text": "John Nelson and Associates"
+      },
+      {
+        "id": "A",
+        "text": "DACB"
+      },
+      {
+        "id": "B",
+        "text": "DBCA"
+      },
+      {
+        "id": "C",
+        "text": "DCBA"
+      },
+      {
+        "id": "D",
+        "text": "DABC"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-010",
+    "subject": "Analytical Ability",
+    "prompt": "A. Sports Zone Restaurant",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Sports Resources Inc."
+      },
+      {
+        "id": "C",
+        "text": "Sports Values Inc."
+      },
+      {
+        "id": "D",
+        "text": "Sports House and General Merchandise"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "BCDA"
+      },
+      {
+        "id": "C",
+        "text": "CBDA"
+      },
+      {
+        "id": "D",
+        "text": "DBCA"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-011",
+    "subject": "Analytical Ability",
+    "prompt": "A. Abad, Josephine",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Abad, Jason"
+      },
+      {
+        "id": "C",
+        "text": "Abad, Joseph"
+      },
+      {
+        "id": "D",
+        "text": "Abad, June"
+      },
+      {
+        "id": "A",
+        "text": "DBCA"
+      },
+      {
+        "id": "B",
+        "text": "DBAC"
+      },
+      {
+        "id": "C",
+        "text": "BDCA"
+      },
+      {
+        "id": "D",
+        "text": "BCDA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-012",
+    "subject": "Analytical Ability",
+    "prompt": "A. St. Stephen’s School",
+    "choices": [
+      {
+        "id": "B",
+        "text": "St. Stephen’s University"
+      },
+      {
+        "id": "C",
+        "text": "St. Scholastica’s Academy"
+      },
+      {
+        "id": "D",
+        "text": "St. Scholastica’s College"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "CDBA"
+      },
+      {
+        "id": "C",
+        "text": "CDAB"
+      },
+      {
+        "id": "D",
+        "text": "DCAB"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-013",
+    "subject": "Analytical Ability",
+    "prompt": "A. Santos, Anita",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Santos, Ana"
+      },
+      {
+        "id": "C",
+        "text": "Santos, Antonio"
+      },
+      {
+        "id": "D",
+        "text": "Santos, Anthony"
+      },
+      {
+        "id": "A",
+        "text": "CDBA"
+      },
+      {
+        "id": "B",
+        "text": "DCBA"
+      },
+      {
+        "id": "C",
+        "text": "BADC"
+      },
+      {
+        "id": "D",
+        "text": "BACD"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-014",
+    "subject": "Analytical Ability",
+    "prompt": "A. Philippine Daily Inquirer",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Philippine Star"
+      },
+      {
+        "id": "C",
+        "text": "Philippine Herald"
+      },
+      {
+        "id": "D",
+        "text": "Philippine Tribune"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "ACBD"
+      },
+      {
+        "id": "C",
+        "text": "ADCB"
+      },
+      {
+        "id": "D",
+        "text": "ACDB"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-015",
+    "subject": "Analytical Ability",
+    "prompt": "A. Luna, Antonio",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Luna, Juan"
+      },
+      {
+        "id": "C",
+        "text": "Luna, Olive"
+      },
+      {
+        "id": "D",
+        "text": "Luna, Oliver"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "ACBD"
+      },
+      {
+        "id": "D",
+        "text": "ADCB"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-016",
+    "subject": "Analytical Ability",
+    "prompt": "A. Felimon, Jason",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Felipe, Julian"
+      },
+      {
+        "id": "C",
+        "text": "Felimon, Jamie"
+      },
+      {
+        "id": "D",
+        "text": "Felipe, Julia"
+      },
+      {
+        "id": "A",
+        "text": "CADB"
+      },
+      {
+        "id": "B",
+        "text": "ACBD"
+      },
+      {
+        "id": "C",
+        "text": "CABD"
+      },
+      {
+        "id": "D",
+        "text": "ACDB"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-017",
+    "subject": "Analytical Ability",
+    "prompt": "A. UP Institute for Small Scale Industries",
+    "choices": [
+      {
+        "id": "B",
+        "text": "UP Institute for Science and Math Education"
+      },
+      {
+        "id": "C",
+        "text": "UP Institute of Biology"
+      },
+      {
+        "id": "D",
+        "text": "UP Institute of Chemistry"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "BACD"
+      },
+      {
+        "id": "C",
+        "text": "CDAB"
+      },
+      {
+        "id": "D",
+        "text": "CDBA"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-018",
+    "subject": "Analytical Ability",
+    "prompt": "A. Bureau of Post",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Bureau of Internal Revenue"
+      },
+      {
+        "id": "C",
+        "text": "Bureau of Mines"
+      },
+      {
+        "id": "D",
+        "text": "Bureau of Fisheries and Aquatic Resources"
+      },
+      {
+        "id": "A",
+        "text": "DBCA"
+      },
+      {
+        "id": "B",
+        "text": "DABC"
+      },
+      {
+        "id": "C",
+        "text": "DCBA"
+      },
+      {
+        "id": "D",
+        "text": "DBAC"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-019",
+    "subject": "Analytical Ability",
+    "prompt": "A.Quesada, Arianne",
+    "choices": [
+      {
+        "id": "B",
+        "text": "Quisumbing, Armie"
+      },
+      {
+        "id": "C",
+        "text": "Quintin, Adela"
+      },
+      {
+        "id": "D",
+        "text": "Quezon, Aurora"
+      },
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "ADCB"
+      },
+      {
+        "id": "C",
+        "text": "ACBD"
+      },
+      {
+        "id": "D",
+        "text": "ABDC"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-020",
+    "subject": "Analytical Ability",
+    "prompt": "3 6 9 12 15",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "18"
+      },
+      {
+        "id": "C",
+        "text": "22"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-021",
+    "subject": "Analytical Ability",
+    "prompt": "C E G I K",
+    "choices": [
+      {
+        "id": "A",
+        "text": "L"
+      },
+      {
+        "id": "B",
+        "text": "M"
+      },
+      {
+        "id": "C",
+        "text": "N"
+      },
+      {
+        "id": "D",
+        "text": "O"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-022",
+    "subject": "Analytical Ability",
+    "prompt": "I K M O Q",
+    "choices": [
+      {
+        "id": "A",
+        "text": "R"
+      },
+      {
+        "id": "B",
+        "text": "T"
+      },
+      {
+        "id": "C",
+        "text": "S"
+      },
+      {
+        "id": "D",
+        "text": "P"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-023",
+    "subject": "Analytical Ability",
+    "prompt": "B D F H J",
+    "choices": [
+      {
+        "id": "A",
+        "text": "L"
+      },
+      {
+        "id": "B",
+        "text": "M"
+      },
+      {
+        "id": "C",
+        "text": "N"
+      },
+      {
+        "id": "D",
+        "text": "P"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-024",
+    "subject": "Analytical Ability",
+    "prompt": "10 17 26 37",
+    "choices": [
+      {
+        "id": "A",
+        "text": "48"
+      },
+      {
+        "id": "B",
+        "text": "49"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "51"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-025",
+    "subject": "Analytical Ability",
+    "prompt": "37 50 65 82",
+    "choices": [
+      {
+        "id": "A",
+        "text": "98"
+      },
+      {
+        "id": "B",
+        "text": "99"
+      },
+      {
+        "id": "C",
+        "text": "100"
+      },
+      {
+        "id": "D",
+        "text": "101"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-026",
+    "subject": "Analytical Ability",
+    "prompt": "3 9 5 25 8 64 12 144",
+    "choices": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "17"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-027",
+    "subject": "Analytical Ability",
+    "prompt": "AB EF IJ MN",
+    "choices": [
+      {
+        "id": "A",
+        "text": "OP"
+      },
+      {
+        "id": "B",
+        "text": "PQ"
+      },
+      {
+        "id": "C",
+        "text": "QR"
+      },
+      {
+        "id": "D",
+        "text": "RS"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-028",
+    "subject": "Analytical Ability",
+    "prompt": "ZY WV TS QP",
+    "choices": [
+      {
+        "id": "A",
+        "text": "NM"
+      },
+      {
+        "id": "B",
+        "text": "ML"
+      },
+      {
+        "id": "C",
+        "text": "LK"
+      },
+      {
+        "id": "D",
+        "text": "KJ"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-029",
+    "subject": "Analytical Ability",
+    "prompt": "DC HG LK PO",
+    "choices": [
+      {
+        "id": "A",
+        "text": "OP"
+      },
+      {
+        "id": "B",
+        "text": "RQ"
+      },
+      {
+        "id": "C",
+        "text": "SR"
+      },
+      {
+        "id": "D",
+        "text": "TS"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-030",
+    "subject": "Analytical Ability",
+    "prompt": "1 2 5 6 11 12 19 20",
+    "choices": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "29"
+      },
+      {
+        "id": "D",
+        "text": "31"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-031",
+    "subject": "Analytical Ability",
+    "prompt": "4 9 5 11 6 13 7 15",
+    "choices": [
+      {
+        "id": "A",
+        "text": "19"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "17"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-032",
+    "subject": "Analytical Ability",
+    "prompt": "6 12 36 72 216",
+    "choices": [
+      {
+        "id": "A",
+        "text": "250"
+      },
+      {
+        "id": "B",
+        "text": "300"
+      },
+      {
+        "id": "C",
+        "text": "400"
+      },
+      {
+        "id": "D",
+        "text": "432"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-033",
+    "subject": "Analytical Ability",
+    "prompt": "A C C F F F",
+    "choices": [
+      {
+        "id": "A",
+        "text": "J"
+      },
+      {
+        "id": "B",
+        "text": "G"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "V"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-034",
+    "subject": "Analytical Ability",
+    "prompt": "1 2 6 12 36",
+    "choices": [
+      {
+        "id": "A",
+        "text": "50"
+      },
+      {
+        "id": "B",
+        "text": "52"
+      },
+      {
+        "id": "C",
+        "text": "70"
+      },
+      {
+        "id": "D",
+        "text": "72"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-035",
+    "subject": "Analytical Ability",
+    "prompt": "H H L L P P T T",
+    "choices": [
+      {
+        "id": "A",
+        "text": "V"
+      },
+      {
+        "id": "B",
+        "text": "X"
+      },
+      {
+        "id": "C",
+        "text": "Y"
+      },
+      {
+        "id": "D",
+        "text": "Z"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-036",
+    "subject": "Analytical Ability",
+    "prompt": "E F H G I J",
+    "choices": [
+      {
+        "id": "A",
+        "text": "LK"
+      },
+      {
+        "id": "B",
+        "text": "JL"
+      },
+      {
+        "id": "C",
+        "text": "KM"
+      },
+      {
+        "id": "D",
+        "text": "MN"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-037",
+    "subject": "Analytical Ability",
+    "prompt": "6 12 7 11 8 10",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-038",
+    "subject": "Analytical Ability",
+    "prompt": "A C F J O",
+    "choices": [
+      {
+        "id": "A",
+        "text": "T"
+      },
+      {
+        "id": "B",
+        "text": "U"
+      },
+      {
+        "id": "C",
+        "text": "S"
+      },
+      {
+        "id": "D",
+        "text": "R"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-039",
+    "subject": "Analytical Ability",
+    "prompt": "B DE GHI",
+    "choices": [
+      {
+        "id": "A",
+        "text": "MNDP"
+      },
+      {
+        "id": "B",
+        "text": "LMNO"
+      },
+      {
+        "id": "C",
+        "text": "JKLM"
+      },
+      {
+        "id": "D",
+        "text": "KLMN"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-040",
+    "subject": "Analytical Ability",
+    "prompt": "A B C D E F",
+    "choices": [
+      {
+        "id": "A",
+        "text": "J"
+      },
+      {
+        "id": "B",
+        "text": "I"
+      },
+      {
+        "id": "C",
+        "text": "H"
+      },
+      {
+        "id": "D",
+        "text": "G"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-041",
+    "subject": "Analytical Ability",
+    "prompt": "N O P Q R S",
+    "choices": [
+      {
+        "id": "A",
+        "text": "W"
+      },
+      {
+        "id": "B",
+        "text": "V"
+      },
+      {
+        "id": "C",
+        "text": "U"
+      },
+      {
+        "id": "D",
+        "text": "T"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-042",
+    "subject": "Analytical Ability",
+    "prompt": "3 8 48 55 440",
+    "choices": [
+      {
+        "id": "A",
+        "text": "448"
+      },
+      {
+        "id": "B",
+        "text": "449"
+      },
+      {
+        "id": "C",
+        "text": "450"
+      },
+      {
+        "id": "D",
+        "text": "451"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-043",
+    "subject": "Analytical Ability",
+    "prompt": "16 12 17 11 18",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-044",
+    "subject": "Analytical Ability",
+    "prompt": "29 58 29 145 29",
+    "choices": [
+      {
+        "id": "A",
+        "text": "231"
+      },
+      {
+        "id": "B",
+        "text": "232"
+      },
+      {
+        "id": "C",
+        "text": "233"
+      },
+      {
+        "id": "D",
+        "text": "234"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-045",
+    "subject": "Analytical Ability",
+    "prompt": "MZ KX IV GT",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ER"
+      },
+      {
+        "id": "B",
+        "text": "FS"
+      },
+      {
+        "id": "C",
+        "text": "DQ"
+      },
+      {
+        "id": "D",
+        "text": "CP"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-046",
+    "subject": "Analytical Ability",
+    "prompt": "LO KP JQ IR HS",
+    "choices": [
+      {
+        "id": "A",
+        "text": "GT"
+      },
+      {
+        "id": "B",
+        "text": "FU"
+      },
+      {
+        "id": "C",
+        "text": "EV"
+      },
+      {
+        "id": "D",
+        "text": "DW"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-047",
+    "subject": "Analytical Ability",
+    "prompt": "G F I H K",
+    "choices": [
+      {
+        "id": "A",
+        "text": "J"
+      },
+      {
+        "id": "B",
+        "text": "M"
+      },
+      {
+        "id": "C",
+        "text": "L"
+      },
+      {
+        "id": "D",
+        "text": "O"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-048",
+    "subject": "Analytical Ability",
+    "prompt": "AZ BY CX DW EV",
+    "choices": [
+      {
+        "id": "A",
+        "text": "GT"
+      },
+      {
+        "id": "B",
+        "text": "FU"
+      },
+      {
+        "id": "C",
+        "text": "HS"
+      },
+      {
+        "id": "D",
+        "text": "IR"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-049",
+    "subject": "Analytical Ability",
+    "prompt": "396 384 370 354 336",
+    "choices": [
+      {
+        "id": "A",
+        "text": "318"
+      },
+      {
+        "id": "B",
+        "text": "314"
+      },
+      {
+        "id": "C",
+        "text": "316"
+      },
+      {
+        "id": "D",
+        "text": "314"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-050",
+    "subject": "Analytical Ability",
+    "prompt": "15 17 18 21 22",
+    "choices": [
+      {
+        "id": "A",
+        "text": "23"
+      },
+      {
+        "id": "B",
+        "text": "25"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "26"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-051",
+    "subject": "Analytical Ability",
+    "prompt": "7 21 14 42 42",
+    "choices": [
+      {
+        "id": "A",
+        "text": "84"
+      },
+      {
+        "id": "B",
+        "text": "96"
+      },
+      {
+        "id": "C",
+        "text": "124"
+      },
+      {
+        "id": "D",
+        "text": "126"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-052",
+    "subject": "Analytical Ability",
+    "prompt": "314 321 322 330 332",
+    "choices": [
+      {
+        "id": "A",
+        "text": "340"
+      },
+      {
+        "id": "B",
+        "text": "341"
+      },
+      {
+        "id": "C",
+        "text": "342"
+      },
+      {
+        "id": "D",
+        "text": "343"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-053",
+    "subject": "Analytical Ability",
+    "prompt": "F21 H19 K16 O12 T7",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A26"
+      },
+      {
+        "id": "B",
+        "text": "Z1"
+      },
+      {
+        "id": "C",
+        "text": "X3"
+      },
+      {
+        "id": "D",
+        "text": "B25"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-054",
+    "subject": "Analytical Ability",
+    "prompt": "I18 K16 M14 O12",
+    "choices": [
+      {
+        "id": "A",
+        "text": "P10"
+      },
+      {
+        "id": "B",
+        "text": "Q11"
+      },
+      {
+        "id": "C",
+        "text": "Q10"
+      },
+      {
+        "id": "D",
+        "text": "P11"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-055",
+    "subject": "Analytical Ability",
+    "prompt": "BO DQ FS HU JW",
+    "choices": [
+      {
+        "id": "A",
+        "text": "KX"
+      },
+      {
+        "id": "B",
+        "text": "IV"
+      },
+      {
+        "id": "C",
+        "text": "LY"
+      },
+      {
+        "id": "D",
+        "text": "MZ"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-056",
+    "subject": "Analytical Ability",
+    "prompt": "BC PQ EF HU JW",
+    "choices": [
+      {
+        "id": "A",
+        "text": "UJ"
+      },
+      {
+        "id": "B",
+        "text": "KL"
+      },
+      {
+        "id": "C",
+        "text": "VW"
+      },
+      {
+        "id": "D",
+        "text": "HI"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-057",
+    "subject": "Analytical Ability",
+    "prompt": "E4 G6 I8 K10 M12",
+    "choices": [
+      {
+        "id": "A",
+        "text": "O14"
+      },
+      {
+        "id": "B",
+        "text": "Q16"
+      },
+      {
+        "id": "C",
+        "text": "N14"
+      },
+      {
+        "id": "D",
+        "text": "L16"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-058",
+    "subject": "Analytical Ability",
+    "prompt": "DQ4 GT7 CP3 HU8 BO2",
+    "choices": [
+      {
+        "id": "A",
+        "text": "IV9"
+      },
+      {
+        "id": "B",
+        "text": "KX11"
+      },
+      {
+        "id": "C",
+        "text": "JW10"
+      },
+      {
+        "id": "D",
+        "text": "MZ13"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-059",
+    "subject": "Analytical Ability",
+    "prompt": "AN1 CP3 ER5 GT7 IV9 KX11",
+    "choices": [
+      {
+        "id": "A",
+        "text": "LY12"
+      },
+      {
+        "id": "B",
+        "text": "MZ13"
+      },
+      {
+        "id": "C",
+        "text": "JW10"
+      },
+      {
+        "id": "D",
+        "text": "HU8"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-060",
+    "subject": "Analytical Ability",
+    "prompt": "A1 C3 E5",
+    "choices": [
+      {
+        "id": "A",
+        "text": "F6"
+      },
+      {
+        "id": "B",
+        "text": "G7"
+      },
+      {
+        "id": "C",
+        "text": "J11"
+      },
+      {
+        "id": "D",
+        "text": "K19"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-061",
+    "subject": "Analytical Ability",
+    "prompt": "A26 C24 EF21",
+    "choices": [
+      {
+        "id": "A",
+        "text": "P12"
+      },
+      {
+        "id": "B",
+        "text": "H14"
+      },
+      {
+        "id": "C",
+        "text": "J17"
+      },
+      {
+        "id": "D",
+        "text": "L19"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-062",
+    "subject": "Analytical Ability",
+    "prompt": "J10 L12 N14",
+    "choices": [
+      {
+        "id": "A",
+        "text": "O15"
+      },
+      {
+        "id": "B",
+        "text": "P16"
+      },
+      {
+        "id": "C",
+        "text": "G14"
+      },
+      {
+        "id": "D",
+        "text": "U34"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-063",
+    "subject": "Analytical Ability",
+    "prompt": "8R 6T 4V",
+    "choices": [
+      {
+        "id": "A",
+        "text": "17j"
+      },
+      {
+        "id": "B",
+        "text": "15e"
+      },
+      {
+        "id": "C",
+        "text": "24w"
+      },
+      {
+        "id": "D",
+        "text": "2x"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-064",
+    "subject": "Analytical Ability",
+    "prompt": "J1017 L1215 N1413",
+    "choices": [
+      {
+        "id": "A",
+        "text": "R125"
+      },
+      {
+        "id": "B",
+        "text": "P1611"
+      },
+      {
+        "id": "C",
+        "text": "T416"
+      },
+      {
+        "id": "D",
+        "text": "Q678"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-065",
+    "subject": "Analytical Ability",
+    "prompt": "AC FH KM",
+    "choices": [
+      {
+        "id": "A",
+        "text": "AB"
+      },
+      {
+        "id": "B",
+        "text": "EF"
+      },
+      {
+        "id": "C",
+        "text": "PR"
+      },
+      {
+        "id": "D",
+        "text": "VW"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-066",
+    "subject": "Analytical Ability",
+    "prompt": "1516 1819 2122",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1716"
+      },
+      {
+        "id": "B",
+        "text": "1115"
+      },
+      {
+        "id": "C",
+        "text": "2324"
+      },
+      {
+        "id": "D",
+        "text": "2425"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-067",
+    "subject": "Analytical Ability",
+    "prompt": "1121 2242 3483",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4964"
+      },
+      {
+        "id": "B",
+        "text": "6766"
+      },
+      {
+        "id": "C",
+        "text": "4844"
+      },
+      {
+        "id": "D",
+        "text": "4994"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-068",
+    "subject": "Analytical Ability",
+    "prompt": "aa33bb cc77dd ee1111ff",
+    "choices": [
+      {
+        "id": "A",
+        "text": "gg1516hh"
+      },
+      {
+        "id": "B",
+        "text": "gg1515hh"
+      },
+      {
+        "id": "C",
+        "text": "gg1717hh"
+      },
+      {
+        "id": "D",
+        "text": "gg1816hh"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-069",
+    "subject": "Analytical Ability",
+    "prompt": "b9b9 c7c7 d5d5",
+    "choices": [
+      {
+        "id": "A",
+        "text": "e3e2"
+      },
+      {
+        "id": "B",
+        "text": "e4e4"
+      },
+      {
+        "id": "C",
+        "text": "e2e2"
+      },
+      {
+        "id": "D",
+        "text": "e3e3"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "aa-070",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 1 from PDF page 153. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-153.png"
+  },
+  {
+    "id": "aa-071",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 2 from PDF page 153. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-153.png"
+  },
+  {
+    "id": "aa-072",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 3 from PDF page 153. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-153.png"
+  },
+  {
+    "id": "aa-073",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 4 from PDF page 154. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-154.png"
+  },
+  {
+    "id": "aa-074",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 5 from PDF page 154. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-154.png"
+  },
+  {
+    "id": "aa-075",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 6 from PDF page 154. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-154.png"
+  },
+  {
+    "id": "aa-076",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 7 from PDF page 155. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-155.png"
+  },
+  {
+    "id": "aa-077",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 8 from PDF page 155. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-155.png"
+  },
+  {
+    "id": "aa-078",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 9 from PDF page 155. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-155.png"
+  },
+  {
+    "id": "aa-079",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 10 from PDF page 155. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-155.png"
+  },
+  {
+    "id": "aa-080",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 11 from PDF page 156. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-156.png"
+  },
+  {
+    "id": "aa-081",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 12 from PDF page 156. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-156.png"
+  },
+  {
+    "id": "aa-082",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 13 from PDF page 156. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-156.png"
+  },
+  {
+    "id": "aa-083",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 14 from PDF page 156. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-156.png"
+  },
+  {
+    "id": "aa-084",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 15 from PDF page 157. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-157.png"
+  },
+  {
+    "id": "aa-085",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 16 from PDF page 157. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-157.png"
+  },
+  {
+    "id": "aa-086",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 17 from PDF page 157. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-157.png"
+  },
+  {
+    "id": "aa-087",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 18 from PDF page 157. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-157.png"
+  },
+  {
+    "id": "aa-088",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 19 from PDF page 158. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-158.png"
+  },
+  {
+    "id": "aa-089",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 20 from PDF page 158. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-158.png"
+  },
+  {
+    "id": "aa-090",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 21 from PDF page 158. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-158.png"
+  },
+  {
+    "id": "aa-091",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 22 from PDF page 158. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-158.png"
+  },
+  {
+    "id": "aa-092",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 23 from PDF page 158. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-158.png"
+  },
+  {
+    "id": "aa-093",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 24 from PDF page 159. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-159.png"
+  },
+  {
+    "id": "aa-094",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 25 from PDF page 159. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-159.png"
+  },
+  {
+    "id": "aa-095",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 26 from PDF page 159. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-159.png"
+  },
+  {
+    "id": "aa-096",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 27 from PDF page 159. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-159.png"
+  },
+  {
+    "id": "aa-097",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 28 from PDF page 159. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-159.png"
+  },
+  {
+    "id": "aa-098",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 29 from PDF page 160. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-160.png"
+  },
+  {
+    "id": "aa-099",
+    "subject": "Analytical Ability",
+    "prompt": "Abstract Reasoning item 30 from PDF page 160. Use the figure shown in the image to choose the correct option.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
+    "image": "/question-images/csc11-page-160.png"
+  }
+]

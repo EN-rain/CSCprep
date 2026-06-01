@@ -1,0 +1,752 @@
+[
+  {
+    "id": "gi-001",
+    "subject": "General Information",
+    "prompt": "What do you call the introductory part of the Constitution1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Preface"
+      },
+      {
+        "id": "B",
+        "text": "Amendments"
+      },
+      {
+        "id": "C",
+        "text": "Preamble"
+      },
+      {
+        "id": "D",
+        "text": "Bill of Rights"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-002",
+    "subject": "General Information",
+    "prompt": "What form of government does the Philippines adopt1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Republican"
+      },
+      {
+        "id": "B",
+        "text": "Democratic"
+      },
+      {
+        "id": "C",
+        "text": "neither a nor b"
+      },
+      {
+        "id": "D",
+        "text": "both a and b"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-003",
+    "subject": "General Information",
+    "prompt": "What is the power of the State to take private property for public use upon payment of a just compensation1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "right of confiscation"
+      },
+      {
+        "id": "B",
+        "text": "right of limiting resources"
+      },
+      {
+        "id": "C",
+        "text": "right of sequestration"
+      },
+      {
+        "id": "D",
+        "text": "right of eminent domain"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-004",
+    "subject": "General Information",
+    "prompt": "Who among the following may issue a warrant of arrest or a search warrant1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "a senator"
+      },
+      {
+        "id": "B",
+        "text": "a judge"
+      },
+      {
+        "id": "C",
+        "text": "a congressman"
+      },
+      {
+        "id": "D",
+        "text": "the President"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-005",
+    "subject": "General Information",
+    "prompt": "A foreigner may acquire Filipino citizenship through",
+    "choices": [
+      {
+        "id": "A",
+        "text": "naturalization"
+      },
+      {
+        "id": "B",
+        "text": "extradition"
+      },
+      {
+        "id": "C",
+        "text": "rebirth"
+      },
+      {
+        "id": "D",
+        "text": "Visa application"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-006",
+    "subject": "General Information",
+    "prompt": "The right to vote is also known as ____________.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "suffrage"
+      },
+      {
+        "id": "B",
+        "text": "naturalization"
+      },
+      {
+        "id": "C",
+        "text": "democracy"
+      },
+      {
+        "id": "D",
+        "text": "plebiscite"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-007",
+    "subject": "General Information",
+    "prompt": "How many Senators are there in the Senate1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "twenty-five"
+      },
+      {
+        "id": "B",
+        "text": "twenty-four"
+      },
+      {
+        "id": "C",
+        "text": "twelve"
+      },
+      {
+        "id": "D",
+        "text": "thirty"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-008",
+    "subject": "General Information",
+    "prompt": "What is the minimum age requirements of a Senator1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "thirty"
+      },
+      {
+        "id": "B",
+        "text": "twenty-five"
+      },
+      {
+        "id": "C",
+        "text": "twenty"
+      },
+      {
+        "id": "D",
+        "text": "thirty-five"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-009",
+    "subject": "General Information",
+    "prompt": "Which of the following bills do not originate from the House of Representative1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Appropriation bills"
+      },
+      {
+        "id": "B",
+        "text": "Revenue of tariff bills"
+      },
+      {
+        "id": "C",
+        "text": "Amnesty"
+      },
+      {
+        "id": "D",
+        "text": "Private bills"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-010",
+    "subject": "General Information",
+    "prompt": "The Members of the Lower House are",
+    "choices": [
+      {
+        "id": "A",
+        "text": "elected by region and by party list"
+      },
+      {
+        "id": "B",
+        "text": "elected by region and appointed by the President"
+      },
+      {
+        "id": "C",
+        "text": "elected by district and party list"
+      },
+      {
+        "id": "D",
+        "text": "elected by district and appointed by the Senators"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-011",
+    "subject": "General Information",
+    "prompt": "The legislative power of the government shall be vested in the",
+    "choices": [
+      {
+        "id": "A",
+        "text": "President"
+      },
+      {
+        "id": "B",
+        "text": "Congress"
+      },
+      {
+        "id": "C",
+        "text": "Supreme Court"
+      },
+      {
+        "id": "D",
+        "text": "all of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-012",
+    "subject": "General Information",
+    "prompt": "Which of the following may disqualify a person from running for Presidency1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "He is sixty years old on the day of the election."
+      },
+      {
+        "id": "B",
+        "text": "He lived abroad five years preceding the election."
+      },
+      {
+        "id": "C",
+        "text": "He has Filipino parents but was born in the United States."
+      },
+      {
+        "id": "D",
+        "text": "He is a registered voter."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-013",
+    "subject": "General Information",
+    "prompt": "Which of the following shows the transfer of power should the President be incapable of discharging his duties1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "President -→ Vice-President -→ Senate President -→ House Speaker"
+      },
+      {
+        "id": "B",
+        "text": "President -→ Vice-President -→ Chief Justice -→ Senate President"
+      },
+      {
+        "id": "C",
+        "text": "President -→ Vice-President -→ Chief Justice -→ House Speaker"
+      },
+      {
+        "id": "D",
+        "text": "President -→ Vice-President -→ House Speaker -→ Senate President"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-014",
+    "subject": "General Information",
+    "prompt": "A member of the Supreme Court",
+    "choices": [
+      {
+        "id": "A",
+        "text": "must have been for fifteen years or more, a judge of a lower court."
+      },
+      {
+        "id": "B",
+        "text": "must have been for ten years, a judge of the Court of Appeals"
+      },
+      {
+        "id": "C",
+        "text": "may not be a member of the Philippine Bar"
+      },
+      {
+        "id": "D",
+        "text": "may be a naturalized citizen"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-015",
+    "subject": "General Information",
+    "prompt": "The Supreme Court is composed of",
+    "choices": [
+      {
+        "id": "A",
+        "text": "a Chief Justice and fourteen Associate Justices"
+      },
+      {
+        "id": "B",
+        "text": "two Chief Justices and fourteen Associate Justices"
+      },
+      {
+        "id": "C",
+        "text": "a Chief Justic and twelve Associate Justices"
+      },
+      {
+        "id": "D",
+        "text": "a Chief Justice and an indefinite number of Associate Justices"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-016",
+    "subject": "General Information",
+    "prompt": "Which of the following is a Constitutional Commission1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Commission of Human Rights"
+      },
+      {
+        "id": "B",
+        "text": "Philippine Commission on Good Government"
+      },
+      {
+        "id": "C",
+        "text": "Civil Service Commission"
+      },
+      {
+        "id": "D",
+        "text": "Commission on Natural Resources"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-017",
+    "subject": "General Information",
+    "prompt": "What branch of government has the sole right to initiate all cases of impeachment1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Senate"
+      },
+      {
+        "id": "B",
+        "text": "Commission of Election"
+      },
+      {
+        "id": "C",
+        "text": "House of Representative"
+      },
+      {
+        "id": "D",
+        "text": "Judiciary"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-018",
+    "subject": "General Information",
+    "prompt": "Which of the following is not removable from office by impeachment1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Member of the Supreme Court"
+      },
+      {
+        "id": "B",
+        "text": "Member of the Constitutional Commissions"
+      },
+      {
+        "id": "C",
+        "text": "The Ombudsman"
+      },
+      {
+        "id": "D",
+        "text": "Senators"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-019",
+    "subject": "General Information",
+    "prompt": "The national language of the Philippines is",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pilipino"
+      },
+      {
+        "id": "B",
+        "text": "English and Filipino"
+      },
+      {
+        "id": "C",
+        "text": "Tagalog"
+      },
+      {
+        "id": "D",
+        "text": "Filipino"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-020",
+    "subject": "General Information",
+    "prompt": "Who may propose any amendment to, or revision of the Constitution1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Congress or a Constitutional Convention"
+      },
+      {
+        "id": "B",
+        "text": "Congress and a Constitutional Convention"
+      },
+      {
+        "id": "C",
+        "text": "Judiciary and Congress"
+      },
+      {
+        "id": "D",
+        "text": "Judiciary and Constitutional Convention"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-021",
+    "subject": "General Information",
+    "prompt": "What tax is paid by individuals who derive compensation income1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Value added tax"
+      },
+      {
+        "id": "B",
+        "text": "Excise tax"
+      },
+      {
+        "id": "C",
+        "text": "Income tax"
+      },
+      {
+        "id": "D",
+        "text": "Real estate tax"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-022",
+    "subject": "General Information",
+    "prompt": "When is the deadline for filing income tax returns for every taxable year1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "April 15"
+      },
+      {
+        "id": "B",
+        "text": "April 30"
+      },
+      {
+        "id": "C",
+        "text": "March 15"
+      },
+      {
+        "id": "D",
+        "text": "March 30"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-023",
+    "subject": "General Information",
+    "prompt": "Which of the following statements is true about taxes1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It is a voluntary payment"
+      },
+      {
+        "id": "B",
+        "text": "It is payable both in cash and in kind"
+      },
+      {
+        "id": "C",
+        "text": "It is an enforced contribution"
+      },
+      {
+        "id": "D",
+        "text": "It is based on one’s desire to pay."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-024",
+    "subject": "General Information",
+    "prompt": "What tax is imposed on one’s right to transmit property at death, and is measured by the value of the property1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Excise tax"
+      },
+      {
+        "id": "B",
+        "text": "Withholding tax"
+      },
+      {
+        "id": "C",
+        "text": "Donor’s tax"
+      },
+      {
+        "id": "D",
+        "text": "Estate tax"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-025",
+    "subject": "General Information",
+    "prompt": "Which of the following is classified as being a “Head of the Family” for income tax purposes1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "a married individual with dependents"
+      },
+      {
+        "id": "B",
+        "text": "an unmarried individual with dependents"
+      },
+      {
+        "id": "C",
+        "text": "a married individual without dependents"
+      },
+      {
+        "id": "D",
+        "text": "an unmarried individual without dependents"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-026",
+    "subject": "General Information",
+    "prompt": "What Act implements the mandate for the “State to make essential goods, health and other social services available to all the people at affordable cost1/4”",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Land Reform Program"
+      },
+      {
+        "id": "B",
+        "text": "Generics Act"
+      },
+      {
+        "id": "C",
+        "text": "Resettlement Act"
+      },
+      {
+        "id": "D",
+        "text": "Freedom Act"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-027",
+    "subject": "General Information",
+    "prompt": "Which of the following is true about elective local officials1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The term of office is three years"
+      },
+      {
+        "id": "B",
+        "text": "Barangay officials’ term of office is indefinite"
+      },
+      {
+        "id": "C",
+        "text": "An official may be reelected indefinitely"
+      },
+      {
+        "id": "D",
+        "text": "An official may not serve for less than three terms"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-028",
+    "subject": "General Information",
+    "prompt": "What may be classified as alienable lands of the public domain1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "forest"
+      },
+      {
+        "id": "B",
+        "text": "mineral lands"
+      },
+      {
+        "id": "C",
+        "text": "national park"
+      },
+      {
+        "id": "D",
+        "text": "agricultural lands"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-029",
+    "subject": "General Information",
+    "prompt": "What is the maximum equity for aliens in a corporation or association in the exploration development and utilization of natural resources1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "60%"
+      },
+      {
+        "id": "B",
+        "text": "40%"
+      },
+      {
+        "id": "C",
+        "text": "50%"
+      },
+      {
+        "id": "D",
+        "text": "30%"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  },
+  {
+    "id": "gi-030",
+    "subject": "General Information",
+    "prompt": "What is recognized by the State as the foundation of the nation1/4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "barangay"
+      },
+      {
+        "id": "B",
+        "text": "community"
+      },
+      {
+        "id": "C",
+        "text": "family"
+      },
+      {
+        "id": "D",
+        "text": "municipality"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+  }
+]
