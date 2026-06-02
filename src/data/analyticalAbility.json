@@ -2657,7 +2657,7 @@
   {
     "id": "aa-106",
     "subject": "Analytical Ability",
-    "prompt": "What can we infer from this passage?",
+    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nWhat can we infer from this passage?",
     "choices": [
       {
         "id": "A",
@@ -2682,7 +2682,7 @@
   {
     "id": "aa-107",
     "subject": "Analytical Ability",
-    "prompt": "Being struck by lightning means:",
+    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nBeing struck by lightning means:",
     "choices": [
       {
         "id": "A",
@@ -2707,7 +2707,7 @@
   {
     "id": "aa-108",
     "subject": "Analytical Ability",
-    "prompt": "Lightning is caused by the following:",
+    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nLightning is caused by the following:",
     "choices": [
       {
         "id": "A",

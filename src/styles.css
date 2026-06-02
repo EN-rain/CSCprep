@@ -224,6 +224,10 @@ h2 {
   display: block;
 }
 
+.prompt-line--blank {
+  min-height: 0.8em;
+}
+
 .tagline {
   width: min(680px, 100%);
   color: var(--ink);

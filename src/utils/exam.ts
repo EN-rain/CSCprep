@@ -18,7 +18,7 @@ const TOTAL_EXAM_ITEMS = 100
 const COOLDOWN_EXAMS = 2
 
 function isExamEligibleQuestion(question: Question): boolean {
-  return !question.image
+  return Boolean(question.prompt && question.choices.length >= 2)
 }
 
 function getExamEligibleQuestions(): Question[] {

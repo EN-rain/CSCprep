@@ -125,6 +125,14 @@ const LINE_BREAK_PROMPT_IDS = new Set([
   'fi-170',
 ])
 
+const PRESERVE_PROMPT_LINE_IDS = new Set([
+  'vr-300',
+  'vr-301',
+  'vr-302',
+  'vr-303',
+  'vr-304',
+])
+
 function App() {
   const [theme, setTheme] = useState<Theme>(() => {
     if (typeof window === 'undefined') {
@@ -250,9 +258,17 @@ function App() {
       return
     }
 
+    finishExamWithAnswers(answers)
+  }
+
+  function finishExamWithAnswers(finalAnswers: AnswerMap) {
+    if (!session) {
+      return
+    }
+
     transitionToScreen(() => {
-      completeExam(session, answers)
-      setSubmittedAnswers(answers)
+      completeExam(session, finalAnswers)
+      setSubmittedAnswers(finalAnswers)
       setAnsweredHistoryCount(getAnsweredHistoryCount())
       setSkippedItemNotice(null)
       setExitNoticeOpen(false)
@@ -364,6 +380,14 @@ function App() {
 
     return () => window.clearInterval(intervalId)
   }, [screen, session?.timed])
+
+  useEffect(() => {
+    if (screen !== 'exam' || !session?.timed || remainingSeconds > 0 || screenTransition !== 'idle') {
+      return
+    }
+
+    finishExamWithAnswers(answers)
+  }, [answers, remainingSeconds, screen, screenTransition, session?.timed])
 
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -841,6 +865,7 @@ function ResultsScreen({
 }: ResultsScreenProps) {
   const correctCount = reviewItems.filter((item) => item.isCorrect).length
   const wrongCount = reviewItems.length - correctCount
+  const skippedCount = totalQuestions - reviewItems.length
 
   return (
     <section className="results">
@@ -873,6 +898,10 @@ function ResultsScreen({
         <div>
           <span>{wrongCount}</span>
           <p>wrong</p>
+        </div>
+        <div>
+          <span>{skippedCount}</span>
+          <p>skipped</p>
         </div>
         <div>
           <span>{totalQuestions}</span>
@@ -951,6 +980,23 @@ type PromptTextProps = {
 }
 
 function PromptText({ prompt, questionId }: PromptTextProps) {
+  if (PRESERVE_PROMPT_LINE_IDS.has(questionId)) {
+    const lines = prompt.split('\n')
+
+    return (
+      <h2>
+        {lines.map((line, index) => (
+          <span
+            className={line.trim() ? 'prompt-line' : 'prompt-line prompt-line--blank'}
+            key={`${questionId}-${index}`}
+          >
+            {line.trim() ? line : '\u00a0'}
+          </span>
+        ))}
+      </h2>
+    )
+  }
+
   if (!LINE_BREAK_PROMPT_IDS.has(questionId)) {
     return <h2>{prompt}</h2>
   }
