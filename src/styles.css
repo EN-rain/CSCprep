@@ -8,12 +8,12 @@
   --brand: #0f766e;
   --brand-strong: #115e59;
   --brand-soft: #d9f3ef;
-  --accent: #b45309;
-  --accent-soft: #fff2d7;
-  --danger: #b42318;
-  --danger-soft: #ffe4df;
-  --success: #1f7a4d;
-  --success-soft: #ddf7e9;
+  --accent: #0e7490;
+  --accent-soft: #e0f2fe;
+  --danger: #64748b;
+  --danger-soft: #eef2f6;
+  --success: #0f766e;
+  --success-soft: #d9f3ef;
   --shadow: 0 18px 44px rgba(22, 32, 38, 0.08);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -35,17 +35,38 @@
   --brand: #27b0a3;
   --brand-strong: #7be0d5;
   --brand-soft: rgba(39, 176, 163, 0.16);
-  --accent: #f2a34e;
-  --accent-soft: rgba(242, 163, 78, 0.16);
-  --danger: #ff8c82;
-  --danger-soft: rgba(255, 140, 130, 0.16);
-  --success: #67d09a;
-  --success-soft: rgba(103, 208, 154, 0.16);
+  --accent: #38bdf8;
+  --accent-soft: rgba(56, 189, 248, 0.16);
+  --danger: #94a3b8;
+  --danger-soft: rgba(148, 163, 184, 0.16);
+  --success: #27b0a3;
+  --success-soft: rgba(39, 176, 163, 0.16);
   --shadow: 0 18px 44px rgba(0, 0, 0, 0.34);
 }
 
 * {
   box-sizing: border-box;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
 }
 
 body {
@@ -66,6 +87,45 @@ button {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
   padding: 32px 0 56px;
+}
+
+.screen-frame {
+  will-change: opacity, transform;
+}
+
+.app-shell--content-exit .screen-frame {
+  pointer-events: none;
+  animation: screen-slide-out-up 240ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.app-shell--content-enter .screen-frame--home,
+.app-shell--content-enter .screen-frame--exam,
+.app-shell--content-enter .screen-frame--results {
+  animation: screen-slide-in-up 360ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes screen-slide-out-up {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-26px);
+  }
+}
+
+@keyframes screen-slide-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .app-toolbar {
@@ -231,7 +291,7 @@ h2 {
 
 .button--danger {
   background: var(--danger-soft);
-  border-color: rgba(180, 35, 24, 0.3);
+  border-color: rgba(100, 116, 139, 0.34);
   color: var(--danger);
 }
 
@@ -247,7 +307,7 @@ h2 {
 }
 
 .history-tools .button--ghost:hover {
-  border-color: rgba(180, 35, 24, 0.25);
+  border-color: rgba(100, 116, 139, 0.28);
   background: var(--danger-soft);
   color: var(--danger);
   box-shadow: none;
@@ -538,7 +598,7 @@ h2 {
 }
 
 .exam-header__actions .button--danger:hover {
-  border-color: rgba(180, 35, 24, 0.28);
+  border-color: rgba(100, 116, 139, 0.28);
   background: var(--danger-soft);
   color: var(--danger);
 }
@@ -587,21 +647,6 @@ h2 {
   color: var(--accent);
   font-size: 0.86rem;
   font-weight: 900;
-}
-
-.progress-track {
-  height: 12px;
-  overflow: hidden;
-  border-radius: 999px;
-  background: var(--surface-strong);
-}
-
-.progress-track span {
-  display: block;
-  height: 100%;
-  border-radius: inherit;
-  background: linear-gradient(90deg, var(--brand), var(--accent));
-  transition: width 180ms ease;
 }
 
 .question-list,
@@ -719,6 +764,51 @@ h2 {
   font-size: 0.92rem;
 }
 
+.skipped-panel,
+.exam-dialog {
+  position: fixed;
+  inset: 0;
+  z-index: 25;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(4, 10, 16, 0.48);
+  animation: overlay-fade-in 160ms ease both;
+}
+
+.skipped-panel__content,
+.exam-dialog__content {
+  width: min(420px, 100%);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 24px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  animation: dialog-rise-in 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.skipped-panel__content h2,
+.exam-dialog__content h2 {
+  margin-bottom: 18px;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.exam-dialog__copy {
+  margin-top: -8px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.skipped-panel__actions,
+.exam-dialog__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
 .results-hero {
   background:
     linear-gradient(135deg, rgba(15, 118, 110, 0.1), transparent 45%),
@@ -736,6 +826,25 @@ h2 {
 
 .status--fail {
   color: var(--danger);
+}
+
+.results-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.results-hero__actions .theme-toggle {
+  width: 38px;
+  height: 38px;
+  box-shadow: none;
+}
+
+.results-hero__actions .theme-toggle__icon {
+  width: 19px;
+  height: 19px;
 }
 
 .filter-button {
@@ -802,6 +911,7 @@ h2 {
   place-items: center;
   padding: 24px;
   background: rgba(4, 10, 16, 0.78);
+  animation: overlay-fade-in 160ms ease both;
 }
 
 .image-lightbox__content {
@@ -818,6 +928,29 @@ h2 {
   border-radius: 12px;
   background: white;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  animation: dialog-rise-in 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes overlay-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dialog-rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .image-lightbox__close {
@@ -877,7 +1010,8 @@ h2 {
     align-items: flex-start;
   }
 
-  .exam-header__actions {
+  .exam-header__actions,
+  .results-hero__actions {
     justify-content: stretch;
   }
 
@@ -899,8 +1033,31 @@ h2 {
 
   .exam-header__actions .button,
   .exam-header__actions .theme-toggle,
-  .exam-header__actions .timer-pill {
+  .exam-header__actions .timer-pill,
+  .results-hero__actions .button,
+  .results-hero__actions .theme-toggle {
     width: 100%;
     justify-content: center;
+  }
+
+  .skipped-panel__actions .button,
+  .exam-dialog__actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-shell--content-exit .screen-frame,
+  .app-shell--content-enter .screen-frame--home,
+  .app-shell--content-enter .screen-frame--exam,
+  .app-shell--content-enter .screen-frame--results,
+  .skipped-panel,
+  .exam-dialog,
+  .skipped-panel__content,
+  .exam-dialog__content,
+  .image-lightbox,
+  .image-lightbox__image {
+    animation: none;
   }
 }

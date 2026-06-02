@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import Lenis from 'lenis'
 import {
   SUBJECTS,
   type AnswerMap,
@@ -18,8 +19,11 @@ import {
 
 type Screen = 'home' | 'exam' | 'results'
 type Theme = 'light' | 'dark'
+type ScreenTransition = 'idle' | 'content-exit' | 'content-enter'
 const TIMED_EXAM_SECONDS = 60 * 60
 const THEME_KEY = 'cscprep-theme'
+const SCREEN_EXIT_MS = 240
+const SCREEN_ENTER_MS = 360
 
 type ReviewItem = {
   itemId: string
@@ -34,6 +38,15 @@ type ReviewItem = {
   explanation?: string
   isCorrect: boolean
 }
+
+type SkippedItem = {
+  itemId: string
+  itemNumber: number
+}
+
+type SkippedItemNotice = {
+  items: SkippedItem[]
+} | null
 
 const LINE_BREAK_PROMPT_IDS = new Set([
   'aa-001',
@@ -56,6 +69,21 @@ const LINE_BREAK_PROMPT_IDS = new Set([
   'aa-018',
   'aa-019',
   'aa-020',
+  'aa-174',
+  'aa-175',
+  'aa-176',
+  'aa-177',
+  'aa-178',
+  'aa-179',
+  'aa-180',
+  'aa-181',
+  'aa-182',
+  'aa-183',
+  'aa-184',
+  'aa-185',
+  'aa-186',
+  'aa-187',
+  'aa-188',
   'nr-076',
   'nr-077',
   'nr-078',
@@ -120,11 +148,13 @@ function App() {
   const [answeredHistoryCount, setAnsweredHistoryCount] = useState(() => getAnsweredHistoryCount())
   const [loadedQuestionCount] = useState(() => getLoadedQuestionCount())
   const [expandedImage, setExpandedImage] = useState<string | null>(null)
+  const [skippedItemNotice, setSkippedItemNotice] = useState<SkippedItemNotice>(null)
+  const [exitNoticeOpen, setExitNoticeOpen] = useState(false)
+  const [screenTransition, setScreenTransition] = useState<ScreenTransition>('idle')
+  const transitionTimeoutRef = useRef<number | null>(null)
 
   const totalQuestions = session?.questions.length ?? 0
   const answeredCount = Object.keys(answers).length
-  const progressPercent = totalQuestions > 0 ? Math.round((answeredCount / totalQuestions) * 100) : 0
-
   const reviewItems = useMemo<ReviewItem[]>(() => {
     if (!session) {
       return []
@@ -169,13 +199,23 @@ function App() {
   })
 
   function startExam(mode: ExamMode = { kind: 'mixed' }) {
+    if (screenTransition !== 'idle') {
+      return
+    }
+
     const nextSession = createExamSession(mode, timerEnabled)
-    setSession(nextSession)
-    setAnswers({})
-    setSubmittedAnswers({})
-    setFilter('all')
-    setRemainingSeconds(TIMED_EXAM_SECONDS)
-    setScreen('exam')
+    const openExam = () => {
+      setSession(nextSession)
+      setAnswers({})
+      setSubmittedAnswers({})
+      setFilter('all')
+      setSkippedItemNotice(null)
+      setExitNoticeOpen(false)
+      setRemainingSeconds(TIMED_EXAM_SECONDS)
+      setScreen('exam')
+    }
+
+    transitionToScreen(openExam)
   }
 
   function chooseAnswer(questionId: string, choiceId: ChoiceId) {
@@ -186,14 +226,62 @@ function App() {
   }
 
   function submitExam() {
-    if (!session || answeredCount !== totalQuestions) {
+    if (!session) {
       return
     }
 
-    completeExam(session, answers)
-    setSubmittedAnswers(answers)
-    setAnsweredHistoryCount(getAnsweredHistoryCount())
-    setScreen('results')
+    const skippedQuestions = session.questions
+      .filter(({ id }) => !answers[id])
+      .map(({ id, itemNumber }) => ({
+        itemId: id,
+        itemNumber,
+      }))
+
+    if (skippedQuestions.length > 0) {
+      setSkippedItemNotice({ items: skippedQuestions })
+      return
+    }
+
+    finishSubmitExam()
+  }
+
+  function finishSubmitExam() {
+    if (!session) {
+      return
+    }
+
+    transitionToScreen(() => {
+      completeExam(session, answers)
+      setSubmittedAnswers(answers)
+      setAnsweredHistoryCount(getAnsweredHistoryCount())
+      setSkippedItemNotice(null)
+      setExitNoticeOpen(false)
+      setScreen('results')
+    })
+  }
+
+  function goToSkippedItem(itemId: string) {
+    setSkippedItemNotice(null)
+
+    window.setTimeout(() => {
+      document.getElementById(`exam-item-${itemId}`)?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+      })
+    }, 0)
+  }
+
+  function goHome() {
+    transitionToScreen(() => {
+      setSession(null)
+      setAnswers({})
+      setSubmittedAnswers({})
+      setFilter('all')
+      setSkippedItemNotice(null)
+      setExitNoticeOpen(false)
+      setExpandedImage(null)
+      setScreen('home')
+    })
   }
 
   function exitExam() {
@@ -201,25 +289,29 @@ function App() {
       return
     }
 
-    const message =
-      answeredCount > 0
-        ? 'Exit exam? Answered items will be saved to the 2-take cooldown.'
-        : 'Exit exam and return home?'
+    setSkippedItemNotice(null)
+    setExitNoticeOpen(true)
+  }
 
-    if (!window.confirm(message)) {
+  function confirmExitExam() {
+    if (!session) {
       return
     }
 
-    if (answeredCount > 0) {
-      completeExam(session, answers)
-      setAnsweredHistoryCount(getAnsweredHistoryCount())
-    }
+    transitionToScreen(() => {
+      if (answeredCount > 0) {
+        completeExam(session, answers)
+        setAnsweredHistoryCount(getAnsweredHistoryCount())
+      }
 
-    setSession(null)
-    setAnswers({})
-    setSubmittedAnswers({})
-    setFilter('all')
-    setScreen('home')
+      setSession(null)
+      setAnswers({})
+      setSubmittedAnswers({})
+      setFilter('all')
+      setSkippedItemNotice(null)
+      setExitNoticeOpen(false)
+      setScreen('home')
+    })
   }
 
   function resetHistory() {
@@ -229,6 +321,36 @@ function App() {
 
   function toggleTimer() {
     setTimerEnabled((current) => !current)
+  }
+
+  function scheduleTransition(callback: () => void, delay: number) {
+    if (transitionTimeoutRef.current) {
+      window.clearTimeout(transitionTimeoutRef.current)
+    }
+
+    transitionTimeoutRef.current = window.setTimeout(() => {
+      transitionTimeoutRef.current = null
+      callback()
+    }, delay)
+  }
+
+  function transitionToScreen(callback: () => void) {
+    if (screenTransition !== 'idle') {
+      return
+    }
+
+    setScreenTransition('content-exit')
+    scheduleTransition(() => {
+      callback()
+      playScreenEnter()
+    }, SCREEN_EXIT_MS)
+  }
+
+  function playScreenEnter() {
+    setScreenTransition('content-enter')
+    scheduleTransition(() => {
+      setScreenTransition('idle')
+    }, SCREEN_ENTER_MS)
   }
 
   useEffect(() => {
@@ -244,68 +366,101 @@ function App() {
   }, [screen, session?.timed])
 
   useEffect(() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+    if (prefersReducedMotion) {
+      return
+    }
+
+    const lenis = new Lenis({
+      autoRaf: true,
+      anchors: true,
+      lerp: 0.08,
+    })
+
+    return () => lenis.destroy()
+  }, [])
+
+  useEffect(() => {
     document.documentElement.dataset.theme = theme
     window.localStorage.setItem(THEME_KEY, theme)
   }, [theme])
+
+  useEffect(() => {
+    return () => {
+      if (transitionTimeoutRef.current) {
+        window.clearTimeout(transitionTimeoutRef.current)
+      }
+    }
+  }, [])
 
   function toggleTheme() {
     setTheme((current) => (current === 'light' ? 'dark' : 'light'))
   }
 
   return (
-    <main className="app-shell">
-      {screen === 'results' && (
-        <div className="app-toolbar">
-          <ThemeToggle theme={theme} onToggle={toggleTheme} />
-        </div>
-      )}
+    <main className={`app-shell app-shell--${screenTransition}`}>
       {screen === 'home' && (
-        <HomeScreen
-          answeredHistoryCount={answeredHistoryCount}
-          loadedQuestionCount={loadedQuestionCount}
-          onToggleTimer={toggleTimer}
-          onResetHistory={resetHistory}
-          onStartExam={startExam}
-          timerEnabled={timerEnabled}
-          theme={theme}
-          onToggleTheme={toggleTheme}
-        />
+        <div className="screen-frame screen-frame--home">
+          <HomeScreen
+            answeredHistoryCount={answeredHistoryCount}
+            loadedQuestionCount={loadedQuestionCount}
+            onToggleTimer={toggleTimer}
+            onResetHistory={resetHistory}
+            onStartExam={startExam}
+            timerEnabled={timerEnabled}
+            theme={theme}
+            onToggleTheme={toggleTheme}
+          />
+        </div>
       )}
 
       {screen === 'exam' && session && (
-        <ExamScreen
-          answeredCount={answeredCount}
-          answers={answers}
-          expandedImage={expandedImage}
-          onChooseAnswer={chooseAnswer}
-          onCloseImage={() => setExpandedImage(null)}
-          onExit={exitExam}
-          onOpenImage={setExpandedImage}
-          onSubmit={submitExam}
-          progressPercent={progressPercent}
-          remainingSeconds={remainingSeconds}
-          session={session}
-          theme={theme}
-          totalQuestions={totalQuestions}
-          onToggleTheme={toggleTheme}
-        />
+        <div className="screen-frame screen-frame--exam">
+          <ExamScreen
+            answeredCount={answeredCount}
+            answers={answers}
+            exitNoticeOpen={exitNoticeOpen}
+            expandedImage={expandedImage}
+            onChooseAnswer={chooseAnswer}
+            onCloseImage={() => setExpandedImage(null)}
+            onCancelExit={() => setExitNoticeOpen(false)}
+            onConfirmExit={confirmExitExam}
+            onExit={exitExam}
+            onOpenImage={setExpandedImage}
+            onGoToSkippedItem={goToSkippedItem}
+            onSubmit={submitExam}
+            onSubmitAnyway={finishSubmitExam}
+            remainingSeconds={remainingSeconds}
+            session={session}
+            skippedItemNotice={skippedItemNotice}
+            theme={theme}
+            totalQuestions={totalQuestions}
+            onToggleTheme={toggleTheme}
+          />
+        </div>
       )}
 
       {screen === 'results' && session && (
-        <ResultsScreen
-          expandedImage={expandedImage}
-          filter={filter}
-          filteredReviewItems={filteredReviewItems}
-          onFilterChange={setFilter}
-          onCloseImage={() => setExpandedImage(null)}
-          onOpenImage={setExpandedImage}
-          onRetake={() => startExam(session.mode)}
-          passed={passed}
-          percentage={percentage}
-          reviewItems={reviewItems}
-          score={score}
-          totalQuestions={totalQuestions}
-        />
+        <div className="screen-frame screen-frame--results">
+          <ResultsScreen
+            expandedImage={expandedImage}
+            filter={filter}
+            filteredReviewItems={filteredReviewItems}
+            onFilterChange={setFilter}
+            onCloseImage={() => setExpandedImage(null)}
+            onOpenImage={setExpandedImage}
+            onRetake={() => startExam(session.mode)}
+            onHome={goHome}
+            passed={passed}
+            percentage={percentage}
+            reviewItems={reviewItems}
+            score={score}
+            theme={theme}
+            totalQuestions={totalQuestions}
+            onToggleTheme={toggleTheme}
+          />
+        </div>
       )}
     </main>
   )
@@ -440,15 +595,20 @@ function HomeScreen({
 type ExamScreenProps = {
   answeredCount: number
   answers: AnswerMap
+  exitNoticeOpen: boolean
   expandedImage: string | null
+  onCancelExit: () => void
   onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
   onCloseImage: () => void
+  onConfirmExit: () => void
   onExit: () => void
+  onGoToSkippedItem: (itemId: string) => void
   onOpenImage: (imageSrc: string) => void
   onSubmit: () => void
-  progressPercent: number
+  onSubmitAnyway: () => void
   remainingSeconds: number
   session: ExamSession
+  skippedItemNotice: SkippedItemNotice
   theme: Theme
   totalQuestions: number
   onToggleTheme: () => void
@@ -457,15 +617,20 @@ type ExamScreenProps = {
 function ExamScreen({
   answeredCount,
   answers,
+  exitNoticeOpen,
   expandedImage,
+  onCancelExit,
   onChooseAnswer,
   onCloseImage,
+  onConfirmExit,
   onExit,
+  onGoToSkippedItem,
   onOpenImage,
   onSubmit,
-  progressPercent,
+  onSubmitAnyway,
   remainingSeconds,
   session,
+  skippedItemNotice,
   theme,
   totalQuestions,
   onToggleTheme,
@@ -495,7 +660,6 @@ function ExamScreen({
           </button>
           <button
             className="button button--primary"
-            disabled={unansweredCount > 0}
             onClick={onSubmit}
             type="button"
           >
@@ -504,13 +668,9 @@ function ExamScreen({
         </div>
       </header>
 
-      <div className="progress-track" aria-label={`${progressPercent}% answered`}>
-        <span style={{ width: `${progressPercent}%` }} />
-      </div>
-
       <div className="question-list">
         {session.questions.map(({ id, itemNumber, question, choices }) => (
-          <article className="question-card" key={id}>
+          <article className="question-card" id={`exam-item-${id}`} key={id}>
             <div className="question-card__top">
               <span className="question-number">Item {itemNumber}</span>
               <span className="subject-tag">{question.subject}</span>
@@ -551,8 +711,81 @@ function ExamScreen({
 
       {unansweredCount > 0 && <p className="exam-footer-note">{unansweredCount} items left unanswered.</p>}
 
+      {skippedItemNotice && (
+        <SkippedItemPanel
+          items={skippedItemNotice.items}
+          onGoToItem={() => onGoToSkippedItem(skippedItemNotice.items[0].itemId)}
+          onSubmitAnyway={onSubmitAnyway}
+        />
+      )}
+
+      {exitNoticeOpen && (
+        <ExitExamPanel
+          answeredCount={answeredCount}
+          onCancel={onCancelExit}
+          onConfirm={onConfirmExit}
+        />
+      )}
+
       <ImageLightbox imageSrc={expandedImage} onClose={onCloseImage} />
     </section>
+  )
+}
+
+type ExitExamPanelProps = {
+  answeredCount: number
+  onCancel: () => void
+  onConfirm: () => void
+}
+
+function ExitExamPanel({ answeredCount, onCancel, onConfirm }: ExitExamPanelProps) {
+  return (
+    <div aria-modal="true" className="exam-dialog" role="dialog">
+      <div className="exam-dialog__content" data-lenis-prevent>
+        <p className="eyebrow">Exit exam</p>
+        <h2>Leave this exam?</h2>
+        <p className="exam-dialog__copy">
+          {answeredCount > 0
+            ? 'Answered items will be saved to the 2-take cooldown.'
+            : 'You will return to the home screen.'}
+        </p>
+        <div className="exam-dialog__actions">
+          <button className="button button--primary" onClick={onConfirm} type="button">
+            Exit exam
+          </button>
+          <button className="button button--ghost" onClick={onCancel} type="button">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+type SkippedItemPanelProps = {
+  items: SkippedItem[]
+  onGoToItem: () => void
+  onSubmitAnyway: () => void
+}
+
+function SkippedItemPanel({ items, onGoToItem, onSubmitAnyway }: SkippedItemPanelProps) {
+  const skippedLabel = items.length === 1 ? '1 item skipped' : `${items.length} items skipped`
+
+  return (
+    <div aria-modal="true" className="skipped-panel" role="dialog">
+      <div className="skipped-panel__content" data-lenis-prevent>
+        <p className="eyebrow">Skipped answer</p>
+        <h2>{skippedLabel}</h2>
+        <div className="skipped-panel__actions">
+          <button className="button button--primary" onClick={onSubmitAnyway} type="button">
+            Submit anyway
+          </button>
+          <button className="button button--ghost" onClick={onGoToItem} type="button">
+            Go to item
+          </button>
+        </div>
+      </div>
+    </div>
   )
 }
 
@@ -578,12 +811,15 @@ type ResultsScreenProps = {
   onFilterChange: (filter: ReviewFilter) => void
   onCloseImage: () => void
   onOpenImage: (imageSrc: string) => void
+  onHome: () => void
   onRetake: () => void
   passed: boolean
   percentage: number
   reviewItems: ReviewItem[]
   score: number
+  theme: Theme
   totalQuestions: number
+  onToggleTheme: () => void
 }
 
 function ResultsScreen({
@@ -593,12 +829,15 @@ function ResultsScreen({
   onFilterChange,
   onCloseImage,
   onOpenImage,
+  onHome,
   onRetake,
   passed,
   percentage,
   reviewItems,
   score,
+  theme,
   totalQuestions,
+  onToggleTheme,
 }: ResultsScreenProps) {
   const correctCount = reviewItems.filter((item) => item.isCorrect).length
   const wrongCount = reviewItems.length - correctCount
@@ -615,9 +854,15 @@ function ResultsScreen({
             {passed ? 'Passed' : 'Failed'} - passing score is 80%.
           </p>
         </div>
-        <button className="button button--primary" onClick={onRetake} type="button">
-          Retake Exam
-        </button>
+        <div className="results-hero__actions">
+          <ThemeToggle theme={theme} onToggle={onToggleTheme} />
+          <button className="button button--ghost" onClick={onHome} type="button">
+            Home
+          </button>
+          <button className="button button--primary" onClick={onRetake} type="button">
+            Retake Exam
+          </button>
+        </div>
       </header>
 
       <div className="result-stats">
@@ -759,7 +1004,13 @@ function ImageLightbox({ imageSrc, onClose }: ImageLightboxProps) {
   }
 
   return (
-    <div aria-modal="true" className="image-lightbox" onClick={onClose} role="dialog">
+    <div
+      aria-modal="true"
+      className="image-lightbox"
+      data-lenis-prevent
+      onClick={onClose}
+      role="dialog"
+    >
       <button
         aria-label="Close image preview"
         className="image-lightbox__close"
