@@ -922,6 +922,7 @@ function HistoryScreen({
   theme,
   onToggleTheme,
 }: HistoryScreenProps) {
+  const [selectedChartSubject, setSelectedChartSubject] = useState<Subject | null>(null)
   const aggregateStats = SUBJECTS.map<SubjectStat>((subject) =>
     attempts.reduce<SubjectStat>(
       (total, attempt) => {
@@ -944,6 +945,7 @@ function HistoryScreen({
   const totalSavedItems = attempts.reduce((total, attempt) => total + attempt.totalQuestions, 0)
   const totalCorrect = attempts.reduce((total, attempt) => total + attempt.score, 0)
   const chartSeries = buildSubjectChartSeries(attempts)
+  const visibleChartSeries = selectedChartSubject ? chartSeries.filter((series) => series.subject === selectedChartSubject) : chartSeries
 
   return (
     <section className="history">
@@ -1007,7 +1009,7 @@ function HistoryScreen({
             <line className="subject-chart__axis-line" x1="56" x2="676" y1="234" y2="234" />
             <line className="subject-chart__axis-line" x1="56" x2="56" y1="28" y2="234" />
             {attempts.length > 0 &&
-              chartSeries.map((series) => (
+              visibleChartSeries.map((series) => (
                 <g key={series.subject}>
                   {series.points.length > 1 && (
                     <polyline
@@ -1017,7 +1019,7 @@ function HistoryScreen({
                     />
                   )}
                   {series.points.map((point, index) => (
-                    <circle className="subject-chart__point" cx={point.x} cy={point.y} fill={series.color} key={`${series.subject}-${index}`} r="4.5" />
+                    <circle className="subject-chart__point" cx={point.x} cy={point.y} fill={series.color} key={`${series.subject}-${index}`} r="3" />
                   ))}
                 </g>
               ))}
@@ -1032,14 +1034,24 @@ function HistoryScreen({
           </svg>
           <div className="subject-chart__legend">
             {aggregateStats.map((stat) => (
-              <div className="subject-chart__legend-item" key={stat.subject}>
+              <button
+                aria-pressed={selectedChartSubject === stat.subject}
+                className={[
+                  'subject-chart__legend-item',
+                  selectedChartSubject === stat.subject ? 'subject-chart__legend-item--active' : '',
+                  selectedChartSubject && selectedChartSubject !== stat.subject ? 'subject-chart__legend-item--muted' : '',
+                ].filter(Boolean).join(' ')}
+                key={stat.subject}
+                onClick={() => setSelectedChartSubject((current) => (current === stat.subject ? null : stat.subject))}
+                type="button"
+              >
                 <span className="subject-chart__swatch" style={{ backgroundColor: SUBJECT_CHART_COLORS[stat.subject] }} />
                 <strong>{stat.subject}</strong>
                 <span>{stat.total > 0 ? `${Math.round((stat.correct / stat.total) * 100)}%` : '0%'}</span>
                 <small>
                   {stat.correct}/{stat.total} correct, {stat.answered} answered
                 </small>
-              </div>
+              </button>
             ))}
           </div>
         </div>

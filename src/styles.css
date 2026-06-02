@@ -974,12 +974,12 @@ h2 {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 3.5;
+  stroke-width: 2;
 }
 
 .subject-chart__point {
   stroke: var(--surface);
-  stroke-width: 2.5;
+  stroke-width: 1.75;
 }
 
 .subject-chart__empty-backdrop {
@@ -1004,11 +1004,40 @@ h2 {
   grid-template-columns: auto minmax(0, 1fr) auto;
   gap: 6px 8px;
   align-items: center;
+  width: 100%;
   min-height: 82px;
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 12px;
   background: var(--surface-strong);
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease,
+    opacity 160ms ease;
+}
+
+.subject-chart__legend-item:hover {
+  transform: translateY(-1px);
+  border-color: rgba(15, 118, 110, 0.35);
+  background: var(--surface);
+}
+
+.subject-chart__legend-item:focus-visible {
+  outline: 3px solid rgba(15, 118, 110, 0.3);
+  outline-offset: 2px;
+}
+
+.subject-chart__legend-item--active {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+}
+
+.subject-chart__legend-item--muted {
+  opacity: 0.48;
 }
 
 .subject-chart__swatch {
