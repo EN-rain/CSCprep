@@ -11045,7 +11045,7 @@
   {
     "id": "vr-431",
     "subject": "Verbal Reasoning",
-    "prompt": "Statement: In the recently held all Philippine Nursing conference, the session on 'Vacination\nCampaign' surprisingly attracted a large number of participants and also received very good media\ncoverage.\nAssumptions:\nI. Media is always very positive towards the Service sector.\nII. The service sector is managed properly in Philippines.\nIII.\nPeople weren't expecting such an encouraging response to the service sector conference.",
+    "prompt": "Statement: In the recently held all Philippine Nursing conference, the session on 'Vacination Campaign' surprisingly attracted a large number of participants and also received very good media coverage.\nAssumptions:\nI. Media is always very positive towards the Service sector.\nII. The service sector is managed properly in Philippines.\nIII. People weren't expecting such an encouraging response to the service sector conference.",
     "choices": [
       {
         "id": "A",
@@ -11068,8 +11068,8 @@
         "text": "III only"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "b.)\nSubscribing to Cable\nTV is a needless expenditure"
+    "correctChoiceId": "E",
+    "explanation": "The word \"surprisingly\" implies that people were not expecting such an encouraging response. Assumptions I and II are not required by the statement, so the correct answer is choice E (\"III only\")."
   },
   {
     "id": "vr-434",

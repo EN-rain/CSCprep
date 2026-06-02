@@ -22,8 +22,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Add the numbers from 11 to 20 by pairing the ends: 11+20, 12+19, 13+18, 14+17, and 15+16 are each 31. Five pairs of 31 give 155.",
-    "image": "/question-images/nr-001.png"
+    "explanation": "Add the numbers from 11 to 20 by pairing the ends: 11+20, 12+19, 13+18, 14+17, and 15+16 are each 31. Five pairs of 31 give 155."
   },
   {
     "id": "nr-002",
@@ -74,13 +73,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Compute 800 x 125 as 8 x 125 x 100. Since 8 x 125 = 1,000, the product is 100,000.",
-    "image": "/question-images/nr-003.png"
+    "explanation": "Compute 800 x 125 as 8 x 125 x 100. Since 8 x 125 = 1,000, the product is 100,000."
   },
   {
     "id": "nr-004",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the quotient: 8 000 ÷ 125",
+    "prompt": "Find the quotient: 8,000 / 125",
     "choices": [
       {
         "id": "A",
@@ -100,8 +98,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Since 125 x 64 = 8,000, the quotient 8,000 ? 125 is 64.",
-    "image": "/question-images/nr-004.png"
+    "explanation": "Since 125 x 64 = 8,000, the quotient 8,000 / 125 is 64."
   },
   {
     "id": "nr-005",
@@ -126,8 +123,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Add in easy pairs: 299 + 101 = 400 and 943 + 398 = 1,341. Then 400 + 1,341 = 1,741.",
-    "image": "/question-images/nr-005.png"
+    "explanation": "Add in easy pairs: 299 + 101 = 400 and 943 + 398 = 1,341. Then 400 + 1,341 = 1,741."
   },
   {
     "id": "nr-006",
@@ -454,8 +450,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "25% means one-fourth. One-fourth of 228 is 228 ? 4 = 57.",
-    "image": "/question-images/nr-018.png"
+    "explanation": "25% means one-fourth. One-fourth of 228 is 228 / 4 = 57."
   },
   {
     "id": "nr-019",
@@ -480,8 +475,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "If 228 is 25% of a number, then 228 is one-fourth of it. Multiply 228 by 4 to get 912.",
-    "image": "/question-images/nr-019.png"
+    "explanation": "If 228 is 25% of a number, then 228 is one-fourth of it. Multiply 228 by 4 to get 912."
   },
   {
     "id": "nr-020",
@@ -506,8 +500,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Find the percent by dividing 168 by 672: 168 ? 672 = 0.25. As a percent, 0.25 is 25%.",
-    "image": "/question-images/nr-020.png"
+    "explanation": "Find the percent by dividing 168 by 672: 168 / 672 = 0.25. As a percent, 0.25 is 25%."
   },
   {
     "id": "nr-021",
@@ -532,8 +525,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Distribute 123 across the decimals: 123(0.1 + 0.01 + 0.001) = 123(0.111) = 13.653.",
-    "image": "/question-images/nr-021.png"
+    "explanation": "Distribute 123 across the decimals: 123(0.1 + 0.01 + 0.001) = 123(0.111) = 13.653."
   },
   {
     "id": "nr-022",
@@ -683,8 +675,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "First solve 8x + 12 = 24: subtract 12 to get 8x = 12, so x = 1.5. Then 24x + 36 = 24(1.5) + 36 = 36 + 36 = 72.",
-    "image": "/question-images/nr-027.png"
+    "explanation": "First solve 8x + 12 = 24: subtract 12 to get 8x = 12, so x = 1.5. Then 24x + 36 = 24(1.5) + 36 = 36 + 36 = 72."
   },
   {
     "id": "nr-028",
@@ -709,8 +700,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "If m is divisible by both 3 and 8, it must be divisible by their least common multiple. Since 3 and 8 have no common factor, LCM(3, 8) = 24.",
-    "image": "/question-images/nr-028.png"
+    "explanation": "If m is divisible by both 3 and 8, it must be divisible by their least common multiple. Since 3 and 8 have no common factor, LCM(3, 8) = 24."
   },
   {
     "id": "nr-029",
@@ -727,16 +717,15 @@
       },
       {
         "id": "C",
-        "text": "m – n cannot be odd"
+        "text": "m - n cannot be odd"
       },
       {
         "id": "D",
-        "text": "m + n – 1 is odd"
+        "text": "m + n - 1 is odd"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "?Not both odd? means at least one of m or n is even. If one factor is even, their product mn is always even.",
-    "image": "/question-images/nr-029.png"
+    "explanation": "\"Not both odd\" means at least one of m or n is even. If one factor is even, their product mn is always even."
   },
   {
     "id": "nr-030",
@@ -761,8 +750,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Add the 12 temperature changes to get 64.8, then divide by 12. The average change is 64.8 ? 12 = 5.4.",
-    "image": "/question-images/nr-030.png"
+    "explanation": "Add the 12 temperature changes to get 64.8, then divide by 12. The average change is 64.8 / 12 = 5.4."
   },
   {
     "id": "nr-031",
@@ -813,8 +801,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The statement chains equal quantities: 8(6)+4 equals 48+4, and 48+4 equals 52. Therefore 8(6)+4 equals 52, which is the transitive property of equality.",
-    "image": "/question-images/nr-032.png"
+    "explanation": "The statement chains equal quantities: 8(6)+4 equals 48+4, and 48+4 equals 52. Therefore 8(6)+4 equals 52, which is the transitive property of equality."
   },
   {
     "id": "nr-033",
@@ -839,8 +826,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Translate the phrase as -3n - 8 > 7. Add 8 to get -3n > 15. Dividing by -3 flips the sign, so n < -5. The only listed value less than -5 is -6.",
-    "image": "/question-images/nr-033.png"
+    "explanation": "Translate the phrase as -3n - 8 > 7. Add 8 to get -3n > 15. Dividing by -3 flips the sign, so n < -5. The only listed value less than -5 is -6."
   },
   {
     "id": "nr-034",
@@ -865,8 +851,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "?The difference between 8 times a number and 17 is 231? means 8x - 17 = 231. Add 17 to get 8x = 248, then divide by 8: x = 31.",
-    "image": "/question-images/nr-034.png"
+    "explanation": "\"The difference between 8 times a number and 17 is 231\" means 8x - 17 = 231. Add 17 to get 8x = 248, then divide by 8: x = 31."
   },
   {
     "id": "nr-035",
@@ -891,13 +876,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Four times the perimeter is 16 less than 2,000, so 4P = 2,000 - 16 = 1,984. Divide by 4 to get P = 496 meters.",
-    "image": "/question-images/nr-035.png"
+    "explanation": "Four times the perimeter is 16 less than 2,000, so 4P = 2,000 - 16 = 1,984. Divide by 4 to get P = 496 meters."
   },
   {
     "id": "nr-036",
     "subject": "Numerical Reasoning",
-    "prompt": "The amount of last month’s telephone bill, decreased by the product of 3 and\nPhp30.00 equals Php1,319.50",
+    "prompt": "The amount of last month's telephone bill, decreased by the product of 3 and\nPhp30.00 equals Php1,319.50",
     "choices": [
       {
         "id": "A",
@@ -917,8 +901,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Let the original bill be x. The bill decreased by 3 x Php30 equals Php1,319.50, so x - 90 = 1,319.50. Add 90 to get Php1,409.50.",
-    "image": "/question-images/nr-036.png"
+    "explanation": "Let the original bill be x. The bill decreased by 3 x Php30 equals Php1,319.50, so x - 90 = 1,319.50. Add 90 to get Php1,409.50."
   },
   {
     "id": "nr-037",
@@ -2865,11 +2848,11 @@
   {
     "id": "nr-112",
     "subject": "Numerical Reasoning",
-    "prompt": "2^2 - (-9)^2 - (-3^2) + 15^0 = ?",
+    "prompt": "-2^2 - (-9)^2 - (-3^2) + 15^0 = ?",
     "choices": [
       {
         "id": "A",
-        "text": "75"
+        "text": "-75"
       },
       {
         "id": "B",
@@ -2877,7 +2860,7 @@
       },
       {
         "id": "C",
-        "text": "85"
+        "text": "-85"
       },
       {
         "id": "D",
@@ -2889,7 +2872,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) -75\n2^2 - (-9)^2 - (-3^2) + 15^0 = ?\n4 - (+81) - (-9) + 1 =\n4 - 81 + 9 + 1 =\n85 + 9 + 1 =\n76 + 1 = -75✔\n*recheck with your own calculator"
+    "explanation": "-2^2 - (-9)^2 - (-3^2) + 15^0 = ?\n-2^2 means -(2^2), so it is -4. Also (-9)^2 = 81, (-3^2) = -9, and 15^0 = 1. Therefore -4 - 81 - (-9) + 1 = -4 - 81 + 9 + 1 = -75."
   },
   {
     "id": "nr-113",
@@ -3971,11 +3954,11 @@
       },
       {
         "id": "C",
-        "text": "5:25pm"
+        "text": "3:25pm"
       },
       {
         "id": "D",
-        "text": "3:25pm"
+        "text": "5:25pm"
       },
       {
         "id": "E",
@@ -3983,7 +3966,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E (\"3:15pm\") because solving the word problem gives this result."
+    "explanation": "Count back 15 hours and 15 minutes from 6:30 am. That lands at 3:15 pm on the previous day, so the correct answer is choice E (\"3:15pm\")."
   },
   {
     "id": "nr-151",
@@ -4261,7 +4244,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 11\nFour consecutive integers could be represented as n, n+1,\nn+2, n+3\nTherefore, by saying that they have a mean of 9.5, we\nmean to say:\n(n + n+1 + n+2 + n+3)/4 = 9.5\n(4n + 6)/4 = 9.5"
+    "explanation": "Four consecutive integers with a mean of 9.5 have a total of 9.5 x 4 = 38. The four consecutive integers that add to 38 are 8, 9, 10, and 11, so the largest is 11."
   },
   {
     "id": "nr-161",
@@ -4569,23 +4552,23 @@
   {
     "id": "nr-172",
     "subject": "Numerical Reasoning",
-    "prompt": "In a shipment of computers, 2/25 of the computers are defective. What is the ratio of defective to non\ndefective computers?",
+    "prompt": "In a shipment of computers, 2/25 of the computers are defective. What is the ratio of defective to non-defective computers?",
     "choices": [
       {
         "id": "A",
-        "text": "2/25"
+        "text": "2:25"
       },
       {
         "id": "B",
-        "text": "2/23"
+        "text": "2:23"
       },
       {
         "id": "C",
-        "text": "25/2"
+        "text": "25:2"
       },
       {
         "id": "D",
-        "text": "23/2"
+        "text": "23:2"
       },
       {
         "id": "E",
@@ -4593,7 +4576,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"2/23\") because it gives the correct simplified ratio."
+    "explanation": "If 2/25 of the computers are defective, then 23/25 are non-defective. The ratio of defective to non-defective computers is 2:23."
   },
   {
     "id": "nr-173",

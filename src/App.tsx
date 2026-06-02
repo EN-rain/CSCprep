@@ -18,14 +18,45 @@ import {
   resetQuestionHistory,
 } from './utils/exam'
 
-type Screen = 'home' | 'exam' | 'results'
+type Screen = 'home' | 'exam' | 'results' | 'history'
 type Theme = 'light' | 'dark'
 type ScreenTransition = 'idle' | 'content-exit' | 'content-enter'
 const TIMED_EXAM_SECONDS = 60 * 60
 const THEME_KEY = 'cscprep-theme'
+const EXAM_ATTEMPT_HISTORY_KEY = 'cscprep:exam-attempt-history:v1'
 const SCREEN_EXIT_MS = 300
 const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
+const SUBJECT_CHART_COLORS: Record<Subject, string> = {
+  'Verbal Reasoning': '#0f766e',
+  'Numerical Reasoning': '#2563eb',
+  'Analytical Ability': '#d97706',
+  Filipino: '#c026d3',
+  'General Information': '#dc2626',
+}
+const DUMMY_HISTORY_PRESETS: Array<Record<Subject, number>> = [
+  {
+    'Verbal Reasoning': 62,
+    'Numerical Reasoning': 48,
+    'Analytical Ability': 70,
+    Filipino: 58,
+    'General Information': 52,
+  },
+  {
+    'Verbal Reasoning': 68,
+    'Numerical Reasoning': 56,
+    'Analytical Ability': 74,
+    Filipino: 64,
+    'General Information': 60,
+  },
+  {
+    'Verbal Reasoning': 74,
+    'Numerical Reasoning': 63,
+    'Analytical Ability': 79,
+    Filipino: 70,
+    'General Information': 67,
+  },
+]
 
 type ReviewItem = {
   itemId: string
@@ -49,6 +80,38 @@ type SkippedItem = {
 type SkippedItemNotice = {
   items: SkippedItem[]
 } | null
+
+type SubjectStat = {
+  subject: Subject
+  total: number
+  answered: number
+  correct: number
+}
+
+type SavedExamAttempt = {
+  id: string
+  submittedAt: string
+  title: string
+  mode: ExamMode
+  timed: boolean
+  examNumber: number
+  session: ExamSession
+  answers: AnswerMap
+  score: number
+  totalQuestions: number
+  subjectStats: SubjectStat[]
+}
+
+type SubjectChartPoint = {
+  x: number
+  y: number
+}
+
+type SubjectChartSeries = {
+  subject: Subject
+  color: string
+  points: SubjectChartPoint[]
+}
 
 const LINE_BREAK_PROMPT_IDS = new Set([
   'aa-001',
@@ -133,7 +196,121 @@ const PRESERVE_PROMPT_LINE_IDS = new Set([
   'vr-302',
   'vr-303',
   'vr-304',
+  'vr-431',
+  'csc10-064',
 ])
+
+function readExamAttemptHistory(): SavedExamAttempt[] {
+  if (typeof window === 'undefined') {
+    return []
+  }
+
+  try {
+    const raw = window.localStorage.getItem(EXAM_ATTEMPT_HISTORY_KEY)
+    const parsed = raw ? JSON.parse(raw) : []
+
+    return Array.isArray(parsed) ? (parsed as SavedExamAttempt[]) : []
+  } catch {
+    return []
+  }
+}
+
+function writeExamAttemptHistory(attempts: SavedExamAttempt[]): void {
+  window.localStorage.setItem(EXAM_ATTEMPT_HISTORY_KEY, JSON.stringify(attempts))
+}
+
+function clearExamAttemptHistory(): void {
+  window.localStorage.removeItem(EXAM_ATTEMPT_HISTORY_KEY)
+}
+
+function createSavedExamAttempt(session: ExamSession, answers: AnswerMap): SavedExamAttempt {
+  const subjectStats = SUBJECTS.map<SubjectStat>((subject) => {
+    const subjectQuestions = session.questions.filter(({ question }) => question.subject === subject)
+    const answered = subjectQuestions.filter(({ id }) => Boolean(answers[id]))
+    const correct = answered.filter(({ id, question }) => answers[id] === question.correctChoiceId)
+
+    return {
+      subject,
+      total: subjectQuestions.length,
+      answered: answered.length,
+      correct: correct.length,
+    }
+  })
+
+  return {
+    id: `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
+    submittedAt: new Date().toISOString(),
+    title: session.title,
+    mode: session.mode,
+    timed: session.timed,
+    examNumber: session.examNumber,
+    session,
+    answers,
+    score: subjectStats.reduce((total, stat) => total + stat.correct, 0),
+    totalQuestions: session.questions.length,
+    subjectStats,
+  }
+}
+
+function getWrongChoiceId(question: ExamSession['questions'][number]['question']): ChoiceId {
+  return question.choices.find((choice) => choice.id !== question.correctChoiceId)?.id ?? question.correctChoiceId
+}
+
+function createDummyExamAttempt(index: number, subjectTargets: Record<Subject, number>): SavedExamAttempt {
+  const session = createExamSession({ kind: 'mixed' }, false)
+  const answers: AnswerMap = {}
+
+  SUBJECTS.forEach((subject) => {
+    const subjectQuestions = session.questions.filter(({ question }) => question.subject === subject)
+    const correctTarget = Math.round((subjectQuestions.length * subjectTargets[subject]) / 100)
+
+    subjectQuestions.forEach(({ id, question }, questionIndex) => {
+      answers[id] = questionIndex < correctTarget ? question.correctChoiceId : getWrongChoiceId(question)
+    })
+  })
+
+  const savedAttempt = createSavedExamAttempt(session, answers)
+  const submittedAt = new Date()
+  submittedAt.setDate(submittedAt.getDate() - (DUMMY_HISTORY_PRESETS.length - index))
+
+  return {
+    ...savedAttempt,
+    id: `dummy-history-${index + 1}`,
+    submittedAt: submittedAt.toISOString(),
+    title: `Dummy Exam ${index + 1}`,
+  }
+}
+
+function createDummyExamHistory(): SavedExamAttempt[] {
+  return DUMMY_HISTORY_PRESETS.map((preset, index) => createDummyExamAttempt(index, preset)).reverse()
+}
+
+function buildSubjectChartSeries(attempts: SavedExamAttempt[]): SubjectChartSeries[] {
+  const chronologicalAttempts = [...attempts].reverse()
+  const left = 56
+  const right = 676
+  const top = 28
+  const bottom = 234
+  const lastIndex = Math.max(chronologicalAttempts.length - 1, 1)
+
+  return SUBJECTS.map((subject) => {
+    const points = chronologicalAttempts.map<SubjectChartPoint>((attempt, index) => {
+      const stat = attempt.subjectStats.find((subjectStat) => subjectStat.subject === subject)
+      const percent = stat && stat.total > 0 ? Math.round((stat.correct / stat.total) * 100) : 0
+
+      return {
+        x: left + ((right - left) * index) / lastIndex,
+        y: bottom - ((bottom - top) * percent) / 100,
+      }
+    })
+
+    return {
+      subject,
+      color: SUBJECT_CHART_COLORS[subject],
+      points,
+    }
+  })
+}
 
 function App() {
   const [theme, setTheme] = useState<Theme>(() => {
@@ -157,8 +334,11 @@ function App() {
   const [remainingSeconds, setRemainingSeconds] = useState(TIMED_EXAM_SECONDS)
   const [answeredHistoryCount, setAnsweredHistoryCount] = useState(() => getAnsweredHistoryCount())
   const [loadedQuestionCount] = useState(() => getLoadedQuestionCount())
+  const [savedAttempts, setSavedAttempts] = useState<SavedExamAttempt[]>(() => readExamAttemptHistory())
   const [expandedImage, setExpandedImage] = useState<string | null>(null)
   const [skippedItemNotice, setSkippedItemNotice] = useState<SkippedItemNotice>(null)
+  const [skippedItemQueue, setSkippedItemQueue] = useState<SkippedItem[]>([])
+  const [activeSkippedItemId, setActiveSkippedItemId] = useState<string | null>(null)
   const [exitNoticeOpen, setExitNoticeOpen] = useState(false)
   const [screenTransition, setScreenTransition] = useState<ScreenTransition>('idle')
   const transitionTimeoutRef = useRef<number | null>(null)
@@ -207,6 +387,13 @@ function App() {
 
     return true
   })
+  const nextSkippedItem = useMemo(() => {
+    if (!activeSkippedItemId || !answers[activeSkippedItemId]) {
+      return null
+    }
+
+    return skippedItemQueue.find((item) => item.itemId !== activeSkippedItemId && !answers[item.itemId]) ?? null
+  }, [activeSkippedItemId, answers, skippedItemQueue])
 
   function startExam(mode: ExamMode = { kind: 'mixed' }) {
     if (screenTransition !== 'idle') {
@@ -220,6 +407,8 @@ function App() {
       setSubmittedAnswers({})
       setFilter('all')
       setSkippedItemNotice(null)
+      setSkippedItemQueue([])
+      setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
       setRemainingSeconds(TIMED_EXAM_SECONDS)
       setScreen('exam')
@@ -249,9 +438,13 @@ function App() {
 
     if (skippedQuestions.length > 0) {
       setSkippedItemNotice({ items: skippedQuestions })
+      setSkippedItemQueue(skippedQuestions)
+      setActiveSkippedItemId(null)
       return
     }
 
+    setSkippedItemQueue([])
+    setActiveSkippedItemId(null)
     finishSubmitExam()
   }
 
@@ -270,23 +463,42 @@ function App() {
 
     transitionToScreen(() => {
       completeExam(session, finalAnswers)
+      const savedAttempt = createSavedExamAttempt(session, finalAnswers)
+      const nextSavedAttempts = [savedAttempt, ...readExamAttemptHistory()].slice(0, 50)
+      writeExamAttemptHistory(nextSavedAttempts)
+      setSavedAttempts(nextSavedAttempts)
       setSubmittedAnswers(finalAnswers)
       setAnsweredHistoryCount(getAnsweredHistoryCount())
       setSkippedItemNotice(null)
+      setSkippedItemQueue([])
+      setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
       setScreen('results')
     })
   }
 
-  function goToSkippedItem(itemId: string) {
-    setSkippedItemNotice(null)
-
+  function scrollToExamItem(itemId: string) {
     window.setTimeout(() => {
       document.getElementById(`exam-item-${itemId}`)?.scrollIntoView({
         behavior: 'smooth',
         block: 'center',
       })
     }, 0)
+  }
+
+  function goToSkippedItem(itemId: string) {
+    setSkippedItemNotice(null)
+    setActiveSkippedItemId(itemId)
+    scrollToExamItem(itemId)
+  }
+
+  function goToNextSkippedItem() {
+    if (!nextSkippedItem) {
+      return
+    }
+
+    setActiveSkippedItemId(nextSkippedItem.itemId)
+    scrollToExamItem(nextSkippedItem.itemId)
   }
 
   function goHome() {
@@ -296,10 +508,50 @@ function App() {
       setSubmittedAnswers({})
       setFilter('all')
       setSkippedItemNotice(null)
+      setSkippedItemQueue([])
+      setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
       setExpandedImage(null)
       setScreen('home')
     })
+  }
+
+  function openHistory() {
+    transitionToScreen(() => {
+      setFilter('all')
+      setSkippedItemNotice(null)
+      setExitNoticeOpen(false)
+      setExpandedImage(null)
+      setScreen('history')
+    })
+  }
+
+  function openSavedAttempt(attempt: SavedExamAttempt) {
+    transitionToScreen(() => {
+      setSession(attempt.session)
+      setAnswers(attempt.answers)
+      setSubmittedAnswers(attempt.answers)
+      setFilter('all')
+      setSkippedItemNotice(null)
+      setSkippedItemQueue([])
+      setActiveSkippedItemId(null)
+      setExitNoticeOpen(false)
+      setExpandedImage(null)
+      setScreen('results')
+    })
+  }
+
+  function deleteExamHistory() {
+    clearExamAttemptHistory()
+    resetQuestionHistory()
+    setSavedAttempts([])
+    setAnsweredHistoryCount(0)
+  }
+
+  function addDummyHistory() {
+    const dummyAttempts = createDummyExamHistory()
+    writeExamAttemptHistory(dummyAttempts)
+    setSavedAttempts(dummyAttempts)
   }
 
   function exitExam() {
@@ -327,14 +579,11 @@ function App() {
       setSubmittedAnswers({})
       setFilter('all')
       setSkippedItemNotice(null)
+      setSkippedItemQueue([])
+      setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
       setScreen('home')
     })
-  }
-
-  function resetHistory() {
-    resetQuestionHistory()
-    setAnsweredHistoryCount(0)
   }
 
   function toggleTimer() {
@@ -413,6 +662,16 @@ function App() {
   }, [theme])
 
   useEffect(() => {
+    if (screen !== 'results') {
+      return
+    }
+
+    window.requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+    })
+  }, [screen])
+
+  useEffect(() => {
     return () => {
       if (transitionTimeoutRef.current) {
         window.clearTimeout(transitionTimeoutRef.current)
@@ -430,9 +689,10 @@ function App() {
         <div className="screen-frame screen-frame--home">
           <HomeScreen
             answeredHistoryCount={answeredHistoryCount}
+            savedAttemptCount={savedAttempts.length}
             loadedQuestionCount={loadedQuestionCount}
             onToggleTimer={toggleTimer}
-            onResetHistory={resetHistory}
+            onOpenHistory={openHistory}
             onStartExam={startExam}
             timerEnabled={timerEnabled}
             theme={theme}
@@ -454,10 +714,12 @@ function App() {
             onCloseSkippedItems={() => setSkippedItemNotice(null)}
             onConfirmExit={confirmExitExam}
             onExit={exitExam}
+            onGoToNextSkippedItem={goToNextSkippedItem}
             onOpenImage={setExpandedImage}
             onGoToSkippedItem={goToSkippedItem}
             onSubmit={submitExam}
             onSubmitAnyway={finishSubmitExam}
+            nextSkippedItem={nextSkippedItem}
             remainingSeconds={remainingSeconds}
             session={session}
             skippedItemNotice={skippedItemNotice}
@@ -485,6 +747,22 @@ function App() {
             score={score}
             theme={theme}
             totalQuestions={totalQuestions}
+            onToggleTheme={toggleTheme}
+          />
+        </div>
+      )}
+
+      {screen === 'history' && (
+        <div className="screen-frame screen-frame--history">
+          <HistoryScreen
+            attempts={savedAttempts}
+            answeredHistoryCount={answeredHistoryCount}
+            loadedQuestionCount={loadedQuestionCount}
+            onAddDummyHistory={addDummyHistory}
+            onDeleteHistory={deleteExamHistory}
+            onHome={goHome}
+            onOpenAttempt={openSavedAttempt}
+            theme={theme}
             onToggleTheme={toggleTheme}
           />
         </div>
@@ -542,8 +820,9 @@ function SunIcon() {
 
 type HomeScreenProps = {
   answeredHistoryCount: number
+  savedAttemptCount: number
   loadedQuestionCount: number
-  onResetHistory: () => void
+  onOpenHistory: () => void
   onStartExam: (mode?: ExamMode) => void
   onToggleTimer: () => void
   timerEnabled: boolean
@@ -553,8 +832,9 @@ type HomeScreenProps = {
 
 function HomeScreen({
   answeredHistoryCount,
+  savedAttemptCount,
   loadedQuestionCount,
-  onResetHistory,
+  onOpenHistory,
   onStartExam,
   onToggleTimer,
   timerEnabled,
@@ -590,8 +870,8 @@ function HomeScreen({
               <span className="toggle__label">Timer</span>
               <span className="toggle__state">{timerEnabled ? 'On' : 'Off'}</span>
             </button>
-            <button className="button button--ghost button--compact" type="button" onClick={onResetHistory}>
-              Reset History
+            <button className="button button--ghost button--compact" type="button" onClick={onOpenHistory}>
+              History {savedAttemptCount > 0 ? `(${savedAttemptCount})` : ''}
             </button>
           </div>
         </div>
@@ -619,6 +899,184 @@ function HomeScreen({
   )
 }
 
+type HistoryScreenProps = {
+  attempts: SavedExamAttempt[]
+  answeredHistoryCount: number
+  loadedQuestionCount: number
+  onAddDummyHistory: () => void
+  onDeleteHistory: () => void
+  onHome: () => void
+  onOpenAttempt: (attempt: SavedExamAttempt) => void
+  theme: Theme
+  onToggleTheme: () => void
+}
+
+function HistoryScreen({
+  attempts,
+  answeredHistoryCount,
+  loadedQuestionCount,
+  onAddDummyHistory,
+  onDeleteHistory,
+  onHome,
+  onOpenAttempt,
+  theme,
+  onToggleTheme,
+}: HistoryScreenProps) {
+  const aggregateStats = SUBJECTS.map<SubjectStat>((subject) =>
+    attempts.reduce<SubjectStat>(
+      (total, attempt) => {
+        const subjectStat = attempt.subjectStats.find((stat) => stat.subject === subject)
+
+        if (!subjectStat) {
+          return total
+        }
+
+        return {
+          subject,
+          total: total.total + subjectStat.total,
+          answered: total.answered + subjectStat.answered,
+          correct: total.correct + subjectStat.correct,
+        }
+      },
+      { subject, total: 0, answered: 0, correct: 0 },
+    ),
+  )
+  const totalSavedItems = attempts.reduce((total, attempt) => total + attempt.totalQuestions, 0)
+  const totalCorrect = attempts.reduce((total, attempt) => total + attempt.score, 0)
+  const chartSeries = buildSubjectChartSeries(attempts)
+
+  return (
+    <section className="history">
+      <header className="results-hero">
+        <div>
+          <p className="eyebrow">Local history</p>
+          <h1>History</h1>
+          <p className="status">
+            {attempts.length} submitted {attempts.length === 1 ? 'exam' : 'exams'} saved on this device.
+          </p>
+        </div>
+        <div className="results-hero__actions">
+          <ThemeToggle theme={theme} onToggle={onToggleTheme} />
+          <button className="button button--ghost" onClick={onHome} type="button">
+            Home
+          </button>
+          <button className="button button--ghost" onClick={onAddDummyHistory} type="button">
+            Add dummy history
+          </button>
+          <button className="button button--danger" disabled={attempts.length === 0 && answeredHistoryCount === 0} onClick={onDeleteHistory} type="button">
+            Delete history
+          </button>
+        </div>
+      </header>
+
+      <div className="result-stats">
+        <div>
+          <span>{attempts.length}</span>
+          <p>submitted exams</p>
+        </div>
+        <div>
+          <span>{totalSavedItems > 0 ? `${Math.round((totalCorrect / totalSavedItems) * 100)}%` : '0%'}</span>
+          <p>overall score</p>
+        </div>
+        <div>
+          <span>{formatBankProgress(loadedQuestionCount)}</span>
+          <p>loaded bank</p>
+        </div>
+      </div>
+
+      <section className="history-panel" aria-label="Subject statistics">
+        <div className="section-heading">
+          <div className="section-heading__title">
+            <h2>Subject stats</h2>
+          </div>
+        </div>
+        <div className="subject-chart">
+          <svg className="subject-chart__plot" viewBox="0 0 720 300" role="img" aria-label="Subject scores from zero to one hundred percent">
+            {[0, 25, 50, 75, 100].map((tick) => {
+              const y = 234 - (tick / 100) * 206
+
+              return (
+                <g key={tick}>
+                  <line className="subject-chart__grid-line" x1="56" x2="676" y1={y} y2={y} />
+                  <text className="subject-chart__axis-label" x="22" y={y + 4}>
+                    {tick}%
+                  </text>
+                </g>
+              )
+            })}
+            <line className="subject-chart__axis-line" x1="56" x2="676" y1="234" y2="234" />
+            <line className="subject-chart__axis-line" x1="56" x2="56" y1="28" y2="234" />
+            {attempts.length > 0 &&
+              chartSeries.map((series) => (
+                <g key={series.subject}>
+                  {series.points.length > 1 && (
+                    <polyline
+                      className="subject-chart__line"
+                      points={series.points.map((point) => `${point.x},${point.y}`).join(' ')}
+                      stroke={series.color}
+                    />
+                  )}
+                  {series.points.map((point, index) => (
+                    <circle className="subject-chart__point" cx={point.x} cy={point.y} fill={series.color} key={`${series.subject}-${index}`} r="4.5" />
+                  ))}
+                </g>
+              ))}
+            {attempts.length === 0 && (
+              <g>
+                <rect className="subject-chart__empty-backdrop" x="230" y="112" width="258" height="42" rx="8" />
+                <text className="subject-chart__empty-label" x="359" y="138" textAnchor="middle">
+                  No saved subject scores yet
+                </text>
+              </g>
+            )}
+          </svg>
+          <div className="subject-chart__legend">
+            {aggregateStats.map((stat) => (
+              <div className="subject-chart__legend-item" key={stat.subject}>
+                <span className="subject-chart__swatch" style={{ backgroundColor: SUBJECT_CHART_COLORS[stat.subject] }} />
+                <strong>{stat.subject}</strong>
+                <span>{stat.total > 0 ? `${Math.round((stat.correct / stat.total) * 100)}%` : '0%'}</span>
+                <small>
+                  {stat.correct}/{stat.total} correct, {stat.answered} answered
+                </small>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="history-panel" aria-label="Submitted exams">
+        <div className="section-heading">
+          <div className="section-heading__title">
+            <h2>Submitted exams</h2>
+          </div>
+        </div>
+
+        {attempts.length === 0 ? (
+          <p className="empty-history">No submitted exams saved yet.</p>
+        ) : (
+          <div className="attempt-list">
+            {attempts.map((attempt) => (
+              <button className="attempt-row" key={attempt.id} onClick={() => onOpenAttempt(attempt)} type="button">
+                <span>
+                  <strong>{attempt.title}</strong>
+                  <small>{formatAttemptDate(attempt.submittedAt)}</small>
+                </span>
+                <span>
+                  <strong>
+                    {attempt.score}/{attempt.totalQuestions}
+                  </strong>
+                  <small>{Math.round((attempt.score / attempt.totalQuestions) * 100)}%</small>
+                </span>
+              </button>
+            ))}
+          </div>
+        )}
+      </section>
+    </section>
+  )
+}
+
 type ExamScreenProps = {
   answeredCount: number
   answers: AnswerMap
@@ -630,10 +1088,12 @@ type ExamScreenProps = {
   onCloseSkippedItems: () => void
   onConfirmExit: () => void
   onExit: () => void
+  onGoToNextSkippedItem: () => void
   onGoToSkippedItem: (itemId: string) => void
   onOpenImage: (imageSrc: string) => void
   onSubmit: () => void
   onSubmitAnyway: () => void
+  nextSkippedItem: SkippedItem | null
   remainingSeconds: number
   session: ExamSession
   skippedItemNotice: SkippedItemNotice
@@ -653,10 +1113,12 @@ function ExamScreen({
   onCloseSkippedItems,
   onConfirmExit,
   onExit,
+  onGoToNextSkippedItem,
   onGoToSkippedItem,
   onOpenImage,
   onSubmit,
   onSubmitAnyway,
+  nextSkippedItem,
   remainingSeconds,
   session,
   skippedItemNotice,
@@ -713,6 +1175,14 @@ function ExamScreen({
       </div>
 
       {unansweredCount > 0 && <p className="exam-footer-note">{unansweredCount} items left unanswered.</p>}
+
+      {nextSkippedItem && (
+        <div className="next-skipped-action">
+          <button className="button button--primary" onClick={onGoToNextSkippedItem} type="button">
+            Go to next item
+          </button>
+        </div>
+      )}
 
       {skippedItemNotice && (
         <SkippedItemPanel
@@ -916,6 +1386,19 @@ function formatBankProgress(value: number): string {
   return String(value)
 }
 
+function formatAttemptDate(value: string): string {
+  const date = new Date(value)
+
+  if (Number.isNaN(date.getTime())) {
+    return 'Saved exam'
+  }
+
+  return new Intl.DateTimeFormat(undefined, {
+    dateStyle: 'medium',
+    timeStyle: 'short',
+  }).format(date)
+}
+
 function formatTimer(totalSeconds: number): string {
   const minutes = Math.floor(totalSeconds / 60)
   const seconds = totalSeconds % 60
@@ -998,10 +1481,6 @@ function ResultsScreen({
           <span>{skippedCount}</span>
           <p>skipped</p>
         </div>
-        <div>
-          <span>{totalQuestions}</span>
-          <p>total items</p>
-        </div>
       </div>
 
       <div className="filter-row" role="group" aria-label="Filter reviewed answers">
@@ -1073,7 +1552,6 @@ function QuestionCard({
       <PromptText
         prompt={question.prompt}
         questionId={question.id}
-        visuallyHidden={Boolean(question.image)}
       />
       <div className={markerChoicesOnly ? 'choice-grid choice-grid--markers' : 'choice-grid'}>
         {choices.map((choice, index) => {
@@ -1130,8 +1608,8 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
       <PromptText
         prompt={item.prompt}
         questionId={item.questionId}
-        visuallyHidden={Boolean(item.image)}
       />
+      {item.explanation && <p className="explanation">{item.explanation}</p>}
       <div className={markerChoicesOnly ? 'review-choices review-choices--markers' : 'review-choices'}>
         {item.choices.map((choice, index) => {
           const isSelected = item.selectedChoiceId === choice.id
@@ -1156,7 +1634,6 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
           )
         })}
       </div>
-      {item.explanation && <p className="explanation">{item.explanation}</p>}
     </article>
   )
 }

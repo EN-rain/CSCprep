@@ -117,6 +117,10 @@ function getSessionTitle(mode: ExamMode): string {
   return mode.kind === 'mixed' ? 'Random Exam' : `${mode.subject} Exam`
 }
 
+function preservesChoiceOrder(question: Question): boolean {
+  return Boolean(question.image) || question.prompt.trim().startsWith('Which term refers to ')
+}
+
 export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = false): ExamSession {
   const history = getQuestionHistory()
   const examNumber = getCompletedExamCount() + 1
@@ -135,7 +139,7 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
       id: `${question.id}-${index + 1}`,
       itemNumber: index + 1,
       question,
-      choices: question.image ? question.choices : shuffle(question.choices),
+      choices: preservesChoiceOrder(question) ? question.choices : shuffle(question.choices),
     })),
   }
 }

@@ -2845,82 +2845,207 @@
   {
     "id": "aa-114",
     "subject": "Analytical Ability",
-    "prompt": "7 11 16 22 29",
+    "prompt": "A records clerk stamps incoming documents at these times: 8:05, 8:12, 8:19, 8:26. What time comes next if the interval stays the same?",
     "choices": [
       {
         "id": "A",
-        "text": "37"
+        "text": "8:31"
       },
       {
         "id": "B",
-        "text": "38"
+        "text": "8:33"
       },
       {
         "id": "C",
-        "text": "36"
+        "text": "8:35"
       },
       {
         "id": "D",
-        "text": "42"
+        "text": "8:38"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The differences increase by one: 4, 5, 6, 7, then 8."
+    "correctChoiceId": "B",
+    "explanation": "The time increases by 7 minutes each step. Seven minutes after 8:26 is 8:33."
   },
   {
     "id": "aa-115",
     "subject": "Analytical Ability",
-    "prompt": "3 6 12 24 48",
+    "prompt": "A document control number follows this pattern: DC-104, DC-108, DC-112, DC-116. What is the next control number?",
     "choices": [
       {
         "id": "A",
-        "text": "96"
+        "text": "DC-118"
       },
       {
         "id": "B",
-        "text": "97"
+        "text": "DC-119"
       },
       {
         "id": "C",
-        "text": "95"
+        "text": "DC-120"
       },
       {
         "id": "D",
-        "text": "101"
+        "text": "DC-124"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term is doubled."
+    "correctChoiceId": "C",
+    "explanation": "The numeric part increases by 4 each time: 104, 108, 112, 116, then 120."
   },
   {
     "id": "aa-116",
     "subject": "Analytical Ability",
-    "prompt": "81 72 63 54 45",
+    "prompt": "A supply release log shows quantities issued: 96, 84, 72, 60. What quantity should appear next?",
     "choices": [
       {
         "id": "A",
-        "text": "36"
+        "text": "54"
       },
       {
         "id": "B",
-        "text": "37"
+        "text": "52"
       },
       {
         "id": "C",
-        "text": "35"
+        "text": "50"
       },
       {
         "id": "D",
-        "text": "41"
+        "text": "48"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The sequence subtracts 9 each time."
+    "correctChoiceId": "D",
+    "explanation": "Each quantity decreases by 12. After 60, the next quantity is 48."
   },
   {
     "id": "aa-117",
     "subject": "Analytical Ability",
-    "prompt": "1 4 9 16 25",
+    "prompt": "Permit folders are coded by square numbers: P-1, P-4, P-9, P-16, P-25. What code comes next?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "P-30"
+      },
+      {
+        "id": "B",
+        "text": "P-32"
+      },
+      {
+        "id": "C",
+        "text": "P-36"
+      },
+      {
+        "id": "D",
+        "text": "P-49"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The numbers are perfect squares: 1, 4, 9, 16, 25. The next square is 36."
+  },
+  {
+    "id": "aa-118",
+    "subject": "Analytical Ability",
+    "prompt": "A routing batch doubles each hour: 5, 10, 20, 40, 80. How many documents are in the next batch?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "100"
+      },
+      {
+        "id": "B",
+        "text": "120"
+      },
+      {
+        "id": "C",
+        "text": "150"
+      },
+      {
+        "id": "D",
+        "text": "160"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Each term is twice the preceding term. Twice 80 is 160."
+  },
+  {
+    "id": "aa-119",
+    "subject": "Analytical Ability",
+    "prompt": "A backlog is reduced daily by 10, 9, 8, and 7 files: 100, 90, 81, 73, 66. What is the next count?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "58"
+      },
+      {
+        "id": "B",
+        "text": "60"
+      },
+      {
+        "id": "C",
+        "text": "61"
+      },
+      {
+        "id": "D",
+        "text": "62"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The decreases are 10, 9, 8, and 7, so the next decrease is 6. Sixty-six minus 6 is 60."
+  },
+  {
+    "id": "aa-120",
+    "subject": "Analytical Ability",
+    "prompt": "An encoded transmittal count triples by station: 2, 6, 18, 54, 162. What comes next?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "324"
+      },
+      {
+        "id": "B",
+        "text": "486"
+      },
+      {
+        "id": "C",
+        "text": "648"
+      },
+      {
+        "id": "D",
+        "text": "729"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Each term is multiplied by 3. One hundred sixty-two times 3 is 486."
+  },
+  {
+    "id": "aa-121",
+    "subject": "Analytical Ability",
+    "prompt": "A clerk processes 13, 17, 22, 28, and 35 files over five periods. If the increases continue, what is next?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "40"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "43"
+      },
+      {
+        "id": "D",
+        "text": "45"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The increases are 4, 5, 6, and 7. The next increase is 8, so 35 becomes 43."
+  },
+  {
+    "id": "aa-122",
+    "subject": "Analytical Ability",
+    "prompt": "Archive boxes are labeled with descending square numbers: 144, 121, 100, 81, 64. What label follows?",
     "choices": [
       {
         "id": "A",
@@ -2928,182 +3053,57 @@
       },
       {
         "id": "B",
-        "text": "37"
+        "text": "45"
       },
       {
         "id": "C",
-        "text": "35"
-      },
-      {
-        "id": "D",
-        "text": "41"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The terms are perfect squares."
-  },
-  {
-    "id": "aa-118",
-    "subject": "Analytical Ability",
-    "prompt": "5 10 20 40 80",
-    "choices": [
-      {
-        "id": "A",
-        "text": "160"
-      },
-      {
-        "id": "B",
-        "text": "161"
-      },
-      {
-        "id": "C",
-        "text": "159"
-      },
-      {
-        "id": "D",
-        "text": "165"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term is doubled."
-  },
-  {
-    "id": "aa-119",
-    "subject": "Analytical Ability",
-    "prompt": "100 90 81 73 66",
-    "choices": [
-      {
-        "id": "A",
-        "text": "60"
-      },
-      {
-        "id": "B",
-        "text": "61"
-      },
-      {
-        "id": "C",
-        "text": "59"
-      },
-      {
-        "id": "D",
-        "text": "65"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The differences are -10, -9, -8, -7, then -6."
-  },
-  {
-    "id": "aa-120",
-    "subject": "Analytical Ability",
-    "prompt": "2 6 18 54 162",
-    "choices": [
-      {
-        "id": "A",
-        "text": "486"
-      },
-      {
-        "id": "B",
-        "text": "487"
-      },
-      {
-        "id": "C",
-        "text": "485"
-      },
-      {
-        "id": "D",
-        "text": "491"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term is multiplied by 3."
-  },
-  {
-    "id": "aa-121",
-    "subject": "Analytical Ability",
-    "prompt": "13 17 22 28 35",
-    "choices": [
-      {
-        "id": "A",
-        "text": "43"
-      },
-      {
-        "id": "B",
-        "text": "44"
-      },
-      {
-        "id": "C",
-        "text": "42"
-      },
-      {
-        "id": "D",
-        "text": "48"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The differences are 4, 5, 6, 7, then 8."
-  },
-  {
-    "id": "aa-122",
-    "subject": "Analytical Ability",
-    "prompt": "144 121 100 81 64",
-    "choices": [
-      {
-        "id": "A",
         "text": "49"
       },
       {
-        "id": "B",
-        "text": "50"
-      },
-      {
-        "id": "C",
-        "text": "48"
-      },
-      {
         "id": "D",
-        "text": "54"
+        "text": "56"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The terms are descending perfect squares."
+    "correctChoiceId": "C",
+    "explanation": "The labels are 12 squared, 11 squared, 10 squared, 9 squared, and 8 squared. The next is 7 squared, or 49."
   },
   {
     "id": "aa-123",
     "subject": "Analytical Ability",
-    "prompt": "1 1 2 3 5 8",
+    "prompt": "The number of pages reviewed follows 1, 1, 2, 3, 5, 8. What is the next number?",
     "choices": [
       {
         "id": "A",
-        "text": "13"
+        "text": "11"
       },
       {
         "id": "B",
-        "text": "14"
-      },
-      {
-        "id": "C",
         "text": "12"
       },
       {
+        "id": "C",
+        "text": "13"
+      },
+      {
         "id": "D",
-        "text": "18"
+        "text": "15"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term is the sum of the previous two terms."
+    "correctChoiceId": "C",
+    "explanation": "Each term is the sum of the two previous terms. Five plus 8 equals 13."
   },
   {
     "id": "aa-124",
     "subject": "Analytical Ability",
-    "prompt": "6 13 27 55 111",
+    "prompt": "A file-tag sequence is 6, 13, 27, 55, 111. What comes next?",
     "choices": [
       {
         "id": "A",
-        "text": "223"
+        "text": "220"
       },
       {
         "id": "B",
-        "text": "224"
+        "text": "221"
       },
       {
         "id": "C",
@@ -3111,70 +3111,170 @@
       },
       {
         "id": "D",
-        "text": "228"
+        "text": "223"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term is doubled and then increased by 1."
+    "correctChoiceId": "D",
+    "explanation": "Each term is doubled and then increased by 1: 111 times 2 plus 1 equals 223."
   },
   {
     "id": "aa-125",
     "subject": "Analytical Ability",
-    "prompt": "50 45 39 32 24",
+    "prompt": "An office target count declines as 50, 45, 39, 32, 24. What is the next count?",
     "choices": [
       {
         "id": "A",
-        "text": "15"
+        "text": "12"
       },
       {
         "id": "B",
-        "text": "16"
+        "text": "15"
       },
       {
         "id": "C",
-        "text": "14"
+        "text": "16"
       },
       {
         "id": "D",
-        "text": "20"
+        "text": "18"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The differences are -5, -6, -7, -8, then -9."
+    "correctChoiceId": "B",
+    "explanation": "The decreases are 5, 6, 7, and 8. The next decrease is 9, so 24 becomes 15."
   },
   {
     "id": "aa-126",
     "subject": "Analytical Ability",
-    "prompt": "4 7 13 25 49",
+    "prompt": "A record locator uses the pattern 4, 7, 13, 25, 49. What is the next number?",
     "choices": [
       {
         "id": "A",
-        "text": "97"
+        "text": "73"
       },
       {
         "id": "B",
-        "text": "98"
+        "text": "87"
       },
       {
         "id": "C",
-        "text": "96"
+        "text": "91"
       },
       {
         "id": "D",
-        "text": "102"
+        "text": "97"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each difference doubles: 3, 6, 12, 24, then 48."
+    "correctChoiceId": "D",
+    "explanation": "The differences double: 3, 6, 12, 24. The next difference is 48, and 49 plus 48 is 97."
   },
   {
     "id": "aa-127",
     "subject": "Analytical Ability",
-    "prompt": "9 18 15 30 27",
+    "prompt": "The number of pending requests follows 9, 18, 15, 30, 27. What comes next?",
     "choices": [
       {
         "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "45"
+      },
+      {
+        "id": "C",
         "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The pattern alternates multiplying by 2 and subtracting 3. After 27, multiply by 2 to get 54."
+  },
+  {
+    "id": "aa-128",
+    "subject": "Analytical Ability",
+    "prompt": "A transaction code follows 2, 3, 5, 9, 17. What number follows?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "31"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "33"
+      },
+      {
+        "id": "D",
+        "text": "34"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Each term is doubled and then reduced by 1: 17 times 2 minus 1 equals 33."
+  },
+  {
+    "id": "aa-129",
+    "subject": "Analytical Ability",
+    "prompt": "A stack of forms is halved after each screening: 64, 32, 16, 8, 4. What is next?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Each term is divided by 2. Four divided by 2 is 2."
+  },
+  {
+    "id": "aa-130",
+    "subject": "Analytical Ability",
+    "prompt": "A photocopy batch doubles as follows: 11, 22, 44, 88, 176. What is the next batch count?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "264"
+      },
+      {
+        "id": "B",
+        "text": "300"
+      },
+      {
+        "id": "C",
+        "text": "352"
+      },
+      {
+        "id": "D",
+        "text": "376"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Each batch is twice the previous batch. Twice 176 is 352."
+  },
+  {
+    "id": "aa-131",
+    "subject": "Analytical Ability",
+    "prompt": "A registry pattern is 1, 3, 7, 15, 31. What comes next?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "47"
       },
       {
         "id": "B",
@@ -3182,120 +3282,20 @@
       },
       {
         "id": "C",
-        "text": "53"
+        "text": "61"
       },
       {
         "id": "D",
-        "text": "59"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The pattern alternates multiply by 2 and subtract 3."
-  },
-  {
-    "id": "aa-128",
-    "subject": "Analytical Ability",
-    "prompt": "2 3 5 9 17",
-    "choices": [
-      {
-        "id": "A",
-        "text": "33"
-      },
-      {
-        "id": "B",
-        "text": "34"
-      },
-      {
-        "id": "C",
-        "text": "32"
-      },
-      {
-        "id": "D",
-        "text": "38"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term doubles then subtracts 1."
-  },
-  {
-    "id": "aa-129",
-    "subject": "Analytical Ability",
-    "prompt": "64 32 16 8 4",
-    "choices": [
-      {
-        "id": "A",
-        "text": "2"
-      },
-      {
-        "id": "B",
-        "text": "3"
-      },
-      {
-        "id": "C",
-        "text": "1"
-      },
-      {
-        "id": "D",
-        "text": "7"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term is divided by 2."
-  },
-  {
-    "id": "aa-130",
-    "subject": "Analytical Ability",
-    "prompt": "11 22 44 88 176",
-    "choices": [
-      {
-        "id": "A",
-        "text": "352"
-      },
-      {
-        "id": "B",
-        "text": "353"
-      },
-      {
-        "id": "C",
-        "text": "351"
-      },
-      {
-        "id": "D",
-        "text": "357"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term is doubled."
-  },
-  {
-    "id": "aa-131",
-    "subject": "Analytical Ability",
-    "prompt": "1 3 7 15 31",
-    "choices": [
-      {
-        "id": "A",
         "text": "63"
-      },
-      {
-        "id": "B",
-        "text": "64"
-      },
-      {
-        "id": "C",
-        "text": "62"
-      },
-      {
-        "id": "D",
-        "text": "68"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term doubles and adds 1."
+    "correctChoiceId": "D",
+    "explanation": "Each term is doubled and then increased by 1. Thirty-one times 2 plus 1 equals 63."
   },
   {
     "id": "aa-132",
     "subject": "Analytical Ability",
-    "prompt": "90 75 61 48 36",
+    "prompt": "A division reduces open tickets as 90, 75, 61, 48, 36. What is the next number?",
     "choices": [
       {
         "id": "A",
@@ -3307,145 +3307,70 @@
       },
       {
         "id": "C",
-        "text": "24"
+        "text": "27"
       },
       {
         "id": "D",
-        "text": "30"
+        "text": "28"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The differences are -15, -14, -13, -12, then -11."
+    "explanation": "The decreases are 15, 14, 13, and 12. The next decrease is 11, so 36 becomes 25."
   },
   {
     "id": "aa-133",
     "subject": "Analytical Ability",
-    "prompt": "8 12 18 27 40.5",
+    "prompt": "A coded workload pattern is 8, 12, 18, 27, 40.5. What comes next?",
     "choices": [
       {
         "id": "A",
-        "text": "60.75"
+        "text": "54"
       },
       {
         "id": "B",
-        "text": "61"
+        "text": "56.5"
       },
       {
         "id": "C",
-        "text": "59"
+        "text": "60.75"
       },
       {
         "id": "D",
-        "text": "65"
+        "text": "62"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Each term is multiplied by 1.5."
+    "correctChoiceId": "C",
+    "explanation": "Each term is multiplied by 1.5. Forty point five times 1.5 equals 60.75."
   },
   {
     "id": "aa-134",
     "subject": "Analytical Ability",
-    "prompt": "C F J O U",
+    "prompt": "Office letter codes advance by growing gaps: C, F, J, O, U. What letter comes next?",
     "choices": [
       {
         "id": "A",
-        "text": "B"
-      },
-      {
-        "id": "B",
         "text": "A"
       },
       {
+        "id": "B",
+        "text": "B"
+      },
+      {
         "id": "C",
-        "text": "Z"
+        "text": "C"
       },
       {
         "id": "D",
-        "text": "Y"
+        "text": "D"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the gaps are 3, 4, 5, 6, then 7 letters, wrapping from U to B."
+    "correctChoiceId": "B",
+    "explanation": "The gaps are 3, 4, 5, and 6 letters. The next gap is 7; counting forward from U wraps around to B."
   },
   {
     "id": "aa-135",
     "subject": "Analytical Ability",
-    "prompt": "Z X U Q L",
-    "choices": [
-      {
-        "id": "A",
-        "text": "F"
-      },
-      {
-        "id": "B",
-        "text": "H"
-      },
-      {
-        "id": "C",
-        "text": "K"
-      },
-      {
-        "id": "D",
-        "text": "L"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The gaps backward are 2, 3, 4, and 5 letters, so the next gap is 6."
-  },
-  {
-    "id": "aa-136",
-    "subject": "Analytical Ability",
-    "prompt": "B E I N T",
-    "choices": [
-      {
-        "id": "A",
-        "text": "A"
-      },
-      {
-        "id": "B",
-        "text": "H"
-      },
-      {
-        "id": "C",
-        "text": "K"
-      },
-      {
-        "id": "D",
-        "text": "L"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The gaps are 3, 4, 5, and 6 letters; after T plus 7 wraps to A."
-  },
-  {
-    "id": "aa-137",
-    "subject": "Analytical Ability",
-    "prompt": "AA AB AD AH AP",
-    "choices": [
-      {
-        "id": "A",
-        "text": "AF"
-      },
-      {
-        "id": "B",
-        "text": "H"
-      },
-      {
-        "id": "C",
-        "text": "K"
-      },
-      {
-        "id": "D",
-        "text": "L"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The second-letter jumps are 1, 2, 4, 8, then 16, wrapping to F."
-  },
-  {
-    "id": "aa-138",
-    "subject": "Analytical Ability",
-    "prompt": "M O R V A",
+    "prompt": "A filing code moves backward with growing gaps: Z, X, U, Q, L. What comes next?",
     "choices": [
       {
         "id": "A",
@@ -3453,99 +3378,174 @@
       },
       {
         "id": "B",
-        "text": "H"
+        "text": "F"
       },
       {
         "id": "C",
-        "text": "K"
+        "text": "E"
       },
       {
         "id": "D",
-        "text": "L"
+        "text": "D"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The backward gaps are 2, 3, 4, and 5 letters. The next backward gap is 6, so L becomes F."
+  },
+  {
+    "id": "aa-136",
+    "subject": "Analytical Ability",
+    "prompt": "A document series uses B, E, I, N, T. What letter follows?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      },
+      {
+        "id": "D",
+        "text": "D"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The gaps are 2, 3, 4, 5, then 6 letters."
+    "explanation": "The gaps are 3, 4, 5, and 6 letters. The next gap is 7; after T, this wraps to A."
+  },
+  {
+    "id": "aa-137",
+    "subject": "Analytical Ability",
+    "prompt": "A section code is AA, AB, AD, AH, AP. What code follows?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "AF"
+      },
+      {
+        "id": "B",
+        "text": "AQ"
+      },
+      {
+        "id": "C",
+        "text": "AZ"
+      },
+      {
+        "id": "D",
+        "text": "BA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The second letter jumps by 1, 2, 4, and 8. The next jump is 16, which takes P to F after wrapping through Z."
+  },
+  {
+    "id": "aa-138",
+    "subject": "Analytical Ability",
+    "prompt": "A routing code uses M, O, R, V, A. What comes next?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "E"
+      },
+      {
+        "id": "B",
+        "text": "F"
+      },
+      {
+        "id": "C",
+        "text": "G"
+      },
+      {
+        "id": "D",
+        "text": "H"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The gaps are 2, 3, 4, and 5 letters. The next gap is 6, so A becomes G."
   },
   {
     "id": "aa-139",
     "subject": "Analytical Ability",
-    "prompt": "D G K P V",
+    "prompt": "A registry letter pattern is D, G, K, P, V. What follows?",
     "choices": [
       {
         "id": "A",
-        "text": "C"
+        "text": "A"
       },
       {
         "id": "B",
-        "text": "H"
+        "text": "B"
       },
       {
         "id": "C",
-        "text": "K"
+        "text": "C"
       },
       {
         "id": "D",
-        "text": "L"
+        "text": "D"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The gaps are 3, 4, 5, 6, then 7 letters, wrapping to C."
+    "correctChoiceId": "C",
+    "explanation": "The gaps are 3, 4, 5, and 6 letters. The next gap is 7; V plus 7 wraps to C."
   },
   {
     "id": "aa-140",
     "subject": "Analytical Ability",
-    "prompt": "AZ BY CX DW",
+    "prompt": "A code pair moves first letters forward and second letters backward: AZ, BY, CX, DW. What pair follows?",
     "choices": [
       {
         "id": "A",
-        "text": "EV"
+        "text": "EX"
       },
       {
         "id": "B",
-        "text": "H"
+        "text": "EV"
       },
       {
         "id": "C",
-        "text": "K"
+        "text": "FU"
       },
       {
         "id": "D",
-        "text": "L"
+        "text": "EW"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The first letter moves forward while the second moves backward."
+    "correctChoiceId": "B",
+    "explanation": "The first letters go A, B, C, D, so next is E. The second letters go Z, Y, X, W, so next is V."
   },
   {
     "id": "aa-141",
     "subject": "Analytical Ability",
-    "prompt": "AB CD EF GH",
+    "prompt": "A control-code sequence is AB, CD, EF, GH. What comes next?",
     "choices": [
       {
         "id": "A",
-        "text": "IJ"
+        "text": "HI"
       },
       {
         "id": "B",
-        "text": "H"
+        "text": "IJ"
       },
       {
         "id": "C",
-        "text": "K"
+        "text": "JK"
       },
       {
         "id": "D",
-        "text": "L"
+        "text": "KL"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Both letters advance by two positions each term."
+    "correctChoiceId": "B",
+    "explanation": "The pairs use consecutive letters in order without overlap: AB, CD, EF, GH, then IJ."
   },
   {
     "id": "aa-142",
     "subject": "Analytical Ability",
-    "prompt": "ZA YB XC WD",
+    "prompt": "A code pair moves first letters backward and second letters forward: ZA, YB, XC, WD. What pair follows?",
     "choices": [
       {
         "id": "A",
@@ -3553,794 +3553,794 @@
       },
       {
         "id": "B",
-        "text": "H"
+        "text": "UE"
       },
       {
         "id": "C",
-        "text": "K"
+        "text": "VF"
       },
       {
         "id": "D",
-        "text": "L"
+        "text": "WE"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The first letter moves backward while the second moves forward."
+    "explanation": "The first letters move Z, Y, X, W, so next is V. The second letters move A, B, C, D, so next is E."
   },
   {
     "id": "aa-143",
     "subject": "Analytical Ability",
-    "prompt": "Q S V Z E",
+    "prompt": "A memo series uses Q, S, V, Z, E. What letter follows?",
     "choices": [
       {
         "id": "A",
-        "text": "J"
-      },
-      {
-        "id": "B",
         "text": "H"
       },
       {
+        "id": "B",
+        "text": "I"
+      },
+      {
         "id": "C",
-        "text": "K"
+        "text": "J"
       },
       {
         "id": "D",
-        "text": "L"
+        "text": "K"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because The gaps are 2, 3, 4, 5, then 6 letters."
+    "correctChoiceId": "D",
+    "explanation": "The gaps are 2, 3, 4, and 5 letters. The next gap is 6, so E becomes K."
   },
   {
     "id": "aa-144",
     "subject": "Analytical Ability",
-    "prompt": "Book : Chapter :: Tree : ?",
+    "prompt": "Records Unit : Receiving Copy :: Cashier : ?",
     "choices": [
       {
         "id": "A",
-        "text": "Branch"
+        "text": "official receipt"
       },
       {
         "id": "B",
-        "text": "Leaf"
+        "text": "travel order"
       },
       {
         "id": "C",
-        "text": "Root"
+        "text": "property tag"
       },
       {
         "id": "D",
-        "text": "Forest"
+        "text": "leave card"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a chapter is a part of a book, and a branch is a part of a tree."
+    "explanation": "The first pair links an office unit with the document it commonly issues or handles. A cashier issues an official receipt."
   },
   {
     "id": "aa-145",
     "subject": "Analytical Ability",
-    "prompt": "Doctor : Hospital :: Teacher : ?",
+    "prompt": "Minutes : Meeting :: Abstract of Bids : ?",
     "choices": [
       {
         "id": "A",
-        "text": "School"
+        "text": "training"
       },
       {
         "id": "B",
-        "text": "Court"
+        "text": "procurement"
       },
       {
         "id": "C",
-        "text": "Market"
+        "text": "payroll"
       },
       {
         "id": "D",
-        "text": "Factory"
+        "text": "inventory"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a teacher commonly works in a school."
+    "correctChoiceId": "B",
+    "explanation": "Minutes record what happened in a meeting. An abstract of bids records bid details in a procurement activity."
   },
   {
     "id": "aa-146",
     "subject": "Analytical Ability",
-    "prompt": "Wheel : Car :: Wing : ?",
+    "prompt": "Route slip : document movement :: attendance sheet : ?",
     "choices": [
       {
         "id": "A",
-        "text": "Airplane"
+        "text": "office supplies"
       },
       {
         "id": "B",
-        "text": "Boat"
+        "text": "vehicle dispatch"
       },
       {
         "id": "C",
-        "text": "Train"
+        "text": "participant presence"
       },
       {
         "id": "D",
-        "text": "Road"
+        "text": "cash advance"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a wing is a main part of an airplane."
+    "correctChoiceId": "C",
+    "explanation": "A route slip tracks the movement of a document. An attendance sheet records who is present."
   },
   {
     "id": "aa-147",
     "subject": "Analytical Ability",
-    "prompt": "Minute : Hour :: Inch : ?",
+    "prompt": "Confidential : open circulation :: urgent : ?",
     "choices": [
       {
         "id": "A",
-        "text": "Foot"
+        "text": "immediate action"
       },
       {
         "id": "B",
-        "text": "Yard"
+        "text": "routine filing"
       },
       {
         "id": "C",
-        "text": "Meter"
+        "text": "public posting"
       },
       {
         "id": "D",
-        "text": "Mile"
+        "text": "archival storage"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because minutes make an hour, and inches make a foot."
+    "explanation": "Confidential documents require restricted circulation. Urgent documents require immediate action."
   },
   {
     "id": "aa-148",
     "subject": "Analytical Ability",
-    "prompt": "Seed : Plant :: Egg : ?",
+    "prompt": "Notice of Meeting : agenda :: Office Order : ?",
     "choices": [
       {
         "id": "A",
-        "text": "Bird"
+        "text": "inventory count"
       },
       {
         "id": "B",
-        "text": "Nest"
+        "text": "authorized assignment"
       },
       {
         "id": "C",
-        "text": "Feather"
+        "text": "bank deposit"
       },
       {
         "id": "D",
-        "text": "Tree"
+        "text": "building map"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a seed develops into a plant, and an egg may develop into a bird."
+    "correctChoiceId": "B",
+    "explanation": "A notice of meeting is commonly paired with an agenda. An office order states an authorized assignment or instruction."
   },
   {
     "id": "aa-149",
     "subject": "Analytical Ability",
-    "prompt": "Cold : Hot :: Weak : ?",
+    "prompt": "Which pair has the same relationship as Request : Approval?",
     "choices": [
       {
         "id": "A",
-        "text": "Strong"
+        "text": "report : table"
       },
       {
         "id": "B",
-        "text": "Slow"
+        "text": "application : action"
       },
       {
         "id": "C",
-        "text": "Small"
+        "text": "folder : cabinet"
       },
       {
         "id": "D",
-        "text": "Soft"
+        "text": "memo : paragraph"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the relationship is opposites."
+    "correctChoiceId": "B",
+    "explanation": "A request is submitted for approval. In the same way, an application is submitted for action."
   },
   {
     "id": "aa-150",
     "subject": "Analytical Ability",
-    "prompt": "Pen : Write :: Knife : ?",
+    "prompt": "Which pair has the same relationship as Auditor : Examination?",
     "choices": [
       {
         "id": "A",
-        "text": "Cut"
+        "text": "driver : vehicle"
       },
       {
         "id": "B",
-        "text": "Cook"
+        "text": "clerk : stamp"
       },
       {
         "id": "C",
-        "text": "Draw"
+        "text": "inspector : verification"
       },
       {
         "id": "D",
-        "text": "Measure"
+        "text": "applicant : form"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a pen is used to write, and a knife is used to cut."
+    "correctChoiceId": "C",
+    "explanation": "An auditor performs examination. An inspector performs verification."
   },
   {
     "id": "aa-151",
     "subject": "Analytical Ability",
-    "prompt": "Judge : Court :: Senator : ?",
+    "prompt": "All incoming letters are stamped before logging. Letter X is logged. What must be true?",
     "choices": [
       {
         "id": "A",
-        "text": "Congress"
+        "text": "Letter X was stamped before it was logged."
       },
       {
         "id": "B",
-        "text": "School"
+        "text": "Letter X was already answered."
       },
       {
         "id": "C",
-        "text": "Clinic"
+        "text": "Letter X is confidential."
       },
       {
         "id": "D",
-        "text": "Market"
+        "text": "Letter X came from another agency."
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a senator works in Congress."
+    "explanation": "The rule says stamping must happen before logging. Since Letter X is logged, it must have been stamped first."
   },
   {
     "id": "aa-152",
     "subject": "Analytical Ability",
-    "prompt": "Map : Location :: Calendar : ?",
+    "prompt": "No unsigned voucher may be paid. Voucher 18 was paid. Which conclusion follows?",
     "choices": [
       {
         "id": "A",
-        "text": "Date"
+        "text": "Voucher 18 was prepared today."
       },
       {
         "id": "B",
-        "text": "Weather"
+        "text": "Voucher 18 was signed."
       },
       {
         "id": "C",
-        "text": "Money"
+        "text": "Voucher 18 was returned."
       },
       {
         "id": "D",
-        "text": "Name"
+        "text": "Voucher 18 had no attachment."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a map helps find a location, and a calendar helps find a date."
+    "correctChoiceId": "B",
+    "explanation": "If unsigned vouchers cannot be paid, a voucher that was paid cannot be unsigned. Therefore, it was signed."
   },
   {
     "id": "aa-153",
     "subject": "Analytical Ability",
-    "prompt": "Fish : School :: Sheep : ?",
+    "prompt": "All urgent memos are routed to the division chief. Memo P was routed to the division chief. What follows?",
     "choices": [
       {
         "id": "A",
-        "text": "Flock"
+        "text": "Memo P is definitely urgent."
       },
       {
         "id": "B",
-        "text": "Pack"
+        "text": "Memo P is not urgent."
       },
       {
         "id": "C",
-        "text": "Herd"
+        "text": "Memo P may or may not be urgent."
       },
       {
         "id": "D",
-        "text": "Crowd"
+        "text": "Memo P was not routed."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the analogy asks for the collective noun."
+    "correctChoiceId": "C",
+    "explanation": "The rule says urgent memos go to the chief, but it does not say only urgent memos go there. The status of Memo P is uncertain."
   },
   {
     "id": "aa-154",
     "subject": "Analytical Ability",
-    "prompt": "Author : Novel :: Composer : ?",
+    "prompt": "All applications received after 5:00 p.m. are marked late. Application Q was not marked late. Which is the best conclusion?",
     "choices": [
       {
         "id": "A",
-        "text": "Song"
+        "text": "It was incomplete."
       },
       {
         "id": "B",
-        "text": "Canvas"
+        "text": "It was received after 5:00 p.m."
       },
       {
         "id": "C",
-        "text": "Bridge"
+        "text": "It was received not later than 5:00 p.m."
       },
       {
         "id": "D",
-        "text": "Medicine"
+        "text": "It was approved."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because an author creates a novel, and a composer creates a song."
+    "correctChoiceId": "C",
+    "explanation": "If anything received after 5:00 p.m. is marked late, an item not marked late was not received after that time."
   },
   {
     "id": "aa-155",
     "subject": "Analytical Ability",
-    "prompt": "Thermometer : Temperature :: Barometer : ?",
+    "prompt": "Some payroll documents require correction. All documents requiring correction are returned to the preparer. Which conclusion is valid?",
     "choices": [
       {
         "id": "A",
-        "text": "Pressure"
+        "text": "All payroll documents are returned."
       },
       {
         "id": "B",
-        "text": "Speed"
+        "text": "Some payroll documents are returned to the preparer."
       },
       {
         "id": "C",
-        "text": "Weight"
+        "text": "No payroll documents are corrected."
       },
       {
         "id": "D",
-        "text": "Length"
+        "text": "Only payroll documents are returned."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a barometer measures pressure."
+    "correctChoiceId": "B",
+    "explanation": "The payroll documents that require correction belong to the group returned to the preparer."
   },
   {
     "id": "aa-156",
     "subject": "Analytical Ability",
-    "prompt": "Hammer : Nail :: Screwdriver : ?",
+    "prompt": "No file without a control number is released. File R has no control number. What follows?",
     "choices": [
       {
         "id": "A",
-        "text": "Screw"
+        "text": "File R is released."
       },
       {
         "id": "B",
-        "text": "Bolt"
+        "text": "File R is archived."
       },
       {
         "id": "C",
-        "text": "Wire"
+        "text": "File R is not released."
       },
       {
         "id": "D",
-        "text": "Pipe"
+        "text": "File R is duplicated."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the tool is paired with what it drives."
+    "correctChoiceId": "C",
+    "explanation": "The rule directly bars release of files without control numbers, so File R cannot be released."
   },
   {
     "id": "aa-157",
     "subject": "Analytical Ability",
-    "prompt": "Library : Books :: Museum : ?",
+    "prompt": "All division reports are reviewed by the director. The report on supplies was reviewed by the director. What is valid?",
     "choices": [
       {
         "id": "A",
-        "text": "Artifacts"
+        "text": "The supplies report is certainly a division report."
       },
       {
         "id": "B",
-        "text": "Patients"
+        "text": "The supplies report may or may not be a division report."
       },
       {
         "id": "C",
-        "text": "Crops"
+        "text": "No division report was reviewed."
       },
       {
         "id": "D",
-        "text": "Vehicles"
+        "text": "Only supplies reports are reviewed."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a museum stores or displays artifacts."
+    "correctChoiceId": "B",
+    "explanation": "Being reviewed by the director does not prove that the report is a division report; other reports may also be reviewed."
   },
   {
     "id": "aa-158",
     "subject": "Analytical Ability",
-    "prompt": "Chef : Kitchen :: Pilot : ?",
+    "prompt": "If a document is approved, it is filed. If it is filed, it is stamped received. Document S is approved. What follows?",
     "choices": [
       {
         "id": "A",
-        "text": "Cockpit"
+        "text": "Document S is stamped received."
       },
       {
         "id": "B",
-        "text": "Harbor"
+        "text": "Document S is rejected."
       },
       {
         "id": "C",
-        "text": "Studio"
+        "text": "Document S is missing."
       },
       {
         "id": "D",
-        "text": "Courtroom"
+        "text": "Document S is unsigned."
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because a pilot works from a cockpit."
+    "explanation": "Approval leads to filing, and filing leads to a received stamp. Therefore, Document S is stamped received."
   },
   {
     "id": "aa-159",
     "subject": "Analytical Ability",
-    "prompt": "All roses are flowers. Some flowers fade quickly. Therefore, some roses fade quickly.",
+    "prompt": "A clerk files folders in this order: by year, then by month, then alphabetically by surname. Which file comes first?",
     "choices": [
       {
         "id": "A",
-        "text": "Uncertain"
+        "text": "2022 April Cruz"
       },
       {
         "id": "B",
-        "text": "True"
+        "text": "2021 June Santos"
       },
       {
         "id": "C",
-        "text": "False"
+        "text": "2021 April Reyes"
       },
       {
         "id": "D",
-        "text": "Cannot be false"
+        "text": "2022 March Abad"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the statements do not prove that the flowers that fade quickly are roses."
+    "correctChoiceId": "C",
+    "explanation": "Year is considered first, so 2021 files come before 2022 files. Between April and June 2021, April comes first."
   },
   {
     "id": "aa-160",
     "subject": "Analytical Ability",
-    "prompt": "All nurses are health workers. Maria is a nurse. Therefore, Maria is a health worker.",
+    "prompt": "Four documents are processed in this order: receive, stamp, log, route. If Document T has just been logged, what is the next step?",
     "choices": [
       {
         "id": "A",
-        "text": "True"
+        "text": "Receive"
       },
       {
         "id": "B",
-        "text": "False"
+        "text": "Stamp"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "Route"
       },
       {
         "id": "D",
-        "text": "Invalid"
+        "text": "Archive"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Maria belongs to the group identified as health workers."
+    "correctChoiceId": "C",
+    "explanation": "The sequence given is receive, stamp, log, then route. After logging comes routing."
   },
   {
     "id": "aa-161",
     "subject": "Analytical Ability",
-    "prompt": "No reptiles are mammals. A turtle is a reptile. Therefore, a turtle is not a mammal.",
+    "prompt": "A code changes FILE to GJMF by moving each letter one step forward. How is NOTE written?",
     "choices": [
       {
         "id": "A",
-        "text": "True"
+        "text": "OPUF"
       },
       {
         "id": "B",
-        "text": "False"
+        "text": "MNSD"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "OPTE"
       },
       {
         "id": "D",
-        "text": "Invalid"
+        "text": "NPUF"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the conclusion follows from the two statements."
+    "explanation": "Each letter advances one place: N to O, O to P, T to U, and E to F."
   },
   {
     "id": "aa-162",
     "subject": "Analytical Ability",
-    "prompt": "Some writers are teachers. All teachers are professionals. Therefore, some writers are professionals.",
+    "prompt": "A code changes PERMIT to RGTOKV by moving each letter two places forward. How is RECORD written?",
     "choices": [
       {
         "id": "A",
-        "text": "True"
+        "text": "TGEQTF"
       },
       {
         "id": "B",
-        "text": "False"
+        "text": "SGDPSE"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "TFEQSE"
       },
       {
         "id": "D",
-        "text": "Invalid"
+        "text": "RECORD"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the writers who are teachers are also professionals."
+    "explanation": "Move each letter two places forward: R to T, E to G, C to E, O to Q, R to T, and D to F."
   },
   {
     "id": "aa-163",
     "subject": "Analytical Ability",
-    "prompt": "All buses are vehicles. Some vehicles are red. Therefore, all buses are red.",
+    "prompt": "A routing code uses A=1, B=2, C=3, and so on. What is the total code value of CAB?",
     "choices": [
       {
         "id": "A",
-        "text": "False"
+        "text": "5"
       },
       {
         "id": "B",
-        "text": "True"
+        "text": "6"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "7"
       },
       {
         "id": "D",
-        "text": "Cannot be false"
+        "text": "8"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because some red vehicles do not prove that all buses are red."
+    "correctChoiceId": "B",
+    "explanation": "C is 3, A is 1, and B is 2. Their sum is 6."
   },
   {
     "id": "aa-164",
     "subject": "Analytical Ability",
-    "prompt": "All honest workers are trusted. Raul is trusted. Therefore, Raul is an honest worker.",
+    "prompt": "In a queue, Ana is before Ben. Carla is after Ben. Dana is before Ana. Who is first?",
     "choices": [
       {
         "id": "A",
-        "text": "Uncertain"
+        "text": "Ana"
       },
       {
         "id": "B",
-        "text": "True"
+        "text": "Ben"
       },
       {
         "id": "C",
-        "text": "False"
+        "text": "Carla"
       },
       {
         "id": "D",
-        "text": "Cannot be true"
+        "text": "Dana"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because being trusted does not prove the stated cause of trust."
+    "correctChoiceId": "D",
+    "explanation": "Dana is before Ana, Ana is before Ben, and Carla is after Ben. Dana is first."
   },
   {
     "id": "aa-165",
     "subject": "Analytical Ability",
-    "prompt": "No squares are circles. This figure is a square. Therefore, this figure is not a circle.",
+    "prompt": "Box A is heavier than Box B. Box C is lighter than Box B. Box D is heavier than Box A. Which box is heaviest?",
     "choices": [
       {
         "id": "A",
-        "text": "True"
+        "text": "Box A"
       },
       {
         "id": "B",
-        "text": "False"
+        "text": "Box B"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "Box C"
       },
       {
         "id": "D",
-        "text": "Invalid"
+        "text": "Box D"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the categories do not overlap."
+    "correctChoiceId": "D",
+    "explanation": "The order from heaviest to lightest begins with Box D, then Box A, then Box B, then Box C."
   },
   {
     "id": "aa-166",
     "subject": "Analytical Ability",
-    "prompt": "All managers supervise staff. Ana supervises staff. Therefore, Ana is a manager.",
+    "prompt": "A file is transferred from Section A to Section B, then to Section D. Section C receives only files from Section B. Which statement is certain?",
     "choices": [
       {
         "id": "A",
-        "text": "Uncertain"
+        "text": "The file passed through Section C."
       },
       {
         "id": "B",
-        "text": "True"
+        "text": "The file passed through Section B."
       },
       {
         "id": "C",
-        "text": "False"
+        "text": "The file started in Section D."
       },
       {
         "id": "D",
-        "text": "Cannot be true"
+        "text": "The file never left Section A."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because other people may also supervise staff."
+    "correctChoiceId": "B",
+    "explanation": "The given route explicitly says the file went from Section A to Section B before going to Section D."
   },
   {
     "id": "aa-167",
     "subject": "Analytical Ability",
-    "prompt": "All mangoes are fruits. No fruits are stones. Therefore, no mangoes are stones.",
+    "prompt": "A receipt number increases by 7: 104, 111, 118, 125. What comes next?",
     "choices": [
       {
         "id": "A",
-        "text": "True"
+        "text": "130"
       },
       {
         "id": "B",
-        "text": "False"
+        "text": "131"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "132"
       },
       {
         "id": "D",
-        "text": "Invalid"
+        "text": "133"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because mangoes are included in a group that excludes stones."
+    "correctChoiceId": "C",
+    "explanation": "Each number increases by 7. After 125, the next number is 132."
   },
   {
     "id": "aa-168",
     "subject": "Analytical Ability",
-    "prompt": "Some clerks are typists. Some typists are editors. Therefore, some clerks are editors.",
+    "prompt": "Office codes follow this pattern: AB, CD, EF, GH. What code comes next?",
     "choices": [
       {
         "id": "A",
-        "text": "Uncertain"
+        "text": "HI"
       },
       {
         "id": "B",
-        "text": "True"
+        "text": "IJ"
       },
       {
         "id": "C",
-        "text": "False"
+        "text": "JK"
       },
       {
         "id": "D",
-        "text": "Cannot be false"
+        "text": "KL"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the two ?some? groups may not overlap."
+    "correctChoiceId": "B",
+    "explanation": "The pairs use consecutive letters without overlap: AB, CD, EF, GH, then IJ."
   },
   {
     "id": "aa-169",
     "subject": "Analytical Ability",
-    "prompt": "Every applicant submitted a form. Leo is an applicant. Therefore, Leo submitted a form.",
+    "prompt": "The number of encoded permits each day is 18, 24, 30, 36. If the pattern continues, what is next?",
     "choices": [
       {
         "id": "A",
-        "text": "True"
+        "text": "40"
       },
       {
         "id": "B",
-        "text": "False"
+        "text": "41"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "42"
       },
       {
         "id": "D",
-        "text": "Invalid"
+        "text": "44"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Leo is included in the group described."
+    "correctChoiceId": "C",
+    "explanation": "The count increases by 6 each day. After 36 comes 42."
   },
   {
     "id": "aa-170",
     "subject": "Analytical Ability",
-    "prompt": "No punctual employee is late. Ramon is late. Therefore, Ramon is not punctual.",
+    "prompt": "A document control code alternates letters and numbers: A1, C3, E5, G7. What follows?",
     "choices": [
       {
         "id": "A",
-        "text": "True"
+        "text": "H8"
       },
       {
         "id": "B",
-        "text": "False"
+        "text": "I9"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "J10"
       },
       {
         "id": "D",
-        "text": "Invalid"
+        "text": "K11"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because being late excludes him from the punctual group."
+    "correctChoiceId": "B",
+    "explanation": "Letters skip one position and numbers increase by 2: A1, C3, E5, G7, I9."
   },
   {
     "id": "aa-171",
     "subject": "Analytical Ability",
-    "prompt": "All tablets are devices. This item is not a tablet. Therefore, this item is not a device.",
+    "prompt": "Arrange these entries alphabetically: A. Records Office B. Receiving Desk C. Releasing Unit D. Registry Section",
     "choices": [
       {
         "id": "A",
-        "text": "Uncertain"
+        "text": "A-B-C-D"
       },
       {
         "id": "B",
-        "text": "True"
+        "text": "B-A-C-D"
       },
       {
         "id": "C",
-        "text": "False"
+        "text": "B-A-D-C"
       },
       {
         "id": "D",
-        "text": "Cannot be true"
+        "text": "A-D-B-C"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because non-tablets can still be devices."
+    "correctChoiceId": "B",
+    "explanation": "Receiving comes before Records because Receiving is alphabetized as Recei- before Reco-. Releasing follows Records, then Registry."
   },
   {
     "id": "aa-172",
     "subject": "Analytical Ability",
-    "prompt": "All citizens have duties. Some citizens are students. Therefore, some students have duties.",
+    "prompt": "Arrange these names alphabetically: A. Santos, Ana B. Santiago, Carlo C. Sanchez, Ben D. San Diego, Mara",
     "choices": [
       {
         "id": "A",
-        "text": "True"
+        "text": "D-C-B-A"
       },
       {
         "id": "B",
-        "text": "False"
+        "text": "C-D-B-A"
       },
       {
         "id": "C",
-        "text": "Uncertain"
+        "text": "C-B-D-A"
       },
       {
         "id": "D",
-        "text": "Invalid"
+        "text": "A-B-C-D"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the students who are citizens have duties."
+    "correctChoiceId": "B",
+    "explanation": "Compare after San-: Sanchez comes first, then San Diego, then Santiago, then Santos."
   },
   {
     "id": "aa-173",
     "subject": "Analytical Ability",
-    "prompt": "All files in Cabinet A are complete. This file is complete. Therefore, this file is in Cabinet A.",
+    "prompt": "Arrange these offices alphabetically: A. Budget Division B. Accounting Unit C. Administrative Office D. Cash Section",
     "choices": [
       {
         "id": "A",
-        "text": "Uncertain"
+        "text": "B-C-A-D"
       },
       {
         "id": "B",
-        "text": "True"
+        "text": "C-B-A-D"
       },
       {
         "id": "C",
-        "text": "False"
+        "text": "A-B-C-D"
       },
       {
         "id": "D",
-        "text": "Cannot be true"
+        "text": "D-A-B-C"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because complete files may also be in another cabinet."
+    "correctChoiceId": "B",
+    "explanation": "Administrative comes first, then Accounting, then Budget, then Cash."
   },
   {
     "id": "aa-174",
@@ -4349,23 +4349,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "ABCD"
-      },
-      {
-        "id": "B",
-        "text": "ABDC"
-      },
-      {
-        "id": "C",
         "text": "BACD"
       },
       {
+        "id": "B",
+        "text": "ABCD"
+      },
+      {
+        "id": "C",
+        "text": "ABDC"
+      },
+      {
         "id": "D",
-        "text": "DCBA"
+        "text": "ACBD"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "B",
+    "explanation": "All entries start with Department of. Compare the next words: Agriculture, Budget, Education, and Finance, giving A-B-C-D."
   },
   {
     "id": "aa-175",
@@ -4374,23 +4374,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "BACD"
+        "text": "B-D-C-A"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "C-D-B-A"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "B-C-D-A"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "A-B-C-D"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "C",
+    "explanation": "After City, alphabetize Assessor, Engineer, Health Officer, then Treasurer. The order is B-C-D-A."
   },
   {
     "id": "aa-176",
@@ -4399,23 +4399,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "DCAB"
+        "text": "A-D-C-B"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "D-A-C-B"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "A-C-D-B"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "A-D-B-C"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "explanation": "After National, Archives comes first, then Economic and Development, then Library, then Museum. The order is A-D-C-B."
   },
   {
     "id": "aa-177",
@@ -4424,23 +4424,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "BACD"
+        "text": "A-B-C-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "B-A-C-D"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "B-A-D-C"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "D-C-B-A"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "B",
+    "explanation": "Ramirez comes before Ramos because Rami- precedes Ramo-. Reyes follows, then Rivera. The order is B-A-C-D."
   },
   {
     "id": "aa-178",
@@ -4449,23 +4449,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "ADCB"
+        "text": "A-B-C-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "A-D-C-B"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "D-A-C-B"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "A-C-D-B"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "B",
+    "explanation": "After Manila, compare Bulletin, Chronicle, Standard, and Times. Alphabetical order is A-D-C-B."
   },
   {
     "id": "aa-179",
@@ -4474,23 +4474,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "BCDA"
+        "text": "A-B-C-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "C-D-A-B"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "B-A-C-D"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "C-D-B-A"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "C",
+    "explanation": "Civil precedes City, and within Civil, Registry comes before Service. Then City Council comes before City Court. The order is B-A-C-D."
   },
   {
     "id": "aa-180",
@@ -4499,23 +4499,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "BACD"
+        "text": "A-B-C-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "B-A-C-D"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "B-C-A-D"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "D-C-A-B"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "B",
+    "explanation": "After Office of, Civil Defense comes before Ombudsman, President, and Solicitor General. The order is B-A-C-D."
   },
   {
     "id": "aa-181",
@@ -4524,23 +4524,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "CDBA"
+        "text": "D-C-B-A"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "C-D-B-A"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "C-B-D-A"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "A-B-C-D"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "B",
+    "explanation": "Compare after San-: San Diego comes before Sanchez, then Santiago, then Santos. The order is C-D-B-A."
   },
   {
     "id": "aa-182",
@@ -4549,23 +4549,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "BCAD"
+        "text": "B-C-A-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "C-B-A-D"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "A-B-C-D"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "B-A-C-D"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "explanation": "Personnel comes before Planning, then Procurement, then Property. The order is B-C-A-D."
   },
   {
     "id": "aa-183",
@@ -4574,23 +4574,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "ABCD"
+        "text": "B-A-C-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "A-B-C-D"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "A-C-B-D"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "D-C-B-A"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "explanation": "After Barangay, Hall comes before Health Center, followed by Justice System and Nutrition Office. The order is B-A-C-D."
   },
   {
     "id": "aa-184",
@@ -4599,23 +4599,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "BCDA"
+        "text": "A-B-C-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "B-A-C-D"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "B-C-A-D"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "C-B-A-D"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "B",
+    "explanation": "Receiving comes before Records, followed by Releasing and Reproduction. The order is B-A-C-D."
   },
   {
     "id": "aa-185",
@@ -4624,23 +4624,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "ACDB"
+        "text": "C-A-D-B"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "A-C-D-B"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "A-D-C-B"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "B-D-C-A"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "B",
+    "explanation": "Quezon comes before Quiapo because Que- precedes Qui-. Then Quirino Avenue comes before Quirino Province. The order is A-C-D-B."
   },
   {
     "id": "aa-186",
@@ -4649,23 +4649,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "DCBA"
+        "text": "D-B-C-A"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "B-D-C-A"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "A-B-C-D"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "D-C-B-A"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "explanation": "Accomplishment comes first, then Annual, Appointment, and Audit. The order is D-B-C-A."
   },
   {
     "id": "aa-187",
@@ -4674,23 +4674,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "ACBD"
+        "text": "A-B-C-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "C-A-B-D"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "A-C-B-D"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "D-C-B-A"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "C",
+    "explanation": "Leave comes before Legal, then Letter, then Loan. The order is A-C-B-D."
   },
   {
     "id": "aa-188",
@@ -4699,23 +4699,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "BCDA"
+        "text": "A-B-C-D"
       },
       {
         "id": "B",
-        "text": "ABDC"
+        "text": "B-C-D-A"
       },
       {
         "id": "C",
-        "text": "BACD"
+        "text": "B-C-A-D"
       },
       {
         "id": "D",
-        "text": "DCBA"
+        "text": "C-B-D-A"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+    "correctChoiceId": "B",
+    "explanation": "Cagayan de Oro comes before Caloocan, then Cavite, then Cebu. The order is B-C-D-A."
   },
   {
     "id": "aa-189",
@@ -4724,11 +4724,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "Dan"
+        "text": "Ana"
       },
       {
         "id": "B",
-        "text": "Ana"
+        "text": "Dan"
       },
       {
         "id": "C",
@@ -4739,8 +4739,8 @@
         "text": "Carla"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Dan is above Ana, who is above Ben and Carla."
+    "correctChoiceId": "B",
+    "explanation": "Dan is above Ana, Ana is above Ben, and Ben is above Carla. Dan is highest."
   },
   {
     "id": "aa-190",
@@ -4749,11 +4749,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "Blue file"
+        "text": "Red file"
       },
       {
         "id": "B",
-        "text": "Red file"
+        "text": "Blue file"
       },
       {
         "id": "C",
@@ -4764,8 +4764,8 @@
         "text": "Cannot be determined"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because blue is between red and green."
+    "correctChoiceId": "B",
+    "explanation": "The order is red, blue, then green, so the blue file is in the middle."
   },
   {
     "id": "aa-191",
@@ -4774,23 +4774,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Nora"
-      },
-      {
-        "id": "B",
         "text": "Mila"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Liza"
+      },
+      {
+        "id": "C",
+        "text": "Nora"
       },
       {
         "id": "D",
         "text": "Cannot be determined"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Nora is below Liza, and Liza is below Mila."
+    "correctChoiceId": "C",
+    "explanation": "Mila is older than Liza, and Liza is older than Nora. Nora is youngest."
   },
   {
     "id": "aa-192",
@@ -4799,11 +4799,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "EPH"
+        "text": "CNG"
       },
       {
         "id": "B",
-        "text": "CNG"
+        "text": "EPH"
       },
       {
         "id": "C",
@@ -4814,33 +4814,33 @@
         "text": "EOG"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because each letter moves one step forward."
+    "correctChoiceId": "B",
+    "explanation": "Each letter moves one step forward: D to E, O to P, and G to H."
   },
   {
     "id": "aa-193",
     "subject": "Analytical Ability",
-    "prompt": "A code changes PLAN to QMB O by moving each letter one step forward. How is WORK written?",
+    "prompt": "A code changes PLAN to QMBO by moving each letter one step forward. How is WORK written?",
     "choices": [
       {
         "id": "A",
-        "text": "XPSL"
-      },
-      {
-        "id": "B",
         "text": "VNQJ"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "YQTM"
+      },
+      {
+        "id": "C",
+        "text": "XPSL"
       },
       {
         "id": "D",
         "text": "XQSL"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because each letter moves one step forward."
+    "correctChoiceId": "C",
+    "explanation": "Each letter moves one step forward: W to X, O to P, R to S, and K to L."
   },
   {
     "id": "aa-194",
@@ -4849,11 +4849,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "5"
+        "text": "4"
       },
       {
         "id": "B",
-        "text": "4"
+        "text": "5"
       },
       {
         "id": "C",
@@ -4864,8 +4864,8 @@
         "text": "7"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Friday is the fifth day in the listed order."
+    "correctChoiceId": "B",
+    "explanation": "Counting from Monday as 1 gives Tuesday 2, Wednesday 3, Thursday 4, and Friday 5."
   },
   {
     "id": "aa-195",
@@ -4874,11 +4874,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "Form 12 was stamped"
+        "text": "Form 12 was rejected"
       },
       {
         "id": "B",
-        "text": "Form 12 was rejected"
+        "text": "Form 12 was stamped"
       },
       {
         "id": "C",
@@ -4889,8 +4889,8 @@
         "text": "Form 12 was copied"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because filing requires stamping first."
+    "correctChoiceId": "B",
+    "explanation": "The rule requires stamping before filing. Since Form 12 is filed, it must have been stamped."
   },
   {
     "id": "aa-196",
@@ -4903,19 +4903,19 @@
       },
       {
         "id": "B",
-        "text": "2021 April Abad"
+        "text": "They are tied"
       },
       {
         "id": "C",
-        "text": "They are tied"
+        "text": "2021 April Abad"
       },
       {
         "id": "D",
         "text": "Cannot be determined"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because March comes before April when the year is the same."
+    "correctChoiceId": "C",
+    "explanation": "The year is the same, so compare the months. April comes before March."
   },
   {
     "id": "aa-197",
@@ -4924,23 +4924,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "D"
-      },
-      {
-        "id": "B",
         "text": "A"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "D"
       },
       {
         "id": "D",
         "text": "C"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the order descends from A to D."
+    "correctChoiceId": "C",
+    "explanation": "The height order is A, then B, then C, then D. D is shortest."
   },
   {
     "id": "aa-198",
@@ -4949,23 +4949,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "It is not valid"
-      },
-      {
-        "id": "B",
         "text": "It is valid"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "It is approved"
+      },
+      {
+        "id": "C",
+        "text": "It is not valid"
       },
       {
         "id": "D",
         "text": "It is complete"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because unsigned statements fail the stated requirement."
+    "correctChoiceId": "C",
+    "explanation": "A signature is required for validity. An unsigned statement fails that requirement."
   },
   {
     "id": "aa-199",
@@ -4974,23 +4974,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Box 2"
-      },
-      {
-        "id": "B",
         "text": "Box 1"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Box 3"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Cannot be determined"
+      },
+      {
+        "id": "D",
+        "text": "Box 2"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because Box 2 is heavier than Box 1, and Box 1 is heavier than Box 3."
+    "correctChoiceId": "D",
+    "explanation": "Box 2 is heavier than Box 1, and Box 1 is heavier than Box 3. Box 2 is heaviest."
   },
   {
     "id": "aa-200",
@@ -4999,22 +4999,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Logging"
-      },
-      {
-        "id": "B",
         "text": "Receiving"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Filing"
+      },
+      {
+        "id": "C",
+        "text": "Logging"
       },
       {
         "id": "D",
         "text": "Reviewing"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the sequence is receive, log, route, then file."
+    "correctChoiceId": "C",
+    "explanation": "The stated order is receive, log, route, then file. Logging happens immediately before routing."
   }
 ]
