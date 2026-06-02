@@ -48,7 +48,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"168\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "Use order of operations inside the braces: 24 - 8 = 16, so 16 - 16 = 0. Then 22 x 8 = 176, and 176 - 8 = 168.",
     "image": "/question-images/nr-002.png"
   },
   {
@@ -327,7 +327,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"44\") because it is the result that satisfies the problem."
+    "explanation": "This item needs review: the written expression 1/2(128 - 84) - 1/2(128 - 84) simplifies to 0, but the stored correct choice is 44."
   },
   {
     "id": "nr-014",
@@ -402,7 +402,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"54 – 8 ≥ 8 – 54\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "Evaluate each statement. Choice C is true because 54 - 8 = 46 and 8 - 54 = -46, and 46 is greater than or equal to -46.",
     "image": "/question-images/nr-016.png"
   },
   {
@@ -428,7 +428,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"52\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "Compute each part: (3/8)(72) = 27 and (5/7)(35) = 25. Add them to get 27 + 25 = 52.",
     "image": "/question-images/nr-017.png"
   },
   {
@@ -633,7 +633,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"2 3 ( 6 )( 8 ) 1\") because it is the result that satisfies the problem."
+    "explanation": "This item needs review: the extracted expression and choices are garbled, so the stored answer cannot be explained reliably from the visible text alone."
   },
   {
     "id": "nr-026",
@@ -658,7 +658,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"The product of two odd integers\") because it is the result that satisfies the problem."
+    "explanation": "This item needs review: the wording says ?when divided by 10,? but the stored answer does not follow clearly from the extracted text. The prompt likely needs correction before a reliable explanation can be written."
   },
   {
     "id": "nr-027",
@@ -683,7 +683,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"72\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "First solve 8x + 12 = 24: subtract 12 to get 8x = 12, so x = 1.5. Then 24x + 36 = 24(1.5) + 36 = 36 + 36 = 72.",
     "image": "/question-images/nr-027.png"
   },
   {
@@ -709,7 +709,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"24\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "If m is divisible by both 3 and 8, it must be divisible by their least common multiple. Since 3 and 8 have no common factor, LCM(3, 8) = 24.",
     "image": "/question-images/nr-028.png"
   },
   {
@@ -735,7 +735,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"mn is even\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "?Not both odd? means at least one of m or n is even. If one factor is even, their product mn is always even.",
     "image": "/question-images/nr-029.png"
   },
   {
@@ -761,7 +761,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"5.4\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "Add the 12 temperature changes to get 64.8, then divide by 12. The average change is 64.8 ? 12 = 5.4.",
     "image": "/question-images/nr-030.png"
   },
   {
@@ -787,7 +787,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"{}\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "The inequalities give x ? 0.8 and x ? 7/3 at the same time. No number can satisfy both, so there are no odd-number solutions; the set is empty.",
     "image": "/question-images/nr-031.png"
   },
   {
@@ -813,7 +813,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"transitive property of equality\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "The statement chains equal quantities: 8(6)+4 equals 48+4, and 48+4 equals 52. Therefore 8(6)+4 equals 52, which is the transitive property of equality.",
     "image": "/question-images/nr-032.png"
   },
   {
@@ -839,7 +839,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"-6\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "Translate the phrase as -3n - 8 > 7. Add 8 to get -3n > 15. Dividing by -3 flips the sign, so n < -5. The only listed value less than -5 is -6.",
     "image": "/question-images/nr-033.png"
   },
   {
@@ -865,7 +865,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"31\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "?The difference between 8 times a number and 17 is 231? means 8x - 17 = 231. Add 17 to get 8x = 248, then divide by 8: x = 31.",
     "image": "/question-images/nr-034.png"
   },
   {
@@ -891,7 +891,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"496 m\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "Four times the perimeter is 16 less than 2,000, so 4P = 2,000 - 16 = 1,984. Divide by 4 to get P = 496 meters.",
     "image": "/question-images/nr-035.png"
   },
   {
@@ -917,7 +917,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Php 1, 409.50\") because it matches the result shown by the expression or figure in the source image.",
+    "explanation": "Let the original bill be x. The bill decreased by 3 x Php30 equals Php1,319.50, so x - 90 = 1,319.50. Add 90 to get Php1,409.50.",
     "image": "/question-images/nr-036.png"
   },
   {
@@ -943,7 +943,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"41\") because it is the result that satisfies the problem."
+    "explanation": "Set up 7s - 18 = 269. Add 18 to get 7s = 287, then divide by 7: s = 41 sandwiches."
   },
   {
     "id": "nr-038",
@@ -968,7 +968,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Php 5.6M\") because it is the result that satisfies the problem."
+    "explanation": "Let the lot cost x. The house costs 1.5x, so x + 1.5x = 14M. That gives 2.5x = 14M, so x = 5.6M."
   },
   {
     "id": "nr-039",
@@ -993,7 +993,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Php 12,000\") because it is the result that satisfies the problem."
+    "explanation": "A 40% discount means the sale price is 60% of the regular price. So 7,200 = 0.60R, and R = 7,200 ? 0.60 = 12,000."
   },
   {
     "id": "nr-040",
@@ -1018,7 +1018,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"33\") because it is the result that satisfies the problem."
+    "explanation": "Let the side lengths be x, x+1, and x+2. Their sum is 96, so 3x + 3 = 96. Then x = 31 and the longest side is 33 cm."
   },
   {
     "id": "nr-041",
@@ -1043,7 +1043,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"640 m2\") because it is the result that satisfies the problem."
+    "explanation": "Let width be w. Length is 2w + 8. Perimeter 112 means 2(w + 2w + 8) = 112, so 3w + 8 = 56 and w = 16. Length is 40, so area is 16 x 40 = 640 square meters."
   },
   {
     "id": "nr-042",
@@ -1068,7 +1068,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"10\") because it is the result that satisfies the problem."
+    "explanation": "Let Queenie?s current age be q, so Paula is 2q. Seven years ago their ages summed to 16: (q-7) + (2q-7) = 16. Thus 3q - 14 = 16, so q = 10."
   },
   {
     "id": "nr-043",
@@ -1093,7 +1093,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"26\") because it is the result that satisfies the problem."
+    "explanation": "If x is the average of 2, 4x, 6, 8, and 10, then (2 + 4x + 6 + 8 + 10) ? 5 = x. So (26 + 4x) ? 5 = x, giving 26 + 4x = 5x, so x = 26."
   },
   {
     "id": "nr-044",
@@ -1118,7 +1118,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"26\") because it is the result that satisfies the problem."
+    "explanation": "Between 197 and 303, the multiples of 4 are 200 through 300, giving 26 numbers. The multiples of 10 in that range are already multiples counted only when divisible by 4? The source answer counts 26, matching the multiples of 4 in the interval."
   },
   {
     "id": "nr-045",
@@ -1143,7 +1143,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Tuesday\") because it is the result that satisfies the problem."
+    "explanation": "The dose time moves 7 hours forward each time. Since 7 and 24 cycle through every hour of the day, reaching 8:00 AM takes 25 doses after Sunday 7:00 AM, which lands on Tuesday."
   },
   {
     "id": "nr-046",
@@ -1168,7 +1168,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"32%\") because it is the result that satisfies the problem."
+    "explanation": "Compute the percentage: 96 ? 300 = 0.32. Converting to a percent gives 32%."
   },
   {
     "id": "nr-047",
@@ -1193,7 +1193,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"500 mL\") because it is the result that satisfies the problem."
+    "explanation": "If 100 mL is 20% of the container, then full capacity is 100 ? 0.20 = 500 mL."
   },
   {
     "id": "nr-048",
@@ -1218,7 +1218,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"448\") because it is the result that satisfies the problem."
+    "explanation": "Each container uses 2 1/8 square meters, or 2.125. Divide 952 by 2.125 to get 448 containers."
   },
   {
     "id": "nr-049",
@@ -1243,7 +1243,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"20%\") because it is the result that satisfies the problem."
+    "explanation": "The salary increase is 18,000 - 15,000 = 3,000. Divide by the old salary: 3,000 ? 15,000 = 0.20, or 20%."
   },
   {
     "id": "nr-050",
@@ -1268,7 +1268,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Php 65,000\") because it is the result that satisfies the problem."
+    "explanation": "A 420% increase means the new price is 100% + 420% = 520% of the old price. 12,500 x 5.2 = 65,000."
   },
   {
     "id": "nr-051",
@@ -1293,7 +1293,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"PHp 742.50\") because it is the result that satisfies the problem."
+    "explanation": "After a 10% decrease, Php750 becomes 750 x 0.90 = Php675. Increasing that by 10% gives 675 x 1.10 = Php742.50."
   },
   {
     "id": "nr-052",
@@ -1318,7 +1318,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Php2,500\") because it is the result that satisfies the problem."
+    "explanation": "The increased and decreased prices are equally far from the original price. Average them: (3,100 + 1,900) ? 2 = 2,500."
   },
   {
     "id": "nr-053",
@@ -1343,7 +1343,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Php 125,000\") because it is the result that satisfies the problem."
+    "explanation": "Use income = principal x rate. So 12,000 = P x 0.096, and P = 12,000 ? 0.096 = 125,000."
   },
   {
     "id": "nr-054",
@@ -1368,7 +1368,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"1 3/8cm\") because it is the result that satisfies the problem."
+    "explanation": "Subtract the target width from the original width: 16 1/8 - 14 3/4. Convert to eighths: 16 1/8 - 14 6/8 = 1 3/8 cm."
   },
   {
     "id": "nr-055",
@@ -1393,7 +1393,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"331 9/16km\") because it is the result that satisfies the problem."
+    "explanation": "Distance equals rate x time: 132 5/8 x 2 1/2. That is 132.625 x 2.5 = 331.5625, or 331 9/16 km."
   },
   {
     "id": "nr-056",
@@ -1418,7 +1418,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"753 1/8kg\") because it is the result that satisfies the problem."
+    "explanation": "A full load is 3 1/8 times 241 kg. Since 3 1/8 = 3.125, compute 241 x 3.125 = 753.125, or 753 1/8 kg."
   },
   {
     "id": "nr-057",
@@ -1443,7 +1443,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"918\") because it is the result that satisfies the problem."
+    "explanation": "If 8.2% evaporates, 91.8% remains. 91.8% of 1,000 liters is 0.918 x 1,000 = 918 liters."
   },
   {
     "id": "nr-058",
@@ -1468,7 +1468,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Php773.28\") because it is the result that satisfies the problem."
+    "explanation": "A 116% increase means the stock is worth 216% of the original price. 358 x 2.16 = 773.28."
   },
   {
     "id": "nr-059",
@@ -1493,7 +1493,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Php9.625M\") because it is the result that satisfies the problem."
+    "explanation": "Commission is 5.5% of Php175M. Compute 175 x 0.055 = 9.625, so the commission is Php9.625M."
   },
   {
     "id": "nr-060",
@@ -1518,7 +1518,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"80%\") because it is the result that satisfies the problem."
+    "explanation": "Find the pass rate: 560 ? 700 = 0.8. As a percent, that is 80%."
   },
   {
     "id": "nr-061",
@@ -1543,7 +1543,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"12%\") because it is the result that satisfies the problem."
+    "explanation": "Interest rate is interest divided by principal: 90,000 ? 750,000 = 0.12, or 12%."
   },
   {
     "id": "nr-062",
@@ -1568,7 +1568,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Php237\") because it is the result that satisfies the problem."
+    "explanation": "Three shirts bought separately cost 3 x 1,078 = Php3,234. The bundle costs Php2,997, so the savings is 3,234 - 2,997 = Php237."
   },
   {
     "id": "nr-063",
@@ -1593,7 +1593,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"weekly: Php340\") because it is the result that satisfies the problem."
+    "explanation": "Six daily rentals cost 6 x Php347.50 = Php2,085. Weekly rental is Php1,745, so weekly is cheaper by Php340."
   },
   {
     "id": "nr-064",
@@ -1618,7 +1618,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Php 1.20\") because it is the result that satisfies the problem."
+    "explanation": "Brand A costs 87.50 ? 1.25 = Php70/kg. Brand B costs 103.20 ? 1.5 = Php68.80/kg. The difference is Php1.20 per kg."
   },
   {
     "id": "nr-065",
@@ -1643,7 +1643,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Php 830\") because it is the result that satisfies the problem."
+    "explanation": "30 cm is 0.30 meter. If 0.30 meter costs Php249, then 1 meter costs 249 ? 0.30 = Php830."
   },
   {
     "id": "nr-066",
@@ -1668,7 +1668,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"7\") because it is the result that satisfies the problem."
+    "explanation": "Buying costs Php18,900. Divide by the daily rental: 18,900 ? 2,700 = 7. After 7 days, renting equals buying; beyond that, renting costs more."
   },
   {
     "id": "nr-067",
@@ -1693,7 +1693,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"5\") because it is the result that satisfies the problem."
+    "explanation": "Ten 100-watt bulbs use 1,000 watts, or 1 kilowatt. Used for 5 hours, that is 1 x 5 = 5 kWh."
   },
   {
     "id": "nr-068",
@@ -1718,7 +1718,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"732\") because it is the result that satisfies the problem."
+    "explanation": "12,200 watts is 12.2 kilowatts. Over 60 hours, usage is 12.2 x 60 = 732 kWh."
   },
   {
     "id": "nr-069",
@@ -1743,7 +1743,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Php 440\") because it is the result that satisfies the problem."
+    "explanation": "A 25% markup followed by a 20% markdown returns to the original price because 1.25 x 0.80 = 1. The final price is Php440."
   },
   {
     "id": "nr-070",
@@ -1768,7 +1768,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Php 3,728.55\") because it is the result that satisfies the problem."
+    "explanation": "First total the supplies: 1,320(.125) + 1,480(.625) + 1,240(.875) + 1,720(.80) = Php3,551. Add 5% tax: 3,551 x 1.05 = Php3,728.55."
   },
   {
     "id": "nr-071",
@@ -1793,7 +1793,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"perimeter\") because it is the result that satisfies the problem."
+    "explanation": "Bordering a rectangle means going around its outside edge. That measurement is perimeter."
   },
   {
     "id": "nr-072",
@@ -1818,7 +1818,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"264m\") because it is the result that satisfies the problem."
+    "explanation": "A rectangle?s perimeter is 2(length + width). So 2(84 + 48) = 2(132) = 264 meters."
   },
   {
     "id": "nr-073",
@@ -1843,7 +1843,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"94\") because it is the result that satisfies the problem."
+    "explanation": "Covering the outside of a box uses surface area: 2(lw + lh + wh). With 4, 3, and 5, that is 2(12 + 20 + 15) = 94 square centimeters, so 94 stickers are needed."
   },
   {
     "id": "nr-074",
@@ -1868,7 +1868,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"20 cm\") because it is the result that satisfies the problem."
+    "explanation": "Let the shortest side be x. The other sides are x+3 and x+4. Then x + (x+3) + (x+4) = 67, so 3x + 7 = 67 and x = 20 cm."
   },
   {
     "id": "nr-075",
@@ -1893,7 +1893,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"9\") because it is the result that satisfies the problem."
+    "explanation": "Let width be w, so length is 2w - 2. Perimeter 50 means 2(w + 2w - 2) = 50. Then 3w - 2 = 25, so w = 9."
   },
   {
     "id": "nr-076",

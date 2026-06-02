@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+*.tsbuildinfo
+.vite/
 
 # Editor directories and files
 .vscode/*
@@ -22,6 +24,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Test / coverage output
+coverage/
+.nyc_output/
 
 # Python cache
 __pycache__/

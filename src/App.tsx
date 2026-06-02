@@ -56,6 +56,26 @@ const LINE_BREAK_PROMPT_IDS = new Set([
   'aa-018',
   'aa-019',
   'aa-020',
+  'nr-076',
+  'nr-077',
+  'nr-078',
+  'nr-079',
+  'nr-080',
+  'nr-081',
+  'nr-082',
+  'nr-083',
+  'nr-084',
+  'nr-085',
+  'nr-086',
+  'nr-087',
+  'nr-088',
+  'nr-089',
+  'nr-090',
+  'nr-091',
+  'nr-092',
+  'nr-093',
+  'nr-094',
+  'nr-095',
   'vr-221',
   'vr-222',
   'vr-224',
@@ -707,7 +727,8 @@ function formatPromptLines(prompt: string): string[] {
   return prompt
     .replace(/^([IVX]+)\.\s+([A-E]\.)/u, '$1.\n$2')
     .replace(/\s+([A-E]\.\s)/gu, '\n$1')
-    .replace(/\n(?!\n|[IVX]+\.$|[A-E]\.\s|What\b)/gu, ' ')
+    .replace(/\s+([12]\)\s)/gu, '\n$1')
+    .replace(/\n(?!\n|[IVX]+\.$|[A-E]\.\s|[12]\)\s|What\b)/gu, ' ')
     .split('\n')
     .map((line) => line.trim())
 }
