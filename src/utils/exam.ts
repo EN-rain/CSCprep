@@ -135,7 +135,7 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
       id: `${question.id}-${index + 1}`,
       itemNumber: index + 1,
       question,
-      choices: shuffle(question.choices),
+      choices: question.image ? question.choices : shuffle(question.choices),
     })),
   }
 }

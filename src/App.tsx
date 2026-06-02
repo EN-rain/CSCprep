@@ -1078,7 +1078,7 @@ function QuestionCard({
       <div className={markerChoicesOnly ? 'choice-grid choice-grid--markers' : 'choice-grid'}>
         {choices.map((choice, index) => {
           const isSelected = answers[itemId] === choice.id
-          const displayLetter = String.fromCharCode(97 + index)
+          const displayLetter = markerChoicesOnly ? choice.id.toLowerCase() : String.fromCharCode(97 + index)
 
           return (
             <button
@@ -1144,7 +1144,7 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
           ]
             .filter(Boolean)
             .join(' ')
-          const displayLetter = String.fromCharCode(97 + index)
+          const displayLetter = markerChoicesOnly ? choice.id.toLowerCase() : String.fromCharCode(97 + index)
 
           return (
             <div className={className} key={choice.id}>
