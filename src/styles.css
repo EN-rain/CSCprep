@@ -53,6 +53,10 @@ html.lenis body {
   height: auto;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 .lenis.lenis-smooth {
   scroll-behavior: auto !important;
 }
@@ -704,9 +708,11 @@ h2 {
   width: min(520px, 100%);
   max-height: 320px;
   object-fit: contain;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface-strong);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .question-image-button {
@@ -723,8 +729,7 @@ h2 {
 }
 
 .question-image-button:hover .question-image {
-  border-color: rgba(15, 118, 110, 0.45);
-  box-shadow: 0 12px 28px rgba(22, 32, 38, 0.12);
+  filter: drop-shadow(0 12px 20px rgba(22, 32, 38, 0.12));
 }
 
 .question-image-button:focus-visible {

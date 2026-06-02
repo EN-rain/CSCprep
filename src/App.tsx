@@ -1066,7 +1066,7 @@ function QuestionCard({
           onClick={() => onOpenImage(question.image!)}
           type="button"
         >
-          <img className="question-image" src={question.image} alt="Question reference" />
+          <img className="question-image" src={question.image} alt="Question reference" draggable={false} />
           <span className="question-image-hint">Click to enlarge</span>
         </button>
       )}
@@ -1123,7 +1123,7 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
           onClick={() => onOpenImage(item.image!)}
           type="button"
         >
-          <img className="question-image" src={item.image} alt="Question reference" />
+          <img className="question-image" src={item.image} alt="Question reference" draggable={false} />
           <span className="question-image-hint">Click to enlarge</span>
         </button>
       )}
@@ -1267,7 +1267,7 @@ function ImageLightbox({ imageSrc, onClose }: ImageLightboxProps) {
           {'\u00d7'}
         </button>
         <div className="image-lightbox__content">
-          <img className="image-lightbox__image" src={imageSrc} alt="Expanded question reference" />
+          <img className="image-lightbox__image" src={imageSrc} alt="Expanded question reference" draggable={false} />
         </div>
       </div>
     </OverlayPortal>
