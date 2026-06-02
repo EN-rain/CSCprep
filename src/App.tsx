@@ -694,42 +694,15 @@ function ExamScreen({
 
       <div className="question-list">
         {session.questions.map(({ id, itemNumber, question, choices }) => (
-          <article className="question-card" id={`exam-item-${id}`} key={id}>
-            <div className="question-card__top">
-              <span className="question-number">Item {itemNumber}</span>
-              <span className="subject-tag">{question.subject}</span>
-            </div>
-            {question.image && (
-              <button
-                className="question-image-button"
-                onClick={() => onOpenImage(question.image!)}
-                type="button"
-              >
-                <img className="question-image" src={question.image} alt="Question reference" />
-                <span className="question-image-hint">Click to enlarge</span>
-              </button>
-            )}
-            <PromptText prompt={question.prompt} questionId={question.id} />
-            <div className="choice-grid">
-              {choices.map((choice, index) => {
-                const isSelected = answers[id] === choice.id
-                const displayLetter = String.fromCharCode(65 + index)
-
-                return (
-                  <button
-                    aria-pressed={isSelected}
-                    className={isSelected ? 'choice choice--selected' : 'choice'}
-                    key={choice.id}
-                    onClick={() => onChooseAnswer(id, choice.id)}
-                    type="button"
-                  >
-                    <span>{displayLetter}</span>
-                    {choice.text}
-                  </button>
-                )
-              })}
-            </div>
-          </article>
+          <QuestionCard
+            answers={answers}
+            itemId={id}
+            itemNumber={itemNumber}
+            onChooseAnswer={onChooseAnswer}
+            onOpenImage={onOpenImage}
+            question={question}
+            choices={choices}
+          />
         ))}
       </div>
 
@@ -925,47 +898,10 @@ function ResultsScreen({
 
       <div className="review-list">
         {filteredReviewItems.map((item) => (
-          <article className="review-card" key={item.itemId}>
-            <div className="question-card__top">
-              <span className="question-number">Item {item.itemNumber}</span>
-              <span className="subject-tag">{item.subject}</span>
-            </div>
-            {item.image && (
-              <button
-                className="question-image-button"
-                onClick={() => onOpenImage(item.image!)}
-                type="button"
-              >
-                <img className="question-image" src={item.image} alt="Question reference" />
-                <span className="question-image-hint">Click to enlarge</span>
-              </button>
-            )}
-            <PromptText prompt={item.prompt} questionId={item.questionId} />
-            <div className="review-choices">
-              {item.choices.map((choice, index) => {
-                const isSelected = item.selectedChoiceId === choice.id
-                const isCorrect = item.correctChoiceId === choice.id
-                const className = [
-                  'review-choice',
-                  isCorrect ? 'review-choice--correct' : '',
-                  isSelected && !isCorrect ? 'review-choice--wrong' : '',
-                ]
-                  .filter(Boolean)
-                  .join(' ')
-                const displayLetter = String.fromCharCode(65 + index)
-
-                return (
-                  <div className={className} key={choice.id}>
-                    <span>{displayLetter}</span>
-                    <p>{choice.text}</p>
-                    {isSelected && <strong>Your answer</strong>}
-                    {isCorrect && <strong>Correct</strong>}
-                  </div>
-                )
-              })}
-            </div>
-            {item.explanation && <p className="explanation">{item.explanation}</p>}
-          </article>
+          <ReviewCard
+            item={item}
+            onOpenImage={onOpenImage}
+          />
         ))}
       </div>
 
@@ -974,17 +910,148 @@ function ResultsScreen({
   )
 }
 
+type QuestionCardProps = {
+  answers: AnswerMap
+  choices: ExamSession['questions'][number]['choices']
+  itemId: string
+  itemNumber: number
+  onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
+  onOpenImage: (imageSrc: string) => void
+  question: ExamSession['questions'][number]['question']
+}
+
+function QuestionCard({
+  answers,
+  choices,
+  itemId,
+  itemNumber,
+  onChooseAnswer,
+  onOpenImage,
+  question,
+}: QuestionCardProps) {
+  const markerChoicesOnly = Boolean(question.image) && usesImageChoiceMarkers(choices)
+
+  return (
+    <article className="question-card" id={`exam-item-${itemId}`}>
+      <div className="question-card__top">
+        <span className="question-number">Item {itemNumber}</span>
+        <span className="subject-tag">{question.subject}</span>
+      </div>
+      {question.image && (
+        <button
+          className="question-image-button"
+          onClick={() => onOpenImage(question.image!)}
+          type="button"
+        >
+          <img className="question-image" src={question.image} alt="Question reference" />
+          <span className="question-image-hint">Click to enlarge</span>
+        </button>
+      )}
+      <PromptText
+        prompt={question.prompt}
+        questionId={question.id}
+        visuallyHidden={Boolean(question.image)}
+      />
+      <div className={markerChoicesOnly ? 'choice-grid choice-grid--markers' : 'choice-grid'}>
+        {choices.map((choice, index) => {
+          const isSelected = answers[itemId] === choice.id
+          const displayLetter = String.fromCharCode(97 + index)
+
+          return (
+            <button
+              aria-label={markerChoicesOnly ? `Choice ${displayLetter}` : undefined}
+              aria-pressed={isSelected}
+              className={[
+                'choice',
+                isSelected ? 'choice--selected' : '',
+                markerChoicesOnly ? 'choice--marker-only' : '',
+              ].filter(Boolean).join(' ')}
+              key={choice.id}
+              onClick={() => onChooseAnswer(itemId, choice.id)}
+              type="button"
+            >
+              <span>{displayLetter}</span>
+              {!markerChoicesOnly && choice.text}
+            </button>
+          )
+        })}
+      </div>
+    </article>
+  )
+}
+
+type ReviewCardProps = {
+  item: ReviewItem
+  onOpenImage: (imageSrc: string) => void
+}
+
+function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
+  const markerChoicesOnly = Boolean(item.image) && usesImageChoiceMarkers(item.choices)
+
+  return (
+    <article className="review-card">
+      <div className="question-card__top">
+        <span className="question-number">Item {item.itemNumber}</span>
+        <span className="subject-tag">{item.subject}</span>
+      </div>
+      {item.image && (
+        <button
+          className="question-image-button"
+          onClick={() => onOpenImage(item.image!)}
+          type="button"
+        >
+          <img className="question-image" src={item.image} alt="Question reference" />
+          <span className="question-image-hint">Click to enlarge</span>
+        </button>
+      )}
+      <PromptText
+        prompt={item.prompt}
+        questionId={item.questionId}
+        visuallyHidden={Boolean(item.image)}
+      />
+      <div className={markerChoicesOnly ? 'review-choices review-choices--markers' : 'review-choices'}>
+        {item.choices.map((choice, index) => {
+          const isSelected = item.selectedChoiceId === choice.id
+          const isCorrect = item.correctChoiceId === choice.id
+          const className = [
+            'review-choice',
+            isCorrect ? 'review-choice--correct' : '',
+            isSelected && !isCorrect ? 'review-choice--wrong' : '',
+            markerChoicesOnly ? 'review-choice--marker-only' : '',
+          ]
+            .filter(Boolean)
+            .join(' ')
+          const displayLetter = String.fromCharCode(97 + index)
+
+          return (
+            <div className={className} key={choice.id}>
+              <span>{displayLetter}</span>
+              {!markerChoicesOnly && <p>{choice.text}</p>}
+              {isSelected && <strong>Your answer</strong>}
+              {isCorrect && <strong>Correct</strong>}
+            </div>
+          )
+        })}
+      </div>
+      {item.explanation && <p className="explanation">{item.explanation}</p>}
+    </article>
+  )
+}
+
 type PromptTextProps = {
   prompt: string
   questionId: string
+  visuallyHidden?: boolean
 }
 
-function PromptText({ prompt, questionId }: PromptTextProps) {
+function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextProps) {
+  const headingClassName = visuallyHidden ? 'sr-only' : undefined
+
   if (PRESERVE_PROMPT_LINE_IDS.has(questionId)) {
     const lines = prompt.split('\n')
 
     return (
-      <h2>
+      <h2 className={headingClassName}>
         {lines.map((line, index) => (
           <span
             className={line.trim() ? 'prompt-line' : 'prompt-line prompt-line--blank'}
@@ -998,13 +1065,13 @@ function PromptText({ prompt, questionId }: PromptTextProps) {
   }
 
   if (!LINE_BREAK_PROMPT_IDS.has(questionId)) {
-    return <h2>{prompt}</h2>
+    return <h2 className={headingClassName}>{prompt}</h2>
   }
 
   const lines = formatPromptLines(prompt)
 
   return (
-    <h2>
+    <h2 className={headingClassName}>
       {lines.map((line, index) => (
         <span className="prompt-line" key={`${questionId}-${index}`}>
           {line}
@@ -1012,6 +1079,12 @@ function PromptText({ prompt, questionId }: PromptTextProps) {
       ))}
     </h2>
   )
+}
+
+function usesImageChoiceMarkers(choices: { text: string }[]): boolean {
+  const markerChoicePattern = /^(Underlined part [a-e]|No error(?: \/ walang mali)?)$/i
+
+  return choices.length > 0 && choices.every((choice) => markerChoicePattern.test(choice.text.trim()))
 }
 
 function formatPromptLines(prompt: string): string[] {

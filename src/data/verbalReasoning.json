@@ -902,7 +902,7 @@
   {
     "id": "vr-037",
     "subject": "Verbal Reasoning",
-    "prompt": "To augment the policemen’s incom, the government allowed them to take part-\ntime jobs.",
+    "prompt": "To augment the policemen’s income, the government allowed them to take part-\ntime jobs.",
     "choices": [
       {
         "id": "A",
@@ -5856,7 +5856,7 @@
   {
     "id": "vr-223",
     "subject": "Verbal Reasoning",
-    "prompt": "If the following sentence is added as sentence F:\nIt should be noted, however, that the President must communicate his veto within\nthirty days from receipt of the bill, otherwise, the bill is considered to have been\napproved by him.\n\nWhat would the new order of the sentences be?",
+    "prompt": "A. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is\napproved, it goes to the President for approval or veto.\n\nIf the following sentence is added as sentence F:\nIt should be noted, however, that the President must communicate his veto within\nthirty days from receipt of the bill, otherwise, the bill is considered to have been\napproved by him.\n\nWhat would the new order of the sentences be?",
     "choices": [
       {
         "id": "A",
@@ -6030,7 +6030,7 @@
   {
     "id": "vr-229",
     "subject": "Verbal Reasoning",
-    "prompt": "A. Not only that, paying taxes also means the government will no longer need to\nacquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for\ninfrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be fourth sentence?",
+    "prompt": "A. Not only that, paying taxes also means the government will no longer need to\nacquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for\ninfrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the fourth sentence?",
     "choices": [
       {
         "id": "A",
@@ -9168,7 +9168,7 @@
       },
       {
         "id": "C",
-        "text": "vein Analogy and Logic Test"
+        "text": "vein"
       }
     ],
     "correctChoiceId": "A",
