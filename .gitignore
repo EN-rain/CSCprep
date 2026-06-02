@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated extraction artifacts not needed by the website runtime
+scripts/
+src/data/*.pdf
+src/data/csc*.audit.json
+src/data/csc*.extracted.txt
+src/data/csc*.ocr.txt
+src/data/csc*.questions.json
+src/data/pdf-image-context-notes.json
+
+# Superseded full-page PDF renders; the app uses per-item crops instead.
+public/question-images/csc*-page-*.png

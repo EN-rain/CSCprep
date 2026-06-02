@@ -2,7 +2,7 @@
   {
     "id": "gi-001",
     "subject": "General Information",
-    "prompt": "What do you call the introductory part of the Constitution1/4",
+    "prompt": "What do you call the introductory part of the Constitution?",
     "choices": [
       {
         "id": "A",
@@ -22,12 +22,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Preamble\") because it matches the constitutional or legal rule asked in the item."
   },
   {
     "id": "gi-002",
     "subject": "General Information",
-    "prompt": "What form of government does the Philippines adopt1/4",
+    "prompt": "What form of government does the Philippines adopt?",
     "choices": [
       {
         "id": "A",
@@ -47,12 +47,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"both a and b\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-003",
     "subject": "General Information",
-    "prompt": "What is the power of the State to take private property for public use upon payment of a just compensation1/4",
+    "prompt": "What is the power of the State to take private property for public use upon payment\nof a just compensation?",
     "choices": [
       {
         "id": "A",
@@ -72,12 +72,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"right of eminent domain\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-004",
     "subject": "General Information",
-    "prompt": "Who among the following may issue a warrant of arrest or a search warrant1/4",
+    "prompt": "Who among the following may issue a warrant of arrest or a search warrant?",
     "choices": [
       {
         "id": "A",
@@ -97,7 +97,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"a judge\") because it matches the constitutional or legal rule asked in the item."
   },
   {
     "id": "gi-005",
@@ -122,7 +122,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"naturalization\") because it matches the constitutional or legal rule asked in the item."
   },
   {
     "id": "gi-006",
@@ -147,12 +147,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"suffrage\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-007",
     "subject": "General Information",
-    "prompt": "How many Senators are there in the Senate1/4",
+    "prompt": "How many Senators are there in the Senate?",
     "choices": [
       {
         "id": "A",
@@ -172,12 +172,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"twenty-four\") because it matches the constitutional or legal rule asked in the item."
   },
   {
     "id": "gi-008",
     "subject": "General Information",
-    "prompt": "What is the minimum age requirements of a Senator1/4",
+    "prompt": "What is the minimum age requirements of a Senator?",
     "choices": [
       {
         "id": "A",
@@ -197,12 +197,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"thirty-five\") because it matches the constitutional or legal rule asked in the item."
   },
   {
     "id": "gi-009",
     "subject": "General Information",
-    "prompt": "Which of the following bills do not originate from the House of Representative1/4",
+    "prompt": "Which of the following bills do not originate from the House of Representative?",
     "choices": [
       {
         "id": "A",
@@ -222,7 +222,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Amnesty\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-010",
@@ -247,7 +247,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"elected by district and party list\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-011",
@@ -272,12 +272,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"Congress\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-012",
     "subject": "General Information",
-    "prompt": "Which of the following may disqualify a person from running for Presidency1/4",
+    "prompt": "Which of the following may disqualify a person from running for Presidency?",
     "choices": [
       {
         "id": "A",
@@ -297,12 +297,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"He lived abroad five years preceding the election.\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-013",
     "subject": "General Information",
-    "prompt": "Which of the following shows the transfer of power should the President be incapable of discharging his duties1/4",
+    "prompt": "Which of the following shows the transfer of power should the President be\nincapable of discharging his duties?",
     "choices": [
       {
         "id": "A",
@@ -322,7 +322,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"President -→ Vice-President -→ Senate President -→ House Speaker\") because it matches the constitutional or legal rule asked in the item."
   },
   {
     "id": "gi-014",
@@ -347,7 +347,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"must have been for fifteen years or more, a judge of a lower court.\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-015",
@@ -372,12 +372,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"a Chief Justice and fourteen Associate Justices\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-016",
     "subject": "General Information",
-    "prompt": "Which of the following is a Constitutional Commission1/4",
+    "prompt": "Which of the following is a Constitutional Commission?",
     "choices": [
       {
         "id": "A",
@@ -397,12 +397,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Civil Service Commission\") because it matches the constitutional or legal rule asked in the item."
   },
   {
     "id": "gi-017",
     "subject": "General Information",
-    "prompt": "What branch of government has the sole right to initiate all cases of impeachment1/4",
+    "prompt": "What branch of government has the sole right to initiate all cases of impeachment?",
     "choices": [
       {
         "id": "A",
@@ -422,12 +422,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"House of Representative\") because that option is not one of the constitutional grounds for impeachment."
   },
   {
     "id": "gi-018",
     "subject": "General Information",
-    "prompt": "Which of the following is not removable from office by impeachment1/4",
+    "prompt": "Which of the following is not removable from office by impeachment?",
     "choices": [
       {
         "id": "A",
@@ -447,7 +447,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"Senators\") because that option is not one of the constitutional grounds for impeachment."
   },
   {
     "id": "gi-019",
@@ -472,12 +472,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"Filipino\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-020",
     "subject": "General Information",
-    "prompt": "Who may propose any amendment to, or revision of the Constitution1/4",
+    "prompt": "Who may propose any amendment to, or revision of the Constitution?",
     "choices": [
       {
         "id": "A",
@@ -497,12 +497,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"Congress or a Constitutional Convention\") because it matches the constitutional or legal rule asked in the item."
   },
   {
     "id": "gi-021",
     "subject": "General Information",
-    "prompt": "What tax is paid by individuals who derive compensation income1/4",
+    "prompt": "What tax is paid by individuals who derive compensation income?",
     "choices": [
       {
         "id": "A",
@@ -522,12 +522,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Income tax\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-022",
     "subject": "General Information",
-    "prompt": "When is the deadline for filing income tax returns for every taxable year1/4",
+    "prompt": "When is the deadline for filing income tax returns for every taxable year?",
     "choices": [
       {
         "id": "A",
@@ -547,12 +547,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"April 15\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-023",
     "subject": "General Information",
-    "prompt": "Which of the following statements is true about taxes1/4",
+    "prompt": "Which of the following statements is true about taxes?",
     "choices": [
       {
         "id": "A",
@@ -572,12 +572,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"It is an enforced contribution\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-024",
     "subject": "General Information",
-    "prompt": "What tax is imposed on one’s right to transmit property at death, and is measured by the value of the property1/4",
+    "prompt": "What tax is imposed on one’s right to transmit property at death, and is measured by\nthe value of the property?",
     "choices": [
       {
         "id": "A",
@@ -597,12 +597,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"Estate tax\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-025",
     "subject": "General Information",
-    "prompt": "Which of the following is classified as being a “Head of the Family” for income tax purposes1/4",
+    "prompt": "Which of the following is classified as being a “Head of the Family” for income tax\npurposes?",
     "choices": [
       {
         "id": "A",
@@ -622,12 +622,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"an unmarried individual with dependents\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-026",
     "subject": "General Information",
-    "prompt": "What Act implements the mandate for the “State to make essential goods, health and other social services available to all the people at affordable cost1/4”",
+    "prompt": "What Act implements the mandate for the “State to make essential goods, health\nand other social services available to all the people at affordable cost?”",
     "choices": [
       {
         "id": "A",
@@ -647,12 +647,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"Generics Act\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-027",
     "subject": "General Information",
-    "prompt": "Which of the following is true about elective local officials1/4",
+    "prompt": "Which of the following is true about elective local officials?",
     "choices": [
       {
         "id": "A",
@@ -672,12 +672,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"The term of office is three years\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-028",
     "subject": "General Information",
-    "prompt": "What may be classified as alienable lands of the public domain1/4",
+    "prompt": "What may be classified as alienable lands of the public domain?",
     "choices": [
       {
         "id": "A",
@@ -697,12 +697,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"agricultural lands\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-029",
     "subject": "General Information",
-    "prompt": "What is the maximum equity for aliens in a corporation or association in the exploration development and utilization of natural resources1/4",
+    "prompt": "What is the maximum equity for aliens in a corporation or association in the\nexploration development and utilization of natural resources?",
     "choices": [
       {
         "id": "A",
@@ -722,12 +722,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"40%\") because it matches the factual detail asked in the item."
   },
   {
     "id": "gi-030",
     "subject": "General Information",
-    "prompt": "What is recognized by the State as the foundation of the nation1/4",
+    "prompt": "What is recognized by the State as the foundation of the nation?",
     "choices": [
       {
         "id": "A",
@@ -747,6 +747,4276 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"family\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-031",
+    "subject": "General Information",
+    "prompt": "This is a type of document issued by a seller to a buyer relating to a sale transaction and indicating the\nproducts, quantities and prices sold to the buyer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Check voucher"
+      },
+      {
+        "id": "B",
+        "text": "Purchase order"
+      },
+      {
+        "id": "C",
+        "text": "Delivery receipt"
+      },
+      {
+        "id": "D",
+        "text": "Sales invoice"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Sales invoice\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-032",
+    "subject": "General Information",
+    "prompt": "Which of the following is not a usual document used in a sales company?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Form 137"
+      },
+      {
+        "id": "B",
+        "text": "Delivery receipt"
+      },
+      {
+        "id": "C",
+        "text": "Sales invoice"
+      },
+      {
+        "id": "D",
+        "text": "Purchase order"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Form 137\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-033",
+    "subject": "General Information",
+    "prompt": "One of the responsibilities of a clerical job is answering and tending phone calls. Which is the best way to\nanswer a phone call in a company?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Say \"Hello,\" and wait for the caller to speak."
+      },
+      {
+        "id": "B",
+        "text": "Run and get a pen and notebook then pick up the phone."
+      },
+      {
+        "id": "C",
+        "text": "Answer the phone politely and give your department or company name."
+      },
+      {
+        "id": "D",
+        "text": "Wait for fellow employees to answer the phone."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Answer the phone politely and give your department or company name.\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-034",
+    "subject": "General Information",
+    "prompt": "An example of a hard copy document is:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "PDF file letter"
+      },
+      {
+        "id": "B",
+        "text": "Company email message"
+      },
+      {
+        "id": "C",
+        "text": "A business letter saved in USB"
+      },
+      {
+        "id": "D",
+        "text": "Business letter in a paper"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Business letter in a paper\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-035",
+    "subject": "General Information",
+    "prompt": "What does a CC means in an email message?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Copy sent"
+      },
+      {
+        "id": "B",
+        "text": "Copy furnished"
+      },
+      {
+        "id": "C",
+        "text": "Copy cat"
+      },
+      {
+        "id": "D",
+        "text": "Client copy"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Copy furnished\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-036",
+    "subject": "General Information",
+    "prompt": "Which computer program should you go if you want to email a company?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Word"
+      },
+      {
+        "id": "B",
+        "text": "Excel"
+      },
+      {
+        "id": "C",
+        "text": "Outlook"
+      },
+      {
+        "id": "D",
+        "text": "Powerpoint"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Outlook\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-037",
+    "subject": "General Information",
+    "prompt": "This is a telephonic transmission of scanned documents of texts and images to a\ntelephone number connected to a printer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Photocopying Machine"
+      },
+      {
+        "id": "B",
+        "text": "Fax Machine"
+      },
+      {
+        "id": "C",
+        "text": "Typewriter"
+      },
+      {
+        "id": "D",
+        "text": "Inkjet Printer"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Fax Machine\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-038",
+    "subject": "General Information",
+    "prompt": "The chief financial officer is responsible for the financial matters and financial\nmanagement of a corporation, she is also known as the _______.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Auditor"
+      },
+      {
+        "id": "B",
+        "text": "Treasurer"
+      },
+      {
+        "id": "C",
+        "text": "Chief Executive Officer"
+      },
+      {
+        "id": "D",
+        "text": "Manager"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Treasurer\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-039",
+    "subject": "General Information",
+    "prompt": "Which department of a company is responsible for cash register operations and payment\nprocessing?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cashier"
+      },
+      {
+        "id": "B",
+        "text": "Billing"
+      },
+      {
+        "id": "C",
+        "text": "Accounting"
+      },
+      {
+        "id": "D",
+        "text": "Budget"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Cashier\") because it is the government office or unit referred to in the question."
+  },
+  {
+    "id": "gi-040",
+    "subject": "General Information",
+    "prompt": "Your boss asked you to send her a soft copy of your latest résumé. An example of a soft copy is:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A print out copy usually in a paper"
+      },
+      {
+        "id": "B",
+        "text": "Original copy written in a paper"
+      },
+      {
+        "id": "C",
+        "text": "A copy saved in a computer and sent through email"
+      },
+      {
+        "id": "D",
+        "text": "A copy from a Xerox machine"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "A copy saved in a computer and sent through\nemail\nPhilippine Constitution, General Information and\nEvents ( Leonalyn)"
+  },
+  {
+    "id": "gi-041",
+    "subject": "General Information",
+    "prompt": "What is the national language of the Philippines according to 1987 Phil Constitution article XIV section 6?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pilipino"
+      },
+      {
+        "id": "B",
+        "text": "Tagalog"
+      },
+      {
+        "id": "C",
+        "text": "Filipino"
+      },
+      {
+        "id": "D",
+        "text": "English"
+      },
+      {
+        "id": "E",
+        "text": "Both B & C"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Filipino\") because it matches the constitutional or legal rule asked in the item."
+  },
+  {
+    "id": "gi-042",
+    "subject": "General Information",
+    "prompt": "What is regarded by the State as a \"primary social economic force?\"",
+    "choices": [
+      {
+        "id": "A",
+        "text": "education"
+      },
+      {
+        "id": "B",
+        "text": "trade"
+      },
+      {
+        "id": "C",
+        "text": "labor"
+      },
+      {
+        "id": "D",
+        "text": "commerce"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"labor\") because Article II, Section 18 identifies labor as a primary social economic force."
+  },
+  {
+    "id": "gi-043",
+    "subject": "General Information",
+    "prompt": "According to Article III, Section 15 of the Constitution, the writ of habeas corpus may be suspended in\ntimes of rebellion or what?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "martial law"
+      },
+      {
+        "id": "B",
+        "text": "war"
+      },
+      {
+        "id": "C",
+        "text": "terrorism"
+      },
+      {
+        "id": "D",
+        "text": "invasion"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The writ of habeas corpus prevents persons\nfrom being arrested without warrants of arrest. The\nConstitution specifies the conditions wherein the writ\nshall be suspended to prevent warrantless arrests, which\nwere prevalent during the Marcos dictatorship (which\nwas overthrown by the 1st People Power Revolution).\nThe Constitution clearly states that \"the writ of habeas\ncorpus shall not be suspended except in cases of\ninvasion or rebellion.\""
+  },
+  {
+    "id": "gi-044",
+    "subject": "General Information",
+    "prompt": "The Lower Chamber of the Congress of the Philippines is known by what name?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Senate"
+      },
+      {
+        "id": "B",
+        "text": "Congressional Lower Chamber"
+      },
+      {
+        "id": "C",
+        "text": "National Assembly"
+      },
+      {
+        "id": "D",
+        "text": "House of Representatives"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Article VI, Section 1 states, \"The legislative\npower shall be vested in the Congress of the Philippines\nwhich shall consist of a Senate and a House of\nRepresentatives...\". The Upper House of Congress is the\nSenate while the Lower House is the House of\nRepresentatives. Representatives are elected by the\nconstituents in their respective legislative districts, while\nSenators are elected at the national level."
+  },
+  {
+    "id": "gi-045",
+    "subject": "General Information",
+    "prompt": "A Member of either house of Congress may be expelled by their fellow Members. For a Member to be\nexpelled, how much of the total number of Members of a house must concur with the expulsion?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "two-thirds"
+      },
+      {
+        "id": "B",
+        "text": "majority c three-fourths"
+      },
+      {
+        "id": "D",
+        "text": "nine-tenths"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Article VI, Section 16.3 states, \"Each House\nmay determine the rules of its proceedings, punish its\nMembers for disorderly behavior, and, with the\nconcurrence of two-thirds of all its Members, suspend or\nexpel a Member.\" So, if the Senate wants to expel a\nmember, 16 of the 24 Senators must agree to expel that\nSenator."
+  },
+  {
+    "id": "gi-046",
+    "subject": "General Information",
+    "prompt": "If a President wishes to veto a bill, he/she must communicate it within a certain span of time, otherwise\nthe bill will become a law. How long is this span of time?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3 weeks"
+      },
+      {
+        "id": "B",
+        "text": "48 days"
+      },
+      {
+        "id": "C",
+        "text": "60 days"
+      },
+      {
+        "id": "D",
+        "text": "30 days"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "According to Article VI, Section 27.1, \"The\nPresident shall communicate his veto of any bill to the\nHouse where it originated within thirty days after the date\nof receipt thereof, otherwise, it shall become a law as if\nhe had signed it.\" A vetoed bill may still become a law if\ntwo-thirds of the members of the house where it\noriginated votes to make it a law."
+  },
+  {
+    "id": "gi-047",
+    "subject": "General Information",
+    "prompt": "The official motto used in 30th Southeast Asian Games is what?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "We Care As One"
+      },
+      {
+        "id": "B",
+        "text": "We Play As One"
+      },
+      {
+        "id": "C",
+        "text": "We Win As One"
+      },
+      {
+        "id": "D",
+        "text": "We Will As One"
+      },
+      {
+        "id": "E",
+        "text": "We Work As One"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"We Play As One\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-048",
+    "subject": "General Information",
+    "prompt": "On August 16, 2018, the government announced at least ___ Philippine holidays for 2019 as\ndeclared by virtue of Proclamation No. 555, series of 2018.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "18"
+      },
+      {
+        "id": "C",
+        "text": "19"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "14"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. Ozone depletion contributes to global warming."
+  },
+  {
+    "id": "gi-049",
+    "subject": "General Information",
+    "prompt": "Which of the following statements best describes the relationship between global warming ozone\ndepletion?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ozone depletion contributes to global warming."
+      },
+      {
+        "id": "B",
+        "text": "Global warming causes ozone depletion."
+      },
+      {
+        "id": "C",
+        "text": "Ozone depletion and global warming have nothing to do with each other."
+      },
+      {
+        "id": "D",
+        "text": "Excessive build-up of carbon dioxide causes both global warming and ozone depletion."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Global warming causes ozone depletion.\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-050",
+    "subject": "General Information",
+    "prompt": "It is only Philippine province with an English name.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cebu"
+      },
+      {
+        "id": "B",
+        "text": "Mountain Province"
+      },
+      {
+        "id": "C",
+        "text": "General Santos"
+      },
+      {
+        "id": "D",
+        "text": "Zambales"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Zambales\") because it matches the factual detail asked in the item."
+  },
+  {
+    "id": "gi-051",
+    "subject": "General Information",
+    "prompt": "What project of the DENR that includes the protection of Industrial pollution of our Environment?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Bantay Kalikasan"
+      },
+      {
+        "id": "B",
+        "text": "Bantay Ilog"
+      },
+      {
+        "id": "C",
+        "text": "Bantay Dagat"
+      },
+      {
+        "id": "D",
+        "text": "Ecological Watch"
+      },
+      {
+        "id": "E",
+        "text": "Solid Waste Management"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "The correct answer is choice E (\"Solid Waste Management\") because the item asks for the DENR program connected with controlling pollution and environmental waste."
+  },
+  {
+    "id": "gi-052",
+    "subject": "General Information",
+    "prompt": "To what level of government do people rendering free voluntary service belong for purposes of government employee status?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Secretary"
+      },
+      {
+        "id": "B",
+        "text": "Regional"
+      },
+      {
+        "id": "C",
+        "text": "Municipal"
+      },
+      {
+        "id": "D",
+        "text": "National"
+      },
+      {
+        "id": "E",
+        "text": "Barangay"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "The correct answer is choice E (\"Barangay\") because voluntary community service is associated with barangay-level government work in the item."
+  },
+  {
+    "id": "gi-053",
+    "subject": "General Information",
+    "prompt": "Which is not a ground for Impeachment of the Pres., Vice-Pres., Ombudsman, and Senator?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "graft and corruption"
+      },
+      {
+        "id": "B",
+        "text": "sexual harassment"
+      },
+      {
+        "id": "C",
+        "text": "grave abuse of the authority"
+      },
+      {
+        "id": "D",
+        "text": "against the Family if the child scolded by the parents"
+      },
+      {
+        "id": "E",
+        "text": "Other crimes"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"against the Family if the child scolded by the parents\") because it is not one of the constitutional grounds for impeachment."
+  },
+  {
+    "id": "gi-054",
+    "subject": "General Information",
+    "prompt": "Which term refers to list of topics to be discussed in a meeting?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "agenda"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"agenda\") because it is the term that refers to list of topics to be discussed in a meeting."
+  },
+  {
+    "id": "gi-055",
+    "subject": "General Information",
+    "prompt": "Which term refers to official written record of a meeting?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "minutes"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"minutes\") because it is the term that refers to official written record of a meeting."
+  },
+  {
+    "id": "gi-056",
+    "subject": "General Information",
+    "prompt": "Which term refers to short written message used within an office?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "memorandum"
+      },
+      {
+        "id": "B",
+        "text": "budget"
+      },
+      {
+        "id": "C",
+        "text": "ordinance"
+      },
+      {
+        "id": "D",
+        "text": "inventory"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"memorandum\") because it is the term that refers to short written message used within an office."
+  },
+  {
+    "id": "gi-057",
+    "subject": "General Information",
+    "prompt": "Which term refers to formal expression of a decision by a body?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "resolution"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"resolution\") because it is the term that refers to formal expression of a decision by a body."
+  },
+  {
+    "id": "gi-058",
+    "subject": "General Information",
+    "prompt": "Which term refers to local law passed by a local legislative body?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ordinance"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "inventory"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"ordinance\") because it is the term that refers to local law passed by a local legislative body."
+  },
+  {
+    "id": "gi-059",
+    "subject": "General Information",
+    "prompt": "Which term refers to document requesting payment for goods or services?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "invoice"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"invoice\") because it is the term that refers to document requesting payment for goods or services."
+  },
+  {
+    "id": "gi-060",
+    "subject": "General Information",
+    "prompt": "Which term refers to proof that payment has been received?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "receipt"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"receipt\") because it is the term that refers to proof that payment has been received."
+  },
+  {
+    "id": "gi-061",
+    "subject": "General Information",
+    "prompt": "Which term refers to document supporting a disbursement or payment?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "voucher"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"voucher\") because it is the term that refers to document supporting a disbursement or payment."
+  },
+  {
+    "id": "gi-062",
+    "subject": "General Information",
+    "prompt": "Which term refers to document authorizing a purchase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "purchase order"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"purchase order\") because it is the term that refers to document authorizing a purchase."
+  },
+  {
+    "id": "gi-063",
+    "subject": "General Information",
+    "prompt": "Which term refers to formal request for supplies or services?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "requisition"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"requisition\") because it is the term that refers to formal request for supplies or services."
+  },
+  {
+    "id": "gi-064",
+    "subject": "General Information",
+    "prompt": "Which term refers to list of property or supplies on hand?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "inventory"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"inventory\") because it is the term that refers to list of property or supplies on hand."
+  },
+  {
+    "id": "gi-065",
+    "subject": "General Information",
+    "prompt": "Which term refers to arranging records for easy retrieval?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "filing"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"filing\") because it is the term that refers to arranging records for easy retrieval."
+  },
+  {
+    "id": "gi-066",
+    "subject": "General Information",
+    "prompt": "Which term refers to assigning a reference point for locating a record?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "indexing"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"indexing\") because it is the term that refers to assigning a reference point for locating a record."
+  },
+  {
+    "id": "gi-067",
+    "subject": "General Information",
+    "prompt": "Which term refers to preserving records for long-term storage?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "archiving"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"archiving\") because it is the term that refers to preserving records for long-term storage."
+  },
+  {
+    "id": "gi-068",
+    "subject": "General Information",
+    "prompt": "Which term refers to protecting information from unauthorized disclosure?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "confidentiality"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"confidentiality\") because it is the term that refers to protecting information from unauthorized disclosure."
+  },
+  {
+    "id": "gi-069",
+    "subject": "General Information",
+    "prompt": "Which term refers to responsibility for actions and decisions?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "accountability"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"accountability\") because it is the term that refers to responsibility for actions and decisions."
+  },
+  {
+    "id": "gi-070",
+    "subject": "General Information",
+    "prompt": "Which term refers to openness in government transactions?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "transparency"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"transparency\") because it is the term that refers to openness in government transactions."
+  },
+  {
+    "id": "gi-071",
+    "subject": "General Information",
+    "prompt": "Which term refers to fair procedure before deprivation of life, liberty, or property?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "due process"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"due process\") because it is the term that refers to fair procedure before deprivation of life, liberty, or property."
+  },
+  {
+    "id": "gi-072",
+    "subject": "General Information",
+    "prompt": "Which term refers to rule that persons similarly situated should be treated alike?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "equal protection"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"equal protection\") because it is the term that refers to rule that persons similarly situated should be treated alike."
+  },
+  {
+    "id": "gi-073",
+    "subject": "General Information",
+    "prompt": "Which term refers to public trust?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "public office"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"public office\") because it is the term that refers to public trust."
+  },
+  {
+    "id": "gi-074",
+    "subject": "General Information",
+    "prompt": "Which term refers to smallest local government unit in the Philippines?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "barangay"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"barangay\") because it is the term that refers to smallest local government unit in the Philippines."
+  },
+  {
+    "id": "gi-075",
+    "subject": "General Information",
+    "prompt": "Which term refers to local government unit composed of barangays?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "municipality"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"municipality\") because it is the term that refers to local government unit composed of barangays."
+  },
+  {
+    "id": "gi-076",
+    "subject": "General Information",
+    "prompt": "Which term refers to local government unit composed of cities and municipalities?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "province"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"province\") because it is the term that refers to local government unit composed of cities and municipalities."
+  },
+  {
+    "id": "gi-077",
+    "subject": "General Information",
+    "prompt": "Which term refers to local government unit with a charter or city status?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "city"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"city\") because it is the term that refers to local government unit with a charter or city status."
+  },
+  {
+    "id": "gi-078",
+    "subject": "General Information",
+    "prompt": "Which term refers to legislative branch of the Philippine government?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Congress"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Congress\") because it is the term that refers to legislative branch of the Philippine government."
+  },
+  {
+    "id": "gi-079",
+    "subject": "General Information",
+    "prompt": "Which term refers to highest court of the Philippines?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Supreme Court"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Supreme Court\") because it is the term that refers to highest court of the Philippines."
+  },
+  {
+    "id": "gi-080",
+    "subject": "General Information",
+    "prompt": "Which term refers to chief executive of the Philippines?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "President"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"President\") because it is the term that refers to chief executive of the Philippines."
+  },
+  {
+    "id": "gi-081",
+    "subject": "General Information",
+    "prompt": "Which term refers to official who succeeds the President under constitutional rules?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vice President"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Vice President\") because it is the term that refers to official who succeeds the President under constitutional rules."
+  },
+  {
+    "id": "gi-082",
+    "subject": "General Information",
+    "prompt": "Which term refers to official body that investigates complaints against public officials?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ombudsman"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Ombudsman\") because it is the term that refers to official body that investigates complaints against public officials."
+  },
+  {
+    "id": "gi-083",
+    "subject": "General Information",
+    "prompt": "Which term refers to Commission on Audit?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "COA"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"COA\") because it is the term that refers to Commission on Audit."
+  },
+  {
+    "id": "gi-084",
+    "subject": "General Information",
+    "prompt": "Which term refers to Commission on Elections?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "COMELEC"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"COMELEC\") because it is the term that refers to Commission on Elections."
+  },
+  {
+    "id": "gi-085",
+    "subject": "General Information",
+    "prompt": "Which term refers to Civil Service Commission?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "CSC"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"CSC\") because it is the term that refers to Civil Service Commission."
+  },
+  {
+    "id": "gi-086",
+    "subject": "General Information",
+    "prompt": "Which term refers to Commission on Higher Education?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "CHED"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"CHED\") because it is the term that refers to Commission on Higher Education."
+  },
+  {
+    "id": "gi-087",
+    "subject": "General Information",
+    "prompt": "Which term refers to Department of Education?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DepEd"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"DepEd\") because it is the term that refers to Department of Education."
+  },
+  {
+    "id": "gi-088",
+    "subject": "General Information",
+    "prompt": "Which term refers to Department of Health?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DOH"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"DOH\") because it is the term that refers to Department of Health."
+  },
+  {
+    "id": "gi-089",
+    "subject": "General Information",
+    "prompt": "Which term refers to Department of Environment and Natural Resources?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DENR"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"DENR\") because it is the term that refers to Department of Environment and Natural Resources."
+  },
+  {
+    "id": "gi-090",
+    "subject": "General Information",
+    "prompt": "Which term refers to Department of the Interior and Local Government?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DILG"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"DILG\") because it is the term that refers to Department of the Interior and Local Government."
+  },
+  {
+    "id": "gi-091",
+    "subject": "General Information",
+    "prompt": "Which term refers to Department of Labor and Employment?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DOLE"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"DOLE\") because it is the term that refers to Department of Labor and Employment."
+  },
+  {
+    "id": "gi-092",
+    "subject": "General Information",
+    "prompt": "Which term refers to Department of Social Welfare and Development?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DSWD"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"DSWD\") because it is the term that refers to Department of Social Welfare and Development."
+  },
+  {
+    "id": "gi-093",
+    "subject": "General Information",
+    "prompt": "Which term refers to National Economic and Development Authority?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "NEDA"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"NEDA\") because it is the term that refers to National Economic and Development Authority."
+  },
+  {
+    "id": "gi-094",
+    "subject": "General Information",
+    "prompt": "Which term refers to Philippine Statistics Authority?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "PSA"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"PSA\") because it is the term that refers to Philippine Statistics Authority."
+  },
+  {
+    "id": "gi-095",
+    "subject": "General Information",
+    "prompt": "Which term refers to Bureau of Internal Revenue?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BIR"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"BIR\") because it is the term that refers to Bureau of Internal Revenue."
+  },
+  {
+    "id": "gi-096",
+    "subject": "General Information",
+    "prompt": "Which term refers to Bangko Sentral ng Pilipinas?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BSP"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"BSP\") because it is the term that refers to Bangko Sentral ng Pilipinas."
+  },
+  {
+    "id": "gi-097",
+    "subject": "General Information",
+    "prompt": "Which term refers to National Bureau of Investigation?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "NBI"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"NBI\") because it is the term that refers to National Bureau of Investigation."
+  },
+  {
+    "id": "gi-098",
+    "subject": "General Information",
+    "prompt": "Which term refers to Philippine National Police?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "PNP"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"PNP\") because it is the term that refers to Philippine National Police."
+  },
+  {
+    "id": "gi-099",
+    "subject": "General Information",
+    "prompt": "Which term refers to Armed Forces of the Philippines?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "AFP"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"AFP\") because it is the term that refers to Armed Forces of the Philippines."
+  },
+  {
+    "id": "gi-100",
+    "subject": "General Information",
+    "prompt": "Which term refers to weather and climate agency of the Philippines?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "PAGASA"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"PAGASA\") because it is the term that refers to weather and climate agency of the Philippines."
+  },
+  {
+    "id": "gi-101",
+    "subject": "General Information",
+    "prompt": "Which term refers to agency that monitors volcanoes and earthquakes?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "PHIVOLCS"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"PHIVOLCS\") because it is the term that refers to agency that monitors volcanoes and earthquakes."
+  },
+  {
+    "id": "gi-102",
+    "subject": "General Information",
+    "prompt": "Which term refers to council coordinating disaster risk reduction and management?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "NDRRMC"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"NDRRMC\") because it is the term that refers to council coordinating disaster risk reduction and management."
+  },
+  {
+    "id": "gi-103",
+    "subject": "General Information",
+    "prompt": "Which term refers to right or policy of access to public information subject to rules?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "FOI"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"FOI\") because it is the term that refers to right or policy of access to public information subject to rules."
+  },
+  {
+    "id": "gi-104",
+    "subject": "General Information",
+    "prompt": "Which term refers to Republic Act?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "RA"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"RA\") because it is the term that refers to Republic Act."
+  },
+  {
+    "id": "gi-105",
+    "subject": "General Information",
+    "prompt": "Which term refers to Executive Order?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "EO"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"EO\") because it is the term that refers to Executive Order."
+  },
+  {
+    "id": "gi-106",
+    "subject": "General Information",
+    "prompt": "Which term refers to Implementing Rules and Regulations?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "IRR"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"IRR\") because it is the term that refers to Implementing Rules and Regulations."
+  },
+  {
+    "id": "gi-107",
+    "subject": "General Information",
+    "prompt": "Which term refers to Statement of Assets, Liabilities, and Net Worth?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "SALN"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"SALN\") because it is the term that refers to Statement of Assets, Liabilities, and Net Worth."
+  },
+  {
+    "id": "gi-108",
+    "subject": "General Information",
+    "prompt": "Which term refers to ethical standards for public officials and employees?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Code of Conduct"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Code of Conduct\") because it is the term that refers to ethical standards for public officials and employees."
+  },
+  {
+    "id": "gi-109",
+    "subject": "General Information",
+    "prompt": "Which term refers to line of authority in an organization?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "chain of command"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"chain of command\") because it is the term that refers to line of authority in an organization."
+  },
+  {
+    "id": "gi-110",
+    "subject": "General Information",
+    "prompt": "Which term refers to assigning authority or tasks to another person?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "delegation"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"delegation\") because it is the term that refers to assigning authority or tasks to another person."
+  },
+  {
+    "id": "gi-111",
+    "subject": "General Information",
+    "prompt": "Which term refers to harmonizing activities toward a goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "coordination"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"coordination\") because it is the term that refers to harmonizing activities toward a goal."
+  },
+  {
+    "id": "gi-112",
+    "subject": "General Information",
+    "prompt": "Which term refers to setting goals and deciding actions in advance?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "planning"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"planning\") because it is the term that refers to setting goals and deciding actions in advance."
+  },
+  {
+    "id": "gi-113",
+    "subject": "General Information",
+    "prompt": "Which term refers to assessing results against standards?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "evaluation"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"evaluation\") because it is the term that refers to assessing results against standards."
+  },
+  {
+    "id": "gi-114",
+    "subject": "General Information",
+    "prompt": "Which term refers to regular checking of progress or compliance?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "monitoring"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"monitoring\") because it is the term that refers to regular checking of progress or compliance."
+  },
+  {
+    "id": "gi-115",
+    "subject": "General Information",
+    "prompt": "Which term refers to process of obtaining goods or services?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "procurement"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"procurement\") because it is the term that refers to process of obtaining goods or services."
+  },
+  {
+    "id": "gi-116",
+    "subject": "General Information",
+    "prompt": "Which term refers to competitive method for selecting a supplier?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "bidding"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"bidding\") because it is the term that refers to competitive method for selecting a supplier."
+  },
+  {
+    "id": "gi-117",
+    "subject": "General Information",
+    "prompt": "Which term refers to checking prices or suppliers before purchase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "canvass"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"canvass\") because it is the term that refers to checking prices or suppliers before purchase."
+  },
+  {
+    "id": "gi-118",
+    "subject": "General Information",
+    "prompt": "Which term refers to small fund for minor expenses?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "petty cash"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"petty cash\") because it is the term that refers to small fund for minor expenses."
+  },
+  {
+    "id": "gi-119",
+    "subject": "General Information",
+    "prompt": "Which term refers to accounting for cash advances or expenses?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "liquidation"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"liquidation\") because it is the term that refers to accounting for cash advances or expenses."
+  },
+  {
+    "id": "gi-120",
+    "subject": "General Information",
+    "prompt": "Which term refers to authorization to spend public funds?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "appropriation"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"appropriation\") because it is the term that refers to authorization to spend public funds."
+  },
+  {
+    "id": "gi-121",
+    "subject": "General Information",
+    "prompt": "Which term refers to financial plan of expected income and expenses?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "budget"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "ordinance"
+      },
+      {
+        "id": "D",
+        "text": "inventory"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"budget\") because it is the term that refers to financial plan of expected income and expenses."
+  },
+  {
+    "id": "gi-122",
+    "subject": "General Information",
+    "prompt": "Which term refers to examination of accounts and transactions?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "audit"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"audit\") because it is the term that refers to examination of accounts and transactions."
+  },
+  {
+    "id": "gi-123",
+    "subject": "General Information",
+    "prompt": "Which term refers to resource owned by an office or entity?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "asset"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"asset\") because it is the term that refers to resource owned by an office or entity."
+  },
+  {
+    "id": "gi-124",
+    "subject": "General Information",
+    "prompt": "Which term refers to obligation or debt?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "liability"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"liability\") because it is the term that refers to obligation or debt."
+  },
+  {
+    "id": "gi-125",
+    "subject": "General Information",
+    "prompt": "Which term refers to income collected by government or an entity?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "revenue"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"revenue\") because it is the term that refers to income collected by government or an entity."
+  },
+  {
+    "id": "gi-126",
+    "subject": "General Information",
+    "prompt": "Which term refers to amount spent?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "expenditure"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"expenditure\") because it is the term that refers to amount spent."
+  },
+  {
+    "id": "gi-127",
+    "subject": "General Information",
+    "prompt": "Which term refers to employee handling receipt or release of cash?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "cashier"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"cashier\") because it is the term that refers to employee handling receipt or release of cash."
+  },
+  {
+    "id": "gi-128",
+    "subject": "General Information",
+    "prompt": "Which term refers to employee performing office and record tasks?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "clerk"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"clerk\") because it is the term that refers to employee performing office and record tasks."
+  },
+  {
+    "id": "gi-129",
+    "subject": "General Information",
+    "prompt": "Which term refers to documented information kept by an office?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "record"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"record\") because it is the term that refers to documented information kept by an office."
+  },
+  {
+    "id": "gi-130",
+    "subject": "General Information",
+    "prompt": "Which term refers to printed document?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "hard copy"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"hard copy\") because it is the term that refers to printed document."
+  },
+  {
+    "id": "gi-131",
+    "subject": "General Information",
+    "prompt": "Which term refers to electronic copy of a document?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "soft copy"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"soft copy\") because it is the term that refers to electronic copy of a document."
+  },
+  {
+    "id": "gi-132",
+    "subject": "General Information",
+    "prompt": "Which term refers to electronic mail?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "email"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"email\") because it is the term that refers to electronic mail."
+  },
+  {
+    "id": "gi-133",
+    "subject": "General Information",
+    "prompt": "Which term refers to copy furnished to additional email recipients?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "CC"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"CC\") because it is the term that refers to copy furnished to additional email recipients."
+  },
+  {
+    "id": "gi-134",
+    "subject": "General Information",
+    "prompt": "Which term refers to blind copy in an email?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BCC"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"BCC\") because it is the term that refers to blind copy in an email."
+  },
+  {
+    "id": "gi-135",
+    "subject": "General Information",
+    "prompt": "Which term refers to brief title of an email message?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "subject line"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"subject line\") because it is the term that refers to brief title of an email message."
+  },
+  {
+    "id": "gi-136",
+    "subject": "General Information",
+    "prompt": "Which term refers to file sent with an email?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "attachment"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"attachment\") because it is the term that refers to file sent with an email."
+  },
+  {
+    "id": "gi-137",
+    "subject": "General Information",
+    "prompt": "Which term refers to program or file used for tables and calculations?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "spreadsheet"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"spreadsheet\") because it is the term that refers to program or file used for tables and calculations."
+  },
+  {
+    "id": "gi-138",
+    "subject": "General Information",
+    "prompt": "Which term refers to program used to prepare documents?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "word processor"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"word processor\") because it is the term that refers to program used to prepare documents."
+  },
+  {
+    "id": "gi-139",
+    "subject": "General Information",
+    "prompt": "Which term refers to organized collection of data?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "database"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"database\") because it is the term that refers to organized collection of data."
+  },
+  {
+    "id": "gi-140",
+    "subject": "General Information",
+    "prompt": "Which term refers to secret credential used to access a system?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "password"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"password\") because it is the term that refers to secret credential used to access a system."
+  },
+  {
+    "id": "gi-141",
+    "subject": "General Information",
+    "prompt": "Which term refers to extra copy of data for recovery?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "backup"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"backup\") because it is the term that refers to extra copy of data for recovery."
+  },
+  {
+    "id": "gi-142",
+    "subject": "General Information",
+    "prompt": "Which term refers to harmful software?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "malware"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"malware\") because it is the term that refers to harmful software."
+  },
+  {
+    "id": "gi-143",
+    "subject": "General Information",
+    "prompt": "Which term refers to fraudulent attempt to obtain sensitive information?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "phishing"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"phishing\") because it is the term that refers to fraudulent attempt to obtain sensitive information."
+  },
+  {
+    "id": "gi-144",
+    "subject": "General Information",
+    "prompt": "Which term refers to security system controlling network traffic?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "firewall"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"firewall\") because it is the term that refers to security system controlling network traffic."
+  },
+  {
+    "id": "gi-145",
+    "subject": "General Information",
+    "prompt": "Which term refers to conversion of data into coded form?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "encryption"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"encryption\") because it is the term that refers to conversion of data into coded form."
+  },
+  {
+    "id": "gi-146",
+    "subject": "General Information",
+    "prompt": "Which term refers to designing work to fit the worker safely?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ergonomics"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"ergonomics\") because it is the term that refers to designing work to fit the worker safely."
+  },
+  {
+    "id": "gi-147",
+    "subject": "General Information",
+    "prompt": "Which term refers to date or time by which work must be completed?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "deadline"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"deadline\") because it is the term that refers to date or time by which work must be completed."
+  },
+  {
+    "id": "gi-148",
+    "subject": "General Information",
+    "prompt": "Which term refers to schedule of travel or activities?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "itinerary"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"itinerary\") because it is the term that refers to schedule of travel or activities."
+  },
+  {
+    "id": "gi-149",
+    "subject": "General Information",
+    "prompt": "Which term refers to formal designation to a position?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "appointment"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"appointment\") because it is the term that refers to formal designation to a position."
+  },
+  {
+    "id": "gi-150",
+    "subject": "General Information",
+    "prompt": "Which term refers to advancement to a higher position?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "promotion"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"promotion\") because it is the term that refers to advancement to a higher position."
+  },
+  {
+    "id": "gi-151",
+    "subject": "General Information",
+    "prompt": "Which term refers to voluntary act of leaving a position?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "resignation"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"resignation\") because it is the term that refers to voluntary act of leaving a position."
+  },
+  {
+    "id": "gi-152",
+    "subject": "General Information",
+    "prompt": "Which term refers to authorized absence from work?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "leave"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"leave\") because it is the term that refers to authorized absence from work."
+  },
+  {
+    "id": "gi-153",
+    "subject": "General Information",
+    "prompt": "Which term refers to work beyond regular hours?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "overtime"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"overtime\") because it is the term that refers to work beyond regular hours."
+  },
+  {
+    "id": "gi-154",
+    "subject": "General Information",
+    "prompt": "Which term refers to record of presence at work?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "attendance"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"attendance\") because it is the term that refers to record of presence at work."
+  },
+  {
+    "id": "gi-155",
+    "subject": "General Information",
+    "prompt": "Which term refers to habit of being on time?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "punctuality"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"punctuality\") because it is the term that refers to habit of being on time."
+  },
+  {
+    "id": "gi-156",
+    "subject": "General Information",
+    "prompt": "Which term refers to proper conduct expected in work?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "professionalism"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"professionalism\") because it is the term that refers to proper conduct expected in work."
+  },
+  {
+    "id": "gi-157",
+    "subject": "General Information",
+    "prompt": "Which term refers to polite behavior toward others?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "courtesy"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"courtesy\") because it is the term that refers to polite behavior toward others."
+  },
+  {
+    "id": "gi-158",
+    "subject": "General Information",
+    "prompt": "Which term refers to honesty and adherence to moral principles?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "integrity"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"integrity\") because it is the term that refers to honesty and adherence to moral principles."
+  },
+  {
+    "id": "gi-159",
+    "subject": "General Information",
+    "prompt": "Which term refers to fairness without bias?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "impartiality"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"impartiality\") because it is the term that refers to fairness without bias."
+  },
+  {
+    "id": "gi-160",
+    "subject": "General Information",
+    "prompt": "Which term refers to achieving results with minimal waste?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "efficiency"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"efficiency\") because it is the term that refers to achieving results with minimal waste."
+  },
+  {
+    "id": "gi-161",
+    "subject": "General Information",
+    "prompt": "Which term refers to achievement of intended results?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "effectiveness"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"effectiveness\") because it is the term that refers to achievement of intended results."
+  },
+  {
+    "id": "gi-162",
+    "subject": "General Information",
+    "prompt": "Which term refers to readiness to serve clients and the public?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "service orientation"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"service orientation\") because it is the term that refers to readiness to serve clients and the public."
+  },
+  {
+    "id": "gi-163",
+    "subject": "General Information",
+    "prompt": "Which term refers to comments from service users?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "client feedback"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"client feedback\") because it is the term that refers to comments from service users."
+  },
+  {
+    "id": "gi-164",
+    "subject": "General Information",
+    "prompt": "Which term refers to service directly given to clients?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "frontline service"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"frontline service\") because it is the term that refers to service directly given to clients."
+  },
+  {
+    "id": "gi-165",
+    "subject": "General Information",
+    "prompt": "Which term refers to published service standards of an agency?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "citizen charter"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"citizen charter\") because it is the term that refers to published service standards of an agency."
+  },
+  {
+    "id": "gi-166",
+    "subject": "General Information",
+    "prompt": "Which term refers to period needed to complete a service?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "turnaround time"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"turnaround time\") because it is the term that refers to period needed to complete a service."
+  },
+  {
+    "id": "gi-167",
+    "subject": "General Information",
+    "prompt": "Which term refers to expression of dissatisfaction?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "complaint"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"complaint\") because it is the term that refers to expression of dissatisfaction."
+  },
+  {
+    "id": "gi-168",
+    "subject": "General Information",
+    "prompt": "Which term refers to formal workplace complaint?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "grievance"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"grievance\") because it is the term that refers to formal workplace complaint."
+  },
+  {
+    "id": "gi-169",
+    "subject": "General Information",
+    "prompt": "Which term refers to settling disputes with a neutral facilitator?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mediation"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"mediation\") because it is the term that refers to settling disputes with a neutral facilitator."
+  },
+  {
+    "id": "gi-170",
+    "subject": "General Information",
+    "prompt": "Which term refers to settling disputes through a binding decision?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "arbitration"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"arbitration\") because it is the term that refers to settling disputes through a binding decision."
+  },
+  {
+    "id": "gi-171",
+    "subject": "General Information",
+    "prompt": "Which term refers to authority to hear or decide a matter?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "jurisdiction"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"jurisdiction\") because it is the term that refers to authority to hear or decide a matter."
+  },
+  {
+    "id": "gi-172",
+    "subject": "General Information",
+    "prompt": "Which term refers to minimum number required to conduct business?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "quorum"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"quorum\") because it is the term that refers to minimum number required to conduct business."
+  },
+  {
+    "id": "gi-173",
+    "subject": "General Information",
+    "prompt": "Which term refers to more than half?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "majority"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"majority\") because it is the term that refers to more than half."
+  },
+  {
+    "id": "gi-174",
+    "subject": "General Information",
+    "prompt": "Which term refers to highest number of votes when no majority is required?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "plurality"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"plurality\") because it is the term that refers to highest number of votes when no majority is required."
+  },
+  {
+    "id": "gi-175",
+    "subject": "General Information",
+    "prompt": "Which term refers to vote of the people on a question or measure?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "plebiscite"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"plebiscite\") because it is the term that refers to vote of the people on a question or measure."
+  },
+  {
+    "id": "gi-176",
+    "subject": "General Information",
+    "prompt": "Which term refers to submission of a law or issue to voters?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "referendum"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"referendum\") because it is the term that refers to submission of a law or issue to voters."
+  },
+  {
+    "id": "gi-177",
+    "subject": "General Information",
+    "prompt": "Which term refers to process where people propose a law or amendment?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "initiative"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"initiative\") because it is the term that refers to process where people propose a law or amendment."
+  },
+  {
+    "id": "gi-178",
+    "subject": "General Information",
+    "prompt": "Which term refers to process of removing an elected local official by voters?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "recall"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"recall\") because it is the term that refers to process of removing an elected local official by voters."
+  },
+  {
+    "id": "gi-179",
+    "subject": "General Information",
+    "prompt": "Which term refers to right to vote?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "suffrage"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"suffrage\") because it is the term that refers to right to vote."
+  },
+  {
+    "id": "gi-180",
+    "subject": "General Information",
+    "prompt": "Which term refers to membership in a state with rights and duties?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "citizenship"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"citizenship\") because it is the term that refers to membership in a state with rights and duties."
+  },
+  {
+    "id": "gi-181",
+    "subject": "General Information",
+    "prompt": "Which term refers to citizen from birth without having to perform an act to acquire citizenship?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "natural-born citizen"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"natural-born citizen\") because it is the term that refers to citizen from birth without having to perform an act to acquire citizenship."
+  },
+  {
+    "id": "gi-182",
+    "subject": "General Information",
+    "prompt": "Which term refers to body of government employees selected under merit and fitness?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "civil service"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"civil service\") because it is the term that refers to body of government employees selected under merit and fitness."
+  },
+  {
+    "id": "gi-183",
+    "subject": "General Information",
+    "prompt": "Which term refers to selection or promotion based on qualifications and performance?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "merit system"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"merit system\") because it is the term that refers to selection or promotion based on qualifications and performance."
+  },
+  {
+    "id": "gi-184",
+    "subject": "General Information",
+    "prompt": "Which term refers to favoring relatives in appointments?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nepotism"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"nepotism\") because it is the term that refers to favoring relatives in appointments."
+  },
+  {
+    "id": "gi-185",
+    "subject": "General Information",
+    "prompt": "Which term refers to situation where private interest may affect public duty?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "conflict of interest"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"conflict of interest\") because it is the term that refers to situation where private interest may affect public duty."
+  },
+  {
+    "id": "gi-186",
+    "subject": "General Information",
+    "prompt": "Which term refers to unnecessary delay or excessive procedure?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "red tape"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"red tape\") because it is the term that refers to unnecessary delay or excessive procedure."
+  },
+  {
+    "id": "gi-187",
+    "subject": "General Information",
+    "prompt": "Which term refers to simplifying procedures to improve service?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "streamlining"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"streamlining\") because it is the term that refers to simplifying procedures to improve service."
+  },
+  {
+    "id": "gi-188",
+    "subject": "General Information",
+    "prompt": "Which term refers to authorized removal of records no longer needed?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "records disposal"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"records disposal\") because it is the term that refers to authorized removal of records no longer needed."
+  },
+  {
+    "id": "gi-189",
+    "subject": "General Information",
+    "prompt": "Which term refers to protection of personal information?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "data privacy"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"data privacy\") because it is the term that refers to protection of personal information."
+  },
+  {
+    "id": "gi-190",
+    "subject": "General Information",
+    "prompt": "Which term refers to open competitive procurement process?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "public bidding"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"public bidding\") because it is the term that refers to open competitive procurement process."
+  },
+  {
+    "id": "gi-191",
+    "subject": "General Information",
+    "prompt": "Which term refers to obtaining price quotations?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "canvassing"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"canvassing\") because it is the term that refers to obtaining price quotations."
+  },
+  {
+    "id": "gi-192",
+    "subject": "General Information",
+    "prompt": "Which term refers to urgent procurement allowed under special conditions?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "emergency purchase"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"emergency purchase\") because it is the term that refers to urgent procurement allowed under special conditions."
+  },
+  {
+    "id": "gi-193",
+    "subject": "General Information",
+    "prompt": "Which term refers to person responsible for supplies and property?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "supply officer"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"supply officer\") because it is the term that refers to person responsible for supplies and property."
+  },
+  {
+    "id": "gi-194",
+    "subject": "General Information",
+    "prompt": "Which term refers to person accountable for government property?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "property custodian"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"property custodian\") because it is the term that refers to person accountable for government property."
+  },
+  {
+    "id": "gi-195",
+    "subject": "General Information",
+    "prompt": "Which term refers to authorization for official travel?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "travel order"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"travel order\") because it is the term that refers to authorization for official travel."
+  },
+  {
+    "id": "gi-196",
+    "subject": "General Information",
+    "prompt": "Which term refers to written directive issued within an office?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "office order"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"office order\") because it is the term that refers to written directive issued within an office."
+  },
+  {
+    "id": "gi-197",
+    "subject": "General Information",
+    "prompt": "Which term refers to document used to send or endorse records?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "transmittal"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"transmittal\") because it is the term that refers to document used to send or endorse records."
+  },
+  {
+    "id": "gi-198",
+    "subject": "General Information",
+    "prompt": "Which term refers to official forwarding or recommendation?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "endorsement"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"endorsement\") because it is the term that refers to official forwarding or recommendation."
+  },
+  {
+    "id": "gi-199",
+    "subject": "General Information",
+    "prompt": "Which term refers to written confirmation of a fact?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "certification"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"certification\") because it is the term that refers to written confirmation of a fact."
+  },
+  {
+    "id": "gi-200",
+    "subject": "General Information",
+    "prompt": "Which term refers to document showing no pending obligation or accountability?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "clearance"
+      },
+      {
+        "id": "B",
+        "text": "memorandum"
+      },
+      {
+        "id": "C",
+        "text": "budget"
+      },
+      {
+        "id": "D",
+        "text": "ordinance"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"clearance\") because it is the term that refers to document showing no pending obligation or accountability."
   }
 ]

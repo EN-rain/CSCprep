@@ -2,7 +2,7 @@
   {
     "id": "nr-001",
     "subject": "Numerical Reasoning",
-    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 = 1/4",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 +\n17 + 18 + 19 + 20 = ?",
     "choices": [
       {
         "id": "A",
@@ -22,12 +22,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Add the numbers from 11 to 20 by pairing the ends: 11+20, 12+19, 13+18, 14+17, and 15+16 are each 31. Five pairs of 31 give 155.",
+    "image": "/question-images/nr-001.png"
   },
   {
     "id": "nr-002",
     "subject": "Numerical Reasoning",
-    "prompt": "Evaluate:   - - + - . 16 ( 24 8 ) 22 8 × 8",
+    "prompt": "Evaluate: {\n}\n-\n-\n+\n-\n.\n16\n(\n24\n8\n)\n22\n8 ×\n8",
     "choices": [
       {
         "id": "A",
@@ -47,7 +48,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"168\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-002.png"
   },
   {
     "id": "nr-003",
@@ -72,7 +74,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Compute 800 x 125 as 8 x 125 x 100. Since 8 x 125 = 1,000, the product is 100,000.",
+    "image": "/question-images/nr-003.png"
   },
   {
     "id": "nr-004",
@@ -97,7 +100,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Since 125 x 64 = 8,000, the quotient 8,000 ? 125 is 64.",
+    "image": "/question-images/nr-004.png"
   },
   {
     "id": "nr-005",
@@ -122,12 +126,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Add in easy pairs: 299 + 101 = 400 and 943 + 398 = 1,341. Then 400 + 1,341 = 1,741.",
+    "image": "/question-images/nr-005.png"
   },
   {
     "id": "nr-006",
     "subject": "Numerical Reasoning",
-    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103 + 104 + 105 + 106 + 107 + 108 + 109 + 110 = 1/4",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103 + 104 + 105\n+ 106 + 107 + 108 + 109 + 110 = ?",
     "choices": [
       {
         "id": "A",
@@ -147,12 +152,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "There are 10 numbers from 101 to 110. Their average is (101 + 110) ? 2 = 105.5, so the sum is 105.5 x 10 = 1,055."
   },
   {
     "id": "nr-007",
     "subject": "Numerical Reasoning",
-    "prompt": "What is the remainder when 192 888 is divided by 81/4",
+    "prompt": "What is the remainder when 192 888 is divided by 8?",
     "choices": [
       {
         "id": "A",
@@ -172,7 +177,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Check the last three digits for divisibility by 8. 888 ? 8 = 111 exactly, so 192,888 has no remainder when divided by 8."
   },
   {
     "id": "nr-008",
@@ -197,12 +202,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "To round 299,943 to the nearest thousand, look at the hundreds digit: 9. Since it is 5 or more, 299,943 rounds up to 300,000."
   },
   {
     "id": "nr-009",
     "subject": "Numerical Reasoning",
-    "prompt": "If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find the value of x – y1/4",
+    "prompt": "If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find the value of\nx – y?",
     "choices": [
       {
         "id": "A",
@@ -222,7 +227,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "From the first equation, x = 168 - (23 + 28 + 37 + 53) = 27. From the second, y = 120 - (23 + 28 + 40 + 50) = -21. Therefore x - y = 27 - (-21) = 48."
   },
   {
     "id": "nr-010",
@@ -247,12 +252,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The decimal 398.101 is read as 398 and 101 thousandths because there are three digits after the decimal point."
   },
   {
     "id": "nr-011",
     "subject": "Numerical Reasoning",
-    "prompt": "A number is divisible by 8 if its last three digits is divisible by 8. Which of the following numbers is divisible by 81/4",
+    "prompt": "A number is divisible by 8 if its last three digits is divisible by 8. Which of the\nfollowing numbers is divisible by 8?",
     "choices": [
       {
         "id": "A",
@@ -272,12 +277,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "A number is divisible by 8 when its last three digits are divisible by 8. For 9,208, the last three digits are 208, and 208 ? 8 = 26 exactly."
   },
   {
     "id": "nr-012",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the following statements is true1/4",
+    "prompt": "Which of the following statements is true?",
     "choices": [
       {
         "id": "A",
@@ -297,7 +302,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Any number divisible by 10 ends in 0. Numbers ending in 0 are also divisible by 5, so statement B is always true."
   },
   {
     "id": "nr-013",
@@ -322,7 +327,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"44\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-014",
@@ -347,7 +352,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Compute each part: 33 1/3% of 48 is 16, 12 1/2% of 96 is 12, and 44 4/9% of 27 is 12. So 16 + 12 - 12 = 16."
   },
   {
     "id": "nr-015",
@@ -372,12 +377,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Reduce 231/1001 by their common factor 77: 231 ? 77 = 3 and 1001 ? 77 = 13, so the fraction becomes 3/13."
   },
   {
     "id": "nr-016",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the foloowing is true1/4",
+    "prompt": "Which of the following is true?",
     "choices": [
       {
         "id": "A",
@@ -397,12 +402,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"54 – 8 ≥ 8 – 54\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-016.png"
   },
   {
     "id": "nr-017",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the value of x: ( 72 ) ( 35 )   8 7",
+    "prompt": "Find the value of x:\n(\n72\n)\n(\n35\n)\n\n\n8\n7",
     "choices": [
       {
         "id": "A",
@@ -422,12 +428,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"52\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-017.png"
   },
   {
     "id": "nr-018",
     "subject": "Numerical Reasoning",
-    "prompt": "What is 25% of 2281/4",
+    "prompt": "What is 25% of 228?",
     "choices": [
       {
         "id": "A",
@@ -447,12 +454,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "25% means one-fourth. One-fourth of 228 is 228 ? 4 = 57.",
+    "image": "/question-images/nr-018.png"
   },
   {
     "id": "nr-019",
     "subject": "Numerical Reasoning",
-    "prompt": "228 is 25% of what number1/4",
+    "prompt": "228 is 25% of what number?",
     "choices": [
       {
         "id": "A",
@@ -472,12 +480,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "If 228 is 25% of a number, then 228 is one-fourth of it. Multiply 228 by 4 to get 912.",
+    "image": "/question-images/nr-019.png"
   },
   {
     "id": "nr-020",
     "subject": "Numerical Reasoning",
-    "prompt": "168 is what percent of 6721/4",
+    "prompt": "168 is what percent of 672?",
     "choices": [
       {
         "id": "A",
@@ -497,7 +506,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Find the percent by dividing 168 by 672: 168 ? 672 = 0.25. As a percent, 0.25 is 25%.",
+    "image": "/question-images/nr-020.png"
   },
   {
     "id": "nr-021",
@@ -522,7 +532,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Distribute 123 across the decimals: 123(0.1 + 0.01 + 0.001) = 123(0.111) = 13.653.",
+    "image": "/question-images/nr-021.png"
   },
   {
     "id": "nr-022",
@@ -547,12 +558,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "3 1/4 means 3.25. Multiplying 3.25 by 16 gives 52."
   },
   {
     "id": "nr-023",
     "subject": "Numerical Reasoning",
-    "prompt": "Evaluate: 1 + ½ + ¼ + 1/8 = 1/4",
+    "prompt": "Evaluate: 1 + ½ + ¼ + 1/8 = ?",
     "choices": [
       {
         "id": "A",
@@ -572,7 +583,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Use eighths: 1 = 8/8, 1/2 = 4/8, 1/4 = 2/8, and 1/8 stays 1/8. The sum is 15/8, or 1 7/8."
   },
   {
     "id": "nr-024",
@@ -597,12 +608,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Solve 3x + 7 = 28 by subtracting 7 from both sides: 3x = 21. Divide by 3, so x = 7."
   },
   {
     "id": "nr-025",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the following has the greatest value1/4 8",
+    "prompt": "Which of the following has the greatest value?\n8",
     "choices": [
       {
         "id": "A",
@@ -622,12 +633,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"2 3 ( 6 )( 8 ) 1\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-026",
     "subject": "Numerical Reasoning",
-    "prompt": "Whic of the following cannot yield an odd integer when divided by 101/4",
+    "prompt": "Whic of the following cannot yield an odd integer when divided by 10?",
     "choices": [
       {
         "id": "A",
@@ -647,7 +658,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"The product of two odd integers\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-027",
@@ -672,12 +683,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"72\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-027.png"
   },
   {
     "id": "nr-028",
     "subject": "Numerical Reasoning",
-    "prompt": "If a positive integer m is divisible by both 3 and 8, then m must also be divisible by",
+    "prompt": "If a positive integer m is divisible by both 3 and 8, then m must also be divisible\nby",
     "choices": [
       {
         "id": "A",
@@ -697,12 +709,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"24\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-028.png"
   },
   {
     "id": "nr-029",
     "subject": "Numerical Reasoning",
-    "prompt": "If positive integers m and n are not both odd, which of the following is always true1/4",
+    "prompt": "If positive integers m and n are not both odd, which of the following is always\ntrue?",
     "choices": [
       {
         "id": "A",
@@ -722,12 +735,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"mn is even\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-029.png"
   },
   {
     "id": "nr-030",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the average temperature change for the 12-day period. Temperature change in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2",
+    "prompt": "Find the average temperature change for the 12-day period. Temperature\nchange in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2",
     "choices": [
       {
         "id": "A",
@@ -747,32 +761,34 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"5.4\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-030.png"
   },
   {
     "id": "nr-031",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the set of all odd numbers x satisfying the conditions 5x - 4≤ 0 and 3x – 7 ≥ 0",
+    "prompt": "Find the set of all odd numbers x satisfying the conditions 5x - 4≤ 0 and 3x – 7 ≥\n0",
     "choices": [
       {
         "id": "A",
-        "text": "   x | x 1"
+        "text": "{ }  x | x 1"
       },
       {
         "id": "B",
-        "text": " 1"
+        "text": "{} 1"
       },
       {
         "id": "C",
-        "text": "    x | x"
+        "text": "{ }   x | x"
       },
       {
         "id": "D",
-        "text": ""
+        "text": "{}"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"{}\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-031.png"
   },
   {
     "id": "nr-032",
@@ -797,12 +813,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"transitive property of equality\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-032.png"
   },
   {
     "id": "nr-033",
     "subject": "Numerical Reasoning",
-    "prompt": "If 8 less than the product of a number and -3 is greater than 7, which of the following could be that number1/4",
+    "prompt": "If 8 less than the product of a number and -3 is greater than 7, which of the\nfollowing could be that number?",
     "choices": [
       {
         "id": "A",
@@ -822,7 +839,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"-6\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-033.png"
   },
   {
     "id": "nr-034",
@@ -847,12 +865,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"31\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-034.png"
   },
   {
     "id": "nr-035",
     "subject": "Numerical Reasoning",
-    "prompt": "Four times the perimeter of a parking lot is 16 less than 2,000 meters. What is the perimeter of the lot1/4",
+    "prompt": "Four times the perimeter of a parking lot is 16 less than 2,000 meters. What is\nthe perimeter of the lot?",
     "choices": [
       {
         "id": "A",
@@ -872,12 +891,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"496 m\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-035.png"
   },
   {
     "id": "nr-036",
     "subject": "Numerical Reasoning",
-    "prompt": "The amount of last month’s telephone bill, decreased by the product of 3 and Php30.00 equals Php1,319.50",
+    "prompt": "The amount of last month’s telephone bill, decreased by the product of 3 and\nPhp30.00 equals Php1,319.50",
     "choices": [
       {
         "id": "A",
@@ -897,12 +917,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"Php 1, 409.50\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/nr-036.png"
   },
   {
     "id": "nr-037",
     "subject": "Numerical Reasoning",
-    "prompt": "Eighteen less than seven times the number of sandwiches is 269. How many sandwiches are there1/4",
+    "prompt": "Eighteen less than seven times the number of sandwiches is 269. How many\nsandwiches are there?",
     "choices": [
       {
         "id": "A",
@@ -922,12 +943,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"41\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-038",
     "subject": "Numerical Reasoning",
-    "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as the lot. How much does the lot cost1/4",
+    "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as the\nlot. How much does the lot cost?",
     "choices": [
       {
         "id": "A",
@@ -947,12 +968,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"Php 5.6M\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-039",
     "subject": "Numerical Reasoning",
-    "prompt": "The sale price of a television set is Php 7,200. The discount rate is 40%. Find its regular price.",
+    "prompt": "The sale price of a television set is Php 7,200. The discount rate is 40%. Find its\nregular price.",
     "choices": [
       {
         "id": "A",
@@ -972,12 +993,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"Php 12,000\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-040",
     "subject": "Numerical Reasoning",
-    "prompt": "The lenghts of the sides of a triangle can be represented by three consecutive integers. The perimeter of the triangle is 96cm. Find the length of the longest side of the triangle.",
+    "prompt": "The lenghts of the sides of a triangle can be represented by three consecutive\nintegers. The perimeter of the triangle is 96cm. Find the length of the longest side\nof the triangle.",
     "choices": [
       {
         "id": "A",
@@ -997,12 +1018,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"33\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-041",
     "subject": "Numerical Reasoning",
-    "prompt": "The length of a rectangle is 8 meters more than twice its width. The perimeter is 112 meters. Find its area.",
+    "prompt": "The length of a rectangle is 8 meters more than twice its width. The perimeter is\n112 meters. Find its area.",
     "choices": [
       {
         "id": "A",
@@ -1022,12 +1043,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"640 m2\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-042",
     "subject": "Numerical Reasoning",
-    "prompt": "Paula is twice as old as Queenie. Seven years ago the sum of their ages was 16. How old is Queenie now1/4",
+    "prompt": "Paula is twice as old as Queenie. Seven years ago the sum of their ages was 16.\nHow old is Queenie now?",
     "choices": [
       {
         "id": "A",
@@ -1047,12 +1068,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"10\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-043",
     "subject": "Numerical Reasoning",
-    "prompt": "For what value of x will x be the average of 2, 4x, 6, 8, 101/4",
+    "prompt": "For what value of x will x be the average of 2, 4x, 6, 8, 10?",
     "choices": [
       {
         "id": "A",
@@ -1072,12 +1093,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"26\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-044",
     "subject": "Numerical Reasoning",
-    "prompt": "How many integers between 197 and 303 are divisible by 4 or 101/4",
+    "prompt": "How many integers between 197 and 303 are divisible by 4 or 10?",
     "choices": [
       {
         "id": "A",
@@ -1097,12 +1118,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"26\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-045",
     "subject": "Numerical Reasoning",
-    "prompt": "A patient must take his medication every 7 hours starting at 7:00 AM, Sunday. On what day will the patient first receive his medication at 8 AM1/4",
+    "prompt": "A patient must take his medication every 7 hours starting at 7:00 AM, Sunday.\nOn what day will the patient first receive his medication at 8 AM?",
     "choices": [
       {
         "id": "A",
@@ -1122,12 +1143,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"Tuesday\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-046",
     "subject": "Numerical Reasoning",
-    "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have a regular day of the week on which they shop. What percentage of the shoppers did not have a regular day of shopping1/4",
+    "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have a regular day of the week\non which they shop. What percentage of the shoppers did not have a regular day\nof shopping?",
     "choices": [
       {
         "id": "A",
@@ -1147,12 +1168,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"32%\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-047",
     "subject": "Numerical Reasoning",
-    "prompt": "A water container has 100mL of water in it and is 20% full. How many mL of water can this container hold if it is full1/4",
+    "prompt": "A water container has 100mL of water in it and is 20% full. How many mL of\nwater can this container hold if it is full?",
     "choices": [
       {
         "id": "A",
@@ -1172,12 +1193,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"500 mL\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-048",
     "subject": "Numerical Reasoning",
-    "prompt": "How many containers each occupies an area of 2 1/8 square meters can be stored in a 952 square meter warehouse1/4",
+    "prompt": "How many containers each occupies an area of 2 1/8 square meters can be\nstored in a 952 square meter warehouse?",
     "choices": [
       {
         "id": "A",
@@ -1197,12 +1218,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"448\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-049",
     "subject": "Numerical Reasoning",
-    "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a month. Next year the starting salary will be raised to Php18,000. What is the rate of increase in the starting salary1/4",
+    "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a\nmonth. Next year the starting salary will be raised to Php18,000. What is the rate\nof increase in the starting salary?",
     "choices": [
       {
         "id": "A",
@@ -1222,12 +1243,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"20%\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-050",
     "subject": "Numerical Reasoning",
-    "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago was Php12,500. There was a 420% increase in the price in the last five years. What is the price per square meter of that lot today1/4",
+    "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago\nwas Php12,500. There was a 420% increase in the price in the last five years.\nWhat is the price per square meter of that lot today?",
     "choices": [
       {
         "id": "A",
@@ -1247,12 +1268,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"Php 65,000\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-051",
     "subject": "Numerical Reasoning",
-    "prompt": "Last month, a store manager decided to decrease the prices of all items by 10%. This month, he increased the prices by 10%. What would be the price for a pair of pants that had cost Php750 before prices were decreased last month1/4",
+    "prompt": "Last month, a store manager decided to decrease the prices of all items by 10%.\nThis month, he increased the prices by 10%. What would be the price for a pair\nof pants that had cost Php750 before prices were decreased last month?",
     "choices": [
       {
         "id": "A",
@@ -1272,12 +1293,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"PHp 742.50\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-052",
     "subject": "Numerical Reasoning",
-    "prompt": "When the original price of an item is increased by a certain rate, the increased price is Php 3,100. When the original price is decreased by the same rate, the decreased price is Php1,900. What is the original price of this item1/4",
+    "prompt": "When the original price of an item is increased by a certain rate, the increased\nprice is Php 3,100. When the original price is decreased by the same rate, the\ndecreased price is Php1,900. What is the original price of this item?",
     "choices": [
       {
         "id": "A",
@@ -1297,12 +1318,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Php2,500\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-053",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must one has to invest in corporate bonds paying 9.6% in order to earn an income of Php12,000 per annum1/4",
+    "prompt": "How much must one has to invest in corporate bonds paying 9.6% in order to\nearn an income of Php12,000 per annum?",
     "choices": [
       {
         "id": "A",
@@ -1322,12 +1343,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Php 125,000\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-054",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must be cut form the edge of a piece of glass 16 1/8 cm wide, in order for it to fit into an opening 14 ¾ cm wide1/4",
+    "prompt": "How much must be cut form the edge of a piece of glass 16 1/8 cm wide, in order\nfor it to fit into an opening 14 ¾ cm wide?",
     "choices": [
       {
         "id": "A",
@@ -1347,12 +1368,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"1 3/8cm\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-055",
     "subject": "Numerical Reasoning",
-    "prompt": "A race car traveled for 2 ½ hours with an average speed of 132 5/8 km per hour. Find the total distance it covered.",
+    "prompt": "A race car traveled for 2 ½ hours with an average speed of 132 5/8 km per hour.\nFind the total distance it covered.",
     "choices": [
       {
         "id": "A",
@@ -1372,12 +1393,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"331 9/16km\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-056",
     "subject": "Numerical Reasoning",
-    "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what will be its weight with a full load1/4",
+    "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what\nwill be its weight with a full load?",
     "choices": [
       {
         "id": "A",
@@ -1397,12 +1418,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"753 1/8kg\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-057",
     "subject": "Numerical Reasoning",
-    "prompt": "How many liters will remain in 1 1000-liter storage tank if 8.2% of the liquid has evaporated due to excessive heat1/4",
+    "prompt": "How many liters will remain in 1 1000-liter storage tank if 8.2% of the liquid has\nevaporated due to excessive heat?",
     "choices": [
       {
         "id": "A",
@@ -1422,12 +1443,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"918\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-058",
     "subject": "Numerical Reasoning",
-    "prompt": "Dante recently sold some stocks for which he originally bought for Php358. If it has increased in value by 116%, how much did he receive for the stock1/4",
+    "prompt": "Dante recently sold some stocks for which he originally bought for Php358. If it\nhas increased in value by 116%, how much did he receive for the stock?",
     "choices": [
       {
         "id": "A",
@@ -1447,12 +1468,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Php773.28\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-059",
     "subject": "Numerical Reasoning",
-    "prompt": "Mr. Manny Vargas, a real estate broker sold a building for Php175M. How much did he receive if his commission is 5.5% of the sale price of the property1/4",
+    "prompt": "Mr. Manny Vargas, a real estate broker sold a building for Php175M. How much\ndid he receive if his commission is 5.5% of the sale price of the property?",
     "choices": [
       {
         "id": "A",
@@ -1472,12 +1493,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Php9.625M\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-060",
     "subject": "Numerical Reasoning",
-    "prompt": "If 560 out of 700 examinees passed in the recent Career Service exam for Sub- Professional level, what percent of the examinees passed1/4",
+    "prompt": "If 560 out of 700 examinees passed in the recent Career Service exam for Sub-\nProfessional level, what percent of the examinees passed?",
     "choices": [
       {
         "id": "A",
@@ -1497,12 +1518,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"80%\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-061",
     "subject": "Numerical Reasoning",
-    "prompt": "Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000 interest. What rate of interest did Asian Bank charge for the loan1/4",
+    "prompt": "Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000\ninterest. What rate of interest did Asian Bank charge for the loan?",
     "choices": [
       {
         "id": "A",
@@ -1522,12 +1543,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"12%\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-062",
     "subject": "Numerical Reasoning",
-    "prompt": "A store sells shirts for Php1,078 each or 3 for Php2,997. How much would one save by buying 3 shirts at a time instead of 3 shirts, one at a time1/4",
+    "prompt": "A store sells shirts for Php1,078 each or 3 for Php2,997. How much would one\nsave by buying 3 shirts at a time instead of 3 shirts, one at a time?",
     "choices": [
       {
         "id": "A",
@@ -1547,12 +1568,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"Php237\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-063",
     "subject": "Numerical Reasoning",
-    "prompt": "A computer can be rented for Php1,745 a week or Php 347.50 a day. You need the computer only for 6 days. At which rate (daily or weekly), would it be cheaper to rent and by how much cheaper1/4",
+    "prompt": "A computer can be rented for Php1,745 a week or Php 347.50 a day. You need\nthe computer only for 6 days. At which rate (daily or weekly), would it be cheaper\nto rent and by how much cheaper?",
     "choices": [
       {
         "id": "A",
@@ -1572,12 +1593,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"weekly: Php340\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-064",
     "subject": "Numerical Reasoning",
-    "prompt": "A 1.25 kg of box of Brand A detergent sells for Php 87.50. A 1.5 kg box of Brand B detergent sells for Php103.20. What is the difference in the price per kg.1/4",
+    "prompt": "A 1.25 kg of box of Brand A detergent sells for Php 87.50. A 1.5 kg box of Brand\nB detergent sells for Php103.20. What is the difference in the price per kg.?",
     "choices": [
       {
         "id": "A",
@@ -1597,12 +1618,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"Php 1.20\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-065",
     "subject": "Numerical Reasoning",
-    "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe per meter1/4",
+    "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe\nper meter?",
     "choices": [
       {
         "id": "A",
@@ -1622,12 +1643,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"Php 830\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-066",
     "subject": "Numerical Reasoning",
-    "prompt": "A homeowner can rent a chain saw from a rental agency at Php 2,700 a day. The brand new of the same saw can be bought for Php18,900. For how many days could the homeonwer rent the saw before renting would cost more than buying1/4",
+    "prompt": "A homeowner can rent a chain saw from a rental agency at Php 2,700 a day. The\nbrand new of the same saw can be bought for Php18,900. For how many days\ncould the homeonwer rent the saw before renting would cost more than buying?",
     "choices": [
       {
         "id": "A",
@@ -1647,12 +1668,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"7\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-067",
     "subject": "Numerical Reasoning",
-    "prompt": "Paula uses ten 100-watt bulbs in her house. She uses these bulbs at an average of 5 hours each day. How many KWH do these bulbs use each day1/4",
+    "prompt": "Paula uses ten 100-watt bulbs in her house. She uses these bulbs at an average\nof 5 hours each day. How many KWH do these bulbs use each day?",
     "choices": [
       {
         "id": "A",
@@ -1672,12 +1693,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"5\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-068",
     "subject": "Numerical Reasoning",
-    "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours a year. How many kilowatt-hour is this1/4",
+    "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours a\nyear. How many kilowatt-hour is this?",
     "choices": [
       {
         "id": "A",
@@ -1697,12 +1718,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"732\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-069",
     "subject": "Numerical Reasoning",
-    "prompt": "A DVD movie, purchased for Php440 was marked up 25% on the selling price. Later, as retail prices fell, this movie was marked down 20% on the current sale price. Find its new sale price.",
+    "prompt": "A DVD movie, purchased for Php440 was marked up 25% on the selling price.\nLater, as retail prices fell, this movie was marked down 20% on the current sale\nprice. Find its new sale price.",
     "choices": [
       {
         "id": "A",
@@ -1722,12 +1743,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"Php 440\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-070",
     "subject": "Numerical Reasoning",
-    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480 packs paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes of cards @ 0.80. A 5% sales tax is added. What was the company’s total bill1/4",
+    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480\npacks paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes\nof cards @ 0.80. A 5% sales tax is added. What was the company’s total bill?",
     "choices": [
       {
         "id": "A",
@@ -1747,12 +1768,37 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"Php 3,728.55\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-071",
     "subject": "Numerical Reasoning",
-    "prompt": "How many meters of fencing are needed to enclose an 84-meter by 48-meter rectangular garden1/4",
+    "prompt": "The question “How many flowers are needed to border a rectangular garden?”,\ninvolves",
+    "choices": [
+      {
+        "id": "A",
+        "text": "weight"
+      },
+      {
+        "id": "B",
+        "text": "perimeter"
+      },
+      {
+        "id": "C",
+        "text": "volume"
+      },
+      {
+        "id": "D",
+        "text": "area"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"perimeter\") because it is the result that satisfies the problem."
+  },
+  {
+    "id": "nr-072",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many meters of fencing are needed to enclose an 84-meter by 48-meter\nrectangular garden?",
     "choices": [
       {
         "id": "A",
@@ -1772,12 +1818,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"264m\") because it is the result that satisfies the problem."
   },
   {
-    "id": "nr-072",
+    "id": "nr-073",
     "subject": "Numerical Reasoning",
-    "prompt": "How many 1-cm square stickers are needed to cover a photo box 4 cm long, 3cm wide and 5cm high1/4",
+    "prompt": "How many 1-cm square stickers are needed to cover a photo box 4 cm long, 3cm\nwide and 5cm high?",
     "choices": [
       {
         "id": "A",
@@ -1797,12 +1843,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"94\") because it is the result that satisfies the problem."
   },
   {
-    "id": "nr-073",
+    "id": "nr-074",
     "subject": "Numerical Reasoning",
-    "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is 4cm longer than the shortest side. How long is the shortest side if the perimeter is 67 cm1/4",
+    "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is\n4cm longer than the shortest side. How long is the shortest side if the perimeter\nis 67 cm?",
     "choices": [
       {
         "id": "A",
@@ -1822,12 +1868,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"20 cm\") because it is the result that satisfies the problem."
   },
   {
-    "id": "nr-074",
+    "id": "nr-075",
     "subject": "Numerical Reasoning",
-    "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm, if its perimeter is 50cm1/4",
+    "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm,\nif its perimeter is 50cm?",
     "choices": [
       {
         "id": "A",
@@ -1847,557 +1893,4618 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
-  },
-  {
-    "id": "nr-075",
-    "subject": "Numerical Reasoning",
-    "prompt": "By what percent was the price per kilo of chicken inceased1/4 1) The price per kilo of chicken was increased by Php20 2) The price per kilo of chicken was increased by Php120 statement ALONE is sufficient.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
-      },
-      {
-        "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
-      },
-      {
-        "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
-      },
-      {
-        "id": "D",
-        "text": "Each statement alone is sufficient."
-      },
-      {
-        "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
-      }
-    ],
-    "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"9\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-076",
     "subject": "Numerical Reasoning",
-    "prompt": "A real estate broker received a commission of 8% of the selling price of a certain property, what was the selling price of the property1/4 1) The selling price minus the real estate agent’s commission was Php 9,200,000 2) The selling price was 250% of the original purchase price of Php 4,000,000.",
+    "prompt": "By what percent was the price per kilo of chicken inceased?\n1) The price per kilo of chicken was increased by Php20\n2) The price per kilo of chicken was increased by Php120",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-077",
     "subject": "Numerical Reasoning",
-    "prompt": "Cherry and Keanna were among those who sold raffle tickets to raise money for the club. If Cherry and Keanna sold a total of 168 tickets, how many tickets did Cherry sell1/4 1) Keanna sold 60% as many raffle tickets as Cherry 2) Keanna sold 8% of all the raffle tickets sold. not sufficient. 1) a = 2, and ms = 64 2) m/s = 2 and a/s = ¼ not sufficient.",
+    "prompt": "A real estate broker received a commission of 8% of the selling price of a certain\nproperty, what was the selling price of the property?\n1) The selling price minus the real estate agent’s commission was Php\n9,200,000\n2) The selling price was 250% of the original purchase price of Php\n4,000,000.",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-078",
     "subject": "Numerical Reasoning",
-    "prompt": "If x and y are integers, is x divisible by 171/4 1) The product xy is divisible by 17 2) y is not divisible by 17 statement ALONE is sufficient.",
+    "prompt": "Cherry and Keanna were among those who sold raffle tickets to raise money for\nthe club. If Cherry and Keanna sold a total of 168 tickets, how many tickets did\nCherry sell?\n1) Keanna sold 60% as many raffle tickets as Cherry\n2) Keanna sold 8% of all the raffle tickets sold.",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-079",
     "subject": "Numerical Reasoning",
-    "prompt": "On Saturday monring the printing machine of Gerpress Printing ran continuously at uniform rate to fill a production order. At what time did it completely fill the order that morning1/4 1) The supervisor began the plan for production 8:08am. 2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by 10:18am not sufficient.",
+    "prompt": "What is the ratio of m : s: a?\n1) a = 2, and ms = 64\n2) m/s = 2 and a/s = ¼",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-080",
     "subject": "Numerical Reasoning",
-    "prompt": "How many books does Gerard have1/4 1) If Gerard had 18 fewer books, he would have only half as many as he actually has. 2) Gerard has three times as many fiction as non-fiction books. not sufficient.",
+    "prompt": "If x and y are integers, is x divisible by 17?\n1) The product xy is divisible by 17\n2) y is not divisible by 17",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-081",
     "subject": "Numerical Reasoning",
-    "prompt": "What number is 24% of x1/4 1) 16 is 8% of x 2) 1/8 of x is 1,600",
+    "prompt": "On Saturday morning the printing machine of Gerpress Printing ran continuously\nat a uniform rate to fill a production order. At what time did it completely fill the\norder that morning?\n1) The supervisor began the plan for production at 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by\n10:18am",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-082",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the total amount raised for the Payatas Tragedy from private corporations and personal donations1/4 1) Of the amount donated,48% came from private corporations 2) Of the amount donated, Php15M came from personal donations. statement ALONE is sufficient.",
+    "prompt": "How many books does Gerard have?\n1) If Gerard had 18 fewer books, he would have only half as many as he\nactually has.\n2) Gerard has three times as many fiction as non-fiction books.",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-083",
     "subject": "Numerical Reasoning",
-    "prompt": "Mary’s total score in the three bowling games was 530. What were her scores1/4 1) Mary’s highest score was 198 2) The sum of Mary’s two highest scores was 368 statement ALONE is sufficient.",
+    "prompt": "What number is 24% of x?\n1) 16 is 8% of x\n2) 1/8 of x is 1,600",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-084",
     "subject": "Numerical Reasoning",
-    "prompt": "If the value of n closer to 48 than to 781/4 1) 78 – n > n – 48 2) n > 60 not sufficient.",
+    "prompt": "What was the total amount raised for the Payatas Tragedy from private\ncorporations and personal donations?\n1) Of the amount donated,48% came from private corporations\n2) Of the amount donated, Php15M came from personal donations.",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-085",
     "subject": "Numerical Reasoning",
-    "prompt": "In last Saturday’s Midnight Sale at Gaisano Mall a certain shop sold 75% of the shirts in its inventory. Each shirt was sold for Php358. What was the total revenue from the sale of these shirts on that day1/4 1) When the shop opened last Saturday, there were 448 shirts in its inventory 2) All but 112 of the shop’s inventory were sold last Saturday.",
+    "prompt": "Mary’s total score in the three bowling games was 530. What were her scores?\n1) Mary’s highest score was 198\n2) The sum of Mary’s two highest scores was 368",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-086",
     "subject": "Numerical Reasoning",
-    "prompt": "How many more boys than girls are there in the room1/4 1) There is a total of 56 girls and boys in the room. 2) The number of boys in the room equals the square of the number of girls in the room. statement ALONE is sufficient.",
+    "prompt": "If the value of n closer to 48 than to 78?\n1) 78 – n > n – 48\n2) n > 60",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-087",
     "subject": "Numerical Reasoning",
-    "prompt": "In what year was David born1/4 1) David’s friend Michelle, who is ½ years younger than him, was born in 1979. 2) In 1998, David turned 20 years old not sufficient.",
+    "prompt": "In last Saturday’s Midnight Sale at Gaisano Mall a certain shop sold 75% of the\nshirts in its inventory. Each shirt was sold for Php358. What was the total\nrevenue from the sale of these shirts on that day?\n1) When the shop opened last Saturday, there were 448 shirts in its\ninventory\n2) All but 112 of the shop’s inventory were sold last Saturday.",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-088",
     "subject": "Numerical Reasoning",
-    "prompt": "A box contains 48 balls, of which 30 are red and 18 are blue. If 16 of the balls are removed, how many of the balls left in the box are blue1/4 1) Of the balls removed, the ratio of the number of red ones to the number of blue ones is 5:3 2) Of the first 8 marbles removed, 5 are red not sufficient.",
+    "prompt": "How many more boys than girls are there in the room?\n1) There is a total of 56 girls and boys in the room.\n2) The number of boys in the room equals the square of the number of girls\nin the room.",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-089",
     "subject": "Numerical Reasoning",
-    "prompt": "How long did it take Mrs. Lim to drive non-stop on a trip from here home to Ayala Alabang1/4 1) If Mrs. Lim average speed for the trip had been 1.5 times as fast, the trip would have taken 2 hours. 2) Mrs. Lim average speed for the trip was 80 km per hour. not sufficient.",
+    "prompt": "In what year was David born?\n1) David’s friend Michelle, who is ½ years younger than him, was born in\n1979.\n2) In 1998, David turned 20 years old",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-090",
     "subject": "Numerical Reasoning",
-    "prompt": "If Lorna had a dentist’s appointment on a certain day, was the appointment on a Friday1/4 1) Exactly 64 hours before the appointment, it was Wednesday. 2) The appointment is between 2:00pm to 7:00pm statement ALONE is sufficient.",
+    "prompt": "A box contains 48 balls, of which 30 are red and 18 are blue. If 16 of the balls are\nremoved, how many of the balls left in the box are blue?\n1) Of the balls removed, the ratio of the number of red ones to the number of\nblue ones is 5:3\n2) Of the first 8 marbles removed, 5 are red",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-091",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the average number of kilometers per liter of gasoline a car can consume during a certain trip1/4 1) The total cost of the gasoline used by the card or the 640-km trip was Php1,152. 2) The cost for the gasoline used by the car for the trip was Php18.00 per liter. statement ALONE is sufficient.",
+    "prompt": "How long did it take Mrs. Lim to drive non-stop on a trip from here home to Ayala\nAlabang?\n1) If Mrs. Lim average speed for the trip had been 1.5 times as fast, the trip\nwould have taken 2 hours.\n2) Mrs. Lim average speed for the trip was 80 km per hour.",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-092",
     "subject": "Numerical Reasoning",
-    "prompt": "What is the ratio of a to b1/4 1) a is 8 more than twice b. 2) The ratio of a to 4b is 3 : 7. not sufficient.",
+    "prompt": "If Lorna had a dentist’s appointment on a certain day, was the appointment on a\nFriday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-093",
     "subject": "Numerical Reasoning",
-    "prompt": "At Avanti Review Center, 400 students are enrolled for the Review Program or Academic Advancement Program or both. If 100 of these students are not enrolled in the Review Program, how many of them are enrolled in both Avanti Review Program and Avanti Academic Advancement Program1/4 1) Of the 400 students, 160 are not enrolled in the Academic Advancement Program. 2) A total of 240 of the students are enrolled in the Academic Advancement Program.",
+    "prompt": "What was the average number of kilometers per liter of gasoline a car can\nconsume during a certain trip?\n1) The total cost of the gasoline used by the card or the 640-km trip was\nPhp1,152.\n2) The cost for the gasoline used by the car for the trip was Php18.00 per\nliter.",
     "choices": [
       {
         "id": "A",
-        "text": "Statement (1) alone is sufficient, but statement (2) alone is not sufficient."
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
       },
       {
         "id": "B",
-        "text": "Statement (2) alone is sufficient, but statement (1) alone is not sufficient."
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
       },
       {
         "id": "C",
-        "text": "Both statements together are sufficient, but neither statement alone is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "Each statement alone is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
-        "text": "Statements (1) and (2) together are not sufficient."
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
+  },
+  {
+    "id": "nr-094",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the ratio of a to b?\n1) a is 8 more than twice b.\n2) The ratio of a to 4b is 3 : 7.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+      },
+      {
+        "id": "D",
+        "text": "if each statement ALONE is sufficient"
+      },
+      {
+        "id": "E",
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
+  },
+  {
+    "id": "nr-095",
+    "subject": "Numerical Reasoning",
+    "prompt": "At Avanti Review Center, 400 students are enrolled for the Review Program or\nAcademic Advancement Program or both. If 100 of these students are not\nenrolled in the Review Program, how many of them are enrolled in both Avanti\nReview Program and Avanti Academic Advancement Program?\n1) Of the 400 students, 160 are not enrolled in the Academic Advancement\nProgram.\n2) A total of 240 of the students are enrolled in the Academic Advancement\nProgram.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient."
+      },
+      {
+        "id": "B",
+        "text": "if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient."
+      },
+      {
+        "id": "C",
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+      },
+      {
+        "id": "D",
+        "text": "if each statement ALONE is sufficient"
+      },
+      {
+        "id": "E",
+        "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
+  },
+  {
+    "id": "nr-096",
+    "subject": "Numerical Reasoning",
+    "prompt": "In which of the following years did over 2/3 of the students who took the exam not pass it?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2005"
+      },
+      {
+        "id": "B",
+        "text": "2006"
+      },
+      {
+        "id": "C",
+        "text": "2008"
+      },
+      {
+        "id": "D",
+        "text": "2009"
+      },
+      {
+        "id": "E",
+        "text": "Cannot say"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Over 2/3 not passing means fewer than 1/3 passed. In the chart, 2008 has only 20% passing, so more than two-thirds did not pass.",
+    "image": "/question-images/nr-096.png"
+  },
+  {
+    "id": "nr-097",
+    "subject": "Numerical Reasoning",
+    "prompt": "It is known that a quarter of the students who passed the exam in 2007, passed it at the first trial. Assuming\neach exam has two trials, what percentage of all the students who took the exam that year passed it in the\nsecond trial?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "75"
+      },
+      {
+        "id": "E",
+        "text": "Cannot say"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "In 2007, 40% passed. One-fourth of those passed on the first trial, so three-fourths passed on the second trial. 3/4 of 40% is 30%.",
+    "image": "/question-images/nr-097.png"
+  },
+  {
+    "id": "nr-098",
+    "subject": "Numerical Reasoning",
+    "prompt": "If the number of Chinese Insurance stocks represented 3.5% of all Insurance securities, approximately how\nmany Insurance bonds were Chinese?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9,200,000"
+      },
+      {
+        "id": "B",
+        "text": "9,500,000"
+      },
+      {
+        "id": "C",
+        "text": "10,800,000"
+      },
+      {
+        "id": "D",
+        "text": "910,000"
+      },
+      {
+        "id": "E",
+        "text": "1,080,000"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "From the chart, Insurance has 33,000 bonds and 3,000 stocks, or 36,000 total securities. Chinese Insurance stocks are 3.5% of the total: 0.035 x 36,000 = 1,260. Since China is 30% of Insurance securities, Chinese securities total 10,800; subtracting 1,260 leaves about 9,540 Chinese bonds, closest to 9,500,000 in the choices.",
+    "image": "/question-images/nr-098.png"
+  },
+  {
+    "id": "nr-099",
+    "subject": "Numerical Reasoning",
+    "prompt": "I Return on sales (Profit/sales) was highest in which year?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1995"
+      },
+      {
+        "id": "B",
+        "text": "1996"
+      },
+      {
+        "id": "C",
+        "text": "1997"
+      },
+      {
+        "id": "D",
+        "text": "1998"
+      },
+      {
+        "id": "E",
+        "text": "cannot say"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Return on sales is profit divided by sales. The ratios are about 11.1% in 1995, 11.5% in 1996, 17.3% in 1997, and 13.0% in 1998. The highest is 1997.",
+    "image": "/question-images/nr-099.png"
+  },
+  {
+    "id": "nr-100",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many times return on sales (profit/sales) exceeded 15 % ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "once"
+      },
+      {
+        "id": "B",
+        "text": "twice"
+      },
+      {
+        "id": "C",
+        "text": "thrice"
+      },
+      {
+        "id": "D",
+        "text": "four times"
+      },
+      {
+        "id": "E",
+        "text": "never"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Return on sales exceeds 15% only in 1997: profit/sales is about 60/345 = 17.3%. All other listed years are below 15%.",
+    "image": "/question-images/nr-100.png"
+  },
+  {
+    "id": "nr-101",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many times growth in profit over the previous year exceeded 50% was registered ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "once"
+      },
+      {
+        "id": "B",
+        "text": "twice"
+      },
+      {
+        "id": "C",
+        "text": "thrice"
+      },
+      {
+        "id": "D",
+        "text": "four times"
+      },
+      {
+        "id": "E",
+        "text": "never"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Compare profit from one year to the next. Profit grows by more than 50% twice: from 20 to 30, and from 30 to 60.",
+    "image": "/question-images/nr-101.png"
+  },
+  {
+    "id": "nr-102",
+    "subject": "Numerical Reasoning",
+    "prompt": "Find the ratio between FEI for Malaysia in 1997 and FEI for Thailand in 1998",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7 : 25"
+      },
+      {
+        "id": "B",
+        "text": "8 : 21"
+      },
+      {
+        "id": "C",
+        "text": "6 : 11"
+      },
+      {
+        "id": "D",
+        "text": "1067 : 582"
+      },
+      {
+        "id": "E",
+        "text": "cannot say"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Read the chart values: Malaysia in 1997 is 10.67 and Thailand in 1998 is 5.82. The ratio 10.67 : 5.82 is the same as 1067 : 582.",
+    "image": "/question-images/nr-102.png"
+  },
+  {
+    "id": "nr-103",
+    "subject": "Numerical Reasoning",
+    "prompt": "Name the country which has the minimum change in the FEI",
+    "choices": [
+      {
+        "id": "A",
+        "text": "India"
+      },
+      {
+        "id": "B",
+        "text": "China"
+      },
+      {
+        "id": "C",
+        "text": "Malaysia"
+      },
+      {
+        "id": "D",
+        "text": "S.Korea"
+      },
+      {
+        "id": "E",
+        "text": "cannot say"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Compare the absolute change from 1997 to 1998 for each country. South Korea changes from 2.16 to 2.50, a difference of only 0.34, which is the smallest.",
+    "image": "/question-images/nr-103.png"
+  },
+  {
+    "id": "nr-104",
+    "subject": "Numerical Reasoning",
+    "prompt": "If, Education sector in Thailand had 25% of FEI in 1997 and 60% of FEI in 1998, then find the approx ratio of\nthe amounts allocated to Education in 1997 to 1998. (Assume the GDPs of both of these years for Thailand is\nsame.)",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1 : 5"
+      },
+      {
+        "id": "B",
+        "text": "25 : 72"
+      },
+      {
+        "id": "C",
+        "text": "6 : 11"
+      },
+      {
+        "id": "D",
+        "text": "7 : 25"
+      },
+      {
+        "id": "E",
+        "text": "cannot say"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Thailand FEI is 5.09 in 1997 and 5.82 in 1998. Education gets 25% of 5.09 and 60% of 5.82. The ratio is (5.09 x 25) : (5.82 x 60), which is closest to 25 : 72.",
+    "image": "/question-images/nr-104.png"
+  },
+  {
+    "id": "nr-105",
+    "subject": "Numerical Reasoning",
+    "prompt": "A rumour about an upcoming recession in Japan has reduced the value of the Yen 7% compared with the\nEuro. How many Euros can you now buy for 500 Yen?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3.5"
+      },
+      {
+        "id": "B",
+        "text": "3.26"
+      },
+      {
+        "id": "C",
+        "text": "3.15"
+      },
+      {
+        "id": "D",
+        "text": "3.76"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Before the drop, 500 yen equals 500 x 0.007 = 3.5 euros. A 7% reduction leaves 93% of that value, so 3.5 x 0.93 = 3.255, about 3.26 euros.",
+    "image": "/question-images/nr-105.png"
+  },
+  {
+    "id": "nr-106",
+    "subject": "Numerical Reasoning",
+    "prompt": "At present, how many percent of the population of the Philippines are aliens?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "30%"
+      },
+      {
+        "id": "B",
+        "text": "25%"
+      },
+      {
+        "id": "C",
+        "text": "40%"
+      },
+      {
+        "id": "D",
+        "text": "50%"
+      },
+      {
+        "id": "E",
+        "text": "70%"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"30%\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-110",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the ground for impeachment of the Pres., Vice-Pres., Ombudsman, and Senator?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "sexual harassment"
+      },
+      {
+        "id": "B",
+        "text": "heinous crime"
+      },
+      {
+        "id": "C",
+        "text": "grave abuse of the authority"
+      },
+      {
+        "id": "D",
+        "text": "graft and corruption"
+      },
+      {
+        "id": "E",
+        "text": "culpable violation of the Constitution"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "e. culpable violation of the Constitution\n(detailed solutions solved by: Leonalyn Mutia-Tayone)"
+  },
+  {
+    "id": "nr-111",
+    "subject": "Numerical Reasoning",
+    "prompt": "(25)^0 - (-2)^4 + (-3^4) - (-8)^2 = ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "+161"
+      },
+      {
+        "id": "D",
+        "text": "+160"
+      },
+      {
+        "id": "E",
+        "text": "160"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "e.) -160\n(25)^0 - (-2)^4 + (-3^4) - (-8)^2 = ?"
+  },
+  {
+    "id": "nr-112",
+    "subject": "Numerical Reasoning",
+    "prompt": "2^2 - (-9)^2 - (-3^2) + 15^0 = ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "75"
+      },
+      {
+        "id": "B",
+        "text": "+75"
+      },
+      {
+        "id": "C",
+        "text": "85"
+      },
+      {
+        "id": "D",
+        "text": "+85"
+      },
+      {
+        "id": "E",
+        "text": "0"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) -75\n2^2 - (-9)^2 - (-3^2) + 15^0 = ?\n4 - (+81) - (-9) + 1 =\n4 - 81 + 9 + 1 =\n85 + 9 + 1 =\n76 + 1 = -75✔\n*recheck with your own calculator"
+  },
+  {
+    "id": "nr-113",
+    "subject": "Numerical Reasoning",
+    "prompt": "20% of 30% of X is 225 what is the value of X",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13.5"
+      },
+      {
+        "id": "B",
+        "text": "825"
+      },
+      {
+        "id": "C",
+        "text": "375"
+      },
+      {
+        "id": "D",
+        "text": "3750"
+      },
+      {
+        "id": "E",
+        "text": "112.5"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d.) 3750\nnote:\nof ---> ×\nis ---> ="
+  },
+  {
+    "id": "nr-114",
+    "subject": "Numerical Reasoning",
+    "prompt": "If the perimeter of a square is doubled, what happens to the area? ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the area is twice its original."
+      },
+      {
+        "id": "B",
+        "text": "the area is 4 times its original."
+      },
+      {
+        "id": "C",
+        "text": "the area is 6 times its original."
+      },
+      {
+        "id": "D",
+        "text": "the area is 8 times its original."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b. the area is 4 times its original.\nLet n be the sides of the square\nperimeter n+n+n+n = perimeter\nn × n = area\n(n^2)/(n+n+n+n) = X/(n+n+n+n)^2\n(n^2)(4n)^2 = X (4n)\n[(n^2)(4n)^2]/(4n) = X\n(n^2)(4n) = X\ntherefore, if the perimeter of a square is doubled, \"the\narea is 4 times its original.\""
+  },
+  {
+    "id": "nr-115",
+    "subject": "Numerical Reasoning",
+    "prompt": "A one-fourth percent of a number is 25. What is the number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "100"
+      },
+      {
+        "id": "B",
+        "text": "1,000"
+      },
+      {
+        "id": "C",
+        "text": "10,000"
+      },
+      {
+        "id": "D",
+        "text": "100,000"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c.) 10,000\nOne-fourth percent of a number is 25.\nQ: What is a number?\nNOTE: of ---> \"×\"\nis ---> \"=\"\nLet n be our number\nSolution:\nOne-fourth percent ---> 1/4 %\nof a number ---> × n\nis 25 ---> = 25\nIpagsama para mabuo ang equation:"
+  },
+  {
+    "id": "nr-116",
+    "subject": "Numerical Reasoning",
+    "prompt": "√0.000225 = ____?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "1.5"
+      },
+      {
+        "id": "C",
+        "text": "0.15"
+      },
+      {
+        "id": "D",
+        "text": "0.015"
+      },
+      {
+        "id": "E",
+        "text": "0.0015"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 0.015\n√(225/1000000) = 15/1000 = 0.015"
+  },
+  {
+    "id": "nr-117",
+    "subject": "Numerical Reasoning",
+    "prompt": "√0.00000081 = ____?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "0.9"
+      },
+      {
+        "id": "C",
+        "text": "0.09"
+      },
+      {
+        "id": "D",
+        "text": "0.009"
+      },
+      {
+        "id": "E",
+        "text": "0.0009"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "e. 0.0009\n√(81/100000000) = 9/10000 = 0.0009\nFor item #141 and 142, watch this:\nhttps://www.youtube.com/watch?v=c5V4A9K9U2E&t=74s"
+  },
+  {
+    "id": "nr-118",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which of the numbers below is 650 when rounded to the nearest ten and 600 when rounded to the nearest hundred?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "645.01"
+      },
+      {
+        "id": "B",
+        "text": "645.00"
+      },
+      {
+        "id": "C",
+        "text": "651.00"
+      },
+      {
+        "id": "D",
+        "text": "688.00"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 645.01✔\nb. 645.00\nc. 651.00\nd. 688.00\ne. none of the above\n*Let's eliminate by looking at the choices kng alin ang\npwedeng e round-off to 600. Only choices A and B. Then,\nidentify according to the rule of 5 kng alin dyan ang\npwedeng ma round-off to 650. Watch the link for details"
+  },
+  {
+    "id": "nr-119",
+    "subject": "Numerical Reasoning",
+    "prompt": "Round off to the nearest hundreds place: 9,750",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9,900"
+      },
+      {
+        "id": "B",
+        "text": "9,700"
+      },
+      {
+        "id": "C",
+        "text": "9,800"
+      },
+      {
+        "id": "D",
+        "text": "9,760"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 9,800\nRound off to the nearest hundreds place: 9,750\n*(rule of 5) ODD number before 5 kaya add up"
+  },
+  {
+    "id": "nr-120",
+    "subject": "Numerical Reasoning",
+    "prompt": "Round off to the nearest hundreds place: 9,650",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9,860"
+      },
+      {
+        "id": "B",
+        "text": "9,700"
+      },
+      {
+        "id": "C",
+        "text": "9,760"
+      },
+      {
+        "id": "D",
+        "text": "9,600"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 9,600\nRound off to the nearest hundreds place: 9,650\n*(rule of 5) EVEN number before 5 kaya keep the number\nFor item #143 to 145\nWatch this:\nhttps://youtu.be/wrqAhHRiV_w"
+  },
+  {
+    "id": "nr-121",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 125%, 100%, 80%, 64%,____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "60%"
+      },
+      {
+        "id": "B",
+        "text": "50%"
+      },
+      {
+        "id": "C",
+        "text": "42%"
+      },
+      {
+        "id": "D",
+        "text": "52.5%"
+      },
+      {
+        "id": "E",
+        "text": "51.2%"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "The correct answer is choice E (\"51.2%\") because it correctly continues the number pattern."
+  },
+  {
+    "id": "nr-122",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number series: 2, 10, 60, 420, ____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1680"
+      },
+      {
+        "id": "B",
+        "text": "840"
+      },
+      {
+        "id": "C",
+        "text": "3414"
+      },
+      {
+        "id": "D",
+        "text": "3360"
+      },
+      {
+        "id": "E",
+        "text": "4500"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"3360\") because it correctly continues the number pattern."
+  },
+  {
+    "id": "nr-123",
+    "subject": "Numerical Reasoning",
+    "prompt": "The mean median and mode of 5 numbers are equal. The numbers are 7, 8, 10, 15. What is the 5th\nnumber?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c.) 10\n(7+8+10+15) ÷ 4 = n"
+  },
+  {
+    "id": "nr-124",
+    "subject": "Numerical Reasoning",
+    "prompt": "The mean median and mode of 7 numbers are equal. The numbers are 24, 22, 18, 10, 38, 32. What is\nthe 7th number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "22"
+      },
+      {
+        "id": "C",
+        "text": "18"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      },
+      {
+        "id": "E",
+        "text": "32"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) 24\n(24+22+18+10+38+32) ÷ 6 = n"
+  },
+  {
+    "id": "nr-125",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 1, 2, 2, 3, 4, 4, 8, 5, __",
+    "choices": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"16\") because it correctly continues the number pattern."
+  },
+  {
+    "id": "nr-126",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 15, 7.5, 7.5, 15, 60, ____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "480"
+      },
+      {
+        "id": "B",
+        "text": "120"
+      },
+      {
+        "id": "C",
+        "text": "240"
+      },
+      {
+        "id": "D",
+        "text": "420"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"480\") because it correctly continues the number pattern."
+  },
+  {
+    "id": "nr-127",
+    "subject": "Numerical Reasoning",
+    "prompt": "Round-off 2,833,333 to the nearest hundred thousands",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2,833,300"
+      },
+      {
+        "id": "B",
+        "text": "2,900,000"
+      },
+      {
+        "id": "C",
+        "text": "2,833,000"
+      },
+      {
+        "id": "D",
+        "text": "2,800,000"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 2,800,000✔\nWatch this:\nhttps://youtu.be/wrqAhHRiV_w"
+  },
+  {
+    "id": "nr-128",
+    "subject": "Numerical Reasoning",
+    "prompt": "The product of the ages of three sisters is 567. If the two sisters are twins and are 2 years older than their\nyounger sister. What is the age of their younger sister?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c.) 7\nThe product of the ages of three sisters is 567. If the two\nsisters are twins and are 2 years older than their younger\nsister. What is the age of their younger sister?\n***e factor out natin para mas madali\n567÷3 = 189"
+  },
+  {
+    "id": "nr-129",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: [4÷4×2], [8÷4×2], [16÷4×2], ___",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b.) 16\nA6. [4÷4×2], [8÷4×2], [16÷4×2], ___"
+  },
+  {
+    "id": "nr-130",
+    "subject": "Numerical Reasoning",
+    "prompt": "A solution is made of water and pure milk. If 70% of the solution is water, how many milliliters of pure milk\nare in 1 liter of this solution?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "70"
+      },
+      {
+        "id": "C",
+        "text": "250"
+      },
+      {
+        "id": "D",
+        "text": "300"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d.) 300\nA solution is made of water and pure milk. If 70% of the\nsolution is water, how many milliliters of pure milk are in"
+  },
+  {
+    "id": "nr-131",
+    "subject": "Numerical Reasoning",
+    "prompt": "4010 x 0.0001 = ___",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0.00401"
+      },
+      {
+        "id": "B",
+        "text": "0.0401"
+      },
+      {
+        "id": "C",
+        "text": "0.401"
+      },
+      {
+        "id": "D",
+        "text": "4.01"
+      },
+      {
+        "id": "E",
+        "text": "40.1"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 0.401\n4010 x 0.0001 = ___\n***kopyahin lang at e move ang decimal place to the left\nng apat na beses.\nc. 0.401✔"
+  },
+  {
+    "id": "nr-132",
+    "subject": "Numerical Reasoning",
+    "prompt": "(−7)² + (−7²) =",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "+98"
+      },
+      {
+        "id": "C",
+        "text": "−98"
+      },
+      {
+        "id": "D",
+        "text": "2401"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 0\n***review the RULE of exponents on negative\n(−7)² + (−7²) ="
+  },
+  {
+    "id": "nr-133",
+    "subject": "Numerical Reasoning",
+    "prompt": "When the first and the last digits of 2, 836 are interchanged, the new number is _____.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3996 more than 2,836"
+      },
+      {
+        "id": "B",
+        "text": "3996 less than 2, 836"
+      },
+      {
+        "id": "C",
+        "text": "1404 more than 2, 836"
+      },
+      {
+        "id": "D",
+        "text": "1404 less than 2, 836"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) 3996 more than 2,836\nWhen the first and the last digits of 2, 836 are\ninterchanged, the new number is _____.\n2836 ---> 6832(new number)\n6832 - 2836 = 3996\nTherefore, the new number is\n✔3996 more than 2,836"
+  },
+  {
+    "id": "nr-134",
+    "subject": "Numerical Reasoning",
+    "prompt": "If twice the value of a certain number is increased by 8 the result is 40. What is the number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "32"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b.) 16\nIf twice the value of a certain number is increased by 8\nthe result is 40. What is the number?\n***Sundan lang ang given mismo\ntwice the value of a certain number\n> 2n\nincreased by 8\n> +8\nthe result is 40\n> = 40\nIpagsama mo na ngayon at yan na ang equation natin"
+  },
+  {
+    "id": "nr-135",
+    "subject": "Numerical Reasoning",
+    "prompt": "Genzy's dad is 5 times as old as Genzy and Genzy is twice as old as her sister Zymie. In two years, the\nsum of their ages will be 58. How old is Genzy now?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"8\") because letting Zymie be z gives Genzy = 2z and dad = 10z; in two years their ages sum to 58, so z = 4 and Genzy = 8."
+  },
+  {
+    "id": "nr-136",
+    "subject": "Numerical Reasoning",
+    "prompt": "In a group of 120 persons, there are 32 more women than men. How many women are there in the\ngroup?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "44"
+      },
+      {
+        "id": "B",
+        "text": "88"
+      },
+      {
+        "id": "C",
+        "text": "76"
+      },
+      {
+        "id": "D",
+        "text": "56"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c.) 76\nIn a group of 120 persons, there are 32 more women than men.\nHow many women are there in the group?\nSolutions#1: Solution#2:"
+  },
+  {
+    "id": "nr-137",
+    "subject": "Numerical Reasoning",
+    "prompt": "If the dimensions of a square change in such a manner that the area remains constant, what must\nhappen to the other side if one side will be increased by 1/4 of itself?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "it decreases by 1/5"
+      },
+      {
+        "id": "B",
+        "text": "it decreases by 1/4"
+      },
+      {
+        "id": "C",
+        "text": "it decreases by 1/3"
+      },
+      {
+        "id": "D",
+        "text": "it decreases by 1/2"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) it decreases by 1/5\nIf the dimensions of a square change in such a manner that\nthe area remains constant, what must happen to the other side\nif one side will be increased by 1/4 of itself?\nn × n = n²\n(1+1/4)n × ?n = n²"
+  },
+  {
+    "id": "nr-138",
+    "subject": "Numerical Reasoning",
+    "prompt": "If x - 3 = y, then (y - x )³ = _____ ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "27"
+      },
+      {
+        "id": "D",
+        "text": "81"
+      },
+      {
+        "id": "E",
+        "text": "cannot be determined"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b.) -27\nIf x - 3 = y, then (y - x )³ = _____ ?\n***rearrange or transpose x to isolate the value\n3 = y-x\nTherefore (y-x) is equal to -3\n(y - x )³ = (-3)³ = -27✔\nFor items # 154 to 163,\nWatch this for detailed solutions:\nhttps://www.youtube.com/watch?v=pIDl2cY6B9M&t=11s"
+  },
+  {
+    "id": "nr-139",
+    "subject": "Numerical Reasoning",
+    "prompt": "0.75 is to ¾ as 0.8 is to ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2/3"
+      },
+      {
+        "id": "B",
+        "text": "4/5"
+      },
+      {
+        "id": "C",
+        "text": "5/6"
+      },
+      {
+        "id": "D",
+        "text": "6/7"
+      },
+      {
+        "id": "E",
+        "text": "3/5"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b. 4/5\nSoln#1\n0.75 is no doubt equals to 3/4\nSo, 0.8 is 8/10 or 4/5\nSoln#2\n0.75 : 3/4 = 0.8 : n"
+  },
+  {
+    "id": "nr-140",
+    "subject": "Numerical Reasoning",
+    "prompt": "75% is to 1/2 as 45% is to ______",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3/11"
+      },
+      {
+        "id": "B",
+        "text": "3/10"
+      },
+      {
+        "id": "C",
+        "text": "3/4"
+      },
+      {
+        "id": "D",
+        "text": "2/3"
+      },
+      {
+        "id": "E",
+        "text": "3/5"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b. 3/10\nSoln#1"
+  },
+  {
+    "id": "nr-141",
+    "subject": "Numerical Reasoning",
+    "prompt": "0.25 is to 0.125 as to 1.25 is to ________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0.625"
+      },
+      {
+        "id": "B",
+        "text": "1.125"
+      },
+      {
+        "id": "C",
+        "text": "1.625"
+      },
+      {
+        "id": "D",
+        "text": "2.125"
+      },
+      {
+        "id": "E",
+        "text": "6.250"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 0.625\nSoln#1\n0.25 is to 0.125 as to 1.25 is to\n0.25 : 0.125 = 1.25 : n\n0.25×5 = 1.25\n0.125×5 = 0.625\nSoln#2\n0.25 : 0.125 = 1.25 : n\n(0.125×1.25)/0.25 =0.625"
+  },
+  {
+    "id": "nr-142",
+    "subject": "Numerical Reasoning",
+    "prompt": "2 is to 50 as 3.2 is to _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "60"
+      },
+      {
+        "id": "B",
+        "text": "70"
+      },
+      {
+        "id": "C",
+        "text": "80"
+      },
+      {
+        "id": "D",
+        "text": "90"
+      },
+      {
+        "id": "E",
+        "text": "1"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 80\nSoln#1 Soln#2"
+  },
+  {
+    "id": "nr-143",
+    "subject": "Numerical Reasoning",
+    "prompt": "14 is to 28 as 5 is to _________",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      },
+      {
+        "id": "E",
+        "text": "15"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d.10\nSoln#1 Soln#2"
+  },
+  {
+    "id": "nr-144",
+    "subject": "Numerical Reasoning",
+    "prompt": "4 × 8 + 12/4 - 8/2 =",
+    "choices": [
+      {
+        "id": "A",
+        "text": "32"
+      },
+      {
+        "id": "B",
+        "text": "31"
+      },
+      {
+        "id": "C",
+        "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "39"
+      },
+      {
+        "id": "E",
+        "text": "30"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"31\") because evaluating the expression gives this result."
+  },
+  {
+    "id": "nr-145",
+    "subject": "Numerical Reasoning",
+    "prompt": "483.43 + 123.334 + 31.5544 + 444.4 =",
+    "choices": [
+      {
+        "id": "A",
+        "text": "182.7184"
+      },
+      {
+        "id": "B",
+        "text": "1082.4468"
+      },
+      {
+        "id": "C",
+        "text": "1988.5678"
+      },
+      {
+        "id": "D",
+        "text": "1082.7184"
+      },
+      {
+        "id": "E",
+        "text": "1082.7814"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 1082.7184\nWrite down all the given numbers vertically and align all\ndecimals, then you can add them. To shorten ur time, check\nthe 4th digit from the decimal point or the ten thousandths\nplace, it is 4. Then the 3rd digit from the decimal point or the\nthousandths place, you have 4+4 and it is 8. Eliminate choice A\ncoz the answer must be 1000+. You only have choice d that\nhas 84 on the last two digits after decimal."
+  },
+  {
+    "id": "nr-146",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which is the greatest?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "5/12"
+      },
+      {
+        "id": "B",
+        "text": "17/33"
+      },
+      {
+        "id": "C",
+        "text": "52/80"
+      },
+      {
+        "id": "D",
+        "text": "18/42"
+      },
+      {
+        "id": "E",
+        "text": "50/70"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "e. 50/70\nEliminate all below halves, then compute the remaining\nby dividing numerators by denominators.\nFor 169 to 171, Watch this:\nhttps://www.youtube.com/watch?v=6pfYxQOYMjI"
+  },
+  {
+    "id": "nr-147",
+    "subject": "Numerical Reasoning",
+    "prompt": "44 is 80% of what number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "50"
+      },
+      {
+        "id": "B",
+        "text": "60"
+      },
+      {
+        "id": "C",
+        "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "55"
+      },
+      {
+        "id": "E",
+        "text": "70"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"55\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-148",
+    "subject": "Numerical Reasoning",
+    "prompt": "18+ 3 × 3 + (54/3+ -68/-4) =",
+    "choices": [
+      {
+        "id": "A",
+        "text": "62"
+      },
+      {
+        "id": "B",
+        "text": "64"
+      },
+      {
+        "id": "C",
+        "text": "26"
+      },
+      {
+        "id": "D",
+        "text": "333"
+      },
+      {
+        "id": "E",
+        "text": "330"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"62\") because evaluating the expression gives this result."
+  },
+  {
+    "id": "nr-149",
+    "subject": "Numerical Reasoning",
+    "prompt": "There are 3 numbers whose sum is 54; one number is double and triple times greater than the other\nnumbers, what are those numbers?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "10, 20, 34"
+      },
+      {
+        "id": "B",
+        "text": "9, 15, 30"
+      },
+      {
+        "id": "C",
+        "text": "8, 16, 30"
+      },
+      {
+        "id": "D",
+        "text": "9, 18, 27"
+      },
+      {
+        "id": "E",
+        "text": "7, 14, 21"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 9, 18, 27\nn + 2n + 3n = 54"
+  },
+  {
+    "id": "nr-150",
+    "subject": "Numerical Reasoning",
+    "prompt": "At 6:30 am, Jeany told Margarette that she found Blessy 15 and 1/4 hours ago. At what time did Jeany find\nBlessy?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9:25 pm"
+      },
+      {
+        "id": "B",
+        "text": "6:30pm"
+      },
+      {
+        "id": "C",
+        "text": "5:25pm"
+      },
+      {
+        "id": "D",
+        "text": "3:25pm"
+      },
+      {
+        "id": "E",
+        "text": "3:15pm"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "The correct answer is choice E (\"3:15pm\") because solving the word problem gives this result."
+  },
+  {
+    "id": "nr-151",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 3 siomai cost P15, how much will Kenneth pay for 12 siomai?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "55"
+      },
+      {
+        "id": "B",
+        "text": "45"
+      },
+      {
+        "id": "C",
+        "text": "65"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      },
+      {
+        "id": "E",
+        "text": "80"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"60\") because solving the word problem gives this result."
+  },
+  {
+    "id": "nr-152",
+    "subject": "Numerical Reasoning",
+    "prompt": "What number when increased by 74 percent of itself will equal to 80?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "43"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "44"
+      },
+      {
+        "id": "D",
+        "text": "54"
+      },
+      {
+        "id": "E",
+        "text": "46"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "The correct answer is choice E (\"46\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-153",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the smallest positive number which, when you divided by 3, 4 or 5, will leave a remainder of 2?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "42"
+      },
+      {
+        "id": "B",
+        "text": "22"
+      },
+      {
+        "id": "C",
+        "text": "62"
+      },
+      {
+        "id": "D",
+        "text": "122"
+      },
+      {
+        "id": "E",
+        "text": "102"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 62\nLCM of 3,4,5, is 60, add 2 and the answer is 62"
+  },
+  {
+    "id": "nr-154",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which of the following numbers is represented by the prime factors 2 × 3 × 7?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "21"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "84"
+      },
+      {
+        "id": "D",
+        "text": "237"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b. 42\nJust multiply them 2×3×7 = 42"
+  },
+  {
+    "id": "nr-155",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which of the following numbers is divisible by 6?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "232"
+      },
+      {
+        "id": "B",
+        "text": "341"
+      },
+      {
+        "id": "C",
+        "text": "546"
+      },
+      {
+        "id": "D",
+        "text": "903"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 546\nDivisible by 6 are both divisible by 2 and 3. Focus on\nchoices with even numbers and then check which one\nis divisible by 3.\nWatch this for detailed explanation:\nFor item 178 to 180\nhttps://www.youtube.com/watch?v=6pfYxQOYMjI"
+  },
+  {
+    "id": "nr-156",
+    "subject": "Numerical Reasoning",
+    "prompt": "In a room, there are 9 boys and 12 girls. The ratio of girls to boys is ___",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9 : 24"
+      },
+      {
+        "id": "B",
+        "text": "3 : 4"
+      },
+      {
+        "id": "C",
+        "text": "4 : 3"
+      },
+      {
+        "id": "D",
+        "text": "1 : 2"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 4 : 3\nIn a room, there are 9 boys and 12 girls.\nThe ratio of girls to boys is ___\nGirls : Boys"
+  },
+  {
+    "id": "nr-157",
+    "subject": "Numerical Reasoning",
+    "prompt": "A pet store has 8 cats, 12 dogs, and 3 rabbits. The ratio 8:23 compares",
+    "choices": [
+      {
+        "id": "A",
+        "text": "dogs to cats"
+      },
+      {
+        "id": "B",
+        "text": "cats to dogs"
+      },
+      {
+        "id": "C",
+        "text": "rabbits to cats"
+      },
+      {
+        "id": "D",
+        "text": "cats to all animals"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. cats to all animals\nA pet store has 8 cats, 12 dogs, and 3 rabbits. The ratio"
+  },
+  {
+    "id": "nr-158",
+    "subject": "Numerical Reasoning",
+    "prompt": "Ratio of 750m and 3km is ____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3 : 7"
+      },
+      {
+        "id": "B",
+        "text": "3 : 5"
+      },
+      {
+        "id": "C",
+        "text": "2 : 7"
+      },
+      {
+        "id": "D",
+        "text": "1 : 4"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 1 : 4\nRatio of 750m and 3km is\nconvert km to m para same na sila\n750m : 3km\n750m : 3000m"
+  },
+  {
+    "id": "nr-159",
+    "subject": "Numerical Reasoning",
+    "prompt": "The ratio of two sides of a parallelogram is 4 : 3. If its perimeter is 56 cm, find the lengths of its sides.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "14cm, 13cm"
+      },
+      {
+        "id": "B",
+        "text": "18cm, 15cm"
+      },
+      {
+        "id": "C",
+        "text": "30cm, 26cm"
+      },
+      {
+        "id": "D",
+        "text": "16cm, 12cm"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 16cm, 12cm\nSoln#1:\nLet the lengths of two sides of the parallelogram be 4n cm\nand 3n cm respectively.\nThen, its perimeter\n= 2(4n + 3n) cm\n= 8n + 6n\n= 14n cm\nTherefore,"
+  },
+  {
+    "id": "nr-160",
+    "subject": "Numerical Reasoning",
+    "prompt": "Four consecutive integers have a mean of 9.5. What is the largest of these integers?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "38"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "14"
+      },
+      {
+        "id": "E",
+        "text": "19"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 11\nFour consecutive integers could be represented as n, n+1,\nn+2, n+3\nTherefore, by saying that they have a mean of 9.5, we\nmean to say:\n(n + n+1 + n+2 + n+3)/4 = 9.5\n(4n + 6)/4 = 9.5"
+  },
+  {
+    "id": "nr-161",
+    "subject": "Numerical Reasoning",
+    "prompt": "A baseball pitcher won 80% of the games he pitched. If he pitched 35 ballgames, how many games did\nhe win?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "70"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "43"
+      },
+      {
+        "id": "D",
+        "text": "35"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b.) 28\nA baseball pitcher won 80% of the games he pitched. If\nhe pitched 35 ballgames, how many games did he win?"
+  },
+  {
+    "id": "nr-162",
+    "subject": "Numerical Reasoning",
+    "prompt": "Jerry, an electrician, worked 9 months out of the year. What percent of the year did he work?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9%"
+      },
+      {
+        "id": "B",
+        "text": "60%"
+      },
+      {
+        "id": "C",
+        "text": "75%"
+      },
+      {
+        "id": "D",
+        "text": "90%"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": ") 75%\nJerry, an electrician, worked 9 months out of the year.\nWhat percent of the year did he work?"
+  },
+  {
+    "id": "nr-163",
+    "subject": "Numerical Reasoning",
+    "prompt": "There are 40 students in a class. Sixteen of those students are boys. What percent of the class are girls?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "60%"
+      },
+      {
+        "id": "B",
+        "text": "40%"
+      },
+      {
+        "id": "C",
+        "text": "43%"
+      },
+      {
+        "id": "D",
+        "text": "50%"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) 60%\nThere are 40 students in a class. Sixteen of those\nstudents are boys. What percent of the class are girls?\nB + G = 40"
+  },
+  {
+    "id": "nr-164",
+    "subject": "Numerical Reasoning",
+    "prompt": "Analie took a math test and got 48 correct and 12 incorrect answers. What was the percentage of correct\nanswers?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "25%"
+      },
+      {
+        "id": "B",
+        "text": "75%"
+      },
+      {
+        "id": "C",
+        "text": "20%"
+      },
+      {
+        "id": "D",
+        "text": "80%"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 80%\nAnalie took a math test and got 48 correct and 12\nincorrect answers. What was the percentage of correct\nanswers?"
+  },
+  {
+    "id": "nr-165",
+    "subject": "Numerical Reasoning",
+    "prompt": "120 is what percent of 48?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2.5%"
+      },
+      {
+        "id": "B",
+        "text": "250%"
+      },
+      {
+        "id": "C",
+        "text": "25%"
+      },
+      {
+        "id": "D",
+        "text": "40%"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"250%\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-166",
+    "subject": "Numerical Reasoning",
+    "prompt": "120% of what number is 72?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "144"
+      },
+      {
+        "id": "B",
+        "text": "600"
+      },
+      {
+        "id": "C",
+        "text": "14,400"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"60\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-167",
+    "subject": "Numerical Reasoning",
+    "prompt": "10% of 300 is what number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "0.3"
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "300"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"30\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-168",
+    "subject": "Numerical Reasoning",
+    "prompt": "Two and one-half percent of what number is 88?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3520"
+      },
+      {
+        "id": "B",
+        "text": "35,200"
+      },
+      {
+        "id": "C",
+        "text": "2.2"
+      },
+      {
+        "id": "D",
+        "text": "352"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "3520\nTwo and one-half percent of what number is 88?"
+  },
+  {
+    "id": "nr-169",
+    "subject": "Numerical Reasoning",
+    "prompt": "95% of people in my street have a car. There are 160 people in my street. How many do not have a car?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "92"
+      },
+      {
+        "id": "C",
+        "text": "152"
+      },
+      {
+        "id": "D",
+        "text": "75"
+      },
+      {
+        "id": "E",
+        "text": "80"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"8\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-170",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 300 students filled form for entrance test and 280 appeared in test out of which only 70% have passed\ntest then number of students who failed test are",
+    "choices": [
+      {
+        "id": "A",
+        "text": "84"
+      },
+      {
+        "id": "B",
+        "text": "54"
+      },
+      {
+        "id": "C",
+        "text": "90"
+      },
+      {
+        "id": "D",
+        "text": "104"
+      },
+      {
+        "id": "E",
+        "text": "20"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"84\") because 30% of the 280 test takers failed."
+  },
+  {
+    "id": "nr-171",
+    "subject": "Numerical Reasoning",
+    "prompt": "40 % of 5 is equal to",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "0.2"
+      },
+      {
+        "id": "D",
+        "text": "0.02"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) 2 ✔\nnote:"
+  },
+  {
+    "id": "nr-172",
+    "subject": "Numerical Reasoning",
+    "prompt": "In a shipment of computers, 2/25 of the computers are defective. What is the ratio of defective to non\ndefective computers?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2/25"
+      },
+      {
+        "id": "B",
+        "text": "2/23"
+      },
+      {
+        "id": "C",
+        "text": "25/2"
+      },
+      {
+        "id": "D",
+        "text": "23/2"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"2/23\") because it gives the correct simplified ratio."
+  },
+  {
+    "id": "nr-173",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which of the following is divisible (with no remainder) by 6?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "856247"
+      },
+      {
+        "id": "B",
+        "text": "625874"
+      },
+      {
+        "id": "C",
+        "text": "147414"
+      },
+      {
+        "id": "D",
+        "text": "235465"
+      },
+      {
+        "id": "E",
+        "text": "142546"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c.) 147414\ndivisible by 6 RULE:\nIf the sum of the digits is divisible by 3 and the last digit\nis divisible by 2.\nSo, we will focus choice B,C,E kasi ito yung may mga\nlast digit na divisible by 2...\nB.6+2+5+8+7+4=32\n✖÷3\nC.1+4+7+4+1+4=21\n÷3\nE.1+4+2+5+4+6=22\n✖÷3"
+  },
+  {
+    "id": "nr-174",
+    "subject": "Numerical Reasoning",
+    "prompt": "A solution is made of water and pure orange. If 80% of the solution is water, how many liters of pure\norange are in 25 liters of this solution?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "25"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      },
+      {
+        "id": "E",
+        "text": "20"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d.) 5 ✔\ngiven:"
+  },
+  {
+    "id": "nr-175",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the average of 7/8 and 3/4?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13/8"
+      },
+      {
+        "id": "B",
+        "text": "5/6"
+      },
+      {
+        "id": "C",
+        "text": "5/3"
+      },
+      {
+        "id": "D",
+        "text": "5/12"
+      },
+      {
+        "id": "E",
+        "text": "13/16"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "e.) 13/16\n(7/8 + 3/4)/2 =\n(7/8 + 6/8)/2 =\n(13/8)/2 = 13/16\nPara mas klaru e rewrite natin"
+  },
+  {
+    "id": "nr-176",
+    "subject": "Numerical Reasoning",
+    "prompt": "If -6/(a - 3) = 3/(a + 2), then a = ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1/3"
+      },
+      {
+        "id": "B",
+        "text": "1/3"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      },
+      {
+        "id": "E",
+        "text": "3"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) -1/3✔\n6/(a - 3) = 3/(a + 2)\n6(a + 2) = 3 (a - 3)\n6a - 12 = 3a - 9\n6a - 3a = -9 + 12\n9a = 3\na = 3/-9\na = - 1/3"
+  },
+  {
+    "id": "nr-177",
+    "subject": "Numerical Reasoning",
+    "prompt": "A company makes a profit equal to 25% of its sales. The profit is shared equally among the 4 owners of\nthe company. If the company generates sales of $2,000,000, how much money does each one of the\nowners get?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "125,000"
+      },
+      {
+        "id": "B",
+        "text": "312,500"
+      },
+      {
+        "id": "C",
+        "text": "500,000"
+      },
+      {
+        "id": "D",
+        "text": "1,250,000"
+      },
+      {
+        "id": "E",
+        "text": "375,000"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"125,000\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-178",
+    "subject": "Numerical Reasoning",
+    "prompt": "If a = 3, then 2 / (1/7 + 1/a) = ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "21/5"
+      },
+      {
+        "id": "B",
+        "text": "21/10"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"21/5\") because evaluating the expression gives this result."
+  },
+  {
+    "id": "nr-179",
+    "subject": "Numerical Reasoning",
+    "prompt": "If (a +",
+    "choices": [
+      {
+        "id": "A",
+        "text": "35"
+      },
+      {
+        "id": "B",
+        "text": "^2 = 25 and (a -"
+      },
+      {
+        "id": "C",
+        "text": "625"
+      },
+      {
+        "id": "D",
+        "text": "2025"
+      },
+      {
+        "id": "E",
+        "text": "4900"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 35 ✔\n(a+b)^2 = a^2+2ab+b^2\n(a-b)^2 = a^2-2ab+b^2\na^2+2ab+b^2 = 25\na^2-2ab+b^2 = 45 (ADD)\n(2a^2 + 2b^2 = 70)/2\na^2 + b^2 = 35"
+  },
+  {
+    "id": "nr-180",
+    "subject": "Numerical Reasoning",
+    "prompt": "10-2+4×2-(10÷5×2) = ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      },
+      {
+        "id": "E",
+        "text": "23"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 12 ✔\nAPPLY the RULE not the acronym...."
+  },
+  {
+    "id": "nr-181",
+    "subject": "Numerical Reasoning",
+    "prompt": "The population of a certain town is 5,000.If it increases 5% each year, what will be the approximate\npopulation at the end of 10 years?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7500"
+      },
+      {
+        "id": "B",
+        "text": "12500"
+      },
+      {
+        "id": "C",
+        "text": "14250"
+      },
+      {
+        "id": "D",
+        "text": "8144"
+      },
+      {
+        "id": "E",
+        "text": "5250"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 8144\nThe population of a certain town is 5,000.\n> population is 5000\nIf it increases 5% each year,\n> EACH YEAR +5%\nQ: what will be the approximate population at the end of"
+  },
+  {
+    "id": "nr-182",
+    "subject": "Numerical Reasoning",
+    "prompt": "Gary decided to cycle to his friend's house at a speed of 6kph and the journey took 30 minutes. How far\ndid Gary cycle?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "18 km"
+      },
+      {
+        "id": "B",
+        "text": "3 km"
+      },
+      {
+        "id": "C",
+        "text": "6 km"
+      },
+      {
+        "id": "D",
+        "text": "12 km"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b.) 3 km\nSOLUTION:\nRate = distance/time\nRate × time = distance\nDistance = 6kph × 30min\nDistance = 6kph × 0.5hr\nDistance = 3 km\nanswer"
+  },
+  {
+    "id": "nr-183",
+    "subject": "Numerical Reasoning",
+    "prompt": "A boat takes 4/5 as much time to travel downstream as to its return. If the rate of the river's current is 6\nkph, what is the rate of the boat in still water?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "30 kph"
+      },
+      {
+        "id": "B",
+        "text": "54 kph"
+      },
+      {
+        "id": "C",
+        "text": "84 kph"
+      },
+      {
+        "id": "D",
+        "text": "60 kph"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b. 54 kph✔\nSOLUTION:\nA boat takes 4/5 as much time to travel downstream as\nto its return.\n> 4 downstream vs 5 upstream\nRate of river current na nagpapabagal sa boat upstream:"
+  },
+  {
+    "id": "nr-184",
+    "subject": "Numerical Reasoning",
+    "prompt": "If a car travels at 60 kph, what is the distance it travels in 30 minutes?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2 km"
+      },
+      {
+        "id": "B",
+        "text": "30 km"
+      },
+      {
+        "id": "C",
+        "text": "120 km"
+      },
+      {
+        "id": "D",
+        "text": "1,800 km"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b.) 30 km ✔\nSOLUTION:\nRate = distance/time\nRate×time = distance\nDistance = 60 kph × 30min\nDistance = 60 kph × 0.5hr\nDistance = 30 km\n✔Answer"
+  },
+  {
+    "id": "nr-185",
+    "subject": "Numerical Reasoning",
+    "prompt": "A car travels 120 miles at a speed of 40 miles per hour and makes a return trip at a speed of 60 miles per\nhour. What is its average speed, in miles per hour, of the police car?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "42"
+      },
+      {
+        "id": "B",
+        "text": "44"
+      },
+      {
+        "id": "C",
+        "text": "46"
+      },
+      {
+        "id": "D",
+        "text": "48"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d.) 48 mph\nSOLUTION:\nRate = distance/time\ntime = distance/rate\nTotal distance:"
+  },
+  {
+    "id": "nr-186",
+    "subject": "Numerical Reasoning",
+    "prompt": "What was the ratio of investment in 1997 over the investment in 1992 ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "5.50"
+      },
+      {
+        "id": "B",
+        "text": "5.36"
+      },
+      {
+        "id": "C",
+        "text": "5.64"
+      },
+      {
+        "id": "D",
+        "text": "5.75"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Use the chart values for 1997 and 1992: 31.36 ? 5.70 = 5.50. So the 1997 investment is 5.50 times the 1992 investment.",
+    "image": "/question-images/nr-186.png"
+  },
+  {
+    "id": "nr-187",
+    "subject": "Numerical Reasoning",
+    "prompt": "What was absolute difference in the FDI to Philippines in between 1996 and 1997 ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "7.29"
+      },
+      {
+        "id": "B",
+        "text": "7.13"
+      },
+      {
+        "id": "C",
+        "text": "8.13"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Use the chart values for 1997 and 1996: 31.36 - 24.23 = 7.13.",
+    "image": "/question-images/nr-187.png"
+  },
+  {
+    "id": "nr-188",
+    "subject": "Numerical Reasoning",
+    "prompt": "If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI\nfrom all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was\nthe amount of FDI from the OPEC countries in 1997 ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "11"
+      },
+      {
+        "id": "B",
+        "text": "10.72"
+      },
+      {
+        "id": "C",
+        "text": "11.28"
+      },
+      {
+        "id": "D",
+        "text": "11.5"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Keep the same proportion from 1992 to 1997. If 2 million corresponds to 5.70, then x corresponds to 31.36: x = (2 ? 5.70) x 31.36, which is about 11.",
+    "image": "/question-images/nr-188.png"
+  },
+  {
+    "id": "nr-189",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which year exhibited the highest growth in FDI in Philippines over the period shown ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1993"
+      },
+      {
+        "id": "B",
+        "text": "1994"
+      },
+      {
+        "id": "C",
+        "text": "1995"
+      },
+      {
+        "id": "D",
+        "text": "1996"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The biggest percentage jump occurs from 1995 to 1996, where FDI rises from 10.22 to 24.23. That is more than double, larger than any other year-to-year growth shown.",
+    "image": "/question-images/nr-189.png"
+  },
+  {
+    "id": "nr-190",
+    "subject": "Numerical Reasoning",
+    "prompt": "What was Philippines' total FDI for the period shown in the figure ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "93.82"
+      },
+      {
+        "id": "B",
+        "text": "93.22"
+      },
+      {
+        "id": "C",
+        "text": "93.19"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Add all the values in the chart: 5.70 + 10.15 + 12.16 + 10.22 + 24.23 + 31.36 = 93.82.",
+    "image": "/question-images/nr-190.png"
+  },
+  {
+    "id": "nr-191",
+    "subject": "Numerical Reasoning",
+    "prompt": "What are the average marks obtained by the student in all the periodical exams during the last\nsession?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "373"
+      },
+      {
+        "id": "B",
+        "text": "379"
+      },
+      {
+        "id": "C",
+        "text": "381"
+      },
+      {
+        "id": "D",
+        "text": "385"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Add the six scores: 360 + 365 + 370 + 385 + 400 + 405 = 2,285. Divide by 6 to get about 380.8, which rounds to 381.",
+    "image": "/question-images/nr-191.png"
+  },
+  {
+    "id": "nr-192",
+    "subject": "Numerical Reasoning",
+    "prompt": "In which periodical exams there is a fall in percentage of marks as compared to the previous\nperiodical exams ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "None"
+      },
+      {
+        "id": "B",
+        "text": "June, 01"
+      },
+      {
+        "id": "C",
+        "text": "Oct, 01"
+      },
+      {
+        "id": "D",
+        "text": "Feb, 02"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Each exam score is higher than the previous one: 360, 365, 370, 385, 400, then 405. Since there is no drop, the answer is None.",
+    "image": "/question-images/nr-192.png"
+  },
+  {
+    "id": "nr-193",
+    "subject": "Numerical Reasoning",
+    "prompt": "The total number of marks obtained in Feb. 02 is what percent of the total marks obtained in April 01\n?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "110%"
+      },
+      {
+        "id": "B",
+        "text": "112.5%"
+      },
+      {
+        "id": "C",
+        "text": "115%"
+      },
+      {
+        "id": "D",
+        "text": "116.5%"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Compare February 2002 to April 2001: 405 ? 360 = 1.125. Converting to a percent gives 112.5%.",
+    "image": "/question-images/nr-193.png"
+  },
+  {
+    "id": "nr-194",
+    "subject": "Numerical Reasoning",
+    "prompt": "The table below shows the data Steve\ncollected while watching birds for one\nweek. How many raptors did Steve see on\nMonday?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "6 raptors"
+      },
+      {
+        "id": "B",
+        "text": "7 raptors"
+      },
+      {
+        "id": "C",
+        "text": "8 raptors"
+      },
+      {
+        "id": "D",
+        "text": "10 raptors"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The table gives Tuesday through Friday and the mean is 8 over 5 days. Total raptors must be 8 x 5 = 40. Known days total 7 + 12 + 11 + 4 = 34, so Monday is 40 - 34 = 6 raptors.",
+    "image": "/question-images/nr-194.png"
+  },
+  {
+    "id": "nr-195",
+    "subject": "Numerical Reasoning",
+    "prompt": "(2×1÷2), (4÷1×2), (6×1÷2), _____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "32"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b. 16\n(2×1÷2), (4÷1×2), (6×1÷2), (8×1÷2)\nSince (8÷1×2) is not found in the choices,\nso we have to solve this. (8÷1×2) = 16"
+  },
+  {
+    "id": "nr-196",
+    "subject": "Numerical Reasoning",
+    "prompt": "(15-8+3), 8, (4÷2×3), ____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 4\n(15-8+3), 8, (4÷2×3),___"
+  },
+  {
+    "id": "nr-197",
+    "subject": "Numerical Reasoning",
+    "prompt": "Simplify:\n33 1/3 % of 48 + 12 ½ % of 96 - 44 4/9 % of 27",
+    "choices": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "48"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"16\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-198",
+    "subject": "Numerical Reasoning",
+    "prompt": "12 is 125% of what number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9.6"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      },
+      {
+        "id": "E",
+        "text": "8.6"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"9.6\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-199",
+    "subject": "Numerical Reasoning",
+    "prompt": "What percent of 16 is 40?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2.5%"
+      },
+      {
+        "id": "B",
+        "text": "2500%"
+      },
+      {
+        "id": "C",
+        "text": "1/4"
+      },
+      {
+        "id": "D",
+        "text": "250%"
+      },
+      {
+        "id": "E",
+        "text": "25%"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 250%\nWhat percent of 16 is 40?\nN × 16 = 40\nN = 40/16 = 2.5×100% = 250%"
+  },
+  {
+    "id": "nr-200",
+    "subject": "Numerical Reasoning",
+    "prompt": "1 ¼ subtracted from its reciprocal is?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "9/20"
+      },
+      {
+        "id": "B",
+        "text": "0.45"
+      },
+      {
+        "id": "C",
+        "text": "2.25"
+      },
+      {
+        "id": "D",
+        "text": "9/20"
+      },
+      {
+        "id": "E",
+        "text": "1/5"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"9/20\") because evaluating the expression gives this result."
+  },
+  {
+    "id": "nr-201",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the ratio of ¼ to 3/5?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1 : 3"
+      },
+      {
+        "id": "B",
+        "text": "3 : 20"
+      },
+      {
+        "id": "C",
+        "text": "5 : 12"
+      },
+      {
+        "id": "D",
+        "text": "3 : 4"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 5 : 12\n0.25 : 0.6 = 25:60 = 5:12"
+  },
+  {
+    "id": "nr-202",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the difference between √150 and √54?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3 √6"
+      },
+      {
+        "id": "B",
+        "text": "16 √6"
+      },
+      {
+        "id": "C",
+        "text": "√96"
+      },
+      {
+        "id": "D",
+        "text": "6 √2"
+      },
+      {
+        "id": "E",
+        "text": "5 : 4"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "e. 2 √6\n√150 -√54 = √(25×6) √(9×6)\n= 5√6 3√6 = 2√6"
+  },
+  {
+    "id": "nr-203",
+    "subject": "Numerical Reasoning",
+    "prompt": "A race car travelled for 2 ½ hours with an average speed of 132 5/8 km per hour.\nFind the total distance it covered.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "264 5/16 km"
+      },
+      {
+        "id": "B",
+        "text": "331 9/16 km"
+      },
+      {
+        "id": "C",
+        "text": "330 5/16 km"
+      },
+      {
+        "id": "D",
+        "text": "135 1/8km"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"331 9/16 km\") because computing the average gives this result."
+  },
+  {
+    "id": "nr-204",
+    "subject": "Numerical Reasoning",
+    "prompt": "990 − (−2)2 + (−32) − (−4)2 = ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "−28"
+      },
+      {
+        "id": "B",
+        "text": "−10"
+      },
+      {
+        "id": "C",
+        "text": "−9"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. −28\n990 − (−2)2 + (−32) − (−4)2 = ?"
+  },
+  {
+    "id": "nr-205",
+    "subject": "Numerical Reasoning",
+    "prompt": "(100)0 + (−42)−22 = ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "19"
+      },
+      {
+        "id": "B",
+        "text": "−19"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "21"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b. −19\n(100)0 + (−42)−22 = ?"
+  },
+  {
+    "id": "nr-206",
+    "subject": "Numerical Reasoning",
+    "prompt": "A one fourth percent of a number is 25. What is the number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "100"
+      },
+      {
+        "id": "B",
+        "text": "1,000"
+      },
+      {
+        "id": "C",
+        "text": "10,000"
+      },
+      {
+        "id": "D",
+        "text": "100,000"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 10,000\nA one fourth percent of a number is 25."
+  },
+  {
+    "id": "nr-207",
+    "subject": "Numerical Reasoning",
+    "prompt": "A mini grocery store has a sale of Php 6435, Php 6927, Php 6855, Php 7230 and Php 6562 for 5\nconsecutive months. How much sale must he have in the sixth month so that he gets an average\nsale of Php 6500?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Php 4991"
+      },
+      {
+        "id": "B",
+        "text": "Php 5991"
+      },
+      {
+        "id": "C",
+        "text": "Php 6001"
+      },
+      {
+        "id": "D",
+        "text": "Php 6991"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. Php 4991\n6500×6 = 39,000−(6435+6927+6855+7230+6562)\n= 4991"
+  },
+  {
+    "id": "nr-208",
+    "subject": "Numerical Reasoning",
+    "prompt": "The mean median and mode of 9 numbers are equal. The numbers are 12, 22, 10, 15, 14, 11, 19,\n17.\nWhat is the 9th number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "14"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "15"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      },
+      {
+        "id": "E",
+        "text": "11"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 15\n(12+22+10+15+14+11+19+17)/8=120/8 = 15"
+  },
+  {
+    "id": "nr-209",
+    "subject": "Numerical Reasoning",
+    "prompt": "The mean median and mode of 5 numbers are equal. The numbers are 29, 18, 24, 25.\nWhat is the 5th number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "29"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      },
+      {
+        "id": "E",
+        "text": "18"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 24\n(29+18+24+25)/4 = 96/4 = 24"
+  },
+  {
+    "id": "nr-210",
+    "subject": "Numerical Reasoning",
+    "prompt": "90 increased by what percent of itself gives 180?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "50%"
+      },
+      {
+        "id": "B",
+        "text": "90%"
+      },
+      {
+        "id": "C",
+        "text": "150%"
+      },
+      {
+        "id": "D",
+        "text": "100%"
+      },
+      {
+        "id": "E",
+        "text": "200%"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"100%\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-211",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 500 or 25% of graduating class are girls, how many are graduating?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2,000"
+      },
+      {
+        "id": "B",
+        "text": "3,000"
+      },
+      {
+        "id": "C",
+        "text": "5,000"
+      },
+      {
+        "id": "D",
+        "text": "10,000"
+      },
+      {
+        "id": "E",
+        "text": "20,000"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 2,000\n500 × 4 = 2,000\nIf 500 or 25% of graduating class are girls"
+  },
+  {
+    "id": "nr-212",
+    "subject": "Numerical Reasoning",
+    "prompt": "In a group of 8, 000 applicants for a civil service examination, 1600 failed to take the first part of\nthe test. What percent of the total applicants took the first part of the test?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "20%"
+      },
+      {
+        "id": "B",
+        "text": "30%"
+      },
+      {
+        "id": "C",
+        "text": "40%"
+      },
+      {
+        "id": "D",
+        "text": "80%"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"80%\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-213",
+    "subject": "Numerical Reasoning",
+    "prompt": "Cassy's father was 38 years of age when she was born while her mother was 36 years old when\nher brother four years younger to her was born. What is the difference between the ages of her\nparents?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2 years"
+      },
+      {
+        "id": "B",
+        "text": "4 years"
+      },
+      {
+        "id": "C",
+        "text": "6 years"
+      },
+      {
+        "id": "D",
+        "text": "8 years"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"6 years\") because solving the word problem gives this result."
+  },
+  {
+    "id": "nr-214",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 100%, 2, 15/5, 4, ____?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"5\") because it correctly continues the number pattern."
+  },
+  {
+    "id": "nr-215",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 1/6, 1/3, 1/2, 2/3, ____?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2/6"
+      },
+      {
+        "id": "B",
+        "text": "2/7"
+      },
+      {
+        "id": "C",
+        "text": "3/5"
+      },
+      {
+        "id": "D",
+        "text": "5/6"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"5/6\") because it correctly continues the number pattern."
+  },
+  {
+    "id": "nr-216",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 250%, 50%, 100%, 20%, 40%, ____?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8%"
+      },
+      {
+        "id": "B",
+        "text": "10%"
+      },
+      {
+        "id": "C",
+        "text": "5%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 8%\n250%÷5=50% 100%÷5=20%"
+  },
+  {
+    "id": "nr-217",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 0.1, 30%, 1/2, 0.7, 90%, ____?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1 1/10"
+      },
+      {
+        "id": "B",
+        "text": "100%"
+      },
+      {
+        "id": "C",
+        "text": "7/9"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 1 1/10\n0.1, 30%, 1/2, 0.7, 90%, ____?\n0.1. 0.3, 0.5, 0.7, 0.9, 1.1"
+  },
+  {
+    "id": "nr-218",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 5, 6, 9, 15, ____, 40",
+    "choices": [
+      {
+        "id": "A",
+        "text": "21"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "25"
+      },
+      {
+        "id": "D",
+        "text": "1.4"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"25\") because the differences are +1, +3, +6, +10, and +15."
+  },
+  {
+    "id": "nr-219",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 5,16,49,104,____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "170"
+      },
+      {
+        "id": "B",
+        "text": "148"
+      },
+      {
+        "id": "C",
+        "text": "115"
+      },
+      {
+        "id": "D",
+        "text": "33"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"181\") because the differences are +11, +33, +55, and +77."
+  },
+  {
+    "id": "nr-220",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 225, 336, 447, ____, 669, 7710",
+    "choices": [
+      {
+        "id": "A",
+        "text": "114"
+      },
+      {
+        "id": "B",
+        "text": "991"
+      },
+      {
+        "id": "C",
+        "text": "558"
+      },
+      {
+        "id": "D",
+        "text": "338"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"558\") because each term concatenates consecutive numbers: 2|25, 3|36, 4|47, 5|58, 6|69, 7|710."
+  },
+  {
+    "id": "nr-221",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 563,647,479,815,____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "672"
+      },
+      {
+        "id": "B",
+        "text": "386"
+      },
+      {
+        "id": "C",
+        "text": "279"
+      },
+      {
+        "id": "D",
+        "text": "143"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"143\") because it correctly continues the number pattern."
+  },
+  {
+    "id": "nr-222",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 3, 12, 27, 48,75, 108, ____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "183"
+      },
+      {
+        "id": "B",
+        "text": "192"
+      },
+      {
+        "id": "C",
+        "text": "162"
+      },
+      {
+        "id": "D",
+        "text": "147"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"147\") because the terms follow 3 x n^2."
+  },
+  {
+    "id": "nr-223",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 0.5, 0.55, 0.65, 0.8,____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0.82"
+      },
+      {
+        "id": "B",
+        "text": "0.9"
+      },
+      {
+        "id": "C",
+        "text": "0.95"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"1\") because the increments grow by 0.05 each step: +0.05, +0.10, +0.15, +0.20."
+  },
+  {
+    "id": "nr-224",
+    "subject": "Numerical Reasoning",
+    "prompt": "1/2 ÷ 1/4 = ___",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Less than 1"
+      },
+      {
+        "id": "B",
+        "text": "More than 1"
+      },
+      {
+        "id": "C",
+        "text": "Equal to 1"
+      },
+      {
+        "id": "D",
+        "text": "Undefined"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"More than 1\") because evaluating the expression gives this result."
+  },
+  {
+    "id": "nr-225",
+    "subject": "Numerical Reasoning",
+    "prompt": "If Kardo is feeding his buddy 1/2 cup of dog food but uses 1/10 of a cup, how many scoops will he\nneed to feed his dog?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1/12 scoop"
+      },
+      {
+        "id": "B",
+        "text": "1/20 scoop"
+      },
+      {
+        "id": "C",
+        "text": "5 scoops"
+      },
+      {
+        "id": "D",
+        "text": "3 scoops"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"5 scoops\") because solving the word problem gives this result."
+  },
+  {
+    "id": "nr-226",
+    "subject": "Numerical Reasoning",
+    "prompt": "If 1 × 10 = 9, 2 × 10 = 18, 3 × 10 = 27, then what is 8 × 10 = ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "72"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b. 72 /8×10 = 80-8 = 72"
+  },
+  {
+    "id": "nr-227",
+    "subject": "Numerical Reasoning",
+    "prompt": "83 : 25 :: 92 : ___?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "44"
+      },
+      {
+        "id": "B",
+        "text": "49"
+      },
+      {
+        "id": "C",
+        "text": "78"
+      },
+      {
+        "id": "D",
+        "text": "52"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"49\") because it preserves the same number relationship shown in the first pair."
+  },
+  {
+    "id": "nr-228",
+    "subject": "Numerical Reasoning",
+    "prompt": "72 : 18 :: 56 : ___?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "22"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "63"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"22\") because it preserves the same number relationship shown in the first pair."
+  },
+  {
+    "id": "nr-229",
+    "subject": "Numerical Reasoning",
+    "prompt": "2 : 12 :: 8 : ___?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "18"
+      },
+      {
+        "id": "B",
+        "text": "128"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"128\") because it preserves the same number relationship shown in the first pair."
+  },
+  {
+    "id": "nr-230",
+    "subject": "Numerical Reasoning",
+    "prompt": "12 : 72 : : 8 : ___?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "36"
+      },
+      {
+        "id": "D",
+        "text": "38"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"32\") because it preserves the same number relationship shown in the first pair."
+  },
+  {
+    "id": "nr-231",
+    "subject": "Numerical Reasoning",
+    "prompt": "PEMDAS: 10÷2×5−(12÷3×4)+1 =__?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "−1"
+      },
+      {
+        "id": "D",
+        "text": "23"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a. 10\nPEMDAS: 10÷2×5−(12÷3×4)+1 =__?"
+  },
+  {
+    "id": "nr-232",
+    "subject": "Numerical Reasoning",
+    "prompt": "Sum of all odd numbers between 60 to 120.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3775"
+      },
+      {
+        "id": "B",
+        "text": "3050"
+      },
+      {
+        "id": "C",
+        "text": "4000"
+      },
+      {
+        "id": "D",
+        "text": "2700"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 2700\n(61+119){[(119-61)/2 +1]/2}="
+  },
+  {
+    "id": "nr-233",
+    "subject": "Numerical Reasoning",
+    "prompt": "John walks everyday from his house to the police station. After walking at a rate of 2\nmeters/second for 3 minutes, he looks at his watch and realizes that he has to run 4\nmeters/second for 1 minute so he won't be late. What is the distance from his house to the police\nstation?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "10 m"
+      },
+      {
+        "id": "B",
+        "text": "60 m"
+      },
+      {
+        "id": "C",
+        "text": "105 m"
+      },
+      {
+        "id": "D",
+        "text": "400 m"
+      },
+      {
+        "id": "E",
+        "text": "600 m"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "e. 600 m\nWalk: 3×60=180×2 = 360meters\nRun: 1×60=60×4 = 240meters 360+240\n= 600 meter"
+  },
+  {
+    "id": "nr-234",
+    "subject": "Numerical Reasoning",
+    "prompt": "Radicals: √0.000025",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0.5"
+      },
+      {
+        "id": "B",
+        "text": "0.05"
+      },
+      {
+        "id": "C",
+        "text": "0.005"
+      },
+      {
+        "id": "D",
+        "text": "0.00005"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c. 0.005\nRadicals: √0.000025 = √(25/1000000)\n= 5/1000 = 0.005"
+  },
+  {
+    "id": "nr-235",
+    "subject": "Numerical Reasoning",
+    "prompt": "Number Series: 1/12, 1/6, 1/4, 1/3, ____",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "1/3"
+      },
+      {
+        "id": "C",
+        "text": "5/12"
+      },
+      {
+        "id": "D",
+        "text": "½"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"5/12\") because it correctly continues the number pattern."
+  },
+  {
+    "id": "nr-236",
+    "subject": "Numerical Reasoning",
+    "prompt": "A chemist has 400 milliliters of a solution of 20% alcohol on hand, and he wants to mix it with\nenough pure alcohol to turn it into a 30% alcohol solution. How much pure alcohol will this\nrequire?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      },
+      {
+        "id": "E",
+        "text": "57"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": "The correct answer is choice E (\"57\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-237",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the percentage decrease from 80 to 60?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "33.33%"
+      },
+      {
+        "id": "B",
+        "text": "25%"
+      },
+      {
+        "id": "C",
+        "text": "20%"
+      },
+      {
+        "id": "D",
+        "text": "75%"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "b.) 25%\nAmount decrease/original amount × 100% = (80-"
+  },
+  {
+    "id": "nr-238",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the percentage increase from 60 to 80?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "33.33%"
+      },
+      {
+        "id": "B",
+        "text": "25%"
+      },
+      {
+        "id": "C",
+        "text": "20%"
+      },
+      {
+        "id": "D",
+        "text": "75%"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) 33.33%\nAmount increase/original amount × 100%\n(80-"
+  },
+  {
+    "id": "nr-239",
+    "subject": "Numerical Reasoning",
+    "prompt": "A businessman sells 60% English books and still has 28 English books. Originally, he had:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "47"
+      },
+      {
+        "id": "B",
+        "text": "39"
+      },
+      {
+        "id": "C",
+        "text": "60"
+      },
+      {
+        "id": "D",
+        "text": "70"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"70\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-240",
+    "subject": "Numerical Reasoning",
+    "prompt": "Twelve and one half percent of 200 is what number?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "112"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"25\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-241",
+    "subject": "Numerical Reasoning",
+    "prompt": "If the price of a book is first decreased by 25% and then increased by 20%, then the net change in\nthe price will be :",
+    "choices": [
+      {
+        "id": "A",
+        "text": "10%"
+      },
+      {
+        "id": "B",
+        "text": "20%"
+      },
+      {
+        "id": "C",
+        "text": "30%"
+      },
+      {
+        "id": "D",
+        "text": "40%"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"10%\") because converting the given values to percentages leads to this result."
+  },
+  {
+    "id": "nr-242",
+    "subject": "Numerical Reasoning",
+    "prompt": "In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quantity\nof water to be further added is:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "20 L"
+      },
+      {
+        "id": "B",
+        "text": "30 L"
+      },
+      {
+        "id": "C",
+        "text": "40 L"
+      },
+      {
+        "id": "D",
+        "text": "60 L"
+      },
+      {
+        "id": "E",
+        "text": "none of the above"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "d. 60 L\nratio of milk and water 2 : 1 = 40 : 20\nIf this ratio is to be 1 : 2 = 40 : (20+20)×2= 40:80"
+  },
+  {
+    "id": "nr-243",
+    "subject": "Numerical Reasoning",
+    "prompt": "Participants in a certain conference from Luzon, Visayas, and Mindanao are in the ratio of 4:3:2. If\nthere are 120 participants from Luzon, how many participants are there in all?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "270"
+      },
+      {
+        "id": "B",
+        "text": "150"
+      },
+      {
+        "id": "C",
+        "text": "240"
+      },
+      {
+        "id": "D",
+        "text": "420"
+      },
+      {
+        "id": "E",
+        "text": "None of the above"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"270\") because it gives the correct simplified ratio."
   }
 ]

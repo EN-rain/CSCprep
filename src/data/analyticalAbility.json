@@ -2,20 +2,8 @@
   {
     "id": "aa-001",
     "subject": "Analytical Ability",
-    "prompt": "A. Commission on the Filipino Language",
+    "prompt": "A. Commission on the Filipino Language\nB. Commission on Human Rights\nC. Commission on Higher Education\nD. Commission on Population",
     "choices": [
-      {
-        "id": "B",
-        "text": "Commission on Human Rights"
-      },
-      {
-        "id": "C",
-        "text": "Commission on Higher Education"
-      },
-      {
-        "id": "D",
-        "text": "Commission on Population"
-      },
       {
         "id": "A",
         "text": "ABCD"
@@ -34,25 +22,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CBDA: C = Commission on Higher Education, B = Commission on Human Rights, D = Commission on Population, A = Commission on the Filipino Language. That matches choice B."
   },
   {
     "id": "aa-002",
     "subject": "Analytical Ability",
-    "prompt": "A. Cooperative Development Authority",
+    "prompt": "A. Cooperative Development Authority\nB. Cottage Industry Development Enterprise\nC. Cottage Industry Technology Center\nD. Council for the Welfare of Children",
     "choices": [
-      {
-        "id": "B",
-        "text": "Cottage Industry Development Enterprise"
-      },
-      {
-        "id": "C",
-        "text": "Cottage Industry Technology Center"
-      },
-      {
-        "id": "D",
-        "text": "Council for the Welfare of Children"
-      },
       {
         "id": "A",
         "text": "ABCD"
@@ -71,25 +47,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is ABCD: A = Cooperative Development Authority, B = Cottage Industry Development Enterprise, C = Cottage Industry Technology Center, D = Council for the Welfare of Children. That matches choice A."
   },
   {
     "id": "aa-003",
     "subject": "Analytical Ability",
-    "prompt": "A. Food and Nutrition Research Institute",
+    "prompt": "A. Food and Nutrition Research Institute\nB. Fiber Industry Development Authority\nC. Foreign Service Institute\nD. Family Planning Organization of the Philippines",
     "choices": [
-      {
-        "id": "B",
-        "text": "Fiber Industry Development Authority"
-      },
-      {
-        "id": "C",
-        "text": "Foreign Service Institute"
-      },
-      {
-        "id": "D",
-        "text": "Family Planning Organization of the Philippines"
-      },
       {
         "id": "A",
         "text": "ABCD"
@@ -108,25 +72,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is DBAC: D = Family Planning Organization of the Philippines, B = Fiber Industry Development Authority, A = Food and Nutrition Research Institute, C = Foreign Service Institute. That matches choice D."
   },
   {
     "id": "aa-004",
     "subject": "Analytical Ability",
-    "prompt": "A. Insurance Commission",
+    "prompt": "A. Insurance Commission\nB. Industrial Technology Development Institute\nC. Institute of Labor and Manpower Studies\nD. Instructional Materials Corporation",
     "choices": [
-      {
-        "id": "B",
-        "text": "Industrial Technology Development Institute"
-      },
-      {
-        "id": "C",
-        "text": "Institute of Labor and Manpower Studies"
-      },
-      {
-        "id": "D",
-        "text": "Instructional Materials Corporation"
-      },
       {
         "id": "A",
         "text": "BDCA"
@@ -145,25 +97,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is BCDA: B = Industrial Technology Development Institute, C = Institute of Labor and Manpower Studies, D = Instructional Materials Corporation, A = Insurance Commission. That matches choice C."
   },
   {
     "id": "aa-005",
     "subject": "Analytical Ability",
-    "prompt": "A. Presidential Commission on Good Governance",
+    "prompt": "A. Presidential Commission on Good Governance\nB. Presidential Commission to Fight Poverty\nC. Presidential Commission for the Urban Poor\nD. Presidential Commission on Human Rights",
     "choices": [
-      {
-        "id": "B",
-        "text": "Presidential Commission to Fight Poverty"
-      },
-      {
-        "id": "C",
-        "text": "Presidential Commission for the Urban Poor"
-      },
-      {
-        "id": "D",
-        "text": "Presidential Commission on Human Rights"
-      },
       {
         "id": "A",
         "text": "CBAD"
@@ -182,28 +122,16 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CADB: C = Presidential Commission for the Urban Poor, A = Presidential Commission on Good Governance, D = Presidential Commission on Human Rights, B = Presidential Commission to Fight Poverty. That matches choice D."
   },
   {
     "id": "aa-006",
     "subject": "Analytical Ability",
-    "prompt": "A. AA Industrial Chemical Supply",
+    "prompt": "A. AA Industrial Chemical Supply\nB. AB Capital and Investment Corporation\nC. A Soriano Aviation Incorporated\nD. A-1 Driving Company Incorporated",
     "choices": [
       {
-        "id": "B",
-        "text": "AB Capital and Investment Corporation"
-      },
-      {
-        "id": "C",
-        "text": "A Soriano Aviation Incorporated"
-      },
-      {
-        "id": "D",
-        "text": "A-1 Driving Company Incorporated"
-      },
-      {
         "id": "A",
-        "text": "DCAB"
+        "text": "CDAB"
       },
       {
         "id": "B",
@@ -219,25 +147,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = A Soriano Aviation Incorporated, D = A-1 Driving Company Incorporated, A = AA Industrial Chemical Supply, B = AB Capital and Investment Corporation. That matches choice A."
   },
   {
     "id": "aa-007",
     "subject": "Analytical Ability",
-    "prompt": "A. Ayala Plans Inc.",
+    "prompt": "A. Ayala Plans Inc.\nB. Ayala Health Care, Inc.\nC. Ayala Land Inc.\nD. Ayala Life Assurance Inc.",
     "choices": [
-      {
-        "id": "B",
-        "text": "Ayala Health Care, Inc."
-      },
-      {
-        "id": "C",
-        "text": "Ayala Land Inc."
-      },
-      {
-        "id": "D",
-        "text": "Ayala Life Assurance Inc."
-      },
       {
         "id": "A",
         "text": "BCDA"
@@ -256,25 +172,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is BCDA: B = Ayala Health Care, Inc., C = Ayala Land Inc., D = Ayala Life Assurance Inc., A = Ayala Plans Inc. That matches choice A."
   },
   {
     "id": "aa-008",
     "subject": "Analytical Ability",
-    "prompt": "A. Filspin Incorporated",
+    "prompt": "A. Filspin Incorporated\nB. Filway Marketing Inc.\nC. Filsov Shipping Company\nD. Fina Products Inc.",
     "choices": [
-      {
-        "id": "B",
-        "text": "Filway Marketing Inc."
-      },
-      {
-        "id": "C",
-        "text": "Filsov Shipping Company"
-      },
-      {
-        "id": "D",
-        "text": "Fina Products Inc."
-      },
       {
         "id": "A",
         "text": "ACDB"
@@ -293,25 +197,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CABD: C = Filsov Shipping Company, A = Filspin Incorporated, B = Filway Marketing Inc., D = Fina Products Inc. That matches choice B."
   },
   {
     "id": "aa-009",
     "subject": "Analytical Ability",
-    "prompt": "A. John Shannon Montessori",
+    "prompt": "A. John Shannon Montessori\nB. John Paul Hospital\nC. John Robert Powers\nD. John Nelson and Associates",
     "choices": [
-      {
-        "id": "B",
-        "text": "John Paul Hospital"
-      },
-      {
-        "id": "C",
-        "text": "John Robert Powers"
-      },
-      {
-        "id": "D",
-        "text": "John Nelson and Associates"
-      },
       {
         "id": "A",
         "text": "DACB"
@@ -330,25 +222,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is DBCA: D = John Nelson and Associates, B = John Paul Hospital, C = John Robert Powers, A = John Shannon Montessori. That matches choice B."
   },
   {
     "id": "aa-010",
     "subject": "Analytical Ability",
-    "prompt": "A. Sports Zone Restaurant",
+    "prompt": "A. Sports Zone Restaurant\nB. Sports Resources Inc.\nC. Sports Values Inc.\nD. Sports House and General Merchandise",
     "choices": [
-      {
-        "id": "B",
-        "text": "Sports Resources Inc."
-      },
-      {
-        "id": "C",
-        "text": "Sports Values Inc."
-      },
-      {
-        "id": "D",
-        "text": "Sports House and General Merchandise"
-      },
       {
         "id": "A",
         "text": "ABCD"
@@ -367,28 +247,16 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is DBCA: D = Sports House and General Merchandise, B = Sports Resources Inc., C = Sports Values Inc., A = Sports Zone Restaurant. That matches choice D."
   },
   {
     "id": "aa-011",
     "subject": "Analytical Ability",
-    "prompt": "A. Abad, Josephine",
+    "prompt": "A. Abad, Josephine\nB. Abad, Jason\nC. Abad, Joseph\nD. Abad, June",
     "choices": [
       {
-        "id": "B",
-        "text": "Abad, Jason"
-      },
-      {
-        "id": "C",
-        "text": "Abad, Joseph"
-      },
-      {
-        "id": "D",
-        "text": "Abad, June"
-      },
-      {
         "id": "A",
-        "text": "DBCA"
+        "text": "BCAD"
       },
       {
         "id": "B",
@@ -404,25 +272,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is BCAD: B = Abad, Jason, C = Abad, Joseph, A = Abad, Josephine, D = Abad, June. That matches choice A."
   },
   {
     "id": "aa-012",
     "subject": "Analytical Ability",
-    "prompt": "A. St. Stephen’s School",
+    "prompt": "A. St. Stephen’s School\nB. St. Stephen’s University\nC. St. Scholastica’s Academy\nD. St. Scholastica’s College",
     "choices": [
-      {
-        "id": "B",
-        "text": "St. Stephen’s University"
-      },
-      {
-        "id": "C",
-        "text": "St. Scholastica’s Academy"
-      },
-      {
-        "id": "D",
-        "text": "St. Scholastica’s College"
-      },
       {
         "id": "A",
         "text": "ABCD"
@@ -441,25 +297,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = St. Scholastica’s Academy, D = St. Scholastica’s College, A = St. Stephen’s School, B = St. Stephen’s University. That matches choice C."
   },
   {
     "id": "aa-013",
     "subject": "Analytical Ability",
-    "prompt": "A. Santos, Anita",
+    "prompt": "A. Santos, Anita\nB. Santos, Ana\nC. Santos, Antonio\nD. Santos, Anthony",
     "choices": [
-      {
-        "id": "B",
-        "text": "Santos, Ana"
-      },
-      {
-        "id": "C",
-        "text": "Santos, Antonio"
-      },
-      {
-        "id": "D",
-        "text": "Santos, Anthony"
-      },
       {
         "id": "A",
         "text": "CDBA"
@@ -478,25 +322,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is BADC: B = Santos, Ana, A = Santos, Anita, D = Santos, Anthony, C = Santos, Antonio. That matches choice C."
   },
   {
     "id": "aa-014",
     "subject": "Analytical Ability",
-    "prompt": "A. Philippine Daily Inquirer",
+    "prompt": "A. Philippine Daily Inquirer\nB. Philippine Star\nC. Philippine Herald\nD. Philippine Tribune",
     "choices": [
-      {
-        "id": "B",
-        "text": "Philippine Star"
-      },
-      {
-        "id": "C",
-        "text": "Philippine Herald"
-      },
-      {
-        "id": "D",
-        "text": "Philippine Tribune"
-      },
       {
         "id": "A",
         "text": "ABCD"
@@ -515,25 +347,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is ACBD: A = Philippine Daily Inquirer, C = Philippine Herald, B = Philippine Star, D = Philippine Tribune. That matches choice B."
   },
   {
     "id": "aa-015",
     "subject": "Analytical Ability",
-    "prompt": "A. Luna, Antonio",
+    "prompt": "A. Luna, Antonio\nB. Luna, Juan\nC. Luna, Olive\nD. Luna, Oliver",
     "choices": [
-      {
-        "id": "B",
-        "text": "Luna, Juan"
-      },
-      {
-        "id": "C",
-        "text": "Luna, Olive"
-      },
-      {
-        "id": "D",
-        "text": "Luna, Oliver"
-      },
       {
         "id": "A",
         "text": "ABCD"
@@ -552,25 +372,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is ABCD: A = Luna, Antonio, B = Luna, Juan, C = Luna, Olive, D = Luna, Oliver. That matches choice A."
   },
   {
     "id": "aa-016",
     "subject": "Analytical Ability",
-    "prompt": "A. Felimon, Jason",
+    "prompt": "A. Felimon, Jason\nB. Felipe, Julian\nC. Felimon, Jamie\nD. Felipe, Julia",
     "choices": [
-      {
-        "id": "B",
-        "text": "Felipe, Julian"
-      },
-      {
-        "id": "C",
-        "text": "Felimon, Jamie"
-      },
-      {
-        "id": "D",
-        "text": "Felipe, Julia"
-      },
       {
         "id": "A",
         "text": "CADB"
@@ -589,25 +397,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CADB: C = Felimon, Jamie, A = Felimon, Jason, D = Felipe, Julia, B = Felipe, Julian. That matches choice A."
   },
   {
     "id": "aa-017",
     "subject": "Analytical Ability",
-    "prompt": "A. UP Institute for Small Scale Industries",
+    "prompt": "A. UP Institute for Small Scale Industries\nB. UP Institute for Science and Math Education\nC. UP Institute of Biology\nD. UP Institute of Chemistry",
     "choices": [
-      {
-        "id": "B",
-        "text": "UP Institute for Science and Math Education"
-      },
-      {
-        "id": "C",
-        "text": "UP Institute of Biology"
-      },
-      {
-        "id": "D",
-        "text": "UP Institute of Chemistry"
-      },
       {
         "id": "A",
         "text": "ABCD"
@@ -625,26 +421,14 @@
         "text": "CDBA"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "correctChoiceId": "B",
+    "explanation": "Alphabetize the entries by their full names. The correct order is BACD: B = UP Institute for Science and Math Education, A = UP Institute for Small Scale Industries, C = UP Institute of Biology, D = UP Institute of Chemistry. That matches choice B."
   },
   {
     "id": "aa-018",
     "subject": "Analytical Ability",
-    "prompt": "A. Bureau of Post",
+    "prompt": "A. Bureau of Post\nB. Bureau of Internal Revenue\nC. Bureau of Mines\nD. Bureau of Fisheries and Aquatic Resources",
     "choices": [
-      {
-        "id": "B",
-        "text": "Bureau of Internal Revenue"
-      },
-      {
-        "id": "C",
-        "text": "Bureau of Mines"
-      },
-      {
-        "id": "D",
-        "text": "Bureau of Fisheries and Aquatic Resources"
-      },
       {
         "id": "A",
         "text": "DBCA"
@@ -663,25 +447,38 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is DBCA: D = Bureau of Fisheries and Aquatic Resources, B = Bureau of Internal Revenue, C = Bureau of Mines, A = Bureau of Post. That matches choice A."
   },
   {
     "id": "aa-019",
     "subject": "Analytical Ability",
-    "prompt": "A.Quesada, Arianne",
+    "prompt": "A. Rancho, Elian\nB. Rallon, Michel\nC. Ramirez, Sean\nD. Rancho, Elaine",
     "choices": [
       {
+        "id": "A",
+        "text": "BCAD"
+      },
+      {
         "id": "B",
-        "text": "Quisumbing, Armie"
+        "text": "BDAC"
       },
       {
         "id": "C",
-        "text": "Quintin, Adela"
+        "text": "BCDA"
       },
       {
         "id": "D",
-        "text": "Quezon, Aurora"
-      },
+        "text": "BACD"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Alphabetize the entries by their full names. The correct order is BCDA: B = Rallon, Michel, C = Ramirez, Sean, D = Rancho, Elaine, A = Rancho, Elian. That matches choice C."
+  },
+  {
+    "id": "aa-020",
+    "subject": "Analytical Ability",
+    "prompt": "A. Quesada, Arianne\nB. Quisumbing, Armie\nC. Quintin, Adela\nD. Quezon, Aurora",
+    "choices": [
       {
         "id": "A",
         "text": "ABCD"
@@ -700,10 +497,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "Alphabetize the entries by their full names. The correct order is ADCB: A = Quesada, Arianne, D = Quezon, Aurora, C = Quintin, Adela, B = Quisumbing, Armie. That matches choice B."
   },
   {
-    "id": "aa-020",
+    "id": "aa-021",
     "subject": "Analytical Ability",
     "prompt": "3 6 9 12 15",
     "choices": [
@@ -725,10 +522,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"18\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-021",
+    "id": "aa-022",
     "subject": "Analytical Ability",
     "prompt": "C E G I K",
     "choices": [
@@ -750,10 +547,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"M\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-022",
+    "id": "aa-023",
     "subject": "Analytical Ability",
     "prompt": "I K M O Q",
     "choices": [
@@ -775,10 +572,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"S\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-023",
+    "id": "aa-024",
     "subject": "Analytical Ability",
     "prompt": "B D F H J",
     "choices": [
@@ -800,10 +597,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"L\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-024",
+    "id": "aa-025",
     "subject": "Analytical Ability",
     "prompt": "10 17 26 37",
     "choices": [
@@ -825,10 +622,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"50\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-025",
+    "id": "aa-026",
     "subject": "Analytical Ability",
     "prompt": "37 50 65 82",
     "choices": [
@@ -850,10 +647,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"101\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-026",
+    "id": "aa-027",
     "subject": "Analytical Ability",
     "prompt": "3 9 5 25 8 64 12 144",
     "choices": [
@@ -875,10 +672,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"17\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-027",
+    "id": "aa-028",
     "subject": "Analytical Ability",
     "prompt": "AB EF IJ MN",
     "choices": [
@@ -900,10 +697,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"QR\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-028",
+    "id": "aa-029",
     "subject": "Analytical Ability",
     "prompt": "ZY WV TS QP",
     "choices": [
@@ -925,10 +722,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"NM\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-029",
+    "id": "aa-030",
     "subject": "Analytical Ability",
     "prompt": "DC HG LK PO",
     "choices": [
@@ -950,10 +747,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"TS\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-030",
+    "id": "aa-031",
     "subject": "Analytical Ability",
     "prompt": "1 2 5 6 11 12 19 20",
     "choices": [
@@ -975,10 +772,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"29\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-031",
+    "id": "aa-032",
     "subject": "Analytical Ability",
     "prompt": "4 9 5 11 6 13 7 15",
     "choices": [
@@ -1000,10 +797,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"8\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-032",
+    "id": "aa-033",
     "subject": "Analytical Ability",
     "prompt": "6 12 36 72 216",
     "choices": [
@@ -1025,10 +822,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"432\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-033",
+    "id": "aa-034",
     "subject": "Analytical Ability",
     "prompt": "A C C F F F",
     "choices": [
@@ -1050,10 +847,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"J\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-034",
+    "id": "aa-035",
     "subject": "Analytical Ability",
     "prompt": "1 2 6 12 36",
     "choices": [
@@ -1075,10 +872,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"72\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-035",
+    "id": "aa-036",
     "subject": "Analytical Ability",
     "prompt": "H H L L P P T T",
     "choices": [
@@ -1100,10 +897,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"X\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-036",
+    "id": "aa-037",
     "subject": "Analytical Ability",
     "prompt": "E F H G I J",
     "choices": [
@@ -1125,10 +922,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"LK\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-037",
+    "id": "aa-038",
     "subject": "Analytical Ability",
     "prompt": "6 12 7 11 8 10",
     "choices": [
@@ -1150,10 +947,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"9\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-038",
+    "id": "aa-039",
     "subject": "Analytical Ability",
     "prompt": "A C F J O",
     "choices": [
@@ -1175,10 +972,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"U\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-039",
+    "id": "aa-040",
     "subject": "Analytical Ability",
     "prompt": "B DE GHI",
     "choices": [
@@ -1200,10 +997,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"KLMN\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-040",
+    "id": "aa-041",
     "subject": "Analytical Ability",
     "prompt": "A B C D E F",
     "choices": [
@@ -1225,10 +1022,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"G\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-041",
+    "id": "aa-042",
     "subject": "Analytical Ability",
     "prompt": "N O P Q R S",
     "choices": [
@@ -1250,10 +1047,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"T\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-042",
+    "id": "aa-043",
     "subject": "Analytical Ability",
     "prompt": "3 8 48 55 440",
     "choices": [
@@ -1275,10 +1072,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"449\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-043",
+    "id": "aa-044",
     "subject": "Analytical Ability",
     "prompt": "16 12 17 11 18",
     "choices": [
@@ -1300,10 +1097,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"10\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-044",
+    "id": "aa-045",
     "subject": "Analytical Ability",
     "prompt": "29 58 29 145 29",
     "choices": [
@@ -1325,10 +1122,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"232\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-045",
+    "id": "aa-046",
     "subject": "Analytical Ability",
     "prompt": "MZ KX IV GT",
     "choices": [
@@ -1350,10 +1147,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"ER\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-046",
+    "id": "aa-047",
     "subject": "Analytical Ability",
     "prompt": "LO KP JQ IR HS",
     "choices": [
@@ -1375,10 +1172,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"GT\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-047",
+    "id": "aa-048",
     "subject": "Analytical Ability",
     "prompt": "G F I H K",
     "choices": [
@@ -1400,10 +1197,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"J\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-048",
+    "id": "aa-049",
     "subject": "Analytical Ability",
     "prompt": "AZ BY CX DW EV",
     "choices": [
@@ -1425,10 +1222,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"FU\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-049",
+    "id": "aa-050",
     "subject": "Analytical Ability",
     "prompt": "396 384 370 354 336",
     "choices": [
@@ -1450,10 +1247,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"316\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-050",
+    "id": "aa-051",
     "subject": "Analytical Ability",
     "prompt": "15 17 18 21 22",
     "choices": [
@@ -1475,10 +1272,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"26\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-051",
+    "id": "aa-052",
     "subject": "Analytical Ability",
     "prompt": "7 21 14 42 42",
     "choices": [
@@ -1500,10 +1297,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"126\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-052",
+    "id": "aa-053",
     "subject": "Analytical Ability",
     "prompt": "314 321 322 330 332",
     "choices": [
@@ -1525,10 +1322,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"341\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-053",
+    "id": "aa-054",
     "subject": "Analytical Ability",
     "prompt": "F21 H19 K16 O12 T7",
     "choices": [
@@ -1550,10 +1347,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"Z1\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-054",
+    "id": "aa-055",
     "subject": "Analytical Ability",
     "prompt": "I18 K16 M14 O12",
     "choices": [
@@ -1575,10 +1372,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"Q10\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-055",
+    "id": "aa-056",
     "subject": "Analytical Ability",
     "prompt": "BO DQ FS HU JW",
     "choices": [
@@ -1600,10 +1397,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"LY\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-056",
+    "id": "aa-057",
     "subject": "Analytical Ability",
     "prompt": "BC PQ EF HU JW",
     "choices": [
@@ -1625,10 +1422,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"HI\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-057",
+    "id": "aa-058",
     "subject": "Analytical Ability",
     "prompt": "E4 G6 I8 K10 M12",
     "choices": [
@@ -1650,10 +1447,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"O14\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-058",
+    "id": "aa-059",
     "subject": "Analytical Ability",
     "prompt": "DQ4 GT7 CP3 HU8 BO2",
     "choices": [
@@ -1675,10 +1472,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"IV9\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-059",
+    "id": "aa-060",
     "subject": "Analytical Ability",
     "prompt": "AN1 CP3 ER5 GT7 IV9 KX11",
     "choices": [
@@ -1700,10 +1497,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"MZ13\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-060",
+    "id": "aa-061",
     "subject": "Analytical Ability",
     "prompt": "A1 C3 E5",
     "choices": [
@@ -1725,10 +1522,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"G7\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-061",
+    "id": "aa-062",
     "subject": "Analytical Ability",
     "prompt": "A26 C24 EF21",
     "choices": [
@@ -1750,10 +1547,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"J17\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-062",
+    "id": "aa-063",
     "subject": "Analytical Ability",
     "prompt": "J10 L12 N14",
     "choices": [
@@ -1775,10 +1572,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"P16\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-063",
+    "id": "aa-064",
     "subject": "Analytical Ability",
     "prompt": "8R 6T 4V",
     "choices": [
@@ -1800,10 +1597,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"2x\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-064",
+    "id": "aa-065",
     "subject": "Analytical Ability",
     "prompt": "J1017 L1215 N1413",
     "choices": [
@@ -1825,10 +1622,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"P1611\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-065",
+    "id": "aa-066",
     "subject": "Analytical Ability",
     "prompt": "AC FH KM",
     "choices": [
@@ -1850,10 +1647,10 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice C (\"PR\") because it best matches the pattern or logical relationship in the item."
   },
   {
-    "id": "aa-066",
+    "id": "aa-067",
     "subject": "Analytical Ability",
     "prompt": "1516 1819 2122",
     "choices": [
@@ -1875,10 +1672,10 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice D (\"2425\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-067",
+    "id": "aa-068",
     "subject": "Analytical Ability",
     "prompt": "1121 2242 3483",
     "choices": [
@@ -1900,10 +1697,10 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice A (\"4964\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-068",
+    "id": "aa-069",
     "subject": "Analytical Ability",
     "prompt": "aa33bb cc77dd ee1111ff",
     "choices": [
@@ -1925,10 +1722,10 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
+    "explanation": "The correct answer is choice B (\"gg1515hh\") because it correctly continues the sequence pattern."
   },
   {
-    "id": "aa-069",
+    "id": "aa-070",
     "subject": "Analytical Ability",
     "prompt": "b9b9 c7c7 d5d5",
     "choices": [
@@ -1950,38 +1747,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct answer extracted from the source PDF red/bold answer marking."
-  },
-  {
-    "id": "aa-070",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 1 from PDF page 153. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-153.png"
+    "explanation": "The correct answer is choice A (\"e3e2\") because it correctly continues the sequence pattern."
   },
   {
     "id": "aa-071",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 2 from PDF page 153. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 1. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2000,14 +1771,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-153.png"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-071.png"
   },
   {
     "id": "aa-072",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 3 from PDF page 153. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 2. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2027,13 +1798,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-153.png"
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-072.png"
   },
   {
     "id": "aa-073",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 4 from PDF page 154. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 3. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2052,14 +1823,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-154.png"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-073.png"
   },
   {
     "id": "aa-074",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 5 from PDF page 154. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 4. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2078,14 +1849,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-154.png"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-074.png"
   },
   {
     "id": "aa-075",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 6 from PDF page 154. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 5. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2104,14 +1875,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-154.png"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-075.png"
   },
   {
     "id": "aa-076",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 7 from PDF page 155. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Moving up the pyramid from the bottom row, these lines appear in each hexagon according to a set rule, depending on the lines which appear in the two hexagons directly below it. Which of a, b, c, d, below, should replace the hexagon with the question mark at the top of the pyramid?\n\nAbstract Reasoning item 6. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2130,14 +1901,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-155.png"
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Option a\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-076.png"
   },
   {
     "id": "aa-077",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 8 from PDF page 155. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with the question mark?\n\nAbstract Reasoning item 7. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2157,13 +1928,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-155.png"
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-077.png"
   },
   {
     "id": "aa-078",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 9 from PDF page 155. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with the question mark?\n\nAbstract Reasoning item 8. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2182,14 +1953,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-155.png"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-078.png"
   },
   {
     "id": "aa-079",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 10 from PDF page 155. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with the question mark?\n\nAbstract Reasoning item 9. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2208,14 +1979,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-155.png"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-079.png"
   },
   {
     "id": "aa-080",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 11 from PDF page 156. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with the question mark?\n\nAbstract Reasoning item 10. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2234,14 +2005,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-156.png"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-080.png"
   },
   {
     "id": "aa-081",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 12 from PDF page 156. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with a question mark?\n\nAbstract Reasoning item 11. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2260,14 +2031,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-156.png"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-081.png"
   },
   {
     "id": "aa-082",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 13 from PDF page 156. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with a question mark?\n\nAbstract Reasoning item 12. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2286,274 +2057,14 @@
         "text": "Option d"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-156.png"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-082.png"
   },
   {
     "id": "aa-083",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 14 from PDF page 156. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-156.png"
-  },
-  {
-    "id": "aa-084",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 15 from PDF page 157. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-157.png"
-  },
-  {
-    "id": "aa-085",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 16 from PDF page 157. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-157.png"
-  },
-  {
-    "id": "aa-086",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 17 from PDF page 157. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-157.png"
-  },
-  {
-    "id": "aa-087",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 18 from PDF page 157. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-157.png"
-  },
-  {
-    "id": "aa-088",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 19 from PDF page 158. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-158.png"
-  },
-  {
-    "id": "aa-089",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 20 from PDF page 158. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-158.png"
-  },
-  {
-    "id": "aa-090",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 21 from PDF page 158. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-158.png"
-  },
-  {
-    "id": "aa-091",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 22 from PDF page 158. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-158.png"
-  },
-  {
-    "id": "aa-092",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 23 from PDF page 158. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-158.png"
-  },
-  {
-    "id": "aa-093",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 24 from PDF page 159. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with a question mark?\n\nAbstract Reasoning item 13. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2573,143 +2084,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-159.png"
+    "explanation": "The correct answer is choice A (\"Option a\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-083.png"
   },
   {
-    "id": "aa-094",
+    "id": "aa-084",
     "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 25 from PDF page 159. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-159.png"
-  },
-  {
-    "id": "aa-095",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 26 from PDF page 159. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "C",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-159.png"
-  },
-  {
-    "id": "aa-096",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 27 from PDF page 159. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "C",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-159.png"
-  },
-  {
-    "id": "aa-097",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 28 from PDF page 159. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "C",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-159.png"
-  },
-  {
-    "id": "aa-098",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 29 from PDF page 160. Use the figure shown in the image to choose the correct option.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option a"
-      },
-      {
-        "id": "B",
-        "text": "Option b"
-      },
-      {
-        "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
-      }
-    ],
-    "correctChoiceId": "B",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-160.png"
-  },
-  {
-    "id": "aa-099",
-    "subject": "Analytical Ability",
-    "prompt": "Abstract Reasoning item 30 from PDF page 160. Use the figure shown in the image to choose the correct option.",
+    "prompt": "Look across each row and down each column, then try to find the correct right-hand bottom tile from the choices below.\n\nAbstract Reasoning item 14. Use the figure shown in the source image.",
     "choices": [
       {
         "id": "A",
@@ -2729,7 +2110,2911 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Correct option extracted from the source PDF red/bold answer marking. This item depends on the attached figure image.",
-    "image": "/question-images/csc11-page-160.png"
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-084.png"
+  },
+  {
+    "id": "aa-085",
+    "subject": "Analytical Ability",
+    "prompt": "Look across each row and down each column, then try to find the correct right-hand bottom tile from the choices below.\n\nAbstract Reasoning item 15. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-085.png"
+  },
+  {
+    "id": "aa-086",
+    "subject": "Analytical Ability",
+    "prompt": "Look across each row and down each column, then try to find the correct right-hand bottom tile from the choices below.\n\nAbstract Reasoning item 16. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-086.png"
+  },
+  {
+    "id": "aa-087",
+    "subject": "Analytical Ability",
+    "prompt": "Look across each row and down each column, then try to find the correct right-hand bottom tile from the choices below.\n\nAbstract Reasoning item 17. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-087.png"
+  },
+  {
+    "id": "aa-088",
+    "subject": "Analytical Ability",
+    "prompt": "Select the missing piece from a, b, c, or d, so that the whole square will contain an even, symmetrical pattern.\n\nAbstract Reasoning item 18. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-088.png"
+  },
+  {
+    "id": "aa-089",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 19. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-089.png"
+  },
+  {
+    "id": "aa-090",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 20. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-090.png"
+  },
+  {
+    "id": "aa-091",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 21. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-091.png"
+  },
+  {
+    "id": "aa-092",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 22. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-092.png"
+  },
+  {
+    "id": "aa-093",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 23. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-093.png"
+  },
+  {
+    "id": "aa-094",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 24. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Option a\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-094.png"
+  },
+  {
+    "id": "aa-095",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 25. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-095.png"
+  },
+  {
+    "id": "aa-096",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 26. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-096.png"
+  },
+  {
+    "id": "aa-097",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 27. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-097.png"
+  },
+  {
+    "id": "aa-098",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 28. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-098.png"
+  },
+  {
+    "id": "aa-099",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 29. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-099.png"
+  },
+  {
+    "id": "aa-100",
+    "subject": "Analytical Ability",
+    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 30. Use the figure shown in the source image.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option a"
+      },
+      {
+        "id": "B",
+        "text": "Option b"
+      },
+      {
+        "id": "C",
+        "text": "Option c"
+      },
+      {
+        "id": "D",
+        "text": "Option d"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "image": "/question-images/aa-100.png"
+  },
+  {
+    "id": "aa-101",
+    "subject": "Analytical Ability",
+    "prompt": "The history book has more pages from the poetry book, but fewer pages than the math book.\nThe math book has more pages than the science book but fewer pages than the English book.\nThe poetry book has the fewest pages.\nIf the first two statements are true, the third is",
+    "choices": [
+      {
+        "id": "A",
+        "text": "true"
+      },
+      {
+        "id": "B",
+        "text": "false"
+      },
+      {
+        "id": "C",
+        "text": "uncertain"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"uncertain\") because the given statements do not provide enough information to prove the conclusion."
+  },
+  {
+    "id": "aa-102",
+    "subject": "Analytical Ability",
+    "prompt": "Subscribing to Cable T.V. is a luxury. All luxuries are needles expenditures. Having a cellular phone is not\na luxury. Dining in a Five-Star hotel is a needless expenditure\nCONCLUSION:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Having a cellular phone is not a needless expenditure"
+      },
+      {
+        "id": "B",
+        "text": "Subscribing to Cable TV is a needless expenditure"
+      },
+      {
+        "id": "C",
+        "text": "Subscribing to cable TV is not a needless expenditure"
+      },
+      {
+        "id": "D",
+        "text": "Dining in a Five-Star hotel is not a luxury"
+      },
+      {
+        "id": "E",
+        "text": "Dining in a Five-Star hotel is a luxury"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B because all luxuries are needless expenditures, and subscribing to Cable TV is stated to be a luxury."
+  },
+  {
+    "id": "aa-103",
+    "subject": "Analytical Ability",
+    "prompt": "A factory worker has five children. No one else in the factory has five children.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "All workers in the factory have five children each."
+      },
+      {
+        "id": "B",
+        "text": "Everybody in the factory has children."
+      },
+      {
+        "id": "C",
+        "text": "Some of the factory workers have more than five children."
+      },
+      {
+        "id": "D",
+        "text": "Only one worker in the factory has exactly five children."
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Only one worker in the factory has exactly five children.\") because it best matches the pattern or logical relationship in the item."
+  },
+  {
+    "id": "aa-104",
+    "subject": "Analytical Ability",
+    "prompt": "2 5 10 17 26",
+    "choices": [
+      {
+        "id": "A",
+        "text": "37"
+      },
+      {
+        "id": "B",
+        "text": "35"
+      },
+      {
+        "id": "C",
+        "text": "36"
+      },
+      {
+        "id": "D",
+        "text": "38"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The differences are 3, 5, 7, and 9, so the next difference is 11."
+  },
+  {
+    "id": "aa-105",
+    "subject": "Analytical Ability",
+    "prompt": "4 8 16 32 64",
+    "choices": [
+      {
+        "id": "A",
+        "text": "128"
+      },
+      {
+        "id": "B",
+        "text": "96"
+      },
+      {
+        "id": "C",
+        "text": "100"
+      },
+      {
+        "id": "D",
+        "text": "120"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Each term is doubled."
+  },
+  {
+    "id": "aa-106",
+    "subject": "Analytical Ability",
+    "prompt": "What can we infer from this passage?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "An electrical discharge in the clouds causes lightning."
+      },
+      {
+        "id": "B",
+        "text": "Lightning is not as hot as the temperature of the sun's surface."
+      },
+      {
+        "id": "C",
+        "text": "The sound that lightning makes occurs when electricity strikes an object."
+      },
+      {
+        "id": "D",
+        "text": "We hear lightning before we see it."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) We can infer that, an electrical discharge in the\nclouds causes lightning.\nThe passage tells us that, \"Lightning occurs when static\nelectricity inside clouds builds up and causes an electrical\ncharge,\""
+  },
+  {
+    "id": "aa-107",
+    "subject": "Analytical Ability",
+    "prompt": "Being struck by lightning means:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Instant death."
+      },
+      {
+        "id": "B",
+        "text": "Less than a fifty percent chance of survival."
+      },
+      {
+        "id": "C",
+        "text": "A ninety percent chance of surviving the strike."
+      },
+      {
+        "id": "D",
+        "text": "An eighty percent chance of survival."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "c.) Being struck by lightning means, a ninety percent\nchance of surviving the strike.\nFrom the passage, \"statistics show that 90% of victims\nsurvive a lightning blast.\""
+  },
+  {
+    "id": "aa-108",
+    "subject": "Analytical Ability",
+    "prompt": "Lightning is caused by the following:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Water droplets colliding with ice crystals creating static electricity."
+      },
+      {
+        "id": "B",
+        "text": "Friction from the clouds rubbing together."
+      },
+      {
+        "id": "C",
+        "text": "Water droplets colliding."
+      },
+      {
+        "id": "D",
+        "text": "Warm and cold air mixing together."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "a.) We know that lightning is static electricity from the\nthird sentence in the passage. We also know that static\nelectricity is caused by water droplets colliding with ice\ncrystals. Therefore, Lightning is caused by water droplets\ncolliding with ice crystals."
+  },
+  {
+    "id": "aa-109",
+    "subject": "Analytical Ability",
+    "prompt": "A. A responsive educational system should be directed towards regional cooperation.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "Commonality of educational objectives should be replaced by better ways of achieving goals that fit the regional needs."
+      },
+      {
+        "id": "C",
+        "text": "It is necessary to revolutionize the contemporary methodologies in the teaching-learning processes."
+      },
+      {
+        "id": "D",
+        "text": "The educational goals should seek a better way of experimenting with teaching strategies and technologies."
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"ABCD\") because it gives the most coherent order for the statements."
+  },
+  {
+    "id": "aa-110",
+    "subject": "Analytical Ability",
+    "prompt": "Tom puts on his socks before he puts on his shoes. He puts on his shirt before he puts on his jacket.\nTom puts on his shoes before he puts on his shirt.\nIf the first two statements are true, the third\nstatement is",
+    "choices": [
+      {
+        "id": "A",
+        "text": "true"
+      },
+      {
+        "id": "B",
+        "text": "false"
+      },
+      {
+        "id": "C",
+        "text": "uncertain."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"uncertain.\") because the first two statements do not establish any fixed order between Tom's shoes and shirt."
+  },
+  {
+    "id": "aa-111",
+    "subject": "Analytical Ability",
+    "prompt": "All the tulips in Zoe's garden are white.\nAll the pansies in Zoe's garden are yellow.\nAll the flowers in Zoe's garden are either white or\nyellow. If the first two statements are true, the third\nstatement is",
+    "choices": [
+      {
+        "id": "A",
+        "text": "true."
+      },
+      {
+        "id": "B",
+        "text": "false."
+      },
+      {
+        "id": "C",
+        "text": "uncertain."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"uncertain.\") because the first two statements mention only tulips and pansies, not every flower in Zoe's garden."
+  },
+  {
+    "id": "aa-112",
+    "subject": "Analytical Ability",
+    "prompt": "Three pencils cost the same as two erasers. Four erasers cost the same as one ruler.\nPencils are more expensive than rulers.\nIf the first two statements are true, the third\nstatement is",
+    "choices": [
+      {
+        "id": "A",
+        "text": "true."
+      },
+      {
+        "id": "B",
+        "text": "false."
+      },
+      {
+        "id": "C",
+        "text": "uncertain."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"false.\") because 3 pencils = 2 erasers and 4 erasers = 1 ruler, so 6 pencils = 1 ruler and a ruler is more expensive than a pencil."
+  },
+  {
+    "id": "aa-113",
+    "subject": "Analytical Ability",
+    "prompt": "A. One effective way is to diversify his funds to different investments like real estate, stocks and\nmoney instruments like bonds and trust funds.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "CBAD"
+      },
+      {
+        "id": "B",
+        "text": "It is always best to expand money to different investment wheels."
+      },
+      {
+        "id": "C",
+        "text": "A wise investor must not put all his eggs in one basket."
+      },
+      {
+        "id": "D",
+        "text": "He should always consider the risks involved in investing his money."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"A wise investor must not put all his eggs in one basket.\") because it best matches the pattern or logical relationship in the item."
+  },
+  {
+    "id": "aa-114",
+    "subject": "Analytical Ability",
+    "prompt": "7 11 16 22 29",
+    "choices": [
+      {
+        "id": "A",
+        "text": "37"
+      },
+      {
+        "id": "B",
+        "text": "38"
+      },
+      {
+        "id": "C",
+        "text": "36"
+      },
+      {
+        "id": "D",
+        "text": "42"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The differences increase by one: 4, 5, 6, 7, then 8."
+  },
+  {
+    "id": "aa-115",
+    "subject": "Analytical Ability",
+    "prompt": "3 6 12 24 48",
+    "choices": [
+      {
+        "id": "A",
+        "text": "96"
+      },
+      {
+        "id": "B",
+        "text": "97"
+      },
+      {
+        "id": "C",
+        "text": "95"
+      },
+      {
+        "id": "D",
+        "text": "101"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term is doubled."
+  },
+  {
+    "id": "aa-116",
+    "subject": "Analytical Ability",
+    "prompt": "81 72 63 54 45",
+    "choices": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "37"
+      },
+      {
+        "id": "C",
+        "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "41"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The sequence subtracts 9 each time."
+  },
+  {
+    "id": "aa-117",
+    "subject": "Analytical Ability",
+    "prompt": "1 4 9 16 25",
+    "choices": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "37"
+      },
+      {
+        "id": "C",
+        "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "41"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The terms are perfect squares."
+  },
+  {
+    "id": "aa-118",
+    "subject": "Analytical Ability",
+    "prompt": "5 10 20 40 80",
+    "choices": [
+      {
+        "id": "A",
+        "text": "160"
+      },
+      {
+        "id": "B",
+        "text": "161"
+      },
+      {
+        "id": "C",
+        "text": "159"
+      },
+      {
+        "id": "D",
+        "text": "165"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term is doubled."
+  },
+  {
+    "id": "aa-119",
+    "subject": "Analytical Ability",
+    "prompt": "100 90 81 73 66",
+    "choices": [
+      {
+        "id": "A",
+        "text": "60"
+      },
+      {
+        "id": "B",
+        "text": "61"
+      },
+      {
+        "id": "C",
+        "text": "59"
+      },
+      {
+        "id": "D",
+        "text": "65"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The differences are -10, -9, -8, -7, then -6."
+  },
+  {
+    "id": "aa-120",
+    "subject": "Analytical Ability",
+    "prompt": "2 6 18 54 162",
+    "choices": [
+      {
+        "id": "A",
+        "text": "486"
+      },
+      {
+        "id": "B",
+        "text": "487"
+      },
+      {
+        "id": "C",
+        "text": "485"
+      },
+      {
+        "id": "D",
+        "text": "491"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term is multiplied by 3."
+  },
+  {
+    "id": "aa-121",
+    "subject": "Analytical Ability",
+    "prompt": "13 17 22 28 35",
+    "choices": [
+      {
+        "id": "A",
+        "text": "43"
+      },
+      {
+        "id": "B",
+        "text": "44"
+      },
+      {
+        "id": "C",
+        "text": "42"
+      },
+      {
+        "id": "D",
+        "text": "48"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The differences are 4, 5, 6, 7, then 8."
+  },
+  {
+    "id": "aa-122",
+    "subject": "Analytical Ability",
+    "prompt": "144 121 100 81 64",
+    "choices": [
+      {
+        "id": "A",
+        "text": "49"
+      },
+      {
+        "id": "B",
+        "text": "50"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "54"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The terms are descending perfect squares."
+  },
+  {
+    "id": "aa-123",
+    "subject": "Analytical Ability",
+    "prompt": "1 1 2 3 5 8",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "14"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term is the sum of the previous two terms."
+  },
+  {
+    "id": "aa-124",
+    "subject": "Analytical Ability",
+    "prompt": "6 13 27 55 111",
+    "choices": [
+      {
+        "id": "A",
+        "text": "223"
+      },
+      {
+        "id": "B",
+        "text": "224"
+      },
+      {
+        "id": "C",
+        "text": "222"
+      },
+      {
+        "id": "D",
+        "text": "228"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term is doubled and then increased by 1."
+  },
+  {
+    "id": "aa-125",
+    "subject": "Analytical Ability",
+    "prompt": "50 45 39 32 24",
+    "choices": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "14"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The differences are -5, -6, -7, -8, then -9."
+  },
+  {
+    "id": "aa-126",
+    "subject": "Analytical Ability",
+    "prompt": "4 7 13 25 49",
+    "choices": [
+      {
+        "id": "A",
+        "text": "97"
+      },
+      {
+        "id": "B",
+        "text": "98"
+      },
+      {
+        "id": "C",
+        "text": "96"
+      },
+      {
+        "id": "D",
+        "text": "102"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each difference doubles: 3, 6, 12, 24, then 48."
+  },
+  {
+    "id": "aa-127",
+    "subject": "Analytical Ability",
+    "prompt": "9 18 15 30 27",
+    "choices": [
+      {
+        "id": "A",
+        "text": "54"
+      },
+      {
+        "id": "B",
+        "text": "55"
+      },
+      {
+        "id": "C",
+        "text": "53"
+      },
+      {
+        "id": "D",
+        "text": "59"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The pattern alternates multiply by 2 and subtract 3."
+  },
+  {
+    "id": "aa-128",
+    "subject": "Analytical Ability",
+    "prompt": "2 3 5 9 17",
+    "choices": [
+      {
+        "id": "A",
+        "text": "33"
+      },
+      {
+        "id": "B",
+        "text": "34"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "38"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term doubles then subtracts 1."
+  },
+  {
+    "id": "aa-129",
+    "subject": "Analytical Ability",
+    "prompt": "64 32 16 8 4",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term is divided by 2."
+  },
+  {
+    "id": "aa-130",
+    "subject": "Analytical Ability",
+    "prompt": "11 22 44 88 176",
+    "choices": [
+      {
+        "id": "A",
+        "text": "352"
+      },
+      {
+        "id": "B",
+        "text": "353"
+      },
+      {
+        "id": "C",
+        "text": "351"
+      },
+      {
+        "id": "D",
+        "text": "357"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term is doubled."
+  },
+  {
+    "id": "aa-131",
+    "subject": "Analytical Ability",
+    "prompt": "1 3 7 15 31",
+    "choices": [
+      {
+        "id": "A",
+        "text": "63"
+      },
+      {
+        "id": "B",
+        "text": "64"
+      },
+      {
+        "id": "C",
+        "text": "62"
+      },
+      {
+        "id": "D",
+        "text": "68"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term doubles and adds 1."
+  },
+  {
+    "id": "aa-132",
+    "subject": "Analytical Ability",
+    "prompt": "90 75 61 48 36",
+    "choices": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "26"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The differences are -15, -14, -13, -12, then -11."
+  },
+  {
+    "id": "aa-133",
+    "subject": "Analytical Ability",
+    "prompt": "8 12 18 27 40.5",
+    "choices": [
+      {
+        "id": "A",
+        "text": "60.75"
+      },
+      {
+        "id": "B",
+        "text": "61"
+      },
+      {
+        "id": "C",
+        "text": "59"
+      },
+      {
+        "id": "D",
+        "text": "65"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Each term is multiplied by 1.5."
+  },
+  {
+    "id": "aa-134",
+    "subject": "Analytical Ability",
+    "prompt": "C F J O U",
+    "choices": [
+      {
+        "id": "A",
+        "text": "B"
+      },
+      {
+        "id": "B",
+        "text": "A"
+      },
+      {
+        "id": "C",
+        "text": "Z"
+      },
+      {
+        "id": "D",
+        "text": "Y"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the gaps are 3, 4, 5, 6, then 7 letters, wrapping from U to B."
+  },
+  {
+    "id": "aa-135",
+    "subject": "Analytical Ability",
+    "prompt": "Z X U Q L",
+    "choices": [
+      {
+        "id": "A",
+        "text": "F"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The gaps backward are 2, 3, 4, and 5 letters, so the next gap is 6."
+  },
+  {
+    "id": "aa-136",
+    "subject": "Analytical Ability",
+    "prompt": "B E I N T",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The gaps are 3, 4, 5, and 6 letters; after T plus 7 wraps to A."
+  },
+  {
+    "id": "aa-137",
+    "subject": "Analytical Ability",
+    "prompt": "AA AB AD AH AP",
+    "choices": [
+      {
+        "id": "A",
+        "text": "AF"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The second-letter jumps are 1, 2, 4, 8, then 16, wrapping to F."
+  },
+  {
+    "id": "aa-138",
+    "subject": "Analytical Ability",
+    "prompt": "M O R V A",
+    "choices": [
+      {
+        "id": "A",
+        "text": "G"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The gaps are 2, 3, 4, 5, then 6 letters."
+  },
+  {
+    "id": "aa-139",
+    "subject": "Analytical Ability",
+    "prompt": "D G K P V",
+    "choices": [
+      {
+        "id": "A",
+        "text": "C"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The gaps are 3, 4, 5, 6, then 7 letters, wrapping to C."
+  },
+  {
+    "id": "aa-140",
+    "subject": "Analytical Ability",
+    "prompt": "AZ BY CX DW",
+    "choices": [
+      {
+        "id": "A",
+        "text": "EV"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The first letter moves forward while the second moves backward."
+  },
+  {
+    "id": "aa-141",
+    "subject": "Analytical Ability",
+    "prompt": "AB CD EF GH",
+    "choices": [
+      {
+        "id": "A",
+        "text": "IJ"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Both letters advance by two positions each term."
+  },
+  {
+    "id": "aa-142",
+    "subject": "Analytical Ability",
+    "prompt": "ZA YB XC WD",
+    "choices": [
+      {
+        "id": "A",
+        "text": "VE"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The first letter moves backward while the second moves forward."
+  },
+  {
+    "id": "aa-143",
+    "subject": "Analytical Ability",
+    "prompt": "Q S V Z E",
+    "choices": [
+      {
+        "id": "A",
+        "text": "J"
+      },
+      {
+        "id": "B",
+        "text": "H"
+      },
+      {
+        "id": "C",
+        "text": "K"
+      },
+      {
+        "id": "D",
+        "text": "L"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because The gaps are 2, 3, 4, 5, then 6 letters."
+  },
+  {
+    "id": "aa-144",
+    "subject": "Analytical Ability",
+    "prompt": "Book : Chapter :: Tree : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Branch"
+      },
+      {
+        "id": "B",
+        "text": "Leaf"
+      },
+      {
+        "id": "C",
+        "text": "Root"
+      },
+      {
+        "id": "D",
+        "text": "Forest"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a chapter is a part of a book, and a branch is a part of a tree."
+  },
+  {
+    "id": "aa-145",
+    "subject": "Analytical Ability",
+    "prompt": "Doctor : Hospital :: Teacher : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "School"
+      },
+      {
+        "id": "B",
+        "text": "Court"
+      },
+      {
+        "id": "C",
+        "text": "Market"
+      },
+      {
+        "id": "D",
+        "text": "Factory"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a teacher commonly works in a school."
+  },
+  {
+    "id": "aa-146",
+    "subject": "Analytical Ability",
+    "prompt": "Wheel : Car :: Wing : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Airplane"
+      },
+      {
+        "id": "B",
+        "text": "Boat"
+      },
+      {
+        "id": "C",
+        "text": "Train"
+      },
+      {
+        "id": "D",
+        "text": "Road"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a wing is a main part of an airplane."
+  },
+  {
+    "id": "aa-147",
+    "subject": "Analytical Ability",
+    "prompt": "Minute : Hour :: Inch : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Foot"
+      },
+      {
+        "id": "B",
+        "text": "Yard"
+      },
+      {
+        "id": "C",
+        "text": "Meter"
+      },
+      {
+        "id": "D",
+        "text": "Mile"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because minutes make an hour, and inches make a foot."
+  },
+  {
+    "id": "aa-148",
+    "subject": "Analytical Ability",
+    "prompt": "Seed : Plant :: Egg : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Bird"
+      },
+      {
+        "id": "B",
+        "text": "Nest"
+      },
+      {
+        "id": "C",
+        "text": "Feather"
+      },
+      {
+        "id": "D",
+        "text": "Tree"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a seed develops into a plant, and an egg may develop into a bird."
+  },
+  {
+    "id": "aa-149",
+    "subject": "Analytical Ability",
+    "prompt": "Cold : Hot :: Weak : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Strong"
+      },
+      {
+        "id": "B",
+        "text": "Slow"
+      },
+      {
+        "id": "C",
+        "text": "Small"
+      },
+      {
+        "id": "D",
+        "text": "Soft"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the relationship is opposites."
+  },
+  {
+    "id": "aa-150",
+    "subject": "Analytical Ability",
+    "prompt": "Pen : Write :: Knife : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cut"
+      },
+      {
+        "id": "B",
+        "text": "Cook"
+      },
+      {
+        "id": "C",
+        "text": "Draw"
+      },
+      {
+        "id": "D",
+        "text": "Measure"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a pen is used to write, and a knife is used to cut."
+  },
+  {
+    "id": "aa-151",
+    "subject": "Analytical Ability",
+    "prompt": "Judge : Court :: Senator : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Congress"
+      },
+      {
+        "id": "B",
+        "text": "School"
+      },
+      {
+        "id": "C",
+        "text": "Clinic"
+      },
+      {
+        "id": "D",
+        "text": "Market"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a senator works in Congress."
+  },
+  {
+    "id": "aa-152",
+    "subject": "Analytical Ability",
+    "prompt": "Map : Location :: Calendar : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Date"
+      },
+      {
+        "id": "B",
+        "text": "Weather"
+      },
+      {
+        "id": "C",
+        "text": "Money"
+      },
+      {
+        "id": "D",
+        "text": "Name"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a map helps find a location, and a calendar helps find a date."
+  },
+  {
+    "id": "aa-153",
+    "subject": "Analytical Ability",
+    "prompt": "Fish : School :: Sheep : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Flock"
+      },
+      {
+        "id": "B",
+        "text": "Pack"
+      },
+      {
+        "id": "C",
+        "text": "Herd"
+      },
+      {
+        "id": "D",
+        "text": "Crowd"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the analogy asks for the collective noun."
+  },
+  {
+    "id": "aa-154",
+    "subject": "Analytical Ability",
+    "prompt": "Author : Novel :: Composer : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Song"
+      },
+      {
+        "id": "B",
+        "text": "Canvas"
+      },
+      {
+        "id": "C",
+        "text": "Bridge"
+      },
+      {
+        "id": "D",
+        "text": "Medicine"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because an author creates a novel, and a composer creates a song."
+  },
+  {
+    "id": "aa-155",
+    "subject": "Analytical Ability",
+    "prompt": "Thermometer : Temperature :: Barometer : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pressure"
+      },
+      {
+        "id": "B",
+        "text": "Speed"
+      },
+      {
+        "id": "C",
+        "text": "Weight"
+      },
+      {
+        "id": "D",
+        "text": "Length"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a barometer measures pressure."
+  },
+  {
+    "id": "aa-156",
+    "subject": "Analytical Ability",
+    "prompt": "Hammer : Nail :: Screwdriver : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Screw"
+      },
+      {
+        "id": "B",
+        "text": "Bolt"
+      },
+      {
+        "id": "C",
+        "text": "Wire"
+      },
+      {
+        "id": "D",
+        "text": "Pipe"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the tool is paired with what it drives."
+  },
+  {
+    "id": "aa-157",
+    "subject": "Analytical Ability",
+    "prompt": "Library : Books :: Museum : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Artifacts"
+      },
+      {
+        "id": "B",
+        "text": "Patients"
+      },
+      {
+        "id": "C",
+        "text": "Crops"
+      },
+      {
+        "id": "D",
+        "text": "Vehicles"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a museum stores or displays artifacts."
+  },
+  {
+    "id": "aa-158",
+    "subject": "Analytical Ability",
+    "prompt": "Chef : Kitchen :: Pilot : ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cockpit"
+      },
+      {
+        "id": "B",
+        "text": "Harbor"
+      },
+      {
+        "id": "C",
+        "text": "Studio"
+      },
+      {
+        "id": "D",
+        "text": "Courtroom"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because a pilot works from a cockpit."
+  },
+  {
+    "id": "aa-159",
+    "subject": "Analytical Ability",
+    "prompt": "All roses are flowers. Some flowers fade quickly. Therefore, some roses fade quickly.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Uncertain"
+      },
+      {
+        "id": "B",
+        "text": "True"
+      },
+      {
+        "id": "C",
+        "text": "False"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be false"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the statements do not prove that the flowers that fade quickly are roses."
+  },
+  {
+    "id": "aa-160",
+    "subject": "Analytical Ability",
+    "prompt": "All nurses are health workers. Maria is a nurse. Therefore, Maria is a health worker.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Invalid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Maria belongs to the group identified as health workers."
+  },
+  {
+    "id": "aa-161",
+    "subject": "Analytical Ability",
+    "prompt": "No reptiles are mammals. A turtle is a reptile. Therefore, a turtle is not a mammal.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Invalid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the conclusion follows from the two statements."
+  },
+  {
+    "id": "aa-162",
+    "subject": "Analytical Ability",
+    "prompt": "Some writers are teachers. All teachers are professionals. Therefore, some writers are professionals.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Invalid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the writers who are teachers are also professionals."
+  },
+  {
+    "id": "aa-163",
+    "subject": "Analytical Ability",
+    "prompt": "All buses are vehicles. Some vehicles are red. Therefore, all buses are red.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "False"
+      },
+      {
+        "id": "B",
+        "text": "True"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be false"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because some red vehicles do not prove that all buses are red."
+  },
+  {
+    "id": "aa-164",
+    "subject": "Analytical Ability",
+    "prompt": "All honest workers are trusted. Raul is trusted. Therefore, Raul is an honest worker.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Uncertain"
+      },
+      {
+        "id": "B",
+        "text": "True"
+      },
+      {
+        "id": "C",
+        "text": "False"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be true"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because being trusted does not prove the stated cause of trust."
+  },
+  {
+    "id": "aa-165",
+    "subject": "Analytical Ability",
+    "prompt": "No squares are circles. This figure is a square. Therefore, this figure is not a circle.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Invalid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the categories do not overlap."
+  },
+  {
+    "id": "aa-166",
+    "subject": "Analytical Ability",
+    "prompt": "All managers supervise staff. Ana supervises staff. Therefore, Ana is a manager.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Uncertain"
+      },
+      {
+        "id": "B",
+        "text": "True"
+      },
+      {
+        "id": "C",
+        "text": "False"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be true"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because other people may also supervise staff."
+  },
+  {
+    "id": "aa-167",
+    "subject": "Analytical Ability",
+    "prompt": "All mangoes are fruits. No fruits are stones. Therefore, no mangoes are stones.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Invalid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because mangoes are included in a group that excludes stones."
+  },
+  {
+    "id": "aa-168",
+    "subject": "Analytical Ability",
+    "prompt": "Some clerks are typists. Some typists are editors. Therefore, some clerks are editors.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Uncertain"
+      },
+      {
+        "id": "B",
+        "text": "True"
+      },
+      {
+        "id": "C",
+        "text": "False"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be false"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the two ?some? groups may not overlap."
+  },
+  {
+    "id": "aa-169",
+    "subject": "Analytical Ability",
+    "prompt": "Every applicant submitted a form. Leo is an applicant. Therefore, Leo submitted a form.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Invalid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Leo is included in the group described."
+  },
+  {
+    "id": "aa-170",
+    "subject": "Analytical Ability",
+    "prompt": "No punctual employee is late. Ramon is late. Therefore, Ramon is not punctual.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Invalid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because being late excludes him from the punctual group."
+  },
+  {
+    "id": "aa-171",
+    "subject": "Analytical Ability",
+    "prompt": "All tablets are devices. This item is not a tablet. Therefore, this item is not a device.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Uncertain"
+      },
+      {
+        "id": "B",
+        "text": "True"
+      },
+      {
+        "id": "C",
+        "text": "False"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be true"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because non-tablets can still be devices."
+  },
+  {
+    "id": "aa-172",
+    "subject": "Analytical Ability",
+    "prompt": "All citizens have duties. Some citizens are students. Therefore, some students have duties.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Invalid"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the students who are citizens have duties."
+  },
+  {
+    "id": "aa-173",
+    "subject": "Analytical Ability",
+    "prompt": "All files in Cabinet A are complete. This file is complete. Therefore, this file is in Cabinet A.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Uncertain"
+      },
+      {
+        "id": "B",
+        "text": "True"
+      },
+      {
+        "id": "C",
+        "text": "False"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be true"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because complete files may also be in another cabinet."
+  },
+  {
+    "id": "aa-174",
+    "subject": "Analytical Ability",
+    "prompt": "A. Department of Agriculture\nB. Department of Budget and Management\nC. Department of Education\nD. Department of Finance",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-175",
+    "subject": "Analytical Ability",
+    "prompt": "A. City Treasurer\nB. City Assessor\nC. City Engineer\nD. City Health Officer",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BACD"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-176",
+    "subject": "Analytical Ability",
+    "prompt": "A. National Archives\nB. National Museum\nC. National Library\nD. National Economic and Development Authority",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DCAB"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-177",
+    "subject": "Analytical Ability",
+    "prompt": "A. Ramos, Alicia\nB. Ramirez, Ben\nC. Reyes, Ana\nD. Rivera, Carlo",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BACD"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-178",
+    "subject": "Analytical Ability",
+    "prompt": "A. Manila Bulletin\nB. Manila Times\nC. Manila Standard\nD. Manila Chronicle",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ADCB"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-179",
+    "subject": "Analytical Ability",
+    "prompt": "A. Civil Registry\nB. Civil Service Commission\nC. City Council\nD. City Court",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BCDA"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-180",
+    "subject": "Analytical Ability",
+    "prompt": "A. Office of the Ombudsman\nB. Office of Civil Defense\nC. Office of the President\nD. Office of the Solicitor General",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BACD"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-181",
+    "subject": "Analytical Ability",
+    "prompt": "A. Santos, Miguel\nB. Santiago, Mara\nC. San Diego, Mario\nD. Sanchez, Mila",
+    "choices": [
+      {
+        "id": "A",
+        "text": "CDBA"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-182",
+    "subject": "Analytical Ability",
+    "prompt": "A. Procurement Division\nB. Personnel Division\nC. Planning Division\nD. Property Division",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BCAD"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-183",
+    "subject": "Analytical Ability",
+    "prompt": "A. Barangay Health Center\nB. Barangay Hall\nC. Barangay Justice System\nD. Barangay Nutrition Office",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ABCD"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-184",
+    "subject": "Analytical Ability",
+    "prompt": "A. Records Unit\nB. Receiving Section\nC. Releasing Section\nD. Reproduction Section",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BCDA"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-185",
+    "subject": "Analytical Ability",
+    "prompt": "A. Quezon City\nB. Quirino Province\nC. Quiapo District\nD. Quirino Avenue",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ACDB"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-186",
+    "subject": "Analytical Ability",
+    "prompt": "A. Audit Report\nB. Annual Budget\nC. Appointment Paper\nD. Accomplishment Report",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DCBA"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-187",
+    "subject": "Analytical Ability",
+    "prompt": "A. Leave Application\nB. Letter Request\nC. Legal Opinion\nD. Loan Agreement",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ACBD"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-188",
+    "subject": "Analytical Ability",
+    "prompt": "A. Cebu City\nB. Cagayan de Oro\nC. Caloocan City\nD. Cavite City",
+    "choices": [
+      {
+        "id": "A",
+        "text": "BCDA"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BACD"
+      },
+      {
+        "id": "D",
+        "text": "DCBA"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because it gives the entries in alphabetical order."
+  },
+  {
+    "id": "aa-189",
+    "subject": "Analytical Ability",
+    "prompt": "Five applicants are ranked. Ana is above Ben. Carla is below Ben. Dan is above Ana. Who is highest among the four?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Dan"
+      },
+      {
+        "id": "B",
+        "text": "Ana"
+      },
+      {
+        "id": "C",
+        "text": "Ben"
+      },
+      {
+        "id": "D",
+        "text": "Carla"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Dan is above Ana, who is above Ben and Carla."
+  },
+  {
+    "id": "aa-190",
+    "subject": "Analytical Ability",
+    "prompt": "In a row, the red file is left of the blue file. The green file is right of the blue file. Which file is in the middle?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Blue file"
+      },
+      {
+        "id": "B",
+        "text": "Red file"
+      },
+      {
+        "id": "C",
+        "text": "Green file"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because blue is between red and green."
+  },
+  {
+    "id": "aa-191",
+    "subject": "Analytical Ability",
+    "prompt": "Mila is older than Liza. Liza is older than Nora. Who is youngest?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nora"
+      },
+      {
+        "id": "B",
+        "text": "Mila"
+      },
+      {
+        "id": "C",
+        "text": "Liza"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Nora is below Liza, and Liza is below Mila."
+  },
+  {
+    "id": "aa-192",
+    "subject": "Analytical Ability",
+    "prompt": "A code changes CAT to DBU by moving each letter one step forward. How is DOG written?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "EPH"
+      },
+      {
+        "id": "B",
+        "text": "CNG"
+      },
+      {
+        "id": "C",
+        "text": "FQI"
+      },
+      {
+        "id": "D",
+        "text": "EOG"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because each letter moves one step forward."
+  },
+  {
+    "id": "aa-193",
+    "subject": "Analytical Ability",
+    "prompt": "A code changes PLAN to QMB O by moving each letter one step forward. How is WORK written?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "XPSL"
+      },
+      {
+        "id": "B",
+        "text": "VNQJ"
+      },
+      {
+        "id": "C",
+        "text": "YQTM"
+      },
+      {
+        "id": "D",
+        "text": "XQSL"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because each letter moves one step forward."
+  },
+  {
+    "id": "aa-194",
+    "subject": "Analytical Ability",
+    "prompt": "If Monday is coded as 1, Tuesday as 2, and so on, what is Friday coded as?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Friday is the fifth day in the listed order."
+  },
+  {
+    "id": "aa-195",
+    "subject": "Analytical Ability",
+    "prompt": "If all forms are stamped before filing, and Form 12 is filed, what must have happened?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Form 12 was stamped"
+      },
+      {
+        "id": "B",
+        "text": "Form 12 was rejected"
+      },
+      {
+        "id": "C",
+        "text": "Form 12 was unsigned"
+      },
+      {
+        "id": "D",
+        "text": "Form 12 was copied"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because filing requires stamping first."
+  },
+  {
+    "id": "aa-196",
+    "subject": "Analytical Ability",
+    "prompt": "A clerk sorts files by year, then by month, then by name. Which comes first: 2021 March Cruz or 2021 April Abad?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2021 March Cruz"
+      },
+      {
+        "id": "B",
+        "text": "2021 April Abad"
+      },
+      {
+        "id": "C",
+        "text": "They are tied"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because March comes before April when the year is the same."
+  },
+  {
+    "id": "aa-197",
+    "subject": "Analytical Ability",
+    "prompt": "If A is taller than B, B is taller than C, and C is taller than D, who is shortest?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "D"
+      },
+      {
+        "id": "B",
+        "text": "A"
+      },
+      {
+        "id": "C",
+        "text": "B"
+      },
+      {
+        "id": "D",
+        "text": "C"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the order descends from A to D."
+  },
+  {
+    "id": "aa-198",
+    "subject": "Analytical Ability",
+    "prompt": "If a statement must be signed to be valid, and a statement is unsigned, what follows?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It is not valid"
+      },
+      {
+        "id": "B",
+        "text": "It is valid"
+      },
+      {
+        "id": "C",
+        "text": "It is approved"
+      },
+      {
+        "id": "D",
+        "text": "It is complete"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because unsigned statements fail the stated requirement."
+  },
+  {
+    "id": "aa-199",
+    "subject": "Analytical Ability",
+    "prompt": "Three boxes are labeled 1, 2, and 3. Box 2 is heavier than Box 1. Box 3 is lighter than Box 1. Which is heaviest?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Box 2"
+      },
+      {
+        "id": "B",
+        "text": "Box 1"
+      },
+      {
+        "id": "C",
+        "text": "Box 3"
+      },
+      {
+        "id": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because Box 2 is heavier than Box 1, and Box 1 is heavier than Box 3."
+  },
+  {
+    "id": "aa-200",
+    "subject": "Analytical Ability",
+    "prompt": "A document is received before it is logged. It is logged before it is routed. It is routed before it is filed. Which action happens immediately before routing?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Logging"
+      },
+      {
+        "id": "B",
+        "text": "Receiving"
+      },
+      {
+        "id": "C",
+        "text": "Filing"
+      },
+      {
+        "id": "D",
+        "text": "Reviewing"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A because the sequence is receive, log, route, then file."
   }
 ]

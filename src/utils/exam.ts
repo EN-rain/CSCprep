@@ -15,7 +15,15 @@ const HISTORY_KEY = 'cscprep:question-history:v1'
 const COMPLETED_EXAM_COUNT_KEY = 'cscprep:completed-exam-count:v1'
 const ITEMS_PER_SUBJECT = 20
 const TOTAL_EXAM_ITEMS = 100
-const COOLDOWN_EXAMS = 5
+const COOLDOWN_EXAMS = 2
+
+function isExamEligibleQuestion(question: Question): boolean {
+  return !question.image
+}
+
+function getExamEligibleQuestions(): Question[] {
+  return questionBank.filter(isExamEligibleQuestion)
+}
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items]
@@ -71,7 +79,7 @@ export function resetQuestionHistory(): void {
 }
 
 function questionsBySubject(subject: Subject): Question[] {
-  return questionBank.filter((question) => question.subject === subject)
+  return getExamEligibleQuestions().filter((question) => question.subject === subject)
 }
 
 function pickQuestions(
@@ -79,25 +87,21 @@ function pickQuestions(
   history: QuestionHistory,
   examNumber: number,
   targetCount: number,
+  excludedQuestionIds = new Set<string>(),
 ): Question[] {
-  const eligible = questions.filter((question) => {
+  const availableQuestions = questions.filter((question) => !excludedQuestionIds.has(question.id))
+  const eligible = availableQuestions.filter((question) => {
     const entry = history[question.id]
     return !entry || examNumber > entry.eligibleAgainAfterExamNumber
   })
-  const coolingDown = questions
+  const coolingDown = availableQuestions
     .filter((question) => !eligible.includes(question))
     .sort((a, b) => byLeastRecentCooldown(history[a.id], history[b.id]))
 
-  const selected = [
+  return [
     ...shuffle(eligible).slice(0, targetCount),
     ...coolingDown.slice(0, Math.max(0, targetCount - eligible.length)),
   ].slice(0, targetCount)
-
-  while (selected.length < targetCount && questions.length > 0) {
-    selected.push(questions[selected.length % questions.length])
-  }
-
-  return selected
 }
 
 function pickSubjectQuestions(
@@ -119,7 +123,7 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
 
   const questions =
     mode.kind === 'mixed'
-      ? pickQuestions(questionBank, history, examNumber, TOTAL_EXAM_ITEMS)
+      ? pickQuestions(getExamEligibleQuestions(), history, examNumber, TOTAL_EXAM_ITEMS)
       : pickSubjectQuestions(mode.subject, history, examNumber, TOTAL_EXAM_ITEMS)
 
   return {
@@ -170,7 +174,7 @@ export function getAnsweredHistoryCount(): number {
 }
 
 export function getLoadedQuestionCount(): number {
-  return questionBank.length
+  return getExamEligibleQuestions().length
 }
 
 export { COOLDOWN_EXAMS, ITEMS_PER_SUBJECT, TOTAL_EXAM_ITEMS }
