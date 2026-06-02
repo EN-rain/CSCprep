@@ -72,6 +72,7 @@ html.lenis body {
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: clip;
   background: var(--bg);
   color: var(--ink);
   transition:
@@ -89,42 +90,44 @@ button {
   padding: 32px 0 56px;
 }
 
-.screen-frame {
-  will-change: opacity, transform;
-}
-
 .app-shell--content-exit .screen-frame {
   pointer-events: none;
-  animation: screen-slide-out-up 240ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  will-change: opacity, transform;
+  animation: screen-fade-out 300ms ease forwards;
 }
 
 .app-shell--content-enter .screen-frame--home,
 .app-shell--content-enter .screen-frame--exam,
 .app-shell--content-enter .screen-frame--results {
-  animation: screen-slide-in-up 360ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  will-change: opacity, transform;
+  animation: screen-fade-in 420ms ease both;
 }
 
-@keyframes screen-slide-out-up {
+@keyframes screen-fade-out {
   from {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0);
   }
 
   to {
     opacity: 0;
-    transform: translateY(-26px);
+    transform: translateY(-12px) scale(0.99);
+    filter: blur(2px);
   }
 }
 
-@keyframes screen-slide-in-up {
+@keyframes screen-fade-in {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(16px) scale(0.99);
+    filter: blur(2px);
   }
 
   to {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0);
   }
 }
 
@@ -553,13 +556,13 @@ h2 {
   position: sticky;
   top: 0;
   z-index: 5;
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  width: calc(100% + 32px);
+  margin-left: -16px;
+  margin-right: -16px;
   border-left: 0;
   border-right: 0;
   border-radius: 0;
-  padding-inline: max(24px, calc((100vw - 1180px) / 2 + 24px));
+  padding-inline: 24px;
   box-shadow: 0 12px 30px rgba(22, 32, 38, 0.07);
 }
 
@@ -807,7 +810,9 @@ h2 {
   place-items: center;
   padding: 24px;
   background: rgba(4, 10, 16, 0.48);
-  animation: overlay-fade-in 160ms ease both;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 320ms ease;
 }
 
 .skipped-panel__content,
@@ -819,7 +824,13 @@ h2 {
   background: var(--surface);
   color: var(--ink);
   box-shadow: var(--shadow);
-  animation: dialog-rise-in 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  max-height: calc(100vh - 48px);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(14px) scale(0.98);
+  transition:
+    opacity 320ms ease,
+    transform 320ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .skipped-panel__content h2,
@@ -965,7 +976,9 @@ h2 {
   place-items: center;
   padding: 24px;
   background: rgba(4, 10, 16, 0.78);
-  animation: overlay-fade-in 160ms ease both;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 320ms ease;
 }
 
 .image-lightbox__content {
@@ -974,6 +987,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .image-lightbox__image {
@@ -983,29 +997,34 @@ h2 {
   border-radius: 12px;
   background: white;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
-  animation: dialog-rise-in 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  opacity: 0;
+  transform: translateY(14px) scale(0.98);
+  transition:
+    opacity 320ms ease,
+    transform 320ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@keyframes overlay-fade-in {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+.popup-overlay--open {
+  opacity: 1;
 }
 
-@keyframes dialog-rise-in {
-  from {
-    opacity: 0;
-    transform: translateY(16px) scale(0.98);
-  }
+.popup-overlay--closing {
+  pointer-events: none;
+  opacity: 0;
+}
 
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
+.popup-overlay--open .skipped-panel__content,
+.popup-overlay--open .exam-dialog__content,
+.popup-overlay--open .image-lightbox__image {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.popup-overlay--closing .skipped-panel__content,
+.popup-overlay--closing .exam-dialog__content,
+.popup-overlay--closing .image-lightbox__image {
+  opacity: 0;
+  transform: translateY(10px) scale(0.99);
 }
 
 .image-lightbox__close {
@@ -1063,6 +1082,9 @@ h2 {
   }
 
   .exam-header {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
     padding-inline: 16px;
   }
 
@@ -1108,20 +1130,5 @@ h2 {
   .exam-dialog__actions .button {
     width: 100%;
     justify-content: center;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .app-shell--content-exit .screen-frame,
-  .app-shell--content-enter .screen-frame--home,
-  .app-shell--content-enter .screen-frame--exam,
-  .app-shell--content-enter .screen-frame--results,
-  .skipped-panel,
-  .exam-dialog,
-  .skipped-panel__content,
-  .exam-dialog__content,
-  .image-lightbox,
-  .image-lightbox__image {
-    animation: none;
   }
 }

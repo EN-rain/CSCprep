@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { type MouseEvent, type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import Lenis from 'lenis'
 import {
   SUBJECTS,
@@ -22,8 +23,9 @@ type Theme = 'light' | 'dark'
 type ScreenTransition = 'idle' | 'content-exit' | 'content-enter'
 const TIMED_EXAM_SECONDS = 60 * 60
 const THEME_KEY = 'cscprep-theme'
-const SCREEN_EXIT_MS = 240
-const SCREEN_ENTER_MS = 360
+const SCREEN_EXIT_MS = 300
+const SCREEN_ENTER_MS = 420
+const POPUP_FADE_MS = 320
 
 type ReviewItem = {
   itemId: string
@@ -449,6 +451,7 @@ function App() {
             onChooseAnswer={chooseAnswer}
             onCloseImage={() => setExpandedImage(null)}
             onCancelExit={() => setExitNoticeOpen(false)}
+            onCloseSkippedItems={() => setSkippedItemNotice(null)}
             onConfirmExit={confirmExitExam}
             onExit={exitExam}
             onOpenImage={setExpandedImage}
@@ -624,6 +627,7 @@ type ExamScreenProps = {
   onCancelExit: () => void
   onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
   onCloseImage: () => void
+  onCloseSkippedItems: () => void
   onConfirmExit: () => void
   onExit: () => void
   onGoToSkippedItem: (itemId: string) => void
@@ -646,6 +650,7 @@ function ExamScreen({
   onCancelExit,
   onChooseAnswer,
   onCloseImage,
+  onCloseSkippedItems,
   onConfirmExit,
   onExit,
   onGoToSkippedItem,
@@ -698,6 +703,7 @@ function ExamScreen({
             answers={answers}
             itemId={id}
             itemNumber={itemNumber}
+            key={id}
             onChooseAnswer={onChooseAnswer}
             onOpenImage={onOpenImage}
             question={question}
@@ -711,6 +717,7 @@ function ExamScreen({
       {skippedItemNotice && (
         <SkippedItemPanel
           items={skippedItemNotice.items}
+          onDismiss={onCloseSkippedItems}
           onGoToItem={() => onGoToSkippedItem(skippedItemNotice.items[0].itemId)}
           onSubmitAnyway={onSubmitAnyway}
         />
@@ -724,9 +731,56 @@ function ExamScreen({
         />
       )}
 
-      <ImageLightbox imageSrc={expandedImage} onClose={onCloseImage} />
+      {expandedImage && <ImageLightbox imageSrc={expandedImage} onClose={onCloseImage} />}
     </section>
   )
+}
+
+type OverlayPortalProps = {
+  children: ReactNode
+}
+
+function OverlayPortal({ children }: OverlayPortalProps) {
+  return createPortal(children, document.body)
+}
+
+function usePopupTransition() {
+  const [isVisible, setIsVisible] = useState(false)
+  const [isClosing, setIsClosing] = useState(false)
+  const closeTimeoutRef = useRef<number | null>(null)
+
+  useEffect(() => {
+    const animationFrameId = window.requestAnimationFrame(() => {
+      setIsVisible(true)
+    })
+
+    return () => window.cancelAnimationFrame(animationFrameId)
+  }, [])
+
+  useEffect(() => {
+    return () => {
+      if (closeTimeoutRef.current) {
+        window.clearTimeout(closeTimeoutRef.current)
+      }
+    }
+  }, [])
+
+  const closeWith = useCallback((onClosed: () => void) => {
+    if (isClosing) {
+      return
+    }
+
+    setIsVisible(false)
+    setIsClosing(true)
+    closeTimeoutRef.current = window.setTimeout(() => {
+      closeTimeoutRef.current = null
+      onClosed()
+    }, POPUP_FADE_MS)
+  }, [isClosing])
+
+  const overlayClass = isVisible && !isClosing ? 'popup-overlay--open' : 'popup-overlay--closing'
+
+  return { closeWith, overlayClass }
 }
 
 type ExitExamPanelProps = {
@@ -736,53 +790,121 @@ type ExitExamPanelProps = {
 }
 
 function ExitExamPanel({ answeredCount, onCancel, onConfirm }: ExitExamPanelProps) {
+  const cancelButtonRef = useRef<HTMLButtonElement>(null)
+  const { closeWith, overlayClass } = usePopupTransition()
+
+  const closePanel = useCallback(() => {
+    closeWith(onCancel)
+  }, [closeWith, onCancel])
+
+  const confirmExit = useCallback(() => {
+    closeWith(onConfirm)
+  }, [closeWith, onConfirm])
+
+  useEffect(() => {
+    cancelButtonRef.current?.focus({ preventScroll: true })
+
+    function handleKeydown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        closePanel()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeydown)
+    return () => window.removeEventListener('keydown', handleKeydown)
+  }, [closePanel])
+
   return (
-    <div aria-modal="true" className="exam-dialog" role="dialog">
-      <div className="exam-dialog__content" data-lenis-prevent>
-        <p className="eyebrow">Exit exam</p>
-        <h2>Leave this exam?</h2>
-        <p className="exam-dialog__copy">
-          {answeredCount > 0
-            ? 'Answered items will be saved to the 2-take cooldown.'
-            : 'You will return to the home screen.'}
-        </p>
-        <div className="exam-dialog__actions">
-          <button className="button button--primary" onClick={onConfirm} type="button">
-            Exit exam
-          </button>
-          <button className="button button--ghost" onClick={onCancel} type="button">
-            Cancel
-          </button>
+    <OverlayPortal>
+      <div
+        aria-labelledby="exit-exam-title"
+        aria-modal="true"
+        className={`exam-dialog ${overlayClass}`}
+        onClick={closePanel}
+        role="dialog"
+      >
+        <div className="exam-dialog__content" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
+          <p className="eyebrow">Exit exam</p>
+          <h2 id="exit-exam-title">Leave this exam?</h2>
+          <p className="exam-dialog__copy">
+            {answeredCount > 0
+              ? 'Answered items will be saved to the 2-take cooldown.'
+              : 'You will return to the home screen.'}
+          </p>
+          <div className="exam-dialog__actions">
+            <button className="button button--primary" onClick={confirmExit} type="button">
+              Exit exam
+            </button>
+            <button className="button button--ghost" onClick={closePanel} ref={cancelButtonRef} type="button">
+              Cancel
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </OverlayPortal>
   )
 }
 
 type SkippedItemPanelProps = {
   items: SkippedItem[]
+  onDismiss: () => void
   onGoToItem: () => void
   onSubmitAnyway: () => void
 }
 
-function SkippedItemPanel({ items, onGoToItem, onSubmitAnyway }: SkippedItemPanelProps) {
+function SkippedItemPanel({ items, onDismiss, onGoToItem, onSubmitAnyway }: SkippedItemPanelProps) {
+  const goToItemButtonRef = useRef<HTMLButtonElement>(null)
+  const { closeWith, overlayClass } = usePopupTransition()
   const skippedLabel = items.length === 1 ? '1 item skipped' : `${items.length} items skipped`
 
+  const closePanel = useCallback(() => {
+    closeWith(onDismiss)
+  }, [closeWith, onDismiss])
+
+  const submitAnyway = useCallback(() => {
+    closeWith(onSubmitAnyway)
+  }, [closeWith, onSubmitAnyway])
+
+  const goToItem = useCallback(() => {
+    closeWith(onGoToItem)
+  }, [closeWith, onGoToItem])
+
+  useEffect(() => {
+    goToItemButtonRef.current?.focus({ preventScroll: true })
+
+    function handleKeydown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        closePanel()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeydown)
+    return () => window.removeEventListener('keydown', handleKeydown)
+  }, [closePanel])
+
   return (
-    <div aria-modal="true" className="skipped-panel" role="dialog">
-      <div className="skipped-panel__content" data-lenis-prevent>
-        <p className="eyebrow">Skipped answer</p>
-        <h2>{skippedLabel}</h2>
-        <div className="skipped-panel__actions">
-          <button className="button button--primary" onClick={onSubmitAnyway} type="button">
-            Submit anyway
-          </button>
-          <button className="button button--ghost" onClick={onGoToItem} type="button">
-            Go to item
-          </button>
+    <OverlayPortal>
+      <div
+        aria-labelledby="skipped-items-title"
+        aria-modal="true"
+        className={`skipped-panel ${overlayClass}`}
+        onClick={closePanel}
+        role="dialog"
+      >
+        <div className="skipped-panel__content" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
+          <p className="eyebrow">Skipped answer</p>
+          <h2 id="skipped-items-title">{skippedLabel}</h2>
+          <div className="skipped-panel__actions">
+            <button className="button button--primary" onClick={submitAnyway} type="button">
+              Submit anyway
+            </button>
+            <button className="button button--ghost" onClick={goToItem} ref={goToItemButtonRef} type="button">
+              Go to item
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </OverlayPortal>
   )
 }
 
@@ -900,12 +1022,13 @@ function ResultsScreen({
         {filteredReviewItems.map((item) => (
           <ReviewCard
             item={item}
+            key={item.itemId}
             onOpenImage={onOpenImage}
           />
         ))}
       </div>
 
-      <ImageLightbox imageSrc={expandedImage} onClose={onCloseImage} />
+      {expandedImage && <ImageLightbox imageSrc={expandedImage} onClose={onCloseImage} />}
     </section>
   )
 }
@@ -1098,50 +1221,56 @@ function formatPromptLines(prompt: string): string[] {
 }
 
 type ImageLightboxProps = {
-  imageSrc: string | null
+  imageSrc: string
   onClose: () => void
 }
 
 function ImageLightbox({ imageSrc, onClose }: ImageLightboxProps) {
-  useEffect(() => {
-    if (!imageSrc) {
-      return
-    }
+  const { closeWith, overlayClass } = usePopupTransition()
 
+  const closeLightbox = useCallback(() => {
+    closeWith(onClose)
+  }, [closeWith, onClose])
+
+  const closeLightboxFromBackdrop = useCallback((event: MouseEvent<HTMLDivElement>) => {
+    if (event.target === event.currentTarget) {
+      closeLightbox()
+    }
+  }, [closeLightbox])
+
+  useEffect(() => {
     function handleKeydown(event: KeyboardEvent) {
       if (event.key === 'Escape') {
-        onClose()
+        closeLightbox()
       }
     }
 
     window.addEventListener('keydown', handleKeydown)
     return () => window.removeEventListener('keydown', handleKeydown)
-  }, [imageSrc, onClose])
-
-  if (!imageSrc) {
-    return null
-  }
+  }, [closeLightbox, imageSrc])
 
   return (
-    <div
-      aria-modal="true"
-      className="image-lightbox"
-      data-lenis-prevent
-      onClick={onClose}
-      role="dialog"
-    >
-      <button
-        aria-label="Close image preview"
-        className="image-lightbox__close"
-        onClick={onClose}
-        type="button"
+    <OverlayPortal>
+      <div
+        aria-modal="true"
+        className={`image-lightbox ${overlayClass}`}
+        data-lenis-prevent
+        onClick={closeLightboxFromBackdrop}
+        role="dialog"
       >
-        ×
-      </button>
-      <div className="image-lightbox__content" onClick={(event) => event.stopPropagation()}>
-        <img className="image-lightbox__image" src={imageSrc} alt="Expanded question reference" />
+        <button
+          aria-label="Close image preview"
+          className="image-lightbox__close"
+          onClick={closeLightbox}
+          type="button"
+        >
+          {'\u00d7'}
+        </button>
+        <div className="image-lightbox__content">
+          <img className="image-lightbox__image" src={imageSrc} alt="Expanded question reference" />
+        </div>
       </div>
-    </div>
+    </OverlayPortal>
   )
 }
 
