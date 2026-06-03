@@ -200,6 +200,13 @@ const PRESERVE_PROMPT_LINE_IDS = new Set([
   'csc10-064',
 ])
 
+const PROMPT_IN_IMAGE_IDS = new Set([
+  'nr-002',
+  'nr-016',
+  'nr-017',
+  'nr-031',
+])
+
 function readExamAttemptHistory(): SavedExamAttempt[] {
   if (typeof window === 'undefined') {
     return []
@@ -1544,6 +1551,7 @@ function QuestionCard({
   question,
 }: QuestionCardProps) {
   const markerChoicesOnly = Boolean(question.image) && usesImageChoiceMarkers(choices)
+  const promptIsShownInImage = hasPromptInImage(question.id, question.image, markerChoicesOnly)
 
   return (
     <article className="question-card" id={`exam-item-${itemId}`}>
@@ -1564,6 +1572,7 @@ function QuestionCard({
       <PromptText
         prompt={question.prompt}
         questionId={question.id}
+        visuallyHidden={promptIsShownInImage}
       />
       <div className={markerChoicesOnly ? 'choice-grid choice-grid--markers' : 'choice-grid'}>
         {choices.map((choice, index) => {
@@ -1629,6 +1638,7 @@ function formatReviewExplanation(explanation: string, correctChoiceText: string)
 
 function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
   const markerChoicesOnly = Boolean(item.image) && usesImageChoiceMarkers(item.choices)
+  const promptIsShownInImage = hasPromptInImage(item.questionId, item.image, markerChoicesOnly)
   const correctChoice = item.choices.find((choice) => choice.id === item.correctChoiceId)
 
   return (
@@ -1650,6 +1660,7 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
       <PromptText
         prompt={item.prompt}
         questionId={item.questionId}
+        visuallyHidden={promptIsShownInImage}
       />
       {item.explanation && (
         <div className="explanation">
@@ -1734,6 +1745,10 @@ function usesImageChoiceMarkers(choices: { text: string }[]): boolean {
   const markerChoicePattern = /^(Underlined part [a-e]|No error(?: \/ walang mali)?)$/i
 
   return choices.length > 0 && choices.every((choice) => markerChoicePattern.test(choice.text.trim()))
+}
+
+function hasPromptInImage(questionId: string, image: string | undefined, markerChoicesOnly: boolean): boolean {
+  return Boolean(image) && (markerChoicesOnly || PROMPT_IN_IMAGE_IDS.has(questionId))
 }
 
 function formatPromptLines(prompt: string): string[] {
