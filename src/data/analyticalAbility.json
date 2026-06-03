@@ -2652,7 +2652,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Each term is doubled."
+    "explanation": "Each term is multiplied by 2: 4, 8, 16, 32, 64. Doubling 64 gives 128."
   },
   {
     "id": "aa-106",
@@ -2677,7 +2677,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) We can infer that, an electrical discharge in the\nclouds causes lightning.\nThe passage tells us that, \"Lightning occurs when static\nelectricity inside clouds builds up and causes an electrical\ncharge,\""
+    "explanation": "The passage says lightning happens when static electricity builds up inside clouds and creates an electrical charge, so the cause is an electrical discharge in the clouds."
   },
   {
     "id": "aa-107",
@@ -2702,7 +2702,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c.) Being struck by lightning means, a ninety percent\nchance of surviving the strike.\nFrom the passage, \"statistics show that 90% of victims\nsurvive a lightning blast.\""
+    "explanation": "The passage states that 90% of lightning-strike victims survive, so being struck by lightning means a ninety percent chance of surviving the strike."
   },
   {
     "id": "aa-108",
@@ -2727,7 +2727,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) We know that lightning is static electricity from the\nthird sentence in the passage. We also know that static\nelectricity is caused by water droplets colliding with ice\ncrystals. Therefore, Lightning is caused by water droplets\ncolliding with ice crystals."
+    "explanation": "The passage explains that water droplets collide with ice crystals, creating static electricity. That buildup leads to lightning."
   },
   {
     "id": "aa-109",

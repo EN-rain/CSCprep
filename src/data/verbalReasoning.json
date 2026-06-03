@@ -9050,7 +9050,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. Bare means devoid of; a bear is an animal."
+    "explanation": "The sentence needs \"bare,\" meaning empty or without furniture. \"Bear\" is an animal, and \"beer\" is a drink."
   },
   {
     "id": "vr-350",
@@ -9255,7 +9255,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) skeptic : disbelief\nDegree of intensity.\nPhilanthropist is a generous person while munificence is\nextremely generous.\nas skeptic is inclined to question or doubt accepted\nopinions while disbelief is refusal to accept that\nsomething is true."
+    "explanation": "A philanthropist is associated with munificence, or great generosity. In the same way, a skeptic is associated with disbelief or doubt."
   },
   {
     "id": "vr-359",
@@ -9280,7 +9280,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) mundane : legitimate\nSomething vague is nebulous. Something mundane is\ncommonplace."
+    "explanation": "Vague and nebulous are synonyms; both mean unclear. Mundane and commonplace are also synonyms; both mean ordinary."
   },
   {
     "id": "vr-360",
@@ -9309,7 +9309,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e.) diaphanous is the opposite of opaque. Distraught\nis the opposite of calm."
+    "explanation": "Diaphanous means transparent or light, which is the opposite of opaque. Distraught means upset, which is the opposite of calm."
   },
   {
     "id": "vr-361",
@@ -9338,7 +9338,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e.) A frame surrounds a picture; a fence surrounds a\nbackyard."
+    "explanation": "A frame surrounds a picture. In the same relationship, a fence surrounds a backyard."
   },
   {
     "id": "vr-362",
@@ -9367,7 +9367,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) One searches in order to find; one explores in\norder to discover."
+    "explanation": "To search is to try to find something. To explore is to try to discover something."
   },
   {
     "id": "vr-363",
@@ -9396,7 +9396,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c.) A pharmacy sells drugs; a bakery sells bread."
+    "explanation": "The relationship is place to product sold there. A pharmacy sells drugs, and a bakery sells bread."
   },
   {
     "id": "vr-364",
@@ -9425,7 +9425,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) Layer and tier are synonyms; section and segment\nare synonyms."
+    "explanation": "Layer and tier are synonyms. Section and segment are also synonyms."
   },
   {
     "id": "vr-365",
@@ -9454,7 +9454,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) Metropolitan describes urban areas; bucolic\ndescribes rural areas."
+    "explanation": "Metropolitan describes an urban place. Bucolic describes a rural place."
   },
   {
     "id": "vr-366",
@@ -9483,7 +9483,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d.) A teacher works in a school; a judge works in a\ncourthouse."
+    "explanation": "A teacher works in a school. A judge works in a courthouse."
   },
   {
     "id": "vr-367",
@@ -9512,7 +9512,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c.) A car is powered by gasoline; a bicycle is powered\nby feet."
+    "explanation": "A car is powered by gasoline. A bicycle is powered by feet through pedaling."
   },
   {
     "id": "vr-368",
@@ -9541,7 +9541,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e.) To jog is to run slowly; to drizzle is to rain slowly."
+    "explanation": "To jog is to run slowly. To drizzle is to rain lightly or slowly."
   },
   {
     "id": "vr-369",
@@ -9570,7 +9570,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c.) A radio uses one's ears; a television uses one's\neyes."
+    "explanation": "A radio is mainly perceived with the ear, while a television is mainly perceived with the eye."
   },
   {
     "id": "vr-370",
@@ -9599,7 +9599,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) To tailor a suit is to alter it; to edit a manuscript is\nto alter it"
+    "explanation": "A tailor works on or alters a suit. An editor works on or alters a manuscript."
   },
   {
     "id": "vr-371",
@@ -9674,7 +9674,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) false…The first two statements indicate there are\nmore yellow jelly beans than red and green."
+    "explanation": "The first two statements give yellow > red > green. Therefore yellow cannot be fewer than green, so the third statement is false."
   },
   {
     "id": "vr-377",
@@ -9695,7 +9695,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) true… To the extent that a toothpick is useful, it\nhas value."
+    "explanation": "The conclusion is true. If a toothpick is useful, and all useful things are valuable, then a toothpick is valuable."
   },
   {
     "id": "vr-378",
@@ -10265,7 +10265,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": ") An altercation is a heated dispute or quarrel."
+    "explanation": "An altercation is a heated argument or quarrel. Therefore, someone involved in an altercation had a heated argument."
   },
   {
     "id": "vr-400",
@@ -11040,7 +11040,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": ") Max\nC.) uncertain"
+    "explanation": "After the chase changes position, James and Ruby are alongside the dog rather than behind it. Max joins the pursuit behind Ruby, placing him directly behind the dog among the listed children."
   },
   {
     "id": "vr-431",

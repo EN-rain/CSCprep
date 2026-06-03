@@ -22,7 +22,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"napakikinggan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"nauulinigan\" ay nangangahulugang naririnig o napakikinggan. Dahil malakas ang tinig ng grupo, ang usapan ay napakikinggan."
   },
   {
     "id": "fi-002",
@@ -47,7 +47,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"mag-aalaga\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"mag-aaruga\" ay nangangahulugang mag-aalaga nang may malasakit. Kaya ang pamilyang mag-aaruga sa bata ay pamilyang mag-aalaga sa kanya."
   },
   {
     "id": "fi-003",
@@ -72,7 +72,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"nalilito\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"nagugulumihanan\" ay nangangahulugang nalilito o hindi makapagpasya. Tugma ito sa pag-aalinlangan ni Rochelle sa kukuning kurso."
   },
   {
     "id": "fi-004",
@@ -97,7 +97,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"punung-puno\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"tigib\" ay nangangahulugang punung-puno. Kaya ang dyip na tigib ng pasahero ay punung-puno na."
   },
   {
     "id": "fi-005",
@@ -122,7 +122,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"ibinulgar\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"isiniwalat\" ay nangangahulugang ibinunyag o ibinulgar. Inilabas ng katulong ang kanyang sama ng loob sa amo."
   },
   {
     "id": "fi-006",
@@ -147,7 +147,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"ipinanukala\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"iminungkahi\" ay nangangahulugang ipinanukala o inirekomenda. Kaya ang pagbabawal sa maling pagtatapon ng basura ay ipinanukala."
   },
   {
     "id": "fi-007",
@@ -172,7 +172,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"kayabangan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"kapalaluan\" ay labis na pagmamataas o kayabangan. Ito ang maaaring maging sanhi ng away."
   },
   {
     "id": "fi-008",
@@ -197,7 +197,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"magulo ang isip\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"naliligalig\" ay nangangahulugang nababagabag o magulo ang isip. Ang labis na suliranin ang sanhi ng kanyang pagkabalisa."
   },
   {
     "id": "fi-009",
@@ -222,7 +222,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"magaan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"maalwan\" sa kontekstong ito ay magaan o hindi pabigat dalhin. Kaya magaan ang bagay na nararapat dalhin ng bata."
   },
   {
     "id": "fi-010",
@@ -247,7 +247,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"pandayan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"palihan\" ay pook na pinagpupukpukan o pinagpapanday ng bakal. Kaya ito ay pandayan."
   },
   {
     "id": "fi-011",
@@ -272,7 +272,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"paglibak\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"pagkutya\" ay panlalait o paglibak sa kapwa. Hindi ito dapat gawing katuwaan."
   },
   {
     "id": "fi-012",
@@ -297,7 +297,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"nakagugulo\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"nakabubulahaw\" ay nakagugulo o nakaiistorbo, gaya ng malakas na pag-eensayo ng banda."
   },
   {
     "id": "fi-013",
@@ -322,7 +322,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"magtamasa\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "This item needs review: \"magkamal\" means to amass or accumulate, especially wealth. The stored answer \"magtamasa\" means to enjoy or experience, so it is not a close synonym."
   },
   {
     "id": "fi-014",
@@ -347,7 +347,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"inapi\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"siniil\" ay nangangahulugang inapi o pinigil sa kalayaan. Tumutukoy ito sa pang-aapi ng mga dayuhan sa mga Pilipino."
   },
   {
     "id": "fi-015",
@@ -372,7 +372,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"bangayan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"alitan\" ay hindi pagkakasundo o bangayan. Kaya hindi dapat hayaang tumagal ang bangayan."
   },
   {
     "id": "fi-016",
@@ -397,7 +397,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"kalat\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"laganap\" ay nangangahulugang kalat o malawak na kumalat. Kaya ang krisis ay kalat sa maraming lugar."
   },
   {
     "id": "fi-017",
@@ -422,7 +422,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nagaganyak\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"nababalino\" ay nahihikayat o nagaganyak sa isang bagay, dito ay sa lihis na gawain."
   },
   {
     "id": "fi-018",
@@ -447,7 +447,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"reklamo\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"himutok\" ay daing, hinaing, o reklamo. Kaya ang mga manggagawa ay may reklamo laban sa kumpanya."
   },
   {
     "id": "fi-019",
@@ -472,7 +472,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"ninanais\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"minimithi\" ay ninanais o inaasam. Ang magandang kinabukasan ang ninanais ng magulang para sa anak."
   },
   {
     "id": "fi-020",
@@ -497,7 +497,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"sumugod\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"sumugba\" ay sumuong o sumugod sa panganib. Kaya dapat iwasang sumugod sa alanganin."
   },
   {
     "id": "fi-021",
@@ -522,7 +522,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"gisingin\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"pukawin\" ay gisingin o antigin. Sa pangungusap, huwag gisingin ang batang nahihimlay."
   },
   {
     "id": "fi-022",
@@ -547,7 +547,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"magtampo\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"magmaktol\" ay magreklamo, magdabog, o magtampo dahil napagsasabihan. Sa mga pagpipilian, pinakamalapit ang magtampo."
   },
   {
     "id": "fi-023",
@@ -572,7 +572,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"maraming-marami\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"namumutiktik\" ay nangangahulugang napakarami o siksik sa dami. Kaya ang puno ng mangga ay maraming-marami ang bunga."
   },
   {
     "id": "fi-024",
@@ -597,7 +597,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"sumikip\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"kumipot\" ay lumiit ang luwang o sumikip. Sa dami ng tao, tila sumikip ang Maynila."
   },
   {
     "id": "fi-025",
@@ -622,7 +622,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"pagod na pagod\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang \"patang-pata\" ay pagod na pagod. Tugma ito sa pagod matapos marating ang tuktok ng bundok."
   },
   {
     "id": "fi-026",
@@ -647,7 +647,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"di-totoo\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"matimyas\" ay dalisay, wagas, o tapat. Ang kasalungat nito sa pagpipilian ay di-totoo."
   },
   {
     "id": "fi-027",
@@ -672,7 +672,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"malanta\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"yumabong\" ay lumago o sumigla ang halaman. Ang kasalungat nito ay malanta."
   },
   {
     "id": "fi-028",
@@ -697,7 +697,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"galak\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"lumbay\" ay lungkot. Ang kasalungat nito ay galak."
   },
   {
     "id": "fi-029",
@@ -722,7 +722,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"pag-alis\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"pagdaong\" ay pagdating o paghimpil ng barko sa daungan. Ang kasalungat nito ay pag-alis."
   },
   {
     "id": "fi-030",
@@ -747,7 +747,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"pambihira\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"palasak\" ay pangkaraniwan o laganap. Ang kasalungat nito ay pambihira."
   },
   {
     "id": "fi-031",
@@ -772,7 +772,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nainis\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "This item needs review: \"nabaghan\" is usually closer to nagulat or namangha. The stored answer \"nainis\" is not a clear antonym for the word in this sentence."
   },
   {
     "id": "fi-032",
@@ -797,7 +797,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"purihin\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"umalipusta\" ay manglait o manghamak. Ang kasalungat nito ay purihin."
   },
   {
     "id": "fi-033",
@@ -822,7 +822,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"paunlad\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"pahapay\" ay pabagsak, tagilid, o humihina ang kalagayan. Ang kasalungat sa pagpipilian ay paunlad."
   },
   {
     "id": "fi-034",
@@ -847,7 +847,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"makinis\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"magalas\" ay magaspang. Ang kasalungat nito ay makinis."
   },
   {
     "id": "fi-035",
@@ -872,7 +872,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"maayos\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"masalimuot\" ay magulo o komplikado. Ang kasalungat nito ay maayos."
   },
   {
     "id": "fi-036",
@@ -897,7 +897,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"hinubaran\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"sinaplutan\" ay binalutan, tinakpan, o dinamitan. Ang kasalungat nito ay hinubaran."
   },
   {
     "id": "fi-037",
@@ -922,7 +922,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"matapat\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"taksil\" ay traydor o hindi tapat. Ang kasalungat nito ay matapat."
   },
   {
     "id": "fi-038",
@@ -947,7 +947,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"tahimik\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"mabungalngal\" ay madaldal o masalita. Ang kasalungat nito ay tahimik."
   },
   {
     "id": "fi-039",
@@ -972,7 +972,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"napakabilis\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"napakukupad\" ay napakabagal. Ang kasalungat nito ay napakabilis."
   },
   {
     "id": "fi-040",
@@ -997,7 +997,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"aasenso\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"magdarahop\" ay maghihirap o magiging salat. Ang kasalungat nito ay aasenso."
   },
   {
     "id": "fi-041",
@@ -1022,7 +1022,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"matatas\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"garil\" ay hindi malinaw o hindi matatas magsalita. Ang kasalungat nito ay matatas."
   },
   {
     "id": "fi-042",
@@ -1047,7 +1047,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"sakitin\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "This item needs review: \"hawas\" is not a common opposite of healthy in this context. The stored answer \"sakitin\" may fit the idea of poor health, but the wording needs source review."
   },
   {
     "id": "fi-043",
@@ -1072,7 +1072,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"waldas\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"hidhid\" ay labis na kuripot o sakim sa paghawak ng pera. Ang kasalungat nito ay waldas."
   },
   {
     "id": "fi-044",
@@ -1097,7 +1097,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"puno\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"hungkag\" ay walang laman o salat. Ang kasalungat nito ay puno."
   },
   {
     "id": "fi-045",
@@ -1122,7 +1122,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"namukadkad\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"naluoy\" ay nalanta o natuyo. Ang kasalungat nito ay namukadkad."
   },
   {
     "id": "fi-046",
@@ -1147,7 +1147,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"malasa\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"walang latoy\" ay walang lasa o walang dating. Ang kasalungat nito ay malasa."
   },
   {
     "id": "fi-047",
@@ -1172,7 +1172,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"pinagpatuloy\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"nilubayan\" ay tinigilan o iniwan. Ang kasalungat nito ay pinagpatuloy."
   },
   {
     "id": "fi-048",
@@ -1197,7 +1197,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"magkakadikit\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"maagwat\" ay magkakalayo o may pagitan. Ang kasalungat nito ay magkakadikit."
   },
   {
     "id": "fi-049",
@@ -1222,7 +1222,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"manhid\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"maantak\" ay mahapdi o masakit ang pakiramdam. Ang kasalungat nito ay manhid."
   },
   {
     "id": "fi-050",
@@ -1247,7 +1247,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"maamo\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
+    "explanation": "Ang \"mabalasik\" ay mabangis o mapanganib. Ang kasalungat nito ay maamo."
   },
   {
     "id": "fi-051",
@@ -1897,7 +1897,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamit ang \"ng\" dahil ang pariralang \"katungkulan ng sinuman\" ay nagpapakita ng pagmamay-ari o kaugnayan. Ang \"nang\" ay karaniwang para sa paraan, oras, o pang-abay."
   },
   {
     "id": "fi-077",
@@ -1922,7 +1922,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Isinulat\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Mas angkop ang \"Isinulat\" dahil ang mga kaganapan ay inilagay sa papel. Ang \"sinulat\" ay maaari ring gamitin sa ibang gamit, ngunit dito mas pormal at tuwirang tumutugma ang \"isinulat ko ... sa papel.\""
   },
   {
     "id": "fi-078",
@@ -1947,7 +1947,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"pakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"pakiusap\" ang pangngalang tumutukoy sa hiling ng mga manlalaro. Hindi \"ipakiusap\" dahil pandiwa iyon, at hindi \"pakikipag-usap\" dahil usapan iyon, hindi mismong hiling."
   },
   {
     "id": "fi-079",
@@ -1972,7 +1972,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"nang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamit ang \"nang\" dahil tumutukoy ito sa panahon o sandali ng pagkagulat: nagulat sila nang mabalitaan ang kaguluhan."
   },
   {
     "id": "fi-080",
@@ -1997,7 +1997,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Hanapan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"Hanapan\" ay nangangahulugang maghanap para sa isang tao. Sa pangungusap, si Chin ang tutulungan at hahanapan ng damit sa kabinet."
   },
   {
     "id": "fi-081",
@@ -2022,7 +2022,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Hinggil sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Tama ang \"Hinggil sa\" dahil ang paksa ay tungkol sa suliranin. \"Hinggil kay\" ay para sa tao, samantalang ang suliranin ay bagay o paksa."
   },
   {
     "id": "fi-082",
@@ -2047,7 +2047,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"ni\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamit ang \"ni\" dahil si Magellan ang gumawa ng paglalakbay. Ang \"paglalakbay ni Magellan\" ay nagpapakita ng gumaganap o nagmamay-ari ng kilos."
   },
   {
     "id": "fi-083",
@@ -2072,7 +2072,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"labag sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang wastong parirala ay \"labag sa batas,\" na nangangahulugang salungat o hindi naaayon sa batas. Hindi karaniwang sabihin na \"laban sa batas\" sa ganitong pormal na gamit."
   },
   {
     "id": "fi-084",
@@ -2097,7 +2097,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamit ang \"ng\" dahil ang mga Hapones ang gumaganap ng kilos sa pandiwang \"pinatay.\" Sa Filipino, ginagamit ang \"ng\" para sa tagaganap sa ganitong ayos ng pangungusap."
   },
   {
     "id": "fi-085",
@@ -2122,7 +2122,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ipakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"Ipakiusap\" ay pandiwang pautos: hinihiling mong sabihin sa kanila ang pakiusap na magdala ng mapagsasaluhan."
   },
   {
     "id": "fi-086",
@@ -2147,7 +2147,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ayon kina\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Tama ang \"Ayon kina\" dahil dalawa ang tinutukoy, sina G. at Gng. Reyes. \"Ayon kay\" ay para sa iisang tao lamang."
   },
   {
     "id": "fi-087",
@@ -2172,7 +2172,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Winika\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "This item needs review: ang Kartilya ay karaniwang inilalarawang sinulat ni Emilio Jacinto. Ang nakalistang sagot na \"Winika\" ay nangangahulugang sinabi o binigkas, kaya hindi malinaw na ito ang pinakatumpak na sagot."
   },
   {
     "id": "fi-088",
@@ -2197,7 +2197,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"kaya\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"kaya\" ay pang-ugnay na nagpapakita ng bunga o resulta: dumating ang Lola, kaya nagdiwang ang pamilya."
   },
   {
     "id": "fi-089",
@@ -2222,7 +2222,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamit ang \"ng\" dahil ipinapakita nito ang sanhi ng pagbabara ng mga estero: ang walang pakundangang pagtatapon ng basura."
   },
   {
     "id": "fi-090",
@@ -2247,7 +2247,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Kung\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"Kung maaari\" ay karaniwang parirala para sa kondisyon o pakiusap: kung maaari, magtipid tayo nang husto."
   },
   {
     "id": "fi-091",
@@ -2272,7 +2272,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"kung\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"kung\" ay nagpapakita ng kondisyon: mapapadali ang gawain kapag o kung magtutulungan ang lahat."
   },
   {
     "id": "fi-092",
@@ -2297,7 +2297,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"kahit\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"kahit\" ay nagpapakita ng pagsalungat sa inaasahan: masaya pa rin sila kahit maraming pagsubok."
   },
   {
     "id": "fi-093",
@@ -2322,7 +2322,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Bagaman\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"Bagaman\" ay angkop dahil ipinapakita nito ang salungat na kalagayan: pagod si Rey, ngunit nakapag-aral pa rin siya."
   },
   {
     "id": "fi-094",
@@ -2347,7 +2347,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"hanggang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"hanggang\" ay nagpapakita ng hangganan ng panahon: magpapatuloy ang pagroronda hanggang hindi pa nahuhuli ang magnanakaw."
   },
   {
     "id": "fi-095",
@@ -2372,7 +2372,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamit ang \"nang\" dahil tumutukoy ito sa panahon o sandali ng pagtatalon sa tuwa: nang mapanalunan ni Regina ang patimpalak."
   },
   {
     "id": "fi-096",
@@ -2397,7 +2397,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Tama ang \"sa\" dahil ang pariralang \"dahil sa\" ang ginagamit upang magbigay ng dahilan o sanhi."
   },
   {
     "id": "fi-097",
@@ -2422,7 +2422,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamit ang \"ng\" dahil ang \"awiting Pilipino\" ang tuwirang layon ng pandiwang \"nagpapatugtog.\""
   },
   {
     "id": "fi-098",
@@ -2447,7 +2447,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"pakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"pakiusap\" ang pangngalan para sa hiling ng mga mamamayan. Ang \"ipakiusap\" ay pandiwa, kaya hindi ito babagay pagkatapos ng \"Ang.\""
   },
   {
     "id": "fi-099",
@@ -2472,7 +2472,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"pa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"pa\" ay nagpapakitang hindi pa nangyayari o hindi pa natatapos ang inaasahang lunas sa kasalukuyan."
   },
   {
     "id": "fi-100",
@@ -2497,7 +2497,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Mayroon\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Mas angkop ang \"Mayroon\" sa tanong na nangangailangan ng mas buong anyo bago ang \"bang\": \"Mayroon bang suliranin.\""
   },
   {
     "id": "fi-101",
@@ -2522,7 +2522,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"May\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamit ang \"May\" kapag direktang sinusundan ng pangngalan: \"May patimpalak...\" Ang \"mayroon\" ay mas karaniwang ginagamit kapag nakapag-iisa o bago ang panghalip/pang-abay."
   },
   {
     "id": "fi-102",
@@ -2547,7 +2547,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Paano\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"Paano\" ang tanong sa paraan o proseso. Ang pangungusap ay nagtatanong kung paano nabubuo o nagkakaroon ng bulkan."
   },
   {
     "id": "fi-103",
@@ -2572,7 +2572,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Abutan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"Abutan\" ay nangangahulugang bigyan o tulungan ang isang tao sa pamamagitan ng pagbibigay. Ang tinutukoy dito ay pagtulong sa kapwang nangangailangan."
   },
   {
     "id": "fi-104",
@@ -2597,7 +2597,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"abutan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Sa kontekstong ito, ang \"abutan\" ay tumutukoy sa pagbibigay o pag-aabot ng suhol/pabor sa nasa kapangyarihan. Mas akma ito kaysa \"abutin,\" na karaniwang nangangahulugang maabot."
   },
   {
     "id": "fi-105",
@@ -2622,7 +2622,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Kunin\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang \"Kunin\" ay angkop dahil hinihiling na kunin o buhatin ang mabibigat na dalahin ng Inay. Hindi \"kunan,\" dahil hindi ito pagkuha ng bagay mula sa isang tao o lugar para sa iba."
   },
   {
     "id": "fi-106",
@@ -3101,7 +3101,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "explanation": "Walang mali sa pangungusap: tama ang ugnayan ng \"ngunit\" para sa salungat na katangian at \"kaya\" para sa bunga. Maayos din ang gamit ng \"sa mga kamag-aral.\"",
     "image": "/question-images/fi-121.png"
   },
   {
@@ -3191,7 +3191,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mali ang \"pinayagan\" dahil humihiling pa lamang ng pahintulot. Mas wasto ang \"payagan\": Ipinakiusap mo ba na payagan kang gamitin ang kompyuter?",
+    "explanation": "Mali ang \"pinayagan\" dahil humihiling pa lamang ng pahintulot. Mas wasto ang \"payagan\": ipinakiusap mo ba na payagan kang gamitin ang kompyuter.",
     "image": "/question-images/fi-124.png"
   },
   {
@@ -3221,7 +3221,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "explanation": "Walang mali sa pangungusap. Ang \"Hanapan mo ng sagot ... ang iyong guro\" ay wastong anyo dahil ang guro ang hahanapan at ang sagot ang bagay na hinahanap.",
     "image": "/question-images/fi-125.png"
   },
   {
@@ -3311,7 +3311,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "explanation": "Walang mali sa pangungusap. Tama ang anyong \"Panatilihin nating\" at malinaw ang layon: panatilihing malinis at malayo sa polusyon ang kapaligiran para sa kalusugan.",
     "image": "/question-images/fi-128.png"
   },
   {
@@ -3397,7 +3397,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"langit\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Paulit-ulit na sinasabi ng tula ang \"sa langit kong gusto\" at sa huling bahagi ay binabanggit ang pag-akyat patungo roon, kaya langit ang nais mapuntahan ng manunula."
   },
   {
     "id": "fi-132",
@@ -3422,7 +3422,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"pagtutulad\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "May pagtutulad sa linyang \"katulad nila gusto ko ring lumipad\" dahil inihahambing ng persona ang sarili sa mga ibong lumilipad."
   },
   {
     "id": "fi-133",
@@ -3447,7 +3447,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"unang saknong\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Sa unang saknong agad inilalahad ang pangunahing hangarin ng tula: ang pagnanais na pumunta sa langit na gusto ng persona."
   },
   {
     "id": "fi-134",
@@ -3472,7 +3472,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Hindi nakatutulong sa bayan ang pakikiisa sa kabataang may masamang bisyo; taliwas ito sa mensahe ng talata tungkol sa pagmamalasakit, paglilinis, kapayapaan, at pag-ibig sa bayan."
   },
   {
     "id": "fi-135",
@@ -3497,7 +3497,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Sinabi mismo ng talata na mahahango ang bansa sa kasawian kung ang kabataan ay magkakaroon ng tunay na pag-ibig sa bayan."
   },
   {
     "id": "fi-136",
@@ -3522,7 +3522,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Makikita ang lungkot sa mga tanong na tila binibigo ng kabataan ang pangarap ni Rizal. Ipinahihiwatig nito ang panghihinayang sa maaaring pagkasira ng tiwala sa kabataan."
   },
   {
     "id": "fi-137",
@@ -3547,7 +3547,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"May suliranin ang bayan\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ang talata ay nagsasabing kailangang paunlarin ang bansa at panatilihin ang katahimikan, kaya ipinahihiwatig na may suliraning kailangang tugunan ang bayan."
   },
   {
     "id": "fi-138",
@@ -3572,7 +3572,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Pang-agham na pangalan ng Santan.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Sa unang pangungusap pa lang binanggit na ang pang-agham na pangalan ng Santan ay Ixora coccinea L., kaya ito ang tuwirang sagot."
   },
   {
     "id": "fi-139",
@@ -3597,7 +3597,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Maaaring ipanggamot ang Santan.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Binibigyang-diin ng talata ang maraming gamit ng Santan bilang gamot, gaya ng pinakulong ugat, pangmumog, at pantapal."
   },
   {
     "id": "fi-140",
@@ -3622,7 +3622,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"ugat\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ang solusyon na maaaring purga ay mula sa pinakulong ugat, kaya ugat ang bahaging tinutukoy."
   },
   {
     "id": "fi-141",
@@ -3647,7 +3647,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Ang Santan\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ang buong talata ay naglalarawan sa Santan: pangalan, pinagmulan, uri, at gamit nito bilang halamang gamot."
   },
   {
     "id": "fi-142",
@@ -3672,7 +3672,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Maaaring pampagana ng pagkain\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Binanggit sa talata na nakatutulong ang Santan sa pagkakaroon ng gana sa pagkain, kaya maaari itong pampagana."
   },
   {
     "id": "fi-143",
@@ -3697,7 +3697,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ang kahalagahan ng pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Pangunahing tinatalakay ng seleksiyon kung bakit mahalaga ang pagbabasa sa buhay: nagpapalawak ito ng kaalaman, kasanayan, at pag-unawa."
   },
   {
     "id": "fi-144",
@@ -3722,7 +3722,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Lahat ng nabanaggit sa tama.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Binanggit sa talata ang pagkilala ng salita, pag-unawa, paggamit ng sanggunian, pag-iisip, at bagong kaalaman; kaya saklaw ng sagot ang lahat ng nabanggit na dahilan."
   },
   {
     "id": "fi-145",
@@ -3747,7 +3747,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Ang Kahalagahan ng Pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Pinakamainam ang pamagat na \"Ang Kahalagahan ng Pagbabasa\" dahil iyon ang sentro ng buong talata mula sa unang tanong hanggang sa mga detalyeng sumusuporta rito."
   },
   {
     "id": "fi-146",
@@ -3772,7 +3772,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "This item needs review: kung paksang pangungusap ang hinahanap, mas malapit ang unang pangungusap na \"Nakikita sa mata ang ibat ibang emosyon.\" Ang nakalistang sagot ay tila pangwakas o lagom, hindi paksa."
   },
   {
     "id": "fi-147",
@@ -3797,7 +3797,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ang Iba’t Ibang Gamit ng Mata\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ang talata ay tungkol sa ibat ibang gamit ng mata sa emosyon, pansin, panunukso, galit, pagpapaganda, at pagtingin, kaya iyon ang pinakaangkop na pamagat."
   },
   {
     "id": "fi-148",
@@ -3822,7 +3822,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"nagpapakita ng matinding karamdaman\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Hindi binanggit na ang mata ay nagpapakita ng matinding karamdaman. Ang talata ay nakatuon sa emosyon, komunikasyon, pagpapaganda, at iba pang gamit ng mata."
   },
   {
     "id": "fi-149",
@@ -3847,7 +3847,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ipinapakita ng talata na nagbago ang pananaw sa mata mula sa pagiging bahagi lamang ng mukha tungo sa gamit sa pagpapahayag ng emosyon at iba pang layunin."
   },
   {
     "id": "fi-150",
@@ -3872,7 +3872,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nanlilisik na mata\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ang \"nanlilisik na mata\" ay karaniwang nagpapahiwatig ng galit o masamang balak, kaya ito ang pariralang pinakamalapit sa paggamit ng mata sa kasamaan."
   },
   {
     "id": "fi-151",
@@ -3897,7 +3897,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Pinakamababang pasahod sa Maynila sa iba’t ibang taon.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ang grap ay tungkol sa minimum wage sa Maynila sa ibat ibang taon; ang mga tuldok ay kumakatawan sa pasahod mula 1990 hanggang 1999.",
     "image": "/question-images/fi-151.png"
   },
   {
@@ -3923,7 +3923,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"₱58.50\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Kinukuha ang diperensiya ng pasahod noong Oktubre 1999 at Mayo 1996 ayon sa grapo. Ang agwat ng dalawang halaga ay PHP 58.50.",
     "image": "/question-images/fi-152.png"
   },
   {
@@ -3949,7 +3949,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Abril 1994\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa grapo, ang pinakamaliit na pagtaas ng minimum wage ay nasa Abril 1994, kaya iyon ang petsang tinutukoy.",
     "image": "/question-images/fi-153.png"
   },
   {
@@ -3975,7 +3975,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"dalawampu’t limang buwan\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ipinapakita ng grapo na nanatili ang PHP 145 na minimum wage sa loob ng dalawamput limang buwan bago ito muling tumaas.",
     "image": "/question-images/fi-154.png"
   },
   {
@@ -4001,7 +4001,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"dalawa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Sa grapo, dalawang pagkakataon makikita ang eksaktong PHP 20 na pagtaas sa minimum wage.",
     "image": "/question-images/fi-155.png"
   },
   {
@@ -4027,7 +4027,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Badyet at Katayuang Pangmilitar ng mga Piling Bansa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ang pamagat na ito ang angkop dahil pinagsasama ng tsart ang badyet militar at katayuang pangmilitar ng piling bansa.",
     "image": "/question-images/fi-156.png"
   },
   {
@@ -4053,7 +4053,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Malaysia\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Sa hanay ng bilang ng tropa, Malaysia ang may pinakamataas na datos sa tsart."
   },
   {
     "id": "fi-158",
@@ -4078,7 +4078,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Brunei\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Sa porsiyento ng GDP na nakalaan sa badyet militar, Brunei ang may pinakamalaking bahagi ayon sa tsart."
   },
   {
     "id": "fi-159",
@@ -4103,7 +4103,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Japan\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Sa paghahambing ng GDP ng mga bansang nasa tsart, Japan ang may pinakamalaking halaga."
   },
   {
     "id": "fi-160",
@@ -4128,7 +4128,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Maliit na bansa lamang ang Brunei\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Makatwirang paliwanag na mababa ang bilang ng puwersang militar ng Brunei dahil maliit lamang itong bansa kumpara sa iba pang nasa tsart."
   },
   {
     "id": "fi-161",
@@ -4153,7 +4153,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"D-B-A-C\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Nauuna ang tanong na D bilang panimula, kasunod ang depinisyon sa B, saka detalye ng parusa sa A, at panghuling dagdag na benepisyo sa C."
   },
   {
     "id": "fi-162",
@@ -4203,7 +4203,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Ang Clean Air Act\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Pinakaangkop ang \"Ang Clean Air Act\" dahil ang talata ay nagpapaliwanag kung ano ang batas na ito, kanino ito nagpapataw ng pananagutan, at anong insentibo ang ibinibigay."
   },
   {
     "id": "fi-164",
@@ -4228,7 +4228,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"A-D-B-C-E\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Nauuna ang pangkalahatang pahayag sa A, pagkatapos ay iniisa-isa ang mga katangian sa D, B, C, at E. Ang mga salitang \"Isa,\" \"Ikalawa,\" \"Isa pa,\" at \"huli\" ang gabay sa ayos."
   },
   {
     "id": "fi-165",
@@ -4253,7 +4253,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"pag-iisa-isa o enumerasyon\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Enumerasyon ang paraan dahil isa-isang inililista ng talata ang mga katangiang kailangan upang maging Presidente."
   },
   {
     "id": "fi-166",
@@ -4278,7 +4278,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"pangungusap D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Pangungusap D ang nagsasabing kailangang katutubong ipinanganak na mamamayan ng Pilipinas, kaya hindi maaaring dayuhan ang maging Presidente."
   },
   {
     "id": "fi-167",
@@ -4303,7 +4303,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"C-A-B-D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Nauuna ang C dahil ipinakikilala nito ang pinakaunang pangkat. Sinusundan ito ng A na paliwanag sa pinagmulan nila, pagkatapos B para sa sumunod na Indones, at D para sa huling pangkat na Malay."
   },
   {
     "id": "fi-168",
@@ -4328,7 +4328,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Ang paksang pangungusap na ito ang sumasaklaw sa buong talata dahil lahat ng kasunod na pangungusap ay tungkol sa tatlong pangkat na dumating sa Pilipinas."
   },
   {
     "id": "fi-169",
@@ -4353,7 +4353,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Ang mga Unang Pangkat ng mga Pilipino\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Ang pamagat na ito ang angkop dahil tinatalakay ng talata ang Ita o Negrito, Indones, at Malay bilang mga unang pangkat ng tao sa Pilipinas."
   },
   {
     "id": "fi-170",
@@ -4378,7 +4378,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"C-A-B-E-D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Kapag idinagdag ang E tungkol sa pagdating ng mga Indones, dapat itong sumunod sa B na nagpapakilala sa Indones. Kaya ang ayos ay C-A-B-E-D."
   },
   {
     "id": "fi-171",
@@ -4403,7 +4403,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"magkaibigan\") dahil ang \"naghihiramang suklay\" ay tumutukoy sa malapit na ugnayan ng magkaibigan."
+    "explanation": "Ang \"naghihiramang suklay\" ay pahiwatig ng napakalapit na samahan. Dahil nagdadamayan sila sa hirap at ginhawa, pinakatugma ang magkaibigan."
   },
   {
     "id": "fi-172",
@@ -4428,7 +4428,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"tunog ng alon\") dahil ang lagasaw ay salitang tumutukoy sa lagaslas o ingay ng alon."
+    "explanation": "Ang \"lagasaw\" ay tunog ng pag-alon o paggalaw ng tubig, kaya ito ay tunog ng alon."
   },
   {
     "id": "fi-173",
@@ -4453,7 +4453,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"mahabang hapag\") dahil ang dulang ay isang uri ng mababang o mahabang hapag."
+    "explanation": "Ang \"dulang\" ay isang uri ng mahaba o mababang hapag na ginagamit sa pagkain o paghahanda."
   },
   {
     "id": "fi-174",
@@ -4478,7 +4478,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"punit-punit\") dahil ang gula-gulanit ay nangangahulugang gutay-gutay o punit-punit."
+    "explanation": "Ang \"gula-gulanit\" ay nangangahulugang gutay-gutay o punit-punit ang kalagayan ng bagay."
   },
   {
     "id": "fi-175",
@@ -4507,7 +4507,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"natututuhan nang tangkilikin ng mga Pilipino ang kanilang mga sariling awitin\") dahil sinasabi ng pangungusap na nagbago ang kamalayan ng Pilipino tungo sa sariling awit at wika."
+    "explanation": "Sinasabi ng pangungusap na nabago ng kasalukuyang awitin ang kamalayan ng Pilipino upang kantahin ang sariling awit sa sariling wika, kaya tumutukoy ito sa pagtangkilik sa awiting Pilipino."
   },
   {
     "id": "fi-176",
@@ -4536,7 +4536,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"dumarami ang mga walang hanapbuhay at tumataas ang halaga ng mga bilihin dahil sa krisis\") dahil binanggit sa talata ang kawalan ng trabaho at pagtaas ng presyo ng mga bilihin."
+    "explanation": "Binanggit sa talata na nagdulot ang krisis ng kawalan ng trabaho at pagtaas ng presyo ng bilihin, kaya iyon ang pinakatumpak na buod."
   },
   {
     "id": "fi-177",
@@ -4561,7 +4561,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang masinop ay nangangahulugang maayos o maingat."
+    "explanation": "Ang \"masinop\" ay nangangahulugang maayos, maingat, at organisado sa paggawa o pag-aasikaso."
   },
   {
     "id": "fi-178",
@@ -4586,7 +4586,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang kasalungat ng masipag ay tamad."
+    "explanation": "Ang kasalungat ng \"masipag\" ay \"tamad\" dahil kabaligtaran ito ng pagiging masigasig sa paggawa."
   },
   {
     "id": "fi-179",
@@ -4611,7 +4611,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ito ang wastong baybay ng salita."
+    "explanation": "\"Katarungan\" ang wastong baybay ng salitang tumutukoy sa justice o pagiging makatarungan."
   },
   {
     "id": "fi-180",
@@ -4636,7 +4636,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil tugma ang panghalip sa simuno."
+    "explanation": "Tama ang panghalip sa \"Siya ay tumulong sa mga bata\" dahil iisang tao ang simuno at malinaw ang tinutukoy nito."
   },
   {
     "id": "fi-181",
@@ -4661,7 +4661,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang kapit-tuko ay nangangahulugang mahigpit ang kapit."
+    "explanation": "Ang sawikaing \"kapit-tuko\" ay nangangahulugang mahigpit ang kapit, gaya ng tukong kumakapit nang madiin sa dingding."
   },
   {
     "id": "fi-182",
@@ -4686,7 +4686,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang salitang-ugat ay aral."
+    "explanation": "Ang salitang-ugat ng \"pinag-aralan\" ay \"aral\"; ang \"pinag-\" at \"-an\" ay mga panlapi lamang."
   },
   {
     "id": "fi-183",
@@ -4711,7 +4711,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil inilalarawan nito ang kilos sa pangungusap."
+    "explanation": "\"Mabilis\" ang pang-uri dahil inilalarawan nito ang paraan o katangian ng pagtakbo ng bata."
   },
   {
     "id": "fi-184",
@@ -4736,7 +4736,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil wastong parirala ang \"para sa bayan\"."
+    "explanation": "Wasto ang \"para sa bayan\" dahil ang pang-ukol na \"para sa\" ay ginagamit upang ipakita kung kanino o para saan ang layunin."
   },
   {
     "id": "fi-185",
@@ -4761,7 +4761,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang madilim ay kasalungat ng maaliwalas."
+    "explanation": "Ang kasalungat ng \"maaliwalas\" ay \"madilim\" dahil ang maaliwalas ay maliwanag, bukas, o presko ang pakiramdam."
   },
   {
     "id": "fi-186",
@@ -4786,7 +4786,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang matipid ay malapit sa kahulugang kuripot sa konteksto."
+    "explanation": "Sa kontekstong pagtitipid, ang \"matipid\" ay malapit sa \"kuripot,\" bagaman mas negatibo ang dating ng kuripot."
   },
   {
     "id": "fi-187",
@@ -4811,7 +4811,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil malinaw at wasto ang kayarian ng pangungusap."
+    "explanation": "Tama ang pangungusap dahil tugma ang simunong \"mga mag-aaral\" at pandiwang \"nagbabasa\"; wala ring sobrang panghalip na inuulit ang simuno."
   },
   {
     "id": "fi-188",
@@ -4836,7 +4836,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang bukang-liwayway ay pagsikat ng araw."
+    "explanation": "Ang \"bukang-liwayway\" ay tumutukoy sa pagsikat ng araw o madaling-araw."
   },
   {
     "id": "fi-189",
@@ -4861,7 +4861,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang magulo ay kasalungat ng payapa."
+    "explanation": "Ang kasalungat ng \"payapa\" ay \"magulo\" dahil ang payapa ay tahimik at matiwasay."
   },
   {
     "id": "fi-190",
@@ -4886,7 +4886,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ito ang salitang nagsasaad ng kilos."
+    "explanation": "\"Nagluto\" ang pandiwa dahil ito ang salitang nagsasaad ng kilos na ginawa ni Ana."
   },
   {
     "id": "fi-191",
@@ -4911,7 +4911,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ito ang wastong baybay."
+    "explanation": "\"Responsibilidad\" ang wastong baybay ng salitang tumutukoy sa tungkulin o pananagutan."
   },
   {
     "id": "fi-192",
@@ -4936,7 +4936,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil tumutukoy ito sa taong mahinhin."
+    "explanation": "Ang \"di-makabasag-pinggan\" ay idyomang tumutukoy sa taong mahinhin, banayad, o hindi magaspang kumilos."
   },
   {
     "id": "fi-193",
@@ -4961,7 +4961,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang maralita ay nangangahulugang mahirap."
+    "explanation": "Ang \"maralita\" ay nangangahulugang mahirap o salat sa yaman."
   },
   {
     "id": "fi-194",
@@ -4986,7 +4986,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang guro ay ngalan ng tao."
+    "explanation": "\"Guro\" ang pangngalan dahil ito ang ngalan ng taong gumagawa ng pagtuturo."
   },
   {
     "id": "fi-195",
@@ -5011,7 +5011,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang sinungaling ay kabaligtaran ng matapat."
+    "explanation": "Ang kasalungat ng \"matapat\" ay \"sinungaling\" dahil ang matapat ay nagsasabi ng totoo."
   },
   {
     "id": "fi-196",
@@ -5036,7 +5036,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ito ay ugaling masigasig lamang sa simula."
+    "explanation": "Ang \"ningas-kugon\" ay tumutukoy sa taong masigasig lamang sa simula ngunit mabilis mawalan ng gana."
   },
   {
     "id": "fi-197",
@@ -5061,7 +5061,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ipinapakita ng kaya ang bunga ng pag-aaral."
+    "explanation": "Tama ang \"kaya\" dahil ipinapakita nito ang bunga: nag-aral siya, kaya pumasa siya."
   },
   {
     "id": "fi-198",
@@ -5086,7 +5086,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang masigasig ay malapit sa kahulugang masipag."
+    "explanation": "Ang \"masigasig\" ay malapit sa kahulugang masipag, matiyaga, o pursigido."
   },
   {
     "id": "fi-199",
@@ -5111,7 +5111,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil ang makitid ay kasalungat ng malawak."
+    "explanation": "Ang kasalungat ng \"malawak\" ay \"makitid\" dahil kabaligtaran ito ng malapad o may malaking saklaw."
   },
   {
     "id": "fi-200",
@@ -5136,6 +5136,6 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A dahil wasto ang ayos at diwa ng pangungusap."
+    "explanation": "Tama ang ayos na \"Bumili ng aklat ang bata\" dahil malinaw ang pandiwa, layon, at paksa: ang bata ang bumili at aklat ang binili."
   }
 ]
