@@ -148,7 +148,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "There are 10 numbers from 101 to 110. Their average is (101 + 110) ? 2 = 105.5, so the sum is 105.5 x 10 = 1,055."
+    "explanation": "There are 10 numbers from 101 to 110. Their average is (101 + 110) / 2 = 105.5, so the sum is 105.5 x 10 = 1,055."
   },
   {
     "id": "nr-007",
@@ -173,7 +173,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Check the last three digits for divisibility by 8. 888 ? 8 = 111 exactly, so 192,888 has no remainder when divided by 8."
+    "explanation": "Use the divisibility rule for 8: only the last three digits matter. Since 888 / 8 = 111 exactly, 192,888 leaves a remainder of 0."
   },
   {
     "id": "nr-008",
@@ -273,7 +273,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A number is divisible by 8 when its last three digits are divisible by 8. For 9,208, the last three digits are 208, and 208 ? 8 = 26 exactly."
+    "explanation": "A number is divisible by 8 when its last three digits are divisible by 8. For 9,208, the last three digits are 208, and 208 / 8 = 26 exactly."
   },
   {
     "id": "nr-012",
@@ -323,7 +323,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "This item needs review: the written expression 1/2(128 - 84) - 1/2(128 - 84) simplifies to 0, but the stored correct choice is 44."
+    "explanation": "This item needs review: as written, 1/2(128 - 84) - 1/2(128 - 84) equals 22 - 22 = 0. The selected answer 44 would only fit a different expression, such as (128 - 84)."
   },
   {
     "id": "nr-014",
@@ -373,7 +373,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Reduce 231/1001 by their common factor 77: 231 ? 77 = 3 and 1001 ? 77 = 13, so the fraction becomes 3/13."
+    "explanation": "Both 231 and 1001 are divisible by 77. Dividing gives 231 / 77 = 3 and 1001 / 77 = 13, so the fraction reduces to 3/13."
   },
   {
     "id": "nr-016",
@@ -625,7 +625,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "This item needs review: the extracted expression and choices are garbled, so the stored answer cannot be explained reliably from the visible text alone."
+    "explanation": "This item needs review: the expression and choices were garbled during extraction, so there is not enough readable information to compare the values reliably."
   },
   {
     "id": "nr-026",
@@ -650,7 +650,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "This item needs review: the wording says ?when divided by 10,? but the stored answer does not follow clearly from the extracted text. The prompt likely needs correction before a reliable explanation can be written."
+    "explanation": "This item needs review: the wording appears corrupted. If the question is about what cannot be odd when divided by 10, the listed answer does not follow clearly from the visible choices."
   },
   {
     "id": "nr-027",
@@ -775,7 +775,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The inequalities give x ? 0.8 and x ? 7/3 at the same time. No number can satisfy both, so there are no odd-number solutions; the set is empty.",
+    "explanation": "Solve each inequality: 5x - 4 <= 0 gives x <= 4/5, while 3x - 7 >= 0 gives x >= 7/3. No number can satisfy both conditions, so the solution set is empty.",
     "image": "/question-images/nr-031.png"
   },
   {
@@ -976,7 +976,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A 40% discount means the sale price is 60% of the regular price. So 7,200 = 0.60R, and R = 7,200 ? 0.60 = 12,000."
+    "explanation": "A 40% discount means the sale price is 60% of the regular price. If 7,200 = 0.60R, then R = 7,200 / 0.60 = 12,000."
   },
   {
     "id": "nr-040",
@@ -1051,7 +1051,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Let Queenie?s current age be q, so Paula is 2q. Seven years ago their ages summed to 16: (q-7) + (2q-7) = 16. Thus 3q - 14 = 16, so q = 10."
+    "explanation": "Let Queenie's current age be q, so Paula is 2q. Seven years ago, (q - 7) + (2q - 7) = 16. Thus 3q - 14 = 16, so q = 10."
   },
   {
     "id": "nr-043",
@@ -1076,7 +1076,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "If x is the average of 2, 4x, 6, 8, and 10, then (2 + 4x + 6 + 8 + 10) ? 5 = x. So (26 + 4x) ? 5 = x, giving 26 + 4x = 5x, so x = 26."
+    "explanation": "If x is the average of 2, 4x, 6, 8, and 10, then (2 + 4x + 6 + 8 + 10) / 5 = x. So (26 + 4x) / 5 = x, giving x = 26."
   },
   {
     "id": "nr-044",
@@ -1101,7 +1101,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Between 197 and 303, the multiples of 4 are 200 through 300, giving 26 numbers. The multiples of 10 in that range are already multiples counted only when divisible by 4? The source answer counts 26, matching the multiples of 4 in the interval."
+    "explanation": "This item needs review: between 197 and 303 there are 26 multiples of 4 and 11 multiples of 10, with 6 overlaps. Using inclusion-exclusion gives 31 numbers, so the stored answer 26 only counts the multiples of 4."
   },
   {
     "id": "nr-045",
@@ -1151,7 +1151,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Compute the percentage: 96 ? 300 = 0.32. Converting to a percent gives 32%."
+    "explanation": "Compute the percentage by dividing the part by the whole: 96 / 300 = 0.32. Converting to a percent gives 32%."
   },
   {
     "id": "nr-047",
@@ -1176,7 +1176,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "If 100 mL is 20% of the container, then full capacity is 100 ? 0.20 = 500 mL."
+    "explanation": "If 100 mL is 20% of the container, then the full capacity is 100 / 0.20 = 500 mL."
   },
   {
     "id": "nr-048",
@@ -1226,7 +1226,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The salary increase is 18,000 - 15,000 = 3,000. Divide by the old salary: 3,000 ? 15,000 = 0.20, or 20%."
+    "explanation": "The increase is Php18,000 - Php15,000 = Php3,000. Divide by the original salary: 3,000 / 15,000 = 0.20, or 20%."
   },
   {
     "id": "nr-050",
@@ -1301,7 +1301,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The increased and decreased prices are equally far from the original price. Average them: (3,100 + 1,900) ? 2 = 2,500."
+    "explanation": "The increased and decreased prices are equally far from the original price. Average them: (3,100 + 1,900) / 2 = 2,500."
   },
   {
     "id": "nr-053",
@@ -1326,7 +1326,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Use income = principal x rate. So 12,000 = P x 0.096, and P = 12,000 ? 0.096 = 125,000."
+    "explanation": "Use income = principal x rate. Since 12,000 = P x 0.096, divide to get P = 12,000 / 0.096 = 125,000."
   },
   {
     "id": "nr-054",
@@ -1501,7 +1501,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Find the pass rate: 560 ? 700 = 0.8. As a percent, that is 80%."
+    "explanation": "Find the pass rate by dividing passed examinees by total examinees: 560 / 700 = 0.8. As a percent, that is 80%."
   },
   {
     "id": "nr-061",
@@ -1526,7 +1526,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Interest rate is interest divided by principal: 90,000 ? 750,000 = 0.12, or 12%."
+    "explanation": "The interest rate is interest divided by principal: 90,000 / 750,000 = 0.12, or 12%."
   },
   {
     "id": "nr-062",
@@ -1601,7 +1601,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Brand A costs 87.50 ? 1.25 = Php70/kg. Brand B costs 103.20 ? 1.5 = Php68.80/kg. The difference is Php1.20 per kg."
+    "explanation": "Brand A costs 87.50 / 1.25 = Php70 per kg. Brand B costs 103.20 / 1.5 = Php68.80 per kg. The difference is Php1.20 per kg."
   },
   {
     "id": "nr-065",
@@ -1626,7 +1626,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "30 cm is 0.30 meter. If 0.30 meter costs Php249, then 1 meter costs 249 ? 0.30 = Php830."
+    "explanation": "Convert 30 cm to 0.30 meter. If 0.30 meter costs Php249, then 1 meter costs 249 / 0.30 = Php830."
   },
   {
     "id": "nr-066",
@@ -1651,7 +1651,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Buying costs Php18,900. Divide by the daily rental: 18,900 ? 2,700 = 7. After 7 days, renting equals buying; beyond that, renting costs more."
+    "explanation": "Buying the saw costs Php18,900. Divide by the daily rental cost: 18,900 / 2,700 = 7 days."
   },
   {
     "id": "nr-067",
@@ -1801,7 +1801,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A rectangle?s perimeter is 2(length + width). So 2(84 + 48) = 2(132) = 264 meters."
+    "explanation": "A rectangle's perimeter is 2(length + width). So 2(84 + 48) = 2(132) = 264 meters."
   },
   {
     "id": "nr-073",
@@ -2785,7 +2785,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "This item needs review: the prompt asks for the present percentage of aliens in the Philippines, but the data file does not provide a source, date, or figures to compute it. This cannot be explained reliably from the question alone."
+    "explanation": "This item needs review: the question asks for a present population percentage but gives no date, source, or figures. The answer cannot be computed from the prompt alone."
   },
   {
     "id": "nr-110",
@@ -2839,11 +2839,11 @@
       },
       {
         "id": "E",
-        "text": "160"
+        "text": "-160"
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e.) -160\n(25)^0 - (-2)^4 + (-3^4) - (-8)^2 = ?"
+    "explanation": "Apply exponent rules carefully: (25)^0 = 1, (-2)^4 = 16, (-3^4) = -81, and (-8)^2 = 64. Then 1 - 16 + (-81) - 64 = -160."
   },
   {
     "id": "nr-112",
@@ -2872,7 +2872,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "-2^2 - (-9)^2 - (-3^2) + 15^0 = ?\n-2^2 means -(2^2), so it is -4. Also (-9)^2 = 81, (-3^2) = -9, and 15^0 = 1. Therefore -4 - 81 - (-9) + 1 = -4 - 81 + 9 + 1 = -75."
+    "explanation": "-2^2 means -(2^2), so it is -4. Also (-9)^2 = 81, (-3^2) = -9, and 15^0 = 1. Therefore -4 - 81 - (-9) + 1 = -75."
   },
   {
     "id": "nr-113",
@@ -2901,7 +2901,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d.) 3750\nnote:\nof ---> ×\nis ---> ="
+    "explanation": "Translate the sentence as 20% x 30% x X = 225. Since 0.20 x 0.30 = 0.06, we get 0.06X = 225, so X = 225 / 0.06 = 3,750."
   },
   {
     "id": "nr-114",
@@ -2951,7 +2951,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c.) 10,000\nOne-fourth percent of a number is 25.\nQ: What is a number?\nNOTE: of ---> \"×\"\nis ---> \"=\"\nLet n be our number\nSolution:\nOne-fourth percent ---> 1/4 %\nof a number ---> × n\nis 25 ---> = 25\nIpagsama para mabuo ang equation:"
+    "explanation": "One-fourth percent is 0.25%, or 0.0025. If 0.0025n = 25, then n = 25 / 0.0025 = 10,000."
   },
   {
     "id": "nr-116",
@@ -2980,7 +2980,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 0.015\n√(225/1000000) = 15/1000 = 0.015"
+    "explanation": "Write 0.000225 as 225 / 1,000,000. The square root is 15 / 1,000, which is 0.015."
   },
   {
     "id": "nr-117",
@@ -3009,7 +3009,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e. 0.0009\n√(81/100000000) = 9/10000 = 0.0009\nFor item #141 and 142, watch this:\nhttps://www.youtube.com/watch?v=c5V4A9K9U2E&t=74s"
+    "explanation": "Write 0.00000081 as 81 / 100,000,000. The square root is 9 / 10,000, which is 0.0009."
   },
   {
     "id": "nr-118",
@@ -3096,7 +3096,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 9,600\nRound off to the nearest hundreds place: 9,650\n*(rule of 5) EVEN number before 5 kaya keep the number\nFor item #143 to 145\nWatch this:\nhttps://youtu.be/wrqAhHRiV_w"
+    "explanation": "Rounding 9,650 to the nearest hundred uses the tens digit, 5. With the round-half-to-even rule used by this item, the hundreds digit 6 stays even, so the result is 9,600."
   },
   {
     "id": "nr-121",
@@ -3183,7 +3183,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c.) 10\n(7+8+10+15) ÷ 4 = n"
+    "explanation": "For the mean, median, and mode to all be 10, the missing number should be 10. Then the ordered set is 7, 8, 10, 10, 15, making the median and mode both 10."
   },
   {
     "id": "nr-124",
@@ -3212,7 +3212,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) 24\n(24+22+18+10+38+32) ÷ 6 = n"
+    "explanation": "For the mean, median, and mode to all be 24, the missing number should be 24. In the ordered list, 24 becomes the middle value and the repeated value."
   },
   {
     "id": "nr-125",
@@ -3299,7 +3299,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 2,800,000✔\nWatch this:\nhttps://youtu.be/wrqAhHRiV_w"
+    "explanation": "To round 2,833,333 to the nearest hundred thousand, look at the ten-thousands digit, 3. Since it is less than 5, keep the hundred-thousands digit at 8: 2,800,000."
   },
   {
     "id": "nr-128",
@@ -3328,7 +3328,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c.) 7\nThe product of the ages of three sisters is 567. If the two\nsisters are twins and are 2 years older than their younger\nsister. What is the age of their younger sister?\n***e factor out natin para mas madali\n567÷3 = 189"
+    "explanation": "Let the younger sister be x. The twins are each x + 2, so x(x + 2)(x + 2) = 567. Testing x = 7 gives 7 x 9 x 9 = 567, so the younger sister is 7."
   },
   {
     "id": "nr-129",
@@ -3357,7 +3357,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) 16\nA6. [4÷4×2], [8÷4×2], [16÷4×2], ___"
+    "explanation": "Evaluate each bracket first: 4 / 4 x 2 = 2, 8 / 4 x 2 = 4, and 16 / 4 x 2 = 8. The results double each time, so the next result is 16."
   },
   {
     "id": "nr-130",
@@ -3415,7 +3415,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 0.401\n4010 x 0.0001 = ___\n***kopyahin lang at e move ang decimal place to the left\nng apat na beses.\nc. 0.401✔"
+    "explanation": "Multiplying by 0.0001 moves the decimal point four places to the left. Thus 4010 becomes 0.401."
   },
   {
     "id": "nr-132",
@@ -3444,7 +3444,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 0\n***review the RULE of exponents on negative\n(−7)² + (−7²) ="
+    "explanation": "Parentheses matter: (-7)^2 = 49, while (-7^2) means -(7^2) = -49. Their sum is 49 + (-49) = 0."
   },
   {
     "id": "nr-133",
@@ -3502,7 +3502,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) 16\nIf twice the value of a certain number is increased by 8\nthe result is 40. What is the number?\n***Sundan lang ang given mismo\ntwice the value of a certain number\n> 2n\nincreased by 8\n> +8\nthe result is 40\n> = 40\nIpagsama mo na ngayon at yan na ang equation natin"
+    "explanation": "Let the number be n. Twice the number increased by 8 is 2n + 8, so 2n + 8 = 40. Then 2n = 32 and n = 16."
   },
   {
     "id": "nr-135",
@@ -3531,7 +3531,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"8\") because letting Zymie be z gives Genzy = 2z and dad = 10z; in two years their ages sum to 58, so z = 4 and Genzy = 8."
+    "explanation": "Let Zymie's age be z. Genzy is 2z and the dad is 5 times Genzy, or 10z. In two years, their ages sum to (z+2) + (2z+2) + (10z+2) = 58, so 13z + 6 = 58 and z = 4. Genzy is 8."
   },
   {
     "id": "nr-136",
@@ -3560,7 +3560,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c.) 76\nIn a group of 120 persons, there are 32 more women than men.\nHow many women are there in the group?\nSolutions#1: Solution#2:"
+    "explanation": "Let men be m and women be m + 32. Then m + (m + 32) = 120, so 2m = 88 and m = 44. Women = 44 + 32 = 76."
   },
   {
     "id": "nr-137",
@@ -3589,7 +3589,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) it decreases by 1/5\nIf the dimensions of a square change in such a manner that\nthe area remains constant, what must happen to the other side\nif one side will be increased by 1/4 of itself?\nn × n = n²\n(1+1/4)n × ?n = n²"
+    "explanation": "If one side becomes 5/4 of its original length and the area must stay the same, the other side must be multiplied by 4/5. Changing from 1 to 4/5 is a decrease of 1/5."
   },
   {
     "id": "nr-138",
@@ -3602,7 +3602,7 @@
       },
       {
         "id": "B",
-        "text": "27"
+        "text": "-27"
       },
       {
         "id": "C",
@@ -3618,7 +3618,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) -27\nIf x - 3 = y, then (y - x )³ = _____ ?\n***rearrange or transpose x to isolate the value\n3 = y-x\nTherefore (y-x) is equal to -3\n(y - x )³ = (-3)³ = -27✔\nFor items # 154 to 163,\nWatch this for detailed solutions:\nhttps://www.youtube.com/watch?v=pIDl2cY6B9M&t=11s"
+    "explanation": "From x - 3 = y, subtract x from both sides to get y - x = -3. Therefore (y - x)^3 = (-3)^3 = -27."
   },
   {
     "id": "nr-139",
@@ -3647,7 +3647,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b. 4/5\nSoln#1\n0.75 is no doubt equals to 3/4\nSo, 0.8 is 8/10 or 4/5\nSoln#2\n0.75 : 3/4 = 0.8 : n"
+    "explanation": "The relationship converts the decimal to its fraction form: 0.75 = 3/4. Likewise, 0.8 = 8/10 = 4/5."
   },
   {
     "id": "nr-140",
@@ -3676,7 +3676,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b. 3/10\nSoln#1"
+    "explanation": "In the first pair, 75% is changed to the fraction 3/4 and then reduced by 1/4 to get 1/2. Applying the same reduction to 45% gives 45% - 25% = 20%, but 20% is not listed; this item likely needs source review. The stored answer 3/10 equals 30%."
   },
   {
     "id": "nr-141",
@@ -3705,7 +3705,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 0.625\nSoln#1\n0.25 is to 0.125 as to 1.25 is to\n0.25 : 0.125 = 1.25 : n\n0.25×5 = 1.25\n0.125×5 = 0.625\nSoln#2\n0.25 : 0.125 = 1.25 : n\n(0.125×1.25)/0.25 =0.625"
+    "explanation": "The second number is half of the first: 0.125 is half of 0.25. Half of 1.25 is 0.625."
   },
   {
     "id": "nr-142",
@@ -3734,7 +3734,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 80\nSoln#1 Soln#2"
+    "explanation": "Use the same multiplier from the first pair. Since 50 / 2 = 25, multiply 3.2 by 25: 3.2 x 25 = 80."
   },
   {
     "id": "nr-143",
@@ -3763,7 +3763,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d.10\nSoln#1 Soln#2"
+    "explanation": "The first pair doubles the number: 14 becomes 28. Doubling 5 gives 10."
   },
   {
     "id": "nr-144",
@@ -3821,7 +3821,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 1082.7184\nWrite down all the given numbers vertically and align all\ndecimals, then you can add them. To shorten ur time, check\nthe 4th digit from the decimal point or the ten thousandths\nplace, it is 4. Then the 3rd digit from the decimal point or the\nthousandths place, you have 4+4 and it is 8. Eliminate choice A\ncoz the answer must be 1000+. You only have choice d that\nhas 84 on the last two digits after decimal."
+    "explanation": "Add the decimals by aligning places: 483.4300 + 123.3340 + 31.5544 + 444.4000 = 1082.7184."
   },
   {
     "id": "nr-146",
@@ -3850,7 +3850,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e. 50/70\nEliminate all below halves, then compute the remaining\nby dividing numerators by denominators.\nFor 169 to 171, Watch this:\nhttps://www.youtube.com/watch?v=6pfYxQOYMjI"
+    "explanation": "Compare the fractions by decimal value: 5/12 is about 0.417, 17/33 about 0.515, 52/80 = 0.65, 18/42 about 0.429, and 50/70 about 0.714. The greatest is 50/70."
   },
   {
     "id": "nr-147",
@@ -3937,7 +3937,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 9, 18, 27\nn + 2n + 3n = 54"
+    "explanation": "Let the smallest number be n, so the three numbers are n, 2n, and 3n. Their sum is 6n = 54, so n = 9 and the numbers are 9, 18, and 27."
   },
   {
     "id": "nr-150",
@@ -3966,7 +3966,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Count back 15 hours and 15 minutes from 6:30 am. That lands at 3:15 pm on the previous day, so the correct answer is choice E (\"3:15pm\")."
+    "explanation": "Count back 15 hours and 15 minutes from 6:30 am. That lands at 3:15 pm on the previous day."
   },
   {
     "id": "nr-151",
@@ -4082,7 +4082,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b. 42\nJust multiply them 2×3×7 = 42"
+    "explanation": "Multiply the prime factors: 2 x 3 x 7 = 42."
   },
   {
     "id": "nr-155",
@@ -4111,7 +4111,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 546\nDivisible by 6 are both divisible by 2 and 3. Focus on\nchoices with even numbers and then check which one\nis divisible by 3.\nWatch this for detailed explanation:\nFor item 178 to 180\nhttps://www.youtube.com/watch?v=6pfYxQOYMjI"
+    "explanation": "A number divisible by 6 must be divisible by both 2 and 3. 546 is even, and its digits add to 5 + 4 + 6 = 15, which is divisible by 3."
   },
   {
     "id": "nr-156",
@@ -4186,7 +4186,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 1 : 4\nRatio of 750m and 3km is\nconvert km to m para same na sila\n750m : 3km\n750m : 3000m"
+    "explanation": "Convert 3 km to 3,000 m, then compare 750 m : 3,000 m. Dividing both terms by 750 gives 1 : 4."
   },
   {
     "id": "nr-159",
@@ -4215,7 +4215,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 16cm, 12cm\nSoln#1:\nLet the lengths of two sides of the parallelogram be 4n cm\nand 3n cm respectively.\nThen, its perimeter\n= 2(4n + 3n) cm\n= 8n + 6n\n= 14n cm\nTherefore,"
+    "explanation": "Let the sides be 4x and 3x. The perimeter is 2(4x + 3x) = 14x. Since 14x = 56, x = 4, so the sides are 16 cm and 12 cm."
   },
   {
     "id": "nr-160",
@@ -4273,7 +4273,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) 28\nA baseball pitcher won 80% of the games he pitched. If\nhe pitched 35 ballgames, how many games did he win?"
+    "explanation": "He won 80% of 35 games. Compute 0.80 x 35 = 28 games."
   },
   {
     "id": "nr-162",
@@ -4302,7 +4302,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": ") 75%\nJerry, an electrician, worked 9 months out of the year.\nWhat percent of the year did he work?"
+    "explanation": "A year has 12 months. Jerry worked 9 months, so 9 / 12 = 0.75, or 75%."
   },
   {
     "id": "nr-163",
@@ -4331,7 +4331,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) 60%\nThere are 40 students in a class. Sixteen of those\nstudents are boys. What percent of the class are girls?\nB + G = 40"
+    "explanation": "There are 40 students and 16 are boys, so 24 are girls. The percentage of girls is 24 / 40 = 0.60, or 60%."
   },
   {
     "id": "nr-164",
@@ -4360,7 +4360,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 80%\nAnalie took a math test and got 48 correct and 12\nincorrect answers. What was the percentage of correct\nanswers?"
+    "explanation": "Analie answered 48 correct out of 48 + 12 = 60 questions. The percentage correct is 48 / 60 = 0.80, or 80%."
   },
   {
     "id": "nr-165",
@@ -4460,7 +4460,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "3520\nTwo and one-half percent of what number is 88?"
+    "explanation": "Two and one-half percent is 2.5%, or 0.025. If 0.025n = 88, then n = 88 / 0.025 = 3,520."
   },
   {
     "id": "nr-169",
@@ -4518,7 +4518,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"84\") because 30% of the 280 test takers failed."
+    "explanation": "Of the 280 students who appeared for the test, 70% passed, so 30% failed. Compute 0.30 x 280 = 84."
   },
   {
     "id": "nr-171",
@@ -4547,7 +4547,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a.) 2 ✔\nnote:"
+    "explanation": "Convert 40% to 0.40, then multiply: 0.40 x 5 = 2."
   },
   {
     "id": "nr-172",
@@ -4634,7 +4634,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d.) 5 ✔\ngiven:"
+    "explanation": "If the solution is 80% water, then it is 20% pure orange. In 25 liters, pure orange is 0.20 x 25 = 5 liters."
   },
   {
     "id": "nr-175",
@@ -4663,7 +4663,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e.) 13/16\n(7/8 + 3/4)/2 =\n(7/8 + 6/8)/2 =\n(13/8)/2 = 13/16\nPara mas klaru e rewrite natin"
+    "explanation": "Average the two fractions: (7/8 + 3/4) / 2 = (7/8 + 6/8) / 2 = (13/8) / 2 = 13/16."
   },
   {
     "id": "nr-176",
@@ -4808,7 +4808,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 12 ✔\nAPPLY the RULE not the acronym...."
+    "explanation": "Use order of operations: 4 x 2 = 8 and 10 / 5 x 2 = 4. Then 10 - 2 + 8 - 4 = 12."
   },
   {
     "id": "nr-181",
@@ -4837,7 +4837,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 8144\nThe population of a certain town is 5,000.\n> population is 5000\nIf it increases 5% each year,\n> EACH YEAR +5%\nQ: what will be the approximate population at the end of"
+    "explanation": "Use compound growth: 5,000(1.05)^10. This is about 8,144.47, so the approximate population is 8,144."
   },
   {
     "id": "nr-182",
@@ -4866,7 +4866,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) 3 km\nSOLUTION:\nRate = distance/time\nRate × time = distance\nDistance = 6kph × 30min\nDistance = 6kph × 0.5hr\nDistance = 3 km\nanswer"
+    "explanation": "Distance = speed x time. Convert 30 minutes to 0.5 hour, then 6 kph x 0.5 hour = 3 km."
   },
   {
     "id": "nr-183",
@@ -4895,7 +4895,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b. 54 kph✔\nSOLUTION:\nA boat takes 4/5 as much time to travel downstream as\nto its return.\n> 4 downstream vs 5 upstream\nRate of river current na nagpapabagal sa boat upstream:"
+    "explanation": "Let the still-water speed be b and the current be 6. Downstream speed is b + 6 and upstream speed is b - 6. Equal distances mean time is inversely proportional to speed, so (b - 6)/(b + 6) = 4/5. Solving gives b = 54 kph."
   },
   {
     "id": "nr-184",
@@ -4924,7 +4924,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b.) 30 km ✔\nSOLUTION:\nRate = distance/time\nRate×time = distance\nDistance = 60 kph × 30min\nDistance = 60 kph × 0.5hr\nDistance = 30 km\n✔Answer"
+    "explanation": "Distance = speed x time. Convert 30 minutes to 0.5 hour, then 60 kph x 0.5 hour = 30 km."
   },
   {
     "id": "nr-185",
@@ -4953,7 +4953,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d.) 48 mph\nSOLUTION:\nRate = distance/time\ntime = distance/rate\nTotal distance:"
+    "explanation": "The trip out takes 120 / 40 = 3 hours, and the return takes 120 / 60 = 2 hours. Total distance is 240 miles over 5 hours, so the average speed is 48 mph."
   },
   {
     "id": "nr-186",
@@ -4978,7 +4978,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Use the chart values for 1997 and 1992: 31.36 ? 5.70 = 5.50. So the 1997 investment is 5.50 times the 1992 investment.",
+    "explanation": "Use the chart values for 1997 and 1992: 31.36 / 5.70 = 5.50. So the 1997 investment is 5.50 times the 1992 investment.",
     "image": "/question-images/nr-186.png"
   },
   {
@@ -5030,7 +5030,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Keep the same proportion from 1992 to 1997. If 2 million corresponds to 5.70, then x corresponds to 31.36: x = (2 ? 5.70) x 31.36, which is about 11.",
+    "explanation": "Keep the same proportion from 1992 to 1997. If 2 million corresponds to 5.70, then x corresponds to 31.36: x = (2 / 5.70) x 31.36, which is about 11.",
     "image": "/question-images/nr-188.png"
   },
   {
@@ -5160,7 +5160,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Compare February 2002 to April 2001: 405 ? 360 = 1.125. Converting to a percent gives 112.5%.",
+    "explanation": "Compare February 2002 to April 2001: 405 / 360 = 1.125. Converting to a percent gives 112.5%.",
     "image": "/question-images/nr-193.png"
   },
   {
@@ -5237,7 +5237,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 4\n(15-8+3), 8, (4÷2×3),___"
+    "explanation": "Evaluate the grouped terms: 15 - 8 + 3 = 10 and 4 / 2 x 3 = 6. The middle term is 8, so the pattern decreases by 2: 10, 8, 6, 4."
   },
   {
     "id": "nr-197",
@@ -5320,7 +5320,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 250%\nWhat percent of 16 is 40?\nN × 16 = 40\nN = 40/16 = 2.5×100% = 250%"
+    "explanation": "Let the percent be p. Since p of 16 is 40, p x 16 = 40, so p = 40 / 16 = 2.5. As a percent, 2.5 is 250%."
   },
   {
     "id": "nr-200",
@@ -5349,7 +5349,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "This item needs review: the reciprocal of 1 1/4 is 4/5. If 1 1/4 is subtracted from its reciprocal, the result is 4/5 - 5/4 = -9/20, but the stored answer is positive 9/20."
+    "explanation": "This item needs review: the reciprocal of 1 1/4 is 4/5. If 1 1/4 is subtracted from its reciprocal, the result is 4/5 - 5/4 = -9/20, but the choices only show positive 9/20."
   },
   {
     "id": "nr-201",
@@ -5374,7 +5374,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 5 : 12\n0.25 : 0.6 = 25:60 = 5:12"
+    "explanation": "Convert both quantities to fractions: 1/4 : 3/5. Clear denominators by multiplying both terms by 20, giving 5 : 12."
   },
   {
     "id": "nr-202",
@@ -5457,7 +5457,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. −28\n990 − (−2)2 + (−32) − (−4)2 = ?"
+    "explanation": "This item appears to mean 9^0 - (-2)^2 + (-3^2) - (-4)^2. That gives 1 - 4 - 9 - 16 = -28."
   },
   {
     "id": "nr-205",
@@ -5486,7 +5486,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b. −19\n(100)0 + (−42)−22 = ?"
+    "explanation": "This item appears to mean 10^0 + (-4^2) - 2^2. That gives 1 - 16 - 4 = -19."
   },
   {
     "id": "nr-206",
@@ -5511,7 +5511,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 10,000\nA one fourth percent of a number is 25."
+    "explanation": "One-fourth percent is 0.25%, or 0.0025. If 0.0025n = 25, then n = 25 / 0.0025 = 10,000."
   },
   {
     "id": "nr-207",
@@ -5565,7 +5565,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 15\n(12+22+10+15+14+11+19+17)/8=120/8 = 15"
+    "explanation": "The existing eight numbers add to 120. Adding 15 gives 135, and 135 / 9 = 15, so the mean is 15. With another 15, the ordered list also has median 15 and mode 15."
   },
   {
     "id": "nr-209",
@@ -5594,7 +5594,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 24\n(29+18+24+25)/4 = 96/4 = 24"
+    "explanation": "The existing four numbers add to 96. Adding 24 gives 120, and 120 / 5 = 24, so the mean is 24. With another 24, the ordered list also has median 24 and mode 24."
   },
   {
     "id": "nr-210",
@@ -5777,7 +5777,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 8%\n250%÷5=50% 100%÷5=20%"
+    "explanation": "The sequence alternates dividing by 5 and multiplying by 2: 250% / 5 = 50%, 50% x 2 = 100%, 100% / 5 = 20%, 20% x 2 = 40%. Next is 40% / 5 = 8%."
   },
   {
     "id": "nr-217",
@@ -5798,7 +5798,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 1 1/10\n0.1, 30%, 1/2, 0.7, 90%, ____?\n0.1. 0.3, 0.5, 0.7, 0.9, 1.1"
+    "explanation": "Convert every term to decimals: 0.1, 0.3, 0.5, 0.7, 0.9. The pattern adds 0.2 each time, so the next term is 1.1, or 1 1/10."
   },
   {
     "id": "nr-218",
@@ -5823,7 +5823,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"25\") because the differences are +1, +3, +6, +10, and +15."
+    "explanation": "Look at the differences: 6 - 5 = 1, 9 - 6 = 3, and 15 - 9 = 6. The differences increase as triangular numbers, so the next difference is 10 and the missing term is 25."
   },
   {
     "id": "nr-219",
@@ -5848,7 +5848,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: the differences are +11, +33, +55, so the next difference should be +77 and the next term should be 181. However, 181 is not listed among the choices, and the stored answer points to 33."
+    "explanation": "This item needs review: the differences are +11, +33, and +55, so the next difference should be +77 and the next term should be 181. Since 181 is not listed, the stored answer 33 does not match the visible pattern."
   },
   {
     "id": "nr-220",
@@ -5873,7 +5873,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"558\") because each term concatenates consecutive numbers: 2|25, 3|36, 4|47, 5|58, 6|69, 7|710."
+    "explanation": "Each term is a concatenation pattern: 2|25, 3|36, 4|47, 5|58, 6|69, and 7|710. The missing term is 558."
   },
   {
     "id": "nr-221",
@@ -5898,7 +5898,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: the visible sequence 563, 647, 479, 815 does not give a clear single pattern that leads reliably to 143 from the listed choices."
+    "explanation": "This item needs review: the visible sequence 563, 647, 479, 815 does not give a clear, consistent pattern that leads to 143 from the listed choices."
   },
   {
     "id": "nr-222",
@@ -5923,7 +5923,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"147\") because the terms follow 3 x n^2."
+    "explanation": "The terms follow 3n^2: 3(1^2) = 3, 3(2^2) = 12, 3(3^2) = 27, and so on. The next term is 3(7^2) = 147."
   },
   {
     "id": "nr-223",
@@ -5948,7 +5948,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"1\") because the increments grow by 0.05 each step: +0.05, +0.10, +0.15, +0.20."
+    "explanation": "The differences increase by 0.05: +0.05, +0.10, +0.15. The next difference is +0.20, so 0.8 + 0.20 = 1."
   },
   {
     "id": "nr-224",
@@ -5977,7 +5977,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Dividing by 1/4 means asking how many fourths are in 1/2. Since 1/2 contains two fourths, 1/2 ? 1/4 = 2, which is more than 1."
+    "explanation": "Dividing by 1/4 asks how many fourths are in 1/2. Since 1/2 contains two fourths, 1/2 / 1/4 = 2, which is more than 1."
   },
   {
     "id": "nr-225",
@@ -6002,7 +6002,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Each scoop is 1/10 cup, and Kardo needs 1/2 cup total. Compute 1/2 ? 1/10 = 1/2 x 10 = 5, so he needs 5 scoops."
+    "explanation": "Each scoop is 1/10 cup, and Kardo needs 1/2 cup total. Compute 1/2 / 1/10 = 1/2 x 10 = 5, so he needs 5 scoops."
   },
   {
     "id": "nr-226",
@@ -6019,7 +6019,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b. 72 /8×10 = 80-8 = 72"
+    "explanation": "The pattern subtracts the first factor from the ordinary product: 1 x 10 = 10 - 1 = 9, 2 x 10 = 20 - 2 = 18, and 3 x 10 = 30 - 3 = 27. Therefore 8 x 10 = 80 - 8 = 72."
   },
   {
     "id": "nr-227",
@@ -6094,7 +6094,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "This item needs review: 2 to 12 suggests multiplying by 6, which would make 8 become 48, but 48 is not among the choices. The stored answer 128 does not follow the same simple relationship from the first pair."
+    "explanation": "This item needs review: 2 to 12 can be read as n^2 + 8 because 2^2 + 8 = 12. Applying that rule to 8 gives 8^2 + 64 = 128, but the relationship is not clearly stated by the first pair alone."
   },
   {
     "id": "nr-230",
@@ -6148,7 +6148,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 10\nPEMDAS: 10÷2×5−(12÷3×4)+1 =__?"
+    "explanation": "Use left-to-right for division and multiplication: 10 / 2 x 5 = 25, and inside parentheses 12 / 3 x 4 = 16. Then 25 - 16 + 1 = 10."
   },
   {
     "id": "nr-232",
@@ -6173,7 +6173,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "d. 2700\n(61+119){[(119-61)/2 +1]/2}="
+    "explanation": "The odd numbers from 61 to 119 form an arithmetic series. There are 30 terms, and the average of the first and last is (61 + 119) / 2 = 90. The sum is 30 x 90 = 2,700."
   },
   {
     "id": "nr-233",
@@ -6488,6 +6488,6 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"270\") because it gives the correct simplified ratio."
+    "explanation": "Luzon represents 4 parts of the 4:3:2 ratio. If 4 parts = 120, then 1 part = 30. The total is 9 parts, so 9 x 30 = 270 participants."
   }
 ]

@@ -2548,7 +2548,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"uncertain\") because the given statements do not provide enough information to prove the conclusion."
+    "explanation": "The first two statements establish this order for some books: English has more pages than math, math has more than history, and history has more than poetry. Science is only known to have fewer pages than math, so it could still have more or fewer pages than poetry. The third statement is uncertain."
   },
   {
     "id": "aa-102",
@@ -2577,7 +2577,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B because all luxuries are needless expenditures, and subscribing to Cable TV is stated to be a luxury."
+    "explanation": "The conclusion follows directly: subscribing to cable TV is stated to be a luxury, and all luxuries are needless expenditures. Therefore, subscribing to Cable TV is a needless expenditure."
   },
   {
     "id": "aa-103",
@@ -2752,7 +2752,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"ABCD\") because it gives the most coherent order for the statements."
+    "explanation": "The order ABCD is the most coherent because it starts with the general claim about a responsive educational system, then develops the need for regional goals, methods, and teaching strategies."
   },
   {
     "id": "aa-110",
@@ -2773,7 +2773,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"uncertain.\") because the first two statements do not establish any fixed order between Tom's shoes and shirt."
+    "explanation": "The first two statements give two separate order pairs: socks before shoes, and shirt before jacket. They do not say whether shoes come before or after the shirt, so the third statement cannot be proven."
   },
   {
     "id": "aa-111",
@@ -2794,7 +2794,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"uncertain.\") because the first two statements mention only tulips and pansies, not every flower in Zoe's garden."
+    "explanation": "The first two statements describe only tulips and pansies. Zoe may have other kinds of flowers, and their colors are not given, so the statement that all flowers are either white or yellow is uncertain."
   },
   {
     "id": "aa-112",
@@ -2815,7 +2815,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"false.\") because 3 pencils = 2 erasers and 4 erasers = 1 ruler, so 6 pencils = 1 ruler and a ruler is more expensive than a pencil."
+    "explanation": "Let one eraser cost e. Three pencils cost 2e, so one pencil costs 2e/3. One ruler costs 4e. Since 4e is greater than 2e/3, rulers are more expensive than pencils, making the third statement false."
   },
   {
     "id": "aa-113",

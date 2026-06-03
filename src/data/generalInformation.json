@@ -22,7 +22,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Preamble\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "The preamble is the introductory statement of the Constitution. It comes before the articles and states the Constitution's broad purposes and principles."
   },
   {
     "id": "gi-002",
@@ -47,7 +47,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"both a and b\") because it matches the factual detail asked in the item."
+    "explanation": "The Philippines is both democratic and republican: authority comes from the people, and officials govern through elected representation."
   },
   {
     "id": "gi-003",
@@ -72,7 +72,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"right of eminent domain\") because it matches the factual detail asked in the item."
+    "explanation": "Eminent domain is the State's power to take private property for public use, but only with payment of just compensation."
   },
   {
     "id": "gi-004",
@@ -97,7 +97,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"a judge\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "Warrants of arrest and search warrants are issued by judges after the legal requirements, such as probable cause, are satisfied."
   },
   {
     "id": "gi-005",
@@ -122,7 +122,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"naturalization\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "Naturalization is the legal process by which a foreigner may become a Filipino citizen."
   },
   {
     "id": "gi-006",
@@ -147,7 +147,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"suffrage\") because it matches the factual detail asked in the item."
+    "explanation": "Suffrage means the right to vote in elections."
   },
   {
     "id": "gi-007",
@@ -172,7 +172,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"twenty-four\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "The Philippine Senate has 24 senators."
   },
   {
     "id": "gi-008",
@@ -197,7 +197,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"thirty-five\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "A senator must be at least 35 years old on election day."
   },
   {
     "id": "gi-009",
@@ -222,7 +222,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Amnesty\") because it matches the factual detail asked in the item."
+    "explanation": "Appropriation, revenue or tariff, and private bills must originate in the House. Amnesty is not one of those House-originating bills."
   },
   {
     "id": "gi-010",
@@ -247,7 +247,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"elected by district and party list\") because it matches the factual detail asked in the item."
+    "explanation": "The House of Representatives is composed of district representatives and party-list representatives."
   },
   {
     "id": "gi-011",
@@ -272,7 +272,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Congress\") because it matches the factual detail asked in the item."
+    "explanation": "Legislative power is the power to make laws, and under the Constitution it is vested in Congress."
   },
   {
     "id": "gi-012",
@@ -297,7 +297,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"He lived abroad five years preceding the election.\") because it matches the factual detail asked in the item."
+    "explanation": "A presidential candidate must be a resident of the Philippines for at least 10 years immediately before the election. Living abroad for the five years before the election would fail that residency requirement."
   },
   {
     "id": "gi-013",
@@ -322,7 +322,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"President -→ Vice-President -→ Senate President -→ House Speaker\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "If the President cannot discharge the office, succession goes to the Vice-President, then the Senate President, then the Speaker of the House."
   },
   {
     "id": "gi-014",
@@ -347,7 +347,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"must have been for fifteen years or more, a judge of a lower court.\") because it matches the factual detail asked in the item."
+    "explanation": "A Supreme Court member must be a natural-born citizen and, among other qualifications, must have been a judge or practiced law in the Philippines for at least 15 years."
   },
   {
     "id": "gi-015",
@@ -372,7 +372,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"a Chief Justice and fourteen Associate Justices\") because it matches the factual detail asked in the item."
+    "explanation": "The Supreme Court is composed of one Chief Justice and fourteen Associate Justices."
   },
   {
     "id": "gi-016",
@@ -397,7 +397,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Civil Service Commission\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "The constitutional commissions are the Civil Service Commission, Commission on Elections, and Commission on Audit. Among the choices, only the Civil Service Commission is one of them."
   },
   {
     "id": "gi-017",
@@ -422,7 +422,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"House of Representative\") because that option is not one of the constitutional grounds for impeachment."
+    "explanation": "The House of Representatives has the exclusive power to initiate impeachment cases. The Senate tries and decides impeachment cases after initiation."
   },
   {
     "id": "gi-018",
@@ -447,7 +447,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Senators\") because that option is not one of the constitutional grounds for impeachment."
+    "explanation": "Senators are not among the officials removable by impeachment. Impeachable officials include the President, Vice-President, Supreme Court members, constitutional commission members, and the Ombudsman."
   },
   {
     "id": "gi-019",
@@ -472,7 +472,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Filipino\") because it matches the factual detail asked in the item."
+    "explanation": "The national language of the Philippines is Filipino."
   },
   {
     "id": "gi-020",
@@ -497,7 +497,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Congress or a Constitutional Convention\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "Amendments or revisions may be proposed by Congress or by a constitutional convention."
   },
   {
     "id": "gi-021",
@@ -522,7 +522,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Income tax\") because it matches the factual detail asked in the item."
+    "explanation": "Individuals who earn compensation income pay income tax on that income."
   },
   {
     "id": "gi-022",
@@ -547,7 +547,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"April 15\") because it matches the factual detail asked in the item."
+    "explanation": "The traditional filing deadline for individual income tax returns is April 15 following the taxable year."
   },
   {
     "id": "gi-023",
@@ -572,7 +572,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"It is an enforced contribution\") because it matches the factual detail asked in the item."
+    "explanation": "A tax is an enforced contribution imposed by the government; it is not a voluntary payment."
   },
   {
     "id": "gi-024",
@@ -597,7 +597,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Estate tax\") because it matches the factual detail asked in the item."
+    "explanation": "Estate tax is imposed on the transfer of a person's estate at death and is based on the value of the property transferred."
   },
   {
     "id": "gi-025",
@@ -622,7 +622,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"an unmarried individual with dependents\") because it matches the factual detail asked in the item."
+    "explanation": "In the context of this older tax classification, a head of the family is an unmarried individual who supports qualified dependents."
   },
   {
     "id": "gi-026",
@@ -647,7 +647,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Generics Act\") because it matches the factual detail asked in the item."
+    "explanation": "The Generics Act supports access to affordable medicines by promoting the use and prescribing of generic drug names."
   },
   {
     "id": "gi-027",
@@ -672,7 +672,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"The term of office is three years\") because it matches the factual detail asked in the item."
+    "explanation": "Elective local officials generally serve a three-year term."
   },
   {
     "id": "gi-028",
@@ -697,7 +697,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"agricultural lands\") because it matches the factual detail asked in the item."
+    "explanation": "Of the public-domain land classifications, agricultural lands are the ones that may be alienable or disposable."
   },
   {
     "id": "gi-029",
@@ -722,7 +722,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"40%\") because it matches the factual detail asked in the item."
+    "explanation": "For exploration, development, and utilization of natural resources, the Constitution limits foreign equity to 40%, with at least 60% Filipino ownership."
   },
   {
     "id": "gi-030",
@@ -747,7 +747,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"family\") because it matches the factual detail asked in the item."
+    "explanation": "The Constitution recognizes the family as the foundation of the nation."
   },
   {
     "id": "gi-031",
@@ -772,7 +772,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Sales invoice\") because it matches the factual detail asked in the item."
+    "explanation": "A sales invoice records a sale by listing the items sold, quantities, prices, and related transaction details."
   },
   {
     "id": "gi-032",
@@ -797,7 +797,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Form 137\") because it matches the factual detail asked in the item."
+    "explanation": "Form 137 is a school record, not a usual sales-company document. Delivery receipts, sales invoices, and purchase orders are common sales documents."
   },
   {
     "id": "gi-033",
@@ -822,7 +822,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Answer the phone politely and give your department or company name.\") because it matches the factual detail asked in the item."
+    "explanation": "A professional phone answer identifies the office or company and uses a polite greeting, so callers know they reached the correct place."
   },
   {
     "id": "gi-034",
@@ -847,7 +847,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Business letter in a paper\") because it matches the factual detail asked in the item."
+    "explanation": "A hard copy is a physical printed document, so a business letter on paper is the hard-copy example."
   },
   {
     "id": "gi-035",
@@ -872,7 +872,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Copy furnished\") because it matches the factual detail asked in the item."
+    "explanation": "In this item, CC refers to copy furnished, meaning another recipient is given a copy of the message."
   },
   {
     "id": "gi-036",
@@ -897,7 +897,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Outlook\") because it matches the factual detail asked in the item."
+    "explanation": "Outlook is an email client used to send, receive, and manage email messages. Word, Excel, and PowerPoint are for documents, spreadsheets, and presentations."
   },
   {
     "id": "gi-037",
@@ -922,7 +922,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Fax Machine\") because it matches the factual detail asked in the item."
+    "explanation": "A fax machine sends scanned text or images through a telephone connection to another fax-capable device."
   },
   {
     "id": "gi-038",
@@ -947,7 +947,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Treasurer\") because it matches the factual detail asked in the item."
+    "explanation": "In many organizations, the treasurer is the officer responsible for financial custody, funds, and financial management functions."
   },
   {
     "id": "gi-039",
@@ -1026,7 +1026,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Filipino\") because it matches the constitutional or legal rule asked in the item."
+    "explanation": "Article XIV, Section 6 of the 1987 Constitution states that the national language of the Philippines is Filipino."
   },
   {
     "id": "gi-042",
@@ -1051,7 +1051,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"labor\") because Article II, Section 18 identifies labor as a primary social economic force."
+    "explanation": "Article II, Section 18 recognizes labor as a primary social economic force and requires the State to protect workers' rights."
   },
   {
     "id": "gi-043",
@@ -1176,7 +1176,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"We Play As One\") because it matches the factual detail asked in the item."
+    "explanation": "The official motto of the 30th Southeast Asian Games hosted by the Philippines was \"We Play As One.\""
   },
   {
     "id": "gi-048",
@@ -1230,7 +1230,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Global warming causes ozone depletion.\") because it matches the factual detail asked in the item."
+    "explanation": "This item needs review: the listed answer says global warming causes ozone depletion, but the relationship between climate change and ozone depletion is more complex and that statement is not a reliable general rule."
   },
   {
     "id": "gi-050",
@@ -1254,8 +1254,8 @@
         "text": "Zambales"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Zambales\") because it matches the factual detail asked in the item."
+    "correctChoiceId": "B",
+    "explanation": "Mountain Province is the province name written directly in English. Zambales is not an English province name, so the stored answer was corrected."
   },
   {
     "id": "gi-051",
@@ -1284,7 +1284,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E (\"Solid Waste Management\") because the item asks for the DENR program connected with controlling pollution and environmental waste."
+    "explanation": "Solid Waste Management is the DENR-related program area most directly connected with controlling waste and pollution among the choices."
   },
   {
     "id": "gi-052",
@@ -1313,7 +1313,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E (\"Barangay\") because voluntary community service is associated with barangay-level government work in the item."
+    "explanation": "The item refers to free voluntary community service at the barangay level, which is the smallest local government unit."
   },
   {
     "id": "gi-053",
@@ -1792,7 +1792,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Due process means fair procedure before deprivation of life, liberty, or property. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Due process is the constitutional guarantee that the government must follow fair legal procedures before taking away a person's life, liberty, or property."
   },
   {
     "id": "gi-072",
@@ -2792,7 +2792,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A word processor is program used to prepare documents. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A word processor is software used to create, edit, format, and print documents, such as letters and reports."
   },
   {
     "id": "gi-139",

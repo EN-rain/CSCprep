@@ -2022,7 +2022,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Ernest Hemingway\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is literary work to author. Herman Melville wrote Moby-Dick, and Ernest Hemingway wrote The Old Man and the Sea."
   },
   {
     "id": "vr-082",
@@ -2047,7 +2047,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"India\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is person to country strongly associated with him. Confucius is associated with China, and Mahatma Gandhi is associated with India."
   },
   {
     "id": "vr-083",
@@ -2072,7 +2072,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Public Roads\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is government agency to main area of responsibility. BIR handles taxes, while DPWH handles public roads and public works."
   },
   {
     "id": "vr-084",
@@ -2097,7 +2097,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Governor\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is government unit to its chief executive. A barangay is headed by a captain, and a provincial government is headed by a governor."
   },
   {
     "id": "vr-085",
@@ -2122,7 +2122,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Manila\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is country to capital city. Washington, D.C. is the capital of the USA, and Manila is the capital of the Philippines."
   },
   {
     "id": "vr-086",
@@ -2147,7 +2147,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Prime Minister\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is system of government to its head of government. A presidential system has a president, while a parliamentary system commonly has a prime minister."
   },
   {
     "id": "vr-087",
@@ -2172,7 +2172,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Benguet\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is indigenous group to a place strongly associated with that group. Tagbanua are associated with Palawan, while Kankanaey are associated with Benguet."
   },
   {
     "id": "vr-088",
@@ -2197,7 +2197,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"India\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is landmark to country. The pyramids are associated with Egypt, and the Taj Mahal is in India."
   },
   {
     "id": "vr-089",
@@ -2222,7 +2222,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Egypt\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is river system to ancient civilization or region. The Tigris-Euphrates is associated with Mesopotamia, while the Nile is associated with Egypt."
   },
   {
     "id": "vr-090",
@@ -2247,7 +2247,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Babylon\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is epic to culture or place of origin. The Mahabharata is from India, and Gilgamesh is associated with ancient Babylon/Mesopotamia."
   },
   {
     "id": "vr-091",
@@ -2272,7 +2272,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Greek\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is country to classical language. Italy is associated with Latin, while Greece is associated with Greek."
   },
   {
     "id": "vr-092",
@@ -2297,7 +2297,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Leonardo da Vinci\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is artwork to artist. The Sistine Madonna is by Raphael, and The Last Supper is by Leonardo da Vinci."
   },
   {
     "id": "vr-093",
@@ -2322,7 +2322,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Ceiling\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is cave formation to where it is found. A stalagmite rises from the floor, while a stalactite hangs from the ceiling."
   },
   {
     "id": "vr-094",
@@ -2347,7 +2347,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Imam\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is religion to religious leader. A Catholic religious leader is a priest, while a Muslim religious leader is an imam."
   },
   {
     "id": "vr-095",
@@ -2372,7 +2372,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"The Prince\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is author to work. Giovanni Boccaccio wrote the Decameron, and Niccolo Machiavelli wrote The Prince."
   },
   {
     "id": "vr-096",
@@ -2397,7 +2397,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"telephone\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is inventor to invention. Samuel Morse is associated with the telegraph, and Alexander Graham Bell is associated with the telephone."
   },
   {
     "id": "vr-097",
@@ -2422,7 +2422,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"John Logie Baird\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is invention to inventor. Andre-Jacques Garnerin is associated with the parachute, and John Logie Baird is associated with television."
   },
   {
     "id": "vr-098",
@@ -2447,7 +2447,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Copernicus\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is theory to proponent. Ptolemy is associated with the earth-centered model, while Copernicus is associated with the sun-centered model."
   },
   {
     "id": "vr-099",
@@ -2472,7 +2472,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Tartaglia\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is mathematical topic to mathematician. Pythagoras is associated with the Pythagorean theorem, and Tartaglia is associated with work on cubic equations."
   },
   {
     "id": "vr-100",
@@ -2497,7 +2497,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"oxygen\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is scientist to discovery. Henry Cavendish is associated with hydrogen, and Joseph Priestley is commonly associated with oxygen."
   },
   {
     "id": "vr-101",
@@ -2522,7 +2522,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Austria\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is alliance to member. Russia was part of the Allied Powers, while Austria was part of the Central Powers."
   },
   {
     "id": "vr-102",
@@ -2547,7 +2547,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Funeral Procession\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is group term to what it consists of. An entourage is a group of attendants, while a cortege is a funeral procession."
   },
   {
     "id": "vr-103",
@@ -2572,7 +2572,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Small River\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is word to meaning. An islet is a small island, and a rivulet is a small river or stream."
   },
   {
     "id": "vr-104",
@@ -2597,7 +2597,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"ugly\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is synonym. Conspicuous means obvious, and hideous means ugly."
   },
   {
     "id": "vr-105",
@@ -2622,7 +2622,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"abdominal\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is noun to adjective form. Nose becomes nasal, and abdomen becomes abdominal."
   },
   {
     "id": "vr-106",
@@ -2647,7 +2647,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"denies God’s existence\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is term to meaning. An agnostic doubts or is unsure about God's existence, while an atheist denies or does not believe in God's existence."
   },
   {
     "id": "vr-107",
@@ -2672,7 +2672,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"killing of a race or social group\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is type of killing to its object. Infanticide is killing infants, while genocide is killing a racial, ethnic, or social group."
   },
   {
     "id": "vr-108",
@@ -2697,7 +2697,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"bathroom\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is synonym or near-synonym. A latrine is a toilet, and a lavatory is a bathroom or washroom."
   },
   {
     "id": "vr-109",
@@ -2722,7 +2722,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"throw\") because it keeps the same relationship as the given word pair."
+    "explanation": "This item needs review: masticate means chew, so eradicate should match a meaning like remove, destroy, or eliminate. None of the listed choices expresses that clearly; \"throw\" is not a reliable synonym."
   },
   {
     "id": "vr-110",
@@ -2747,7 +2747,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"delight in being abused\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is psychological term to meaning. Sadism is delight in cruelty to others, while masochism is delight in being hurt or abused."
   },
   {
     "id": "vr-111",
@@ -2772,7 +2772,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Spanish\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is dance to national or cultural origin. The mazurka is Polish, and the fandango is Spanish."
   },
   {
     "id": "vr-112",
@@ -2797,7 +2797,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"hyperopia\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is condition to medical term. Nearsightedness is myopia, while farsightedness is hyperopia."
   },
   {
     "id": "vr-113",
@@ -2822,7 +2822,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"speech\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is disorder to affected ability. Dyslexia affects reading, while aphasia affects speech or language ability."
   },
   {
     "id": "vr-114",
@@ -2847,7 +2847,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"waiter’s help\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is restaurant role to function. A maitre d' is the head/front manager of a restaurant, while a busboy assists waiters."
   },
   {
     "id": "vr-115",
@@ -2872,7 +2872,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"female hero\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is word form to meaning. A figurine is a small figure, and a heroine is a female hero."
   },
   {
     "id": "vr-116",
@@ -2897,7 +2897,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"athlete’s shoes\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is brand name to product associated with it. Xerox is associated with photocopiers, and Adidas is associated with athletic shoes."
   },
   {
     "id": "vr-117",
@@ -2922,7 +2922,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Good day\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is foreign expression to meaning. Sayonara means goodbye, while bonjour is a greeting meaning good day."
   },
   {
     "id": "vr-118",
@@ -2947,7 +2947,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"take the place of\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is word to meaning. Superfluous means excessive, and supersede means to take the place of something."
   },
   {
     "id": "vr-119",
@@ -2972,7 +2972,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"lent\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is religious presentation to season. A nativity scene is associated with Christmas, while the senakulo is associated with Lent."
   },
   {
     "id": "vr-120",
@@ -2997,7 +2997,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"a piece of advice\") because it keeps the same relationship as the given word pair."
+    "explanation": "The relationship is literary element to meaning. A theme is the main idea, while a moral is the lesson or advice drawn from a story."
   },
   {
     "id": "vr-121",
@@ -3022,7 +3022,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"bleach : whiten\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is action to result or meaning. To blend is to mix; to bleach is to whiten."
   },
   {
     "id": "vr-122",
@@ -3047,7 +3047,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"quay : wharf\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is synonym. An abattoir is a slaughterhouse, and a quay is a wharf."
   },
   {
     "id": "vr-123",
@@ -3072,7 +3072,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"decipherable : comprehensible\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is synonym. Marriageable means nubile, and decipherable means comprehensible or understandable."
   },
   {
     "id": "vr-124",
@@ -3097,7 +3097,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"linguist : language\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is specialist to field of study. A numismatist studies money or coins, and a linguist studies language."
   },
   {
     "id": "vr-125",
@@ -3122,7 +3122,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"egocentric : self-centered\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is synonym. Anxious means uneasy, and egocentric means self-centered."
   },
   {
     "id": "vr-126",
@@ -3147,7 +3147,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"bear : cub\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is animal to its young. A goat's young is a kid, and a bear's young is a cub."
   },
   {
     "id": "vr-127",
@@ -3172,7 +3172,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"sword : scabbard\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is object to where it fits or is kept. A key fits a lock, and a sword fits in a scabbard."
   },
   {
     "id": "vr-128",
@@ -3197,7 +3197,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"pig : sty\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is animal to shelter. A dog lives in a kennel, and a pig lives in a sty."
   },
   {
     "id": "vr-129",
@@ -3222,7 +3222,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"house : kitchen\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is whole to part. A book has leaves or pages, and a house has a kitchen."
   },
   {
     "id": "vr-130",
@@ -3247,7 +3247,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"koala : Australia\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is animal to native country or place strongly associated with it. Pandas are associated with China, and koalas are associated with Australia."
   },
   {
     "id": "vr-131",
@@ -3272,7 +3272,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"simple : lavish\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is antonym. Jubilant is the opposite of morose, and simple is the opposite of lavish."
   },
   {
     "id": "vr-132",
@@ -3297,7 +3297,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"large : mammoth\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is degree of size. Microscopic means extremely tiny, and mammoth means extremely large."
   },
   {
     "id": "vr-133",
@@ -3322,7 +3322,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"to frown : to weep\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is mild expression to stronger expression. To smile can intensify to guffaw; to frown can intensify to weep."
   },
   {
     "id": "vr-134",
@@ -3347,7 +3347,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"foot : leg\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is smaller body part to larger body part. A hand is part of an arm, and a foot is part of a leg."
   },
   {
     "id": "vr-135",
@@ -3372,7 +3372,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"anti : pro\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is prefix/opposite direction. Pre means before and post means after; anti means against and pro means in favor of."
   },
   {
     "id": "vr-136",
@@ -3397,7 +3397,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"coliseum : spectators\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is venue to people gathered there. An auditorium holds an audience, and a coliseum holds spectators."
   },
   {
     "id": "vr-137",
@@ -3422,7 +3422,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Shakespeare : Romeo and Juliet\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is writer to work. Edgar Allan Poe wrote Annabel Lee, and Shakespeare wrote Romeo and Juliet."
   },
   {
     "id": "vr-138",
@@ -3447,7 +3447,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"lead : direct\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is synonym. To advise is to counsel, and to lead is to direct."
   },
   {
     "id": "vr-139",
@@ -3472,7 +3472,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"cry : tears\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is action to bodily product. To perspire produces sweat, and to cry produces tears."
   },
   {
     "id": "vr-140",
@@ -3497,7 +3497,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"implicate : involve\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is word to meaning. Extricate means set free, and implicate means involve."
   },
   {
     "id": "vr-141",
@@ -3522,7 +3522,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"tadpole : frog\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is immature stage to adult form. A maggot becomes a fly, and a tadpole becomes a frog."
   },
   {
     "id": "vr-142",
@@ -3547,7 +3547,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"they : them\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is subject pronoun to object pronoun. He becomes him, and they becomes them."
   },
   {
     "id": "vr-143",
@@ -3572,7 +3572,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"lay : put down\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is commonly confused verb to meaning. Lie means to recline, while lay means to put down."
   },
   {
     "id": "vr-144",
@@ -3597,7 +3597,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"palace : kings\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is dwelling to inhabitant. An igloo is associated with Eskimos/Inuit, while a palace is associated with kings."
   },
   {
     "id": "vr-145",
@@ -3622,7 +3622,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"atlas : maps\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is reference book to contents. A dictionary gives word meanings, and an atlas contains maps."
   },
   {
     "id": "vr-146",
@@ -3647,7 +3647,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"live : taped\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is spontaneous/unprepared versus prepared/recorded. Extemporaneous contrasts with rehearsed, and live contrasts with taped."
   },
   {
     "id": "vr-147",
@@ -3672,7 +3672,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"inn : hotel\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is near-synonym. A tavern is a bar, and an inn is a hotel or lodging house."
   },
   {
     "id": "vr-148",
@@ -3697,7 +3697,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"ewe : ram\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is female title/animal to male counterpart. A duchess corresponds to a duke, and a ewe corresponds to a ram."
   },
   {
     "id": "vr-149",
@@ -3722,7 +3722,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"multiply : increase\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is verb to meaning. To dwindle means to decrease, and to multiply means to increase."
   },
   {
     "id": "vr-150",
@@ -3747,7 +3747,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"adroit : uncoordinated\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is contrast. Prowess contrasts with cowardice, and adroit contrasts with uncoordinated."
   },
   {
     "id": "vr-151",
@@ -3771,8 +3771,8 @@
         "text": "eight : eighty’s"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"bacterium : bacteriums\") because both word pairs follow the same relationship."
+    "correctChoiceId": "C",
+    "explanation": "The relationship is singular noun to accepted plural form. Charisma can pluralize as charismata, and basis pluralizes as bases; the previous stored answer used the incorrect plural \"bacteriums.\""
   },
   {
     "id": "vr-152",
@@ -3797,7 +3797,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"triplet : three\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is group term to number. A quintuplet is one of five, and a triplet is one of three."
   },
   {
     "id": "vr-153",
@@ -3822,7 +3822,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"bal : balance\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is word to abbreviation. Attention is abbreviated attn., and balance is abbreviated bal."
   },
   {
     "id": "vr-154",
@@ -3847,7 +3847,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"photophobia : fear of light\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is phobia to fear. Arachnophobia is fear of spiders, and photophobia is fear of light."
   },
   {
     "id": "vr-155",
@@ -3872,7 +3872,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"remove : restore\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is action to opposite action. To unscrew is to loosen or remove; to restore is the opposite of remove."
   },
   {
     "id": "vr-156",
@@ -3897,7 +3897,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"vicious : kind\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is antonym. Verbose contrasts with speechless, and vicious contrasts with kind."
   },
   {
     "id": "vr-157",
@@ -3922,7 +3922,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"DST : daylight saving time\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is abbreviation to full phrase. COD means cash on delivery, and DST means daylight saving time."
   },
   {
     "id": "vr-158",
@@ -3947,7 +3947,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"deliberate : intentional\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is synonym. Adjacent means near, and deliberate means intentional."
   },
   {
     "id": "vr-159",
@@ -3968,11 +3968,11 @@
       },
       {
         "id": "D",
-        "text": "soil : groun"
+        "text": "soil : ground"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"soil : groun\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is synonym. Firmament means sky, and soil means ground."
   },
   {
     "id": "vr-160",
@@ -3997,7 +3997,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"feeble : active\") because both word pairs follow the same relationship."
+    "explanation": "The relationship is weak/inactive state contrasted with energy. Languid means weak or lacking energy; feeble similarly contrasts with active."
   },
   {
     "id": "vr-161",
@@ -5826,7 +5826,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"D\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The first sentence should introduce the topic. Sentence D states the general idea that a bill undergoes several procedures before becoming law."
   },
   {
     "id": "vr-222",
@@ -5851,7 +5851,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"C\") because it gives the paragraph the most logical order and flow."
+    "explanation": "After D introduces the process, A describes the three readings and E sends the approved bill to the President. Sentence C should come fourth because it explains what happens if the President approves the bill."
   },
   {
     "id": "vr-223",
@@ -5880,7 +5880,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"D-A-E-C-B-F\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The logical order is D-A-E-C-B-F: introduce the bill process, explain readings, send it to the President, state approval, cover veto return, then add the note about the 30-day veto period."
   },
   {
     "id": "vr-224",
@@ -5909,7 +5909,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"C\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The paragraph begins with listening as a way to keep friends, then explains that listening shows friends they are important. Sentence C works third as the concluding call to learn how to listen."
   },
   {
     "id": "vr-225",
@@ -5938,7 +5938,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"B\") because it gives the paragraph the most logical order and flow."
+    "explanation": "Sentence B should follow the idea that listening shows care because it adds a contrast: listening may tire the listener but comfort the speaker."
   },
   {
     "id": "vr-226",
@@ -5967,7 +5967,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"B\") because it gives the paragraph the most logical order and flow."
+    "explanation": "Sentence E introduces the President's broad role. Sentence B should come second because it gives the first supporting duty: control over department secretaries."
   },
   {
     "id": "vr-227",
@@ -5996,7 +5996,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"A\") because it gives the paragraph the most logical order and flow."
+    "explanation": "Sentence A is the conclusion because \"Hence\" summarizes the listed duties and responsibilities of the President."
   },
   {
     "id": "vr-228",
@@ -6025,7 +6025,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"C\") because it gives the paragraph the most logical order and flow."
+    "explanation": "Sentence B introduces citizens helping economic progress. Sentence C should come second because it gives the method: paying taxes correctly."
   },
   {
     "id": "vr-229",
@@ -6054,7 +6054,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"A\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The paragraph moves from paying taxes correctly to government revenue for projects, then adds another benefit. Sentence A should be fourth because \"Not only that\" adds to the previous benefit."
   },
   {
     "id": "vr-230",
@@ -6083,7 +6083,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Taxes and Economic Progress\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The paragraph links proper tax payment with government revenue, projects, and economic progress, so \"Taxes and Economic Progress\" is the best title."
   },
   {
     "id": "vr-231",
@@ -8383,7 +8383,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A panacea is something claimed to cure every problem. In this sentence, ?cure-all? is the closest meaning."
+    "explanation": "A panacea is something claimed to cure every problem. In this sentence, \"cure-all\" is the closest meaning."
   },
   {
     "id": "vr-323",
@@ -8408,7 +8408,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A debacle is a complete failure or collapse, so ?disaster? is the closest meaning."
+    "explanation": "A debacle is a complete failure or collapse, so \"disaster\" is the closest meaning."
   },
   {
     "id": "vr-324",
@@ -8433,7 +8433,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "?Kabal? refers to an amulet or charm, which is closest to ?agimat.?"
+    "explanation": "\"Kabal\" refers to an amulet or charm, which is closest to \"agimat.\""
   },
   {
     "id": "vr-325",
@@ -8458,7 +8458,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "?Haginit? suggests a rushing or whizzing sound, so ?harurot? is the closest match."
+    "explanation": "\"Haginit\" suggests a rushing or whizzing sound, so \"harurot\" is the closest match."
   },
   {
     "id": "vr-326",
@@ -8483,7 +8483,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "?Dalahikan? is a place where boats dock or land, so ?daungan? is the closest meaning."
+    "explanation": "\"Dalahikan\" is a place where boats dock or land, so \"daungan\" is the closest meaning."
   },
   {
     "id": "vr-327",
@@ -8608,7 +8608,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "?Hulas? can mean faded, washed out, or dissolved; ?lusaw? is the closest choice."
+    "explanation": "\"Hulas\" can mean faded, washed out, or dissolved; \"lusaw\" is the closest choice."
   },
   {
     "id": "vr-332",
@@ -8633,7 +8633,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "?Dalahira? describes someone who talks too much about others, so ?tsismosa? is the closest meaning."
+    "explanation": "\"Dalahira\" describes someone who talks too much about others, so \"tsismosa\" is the closest meaning."
   },
   {
     "id": "vr-333",
@@ -8658,7 +8658,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "?Baral? means a bar or bolt used for locking, so ?trangka? is the closest meaning."
+    "explanation": "\"Baral\" means a bar or bolt used for locking, so \"trangka\" is the closest meaning."
   },
   {
     "id": "vr-334",
@@ -8683,7 +8683,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "?Lagak? means something placed, deposited, or entrusted, so ?deposito? is the closest choice."
+    "explanation": "\"Lagak\" means something placed, deposited, or entrusted, so \"deposito\" is the closest choice."
   },
   {
     "id": "vr-335",
@@ -8708,7 +8708,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Cantankerous describes a person who is bad-tempered and argumentative, so ?quarrelsome? fits best."
+    "explanation": "Cantankerous describes a person who is bad-tempered and argumentative, so \"quarrelsome\" fits best."
   },
   {
     "id": "vr-336",
@@ -8758,7 +8758,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "To ?come out of your shell? means to stop being shy and become more open or sociable."
+    "explanation": "To \"come out of your shell\" means to stop being shy and become more open or sociable."
   },
   {
     "id": "vr-338",
@@ -8808,7 +8808,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "To be ?in hot water? means to be in trouble."
+    "explanation": "To be \"in hot water\" means to be in trouble."
   },
   {
     "id": "vr-340",
@@ -8833,7 +8833,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "To ?keep abreast? means to stay informed about current developments."
+    "explanation": "To \"keep abreast\" means to stay informed about current developments."
   },
   {
     "id": "vr-341",
@@ -8883,7 +8883,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "To ?lead a dog?s life? means to live unhappily or without much freedom, which fits ?never does what he wants.?"
+    "explanation": "To \"lead a dog's life\" means to live unhappily or without much freedom, which fits \"never does what he wants.\""
   },
   {
     "id": "vr-343",
@@ -8933,7 +8933,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "?Raining cats and dogs? is an idiom for raining very heavily."
+    "explanation": "\"Raining cats and dogs\" is an idiom for raining very heavily."
   },
   {
     "id": "vr-345",
@@ -8958,7 +8958,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "To ?make a monkey out of someone? means to make that person look foolish."
+    "explanation": "To \"make a monkey out of someone\" means to make that person look foolish."
   },
   {
     "id": "vr-346",
@@ -9720,7 +9720,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A because the passage states that toxic insecticides remain legal in some countries and spread across borders."
+    "explanation": "The passage says some toxic insecticides are banned in many countries but remain legal in others and can travel by wind. That supports the idea that toxic insecticides such as DDT have not been banned throughout the world."
   },
   {
     "id": "vr-379",
@@ -9778,7 +9778,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D because the paragraph emphasizes slow, active, and careful reading."
+    "explanation": "The passage says critical reading requires slowing down, marking the text, and reacting with questions and conclusions. That supports the statement that it requires thoughtful and careful attention."
   },
   {
     "id": "vr-381",
@@ -9865,7 +9865,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The paragraph says long-range planning depends on predicting money?s future value. If money is unpredictable, planning and prosperity become harder."
+    "explanation": "The paragraph says long-range planning depends on predicting money's future value. If money is unpredictable, planning and prosperity become harder."
   },
   {
     "id": "vr-384",
@@ -9890,7 +9890,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The passage focuses on cave paintings hidden inside caves, so ?Hidden Prehistoric Paintings? best captures the main idea."
+    "explanation": "The passage focuses on cave paintings hidden inside caves, so \"Hidden Prehistoric Paintings\" best captures the main idea."
   },
   {
     "id": "vr-385",
@@ -10040,7 +10040,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "In the passage, ?they? refers to the people making the cave paintings. Those people are the artists."
+    "explanation": "In the passage, \"they\" refers to the people making the cave paintings. Those people are the artists."
   },
   {
     "id": "vr-391",
@@ -10094,7 +10094,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "?Evokes? means brings something to mind. Perfume can call up pleasant memories."
+    "explanation": "\"Evokes\" means brings something to mind. Perfume can call up pleasant memories."
   },
   {
     "id": "vr-393",
@@ -10119,7 +10119,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "?Expedite? means to make something happen faster, so ?accelerate? is the closest meaning."
+    "explanation": "\"Expedite\" means to make something happen faster, so \"accelerate\" is the closest meaning."
   },
   {
     "id": "vr-394",
@@ -10144,7 +10144,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A plausible explanation sounds believable or reasonable. ?Credible? means believable."
+    "explanation": "A plausible explanation sounds believable or reasonable. \"Credible\" means believable."
   },
   {
     "id": "vr-395",
@@ -10169,7 +10169,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "To infer is to form a conclusion from evidence. ?Surmised? means guessed or concluded from what is known."
+    "explanation": "To infer is to form a conclusion from evidence. \"Surmised\" means guessed or concluded from what is known."
   },
   {
     "id": "vr-396",
@@ -10511,7 +10511,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "?Spill the beans? means reveal information that was supposed to stay secret."
+    "explanation": "\"Spill the beans\" means reveal information that was supposed to stay secret."
   },
   {
     "id": "vr-410",
@@ -10536,7 +10536,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "?Barking up the wrong tree? means blaming or pursuing the wrong person or cause."
+    "explanation": "\"Barking up the wrong tree\" means blaming or pursuing the wrong person or cause."
   },
   {
     "id": "vr-411",
@@ -10561,7 +10561,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "An ?Achilles heel? is someone?s weak point or vulnerability."
+    "explanation": "An \"Achilles heel\" is someone's weak point or vulnerability."
   },
   {
     "id": "vr-412",
@@ -10586,7 +10586,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "?Costs an arm and a leg? means something is very expensive."
+    "explanation": "\"Costs an arm and a leg\" means something is very expensive."
   },
   {
     "id": "vr-413",
@@ -10611,7 +10611,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Someone ?born with a silver spoon? was born into wealth or privilege."
+    "explanation": "Someone \"born with a silver spoon\" was born into wealth or privilege."
   },
   {
     "id": "vr-414",
@@ -10640,7 +10640,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "To ?weather the storm? means to survive a difficult situation or crisis."
+    "explanation": "To \"weather the storm\" means to survive a difficult situation or crisis."
   },
   {
     "id": "vr-415",
@@ -10694,7 +10694,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "?Cut your coat to your cloth? means live within your means; desire or spend only what you can afford."
+    "explanation": "\"Cut your coat to your cloth\" means live within your means; desire or spend only what you can afford."
   },
   {
     "id": "vr-417",
@@ -10719,7 +10719,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "This item needs review: ?Paddle your own canoe? normally means to be independent or manage your own affairs, but the stored correct choice does not match that meaning."
+    "explanation": "This item needs review: \"Paddle your own canoe\" normally means to be independent or manage your own affairs, but the stored correct choice does not match that meaning."
   },
   {
     "id": "vr-418",
@@ -10748,7 +10748,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "?Leaves much to be desired? means the report is not satisfactory and needs improvement."
+    "explanation": "\"Leaves much to be desired\" means the report is not satisfactory and needs improvement."
   },
   {
     "id": "vr-419",
@@ -10769,7 +10769,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "?Commitment? is the correct spelling for a promise or obligation to do something."
+    "explanation": "\"Commitment\" is the correct spelling for a promise or obligation to do something."
   },
   {
     "id": "vr-420",
@@ -10794,7 +10794,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "?Ridiculous? is the correct spelling for something absurd or unreasonable."
+    "explanation": "\"Ridiculous\" is the correct spelling for something absurd or unreasonable."
   },
   {
     "id": "vr-421",
@@ -10819,7 +10819,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: the sentence asks for ?anonymous,? but the stored choices do not include the correctly spelled word."
+    "explanation": "This item needs review: the sentence asks for \"anonymous,\" but the stored choices do not include the correctly spelled word."
   },
   {
     "id": "vr-422",
@@ -10844,7 +10844,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "?Extraordinary? is the correct spelling; it means unusual or beyond ordinary."
+    "explanation": "\"Extraordinary\" is the correct spelling; it means unusual or beyond ordinary."
   },
   {
     "id": "vr-423",
@@ -10894,7 +10894,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "?Frequently? is the correct spelling; it means often."
+    "explanation": "\"Frequently\" is the correct spelling; it means often."
   },
   {
     "id": "vr-425",
@@ -10919,7 +10919,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "?Emphasis? is the correct spelling for special importance or stress placed on something."
+    "explanation": "\"Emphasis\" is the correct spelling for special importance or stress placed on something."
   },
   {
     "id": "vr-426",
@@ -10940,7 +10940,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "?Concede? is the correct spelling; in an election it means to admit defeat."
+    "explanation": "\"Concede\" is the correct spelling; in an election it means to admit defeat."
   },
   {
     "id": "vr-427",
@@ -10965,7 +10965,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: the sentence appears to ask for ?aspirations,? but the stored correct answer is mismatched."
+    "explanation": "This item needs review: the sentence appears to ask for \"aspirations,\" but the stored correct answer is mismatched."
   },
   {
     "id": "vr-428",
@@ -10990,7 +10990,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "?Exercise? is the correct spelling when it means to use or put a right into action."
+    "explanation": "\"Exercise\" is the correct spelling when it means to use or put a right into action."
   },
   {
     "id": "vr-429",
@@ -11069,7 +11069,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The word \"surprisingly\" implies that people were not expecting such an encouraging response. Assumptions I and II are not required by the statement, so the correct answer is choice E (\"III only\")."
+    "explanation": "The word \"surprisingly\" implies the response was not expected. The statement does not require assuming that media is always positive or that the service sector is properly managed."
   },
   {
     "id": "vr-434",
@@ -11094,7 +11094,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"light\") because the passage lists water, temperature changes, and air movement as sources of damage."
+    "explanation": "The passage names water, temperature changes, and air movement as causes of damage. It says natural light would have destroyed the paintings if they were exposed, so light is the exception listed in the choices."
   },
   {
     "id": "vr-435",
@@ -11119,7 +11119,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Visitors were prohibited from entering.\") because the passage says the site was closed to tourists in 1963."
+    "explanation": "The passage states that the Lascaux site was closed to tourists in 1963 to prevent further damage, meaning visitors were prohibited from entering."
   },
   {
     "id": "vr-436",
@@ -11206,6 +11206,6 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C because living on the cliff gave them shelter and protection."
+    "explanation": "The cliff dwellings helped protect the Pueblo Indians: during attacks, they could pull up the ladders and make the homes difficult to reach."
   }
 ]
