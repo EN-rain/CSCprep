@@ -2651,7 +2651,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"ng Rizal\" dahil si Rizal ang taong gumawa ng pagsulat. Kapag tao ang gumaganap ng kilos, gamitin ang \"ni\": sinulat ni Rizal.",
     "image": "/question-images/fi-106.png"
   },
   {
@@ -2681,7 +2681,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Dalawang tao ang tinutukoy: Teodora Alonzo at Francisco Mercado. Para sa dalawa o higit pang tao, gamitin ang \"Sina,\" hindi \"Si.\"",
     "image": "/question-images/fi-107.png"
   },
   {
@@ -2711,7 +2711,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"nang buwis\" dahil ang buwis ang bagay na nililikha. Gamitin ang \"ng\" para sa layon ng pandiwa: lumikha ng buwis.",
     "image": "/question-images/fi-108.png"
   },
   {
@@ -2741,7 +2741,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"rin\" pagkatapos ng salitang nagtatapos sa katinig. Dahil nagtatapos sa tunog na p ang \"iniisip,\" mas angkop ang \"din\": Iniisip din.",
     "image": "/question-images/fi-109.png"
   },
   {
@@ -2771,7 +2771,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang pagkakabuo ng \"Mainam sa lahat ng paraan.\" Mas malinaw at wasto ang \"Mainam na paraan ng pag-aaral ang magbalik-aral.\"",
     "image": "/question-images/fi-110.png"
   },
   {
@@ -2801,7 +2801,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Hindi bagay ang \"binitawan\" para sa payo; ang payo ay ibinibigay o binabanggit. Mas wasto: Ang mga payong ibinigay ay dapat mong pakinggan.",
     "image": "/question-images/fi-111.png"
   },
   {
@@ -2831,7 +2831,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"ng mabuti\" dahil inilalarawan nito kung paano mag-aral. Kapag pang-abay o paraan ng kilos, gamitin ang \"nang\": Mag-aral nang mabuti.",
     "image": "/question-images/fi-112.png"
   },
   {
@@ -2861,7 +2861,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang baybay na \"maalahanin.\" Ang wastong salita ay \"maalalahanin,\" na nangangahulugang mapag-alala o maasikaso sa kapwa.",
     "image": "/question-images/fi-113.png"
   },
   {
@@ -2891,7 +2891,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"din\" pagkatapos ng salitang nagtatapos sa patinig. Dahil nagtatapos sa a ang \"tiyaga,\" mas angkop ang \"rin\": tiyaga rin.",
     "image": "/question-images/fi-114.png"
   },
   {
@@ -2921,7 +2921,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"nagsisipilyo\" dahil ipinapayo pa lamang ang dapat gawin. Mas wasto ang pawatas na anyo: magsipilyo matapos kumain.",
     "image": "/question-images/fi-115.png"
   },
   {
@@ -2951,7 +2951,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"Haluin\" kung ang ibig sabihin ay lagyan ng gulay ang sopas. Mas wasto ang \"Haluan mo ang sopas ng iba't ibang gulay.\"",
     "image": "/question-images/fi-116.png"
   },
   {
@@ -2981,7 +2981,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"Kundi\" dito. Para sa kondisyon, gamitin ang \"Kung hindi\": Kung hindi ka kikilos at gagawin ang proyekto, wala kang mapapala.",
     "image": "/question-images/fi-117.png"
   },
   {
@@ -3011,7 +3011,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"mayroon proyekto.\" Kapag sinusundan ng pangngalan, mas wasto ang \"may proyekto\" o \"mayroong proyekto.\"",
     "image": "/question-images/fi-118.png"
   },
   {
@@ -3041,7 +3041,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"Nagtutulungan\" dahil pangkasalukuyan ito. Ang tinutukoy ay ginawa na ng mga ninunong Ifugao, kaya mas wasto ang \"Nagtulungan.\"",
     "image": "/question-images/fi-119.png"
   },
   {
@@ -3071,7 +3071,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"sapagkat nagkakaroon ng kalamidad\" dahil ginagawa nitong dahilan ang kalamidad. Mas malinaw: ginigising sila sa pamamagitan ng kalamidad o tuwing may kalamidad.",
     "image": "/question-images/fi-120.png"
   },
   {
@@ -3131,7 +3131,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"nang lahat\" dahil ang \"lahat\" ang gumagawa o kabilang sa pagtutulungan. Gamitin ang \"ng\": pagtutulungan ng lahat.",
     "image": "/question-images/fi-122.png"
   },
   {
@@ -3161,7 +3161,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"mayroon matibay.\" Kapag sinusundan ng pangngalan o parirala, mas wasto ang \"may matibay\" o \"mayroong matibay na paniniwala.\"",
     "image": "/question-images/fi-123.png"
   },
   {
@@ -3191,7 +3191,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"pinayagan\" dahil humihiling pa lamang ng pahintulot. Mas wasto ang \"payagan\": Ipinakiusap mo ba na payagan kang gamitin ang kompyuter?",
     "image": "/question-images/fi-124.png"
   },
   {
@@ -3251,7 +3251,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"ng pag-iwas\" sa pariralang ito. Ang ehersisyo ay nakatutulong sa pag-iwas sa sakit, kaya mas wasto ang \"sa pag-iwas.\"",
     "image": "/question-images/fi-126.png"
   },
   {
@@ -3281,7 +3281,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"iiwasan\" pagkatapos ng \"Dapat nating.\" Sa ganitong pangungusap, gamitin ang payak na anyo ng pandiwa: Dapat nating iwasan.",
     "image": "/question-images/fi-127.png"
   },
   {
@@ -3341,7 +3341,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"Laban sa batas\" bilang ibig sabihing illegal. Ang wastong pahayag ay \"Labag sa batas ang smuggling.\"",
     "image": "/question-images/fi-129.png"
   },
   {
@@ -3371,7 +3371,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"nang tahanan\" dahil ang tahanan at lipunan ang layon ng pandiwang \"nakasisira.\" Gamitin ang \"ng\": nakasisira ng tahanan at lipunan.",
     "image": "/question-images/fi-130.png"
   },
   {
