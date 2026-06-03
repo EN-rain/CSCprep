@@ -522,7 +522,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"18\") because it correctly continues the sequence pattern."
+    "explanation": "The numbers increase by 3 each time: 3, 6, 9, 12, 15. Adding 3 to 15 gives 18."
   },
   {
     "id": "aa-022",
@@ -547,7 +547,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"M\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The letters skip one letter each time: C, E, G, I, K. The next letter after K with the same +2 pattern is M."
   },
   {
     "id": "aa-023",
@@ -572,7 +572,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"S\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The sequence moves forward by two letters each step: I, K, M, O, Q. Two letters after Q is S."
   },
   {
     "id": "aa-024",
@@ -597,7 +597,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"L\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The letters are every other letter in the alphabet: B, D, F, H, J. The next letter in that pattern is L."
   },
   {
     "id": "aa-025",
@@ -622,7 +622,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"50\") because it correctly continues the sequence pattern."
+    "explanation": "The differences are increasing odd numbers: +7, +9, +11. The next difference is +13, so 37 + 13 = 50."
   },
   {
     "id": "aa-026",
@@ -647,7 +647,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"101\") because it correctly continues the sequence pattern."
+    "explanation": "The differences are +13, +15, and +17. Continuing with the next odd difference, +19, gives 82 + 19 = 101."
   },
   {
     "id": "aa-027",
@@ -672,7 +672,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"17\") because it correctly continues the sequence pattern."
+    "explanation": "The terms come in base-and-square pairs: 3 and 9, 5 and 25, 8 and 64, 12 and 144. The bases rise by +2, +3, +4, so the next base is 17."
   },
   {
     "id": "aa-028",
@@ -697,7 +697,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"QR\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "Each pair is made of consecutive letters, and the first letters move A, E, I, M. Advancing four letters from M gives Q, so the next pair is QR."
   },
   {
     "id": "aa-029",
@@ -722,7 +722,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"NM\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "Each pair is two consecutive letters written backward, and the pairs step backward by three letters: ZY, WV, TS, QP. The next pair is NM."
   },
   {
     "id": "aa-030",
@@ -747,7 +747,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"TS\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "Each pair is written in reverse order, and the first letters move D, H, L, P. Adding four letters gives T, so the next reverse pair is TS."
   },
   {
     "id": "aa-031",
@@ -772,7 +772,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"29\") because it correctly continues the sequence pattern."
+    "explanation": "The sequence forms pairs: 1-2, 5-6, 11-12, 19-20. The first number of each pair increases by +4, +6, +8, so the next first number is 29."
   },
   {
     "id": "aa-032",
@@ -797,7 +797,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"8\") because it correctly continues the sequence pattern."
+    "explanation": "Read the odd-position terms separately: 4, 5, 6, 7. They increase by 1, so the next odd-position term is 8."
   },
   {
     "id": "aa-033",
@@ -822,7 +822,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"432\") because it correctly continues the sequence pattern."
+    "explanation": "The operations alternate x2 and x3: 6 x 2 = 12, 12 x 3 = 36, 36 x 2 = 72, 72 x 3 = 216. Next is 216 x 2 = 432."
   },
   {
     "id": "aa-034",
@@ -847,7 +847,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"J\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The letters begin repeated groups: A once, C twice, F three times. The starting letters move +2, then +3, so the next group starts at J."
   },
   {
     "id": "aa-035",
@@ -872,7 +872,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"72\") because it correctly continues the sequence pattern."
+    "explanation": "The multipliers alternate x2 and x3: 1 x 2 = 2, 2 x 3 = 6, 6 x 2 = 12, 12 x 3 = 36. Next is 36 x 2 = 72."
   },
   {
     "id": "aa-036",
@@ -897,7 +897,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"X\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The letters appear in repeated pairs and move four letters forward: HH, LL, PP, TT. Four letters after T is X."
   },
   {
     "id": "aa-037",
@@ -922,7 +922,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"LK\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The sequence is grouped in pairs: EF, HG, IJ. The pairs alternate normal and reversed order, so after IJ the next reversed pair is LK."
   },
   {
     "id": "aa-038",
@@ -947,7 +947,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"9\") because it correctly continues the sequence pattern."
+    "explanation": "Two alternating sequences are interleaved: 6, 7, 8 increases by 1, while 12, 11, 10 decreases by 1. The next number after 8 is 9."
   },
   {
     "id": "aa-039",
@@ -972,7 +972,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"U\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The letter jumps grow by one each time: A to C is +2, C to F is +3, F to J is +4, and J to O is +5. The next jump is +6, giving U."
   },
   {
     "id": "aa-040",
@@ -997,7 +997,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"KLMN\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The groups grow in length: B has 1 letter, DE has 2, and GHI has 3. The next group has 4 consecutive letters starting at K: KLMN."
   },
   {
     "id": "aa-041",
@@ -1022,7 +1022,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"G\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The letters are consecutive from A through F. The next letter in the alphabet is G."
   },
   {
     "id": "aa-042",
@@ -1047,7 +1047,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"T\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The letters are consecutive from N through S. The next letter in the alphabet is T."
   },
   {
     "id": "aa-043",
@@ -1072,7 +1072,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"449\") because it correctly continues the sequence pattern."
+    "explanation": "The operations alternate between adding and multiplying with increasing numbers: +5, x6, +7, x8. The next operation is +9, so 440 + 9 = 449."
   },
   {
     "id": "aa-044",
@@ -1097,7 +1097,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"10\") because it correctly continues the sequence pattern."
+    "explanation": "The operations alternate subtraction and addition with growing values: -4, +5, -6, +7. The next operation is -8, so 18 - 8 = 10."
   },
   {
     "id": "aa-045",
@@ -1122,7 +1122,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"232\") because it correctly continues the sequence pattern."
+    "explanation": "The sequence returns to 29 after each multiplication: 29 x 2 = 58, back to 29, then 29 x 5 = 145, back to 29. The next multiplier is 8, so 29 x 8 = 232."
   },
   {
     "id": "aa-046",
@@ -1147,7 +1147,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"ER\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "Both letters move two places backward each time: MZ, KX, IV, GT. Moving G and T back two letters gives ER."
   },
   {
     "id": "aa-047",
@@ -1172,7 +1172,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"GT\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "In each pair, the first letter moves backward by one while the second moves forward by one: LO, KP, JQ, IR, HS. That makes the next pair GT."
   },
   {
     "id": "aa-048",
@@ -1197,7 +1197,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"J\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The sequence alternates -1 and +3 in the alphabet: G to F, F to I, I to H, H to K. The next step is K - 1 = J."
   },
   {
     "id": "aa-049",
@@ -1222,7 +1222,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"FU\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The first letters move forward A, B, C, D, E, while the second letters move backward Z, Y, X, W, V. The next pair is FU."
   },
   {
     "id": "aa-050",
@@ -1247,7 +1247,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"316\") because it correctly continues the sequence pattern."
+    "explanation": "The sequence subtracts increasing even numbers: -12, -14, -16, -18. The next subtraction is -20, so 336 - 20 = 316."
   },
   {
     "id": "aa-051",
@@ -1272,7 +1272,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"26\") because it correctly continues the sequence pattern."
+    "explanation": "The differences alternate between +1 and growing jumps: +2, +1, +3, +1. The next growing jump is +4, so 22 + 4 = 26."
   },
   {
     "id": "aa-052",
@@ -1297,7 +1297,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"126\") because it correctly continues the sequence pattern."
+    "explanation": "Read the even-position terms: 21, 42. They double at first, and the matching odd-position terms 7, 14, 42 show the multiplier rising from x2 to x3. So the next even-position term is 42 x 3 = 126."
   },
   {
     "id": "aa-053",
@@ -1322,7 +1322,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"341\") because it correctly continues the sequence pattern."
+    "explanation": "The differences alternate between a growing jump and a small count: +7, +1, +8, +2. The next growing jump is +9, so 332 + 9 = 341."
   },
   {
     "id": "aa-054",
@@ -1347,7 +1347,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Z1\") because it correctly continues the sequence pattern."
+    "explanation": "The letters move forward by +2, +3, +4, +5, so the next letter is Z. The numbers move down by -2, -3, -4, -5, so the next number is 1."
   },
   {
     "id": "aa-055",
@@ -1372,7 +1372,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Q10\") because it correctly continues the sequence pattern."
+    "explanation": "The letters move forward by two places: I, K, M, O, so the next letter is Q. The numbers decrease by 2 each time: 18, 16, 14, 12, so the next number is 10."
   },
   {
     "id": "aa-056",
@@ -1397,7 +1397,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"LY\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "Both letters in each pair move forward by two places: BO, DQ, FS, HU, JW. Moving J and W forward two letters gives LY."
   },
   {
     "id": "aa-057",
@@ -1422,7 +1422,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"HI\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The consecutive-letter pairs in the sequence move BC, EF, then HI by advancing each letter three places. Among the choices, HI continues that pair pattern."
   },
   {
     "id": "aa-058",
@@ -1447,7 +1447,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"O14\") because it correctly continues the sequence pattern."
+    "explanation": "Both parts increase by two: E, G, I, K, M and 4, 6, 8, 10, 12. The next term is O14."
   },
   {
     "id": "aa-059",
@@ -1472,7 +1472,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"IV9\") because it correctly continues the sequence pattern."
+    "explanation": "In each term, the second letter is 13 places after the first letter, and the number matches the first letter's alphabet position. I is the 9th letter, and I + 13 letters gives V, so IV9 fits."
   },
   {
     "id": "aa-060",
@@ -1497,7 +1497,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"MZ13\") because it correctly continues the sequence pattern."
+    "explanation": "Each part moves forward by two: A, C, E, G, I, K becomes M; N, P, R, T, V, X becomes Z; and 1, 3, 5, 7, 9, 11 becomes 13."
   },
   {
     "id": "aa-061",
@@ -1522,7 +1522,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"G7\") because it correctly continues the sequence pattern."
+    "explanation": "The letters and numbers both skip by two: A1, C3, E5. The next term is G7."
   },
   {
     "id": "aa-062",
@@ -1547,7 +1547,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"J17\") because it correctly continues the sequence pattern."
+    "explanation": "The numbers decrease by growing steps: 26 to 24 is -2, 24 to 21 is -3, so the next step is -4, giving 17. J17 is the only choice with that next number and a later letter."
   },
   {
     "id": "aa-063",
@@ -1572,7 +1572,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"P16\") because it correctly continues the sequence pattern."
+    "explanation": "The letters move forward by two and the numbers also increase by two: J10, L12, N14. The next term is P16."
   },
   {
     "id": "aa-064",
@@ -1597,7 +1597,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"2x\") because it correctly continues the sequence pattern."
+    "explanation": "The numbers decrease by 2 while the letters move forward by 2: 8R, 6T, 4V. The next term is 2X."
   },
   {
     "id": "aa-065",
@@ -1622,7 +1622,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"P1611\") because it correctly continues the sequence pattern."
+    "explanation": "The letter moves forward by two, the first number increases by two, and the last number decreases by two: J1017, L1215, N1413. The next term is P1611."
   },
   {
     "id": "aa-066",
@@ -1647,7 +1647,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"PR\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "Both letters in each pair move forward by five places: AC, FH, KM. Moving K and M forward five places gives PR."
   },
   {
     "id": "aa-067",
@@ -1672,7 +1672,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"2425\") because it correctly continues the sequence pattern."
+    "explanation": "Each two-number group increases both parts by 3: 15-16, 18-19, 21-22. The next group is 24-25."
   },
   {
     "id": "aa-068",
@@ -1697,7 +1697,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"4964\") because it correctly continues the sequence pattern."
+    "explanation": "This item needs review: the stored answer is 4964, but the number pattern is not clear enough from the text alone to explain confidently."
   },
   {
     "id": "aa-069",
@@ -1722,7 +1722,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"gg1515hh\") because it correctly continues the sequence pattern."
+    "explanation": "The outer repeated letters move forward by two-letter steps: aa-bb, cc-dd, ee-ff, then gg-hh. The middle repeated number rises 3, 7, 11, 15, so the next term is gg1515hh."
   },
   {
     "id": "aa-070",
@@ -1746,8 +1746,8 @@
         "text": "e3e3"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"e3e2\") because it correctly continues the sequence pattern."
+    "correctChoiceId": "D",
+    "explanation": "The letter moves forward one place while the repeated number drops by two: b9b9, c7c7, d5d5. The next term should be e3e3."
   },
   {
     "id": "aa-071",
@@ -1772,7 +1772,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "Each circle above is made by combining the line parts from the two circles directly below it. The top circle must include the side marks and both curved bands, which matches option d.",
     "image": "/question-images/aa-071.png"
   },
   {
@@ -1798,7 +1798,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "Move upward by combining the features from the two circles below. The missing top circle needs the vertical line, the horizontal bar, the triangle, and the outer side arc, which matches option b.",
     "image": "/question-images/aa-072.png"
   },
   {
@@ -1824,7 +1824,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The top circle should contain all the marks found in the two circles under it: the horizontal line, center ring, right curve, and the two small dots. Option b has that full combination.",
     "image": "/question-images/aa-073.png"
   },
   {
@@ -1850,7 +1850,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The circles combine as they move upward. The answer must keep the left small circle/curve and also add the right-side curved and straight divisions from the other branch, which is option c.",
     "image": "/question-images/aa-074.png"
   },
   {
@@ -1876,7 +1876,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The top figure combines the two figures below it. It needs the full cross inside the circle and the outer circular band, but no extra center dot. That matches option d.",
     "image": "/question-images/aa-075.png"
   },
   {
@@ -1902,7 +1902,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Option a\") because it completes the visual pattern shown in the figure.",
+    "explanation": "Each upper hexagon is made by adding together the lines from the two hexagons directly below. The missing top hexagon must contain all the diagonal and horizontal lines from the two second-row hexagons, which is option a.",
     "image": "/question-images/aa-076.png"
   },
   {
@@ -1928,7 +1928,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "In each row, the third box keeps the part that fits the row pattern after comparing the first two boxes. The missing box needs only the vertical line with the upper-right curve, so option d fits.",
     "image": "/question-images/aa-077.png"
   },
   {
@@ -1954,7 +1954,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "Across each row, the third box shows the result of combining or simplifying the first two boxes. In the last row, the remaining shape is the plain circle, which is option d.",
     "image": "/question-images/aa-078.png"
   },
   {
@@ -1980,7 +1980,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "explanation": "Count the dots in each column: the bottom number of dots equals the top box minus the middle box. In the last column, 4 dots minus 2 dots leaves 2 dots, which is option c.",
     "image": "/question-images/aa-079.png"
   },
   {
@@ -2006,7 +2006,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The marks inside the circles become simpler from left to right and from top to bottom. The missing circle should have no inside line but still keep the small outside marks, which matches option b.",
     "image": "/question-images/aa-080.png"
   },
   {
@@ -2032,7 +2032,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The dot pattern decreases by column: 5 to 3 leaves 2, 2 to 1 leaves 1, and 4 to 2 leaves 2. The missing square therefore needs two dots, which is option c.",
     "image": "/question-images/aa-081.png"
   },
   {
@@ -2058,7 +2058,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "In each row, the left box is made by combining the middle and right boxes. In the last row, the middle box has a horizontal line, so the missing right box must add the circle and vertical line. That is option b.",
     "image": "/question-images/aa-082.png"
   },
   {
@@ -2084,7 +2084,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Option a\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The symbols around the center balance each other in pairs. Blank circles already appear opposite each other on the left and right, so the missing center should also be a blank circle: option a.",
     "image": "/question-images/aa-083.png"
   },
   {
@@ -2110,7 +2110,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "Each row and column uses one circle, one square, and one triangle, and also one filled, one outline, and one divided version. The missing shape must be an outline circle, which is option d.",
     "image": "/question-images/aa-084.png"
   },
   {
@@ -2136,7 +2136,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The third box in each row combines the first two shapes. In the bottom row, combining the square-circle shape with the diamond-dot shape gives option d.",
     "image": "/question-images/aa-085.png"
   },
   {
@@ -2162,7 +2162,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "In each row, the third shape is made by placing the first two shapes on top of each other. The two pentagons in the bottom row overlap to make the multi-point outline in option b.",
     "image": "/question-images/aa-086.png"
   },
   {
@@ -2188,7 +2188,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "Each row follows division: left number divided by middle number equals the right number. Since 4 divided by 2 equals 2, the answer is option b.",
     "image": "/question-images/aa-087.png"
   },
   {
@@ -2214,7 +2214,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "This is a missing-piece puzzle. Option b is the only piece whose circle and oval parts continue the surrounding pattern cleanly along the cut-out edges.",
     "image": "/question-images/aa-088.png"
   },
   {
@@ -2240,7 +2240,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "Look for the small target shape hidden inside the larger drawings. In option b, the same outline can be traced using the vertical, horizontal, and diagonal lines.",
     "image": "/question-images/aa-089.png"
   },
   {
@@ -2266,7 +2266,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The small triangle-like target must appear inside the larger circle. In option d, the same long base and two slanted sides can be traced in the line pattern.",
     "image": "/question-images/aa-090.png"
   },
   {
@@ -2292,7 +2292,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The small irregular target shape is hidden inside one of the larger circles. Option b contains the same bent outline in the same orientation.",
     "image": "/question-images/aa-091.png"
   },
   {
@@ -2318,7 +2318,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The small six-sided target can be traced inside option d. Its straight sides and two slanted corners match the guide shape on the left.",
     "image": "/question-images/aa-092.png"
   },
   {
@@ -2344,7 +2344,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The target is a plain upright square. Option d contains that same complete square inside the overlapping rectangles.",
     "image": "/question-images/aa-093.png"
   },
   {
@@ -2370,7 +2370,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Option a\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The small target is an open angle made of two slanted lines. In option a, that same angle appears in the upper part of the larger square.",
     "image": "/question-images/aa-094.png"
   },
   {
@@ -2396,7 +2396,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The target shape has a vertical side with two diagonals meeting it. Option b contains the same outline hidden among its crossing lines.",
     "image": "/question-images/aa-095.png"
   },
   {
@@ -2422,7 +2422,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The target looks like a long arrowhead pointing left. Option c has that exact arrowhead shape formed by the outer and inner lines.",
     "image": "/question-images/aa-096.png"
   },
   {
@@ -2448,7 +2448,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The small white cut-out shape has a rounded top with a V-shaped notch. Option c shows the same cut-out shape in the same direction.",
     "image": "/question-images/aa-097.png"
   },
   {
@@ -2474,7 +2474,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The target is a flag-like outline with a bite taken from the right side. Option c contains that same outline as the white shape inside the shaded figure.",
     "image": "/question-images/aa-098.png"
   },
   {
@@ -2500,7 +2500,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The target is a small pentagon with the same upright orientation. Option b contains that pentagon shape inside the globe.",
     "image": "/question-images/aa-099.png"
   },
   {
@@ -2526,7 +2526,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it completes the visual pattern shown in the figure.",
+    "explanation": "The target is a curved crescent. Option d contains the same crescent curve inside the diamond, matching both the direction and the bend of the guide shape."
     "image": "/question-images/aa-100.png"
   },
   {
@@ -2602,7 +2602,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Only one worker in the factory has exactly five children.\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The statement says one factory worker has five children and no one else in the factory has five children. Therefore, exactly one worker in the factory has five children."
   },
   {
     "id": "aa-104",
@@ -2840,7 +2840,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"A wise investor must not put all his eggs in one basket.\") because it best matches the pattern or logical relationship in the item."
+    "explanation": "The sentence recommends putting money into different kinds of investments. That is the same idea as not putting all your eggs in one basket."
   },
   {
     "id": "aa-114",
