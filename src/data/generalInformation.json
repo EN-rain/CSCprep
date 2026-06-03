@@ -1367,7 +1367,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An agenda is list of topics to be discussed in a meeting. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An agenda is list of topics to be discussed in a meeting."
   },
   {
     "id": "gi-055",
@@ -1392,7 +1392,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Minutes means official written record of a meeting. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Minutes means official written record of a meeting."
   },
   {
     "id": "gi-056",
@@ -1417,7 +1417,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Memorandum means short written message used within an office. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Memorandum means short written message used within an office."
   },
   {
     "id": "gi-057",
@@ -1442,7 +1442,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Resolution means formal expression of a decision by a body. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Resolution means formal expression of a decision by a body."
   },
   {
     "id": "gi-058",
@@ -1467,7 +1467,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ordinance means local law passed by a local legislative body. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Ordinance means local law passed by a local legislative body."
   },
   {
     "id": "gi-059",
@@ -1492,7 +1492,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An invoice is document requesting payment for goods or services. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An invoice is document requesting payment for goods or services."
   },
   {
     "id": "gi-060",
@@ -1517,7 +1517,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A receipt is proof that payment has been received. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A receipt is proof that payment has been received."
   },
   {
     "id": "gi-061",
@@ -1542,7 +1542,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A voucher is document supporting a disbursement or payment. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A voucher is document supporting a disbursement or payment."
   },
   {
     "id": "gi-062",
@@ -1567,7 +1567,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A purchase order is document authorizing a purchase. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A purchase order is document authorizing a purchase."
   },
   {
     "id": "gi-063",
@@ -1592,7 +1592,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Requisition means formal request for supplies or services. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Requisition means formal request for supplies or services."
   },
   {
     "id": "gi-064",
@@ -1617,7 +1617,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Inventory means list of property or supplies on hand. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Inventory means list of property or supplies on hand."
   },
   {
     "id": "gi-065",
@@ -1642,7 +1642,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Filing means arranging records for easy retrieval. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Filing means arranging records for easy retrieval."
   },
   {
     "id": "gi-066",
@@ -1667,7 +1667,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Indexing means assigning a reference point for locating a record. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Indexing means assigning a reference point for locating a record."
   },
   {
     "id": "gi-067",
@@ -1692,7 +1692,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Archiving means preserving records for long-term storage. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Archiving means preserving records for long-term storage."
   },
   {
     "id": "gi-068",
@@ -1717,7 +1717,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Confidentiality means protecting information from unauthorized disclosure. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Confidentiality means protecting information from unauthorized disclosure."
   },
   {
     "id": "gi-069",
@@ -1742,7 +1742,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Accountability means responsibility for actions and decisions. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Accountability means responsibility for actions and decisions."
   },
   {
     "id": "gi-070",
@@ -1767,7 +1767,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Transparency means openness in government transactions. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Transparency means openness in government transactions."
   },
   {
     "id": "gi-071",
@@ -1817,7 +1817,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Equal protection means rule that persons similarly situated should be treated alike. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Equal protection means rule that persons similarly situated should be treated alike."
   },
   {
     "id": "gi-073",
@@ -1842,7 +1842,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Public office means public trust. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Public office means public trust."
   },
   {
     "id": "gi-074",
@@ -1867,7 +1867,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A barangay is smallest local government unit in the Philippines. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A barangay is smallest local government unit in the Philippines."
   },
   {
     "id": "gi-075",
@@ -1892,7 +1892,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A municipality is local government unit composed of barangays. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A municipality is local government unit composed of barangays."
   },
   {
     "id": "gi-076",
@@ -1917,7 +1917,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A province is local government unit composed of cities and municipalities. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A province is local government unit composed of cities and municipalities."
   },
   {
     "id": "gi-077",
@@ -1942,7 +1942,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A city is local government unit with a charter or city status. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A city is local government unit with a charter or city status."
   },
   {
     "id": "gi-078",
@@ -1967,7 +1967,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A Congress is legislative branch of the Philippine government. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A Congress is legislative branch of the Philippine government."
   },
   {
     "id": "gi-079",
@@ -1992,7 +1992,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A Supreme Court is highest court of the Philippines. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A Supreme Court is highest court of the Philippines."
   },
   {
     "id": "gi-080",
@@ -2017,7 +2017,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A President is chief executive of the Philippines. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A President is chief executive of the Philippines."
   },
   {
     "id": "gi-081",
@@ -2042,7 +2042,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A Vice President is official who succeeds the President under constitutional rules. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A Vice President is official who succeeds the President under constitutional rules."
   },
   {
     "id": "gi-082",
@@ -2067,7 +2067,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An Ombudsman is official body that investigates complaints against public officials. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An Ombudsman is official body that investigates complaints against public officials."
   },
   {
     "id": "gi-108",
@@ -2092,7 +2092,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Code of Conduct means ethical standards for public officials and employees. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Code of Conduct means ethical standards for public officials and employees."
   },
   {
     "id": "gi-109",
@@ -2117,7 +2117,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Chain of command means line of authority in an organization. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Chain of command means line of authority in an organization."
   },
   {
     "id": "gi-110",
@@ -2142,7 +2142,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Delegation means assigning authority or tasks to another person. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Delegation means assigning authority or tasks to another person."
   },
   {
     "id": "gi-111",
@@ -2167,7 +2167,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Coordination means harmonizing activities toward a goal. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Coordination means harmonizing activities toward a goal."
   },
   {
     "id": "gi-112",
@@ -2192,7 +2192,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Planning means setting goals and deciding actions in advance. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Planning means setting goals and deciding actions in advance."
   },
   {
     "id": "gi-113",
@@ -2217,7 +2217,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Evaluation means assessing results against standards. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Evaluation means assessing results against standards."
   },
   {
     "id": "gi-114",
@@ -2242,7 +2242,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Monitoring means regular checking of progress or compliance. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Monitoring means regular checking of progress or compliance."
   },
   {
     "id": "gi-115",
@@ -2267,7 +2267,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Procurement means process of obtaining goods or services. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Procurement means process of obtaining goods or services."
   },
   {
     "id": "gi-116",
@@ -2292,7 +2292,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Bidding means competitive method for selecting a supplier. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Bidding means competitive method for selecting a supplier."
   },
   {
     "id": "gi-117",
@@ -2317,7 +2317,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Canvass means checking prices or suppliers before purchase. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Canvass means checking prices or suppliers before purchase."
   },
   {
     "id": "gi-118",
@@ -2342,7 +2342,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Petty cash means small fund for minor expenses. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Petty cash means small fund for minor expenses."
   },
   {
     "id": "gi-119",
@@ -2367,7 +2367,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Liquidation means accounting for cash advances or expenses. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Liquidation means accounting for cash advances or expenses."
   },
   {
     "id": "gi-120",
@@ -2392,7 +2392,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Appropriation means authorization to spend public funds. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Appropriation means authorization to spend public funds."
   },
   {
     "id": "gi-121",
@@ -2417,7 +2417,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Budget means financial plan of expected income and expenses. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Budget means financial plan of expected income and expenses."
   },
   {
     "id": "gi-122",
@@ -2442,7 +2442,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Audit means examination of accounts and transactions. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Audit means examination of accounts and transactions."
   },
   {
     "id": "gi-123",
@@ -2467,7 +2467,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Asset means resource owned by an office or entity. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Asset means resource owned by an office or entity."
   },
   {
     "id": "gi-124",
@@ -2492,7 +2492,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Liability means obligation or debt. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Liability means obligation or debt."
   },
   {
     "id": "gi-125",
@@ -2517,7 +2517,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Revenue means income collected by government or an entity. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Revenue means income collected by government or an entity."
   },
   {
     "id": "gi-126",
@@ -2542,7 +2542,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Expenditure means amount spent. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Expenditure means amount spent."
   },
   {
     "id": "gi-127",
@@ -2567,7 +2567,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A cashier is employee handling receipt or release of cash. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A cashier is employee handling receipt or release of cash."
   },
   {
     "id": "gi-128",
@@ -2592,7 +2592,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A clerk is employee performing office and record tasks. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A clerk is employee performing office and record tasks."
   },
   {
     "id": "gi-129",
@@ -2617,7 +2617,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A record is documented information kept by an office. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A record is documented information kept by an office."
   },
   {
     "id": "gi-130",
@@ -2642,7 +2642,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A hard copy is printed document. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A hard copy is printed document."
   },
   {
     "id": "gi-131",
@@ -2667,7 +2667,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A soft copy is electronic copy of a document. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A soft copy is electronic copy of a document."
   },
   {
     "id": "gi-132",
@@ -2692,7 +2692,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An email is electronic mail. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An email is electronic mail."
   },
   {
     "id": "gi-135",
@@ -2717,7 +2717,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A subject line is brief title of an email message. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A subject line is brief title of an email message."
   },
   {
     "id": "gi-136",
@@ -2742,7 +2742,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An attachment is file sent with an email. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An attachment is file sent with an email."
   },
   {
     "id": "gi-137",
@@ -2767,7 +2767,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A spreadsheet is program or file used for tables and calculations. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A spreadsheet is program or file used for tables and calculations."
   },
   {
     "id": "gi-138",
@@ -2817,7 +2817,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A database is organized collection of data. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A database is organized collection of data."
   },
   {
     "id": "gi-140",
@@ -2842,7 +2842,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A password is secret credential used to access a system. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A password is secret credential used to access a system."
   },
   {
     "id": "gi-141",
@@ -2867,7 +2867,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Backup means extra copy of data for recovery. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Backup means extra copy of data for recovery."
   },
   {
     "id": "gi-142",
@@ -2892,7 +2892,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Malware means harmful software. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Malware means harmful software."
   },
   {
     "id": "gi-143",
@@ -2917,7 +2917,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Phishing means fraudulent attempt to obtain sensitive information. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Phishing means fraudulent attempt to obtain sensitive information."
   },
   {
     "id": "gi-144",
@@ -2942,7 +2942,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A firewall is security system controlling network traffic. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A firewall is security system controlling network traffic."
   },
   {
     "id": "gi-145",
@@ -2967,7 +2967,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Encryption means conversion of data into coded form. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Encryption means conversion of data into coded form."
   },
   {
     "id": "gi-146",
@@ -2992,7 +2992,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ergonomics means designing work to fit the worker safely. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Ergonomics means designing work to fit the worker safely."
   },
   {
     "id": "gi-147",
@@ -3017,7 +3017,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A deadline is date or time by which work must be completed. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A deadline is date or time by which work must be completed."
   },
   {
     "id": "gi-148",
@@ -3042,7 +3042,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An itinerary is schedule of travel or activities. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An itinerary is schedule of travel or activities."
   },
   {
     "id": "gi-149",
@@ -3067,7 +3067,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An appointment is formal designation to a position. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An appointment is formal designation to a position."
   },
   {
     "id": "gi-150",
@@ -3092,7 +3092,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A promotion is advancement to a higher position. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A promotion is advancement to a higher position."
   },
   {
     "id": "gi-151",
@@ -3117,7 +3117,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A resignation is voluntary act of leaving a position. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A resignation is voluntary act of leaving a position."
   },
   {
     "id": "gi-152",
@@ -3142,7 +3142,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A leave is authorized absence from work. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A leave is authorized absence from work."
   },
   {
     "id": "gi-153",
@@ -3167,7 +3167,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Overtime means work beyond regular hours. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Overtime means work beyond regular hours."
   },
   {
     "id": "gi-154",
@@ -3192,7 +3192,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Attendance means record of presence at work. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Attendance means record of presence at work."
   },
   {
     "id": "gi-155",
@@ -3217,7 +3217,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Punctuality means habit of being on time. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Punctuality means habit of being on time."
   },
   {
     "id": "gi-156",
@@ -3242,7 +3242,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Professionalism means proper conduct expected in work. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Professionalism means proper conduct expected in work."
   },
   {
     "id": "gi-157",
@@ -3267,7 +3267,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A courtesy is polite behavior toward others. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A courtesy is polite behavior toward others."
   },
   {
     "id": "gi-158",
@@ -3292,7 +3292,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Integrity means honesty and adherence to moral principles. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Integrity means honesty and adherence to moral principles."
   },
   {
     "id": "gi-159",
@@ -3317,7 +3317,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Impartiality means fairness without bias. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Impartiality means fairness without bias."
   },
   {
     "id": "gi-160",
@@ -3342,7 +3342,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Efficiency means achieving results with minimal waste. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Efficiency means achieving results with minimal waste."
   },
   {
     "id": "gi-161",
@@ -3367,7 +3367,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Effectiveness means achievement of intended results. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Effectiveness means achievement of intended results."
   },
   {
     "id": "gi-162",
@@ -3392,7 +3392,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Service orientation means readiness to serve clients and the public. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Service orientation means readiness to serve clients and the public."
   },
   {
     "id": "gi-163",
@@ -3417,7 +3417,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Client feedback means comments from service users. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Client feedback means comments from service users."
   },
   {
     "id": "gi-164",
@@ -3442,7 +3442,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A frontline service is service directly given to clients. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A frontline service is service directly given to clients."
   },
   {
     "id": "gi-165",
@@ -3467,7 +3467,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Citizen charter means published service standards of an agency. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Citizen charter means published service standards of an agency."
   },
   {
     "id": "gi-166",
@@ -3492,7 +3492,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Turnaround time means period needed to complete a service. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Turnaround time means period needed to complete a service."
   },
   {
     "id": "gi-167",
@@ -3517,7 +3517,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A complaint is expression of dissatisfaction. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A complaint is expression of dissatisfaction."
   },
   {
     "id": "gi-168",
@@ -3542,7 +3542,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A grievance is formal workplace complaint. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A grievance is formal workplace complaint."
   },
   {
     "id": "gi-169",
@@ -3567,7 +3567,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mediation means settling disputes with a neutral facilitator. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Mediation means settling disputes with a neutral facilitator."
   },
   {
     "id": "gi-170",
@@ -3592,7 +3592,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Arbitration means settling disputes through a binding decision. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Arbitration means settling disputes through a binding decision."
   },
   {
     "id": "gi-171",
@@ -3617,7 +3617,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Jurisdiction means authority to hear or decide a matter. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Jurisdiction means authority to hear or decide a matter."
   },
   {
     "id": "gi-172",
@@ -3642,7 +3642,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Quorum means minimum number required to conduct business. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Quorum means minimum number required to conduct business."
   },
   {
     "id": "gi-173",
@@ -3667,7 +3667,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Majority means more than half. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Majority means more than half."
   },
   {
     "id": "gi-174",
@@ -3692,7 +3692,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Plurality means highest number of votes when no majority is required. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Plurality means highest number of votes when no majority is required."
   },
   {
     "id": "gi-175",
@@ -3717,7 +3717,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Plebiscite means vote of the people on a question or measure. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Plebiscite means vote of the people on a question or measure."
   },
   {
     "id": "gi-176",
@@ -3742,7 +3742,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Referendum means submission of a law or issue to voters. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Referendum means submission of a law or issue to voters."
   },
   {
     "id": "gi-177",
@@ -3767,7 +3767,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Initiative means process where people propose a law or amendment. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Initiative means process where people propose a law or amendment."
   },
   {
     "id": "gi-178",
@@ -3792,7 +3792,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Recall means process of removing an elected local official by voters. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Recall means process of removing an elected local official by voters."
   },
   {
     "id": "gi-179",
@@ -3817,7 +3817,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Suffrage means right to vote. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Suffrage means right to vote."
   },
   {
     "id": "gi-180",
@@ -3842,7 +3842,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Citizenship means membership in a state with rights and duties. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Citizenship means membership in a state with rights and duties."
   },
   {
     "id": "gi-181",
@@ -3867,7 +3867,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Natural-born citizen means citizen from birth without having to perform an act to acquire citizenship. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Natural-born citizen means citizen from birth without having to perform an act to acquire citizenship."
   },
   {
     "id": "gi-182",
@@ -3892,7 +3892,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Civil service means body of government employees selected under merit and fitness. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Civil service means body of government employees selected under merit and fitness."
   },
   {
     "id": "gi-183",
@@ -3917,7 +3917,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Merit system means selection or promotion based on qualifications and performance. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Merit system means selection or promotion based on qualifications and performance."
   },
   {
     "id": "gi-184",
@@ -3942,7 +3942,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Nepotism means favoring relatives in appointments. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Nepotism means favoring relatives in appointments."
   },
   {
     "id": "gi-185",
@@ -3967,7 +3967,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Conflict of interest means situation where private interest may affect public duty. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Conflict of interest means situation where private interest may affect public duty."
   },
   {
     "id": "gi-186",
@@ -3992,7 +3992,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Red tape means unnecessary delay or excessive procedure. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Red tape means unnecessary delay or excessive procedure."
   },
   {
     "id": "gi-187",
@@ -4017,7 +4017,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Streamlining means simplifying procedures to improve service. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Streamlining means simplifying procedures to improve service."
   },
   {
     "id": "gi-188",
@@ -4042,7 +4042,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A records disposal is authorized removal of records no longer needed. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A records disposal is authorized removal of records no longer needed."
   },
   {
     "id": "gi-189",
@@ -4067,7 +4067,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Data privacy means protection of personal information. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Data privacy means protection of personal information."
   },
   {
     "id": "gi-190",
@@ -4092,7 +4092,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Public bidding means open competitive procurement process. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Public bidding means open competitive procurement process."
   },
   {
     "id": "gi-191",
@@ -4117,7 +4117,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Canvassing means obtaining price quotations. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Canvassing means obtaining price quotations."
   },
   {
     "id": "gi-192",
@@ -4142,7 +4142,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Emergency purchase means urgent procurement allowed under special conditions. This is the choice because it names the specific idea or rule described in the question."
+    "explanation": "Emergency purchase means urgent procurement allowed under special conditions."
   },
   {
     "id": "gi-193",
@@ -4167,7 +4167,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A supply officer is person responsible for supplies and property. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A supply officer is person responsible for supplies and property."
   },
   {
     "id": "gi-194",
@@ -4192,7 +4192,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A property custodian is person accountable for government property. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A property custodian is person accountable for government property."
   },
   {
     "id": "gi-195",
@@ -4217,7 +4217,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A travel order is authorization for official travel. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A travel order is authorization for official travel."
   },
   {
     "id": "gi-196",
@@ -4242,7 +4242,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An office order is written directive issued within an office. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An office order is written directive issued within an office."
   },
   {
     "id": "gi-197",
@@ -4267,7 +4267,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A transmittal is document used to send or endorse records. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A transmittal is document used to send or endorse records."
   },
   {
     "id": "gi-198",
@@ -4292,7 +4292,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An endorsement is official forwarding or recommendation. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "An endorsement is official forwarding or recommendation."
   },
   {
     "id": "gi-199",
@@ -4317,7 +4317,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A certification is written confirmation of a fact. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A certification is written confirmation of a fact."
   },
   {
     "id": "gi-200",
@@ -4342,6 +4342,6 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A clearance is document showing no pending obligation or accountability. This is the choice because it names the specific office, document, tool, or process described in the question."
+    "explanation": "A clearance is document showing no pending obligation or accountability."
   }
 ]
