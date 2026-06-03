@@ -4026,7 +4026,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"No one\" is singular, so it needs the singular verb \"was,\" not \"were.\" The sentence should read: No one was happy about the Mindanao crisis.",
     "image": "/question-images/vr-161.png"
   },
   {
@@ -4055,8 +4055,8 @@
         "text": "No error / walang mali"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Underlined part a\") because that underlined part contains the error.",
+    "correctChoiceId": "E",
+    "explanation": "The sentence is correct. \"The House of Representatives' decision\" is the subject, and the singular verb \"was met\" agrees with \"decision.\"",
     "image": "/question-images/vr-162.png"
   },
   {
@@ -4086,7 +4086,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"The Cabinet\" is treated as one group, so it takes the singular verb \"meets,\" not \"meet.\"",
     "image": "/question-images/vr-163.png"
   },
   {
@@ -4116,7 +4116,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "\"Both the Senators and the Congressmen\" is a plural subject, so the verb should be \"legislate,\" not \"legislates.\"",
     "image": "/question-images/vr-164.png"
   },
   {
@@ -4146,7 +4146,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"The Philippine government\" is singular, so it should take \"has,\" not \"have.\"",
     "image": "/question-images/vr-165.png"
   },
   {
@@ -4176,7 +4176,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The sentence is correct. \"The Supreme Court\" is singular, and \"upholds\" agrees with that singular subject.",
     "image": "/question-images/vr-166.png"
   },
   {
@@ -4206,7 +4206,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Some historians\" is plural, so the verb should be \"contest,\" not \"contests.\"",
     "image": "/question-images/vr-167.png"
   },
   {
@@ -4236,7 +4236,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The sentence is correct. \"Some believe\" is plural, and the comparison \"the same as the one\" is used properly.",
     "image": "/question-images/vr-168.png"
   },
   {
@@ -4266,7 +4266,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "With \"either...or,\" the verb agrees with the nearer subject. \"Dr. Gregorio F. Zaide\" is singular, so the verb should be \"affirms,\" not \"affirm.\"",
     "image": "/question-images/vr-169.png"
   },
   {
@@ -4296,7 +4296,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"News\" looks plural but is treated as singular, so it should be \"The news is written,\" not \"are written.\"",
     "image": "/question-images/vr-170.png"
   },
   {
@@ -4326,7 +4326,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"Attempts\" is plural, so the verb should be \"are made,\" not \"is made.\"",
     "image": "/question-images/vr-171.png"
   },
   {
@@ -4356,7 +4356,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Both Chelle and Charm\" is a plural subject, so the verb should be \"enjoy,\" not \"enjoys.\"",
     "image": "/question-images/vr-172.png"
   },
   {
@@ -4386,7 +4386,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The sentence is correct. The gerund phrase \"Reading books\" is singular as a subject, so \"widens\" is correct.",
     "image": "/question-images/vr-173.png"
   },
   {
@@ -4416,7 +4416,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"Everybody\" is singular, so it should be \"everybody knows,\" not \"everybody know.\"",
     "image": "/question-images/vr-174.png"
   },
   {
@@ -4446,7 +4446,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The sentence is correct. \"No one\" is singular, and \"dares\" agrees with it.",
     "image": "/question-images/vr-175.png"
   },
   {
@@ -4476,7 +4476,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Great literary works\" is plural, so the verb should be \"enrich,\" not \"enriches.\"",
     "image": "/question-images/vr-176.png"
   },
   {
@@ -4506,7 +4506,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Underlined part a\") because that underlined part contains the error.",
+    "explanation": "\"Either of the books\" is singular, so the helping verb should be \"Has,\" not \"Have.\"",
     "image": "/question-images/vr-177.png"
   },
   {
@@ -4536,7 +4536,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "A money amount used as one price is singular, so it should be \"One hundred fifty pesos is the average selling price.\"",
     "image": "/question-images/vr-178.png"
   },
   {
@@ -4566,7 +4566,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"One of the machines\" is singular because the subject is \"one,\" so it should be \"wasn't,\" not \"weren't.\"",
     "image": "/question-images/vr-179.png"
   },
   {
@@ -4596,7 +4596,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "With \"either...or,\" the verb agrees with the nearer subject. \"The librarian\" is singular, so it should be \"takes care,\" not \"take care.\"",
     "image": "/question-images/vr-180.png"
   },
   {
@@ -4626,7 +4626,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"A number of books\" means many books, so it takes a plural verb: \"are donated,\" not \"is donated.\"",
     "image": "/question-images/vr-181.png"
   },
   {
@@ -4656,7 +4656,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "\"The number of readers\" is singular because the subject is \"number,\" so the verb should be \"rises,\" not \"rise.\"",
     "image": "/question-images/vr-182.png"
   },
   {
@@ -4686,7 +4686,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Underlined part a\") because that underlined part contains the error.",
+    "explanation": "After the preposition \"for,\" use the object pronoun \"me,\" not the subject pronoun \"I.\" It should be \"For me.\"",
     "image": "/question-images/vr-183.png"
   },
   {
@@ -4716,7 +4716,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "Use the present perfect progressive form: \"has been publishing,\" not \"has been published,\" because the newspaper is doing the action.",
     "image": "/question-images/vr-184.png"
   },
   {
@@ -4746,7 +4746,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"All children\" is plural, so the verb should be \"have,\" not \"has.\"",
     "image": "/question-images/vr-185.png"
   },
   {
@@ -4776,7 +4776,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The sentence is correct. The main subject is \"editor-in-chief,\" and the phrase \"together with the writers\" does not make the verb plural, so \"confers\" is correct.",
     "image": "/question-images/vr-186.png"
   },
   {
@@ -4806,7 +4806,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Gorio and Tekla\" names more than one subject, so the verb should be plural: \"were,\" not \"was.\"",
     "image": "/question-images/vr-187.png"
   },
   {
@@ -4836,7 +4836,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "After \"has,\" use the past participle \"drawn,\" not the simple past \"drew.\"",
     "image": "/question-images/vr-188.png"
   },
   {
@@ -4866,7 +4866,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"Pugad Baboy\" is singular, so the verb should be \"appeared\" for a past event, not \"appear.\"",
     "image": "/question-images/vr-189.png"
   },
   {
@@ -4896,7 +4896,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "With \"neither...nor,\" the verb agrees with the nearer subject. \"His friends\" is plural, so it should be \"think,\" not \"thinks.\"",
     "image": "/question-images/vr-190.png"
   },
   {
@@ -4926,7 +4926,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Underlined part a\") because that underlined part contains the error.",
+    "explanation": "\"Some\" refers to plural people here, so the verb should be \"believe,\" not \"believes.\"",
     "image": "/question-images/vr-191.png"
   },
   {
@@ -4956,7 +4956,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "After \"have been,\" use the past participle \"singing\" only for continuous tense or \"have sung\" for perfect tense. Here it should be \"have sung,\" not \"have been sang.\"",
     "image": "/question-images/vr-192.png"
   },
   {
@@ -4986,7 +4986,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"That house and lot\" is treated as one property, so it should take the singular verb \"is,\" not \"are.\"",
     "image": "/question-images/vr-193.png"
   },
   {
@@ -5016,7 +5016,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The sentence is correct. \"The number\" is singular, so \"increases\" agrees with it.",
     "image": "/question-images/vr-194.png"
   },
   {
@@ -5046,7 +5046,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "The noun before the verb is plural: \"tax collections.\" A plural noun takes \"go,\" not \"goes.\" The sentence should read: collections go to infrastructure projects.",
     "image": "/question-images/vr-195.png"
   },
   {
@@ -5076,7 +5076,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "After a linking verb like \"will be,\" formal grammar uses the subject pronoun \"they,\" not the object pronoun \"them.\"",
     "image": "/question-images/vr-196.png"
   },
   {
@@ -5106,7 +5106,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Underlined part a\") because that underlined part contains the error.",
+    "explanation": "\"Studies\" is plural, so the verb should be \"suggest,\" not \"suggests.\"",
     "image": "/question-images/vr-197.png"
   },
   {
@@ -5136,7 +5136,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Effects\" is plural, so the verb should be \"need,\" not \"needs.\"",
     "image": "/question-images/vr-198.png"
   },
   {
@@ -5166,7 +5166,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Chel and Charm\" is a compound subject, so the verb should be \"go,\" not \"goes.\"",
     "image": "/question-images/vr-199.png"
   },
   {
@@ -5196,7 +5196,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "The title \"The Scent of Apples\" is one story, so the verb should be singular: \"was written,\" not \"are written.\"",
     "image": "/question-images/vr-200.png"
   },
   {
@@ -5226,7 +5226,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "Use \"known as\" for a name or pen name. Nick Joaquin is known as Quijano de Manila, not known for Quijano de Manila.",
     "image": "/question-images/vr-201.png"
   },
   {
@@ -5256,7 +5256,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"Some people\" is plural, so the verb should be \"believe,\" not \"believes.\"",
     "image": "/question-images/vr-202.png"
   },
   {
@@ -5286,7 +5286,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "Use \"among\" for more than two items. Since the sentence refers to numerous awards, it should say \"among them,\" not \"between them.\"",
     "image": "/question-images/vr-203.png"
   },
   {
@@ -5316,7 +5316,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"Gave\" needs an object pronoun after it. It should be \"gave him,\" not \"gave he.\"",
     "image": "/question-images/vr-204.png"
   },
   {
@@ -5346,7 +5346,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Underlined part a\") because that underlined part contains the error.",
+    "explanation": "Use \"among\" when comparing more than two writers. \"Between\" is mainly for two people or things.",
     "image": "/question-images/vr-205.png"
   },
   {
@@ -5376,7 +5376,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Work\" should be plural here because \"those\" refers to more than one item. It should be \"works of famous authors.\"",
     "image": "/question-images/vr-206.png"
   },
   {
@@ -5406,7 +5406,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "After the preposition \"about,\" use the object pronoun \"them,\" not the subject pronoun \"they.\"",
     "image": "/question-images/vr-207.png"
   },
   {
@@ -5436,7 +5436,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Underlined part a\") because that underlined part contains the error.",
+    "explanation": "\"Literature\" is singular, so the verb should be \"seems,\" not \"seem.\"",
     "image": "/question-images/vr-208.png"
   },
   {
@@ -5466,7 +5466,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Readers\" needs a possessive form before \"intellect.\" It should be \"reader's intellect\" or \"readers' intellects,\" not \"readers intellect.\"",
     "image": "/question-images/vr-209.png"
   },
   {
@@ -5496,7 +5496,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The underlined grammar is correct: the subject \"Robert Frost\" takes \"defines,\" and the appositive \"an American poet\" is properly placed.",
     "image": "/question-images/vr-210.png"
   },
   {
@@ -5526,7 +5526,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "\"Either of the authors\" is singular, so the verb should be \"has received,\" not \"have received.\"",
     "image": "/question-images/vr-211.png"
   },
   {
@@ -5556,7 +5556,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "After \"has,\" use the past participle \"drunk,\" not \"drank.\" It should be \"has drunk.\"",
     "image": "/question-images/vr-212.png"
   },
   {
@@ -5586,7 +5586,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "With \"are,\" use the past participle \"used.\" The phrase should be \"are widely used,\" not \"are widely use.\"",
     "image": "/question-images/vr-213.png"
   },
   {
@@ -5616,7 +5616,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The sentence is correct. \"The number\" is singular, so \"increases\" agrees with it.",
     "image": "/question-images/vr-214.png"
   },
   {
@@ -5646,7 +5646,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Underlined part a\") because that underlined part contains the error.",
+    "explanation": "\"AMA\" is the main subject. The phrase \"in addition to STI\" does not make it plural, so the verb should be \"trains,\" not \"train.\"",
     "image": "/question-images/vr-215.png"
   },
   {
@@ -5676,7 +5676,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E because the sentence has no error.",
+    "explanation": "The sentence is correct. \"Knowledge\" is singular and the phrase \"should be put to good use\" is properly formed.",
     "image": "/question-images/vr-216.png"
   },
   {
@@ -5706,7 +5706,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "After \"has,\" use the past participle \"infected,\" not the base form \"infect.\"",
     "image": "/question-images/vr-217.png"
   },
   {
@@ -5736,7 +5736,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"Internet access\" is singular, so the verb should be \"allows,\" not \"allow.\"",
     "image": "/question-images/vr-218.png"
   },
   {
@@ -5766,7 +5766,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
+    "explanation": "The sentence needs the negative word \"not,\" not \"no.\" It should say \"are not spent\" or, for past time, \"were not spent.\"",
     "image": "/question-images/vr-219.png"
   },
   {
@@ -5796,7 +5796,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Underlined part b\") because that underlined part contains the error.",
+    "explanation": "\"Each computer\" is singular, so the verb should be \"comes,\" not \"come.\"",
     "image": "/question-images/vr-220.png"
   },
   {

@@ -1598,8 +1598,38 @@ type ReviewCardProps = {
   onOpenImage: (imageSrc: string) => void
 }
 
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+function formatReviewExplanation(explanation: string, correctChoiceText: string): string {
+  const trimmedExplanation = explanation.trim()
+  const repeatedAnswerPrefixes = [
+    /^The correct answer is choice [A-E](?: \("[^"]+"\))? because\s+/i,
+    /^Tamang sagot ang choice [A-E](?: \("[^"]+"\))? dahil\s+/i,
+  ]
+  const withoutRepeatedAnswer = repeatedAnswerPrefixes.reduce(
+    (currentExplanation, repeatedAnswerPrefix) => currentExplanation.replace(repeatedAnswerPrefix, ''),
+    trimmedExplanation,
+  )
+  const leadingChoiceMarker = /^[A-E](?:\.\)|\.|\))\s*/i
+  const hadLeadingChoiceMarker = leadingChoiceMarker.test(withoutRepeatedAnswer)
+  const withoutChoiceMarker = withoutRepeatedAnswer.replace(leadingChoiceMarker, '')
+  const answerText = correctChoiceText.trim()
+  const repeatedAnswerText = answerText
+    ? new RegExp(`^${escapeRegExp(answerText)}\\s*(?:[✔✓])?(?:\\s*[-:–—.]\\s*|\\s+)?`, 'i')
+    : null
+  const cleanedExplanation =
+    hadLeadingChoiceMarker && repeatedAnswerText
+      ? withoutChoiceMarker.replace(repeatedAnswerText, '')
+      : withoutChoiceMarker
+
+  return cleanedExplanation.replace(/^./, (firstLetter) => firstLetter.toUpperCase())
+}
+
 function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
   const markerChoicesOnly = Boolean(item.image) && usesImageChoiceMarkers(item.choices)
+  const correctChoice = item.choices.find((choice) => choice.id === item.correctChoiceId)
 
   return (
     <article className="review-card">
@@ -1621,7 +1651,14 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
         prompt={item.prompt}
         questionId={item.questionId}
       />
-      {item.explanation && <p className="explanation">{item.explanation}</p>}
+      {item.explanation && (
+        <div className="explanation">
+          <p className="explanation__answer">{item.correctChoiceId}.</p>
+          <p>
+            <strong>Explanation:</strong> {formatReviewExplanation(item.explanation, correctChoice?.text ?? '')}
+          </p>
+        </div>
+      )}
       <div className={markerChoicesOnly ? 'review-choices review-choices--markers' : 'review-choices'}>
         {item.choices.map((choice, index) => {
           const isSelected = item.selectedChoiceId === choice.id

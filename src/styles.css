@@ -1154,7 +1154,7 @@ h2 {
 }
 
 .review-choice p,
-.explanation {
+.explanation p {
   margin-bottom: 0;
 }
 
@@ -1180,6 +1180,15 @@ h2 {
   padding: 12px 14px;
   background: var(--accent-soft);
   color: var(--ink);
+}
+
+.explanation__answer {
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+.explanation strong {
+  font-weight: 800;
 }
 
 .explanation + .review-choices {
