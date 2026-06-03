@@ -110,7 +110,7 @@
       },
       {
         "id": "B",
-        "text": "CBAD"
+        "text": "CBDA"
       },
       {
         "id": "C",
@@ -147,7 +147,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = A Soriano Aviation Incorporated, D = A-1 Driving Company Incorporated, A = AA Industrial Chemical Supply, B = AB Capital and Investment Corporation. That matches choice A."
+    "explanation": "Use word-by-word filing. First compare the initial word: \"A\" files before \"A-1,\" \"AA,\" and \"AB.\" That puts A Soriano first. Next, the hyphenated number in A-1 files before the continuous letter strings AA and AB. Finally, AA comes before AB. The order is C-D-A-B."
   },
   {
     "id": "aa-007",
@@ -1243,7 +1243,7 @@
       },
       {
         "id": "D",
-        "text": "314"
+        "text": "312"
       }
     ],
     "correctChoiceId": "C",
@@ -1297,7 +1297,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Read the even-position terms: 21, 42. They double at first, and the matching odd-position terms 7, 14, 42 show the multiplier rising from x2 to x3. So the next even-position term is 42 x 3 = 126."
+    "explanation": "Split the sequence by position. The odd-position terms are 7, 14, 42, which are 7 x 2 = 14 and 14 x 3 = 42. Apply the same x2, then x3 pattern to the even-position terms: 21 x 2 = 42, so the next even-position term is 42 x 3 = 126."
   },
   {
     "id": "aa-053",
@@ -1402,7 +1402,7 @@
   {
     "id": "aa-057",
     "subject": "Analytical Ability",
-    "prompt": "BC PQ EF HU JW",
+    "prompt": "BC EF",
     "choices": [
       {
         "id": "A",
@@ -1422,7 +1422,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The consecutive-letter pairs in the sequence move BC, EF, then HI by advancing each letter three places. Among the choices, HI continues that pair pattern."
+    "explanation": "Each pair contains consecutive letters, and each new pair starts three letters after the previous start: B, E, then H. After BC and EF, the next pair is HI."
   },
   {
     "id": "aa-058",
@@ -1460,15 +1460,15 @@
       },
       {
         "id": "B",
-        "text": "KX11"
+        "text": "KX10"
       },
       {
         "id": "C",
-        "text": "JW10"
+        "text": "JW11"
       },
       {
         "id": "D",
-        "text": "MZ13"
+        "text": "MZ12"
       }
     ],
     "correctChoiceId": "A",
@@ -1527,7 +1527,7 @@
   {
     "id": "aa-062",
     "subject": "Analytical Ability",
-    "prompt": "A26 C24 EF21",
+    "prompt": "A26 C24 F21",
     "choices": [
       {
         "id": "A",
@@ -1547,7 +1547,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The numbers decrease by growing steps: 26 to 24 is -2, 24 to 21 is -3, so the next step is -4, giving 17. J17 is the only choice with that next number and a later letter."
+    "explanation": "The letters move forward by increasing steps: A to C is +2, C to F is +3, so the next step is +4, giving J. The numbers decrease by matching increasing steps: 26 to 24 is -2, 24 to 21 is -3, so the next step is -4, giving 17. The next term is J17."
   },
   {
     "id": "aa-063",
@@ -1677,7 +1677,7 @@
   {
     "id": "aa-068",
     "subject": "Analytical Ability",
-    "prompt": "1121 2242 3483",
+    "prompt": "1241 2482 3723",
     "choices": [
       {
         "id": "A",
@@ -1697,7 +1697,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "This item needs review: the stored answer is 4964, but the number pattern is not clear enough from the text alone to explain confidently."
+    "explanation": "The first three digits increase by 124 each time: 124, 248, 372, then 496. The last digit increases by 1 each time: 1, 2, 3, then 4. Therefore, the next term is 4964."
   },
   {
     "id": "aa-069",
@@ -2627,7 +2627,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The differences are 3, 5, 7, and 9, so the next difference is 11."
+    "explanation": "The differences are 3, 5, 7, and 9, increasing by 2 each time. The next difference is 11, so the next term is 26 + 11 = 37."
   },
   {
     "id": "aa-105",
@@ -2661,7 +2661,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "An electrical discharge in the clouds causes lightning."
+        "text": "Static electricity inside clouds causes lightning."
       },
       {
         "id": "B",
@@ -2677,7 +2677,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The passage says lightning happens when static electricity builds up inside clouds and creates an electrical charge, so the cause is an electrical discharge in the clouds."
+    "explanation": "The passage says lightning is an electrical discharge, not that a separate discharge causes it. It explains that static electricity builds up inside clouds after water droplets collide with ice crystals; when the charge is large enough, lightning occurs."
   },
   {
     "id": "aa-107",
@@ -2732,7 +2732,7 @@
   {
     "id": "aa-109",
     "subject": "Analytical Ability",
-    "prompt": "A. A responsive educational system should be directed towards regional cooperation.",
+    "prompt": "Arrange the sentences into the most coherent order.\nA. A responsive educational system should be directed towards regional cooperation.\nB. Commonality of educational objectives should be replaced by better ways of achieving goals that fit the regional needs.\nC. It is necessary to revolutionize the contemporary methodologies in the teaching-learning processes.\nD. The educational goals should seek a better way of experimenting with teaching strategies and technologies.",
     "choices": [
       {
         "id": "A",
@@ -2740,15 +2740,15 @@
       },
       {
         "id": "B",
-        "text": "Commonality of educational objectives should be replaced by better ways of achieving goals that fit the regional needs."
+        "text": "ACBD"
       },
       {
         "id": "C",
-        "text": "It is necessary to revolutionize the contemporary methodologies in the teaching-learning processes."
+        "text": "BACD"
       },
       {
         "id": "D",
-        "text": "The educational goals should seek a better way of experimenting with teaching strategies and technologies."
+        "text": "ADCB"
       }
     ],
     "correctChoiceId": "A",
@@ -2820,11 +2820,11 @@
   {
     "id": "aa-113",
     "subject": "Analytical Ability",
-    "prompt": "A. One effective way is to diversify his funds to different investments like real estate, stocks and\nmoney instruments like bonds and trust funds.",
+    "prompt": "Which statement best captures this idea?\nOne effective way is to diversify his funds to different investments like real estate, stocks and money instruments like bonds and trust funds.",
     "choices": [
       {
         "id": "A",
-        "text": "CBAD"
+        "text": "A wise investor should keep all his money in one investment."
       },
       {
         "id": "B",
@@ -2840,7 +2840,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The sentence recommends putting money into different kinds of investments. That is the same idea as not putting all your eggs in one basket."
+    "explanation": "The sentence recommends spreading money across different investments to reduce risk. That is the same idea as not putting all your eggs in one basket."
   },
   {
     "id": "aa-114",
@@ -4195,7 +4195,7 @@
   {
     "id": "aa-168",
     "subject": "Analytical Ability",
-    "prompt": "Office codes follow this pattern: AB, CD, EF, GH. What code comes next?",
+    "prompt": "Office codes follow this pattern: AB, DE, GH. What code comes next?",
     "choices": [
       {
         "id": "A",
@@ -4214,8 +4214,8 @@
         "text": "KL"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The pairs use consecutive letters without overlap: AB, CD, EF, GH, then IJ."
+    "correctChoiceId": "C",
+    "explanation": "Each code uses two consecutive letters, and each new code starts three letters after the previous start: A, D, G, then J. After GH, the next code is JK."
   },
   {
     "id": "aa-169",
@@ -4289,8 +4289,8 @@
         "text": "A-D-B-C"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Receiving comes before Records because Receiving is alphabetized as Recei- before Reco-. Releasing follows Records, then Registry."
+    "correctChoiceId": "C",
+    "explanation": "Receiving comes before Records because Recei- comes before Reco-. After Records, Registry comes before Releasing because Reg- comes before Rel-. The order is B-A-D-C."
   },
   {
     "id": "aa-172",
@@ -4314,8 +4314,8 @@
         "text": "A-B-C-D"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Compare after San-: Sanchez comes first, then San Diego, then Santiago, then Santos."
+    "correctChoiceId": "A",
+    "explanation": "Use word-by-word filing for surnames with spaces: San Diego is filed before Sanchez because the separate word San comes before longer San- names. Then Sanchez comes before Santiago, and Santiago comes before Santos. The order is D-C-B-A."
   },
   {
     "id": "aa-173",
@@ -4339,8 +4339,8 @@
         "text": "D-A-B-C"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Administrative comes first, then Accounting, then Budget, then Cash."
+    "correctChoiceId": "A",
+    "explanation": "Accounting comes before Administrative because Acc- comes before Adm-. Then Budget comes before Cash. The order is B-C-A-D."
   },
   {
     "id": "aa-174",
@@ -4489,8 +4489,8 @@
         "text": "C-D-B-A"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Civil precedes City, and within Civil, Registry comes before Service. Then City Council comes before City Court. The order is B-A-C-D."
+    "correctChoiceId": "B",
+    "explanation": "City comes before Civil because Cit- comes before Civ-. Within City, Council comes before Court. Within Civil, Registry comes before Service. The order is C-D-A-B."
   },
   {
     "id": "aa-180",
@@ -4895,7 +4895,7 @@
   {
     "id": "aa-196",
     "subject": "Analytical Ability",
-    "prompt": "A clerk sorts files by year, then by month, then by name. Which comes first: 2021 March Cruz or 2021 April Abad?",
+    "prompt": "A clerk sorts files by year, then by month name alphabetically, then by name. Which comes first: 2021 March Cruz or 2021 April Abad?",
     "choices": [
       {
         "id": "A",
@@ -4915,7 +4915,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The year is the same, so compare the months. April comes before March."
+    "explanation": "The year is the same, so compare the month names alphabetically. April starts with A and March starts with M, so April comes first. Therefore, 2021 April Abad is sorted first."
   },
   {
     "id": "aa-197",

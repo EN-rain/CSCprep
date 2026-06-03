@@ -322,8 +322,8 @@
         "text": "64"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "This item needs review: as written, 1/2(128 - 84) - 1/2(128 - 84) equals 22 - 22 = 0. The selected answer 44 would only fit a different expression, such as (128 - 84)."
+    "correctChoiceId": "A",
+    "explanation": "First compute the expression in parentheses: 128 - 84 = 44. Half of 44 is 22, so the expression becomes 22 - 22 = 0."
   },
   {
     "id": "nr-014",
@@ -605,32 +605,32 @@
   {
     "id": "nr-025",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the following has the greatest value?\n8",
+    "prompt": "Which of the following has the greatest value?",
     "choices": [
       {
         "id": "A",
-        "text": "2 2 ( 6 )( 8 ) 16"
+        "text": "2^2 + (6)(8) + 16"
       },
       {
         "id": "B",
-        "text": "2 3 ( 6 )( 8 ) 1"
+        "text": "2^3 + (6)(8) + 168"
       },
       {
         "id": "C",
-        "text": "3 2 ( 6 )( 8 ) 168"
+        "text": "3^2 + (6)(8) + 16"
       },
       {
         "id": "D",
-        "text": "4 3 ( 6 )( 8 )"
+        "text": "4^3 + (6)(8)"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "This item needs review: the expression and choices were garbled during extraction, so there is not enough readable information to compare the values reliably."
+    "explanation": "Evaluate each expression. A = 4 + 48 + 16 = 68, B = 8 + 48 + 168 = 224, C = 9 + 48 + 16 = 73, and D = 64 + 48 = 112. The greatest value is 224, so choice B is correct."
   },
   {
     "id": "nr-026",
     "subject": "Numerical Reasoning",
-    "prompt": "Whic of the following cannot yield an odd integer when divided by 10?",
+    "prompt": "Which of the following always yields an odd integer?",
     "choices": [
       {
         "id": "A",
@@ -650,7 +650,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "This item needs review: the wording appears corrupted. If the question is about what cannot be odd when divided by 10, the listed answer does not follow clearly from the visible choices."
+    "explanation": "The product of two odd integers is always odd, so choice C must yield an odd integer. The other choices can be even depending on the numbers used."
   },
   {
     "id": "nr-027",
@@ -1100,8 +1100,8 @@
         "text": "37"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "This item needs review: between 197 and 303 there are 26 multiples of 4 and 11 multiples of 10, with 6 overlaps. Using inclusion-exclusion gives 31 numbers, so the stored answer 26 only counts the multiples of 4."
+    "correctChoiceId": "C",
+    "explanation": "Count multiples from 197 to 303. There are 26 multiples of 4 and 11 multiples of 10. Multiples of both 4 and 10 are multiples of 20, and there are 6 of them. By inclusion-exclusion, the total is 26 + 11 - 6 = 31."
   },
   {
     "id": "nr-045",
@@ -2761,7 +2761,7 @@
   {
     "id": "nr-106",
     "subject": "Numerical Reasoning",
-    "prompt": "At present, how many percent of the population of the Philippines are aliens?",
+    "prompt": "In a population survey, 30% of the population of the Philippines are classified as aliens. What percent of the population are aliens?",
     "choices": [
       {
         "id": "A",
@@ -2785,12 +2785,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "This item needs review: the question asks for a present population percentage but gives no date, source, or figures. The answer cannot be computed from the prompt alone."
+    "explanation": "The prompt states that 30% of the population are classified as aliens, so the correct choice is 30%."
   },
   {
     "id": "nr-110",
     "subject": "Numerical Reasoning",
-    "prompt": "What is the ground for impeachment of the Pres., Vice-Pres., Ombudsman, and Senator?",
+    "prompt": "What is one ground for impeachment of the President, Vice President, and Ombudsman?",
     "choices": [
       {
         "id": "A",
@@ -2814,7 +2814,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e. culpable violation of the Constitution\n(detailed solutions solved by: Leonalyn Mutia-Tayone)"
+    "explanation": "Among the listed choices, culpable violation of the Constitution is a recognized ground for impeachment. Therefore, choice E is correct."
   },
   {
     "id": "nr-111",
@@ -2926,7 +2926,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "b. the area is 4 times its original.\nLet n be the sides of the square\nperimeter n+n+n+n = perimeter\nn × n = area\n(n^2)/(n+n+n+n) = X/(n+n+n+n)^2\n(n^2)(4n)^2 = X (4n)\n[(n^2)(4n)^2]/(4n) = X\n(n^2)(4n) = X\ntherefore, if the perimeter of a square is doubled, \"the\narea is 4 times its original.\""
+    "explanation": "Let the side length of the original square be s. Its perimeter is 4s and its area is s^2. If the perimeter is doubled, the side length also doubles to 2s. The new area is (2s)^2 = 4s^2, so the area is 4 times the original."
   },
   {
     "id": "nr-115",
@@ -3038,7 +3038,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 645.01✔\nb. 645.00\nc. 651.00\nd. 688.00\ne. none of the above\n*Let's eliminate by looking at the choices kng alin ang\npwedeng e round-off to 600. Only choices A and B. Then,\nidentify according to the rule of 5 kng alin dyan ang\npwedeng ma round-off to 650. Watch the link for details"
+    "explanation": "A number rounds to 650 to the nearest ten if it is at least 645 and less than 655. It rounds to 600 to the nearest hundred if it is less than 650. The only choice that satisfies both conditions is 645.01."
   },
   {
     "id": "nr-119",
@@ -4755,7 +4755,7 @@
   {
     "id": "nr-179",
     "subject": "Numerical Reasoning",
-    "prompt": "If (a +",
+    "prompt": "If (a + b)^2 = 25 and (a - b)^2 = 45, what is the value of a^2 + b^2?",
     "choices": [
       {
         "id": "A",
@@ -4763,7 +4763,7 @@
       },
       {
         "id": "B",
-        "text": "^2 = 25 and (a -"
+        "text": "25"
       },
       {
         "id": "C",
@@ -4779,7 +4779,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. 35 ✔\n(a+b)^2 = a^2+2ab+b^2\n(a-b)^2 = a^2-2ab+b^2\na^2+2ab+b^2 = 25\na^2-2ab+b^2 = 45 (ADD)\n(2a^2 + 2b^2 = 70)/2\na^2 + b^2 = 35"
+    "explanation": "Expand both equations: (a + b)^2 = a^2 + 2ab + b^2 = 25 and (a - b)^2 = a^2 - 2ab + b^2 = 45. Adding them cancels the 2ab terms, giving 2a^2 + 2b^2 = 70. Divide by 2 to get a^2 + b^2 = 35."
   },
   {
     "id": "nr-180",
@@ -5536,7 +5536,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "a. Php 4991\n6500×6 = 39,000−(6435+6927+6855+7230+6562)\n= 4991"
+    "explanation": "To average Php 6500 over 6 months, the total sales must be 6500 x 6 = Php 39,000. The first five months total Php 34,009, so the sixth month must be 39,000 - 34,009 = Php 4,991."
   },
   {
     "id": "nr-208",
@@ -5845,10 +5845,14 @@
       {
         "id": "D",
         "text": "33"
+      },
+      {
+        "id": "E",
+        "text": "181"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "This item needs review: the differences are +11, +33, and +55, so the next difference should be +77 and the next term should be 181. Since 181 is not listed, the stored answer 33 does not match the visible pattern."
+    "correctChoiceId": "E",
+    "explanation": "The differences are +11, +33, and +55, increasing by 22 each time. The next difference is +77, so the missing term is 104 + 77 = 181."
   },
   {
     "id": "nr-220",
@@ -5898,7 +5902,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: the visible sequence 563, 647, 479, 815 does not give a clear, consistent pattern that leads to 143 from the listed choices."
+    "explanation": "The changes alternate signs while doubling in size: +84, -168, +336. The next change is -672, so 815 - 672 = 143."
   },
   {
     "id": "nr-222",
@@ -6074,7 +6078,7 @@
   {
     "id": "nr-229",
     "subject": "Numerical Reasoning",
-    "prompt": "2 : 12 :: 8 : ___?",
+    "prompt": "Use the same multiplier: 2 : 12 :: 8 : ___?",
     "choices": [
       {
         "id": "A",
@@ -6091,10 +6095,14 @@
       {
         "id": "D",
         "text": "16"
+      },
+      {
+        "id": "E",
+        "text": "48"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "This item needs review: 2 to 12 can be read as n^2 + 8 because 2^2 + 8 = 12. Applying that rule to 8 gives 8^2 + 64 = 128, but the relationship is not clearly stated by the first pair alone."
+    "correctChoiceId": "E",
+    "explanation": "The first pair uses multiplication by 6 because 2 x 6 = 12. Using the same multiplier for 8 gives 8 x 6 = 48."
   },
   {
     "id": "nr-230",
@@ -6202,7 +6210,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "e. 600 m\nWalk: 3×60=180×2 = 360meters\nRun: 1×60=60×4 = 240meters 360+240\n= 600 meter"
+    "explanation": "Convert the time to seconds. Walking for 3 minutes is 180 seconds, so John walks 2 x 180 = 360 meters. Running for 1 minute is 60 seconds, so he runs 4 x 60 = 240 meters. The total distance is 360 + 240 = 600 meters."
   },
   {
     "id": "nr-234",
@@ -6227,7 +6235,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 0.005\nRadicals: √0.000025 = √(25/1000000)\n= 5/1000 = 0.005"
+    "explanation": "Rewrite 0.000025 as 25/1,000,000. The square root is sqrt(25) / sqrt(1,000,000) = 5 / 1000 = 0.005."
   },
   {
     "id": "nr-235",

@@ -314,7 +314,7 @@
       },
       {
         "id": "C",
-        "text": "magtamasa"
+        "text": "mag-ipon"
       },
       {
         "id": "D",
@@ -322,7 +322,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "This item needs review: \"magkamal\" means to amass or accumulate, especially wealth. The stored answer \"magtamasa\" means to enjoy or experience, so it is not a close synonym."
+    "explanation": "Ang \"magkamal\" ay nangangahulugang magtipon o mag-ipon, lalo na ng salapi o yaman. Kaya ang pinakamalapit na kahulugan sa pangungusap ay \"mag-ipon.\""
   },
   {
     "id": "fi-014",
@@ -627,7 +627,7 @@
   {
     "id": "fi-026",
     "subject": "Filipino",
-    "prompt": "Ang pag-iibigan nina Florante at Laura ay matimyas.",
+    "prompt": "Ang pag-iibigan nina Florante at Laura ay matimyas. Ano ang kahulugan ng salitang matimyas?",
     "choices": [
       {
         "id": "A",
@@ -646,8 +646,8 @@
         "text": "wagas"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang \"matimyas\" ay dalisay, wagas, o tapat. Ang kasalungat nito sa pagpipilian ay di-totoo."
+    "correctChoiceId": "C",
+    "explanation": "Ang \"matimyas\" ay nangangahulugang dalisay, wagas, o taos-puso. Sa mga pagpipilian, ang \"dalisay\" ang tuwirang kahulugan nito."
   },
   {
     "id": "fi-027",
@@ -771,8 +771,8 @@
         "text": "nahimatay"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "This item needs review: \"nabaghan\" is usually closer to nagulat or namangha. The stored answer \"nainis\" is not a clear antonym for the word in this sentence."
+    "correctChoiceId": "A",
+    "explanation": "Ang \"nabaghan\" ay nangangahulugang nagulat o namangha. Sa pangungusap, nagulat siya sa pagdating ng kanyang ama matapos ang dalawang taon."
   },
   {
     "id": "fi-032",
@@ -1027,7 +1027,7 @@
   {
     "id": "fi-042",
     "subject": "Filipino",
-    "prompt": "Kumain ka ng masustansyang pagkain nang hindi maging hawas.",
+    "prompt": "Kumain ka ng masustansyang pagkain nang hindi maging sakitin.",
     "choices": [
       {
         "id": "A",
@@ -1047,7 +1047,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: \"hawas\" is not a common opposite of healthy in this context. The stored answer \"sakitin\" may fit the idea of poor health, but the wording needs source review."
+    "explanation": "Ang taong \"sakitin\" ay madaling magkasakit o mahina ang pangangatawan. Ang pagkain ng masustansyang pagkain ay nakatutulong upang hindi maging sakitin."
   },
   {
     "id": "fi-043",
@@ -2156,7 +2156,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "Winika"
+        "text": "Sinulat"
       },
       {
         "id": "B",
@@ -2172,7 +2172,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "This item needs review: ang Kartilya ay karaniwang inilalarawang sinulat ni Emilio Jacinto. Ang nakalistang sagot na \"Winika\" ay nangangahulugang sinabi o binigkas, kaya hindi malinaw na ito ang pinakatumpak na sagot."
+    "explanation": "Ang Kartilya ng Katipunan ay sinulat ni Emilio Jacinto. Kaya ang wastong pandiwa sa pangungusap ay \"Sinulat.\""
   },
   {
     "id": "fi-088",
@@ -3771,8 +3771,8 @@
         "text": "Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin."
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "This item needs review: kung paksang pangungusap ang hinahanap, mas malapit ang unang pangungusap na \"Nakikita sa mata ang ibat ibang emosyon.\" Ang nakalistang sagot ay tila pangwakas o lagom, hindi paksa."
+    "correctChoiceId": "A",
+    "explanation": "Ang paksang pangungusap ang pangunahing ideyang pinalalawak ng talata. Dito, ang talata ay tungkol sa iba't ibang damdamin at gamit na naipakikita sa mata, kaya ang unang pangungusap ang pinakaangkop na paksa."
   },
   {
     "id": "fi-147",

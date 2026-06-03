@@ -427,7 +427,7 @@
   {
     "id": "vr-018",
     "subject": "Verbal Reasoning",
-    "prompt": "The piquant mouse was able to find its way out of the maze in a short while.",
+    "prompt": "The clever mouse was able to find its way out of the maze in a short while.",
     "choices": [
       {
         "id": "A",
@@ -447,7 +447,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "This item needs review: \"piquant\" normally means pleasantly sharp, spicy, or stimulating, but the sentence about a mouse escaping a maze appears to intend \"clever.\""
+    "explanation": "A mouse that can quickly find its way out of a maze is clever. The context points to intelligence and problem-solving ability."
   },
   {
     "id": "vr-019",
@@ -1371,8 +1371,8 @@
         "text": "crowd"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "This item needs review: a kibitzer is usually an onlooker who gives unwanted advice. \"Advisers\" is related to giving advice, not a clear opposite."
+    "correctChoiceId": "B",
+    "explanation": "A kibitzer is an onlooker or spectator who gives unwanted advice. In the context of players and a team huddle, \"spectators\" best matches the meaning."
   },
   {
     "id": "vr-056",
@@ -1571,8 +1571,8 @@
         "text": "interfering"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "This item needs review: obdurate means stubborn. The listed answer \"snoopy\" means nosy, not the opposite of stubborn."
+    "correctChoiceId": "A",
+    "explanation": "Obdurate means stubborn or refusing to change one's mind. Someone who refuses to eat vegetables despite needing nourishment is being stubborn."
   },
   {
     "id": "vr-064",
@@ -2718,11 +2718,11 @@
       },
       {
         "id": "D",
-        "text": "throw"
+        "text": "eliminate"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: masticate means chew, so eradicate should match a meaning like remove, destroy, or eliminate. None of the listed choices expresses that clearly; \"throw\" is not a reliable synonym."
+    "explanation": "The analogy pairs each word with its meaning: masticate means chew, and eradicate means eliminate or remove completely."
   },
   {
     "id": "vr-110",
@@ -8058,7 +8058,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The passage says horses appear in more than 300 wall images and outnumber all other animals. That directly supports Horses as the answer."
+    "explanation": "The passage states that coronary arteries can become blocked by deposits of fatty material, connective tissue fibers, and calcium in the vessel walls. That directly supports choice D."
   },
   {
     "id": "vr-310",
@@ -9748,7 +9748,7 @@
         "text": "needy countries spend so much time for conducting researchers"
       }
     ],
-    "correctChoiceId": "D",
+    "correctChoiceId": "B",
     "explanation": "The passage says research in needy countries often follows Western priorities instead of local development needs. That means much of the research misses its real objective."
   },
   {
@@ -9835,7 +9835,7 @@
         "text": "ignorance is a lifelong experience"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": "The quotation says education reveals our ignorance. The best meaning is that the more we learn, the more we realize how much we still do not know."
   },
   {
@@ -10215,11 +10215,11 @@
       },
       {
         "id": "D",
-        "text": "be impossible to complete."
+        "text": "mournful, sorrowful."
       }
     ],
     "correctChoiceId": "D",
-    "explanation": ") Plaintive means expressing sorrow; mournful,\nmelancholy."
+    "explanation": "Plaintive means expressing sorrow or melancholy. Plaintive cries would therefore be mournful or sorrowful."
   },
   {
     "id": "vr-398",
@@ -10286,11 +10286,11 @@
       },
       {
         "id": "D",
-        "text": "were part of a conspiracy."
+        "text": "are quarrelsome and quick to argue."
       }
     ],
     "correctChoiceId": "D",
-    "explanation": ") A contentious person is quarrelsome, competitive,\nquick to fight. Contentious also means controversial,\ncausing contention."
+    "explanation": "A contentious person is quarrelsome, argumentative, or quick to fight. Therefore, a contentious person is quick to argue."
   },
   {
     "id": "vr-401",
@@ -10432,11 +10432,11 @@
       },
       {
         "id": "D",
-        "text": "the person who decides your fate."
+        "text": "rob it of goods."
       }
     ],
     "correctChoiceId": "D",
-    "explanation": ") To pillage means to forcibly rob of goods; to plunder."
+    "explanation": "To pillage means to forcibly rob a place of goods or valuables. If you pillage a village, you rob it of goods."
   },
   {
     "id": "vr-407",
@@ -10707,7 +10707,7 @@
       },
       {
         "id": "B",
-        "text": "earn his own money"
+        "text": "manage his own affairs independently"
       },
       {
         "id": "C",
@@ -10718,8 +10718,8 @@
         "text": "dress up according to the accessories"
       }
     ],
-    "correctChoiceId": "E",
-    "explanation": "This item needs review: \"Paddle your own canoe\" normally means to be independent or manage your own affairs, but the stored correct choice does not match that meaning."
+    "correctChoiceId": "B",
+    "explanation": "\"Paddle your own canoe\" means to be independent and manage your own affairs without relying on others."
   },
   {
     "id": "vr-418",
@@ -10728,7 +10728,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "satisfactory"
+        "text": "unsatisfactory"
       },
       {
         "id": "B",
@@ -10747,7 +10747,7 @@
         "text": "ready For each of the following sentences, choose the correct spelling for the missing word."
       }
     ],
-    "correctChoiceId": "B",
+    "correctChoiceId": "A",
     "explanation": "\"Leaves much to be desired\" means the report is not satisfactory and needs improvement."
   },
   {
@@ -10815,11 +10815,11 @@
       },
       {
         "id": "D",
-        "text": "ridiculus"
+        "text": "anonymous"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: the sentence asks for \"anonymous,\" but the stored choices do not include the correctly spelled word."
+    "explanation": "The sentence needs the adjective \"anonymous,\" meaning unnamed or unidentified. The correctly spelled word is anonymous."
   },
   {
     "id": "vr-422",
@@ -10961,11 +10961,11 @@
       },
       {
         "id": "D",
-        "text": "conseed"
+        "text": "aspirations"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "This item needs review: the sentence appears to ask for \"aspirations,\" but the stored correct answer is mismatched."
+    "explanation": "The sentence refers to shared goals or ambitions among the new employees. The correctly spelled word is aspirations."
   },
   {
     "id": "vr-428",

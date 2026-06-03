@@ -997,7 +997,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A copy saved in a computer and sent through\nemail\nPhilippine Constitution, General Information and\nEvents ( Leonalyn)"
+    "explanation": "A soft copy is an electronic copy of a document. A résumé saved on a computer and sent through email is a soft copy."
   },
   {
     "id": "gi-041",
@@ -1114,7 +1114,11 @@
       },
       {
         "id": "B",
-        "text": "majority c three-fourths"
+        "text": "majority"
+      },
+      {
+        "id": "C",
+        "text": "three-fourths"
       },
       {
         "id": "D",
@@ -1204,17 +1208,17 @@
         "text": "14"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "a. Ozone depletion contributes to global warming."
+    "correctChoiceId": "B",
+    "explanation": "Proclamation No. 555, series of 2018, listed at least 18 Philippine holidays for 2019, including regular holidays and special non-working days."
   },
   {
     "id": "gi-049",
     "subject": "General Information",
-    "prompt": "Which of the following statements best describes the relationship between global warming ozone\ndepletion?",
+    "prompt": "Which of the following statements best describes the relationship between global warming and ozone depletion?",
     "choices": [
       {
         "id": "A",
-        "text": "Ozone depletion contributes to global warming."
+        "text": "They are separate environmental issues, but some chemicals and atmospheric processes connect them."
       },
       {
         "id": "B",
@@ -1229,8 +1233,8 @@
         "text": "Excessive build-up of carbon dioxide causes both global warming and ozone depletion."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "This item needs review: the listed answer says global warming causes ozone depletion, but the relationship between climate change and ozone depletion is more complex and that statement is not a reliable general rule."
+    "correctChoiceId": "A",
+    "explanation": "Global warming and ozone depletion are not the same problem, and global warming does not directly cause ozone depletion. They are separate but related atmospheric issues because some ozone-depleting substances are also greenhouse gases."
   },
   {
     "id": "gi-050",
