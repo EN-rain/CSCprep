@@ -1077,7 +1077,7 @@
   {
     "id": "vr-044",
     "subject": "Verbal Reasoning",
-    "prompt": "The reporter’s candid remarks caught the mayoralty candidate off-guard.",
+    "prompt": "The reporter’s candid remarks caught the mayoralty candidate off-guard. What does candid mean?",
     "choices": [
       {
         "id": "A",
@@ -1096,8 +1096,8 @@
         "text": "reserved"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Candid can mean direct or unguarded. A well-thought remark is planned and careful, which is the opposite of a sudden candid remark in this sentence."
+    "correctChoiceId": "B",
+    "explanation": "Candid means frank, direct, or honest. The reporter's candid remarks were straightforward enough to catch the candidate off-guard."
   },
   {
     "id": "vr-045",
@@ -1627,7 +1627,7 @@
   {
     "id": "vr-066",
     "subject": "Verbal Reasoning",
-    "prompt": "Do you always try to be a paragon of virtue?",
+    "prompt": "Do you always try to be a paragon of virtue? What does paragon mean?",
     "choices": [
       {
         "id": "A",
@@ -1646,8 +1646,8 @@
         "text": "anomaly"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "A paragon is a perfect model or example. An anomaly is something that does not fit the normal pattern, so it is the opposite idea among the choices."
+    "correctChoiceId": "A",
+    "explanation": "A paragon is a model of excellence or a perfect example of a quality. A paragon of virtue is therefore a model of virtue."
   },
   {
     "id": "vr-067",
@@ -2246,8 +2246,8 @@
         "text": "Babylon"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The relationship is epic to culture or place of origin. The Mahabharata is from India, and Gilgamesh is associated with ancient Babylon/Mesopotamia."
+    "correctChoiceId": "B",
+    "explanation": "The relationship is epic to ancient culture or place of origin. The Mahabharata is associated with India, while the earliest Gilgamesh stories are strongly associated with ancient Sumer in Mesopotamia."
   },
   {
     "id": "vr-091",
@@ -3302,7 +3302,7 @@
   {
     "id": "vr-133",
     "subject": "Verbal Reasoning",
-    "prompt": "to smile : to guffaw",
+    "prompt": "to chuckle : to guffaw",
     "choices": [
       {
         "id": "A",
@@ -3322,7 +3322,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The relationship is mild expression to stronger expression. To smile can intensify to guffaw; to frown can intensify to weep."
+    "explanation": "The relationship is a mild expression of an emotion to a much stronger expression of the same emotion. A chuckle can intensify into a guffaw, and a frown can intensify into weeping."
   },
   {
     "id": "vr-134",
@@ -5046,7 +5046,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The noun before the verb is plural: \"tax collections.\" A plural noun takes \"go,\" not \"goes.\" The sentence should read: collections go to infrastructure projects.",
+    "explanation": "With fraction phrases such as \"a quarter of,\" verb agreement depends on what the fraction refers to. Here it refers to the plural idea of tax collections, so the verb should be plural: \"A quarter of the government tax collections go to infrastructure projects.\"",
     "image": "/question-images/vr-195.png"
   },
   {
@@ -5908,8 +5908,8 @@
         "text": "E"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The paragraph begins with listening as a way to keep friends, then explains that listening shows friends they are important. Sentence C works third as the concluding call to learn how to listen."
+    "correctChoiceId": "D",
+    "explanation": "A coherent order is A-E-D-B-C. Sentence A introduces listening as a way to keep friends. Sentence E explains that listening shows friends they are important, and sentence D follows naturally with \"We also show\" another benefit. Sentence C is the concluding call, so it should come last, not third."
   },
   {
     "id": "vr-225",
@@ -7313,27 +7313,27 @@
   {
     "id": "vr-280",
     "subject": "Verbal Reasoning",
-    "prompt": "Dreams\nby Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nThe author is a South African Negro during the Apartheid Policy when most blacks\nwere treated as inferior. To what could he be alluding to in the last two lines of the\npoem?",
+    "prompt": "Dreams\nby Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat do the last two lines suggest life becomes when dreams are lost?",
     "choices": [
       {
         "id": "A",
-        "text": "white people"
+        "text": "a hopeful future"
       },
       {
         "id": "B",
-        "text": "slaves"
+        "text": "a crowded city"
       },
       {
         "id": "C",
-        "text": "snow"
+        "text": "a joyful celebration"
       },
       {
         "id": "D",
-        "text": "ice"
+        "text": "a barren and lifeless condition"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The question connects the poem to apartheid, where Black people were treated unfairly by white rulers. The last image can point to white people in that context."
+    "correctChoiceId": "D",
+    "explanation": "The poem says that when dreams go, life becomes \"a barren field / Frozen with snow.\" This image suggests emptiness, coldness, and lack of life."
   },
   {
     "id": "vr-281",
@@ -9206,7 +9206,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "wealth: embezzler"
+        "text": "fraud : embezzler"
       },
       {
         "id": "B",
@@ -9226,7 +9226,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A hermit is associated with living in seclusion. An embezzler is associated with taking or misusing wealth, so wealth: embezzler best matches the relationship."
+    "explanation": "The relationship is activity or condition associated with a person. A hermit is associated with seclusion, and an embezzler is associated with fraud."
   },
   {
     "id": "vr-358",
@@ -10069,7 +10069,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": ") a palindrome is a word, phrase, number or sequence\nof words that reads the same backward as forward."
+    "explanation": "A palindrome reads the same backward as forward. \"Level,\" \"deified,\" \"noon,\" and \"murdrum\" are palindromes. \"Same\" becomes \"emas\" when reversed, so it is the exception."
   },
   {
     "id": "vr-392",

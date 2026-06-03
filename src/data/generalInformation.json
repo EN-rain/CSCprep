@@ -852,7 +852,7 @@
   {
     "id": "gi-035",
     "subject": "General Information",
-    "prompt": "What does a CC means in an email message?",
+    "prompt": "What does CC mean in an email message?",
     "choices": [
       {
         "id": "A",
@@ -860,7 +860,7 @@
       },
       {
         "id": "B",
-        "text": "Copy furnished"
+        "text": "Carbon copy"
       },
       {
         "id": "C",
@@ -872,7 +872,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "In this item, CC refers to copy furnished, meaning another recipient is given a copy of the message."
+    "explanation": "In email, CC commonly stands for carbon copy. A person placed in CC receives a copy of the message, usually for information."
   },
   {
     "id": "gi-036",
@@ -927,7 +927,7 @@
   {
     "id": "gi-038",
     "subject": "General Information",
-    "prompt": "The chief financial officer is responsible for the financial matters and financial\nmanagement of a corporation, she is also known as the _______.",
+    "prompt": "Which corporate officer is commonly responsible for custody of funds and treasury functions?",
     "choices": [
       {
         "id": "A",
@@ -947,12 +947,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "In many organizations, the treasurer is the officer responsible for financial custody, funds, and financial management functions."
+    "explanation": "The treasurer is commonly responsible for custody of company funds, cash management, and treasury functions. A chief financial officer may oversee finance more broadly, but the treasurer is the role most directly tied to funds custody."
   },
   {
     "id": "gi-039",
     "subject": "General Information",
-    "prompt": "Which department of a company is responsible for cash register operations and payment\nprocessing?",
+    "prompt": "Which company role or counter is responsible for cash register operations and payment\nprocessing?",
     "choices": [
       {
         "id": "A",
@@ -972,7 +972,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Cashier is the department or counter that handles cash register work and payment processing. Billing prepares or sends bills, while accounting records transactions after they happen."
+    "explanation": "The cashier handles cash register work and payment processing. Billing prepares or sends bills, while accounting records transactions after they happen."
   },
   {
     "id": "gi-040",
@@ -1076,7 +1076,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The writ of habeas corpus prevents persons\nfrom being arrested without warrants of arrest. The\nConstitution specifies the conditions wherein the writ\nshall be suspended to prevent warrantless arrests, which\nwere prevalent during the Marcos dictatorship (which\nwas overthrown by the 1st People Power Revolution).\nThe Constitution clearly states that \"the writ of habeas\ncorpus shall not be suspended except in cases of\ninvasion or rebellion.\""
+    "explanation": "The writ of habeas corpus is a remedy used to question or challenge unlawful detention. Article III, Section 15 states that its privilege may not be suspended except in cases of invasion or rebellion when public safety requires it."
   },
   {
     "id": "gi-044",
@@ -1259,12 +1259,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mountain Province is the province name written directly in English. Zambales is not an English province name, so the stored answer was corrected."
+    "explanation": "Mountain Province is the Philippine province whose official name is written directly in English."
   },
   {
     "id": "gi-051",
     "subject": "General Information",
-    "prompt": "What project of the DENR that includes the protection of Industrial pollution of our Environment?",
+    "prompt": "Which DENR-related program is most directly connected with monitoring industrial pollution?",
     "choices": [
       {
         "id": "A",
@@ -1280,20 +1280,20 @@
       },
       {
         "id": "D",
-        "text": "Ecological Watch"
+        "text": "Industrial EcoWatch"
       },
       {
         "id": "E",
         "text": "Solid Waste Management"
       }
     ],
-    "correctChoiceId": "E",
-    "explanation": "Solid Waste Management is the DENR-related program area most directly connected with controlling waste and pollution among the choices."
+    "correctChoiceId": "D",
+    "explanation": "Industrial EcoWatch is connected with monitoring industrial establishments and encouraging improved environmental performance. Solid Waste Management focuses mainly on solid waste, not industrial pollution as a whole."
   },
   {
     "id": "gi-052",
     "subject": "General Information",
-    "prompt": "To what level of government do people rendering free voluntary service belong for purposes of government employee status?",
+    "prompt": "At what local government level are many free voluntary community services commonly organized?",
     "choices": [
       {
         "id": "A",
@@ -1317,12 +1317,12 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The item refers to free voluntary community service at the barangay level, which is the smallest local government unit."
+    "explanation": "Barangays are the smallest local government units and commonly organize community-level voluntary services. This item asks for the local level where such community service is usually organized, not whether volunteers hold regular government employee status."
   },
   {
     "id": "gi-053",
     "subject": "General Information",
-    "prompt": "Which is not a ground for Impeachment of the Pres., Vice-Pres., Ombudsman, and Senator?",
+    "prompt": "Which is not a ground for impeachment of impeachable officials such as the President, Vice President, members of Constitutional Commissions, and Ombudsman?",
     "choices": [
       {
         "id": "A",
@@ -1330,23 +1330,23 @@
       },
       {
         "id": "B",
-        "text": "sexual harassment"
+        "text": "culpable violation of the Constitution"
       },
       {
         "id": "C",
-        "text": "grave abuse of the authority"
+        "text": "betrayal of public trust"
       },
       {
         "id": "D",
-        "text": "against the Family if the child scolded by the parents"
+        "text": "scolding a child by the parents"
       },
       {
         "id": "E",
-        "text": "Other crimes"
+        "text": "other high crimes"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Impeachment grounds involve serious public offenses such as graft, corruption, culpable violation of the Constitution, treason, bribery, betrayal of public trust, or other high crimes. Scolding a child is a family matter, not a constitutional ground for impeachment."
+    "explanation": "Constitutional grounds for impeachment include culpable violation of the Constitution, treason, bribery, graft and corruption, other high crimes, and betrayal of public trust. Scolding a child by the parents is not an impeachment ground."
   },
   {
     "id": "gi-054",

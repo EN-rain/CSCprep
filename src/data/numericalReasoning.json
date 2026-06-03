@@ -1126,7 +1126,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The dose time moves 7 hours forward each time. Since 7 and 24 cycle through every hour of the day, reaching 8:00 AM takes 25 doses after Sunday 7:00 AM, which lands on Tuesday."
+    "explanation": "Each dose is 7 hours after the previous one. Starting Sunday 7:00 AM, the times are Sunday 2:00 PM, Sunday 9:00 PM, Monday 4:00 AM, Monday 11:00 AM, Monday 6:00 PM, Tuesday 1:00 AM, and Tuesday 8:00 AM. So the first 8:00 AM dose is on Tuesday."
   },
   {
     "id": "nr-046",
@@ -3067,7 +3067,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "c. 9,800\nRound off to the nearest hundreds place: 9,750\n*(rule of 5) ODD number before 5 kaya add up"
+    "explanation": "To round 9,750 to the nearest hundred, look at the tens digit. The tens digit is 5, so round the hundreds digit up from 7 to 8. The result is 9,800."
   },
   {
     "id": "nr-120",
@@ -3652,7 +3652,7 @@
   {
     "id": "nr-140",
     "subject": "Numerical Reasoning",
-    "prompt": "75% is to 1/2 as 45% is to ______",
+    "prompt": "75% is to 1/2 as 45% is to ______. Use the same rule: multiply the percent by 2/3.",
     "choices": [
       {
         "id": "A",
@@ -3676,7 +3676,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "In the first pair, 75% is changed to the fraction 3/4 and then reduced by 1/4 to get 1/2. Applying the same reduction to 45% gives 45% - 25% = 20%, but 20% is not listed; this item likely needs source review. The stored answer 3/10 equals 30%."
+    "explanation": "Convert the percentages to fractions. Since 75% = 3/4 and (3/4) x (2/3) = 1/2, use the same multiplier for 45%. Because 45% = 9/20, (9/20) x (2/3) = 18/60 = 3/10."
   },
   {
     "id": "nr-141",
@@ -5433,7 +5433,7 @@
   {
     "id": "nr-204",
     "subject": "Numerical Reasoning",
-    "prompt": "990 − (−2)2 + (−32) − (−4)2 = ?",
+    "prompt": "9^0 - (-2)^2 + (-3^2) - (-4)^2 = ?",
     "choices": [
       {
         "id": "A",
@@ -5457,12 +5457,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "This item appears to mean 9^0 - (-2)^2 + (-3^2) - (-4)^2. That gives 1 - 4 - 9 - 16 = -28."
+    "explanation": "Evaluate the powers first: 9^0 = 1, (-2)^2 = 4, -3^2 = -9, and (-4)^2 = 16. Then compute 1 - 4 + (-9) - 16 = -28."
   },
   {
     "id": "nr-205",
     "subject": "Numerical Reasoning",
-    "prompt": "(100)0 + (−42)−22 = ?",
+    "prompt": "10^0 + (-4^2) - 2^2 = ?",
     "choices": [
       {
         "id": "A",
@@ -5486,7 +5486,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "This item appears to mean 10^0 + (-4^2) - 2^2. That gives 1 - 16 - 4 = -19."
+    "explanation": "Evaluate the powers first: 10^0 = 1, -4^2 = -16, and 2^2 = 4. Then compute 1 + (-16) - 4 = -19."
   },
   {
     "id": "nr-206",

@@ -127,7 +127,7 @@
   {
     "id": "fi-006",
     "subject": "Filipino",
-    "prompt": "Iminungkuhi ang pagbabawal magtapon ng basura sa di-wastong lugar.",
+    "prompt": "Iminungkahi ang pagbabawal magtapon ng basura sa di-wastong lugar.",
     "choices": [
       {
         "id": "A",
@@ -652,7 +652,7 @@
   {
     "id": "fi-027",
     "subject": "Filipino",
-    "prompt": "Nilalagyan ng pataba ang halaman upang ito’y yumabong.",
+    "prompt": "Nilalagyan ng pataba ang halaman upang ito’y yumabong. Ano ang kasalungat ng salitang yumabong?",
     "choices": [
       {
         "id": "A",
@@ -677,7 +677,7 @@
   {
     "id": "fi-028",
     "subject": "Filipino",
-    "prompt": "Namamasyal siya sa parke upang mapawi ang lumbay.",
+    "prompt": "Namamasyal siya sa parke upang mapawi ang lumbay. Ano ang kasalungat ng salitang lumbay?",
     "choices": [
       {
         "id": "A",
@@ -702,7 +702,7 @@
   {
     "id": "fi-029",
     "subject": "Filipino",
-    "prompt": "Hinintay namin ang pagdaong ng 2GO na barko upang salubungin si Ate.",
+    "prompt": "Hinintay namin ang pagdaong ng 2GO na barko upang salubungin si Ate. Ano ang kasalungat ng salitang pagdaong?",
     "choices": [
       {
         "id": "A",
@@ -727,7 +727,7 @@
   {
     "id": "fi-030",
     "subject": "Filipino",
-    "prompt": "Palasak na ang paggamit ng kompyuter.",
+    "prompt": "Palasak na ang paggamit ng kompyuter. Ano ang kasalungat ng salitang palasak?",
     "choices": [
       {
         "id": "A",
@@ -777,7 +777,7 @@
   {
     "id": "fi-032",
     "subject": "Filipino",
-    "prompt": "Huwag mong ugaliin ang umalipusta ng iyong kapwa.",
+    "prompt": "Huwag mong ugaliin ang umalipusta ng iyong kapwa. Ano ang kasalungat ng salitang umalipusta?",
     "choices": [
       {
         "id": "A",
@@ -802,7 +802,7 @@
   {
     "id": "fi-033",
     "subject": "Filipino",
-    "prompt": "Pahapay na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya.",
+    "prompt": "Pahapay na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya. Ano ang kasalungat ng salitang pahapay?",
     "choices": [
       {
         "id": "A",
@@ -827,7 +827,7 @@
   {
     "id": "fi-034",
     "subject": "Filipino",
-    "prompt": "Makapal at magalas ang palad ng mga mason at karpintero.",
+    "prompt": "Makapal at magalas ang palad ng mga mason at karpintero. Ano ang kasalungat ng salitang magalas?",
     "choices": [
       {
         "id": "A",
@@ -852,7 +852,7 @@
   {
     "id": "fi-035",
     "subject": "Filipino",
-    "prompt": "Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa.",
+    "prompt": "Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa. Ano ang kasalungat ng salitang masalimuot?",
     "choices": [
       {
         "id": "A",
@@ -877,7 +877,7 @@
   {
     "id": "fi-036",
     "subject": "Filipino",
-    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
+    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos. Ano ang kasalungat ng salitang sinaplutan?",
     "choices": [
       {
         "id": "A",
@@ -902,7 +902,7 @@
   {
     "id": "fi-037",
     "subject": "Filipino",
-    "prompt": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap\nmo.",
+    "prompt": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap\nmo. Ano ang kasalungat ng salitang taksil?",
     "choices": [
       {
         "id": "A",
@@ -927,7 +927,7 @@
   {
     "id": "fi-038",
     "subject": "Filipino",
-    "prompt": "Tila walang kapaguran ang mabungalngal na bibig ni Lina.",
+    "prompt": "Tila walang kapaguran ang mabungalngal na bibig ni Lina. Ano ang kasalungat ng salitang mabungalngal?",
     "choices": [
       {
         "id": "A",
@@ -952,7 +952,7 @@
   {
     "id": "fi-039",
     "subject": "Filipino",
-    "prompt": "Napakukupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
+    "prompt": "Napakukupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip. Ano ang kasalungat ng salitang napakukupad?",
     "choices": [
       {
         "id": "A",
@@ -977,7 +977,7 @@
   {
     "id": "fi-040",
     "subject": "Filipino",
-    "prompt": "Patuloy na magdarahop ang taong tamad.",
+    "prompt": "Patuloy na magdarahop ang taong tamad. Ano ang kasalungat ng salitang magdarahop?",
     "choices": [
       {
         "id": "A",
@@ -1002,7 +1002,7 @@
   {
     "id": "fi-041",
     "subject": "Filipino",
-    "prompt": "Mahirap pakinggan ang sinasabi ng taong garil.",
+    "prompt": "Mahirap pakinggan ang sinasabi ng taong garil. Ano ang kasalungat ng salitang garil?",
     "choices": [
       {
         "id": "A",
@@ -1027,7 +1027,7 @@
   {
     "id": "fi-042",
     "subject": "Filipino",
-    "prompt": "Kumain ka ng masustansyang pagkain nang hindi maging sakitin.",
+    "prompt": "Kumain ka ng masustansyang pagkain upang manatiling malusog. Ano ang kasalungat ng salitang malusog?",
     "choices": [
       {
         "id": "A",
@@ -1047,12 +1047,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang taong \"sakitin\" ay madaling magkasakit o mahina ang pangangatawan. Ang pagkain ng masustansyang pagkain ay nakatutulong upang hindi maging sakitin."
+    "explanation": "Ang \"malusog\" ay nangangahulugang malakas at mabuti ang pangangatawan. Ang kasalungat nito ay sakitin."
   },
   {
     "id": "fi-043",
     "subject": "Filipino",
-    "prompt": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong\nmagbigay sa nangangailangan.",
+    "prompt": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong\nmagbigay sa nangangailangan. Ano ang kasalungat ng salitang hidhid?",
     "choices": [
       {
         "id": "A",
@@ -1077,7 +1077,7 @@
   {
     "id": "fi-044",
     "subject": "Filipino",
-    "prompt": "Hungkag ang bigasan dahil nasira ng bagyo ang mga palay.",
+    "prompt": "Hungkag ang bigasan dahil nasira ng bagyo ang mga palay. Ano ang kasalungat ng salitang hungkag?",
     "choices": [
       {
         "id": "A",
@@ -1102,7 +1102,7 @@
   {
     "id": "fi-045",
     "subject": "Filipino",
-    "prompt": "Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init.",
+    "prompt": "Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init. Ano ang kasalungat ng salitang naluoy?",
     "choices": [
       {
         "id": "A",
@@ -1127,7 +1127,7 @@
   {
     "id": "fi-046",
     "subject": "Filipino",
-    "prompt": "Totoo bang walang latoy ang pagkain sa ospital?",
+    "prompt": "Totoo bang walang latoy ang pagkain sa ospital? Ano ang kasalungat ng pariralang walang latoy?",
     "choices": [
       {
         "id": "A",
@@ -1152,7 +1152,7 @@
   {
     "id": "fi-047",
     "subject": "Filipino",
-    "prompt": "Hindi nilubayan ng mga manunulat ang pagtatanong sa panauhing pandangal.",
+    "prompt": "Hindi nilubayan ng mga manunulat ang pagtatanong sa panauhing pandangal. Ano ang kasalungat ng salitang nilubayan?",
     "choices": [
       {
         "id": "A",
@@ -1177,7 +1177,7 @@
   {
     "id": "fi-048",
     "subject": "Filipino",
-    "prompt": "Ang mga tirahan ng mayayaman ay maagwat sa isa’t isa.",
+    "prompt": "Ang mga tirahan ng mayayaman ay maagwat sa isa’t isa. Ano ang kasalungat ng salitang maagwat?",
     "choices": [
       {
         "id": "A",
@@ -1202,7 +1202,7 @@
   {
     "id": "fi-049",
     "subject": "Filipino",
-    "prompt": "Maantak ang sugat kapag napatakan ng kalamansi.",
+    "prompt": "Maantak ang sugat kapag napatakan ng kalamansi. Ano ang kasalungat ng salitang maantak?",
     "choices": [
       {
         "id": "A",
@@ -1227,7 +1227,7 @@
   {
     "id": "fi-050",
     "subject": "Filipino",
-    "prompt": "Tunay na mabalasik ang leon at ang tigre.",
+    "prompt": "Tunay na mabalasik ang leon at ang tigre. Ano ang kasalungat ng salitang mabalasik?",
     "choices": [
       {
         "id": "A",
@@ -1456,7 +1456,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "lumiliit ang mgata"
+        "text": "lumiliit ang mata"
       },
       {
         "id": "B",
@@ -3527,7 +3527,7 @@
   {
     "id": "fi-137",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\n“Ang kabataan ay pag-asa ng bayan.” Ano ang implikasyon ng pangungusap na ito?",
+  "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nBatay sa talata, ano ang implikasyon ng pahayag na “Ang kabataan ay pag-asa ng bayan”?",
     "choices": [
       {
         "id": "A",
@@ -3539,7 +3539,7 @@
       },
       {
         "id": "C",
-        "text": "May suliranin ang bayan"
+        "text": "May suliraning kailangang tugunan ang bayan"
       },
       {
         "id": "D",
@@ -3547,7 +3547,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang talata ay nagsasabing kailangang paunlarin ang bansa at panatilihin ang katahimikan, kaya ipinahihiwatig na may suliraning kailangang tugunan ang bayan."
+    "explanation": "Batay sa talata, inaasahang makatutulong ang kabataan sa pagpapaunlad ng bansa, pagpapanatili ng kapayapaan, at pag-ahon mula sa kasawian. Ipinahihiwatig nito na may mga suliraning kailangang tugunan ang bayan."
   },
   {
     "id": "fi-138",
@@ -3710,7 +3710,7 @@
       },
       {
         "id": "B",
-        "text": "Sapagkat mararating ang daigdig ng pangarap sa pagbabasa."
+        "text": "Sapagkat nagdudulot ito ng pag-unawa, kasanayan, at bagong kaalaman."
       },
       {
         "id": "C",
@@ -3721,8 +3721,8 @@
         "text": "Walang tamang sagot."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Binanggit sa talata ang pagkilala ng salita, pag-unawa, paggamit ng sanggunian, pag-iisip, at bagong kaalaman; kaya saklaw ng sagot ang lahat ng nabanggit na dahilan."
+    "correctChoiceId": "B",
+    "explanation": "Binibigyang-diin ng talata na ang pagbabasa ay nagdudulot ng pag-unawa, kasanayan sa pag-iisip, paggamit ng sanggunian, at bagong kaalaman sa iba't ibang larangan."
   },
   {
     "id": "fi-145",
@@ -3846,8 +3846,8 @@
         "text": "Natutuhan nila na may palamuti para sa mga mata."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ipinapakita ng talata na nagbago ang pananaw sa mata mula sa pagiging bahagi lamang ng mukha tungo sa gamit sa pagpapahayag ng emosyon at iba pang layunin."
+    "correctChoiceId": "D",
+    "explanation": "Tuwirang sinasabi ng talata na noon, ang mata ay itinuturing na bahagi lamang ng mukha, ngunit ngayon ay pinalalamutian na rin. Kaya ang pinakamalinaw na pagbabagong binanggit ay ang paggamit ng palamuti para sa mga mata."
   },
   {
     "id": "fi-150",
@@ -4691,7 +4691,7 @@
   {
     "id": "fi-183",
     "subject": "Filipino",
-    "prompt": "Alin ang pang-uri sa pangungusap: \"Mabilis tumakbo ang bata.\"",
+    "prompt": "Alin ang pang-abay sa pangungusap: \"Mabilis tumakbo ang bata.\"",
     "choices": [
       {
         "id": "A",
@@ -4711,7 +4711,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "\"Mabilis\" ang pang-uri dahil inilalarawan nito ang paraan o katangian ng pagtakbo ng bata."
+    "explanation": "\"Mabilis\" ang pang-abay dahil inilalarawan nito kung paano tumakbo ang bata."
   },
   {
     "id": "fi-184",
