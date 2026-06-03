@@ -2785,7 +2785,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"30%\") because converting the given values to percentages leads to this result."
+    "explanation": "This item needs review: the prompt asks for the present percentage of aliens in the Philippines, but the data file does not provide a source, date, or figures to compute it. This cannot be explained reliably from the question alone."
   },
   {
     "id": "nr-110",
@@ -3125,7 +3125,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E (\"51.2%\") because it correctly continues the number pattern."
+    "explanation": "Each term is 80% of the previous term: 125% x 0.8 = 100%, 100% x 0.8 = 80%, 80% x 0.8 = 64%. So the next term is 64% x 0.8 = 51.2%."
   },
   {
     "id": "nr-122",
@@ -3154,7 +3154,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"3360\") because it correctly continues the number pattern."
+    "explanation": "The multipliers increase by 1 each step: 2 x 5 = 10, 10 x 6 = 60, 60 x 7 = 420. The next multiplier is 8, so 420 x 8 = 3,360."
   },
   {
     "id": "nr-123",
@@ -3241,7 +3241,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"16\") because it correctly continues the number pattern."
+    "explanation": "Read the sequence in two alternating groups. The 1st, 3rd, 5th, and 7th terms are 1, 2, 4, 8, doubling each time, so the 9th term is 16. The 2nd, 4th, 6th, and 8th terms are 2, 3, 4, 5."
   },
   {
     "id": "nr-126",
@@ -3270,7 +3270,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"480\") because it correctly continues the number pattern."
+    "explanation": "The multipliers double each time: 15 x 0.5 = 7.5, 7.5 x 1 = 7.5, 7.5 x 2 = 15, 15 x 4 = 60. The next multiplier is 8, so 60 x 8 = 480."
   },
   {
     "id": "nr-127",
@@ -3792,7 +3792,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"31\") because evaluating the expression gives this result."
+    "explanation": "Use order of operations: 4 x 8 = 32, 12/4 = 3, and 8/2 = 4. Then 32 + 3 - 4 = 31."
   },
   {
     "id": "nr-145",
@@ -3879,7 +3879,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"55\") because converting the given values to percentages leads to this result."
+    "explanation": "Let the unknown number be x. Since 44 is 80% of x, write 0.80x = 44. Divide by 0.80 to get x = 55."
   },
   {
     "id": "nr-148",
@@ -3908,7 +3908,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"62\") because evaluating the expression gives this result."
+    "explanation": "Use order of operations. First 3 x 3 = 9, 54/3 = 18, and -68/-4 = 17. Then 18 + 9 + (18 + 17) = 62."
   },
   {
     "id": "nr-149",
@@ -3995,7 +3995,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"60\") because solving the word problem gives this result."
+    "explanation": "Three siomai cost P15, so each siomai costs P15 / 3 = P5. For 12 siomai, Kenneth pays 12 x P5 = P60."
   },
   {
     "id": "nr-152",
@@ -4024,7 +4024,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E (\"46\") because converting the given values to percentages leads to this result."
+    "explanation": "Let the number be x. Increasing it by 74% of itself gives x + 0.74x = 1.74x. Since 1.74x = 80, x = 80 / 1.74, which is about 46."
   },
   {
     "id": "nr-153",
@@ -4385,7 +4385,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"250%\") because converting the given values to percentages leads to this result."
+    "explanation": "To find what percent 120 is of 48, divide 120 by 48. The quotient is 2.5, and 2.5 as a percent is 250%."
   },
   {
     "id": "nr-166",
@@ -4410,7 +4410,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"60\") because converting the given values to percentages leads to this result."
+    "explanation": "Let the number be x. Since 120% of x is 72, write 1.20x = 72. Divide by 1.20 to get x = 60."
   },
   {
     "id": "nr-167",
@@ -4435,7 +4435,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"30\") because converting the given values to percentages leads to this result."
+    "explanation": "10% means one-tenth. One-tenth of 300 is 300 / 10 = 30."
   },
   {
     "id": "nr-168",
@@ -4489,7 +4489,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"8\") because converting the given values to percentages leads to this result."
+    "explanation": "If 95% have a car, then 5% do not have a car. 5% of 160 is 0.05 x 160 = 8."
   },
   {
     "id": "nr-170",
@@ -4721,7 +4721,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"125,000\") because converting the given values to percentages leads to this result."
+    "explanation": "The company profit is 25% of $2,000,000, which is $500,000. Shared equally by 4 owners, each owner gets $500,000 / 4 = $125,000."
   },
   {
     "id": "nr-178",
@@ -4750,7 +4750,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"21/5\") because evaluating the expression gives this result."
+    "explanation": "Substitute a = 3: 2 / (1/7 + 1/3). The denominator is 3/21 + 7/21 = 10/21, so 2 divided by 10/21 is 2 x 21/10 = 21/5."
   },
   {
     "id": "nr-179",
@@ -5262,7 +5262,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"16\") because converting the given values to percentages leads to this result."
+    "explanation": "Convert the percents: 33 1/3% of 48 is 16, 12 1/2% of 96 is 12, and 44 4/9% of 27 is 12. Then 16 + 12 - 12 = 16."
   },
   {
     "id": "nr-198",
@@ -5291,7 +5291,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"9.6\") because converting the given values to percentages leads to this result."
+    "explanation": "Let the number be x. Since 12 is 125% of x, write 1.25x = 12. Divide by 1.25 to get x = 9.6."
   },
   {
     "id": "nr-199",
@@ -5349,7 +5349,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"9/20\") because evaluating the expression gives this result."
+    "explanation": "This item needs review: the reciprocal of 1 1/4 is 4/5. If 1 1/4 is subtracted from its reciprocal, the result is 4/5 - 5/4 = -9/20, but the stored answer is positive 9/20."
   },
   {
     "id": "nr-201",
@@ -5428,7 +5428,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"331 9/16 km\") because computing the average gives this result."
+    "explanation": "Distance equals speed times time. Convert 2 1/2 hours to 2.5 hours, then compute 132 5/8 x 2.5 = 331 9/16 km."
   },
   {
     "id": "nr-204",
@@ -5623,7 +5623,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"100%\") because converting the given values to percentages leads to this result."
+    "explanation": "Increasing 90 to 180 means adding another 90. Since 90 is 100% of the original 90, the required increase is 100%."
   },
   {
     "id": "nr-211",
@@ -5677,7 +5677,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"80%\") because converting the given values to percentages leads to this result."
+    "explanation": "Out of 8,000 applicants, 1,600 did not take the first part, so 8,000 - 1,600 = 6,400 took it. 6,400 / 8,000 = 0.80, or 80%."
   },
   {
     "id": "nr-213",
@@ -5702,7 +5702,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"6 years\") because solving the word problem gives this result."
+    "explanation": "Cassy's father was 38 when Cassy was born. Her brother was born 4 years after Cassy, and her mother was 36 then, so her mother was 32 when Cassy was born. The parents' age difference is 38 - 32 = 6 years."
   },
   {
     "id": "nr-214",
@@ -5727,7 +5727,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"5\") because it correctly continues the number pattern."
+    "explanation": "Convert the terms to ordinary numbers: 100% = 1 and 15/5 = 3. The sequence is 1, 2, 3, 4, so the next term is 5."
   },
   {
     "id": "nr-215",
@@ -5752,7 +5752,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"5/6\") because it correctly continues the number pattern."
+    "explanation": "Write all fractions with denominator 6: 1/6, 2/6, 3/6, 4/6. The next fraction is 5/6."
   },
   {
     "id": "nr-216",
@@ -5848,7 +5848,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"181\") because the differences are +11, +33, +55, and +77."
+    "explanation": "This item needs review: the differences are +11, +33, +55, so the next difference should be +77 and the next term should be 181. However, 181 is not listed among the choices, and the stored answer points to 33."
   },
   {
     "id": "nr-220",
@@ -5898,7 +5898,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"143\") because it correctly continues the number pattern."
+    "explanation": "This item needs review: the visible sequence 563, 647, 479, 815 does not give a clear single pattern that leads reliably to 143 from the listed choices."
   },
   {
     "id": "nr-222",
@@ -5977,7 +5977,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"More than 1\") because evaluating the expression gives this result."
+    "explanation": "Dividing by 1/4 means asking how many fourths are in 1/2. Since 1/2 contains two fourths, 1/2 ? 1/4 = 2, which is more than 1."
   },
   {
     "id": "nr-225",
@@ -6002,7 +6002,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"5 scoops\") because solving the word problem gives this result."
+    "explanation": "Each scoop is 1/10 cup, and Kardo needs 1/2 cup total. Compute 1/2 ? 1/10 = 1/2 x 10 = 5, so he needs 5 scoops."
   },
   {
     "id": "nr-226",
@@ -6044,7 +6044,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"49\") because it preserves the same number relationship shown in the first pair."
+    "explanation": "Use the digits in the first number: 83 becomes (8 - 3)^2 = 5^2 = 25. So 92 becomes (9 - 2)^2 = 7^2 = 49."
   },
   {
     "id": "nr-228",
@@ -6069,7 +6069,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"22\") because it preserves the same number relationship shown in the first pair."
+    "explanation": "Add the digits, then double the sum. For 72, 7 + 2 = 9 and 9 x 2 = 18. For 56, 5 + 6 = 11 and 11 x 2 = 22."
   },
   {
     "id": "nr-229",
@@ -6094,7 +6094,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"128\") because it preserves the same number relationship shown in the first pair."
+    "explanation": "This item needs review: 2 to 12 suggests multiplying by 6, which would make 8 become 48, but 48 is not among the choices. The stored answer 128 does not follow the same simple relationship from the first pair."
   },
   {
     "id": "nr-230",
@@ -6119,7 +6119,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"32\") because it preserves the same number relationship shown in the first pair."
+    "explanation": "The second number is half of the square of the first number. Since 12^2 = 144 and 144/2 = 72, use the same rule for 8: 8^2 = 64 and 64/2 = 32."
   },
   {
     "id": "nr-231",
@@ -6256,7 +6256,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"5/12\") because it correctly continues the number pattern."
+    "explanation": "Each term increases by 1/12: 1/12, 2/12, 3/12, 4/12. The next term is 5/12."
   },
   {
     "id": "nr-236",
@@ -6285,7 +6285,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The correct answer is choice E (\"57\") because converting the given values to percentages leads to this result."
+    "explanation": "The original solution has 20% of 400 mL, or 80 mL of alcohol. If x mL of pure alcohol is added, then (80 + x)/(400 + x) = 30%. Solving gives 80 + x = 120 + 0.3x, so 0.7x = 40 and x is about 57 mL."
   },
   {
     "id": "nr-237",
@@ -6372,7 +6372,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"70\") because converting the given values to percentages leads to this result."
+    "explanation": "If he sold 60% of the English books, then 40% remained. The 28 books left represent 40% of the original amount, so original = 28 / 0.40 = 70."
   },
   {
     "id": "nr-240",
@@ -6401,7 +6401,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"25\") because converting the given values to percentages leads to this result."
+    "explanation": "Twelve and one-half percent is 12.5%, or 0.125. Compute 0.125 x 200 = 25."
   },
   {
     "id": "nr-241",
@@ -6430,7 +6430,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"10%\") because converting the given values to percentages leads to this result."
+    "explanation": "Use 100 as the original price. After a 25% decrease, the price becomes 75. Increasing 75 by 20% gives 90. Compared with the original 100, the net change is a 10% decrease."
   },
   {
     "id": "nr-242",

@@ -1272,7 +1272,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"lumayas\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"nag-alsa balutan\" ay tumutukoy sa pag-alis o paglisan dala ang gamit, kaya sa pangungusap ang katulong ay lumayas dahil sa kalupitan ng amo."
   },
   {
     "id": "fi-052",
@@ -1297,7 +1297,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"duwag\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"bahag ang buntot\" ay idyomang nangangahulugang duwag o walang tapang, kaya hindi totoo ang sinasabing katapangan niya."
   },
   {
     "id": "fi-053",
@@ -1322,7 +1322,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"ayaw nang paniwalaan\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"basa ang papel\" ay nangangahulugang sirang-sira na ang tiwala sa tao. Dahil paulit-ulit siyang nagsisinungaling, ayaw na siyang paniwalaan."
   },
   {
     "id": "fi-054",
@@ -1347,7 +1347,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"galit na galit\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"kumukulo ang dugo\" ay ginagamit kapag sobra ang galit ng isang tao. Kaya ang ina ni Robin ay galit na galit sa kanya."
   },
   {
     "id": "fi-055",
@@ -1372,7 +1372,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"hindi maawat\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"di-mahapayang gatang\" ay tumutukoy sa bagay na hindi mapigilan o hindi maawat, tulad ng mainit na pagpapalitan ng kuro-kuro."
   },
   {
     "id": "fi-056",
@@ -1397,7 +1397,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"sunud-sunuran\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"hawak sa tainga\" ay nangangahulugang kontrolado at sunud-sunuran sa iba. Ipinapakita nito ang kalagayan ng mga Pilipino sa panahon ng pananakop."
   },
   {
     "id": "fi-057",
@@ -1422,7 +1422,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"maganda ang kinabukasan\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"mabulaklak ang landas\" ay nagpapahiwatig ng maganda o maayos na hinaharap. Kaya ang taong masikap ay may magandang kinabukasan."
   },
   {
     "id": "fi-058",
@@ -1447,7 +1447,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"walang pasensiya\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"maliit ang sisidlan\" ay tumutukoy sa taong madaling mapikon o kapos sa pasensiya, kaya iniiwasan siyang biruin."
   },
   {
     "id": "fi-059",
@@ -1472,7 +1472,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"malabo ang mata\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"nagmamatang-manok\" ay tumutukoy sa panlalabo ng mata, lalo na kapag nahihirapang makakita sa dilim."
   },
   {
     "id": "fi-060",
@@ -1497,7 +1497,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"pagkasira ng pagkakaibigan\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"pagsasaulian ng kandila\" ay tumutukoy sa pagwawakas o pagkasira ng pagkakaibigan. Sa pangungusap, inggit ang nagiging dahilan ng alitan ng magkakaibigan."
   },
   {
     "id": "fi-061",
@@ -1522,7 +1522,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"pakunwari\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"pabalat-bunga\" ay kilos na mukhang mabuti sa labas pero hindi tunay ang layunin. Kaya ang pagiging bukas-palad niya ay pakunwari lamang."
   },
   {
     "id": "fi-062",
@@ -1547,7 +1547,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nagmamamakawa\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"tiklop-tuhod\" ay larawan ng taong halos lumuluhod sa paghingi ng awa, kaya ang ibig sabihin ay nagmamamakawa."
   },
   {
     "id": "fi-063",
@@ -1572,7 +1572,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"mahiyain\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"talo-saling\" ay tumutukoy sa taong mahiyain o ilag sa tao, kaya ayaw humarap ni Eula sa iba."
   },
   {
     "id": "fi-064",
@@ -1597,7 +1597,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"walang kusang-loob\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"walang kusang-palo\" ay taong hindi kumikilos kung hindi pa inuutusan, kaya ito ay walang kusang-loob."
   },
   {
     "id": "fi-065",
@@ -1622,7 +1622,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"walang utang na loob\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"walang lingon-likod\" ay hindi marunong tumingin sa kabutihang natanggap. Kaya ang kahulugan nito ay walang utang na loob."
   },
   {
     "id": "fi-066",
@@ -1647,7 +1647,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"nakasasabik\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"makapigil-hininga\" ay ginagamit sa palabas o pangyayaring kapana-panabik, kaya ang pelikula ay nakasasabik."
   },
   {
     "id": "fi-067",
@@ -1672,7 +1672,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"maitim ang budhi\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"halang ang kaluluwa\" ay tumutukoy sa taong masama ang budhi o kayang gumawa ng karumal-dumal na bagay."
   },
   {
     "id": "fi-068",
@@ -1697,7 +1697,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"napakalawak\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"di-maliparan ng uwak\" ay sobrang lawak na parang hindi kayang liparin ng uwak ang buong lugar, kaya napakalawak ang lupain."
   },
   {
     "id": "fi-069",
@@ -1722,7 +1722,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"napakatanda na\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"uugud-ugod\" ay tumutukoy sa sobrang katandaan at panghihina ng katawan, kaya napakatanda na si Lola Rosa."
   },
   {
     "id": "fi-070",
@@ -1747,7 +1747,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"nawalan ng pag-asa\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"nilubugan ng araw\" ay nagpapahiwatig ng pagkawala ng pag-asa, tulad ng mga nasalanta na nawalan ng tirahan."
   },
   {
     "id": "fi-071",
@@ -1772,7 +1772,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"mahilig mamasyal\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"may puyo sa talampakan\" ay tawag sa taong laging umaalis o gala, kaya mahilig mamasyal si Cecile."
   },
   {
     "id": "fi-072",
@@ -1797,7 +1797,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nanliligaw\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"naniningalang-pugad\" ay idyomang tumutukoy sa binatang nanliligaw o naghahanap ng mapapangasawa."
   },
   {
     "id": "fi-073",
@@ -1822,7 +1822,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"masakit magsalita\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"maanghang ang dila\" ay taong matalas o masakit magsalita, kaya madalas siyang may kabanggaan sa opisina."
   },
   {
     "id": "fi-074",
@@ -1847,7 +1847,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"walang pera\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"butas ang bulsa\" ay nangangahulugang walang pera, kaya hindi napaunlakan ni Ana ang imbitasyong manood ng sine."
   },
   {
     "id": "fi-075",
@@ -1872,7 +1872,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"nagbibingi-bingihan\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang \"nagtataingang-kawali\" ay nagpapanggap na walang naririnig kahit tinatawag, kaya siya ay nagbibingi-bingihan."
   },
   {
     "id": "fi-076",
