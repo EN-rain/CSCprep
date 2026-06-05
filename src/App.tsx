@@ -28,36 +28,6 @@ const IN_PROGRESS_EXAM_KEY = 'cscprep:in-progress-exam:v1'
 const SCREEN_EXIT_MS = 300
 const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
-const SUBJECT_CHART_COLORS: Record<Subject, string> = {
-  'Verbal Reasoning': '#0f766e',
-  'Numerical Reasoning': '#2563eb',
-  'Analytical Ability': '#d97706',
-  Filipino: '#c026d3',
-  'General Information': '#dc2626',
-}
-const DUMMY_HISTORY_PRESETS: Array<Record<Subject, number>> = [
-  {
-    'Verbal Reasoning': 62,
-    'Numerical Reasoning': 48,
-    'Analytical Ability': 70,
-    Filipino: 58,
-    'General Information': 52,
-  },
-  {
-    'Verbal Reasoning': 68,
-    'Numerical Reasoning': 56,
-    'Analytical Ability': 74,
-    Filipino: 64,
-    'General Information': 60,
-  },
-  {
-    'Verbal Reasoning': 74,
-    'Numerical Reasoning': 63,
-    'Analytical Ability': 79,
-    Filipino: 70,
-    'General Information': 67,
-  },
-]
 
 type ReviewItem = {
   itemId: string
@@ -111,17 +81,6 @@ type InProgressExamDraft = {
   skippedItemNotice: SkippedItemNotice
   skippedItemQueue: SkippedItem[]
   activeSkippedItemId: string | null
-}
-
-type SubjectChartPoint = {
-  x: number
-  y: number
-}
-
-type SubjectChartSeries = {
-  subject: Subject
-  color: string
-  points: SubjectChartPoint[]
 }
 
 const LINE_BREAK_PROMPT_IDS = new Set([
@@ -392,66 +351,6 @@ function createSavedExamAttempt(session: ExamSession, answers: AnswerMap): Saved
   }
 }
 
-function getWrongChoiceId(question: ExamSession['questions'][number]['question']): ChoiceId {
-  return question.choices.find((choice) => choice.id !== question.correctChoiceId)?.id ?? question.correctChoiceId
-}
-
-function createDummyExamAttempt(index: number, subjectTargets: Record<Subject, number>): SavedExamAttempt {
-  const session = createExamSession({ kind: 'mixed' }, false)
-  const answers: AnswerMap = {}
-
-  SUBJECTS.forEach((subject) => {
-    const subjectQuestions = session.questions.filter(({ question }) => question.subject === subject)
-    const correctTarget = Math.round((subjectQuestions.length * subjectTargets[subject]) / 100)
-
-    subjectQuestions.forEach(({ id, question }, questionIndex) => {
-      answers[id] = questionIndex < correctTarget ? question.correctChoiceId : getWrongChoiceId(question)
-    })
-  })
-
-  const savedAttempt = createSavedExamAttempt(session, answers)
-  const submittedAt = new Date()
-  submittedAt.setDate(submittedAt.getDate() - (DUMMY_HISTORY_PRESETS.length - index))
-
-  return {
-    ...savedAttempt,
-    id: `dummy-history-${index + 1}`,
-    submittedAt: submittedAt.toISOString(),
-    title: `Dummy Exam ${index + 1}`,
-  }
-}
-
-function createDummyExamHistory(): SavedExamAttempt[] {
-  return DUMMY_HISTORY_PRESETS.map((preset, index) => createDummyExamAttempt(index, preset)).reverse()
-}
-
-function buildSubjectChartSeries(attempts: SavedExamAttempt[]): SubjectChartSeries[] {
-  const chronologicalAttempts = [...attempts].reverse()
-  const left = 56
-  const right = 676
-  const top = 28
-  const bottom = 234
-  const lastIndex = Math.max(chronologicalAttempts.length - 1, 1)
-
-  return SUBJECTS.map((subject) => {
-    const points = chronologicalAttempts.map<SubjectChartPoint>((attempt, index) => {
-      const stat = attempt.subjectStats.find((subjectStat) => subjectStat.subject === subject)
-      const percent = stat && stat.total > 0 ? Math.round((stat.correct / stat.total) * 100) : 0
-
-      return {
-        x: left + ((right - left) * index) / lastIndex,
-        y: bottom - ((bottom - top) * percent) / 100,
-      }
-    })
-
-    return {
-      subject,
-      color: SUBJECT_CHART_COLORS[subject],
-      points,
-    }
-  })
-}
-
 function App() {
   const [initialExamDraft] = useState<InProgressExamDraft | null>(() => readInProgressExamDraft())
   const [theme, setTheme] = useState<Theme>(() => {
@@ -707,12 +606,6 @@ function App() {
     setAnsweredHistoryCount(0)
   }
 
-  function addDummyHistory() {
-    const dummyAttempts = createDummyExamHistory()
-    writeExamAttemptHistory(dummyAttempts)
-    setSavedAttempts(dummyAttempts)
-  }
-
   function exitExam() {
     if (!session) {
       return
@@ -933,7 +826,6 @@ function App() {
             attempts={savedAttempts}
             answeredHistoryCount={answeredHistoryCount}
             loadedQuestionCount={loadedQuestionCount}
-            onAddDummyHistory={addDummyHistory}
             onDeleteHistory={deleteExamHistory}
             onHome={goHome}
             onOpenAttempt={openSavedAttempt}
@@ -1078,7 +970,6 @@ type HistoryScreenProps = {
   attempts: SavedExamAttempt[]
   answeredHistoryCount: number
   loadedQuestionCount: number
-  onAddDummyHistory: () => void
   onDeleteHistory: () => void
   onHome: () => void
   onOpenAttempt: (attempt: SavedExamAttempt) => void
@@ -1090,37 +981,14 @@ function HistoryScreen({
   attempts,
   answeredHistoryCount,
   loadedQuestionCount,
-  onAddDummyHistory,
   onDeleteHistory,
   onHome,
   onOpenAttempt,
   theme,
   onToggleTheme,
 }: HistoryScreenProps) {
-  const [selectedChartSubject, setSelectedChartSubject] = useState<Subject | null>(null)
-  const aggregateStats = SUBJECTS.map<SubjectStat>((subject) =>
-    attempts.reduce<SubjectStat>(
-      (total, attempt) => {
-        const subjectStat = attempt.subjectStats.find((stat) => stat.subject === subject)
-
-        if (!subjectStat) {
-          return total
-        }
-
-        return {
-          subject,
-          total: total.total + subjectStat.total,
-          answered: total.answered + subjectStat.answered,
-          correct: total.correct + subjectStat.correct,
-        }
-      },
-      { subject, total: 0, answered: 0, correct: 0 },
-    ),
-  )
   const totalSavedItems = attempts.reduce((total, attempt) => total + attempt.totalQuestions, 0)
   const totalCorrect = attempts.reduce((total, attempt) => total + attempt.score, 0)
-  const chartSeries = buildSubjectChartSeries(attempts)
-  const visibleChartSeries = selectedChartSubject ? chartSeries.filter((series) => series.subject === selectedChartSubject) : chartSeries
 
   return (
     <section className="history">
@@ -1136,9 +1004,6 @@ function HistoryScreen({
           <ThemeToggle theme={theme} onToggle={onToggleTheme} />
           <button className="button button--ghost" onClick={onHome} type="button">
             Home
-          </button>
-          <button className="button button--ghost" onClick={onAddDummyHistory} type="button">
-            Add dummy history
           </button>
           <button className="button button--danger" disabled={attempts.length === 0 && answeredHistoryCount === 0} onClick={onDeleteHistory} type="button">
             Delete history
@@ -1160,77 +1025,6 @@ function HistoryScreen({
           <p>loaded bank</p>
         </div>
       </div>
-
-      <section className="history-panel" aria-label="Subject statistics">
-        <div className="section-heading">
-          <div className="section-heading__title">
-            <h2>Subject stats</h2>
-          </div>
-        </div>
-        <div className="subject-chart">
-          <svg className="subject-chart__plot" viewBox="0 0 720 300" role="img" aria-label="Subject scores from zero to one hundred percent">
-            {[0, 25, 50, 75, 100].map((tick) => {
-              const y = 234 - (tick / 100) * 206
-
-              return (
-                <g key={tick}>
-                  <line className="subject-chart__grid-line" x1="56" x2="676" y1={y} y2={y} />
-                  <text className="subject-chart__axis-label" x="22" y={y + 4}>
-                    {tick}%
-                  </text>
-                </g>
-              )
-            })}
-            <line className="subject-chart__axis-line" x1="56" x2="676" y1="234" y2="234" />
-            <line className="subject-chart__axis-line" x1="56" x2="56" y1="28" y2="234" />
-            {attempts.length > 0 &&
-              visibleChartSeries.map((series) => (
-                <g key={series.subject}>
-                  {series.points.length > 1 && (
-                    <polyline
-                      className="subject-chart__line"
-                      points={series.points.map((point) => `${point.x},${point.y}`).join(' ')}
-                      stroke={series.color}
-                    />
-                  )}
-                  {series.points.map((point, index) => (
-                    <circle className="subject-chart__point" cx={point.x} cy={point.y} fill={series.color} key={`${series.subject}-${index}`} r="3" />
-                  ))}
-                </g>
-              ))}
-            {attempts.length === 0 && (
-              <g>
-                <rect className="subject-chart__empty-backdrop" x="230" y="112" width="258" height="42" rx="8" />
-                <text className="subject-chart__empty-label" x="359" y="138" textAnchor="middle">
-                  No saved subject scores yet
-                </text>
-              </g>
-            )}
-          </svg>
-          <div className="subject-chart__legend">
-            {aggregateStats.map((stat) => (
-              <button
-                aria-pressed={selectedChartSubject === stat.subject}
-                className={[
-                  'subject-chart__legend-item',
-                  selectedChartSubject === stat.subject ? 'subject-chart__legend-item--active' : '',
-                  selectedChartSubject && selectedChartSubject !== stat.subject ? 'subject-chart__legend-item--muted' : '',
-                ].filter(Boolean).join(' ')}
-                key={stat.subject}
-                onClick={() => setSelectedChartSubject((current) => (current === stat.subject ? null : stat.subject))}
-                type="button"
-              >
-                <span className="subject-chart__swatch" style={{ backgroundColor: SUBJECT_CHART_COLORS[stat.subject] }} />
-                <strong>{stat.subject}</strong>
-                <span>{stat.total > 0 ? `${Math.round((stat.correct / stat.total) * 100)}%` : '0%'}</span>
-                <small>
-                  {stat.correct}/{stat.total} correct, {stat.answered} answered
-                </small>
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="history-panel" aria-label="Submitted exams">
         <div className="section-heading">
