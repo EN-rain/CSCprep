@@ -24,6 +24,7 @@ type ScreenTransition = 'idle' | 'content-exit' | 'content-enter'
 const TIMED_EXAM_SECONDS = 60 * 60
 const THEME_KEY = 'cscprep-theme'
 const EXAM_ATTEMPT_HISTORY_KEY = 'cscprep:exam-attempt-history:v2'
+const IN_PROGRESS_EXAM_KEY = 'cscprep:in-progress-exam:v1'
 const SCREEN_EXIT_MS = 300
 const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
@@ -100,6 +101,16 @@ type SavedExamAttempt = {
   score: number
   totalQuestions: number
   subjectStats: SubjectStat[]
+}
+
+type InProgressExamDraft = {
+  savedAt: number
+  session: ExamSession
+  answers: AnswerMap
+  remainingSeconds: number
+  skippedItemNotice: SkippedItemNotice
+  skippedItemQueue: SkippedItem[]
+  activeSkippedItemId: string | null
 }
 
 type SubjectChartPoint = {
@@ -230,6 +241,128 @@ function clearExamAttemptHistory(): void {
   window.localStorage.removeItem(EXAM_ATTEMPT_HISTORY_KEY)
 }
 
+function isChoiceId(value: unknown): value is ChoiceId {
+  return value === 'A' || value === 'B' || value === 'C' || value === 'D' || value === 'E'
+}
+
+function isAnswerMap(value: unknown): value is AnswerMap {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) {
+    return false
+  }
+
+  return Object.values(value).every(isChoiceId)
+}
+
+function isSkippedItem(value: unknown): value is SkippedItem {
+  if (!value || typeof value !== 'object') {
+    return false
+  }
+
+  const item = value as Partial<SkippedItem>
+  return typeof item.itemId === 'string' && typeof item.itemNumber === 'number'
+}
+
+function isSkippedItemNotice(value: unknown): value is SkippedItemNotice {
+  if (value === null) {
+    return true
+  }
+
+  if (!value || typeof value !== 'object') {
+    return false
+  }
+
+  const notice = value as Partial<{ items: unknown }>
+  return Array.isArray(notice.items) && notice.items.every(isSkippedItem)
+}
+
+function isExamSession(value: unknown): value is ExamSession {
+  if (!value || typeof value !== 'object') {
+    return false
+  }
+
+  const session = value as Partial<ExamSession>
+  return (
+    typeof session.examNumber === 'number' &&
+    typeof session.title === 'string' &&
+    typeof session.timed === 'boolean' &&
+    Boolean(session.mode) &&
+    Array.isArray(session.questions)
+  )
+}
+
+function normalizeInProgressExamDraft(draft: InProgressExamDraft): InProgressExamDraft {
+  if (!draft.session.timed) {
+    return draft
+  }
+
+  const elapsedSeconds = Math.max(0, Math.floor((Date.now() - draft.savedAt) / 1000))
+
+  return {
+    ...draft,
+    remainingSeconds: Math.max(0, draft.remainingSeconds - elapsedSeconds),
+  }
+}
+
+function readInProgressExamDraft(): InProgressExamDraft | null {
+  if (typeof window === 'undefined') {
+    return null
+  }
+
+  try {
+    const raw = window.localStorage.getItem(IN_PROGRESS_EXAM_KEY)
+    const parsed = raw ? JSON.parse(raw) : null
+
+    if (!parsed || typeof parsed !== 'object') {
+      return null
+    }
+
+    const draft = parsed as Partial<InProgressExamDraft>
+    if (
+      typeof draft.savedAt !== 'number' ||
+      !isExamSession(draft.session) ||
+      !isAnswerMap(draft.answers) ||
+      typeof draft.remainingSeconds !== 'number' ||
+      !isSkippedItemNotice(draft.skippedItemNotice) ||
+      !Array.isArray(draft.skippedItemQueue) ||
+      !draft.skippedItemQueue.every(isSkippedItem) ||
+      (draft.activeSkippedItemId !== null && typeof draft.activeSkippedItemId !== 'string')
+    ) {
+      return null
+    }
+
+    return normalizeInProgressExamDraft({
+      savedAt: draft.savedAt,
+      session: draft.session,
+      answers: draft.answers,
+      remainingSeconds: draft.remainingSeconds,
+      skippedItemNotice: draft.skippedItemNotice,
+      skippedItemQueue: draft.skippedItemQueue,
+      activeSkippedItemId: draft.activeSkippedItemId,
+    })
+  } catch {
+    return null
+  }
+}
+
+function writeInProgressExamDraft(draft: Omit<InProgressExamDraft, 'savedAt'>): void {
+  try {
+    window.localStorage.setItem(IN_PROGRESS_EXAM_KEY, JSON.stringify({
+      ...draft,
+      savedAt: Date.now(),
+    }))
+  } catch {
+    // If storage is unavailable or full, keep the in-memory exam running.
+  }
+}
+
+function clearInProgressExamDraft(): void {
+  try {
+    window.localStorage.removeItem(IN_PROGRESS_EXAM_KEY)
+  } catch {
+    // Ignore storage cleanup failures.
+  }
+}
+
 function createSavedExamAttempt(session: ExamSession, answers: AnswerMap): SavedExamAttempt {
   const subjectStats = SUBJECTS.map<SubjectStat>((subject) => {
     const subjectQuestions = session.questions.filter(({ question }) => question.subject === subject)
@@ -320,6 +453,7 @@ function buildSubjectChartSeries(attempts: SavedExamAttempt[]): SubjectChartSeri
 }
 
 function App() {
+  const [initialExamDraft] = useState<InProgressExamDraft | null>(() => readInProgressExamDraft())
   const [theme, setTheme] = useState<Theme>(() => {
     if (typeof window === 'undefined') {
       return 'light'
@@ -332,20 +466,20 @@ function App() {
 
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
   })
-  const [screen, setScreen] = useState<Screen>('home')
-  const [session, setSession] = useState<ExamSession | null>(null)
-  const [answers, setAnswers] = useState<AnswerMap>({})
+  const [screen, setScreen] = useState<Screen>(() => (initialExamDraft ? 'exam' : 'home'))
+  const [session, setSession] = useState<ExamSession | null>(() => initialExamDraft?.session ?? null)
+  const [answers, setAnswers] = useState<AnswerMap>(() => initialExamDraft?.answers ?? {})
   const [submittedAnswers, setSubmittedAnswers] = useState<AnswerMap>({})
   const [filter, setFilter] = useState<ReviewFilter>('all')
   const [timerEnabled, setTimerEnabled] = useState(false)
-  const [remainingSeconds, setRemainingSeconds] = useState(TIMED_EXAM_SECONDS)
+  const [remainingSeconds, setRemainingSeconds] = useState(() => initialExamDraft?.remainingSeconds ?? TIMED_EXAM_SECONDS)
   const [answeredHistoryCount, setAnsweredHistoryCount] = useState(() => getAnsweredHistoryCount())
   const [loadedQuestionCount] = useState(() => getLoadedQuestionCount())
   const [savedAttempts, setSavedAttempts] = useState<SavedExamAttempt[]>(() => readExamAttemptHistory())
   const [expandedImage, setExpandedImage] = useState<string | null>(null)
-  const [skippedItemNotice, setSkippedItemNotice] = useState<SkippedItemNotice>(null)
-  const [skippedItemQueue, setSkippedItemQueue] = useState<SkippedItem[]>([])
-  const [activeSkippedItemId, setActiveSkippedItemId] = useState<string | null>(null)
+  const [skippedItemNotice, setSkippedItemNotice] = useState<SkippedItemNotice>(() => initialExamDraft?.skippedItemNotice ?? null)
+  const [skippedItemQueue, setSkippedItemQueue] = useState<SkippedItem[]>(() => initialExamDraft?.skippedItemQueue ?? [])
+  const [activeSkippedItemId, setActiveSkippedItemId] = useState<string | null>(() => initialExamDraft?.activeSkippedItemId ?? null)
   const [exitNoticeOpen, setExitNoticeOpen] = useState(false)
   const [screenTransition, setScreenTransition] = useState<ScreenTransition>('idle')
   const transitionTimeoutRef = useRef<number | null>(null)
@@ -419,6 +553,7 @@ function App() {
       return
     }
 
+    clearInProgressExamDraft()
     const nextSession = createExamSession(mode, timerEnabled)
     const openExam = () => {
       setSession(nextSession)
@@ -481,6 +616,7 @@ function App() {
     }
 
     transitionToScreen(() => {
+      clearInProgressExamDraft()
       completeExam(session, finalAnswers)
       const savedAttempt = createSavedExamAttempt(session, finalAnswers)
       const nextSavedAttempts = [savedAttempt, ...readExamAttemptHistory()].slice(0, 50)
@@ -522,6 +658,7 @@ function App() {
 
   function goHome() {
     transitionToScreen(() => {
+      clearInProgressExamDraft()
       setSession(null)
       setAnswers({})
       setSubmittedAnswers({})
@@ -537,6 +674,7 @@ function App() {
 
   function openHistory() {
     transitionToScreen(() => {
+      clearInProgressExamDraft()
       setFilter('all')
       setSkippedItemNotice(null)
       setExitNoticeOpen(false)
@@ -547,6 +685,7 @@ function App() {
 
   function openSavedAttempt(attempt: SavedExamAttempt) {
     transitionToScreen(() => {
+      clearInProgressExamDraft()
       setSession(attempt.session)
       setAnswers(attempt.answers)
       setSubmittedAnswers(attempt.answers)
@@ -562,6 +701,7 @@ function App() {
 
   function deleteExamHistory() {
     clearExamAttemptHistory()
+    clearInProgressExamDraft()
     resetQuestionHistory()
     setSavedAttempts([])
     setAnsweredHistoryCount(0)
@@ -588,6 +728,7 @@ function App() {
     }
 
     transitionToScreen(() => {
+      clearInProgressExamDraft()
       if (answeredCount > 0) {
         completeExam(session, answers)
         setAnsweredHistoryCount(getAnsweredHistoryCount())
@@ -658,6 +799,21 @@ function App() {
 
     finishExamWithAnswers(answers)
   }, [answers, remainingSeconds, screen, screenTransition, session?.timed])
+
+  useEffect(() => {
+    if (screen !== 'exam' || !session) {
+      return
+    }
+
+    writeInProgressExamDraft({
+      session,
+      answers,
+      remainingSeconds,
+      skippedItemNotice,
+      skippedItemQueue,
+      activeSkippedItemId,
+    })
+  }, [activeSkippedItemId, answers, remainingSeconds, screen, session, skippedItemNotice, skippedItemQueue])
 
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
