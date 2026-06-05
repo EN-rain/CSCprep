@@ -399,7 +399,19 @@ function App() {
       return null
     }
 
-    return skippedItemQueue.find((item) => item.itemId !== activeSkippedItemId && !answers[item.itemId]) ?? null
+    const activeSkippedItem = skippedItemQueue.find((item) => item.itemId === activeSkippedItemId)
+
+    if (!activeSkippedItem) {
+      return null
+    }
+
+    const nextItem = skippedItemQueue.find((item) => item.itemId !== activeSkippedItemId && !answers[item.itemId]) ?? null
+
+    if (!nextItem || Math.abs(nextItem.itemNumber - activeSkippedItem.itemNumber) < 4) {
+      return null
+    }
+
+    return nextItem
   }, [activeSkippedItemId, answers, skippedItemQueue])
 
   function startExam(mode: ExamMode = { kind: 'mixed' }) {

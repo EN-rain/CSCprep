@@ -2761,7 +2761,7 @@
   {
     "id": "nr-106",
     "subject": "Numerical Reasoning",
-    "prompt": "In a population survey, 30% of the population of the Philippines are classified as aliens. What percent of the population are aliens?",
+    "prompt": "In a records audit, 30% of the files were marked incomplete. What percent of the files were complete?",
     "choices": [
       {
         "id": "A",
@@ -2784,37 +2784,37 @@
         "text": "70%"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The prompt states that 30% of the population are classified as aliens, so the correct choice is 30%."
+    "correctChoiceId": "E",
+    "explanation": "If 30% of the files were incomplete, the complete files make up the remaining 100% - 30% = 70%."
   },
   {
     "id": "nr-110",
     "subject": "Numerical Reasoning",
-    "prompt": "What is one ground for impeachment of the President, Vice President, and Ombudsman?",
+    "prompt": "A government office processed 240 applications in one day. If 25% were returned for correction, how many applications were returned?",
     "choices": [
       {
         "id": "A",
-        "text": "sexual harassment"
+        "text": "40 applications"
       },
       {
         "id": "B",
-        "text": "heinous crime"
+        "text": "48 applications"
       },
       {
         "id": "C",
-        "text": "grave abuse of the authority"
+        "text": "50 applications"
       },
       {
         "id": "D",
-        "text": "graft and corruption"
+        "text": "55 applications"
       },
       {
         "id": "E",
-        "text": "culpable violation of the Constitution"
+        "text": "60 applications"
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Among the listed choices, culpable violation of the Constitution is a recognized ground for impeachment. Therefore, choice E is correct."
+    "explanation": "Find 25% of 240. Since 25% is one-fourth, 240 / 4 = 60 applications were returned for correction."
   },
   {
     "id": "nr-111",
@@ -3942,60 +3942,60 @@
   {
     "id": "nr-150",
     "subject": "Numerical Reasoning",
-    "prompt": "At 6:30 am, Jeany told Margarette that she found Blessy 15 and 1/4 hours ago. At what time did Jeany find\nBlessy?",
+    "prompt": "At 6:30 AM, a clerk reported that a transaction had been logged 15 1/4 hours earlier. At what time was the transaction logged?",
     "choices": [
       {
         "id": "A",
-        "text": "9:25 pm"
+        "text": "9:25 PM"
       },
       {
         "id": "B",
-        "text": "6:30pm"
+        "text": "6:30 PM"
       },
       {
         "id": "C",
-        "text": "3:25pm"
+        "text": "3:25 PM"
       },
       {
         "id": "D",
-        "text": "5:25pm"
+        "text": "5:25 PM"
       },
       {
         "id": "E",
-        "text": "3:15pm"
+        "text": "3:15 PM"
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Count back 15 hours and 15 minutes from 6:30 am. That lands at 3:15 pm on the previous day."
+    "explanation": "Count back 15 hours and 15 minutes from 6:30 AM. That lands at 3:15 PM on the previous day."
   },
   {
     "id": "nr-151",
     "subject": "Numerical Reasoning",
-    "prompt": "If 3 siomai cost P15, how much will Kenneth pay for 12 siomai?",
+    "prompt": "If 3 document folders cost P15, how much will 12 document folders cost at the same rate?",
     "choices": [
       {
         "id": "A",
-        "text": "55"
+        "text": "P55"
       },
       {
         "id": "B",
-        "text": "45"
+        "text": "P45"
       },
       {
         "id": "C",
-        "text": "65"
+        "text": "P65"
       },
       {
         "id": "D",
-        "text": "60"
+        "text": "P60"
       },
       {
         "id": "E",
-        "text": "80"
+        "text": "P80"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Three siomai cost P15, so each siomai costs P15 / 3 = P5. For 12 siomai, Kenneth pays 12 x P5 = P60."
+    "explanation": "Three folders cost P15, so each folder costs P15 / 3 = P5. For 12 folders, the cost is 12 x P5 = P60."
   },
   {
     "id": "nr-152",
@@ -4465,7 +4465,7 @@
   {
     "id": "nr-169",
     "subject": "Numerical Reasoning",
-    "prompt": "95% of people in my street have a car. There are 160 people in my street. How many do not have a car?",
+    "prompt": "In a barangay survey of 160 residents, 95% had valid IDs. How many residents did not have valid IDs?",
     "choices": [
       {
         "id": "A",
@@ -4489,12 +4489,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "If 95% have a car, then 5% do not have a car. 5% of 160 is 0.05 x 160 = 8."
+    "explanation": "If 95% had valid IDs, then 5% did not. Compute 5% of 160: 0.05 x 160 = 8."
   },
   {
     "id": "nr-170",
     "subject": "Numerical Reasoning",
-    "prompt": "If 300 students filled form for entrance test and 280 appeared in test out of which only 70% have passed\ntest then number of students who failed test are",
+    "prompt": "Of 300 registered applicants, 280 took the entrance test. If 70% of those who took the test passed, how many failed?",
     "choices": [
       {
         "id": "A",
@@ -4518,7 +4518,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Of the 280 students who appeared for the test, 70% passed, so 30% failed. Compute 0.30 x 280 = 84."
+    "explanation": "Of the 280 applicants who took the test, 30% failed. Compute 0.30 x 280 = 84."
   },
   {
     "id": "nr-171",
@@ -4813,7 +4813,7 @@
   {
     "id": "nr-181",
     "subject": "Numerical Reasoning",
-    "prompt": "The population of a certain town is 5,000.If it increases 5% each year, what will be the approximate\npopulation at the end of 10 years?",
+    "prompt": "The population of a municipality is 5,000. If it increases by 5% each year, what will be the approximate population at the end of 10 years?",
     "choices": [
       {
         "id": "A",
@@ -4842,7 +4842,7 @@
   {
     "id": "nr-182",
     "subject": "Numerical Reasoning",
-    "prompt": "Gary decided to cycle to his friend's house at a speed of 6kph and the journey took 30 minutes. How far\ndid Gary cycle?",
+    "prompt": "An employee travels to a field office at 6 kph, and the trip takes 30 minutes. How far is the field office?",
     "choices": [
       {
         "id": "A",
@@ -5986,32 +5986,32 @@
   {
     "id": "nr-225",
     "subject": "Numerical Reasoning",
-    "prompt": "If Kardo is feeding his buddy 1/2 cup of dog food but uses 1/10 of a cup, how many scoops will he\nneed to feed his dog?",
+    "prompt": "An office needs 1/2 ream of paper for a task. If each packet contains 1/10 ream, how many packets are needed?",
     "choices": [
       {
         "id": "A",
-        "text": "1/12 scoop"
+        "text": "1/12 packet"
       },
       {
         "id": "B",
-        "text": "1/20 scoop"
+        "text": "1/20 packet"
       },
       {
         "id": "C",
-        "text": "5 scoops"
+        "text": "5 packets"
       },
       {
         "id": "D",
-        "text": "3 scoops"
+        "text": "3 packets"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Each scoop is 1/10 cup, and Kardo needs 1/2 cup total. Compute 1/2 / 1/10 = 1/2 x 10 = 5, so he needs 5 scoops."
+    "explanation": "Each packet is 1/10 ream, and the office needs 1/2 ream. Compute 1/2 / 1/10 = 1/2 x 10 = 5, so 5 packets are needed."
   },
   {
     "id": "nr-226",
     "subject": "Numerical Reasoning",
-    "prompt": "If 1 × 10 = 9, 2 × 10 = 18, 3 × 10 = 27, then what is 8 × 10 = ?",
+    "prompt": "A code multiplies each input by 9: 1 becomes 9, 2 becomes 18, and 3 becomes 27. What does 8 become?",
     "choices": [
       {
         "id": "A",
@@ -6023,7 +6023,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The pattern subtracts the first factor from the ordinary product: 1 x 10 = 10 - 1 = 9, 2 x 10 = 20 - 2 = 18, and 3 x 10 = 30 - 3 = 27. Therefore 8 x 10 = 80 - 8 = 72."
+    "explanation": "The code uses multiplication by 9. Therefore, 8 x 9 = 72."
   },
   {
     "id": "nr-227",
@@ -6186,7 +6186,7 @@
   {
     "id": "nr-233",
     "subject": "Numerical Reasoning",
-    "prompt": "John walks everyday from his house to the police station. After walking at a rate of 2\nmeters/second for 3 minutes, he looks at his watch and realizes that he has to run 4\nmeters/second for 1 minute so he won't be late. What is the distance from his house to the police\nstation?",
+    "prompt": "An employee walks at 2 meters per second for 3 minutes, then runs at 4 meters per second for 1 minute to reach the office on time. What total distance did the employee travel?",
     "choices": [
       {
         "id": "A",
@@ -6210,7 +6210,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Convert the time to seconds. Walking for 3 minutes is 180 seconds, so John walks 2 x 180 = 360 meters. Running for 1 minute is 60 seconds, so he runs 4 x 60 = 240 meters. The total distance is 360 + 240 = 600 meters."
+    "explanation": "Convert the time to seconds. Walking for 3 minutes is 180 seconds, so the employee walks 2 x 180 = 360 meters. Running for 1 minute is 60 seconds, so the employee runs 4 x 60 = 240 meters. The total distance is 360 + 240 = 600 meters."
   },
   {
     "id": "nr-234",
