@@ -322,6 +322,10 @@ function clearInProgressExamDraft(): void {
   }
 }
 
+function getOnlineStatus(): boolean {
+  return typeof navigator === 'undefined' ? true : navigator.onLine
+}
+
 function createSavedExamAttempt(session: ExamSession, answers: AnswerMap): SavedExamAttempt {
   const subjectStats = SUBJECTS.map<SubjectStat>((subject) => {
     const subjectQuestions = session.questions.filter(({ question }) => question.subject === subject)
@@ -380,6 +384,8 @@ function App() {
   const [skippedItemQueue, setSkippedItemQueue] = useState<SkippedItem[]>(() => initialExamDraft?.skippedItemQueue ?? [])
   const [activeSkippedItemId, setActiveSkippedItemId] = useState<string | null>(() => initialExamDraft?.activeSkippedItemId ?? null)
   const [exitNoticeOpen, setExitNoticeOpen] = useState(false)
+  const [isOnline, setIsOnline] = useState(getOnlineStatus)
+  const [offlineSubmitNoticeOpen, setOfflineSubmitNoticeOpen] = useState(false)
   const [screenTransition, setScreenTransition] = useState<ScreenTransition>('idle')
   const transitionTimeoutRef = useRef<number | null>(null)
 
@@ -463,6 +469,7 @@ function App() {
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
+      setOfflineSubmitNoticeOpen(false)
       setRemainingSeconds(TIMED_EXAM_SECONDS)
       setScreen('exam')
     }
@@ -479,6 +486,11 @@ function App() {
 
   function submitExam() {
     if (!session) {
+      return
+    }
+
+    if (!isOnline) {
+      setOfflineSubmitNoticeOpen(true)
       return
     }
 
@@ -506,11 +518,21 @@ function App() {
       return
     }
 
+    if (!isOnline) {
+      setOfflineSubmitNoticeOpen(true)
+      return
+    }
+
     finishExamWithAnswers(answers)
   }
 
   function finishExamWithAnswers(finalAnswers: AnswerMap) {
     if (!session) {
+      return
+    }
+
+    if (!isOnline) {
+      setOfflineSubmitNoticeOpen(true)
       return
     }
 
@@ -527,6 +549,7 @@ function App() {
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
+      setOfflineSubmitNoticeOpen(false)
       setScreen('results')
     })
   }
@@ -566,6 +589,7 @@ function App() {
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
+      setOfflineSubmitNoticeOpen(false)
       setExpandedImage(null)
       setScreen('home')
     })
@@ -577,6 +601,7 @@ function App() {
       setFilter('all')
       setSkippedItemNotice(null)
       setExitNoticeOpen(false)
+      setOfflineSubmitNoticeOpen(false)
       setExpandedImage(null)
       setScreen('history')
     })
@@ -593,6 +618,7 @@ function App() {
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
+      setOfflineSubmitNoticeOpen(false)
       setExpandedImage(null)
       setScreen('results')
     })
@@ -635,6 +661,7 @@ function App() {
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
+      setOfflineSubmitNoticeOpen(false)
       setScreen('home')
     })
   }
@@ -672,6 +699,26 @@ function App() {
       setScreenTransition('idle')
     }, SCREEN_ENTER_MS)
   }
+
+  useEffect(() => {
+    function updateOnlineStatus() {
+      const nextIsOnline = getOnlineStatus()
+      setIsOnline(nextIsOnline)
+
+      if (nextIsOnline) {
+        setOfflineSubmitNoticeOpen(false)
+      }
+    }
+
+    window.addEventListener('online', updateOnlineStatus)
+    window.addEventListener('offline', updateOnlineStatus)
+    updateOnlineStatus()
+
+    return () => {
+      window.removeEventListener('online', updateOnlineStatus)
+      window.removeEventListener('offline', updateOnlineStatus)
+    }
+  }, [])
 
   useEffect(() => {
     if (screen !== 'exam' || !session?.timed) {
@@ -776,8 +823,10 @@ function App() {
             answers={answers}
             exitNoticeOpen={exitNoticeOpen}
             expandedImage={expandedImage}
+            isOnline={isOnline}
             onChooseAnswer={chooseAnswer}
             onCloseImage={() => setExpandedImage(null)}
+            onCloseOfflineSubmitNotice={() => setOfflineSubmitNoticeOpen(false)}
             onCancelExit={() => setExitNoticeOpen(false)}
             onCloseSkippedItems={() => setSkippedItemNotice(null)}
             onConfirmExit={confirmExitExam}
@@ -788,6 +837,7 @@ function App() {
             onSubmit={submitExam}
             onSubmitAnyway={finishSubmitExam}
             nextSkippedItem={nextSkippedItem}
+            offlineSubmitNoticeOpen={offlineSubmitNoticeOpen}
             remainingSeconds={remainingSeconds}
             session={session}
             skippedItemNotice={skippedItemNotice}
@@ -1063,9 +1113,11 @@ type ExamScreenProps = {
   answers: AnswerMap
   exitNoticeOpen: boolean
   expandedImage: string | null
+  isOnline: boolean
   onCancelExit: () => void
   onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
   onCloseImage: () => void
+  onCloseOfflineSubmitNotice: () => void
   onCloseSkippedItems: () => void
   onConfirmExit: () => void
   onExit: () => void
@@ -1075,6 +1127,7 @@ type ExamScreenProps = {
   onSubmit: () => void
   onSubmitAnyway: () => void
   nextSkippedItem: SkippedItem | null
+  offlineSubmitNoticeOpen: boolean
   remainingSeconds: number
   session: ExamSession
   skippedItemNotice: SkippedItemNotice
@@ -1088,9 +1141,11 @@ function ExamScreen({
   answers,
   exitNoticeOpen,
   expandedImage,
+  isOnline,
   onCancelExit,
   onChooseAnswer,
   onCloseImage,
+  onCloseOfflineSubmitNotice,
   onCloseSkippedItems,
   onConfirmExit,
   onExit,
@@ -1100,6 +1155,7 @@ function ExamScreen({
   onSubmit,
   onSubmitAnyway,
   nextSkippedItem,
+  offlineSubmitNoticeOpen,
   remainingSeconds,
   session,
   skippedItemNotice,
@@ -1132,13 +1188,30 @@ function ExamScreen({
           </button>
           <button
             className="button button--primary"
+            disabled={!isOnline}
             onClick={onSubmit}
+            title={isOnline ? undefined : 'Connect to the internet to submit this exam.'}
             type="button"
           >
             Submit Exam
           </button>
         </div>
       </header>
+
+      {!isOnline && (
+        <div className="connection-banner" role="status">
+          You are offline. Answers are saved on this device, and submit will unlock when connection returns.
+        </div>
+      )}
+
+      {offlineSubmitNoticeOpen && (
+        <div className="connection-banner connection-banner--alert" role="alert">
+          Connect to the internet before submitting this exam.
+          <button onClick={onCloseOfflineSubmitNotice} type="button">
+            Dismiss
+          </button>
+        </div>
+      )}
 
       <div className="question-list">
         {session.questions.map(({ id, itemNumber, question, choices }) => (
@@ -1167,6 +1240,7 @@ function ExamScreen({
 
       {skippedItemNotice && (
         <SkippedItemPanel
+          canSubmit={isOnline}
           items={skippedItemNotice.items}
           onDismiss={onCloseSkippedItems}
           onGoToItem={() => onGoToSkippedItem(skippedItemNotice.items[0].itemId)}
@@ -1297,13 +1371,14 @@ function ExitExamPanel({ answeredCount, onCancel, onConfirm }: ExitExamPanelProp
 }
 
 type SkippedItemPanelProps = {
+  canSubmit: boolean
   items: SkippedItem[]
   onDismiss: () => void
   onGoToItem: () => void
   onSubmitAnyway: () => void
 }
 
-function SkippedItemPanel({ items, onDismiss, onGoToItem, onSubmitAnyway }: SkippedItemPanelProps) {
+function SkippedItemPanel({ canSubmit, items, onDismiss, onGoToItem, onSubmitAnyway }: SkippedItemPanelProps) {
   const goToItemButtonRef = useRef<HTMLButtonElement>(null)
   const { closeWith, overlayClass } = usePopupTransition()
   const skippedLabel = items.length === 1 ? '1 item skipped' : `${items.length} items skipped`
@@ -1345,8 +1420,13 @@ function SkippedItemPanel({ items, onDismiss, onGoToItem, onSubmitAnyway }: Skip
         <div className="skipped-panel__content" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
           <p className="eyebrow">Skipped answer</p>
           <h2 id="skipped-items-title">{skippedLabel}</h2>
+          {!canSubmit && (
+            <p className="exam-dialog__copy">
+              Connect to the internet before submitting. Your answers are still saved here.
+            </p>
+          )}
           <div className="skipped-panel__actions">
-            <button className="button button--primary" onClick={submitAnyway} type="button">
+            <button className="button button--primary" disabled={!canSubmit} onClick={submitAnyway} type="button">
               Submit anyway
             </button>
             <button className="button button--ghost" onClick={goToItem} ref={goToItemButtonRef} type="button">
