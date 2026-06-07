@@ -17,6 +17,7 @@ import {
   getLoadedQuestionCount,
   resetQuestionHistory,
 } from './utils/exam'
+import { questionBank } from './data/questionBank'
 
 type Screen = 'home' | 'exam' | 'results' | 'history'
 type Theme = 'light' | 'dark'
@@ -186,7 +187,20 @@ function readExamAttemptHistory(): SavedExamAttempt[] {
     const raw = window.localStorage.getItem(EXAM_ATTEMPT_HISTORY_KEY)
     const parsed = raw ? JSON.parse(raw) : []
 
-    return Array.isArray(parsed) ? (parsed as SavedExamAttempt[]) : []
+    if (!Array.isArray(parsed)) {
+      return []
+    }
+
+    const attempts = (parsed as SavedExamAttempt[])
+      .filter((attempt) => isExamSession(attempt.session))
+      .map((attempt) => ({
+        ...attempt,
+        session: refreshExamSessionQuestions(attempt.session),
+      }))
+
+    window.localStorage.setItem(EXAM_ATTEMPT_HISTORY_KEY, JSON.stringify(attempts))
+
+    return attempts
   } catch {
     return []
   }
@@ -249,15 +263,52 @@ function isExamSession(value: unknown): value is ExamSession {
   )
 }
 
-function normalizeInProgressExamDraft(draft: InProgressExamDraft): InProgressExamDraft {
-  if (!draft.session.timed) {
-    return draft
-  }
+function refreshExamSessionQuestions(session: ExamSession): ExamSession {
+  const currentQuestions = new Map(questionBank.map((question) => [question.id, question]))
 
+  return {
+    ...session,
+    questions: session.questions.map((examQuestion) => {
+      const currentQuestion = currentQuestions.get(examQuestion.question.id)
+
+      if (!currentQuestion) {
+        return examQuestion
+      }
+
+      const currentChoicesById = new Map(currentQuestion.choices.map((choice) => [choice.id, choice]))
+      const refreshedChoices = examQuestion.choices
+        .map((choice) => currentChoicesById.get(choice.id))
+        .filter((choice): choice is ExamSession['questions'][number]['choices'][number] => Boolean(choice))
+
+      currentQuestion.choices.forEach((choice) => {
+        if (!refreshedChoices.some((refreshedChoice) => refreshedChoice.id === choice.id)) {
+          refreshedChoices.push(choice)
+        }
+      })
+
+      return {
+        ...examQuestion,
+        question: currentQuestion,
+        choices: refreshedChoices,
+      }
+    }),
+  }
+}
+
+function normalizeInProgressExamDraft(draft: InProgressExamDraft): InProgressExamDraft {
   const elapsedSeconds = Math.max(0, Math.floor((Date.now() - draft.savedAt) / 1000))
+  const session = refreshExamSessionQuestions(draft.session)
+
+  if (!draft.session.timed) {
+    return {
+      ...draft,
+      session,
+    }
+  }
 
   return {
     ...draft,
+    session,
     remainingSeconds: Math.max(0, draft.remainingSeconds - elapsedSeconds),
   }
 }
@@ -609,8 +660,10 @@ function App() {
 
   function openSavedAttempt(attempt: SavedExamAttempt) {
     transitionToScreen(() => {
+      const refreshedSession = refreshExamSessionQuestions(attempt.session)
+
       clearInProgressExamDraft()
-      setSession(attempt.session)
+      setSession(refreshedSession)
       setAnswers(attempt.answers)
       setSubmittedAnswers(attempt.answers)
       setFilter('all')
@@ -630,6 +683,12 @@ function App() {
     resetQuestionHistory()
     setSavedAttempts([])
     setAnsweredHistoryCount(0)
+  }
+
+  function deleteSavedAttempt(attemptId: string) {
+    const nextSavedAttempts = savedAttempts.filter((attempt) => attempt.id !== attemptId)
+    writeExamAttemptHistory(nextSavedAttempts)
+    setSavedAttempts(nextSavedAttempts)
   }
 
   function exitExam() {
@@ -718,6 +777,10 @@ function App() {
       window.removeEventListener('online', updateOnlineStatus)
       window.removeEventListener('offline', updateOnlineStatus)
     }
+  }, [])
+
+  useEffect(() => {
+    setSession((currentSession) => currentSession ? refreshExamSessionQuestions(currentSession) : currentSession)
   }, [])
 
   useEffect(() => {
@@ -877,6 +940,7 @@ function App() {
             answeredHistoryCount={answeredHistoryCount}
             loadedQuestionCount={loadedQuestionCount}
             onDeleteHistory={deleteExamHistory}
+            onDeleteAttempt={deleteSavedAttempt}
             onHome={goHome}
             onOpenAttempt={openSavedAttempt}
             theme={theme}
@@ -1021,6 +1085,7 @@ type HistoryScreenProps = {
   answeredHistoryCount: number
   loadedQuestionCount: number
   onDeleteHistory: () => void
+  onDeleteAttempt: (attemptId: string) => void
   onHome: () => void
   onOpenAttempt: (attempt: SavedExamAttempt) => void
   theme: Theme
@@ -1032,11 +1097,13 @@ function HistoryScreen({
   answeredHistoryCount,
   loadedQuestionCount,
   onDeleteHistory,
+  onDeleteAttempt,
   onHome,
   onOpenAttempt,
   theme,
   onToggleTheme,
 }: HistoryScreenProps) {
+  const [isEditingHistory, setIsEditingHistory] = useState(false)
   const totalSavedItems = attempts.reduce((total, attempt) => total + attempt.totalQuestions, 0)
   const totalCorrect = attempts.reduce((total, attempt) => total + attempt.score, 0)
 
@@ -1054,9 +1121,6 @@ function HistoryScreen({
           <ThemeToggle theme={theme} onToggle={onToggleTheme} />
           <button className="button button--ghost" onClick={onHome} type="button">
             Home
-          </button>
-          <button className="button button--danger" disabled={attempts.length === 0 && answeredHistoryCount === 0} onClick={onDeleteHistory} type="button">
-            Delete history
           </button>
         </div>
       </header>
@@ -1081,6 +1145,30 @@ function HistoryScreen({
           <div className="section-heading__title">
             <h2>Submitted exams</h2>
           </div>
+          <div className="history-panel__actions">
+            {isEditingHistory && (
+              <button
+                className="attempt-row__delete"
+                disabled={attempts.length === 0 && answeredHistoryCount === 0}
+                onClick={() => {
+                  onDeleteHistory()
+                  setIsEditingHistory(false)
+                }}
+                type="button"
+              >
+                Delete all
+              </button>
+            )}
+            <button
+              aria-pressed={isEditingHistory}
+              className="attempt-row__edit"
+              disabled={attempts.length === 0}
+              onClick={() => setIsEditingHistory((isEditing) => !isEditing)}
+              type="button"
+            >
+              {isEditingHistory ? 'Done' : 'Edit'}
+            </button>
+          </div>
         </div>
 
         {attempts.length === 0 ? (
@@ -1088,18 +1176,33 @@ function HistoryScreen({
         ) : (
           <div className="attempt-list">
             {attempts.map((attempt) => (
-              <button className="attempt-row" key={attempt.id} onClick={() => onOpenAttempt(attempt)} type="button">
-                <span>
-                  <strong>{attempt.title}</strong>
-                  <small>{formatAttemptDate(attempt.submittedAt)}</small>
-                </span>
-                <span>
-                  <strong>
-                    {attempt.score}/{attempt.totalQuestions}
-                  </strong>
-                  <small>{Math.round((attempt.score / attempt.totalQuestions) * 100)}%</small>
-                </span>
-              </button>
+              <div className={isEditingHistory ? 'attempt-row attempt-row--editing' : 'attempt-row'} key={attempt.id}>
+                <button className="attempt-row__open" onClick={() => onOpenAttempt(attempt)} type="button">
+                  <span>
+                    <strong>{attempt.title}</strong>
+                    <small>{formatAttemptDate(attempt.submittedAt)}</small>
+                  </span>
+                  <span>
+                    <strong>
+                      {attempt.score}/{attempt.totalQuestions}
+                    </strong>
+                    <small>{Math.round((attempt.score / attempt.totalQuestions) * 100)}%</small>
+                  </span>
+                </button>
+                {isEditingHistory && (
+                  <div className="attempt-row__actions">
+                    <button
+                      className="attempt-row__delete"
+                      onClick={() => {
+                        onDeleteAttempt(attempt.id)
+                      }}
+                      type="button"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                )}
+              </div>
             ))}
           </div>
         )}

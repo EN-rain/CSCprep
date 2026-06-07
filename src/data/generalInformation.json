@@ -1384,15 +1384,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "agenda"
       },
       {
         "id": "C",
-        "text": "resolution"
+        "text": "memorandum"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "resolution"
       }
     ],
     "correctChoiceId": "A",
@@ -1409,15 +1409,15 @@
       },
       {
         "id": "B",
-        "text": "resolution"
+        "text": "agenda"
       },
       {
         "id": "C",
-        "text": "ordinance"
+        "text": "minutes"
       },
       {
         "id": "D",
-        "text": "invoice"
+        "text": "resolution"
       }
     ],
     "correctChoiceId": "A",
@@ -1434,15 +1434,15 @@
       },
       {
         "id": "B",
-        "text": "ordinance"
+        "text": "agenda"
       },
       {
         "id": "C",
-        "text": "invoice"
+        "text": "minutes"
       },
       {
         "id": "D",
-        "text": "receipt"
+        "text": "memorandum"
       }
     ],
     "correctChoiceId": "A",
@@ -1459,15 +1459,15 @@
       },
       {
         "id": "B",
-        "text": "invoice"
+        "text": "resolution"
       },
       {
         "id": "C",
-        "text": "receipt"
+        "text": "executive order"
       },
       {
         "id": "D",
-        "text": "voucher"
+        "text": "memorandum"
       }
     ],
     "correctChoiceId": "A",
@@ -1509,15 +1509,15 @@
       },
       {
         "id": "B",
-        "text": "voucher"
+        "text": "invoice"
       },
       {
         "id": "C",
-        "text": "purchase order"
+        "text": "voucher"
       },
       {
         "id": "D",
-        "text": "requisition"
+        "text": "purchase order"
       }
     ],
     "correctChoiceId": "A",
@@ -1534,15 +1534,15 @@
       },
       {
         "id": "B",
-        "text": "purchase order"
+        "text": "invoice"
       },
       {
         "id": "C",
-        "text": "requisition"
+        "text": "receipt"
       },
       {
         "id": "D",
-        "text": "inventory"
+        "text": "purchase order"
       }
     ],
     "correctChoiceId": "A",
@@ -1559,15 +1559,15 @@
       },
       {
         "id": "B",
-        "text": "requisition"
+        "text": "invoice"
       },
       {
         "id": "C",
-        "text": "inventory"
+        "text": "receipt"
       },
       {
         "id": "D",
-        "text": "filing"
+        "text": "voucher"
       }
     ],
     "correctChoiceId": "A",
@@ -1584,15 +1584,15 @@
       },
       {
         "id": "B",
-        "text": "inventory"
+        "text": "purchase order"
       },
       {
         "id": "C",
-        "text": "filing"
+        "text": "request form"
       },
       {
         "id": "D",
-        "text": "indexing"
+        "text": "canvass"
       }
     ],
     "correctChoiceId": "A",
@@ -1609,15 +1609,15 @@
       },
       {
         "id": "B",
-        "text": "filing"
+        "text": "asset register"
       },
       {
         "id": "C",
-        "text": "indexing"
+        "text": "stock card"
       },
       {
         "id": "D",
-        "text": "archiving"
+        "text": "property ledger"
       }
     ],
     "correctChoiceId": "A",
@@ -1659,15 +1659,15 @@
       },
       {
         "id": "B",
-        "text": "archiving"
+        "text": "filing"
       },
       {
         "id": "C",
-        "text": "confidentiality"
+        "text": "archiving"
       },
       {
         "id": "D",
-        "text": "accountability"
+        "text": "confidentiality"
       }
     ],
     "correctChoiceId": "A",
@@ -1684,15 +1684,15 @@
       },
       {
         "id": "B",
-        "text": "confidentiality"
+        "text": "filing"
       },
       {
         "id": "C",
-        "text": "accountability"
+        "text": "indexing"
       },
       {
         "id": "D",
-        "text": "transparency"
+        "text": "confidentiality"
       }
     ],
     "correctChoiceId": "A",
@@ -1709,15 +1709,15 @@
       },
       {
         "id": "B",
-        "text": "accountability"
+        "text": "filing"
       },
       {
         "id": "C",
-        "text": "transparency"
+        "text": "indexing"
       },
       {
         "id": "D",
-        "text": "due process"
+        "text": "archiving"
       }
     ],
     "correctChoiceId": "A",
@@ -1759,15 +1759,15 @@
       },
       {
         "id": "B",
-        "text": "due process"
+        "text": "accountability"
       },
       {
         "id": "C",
-        "text": "equal protection"
+        "text": "due process"
       },
       {
         "id": "D",
-        "text": "public office"
+        "text": "equal protection"
       }
     ],
     "correctChoiceId": "A",
@@ -1784,15 +1784,15 @@
       },
       {
         "id": "B",
-        "text": "equal protection"
+        "text": "accountability"
       },
       {
         "id": "C",
-        "text": "public office"
+        "text": "transparency"
       },
       {
         "id": "D",
-        "text": "barangay"
+        "text": "equal protection"
       }
     ],
     "correctChoiceId": "A",
@@ -1809,15 +1809,15 @@
       },
       {
         "id": "B",
-        "text": "public office"
+        "text": "accountability"
       },
       {
         "id": "C",
-        "text": "barangay"
+        "text": "transparency"
       },
       {
         "id": "D",
-        "text": "municipality"
+        "text": "due process"
       }
     ],
     "correctChoiceId": "A",
@@ -1834,15 +1834,15 @@
       },
       {
         "id": "B",
-        "text": "barangay"
+        "text": "private employment"
       },
       {
         "id": "C",
-        "text": "municipality"
+        "text": "public property"
       },
       {
         "id": "D",
-        "text": "province"
+        "text": "civil service"
       }
     ],
     "correctChoiceId": "A",
@@ -1884,15 +1884,15 @@
       },
       {
         "id": "B",
-        "text": "province"
+        "text": "barangay"
       },
       {
         "id": "C",
-        "text": "city"
+        "text": "province"
       },
       {
         "id": "D",
-        "text": "Congress"
+        "text": "city"
       }
     ],
     "correctChoiceId": "A",
@@ -1909,15 +1909,15 @@
       },
       {
         "id": "B",
-        "text": "city"
+        "text": "barangay"
       },
       {
         "id": "C",
-        "text": "Congress"
+        "text": "municipality"
       },
       {
         "id": "D",
-        "text": "Supreme Court"
+        "text": "city"
       }
     ],
     "correctChoiceId": "A",
@@ -1934,15 +1934,15 @@
       },
       {
         "id": "B",
-        "text": "Congress"
+        "text": "barangay"
       },
       {
         "id": "C",
-        "text": "Supreme Court"
+        "text": "municipality"
       },
       {
         "id": "D",
-        "text": "President"
+        "text": "province"
       }
     ],
     "correctChoiceId": "A",
@@ -1984,15 +1984,15 @@
       },
       {
         "id": "B",
-        "text": "President"
+        "text": "Congress"
       },
       {
         "id": "C",
-        "text": "Vice President"
+        "text": "President"
       },
       {
         "id": "D",
-        "text": "Ombudsman"
+        "text": "Vice President"
       }
     ],
     "correctChoiceId": "A",
@@ -2009,15 +2009,15 @@
       },
       {
         "id": "B",
-        "text": "Vice President"
+        "text": "Congress"
       },
       {
         "id": "C",
-        "text": "Ombudsman"
+        "text": "Supreme Court"
       },
       {
         "id": "D",
-        "text": "Code of Conduct"
+        "text": "Vice President"
       }
     ],
     "correctChoiceId": "A",
@@ -2034,15 +2034,15 @@
       },
       {
         "id": "B",
-        "text": "Ombudsman"
+        "text": "Congress"
       },
       {
         "id": "C",
-        "text": "Code of Conduct"
+        "text": "Supreme Court"
       },
       {
         "id": "D",
-        "text": "chain of command"
+        "text": "President"
       }
     ],
     "correctChoiceId": "A",
@@ -2059,15 +2059,15 @@
       },
       {
         "id": "B",
-        "text": "Code of Conduct"
+        "text": "Congress"
       },
       {
         "id": "C",
-        "text": "chain of command"
+        "text": "Supreme Court"
       },
       {
         "id": "D",
-        "text": "delegation"
+        "text": "President"
       }
     ],
     "correctChoiceId": "A",
@@ -2084,15 +2084,15 @@
       },
       {
         "id": "B",
-        "text": "chain of command"
+        "text": "oath of office"
       },
       {
         "id": "C",
-        "text": "delegation"
+        "text": "employee handbook"
       },
       {
         "id": "D",
-        "text": "coordination"
+        "text": "office order"
       }
     ],
     "correctChoiceId": "A",
@@ -2109,15 +2109,15 @@
       },
       {
         "id": "B",
-        "text": "delegation"
+        "text": "Code of Conduct"
       },
       {
         "id": "C",
-        "text": "coordination"
+        "text": "delegation"
       },
       {
         "id": "D",
-        "text": "planning"
+        "text": "coordination"
       }
     ],
     "correctChoiceId": "A",
@@ -2134,15 +2134,15 @@
       },
       {
         "id": "B",
-        "text": "coordination"
+        "text": "Code of Conduct"
       },
       {
         "id": "C",
-        "text": "planning"
+        "text": "chain of command"
       },
       {
         "id": "D",
-        "text": "evaluation"
+        "text": "coordination"
       }
     ],
     "correctChoiceId": "A",
@@ -2159,15 +2159,15 @@
       },
       {
         "id": "B",
-        "text": "planning"
+        "text": "Code of Conduct"
       },
       {
         "id": "C",
-        "text": "evaluation"
+        "text": "chain of command"
       },
       {
         "id": "D",
-        "text": "monitoring"
+        "text": "delegation"
       }
     ],
     "correctChoiceId": "A",
@@ -2184,15 +2184,15 @@
       },
       {
         "id": "B",
-        "text": "evaluation"
+        "text": "coordination"
       },
       {
         "id": "C",
-        "text": "monitoring"
+        "text": "evaluation"
       },
       {
         "id": "D",
-        "text": "procurement"
+        "text": "monitoring"
       }
     ],
     "correctChoiceId": "A",
@@ -2209,15 +2209,15 @@
       },
       {
         "id": "B",
-        "text": "monitoring"
+        "text": "planning"
       },
       {
         "id": "C",
-        "text": "procurement"
+        "text": "monitoring"
       },
       {
         "id": "D",
-        "text": "bidding"
+        "text": "coordination"
       }
     ],
     "correctChoiceId": "A",
@@ -2234,15 +2234,15 @@
       },
       {
         "id": "B",
-        "text": "procurement"
+        "text": "evaluation"
       },
       {
         "id": "C",
-        "text": "bidding"
+        "text": "planning"
       },
       {
         "id": "D",
-        "text": "canvass"
+        "text": "coordination"
       }
     ],
     "correctChoiceId": "A",
@@ -2263,11 +2263,11 @@
       },
       {
         "id": "C",
-        "text": "canvass"
+        "text": "canvassing"
       },
       {
         "id": "D",
-        "text": "petty cash"
+        "text": "purchase order"
       }
     ],
     "correctChoiceId": "A",
@@ -2284,15 +2284,15 @@
       },
       {
         "id": "B",
-        "text": "canvass"
+        "text": "canvassing"
       },
       {
         "id": "C",
-        "text": "petty cash"
+        "text": "direct purchase"
       },
       {
         "id": "D",
-        "text": "liquidation"
+        "text": "emergency purchase"
       }
     ],
     "correctChoiceId": "A",
@@ -2309,15 +2309,15 @@
       },
       {
         "id": "B",
-        "text": "petty cash"
+        "text": "bidding"
       },
       {
         "id": "C",
-        "text": "liquidation"
+        "text": "procurement"
       },
       {
         "id": "D",
-        "text": "appropriation"
+        "text": "price quotation"
       }
     ],
     "correctChoiceId": "A",
@@ -2334,15 +2334,15 @@
       },
       {
         "id": "B",
-        "text": "liquidation"
+        "text": "cash advance"
       },
       {
         "id": "C",
-        "text": "appropriation"
+        "text": "revolving fund"
       },
       {
         "id": "D",
-        "text": "budget"
+        "text": "appropriation"
       }
     ],
     "correctChoiceId": "A",
@@ -2359,15 +2359,15 @@
       },
       {
         "id": "B",
-        "text": "appropriation"
+        "text": "petty cash"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "cash advance"
       },
       {
         "id": "D",
-        "text": "audit"
+        "text": "reimbursement"
       }
     ],
     "correctChoiceId": "A",
@@ -2388,11 +2388,11 @@
       },
       {
         "id": "C",
-        "text": "audit"
+        "text": "allotment"
       },
       {
         "id": "D",
-        "text": "asset"
+        "text": "revenue"
       }
     ],
     "correctChoiceId": "A",
@@ -2409,15 +2409,15 @@
       },
       {
         "id": "B",
-        "text": "audit"
+        "text": "appropriation"
       },
       {
         "id": "C",
-        "text": "asset"
+        "text": "revenue"
       },
       {
         "id": "D",
-        "text": "liability"
+        "text": "expenditure"
       }
     ],
     "correctChoiceId": "A",
@@ -2434,15 +2434,15 @@
       },
       {
         "id": "B",
-        "text": "asset"
+        "text": "budget"
       },
       {
         "id": "C",
-        "text": "liability"
+        "text": "liquidation"
       },
       {
         "id": "D",
-        "text": "revenue"
+        "text": "appropriation"
       }
     ],
     "correctChoiceId": "A",
@@ -2467,7 +2467,7 @@
       },
       {
         "id": "D",
-        "text": "expenditure"
+        "text": "property"
       }
     ],
     "correctChoiceId": "A",
@@ -2484,15 +2484,15 @@
       },
       {
         "id": "B",
-        "text": "revenue"
+        "text": "asset"
       },
       {
         "id": "C",
-        "text": "expenditure"
+        "text": "revenue"
       },
       {
         "id": "D",
-        "text": "cashier"
+        "text": "expenditure"
       }
     ],
     "correctChoiceId": "A",
@@ -2509,15 +2509,15 @@
       },
       {
         "id": "B",
-        "text": "expenditure"
+        "text": "asset"
       },
       {
         "id": "C",
-        "text": "cashier"
+        "text": "appropriation"
       },
       {
         "id": "D",
-        "text": "clerk"
+        "text": "expenditure"
       }
     ],
     "correctChoiceId": "A",
@@ -2534,15 +2534,15 @@
       },
       {
         "id": "B",
-        "text": "cashier"
+        "text": "revenue"
       },
       {
         "id": "C",
-        "text": "clerk"
+        "text": "liability"
       },
       {
         "id": "D",
-        "text": "record"
+        "text": "appropriation"
       }
     ],
     "correctChoiceId": "A",
@@ -2559,15 +2559,15 @@
       },
       {
         "id": "B",
-        "text": "clerk"
+        "text": "treasurer"
       },
       {
         "id": "C",
-        "text": "record"
+        "text": "accountant"
       },
       {
         "id": "D",
-        "text": "hard copy"
+        "text": "clerk"
       }
     ],
     "correctChoiceId": "A",
@@ -2584,15 +2584,15 @@
       },
       {
         "id": "B",
-        "text": "record"
+        "text": "cashier"
       },
       {
         "id": "C",
-        "text": "hard copy"
+        "text": "records officer"
       },
       {
         "id": "D",
-        "text": "soft copy"
+        "text": "secretary"
       }
     ],
     "correctChoiceId": "A",
@@ -2609,15 +2609,15 @@
       },
       {
         "id": "B",
-        "text": "hard copy"
+        "text": "file"
       },
       {
         "id": "C",
-        "text": "soft copy"
+        "text": "document"
       },
       {
         "id": "D",
-        "text": "email"
+        "text": "archive"
       }
     ],
     "correctChoiceId": "A",
@@ -2638,11 +2638,11 @@
       },
       {
         "id": "C",
-        "text": "email"
+        "text": "electronic file"
       },
       {
         "id": "D",
-        "text": "subject line"
+        "text": "email"
       }
     ],
     "correctChoiceId": "A",
@@ -2659,15 +2659,15 @@
       },
       {
         "id": "B",
-        "text": "email"
+        "text": "hard copy"
       },
       {
         "id": "C",
-        "text": "subject line"
+        "text": "printed document"
       },
       {
         "id": "D",
-        "text": "attachment"
+        "text": "paper file"
       }
     ],
     "correctChoiceId": "A",
@@ -2684,15 +2684,15 @@
       },
       {
         "id": "B",
-        "text": "subject line"
+        "text": "memorandum"
       },
       {
         "id": "C",
-        "text": "attachment"
+        "text": "letter"
       },
       {
         "id": "D",
-        "text": "spreadsheet"
+        "text": "transmittal"
       }
     ],
     "correctChoiceId": "A",
@@ -2713,11 +2713,11 @@
       },
       {
         "id": "C",
-        "text": "spreadsheet"
+        "text": "recipient"
       },
       {
         "id": "D",
-        "text": "word processor"
+        "text": "email body"
       }
     ],
     "correctChoiceId": "A",
@@ -2734,15 +2734,15 @@
       },
       {
         "id": "B",
-        "text": "spreadsheet"
+        "text": "subject line"
       },
       {
         "id": "C",
-        "text": "word processor"
+        "text": "email body"
       },
       {
         "id": "D",
-        "text": "database"
+        "text": "recipient"
       }
     ],
     "correctChoiceId": "A",
@@ -2767,7 +2767,7 @@
       },
       {
         "id": "D",
-        "text": "password"
+        "text": "presentation software"
       }
     ],
     "correctChoiceId": "A",
@@ -2784,15 +2784,15 @@
       },
       {
         "id": "B",
-        "text": "database"
+        "text": "spreadsheet"
       },
       {
         "id": "C",
-        "text": "password"
+        "text": "database"
       },
       {
         "id": "D",
-        "text": "backup"
+        "text": "presentation software"
       }
     ],
     "correctChoiceId": "A",
@@ -2809,15 +2809,15 @@
       },
       {
         "id": "B",
-        "text": "password"
+        "text": "spreadsheet"
       },
       {
         "id": "C",
-        "text": "backup"
+        "text": "word processor"
       },
       {
         "id": "D",
-        "text": "malware"
+        "text": "presentation software"
       }
     ],
     "correctChoiceId": "A",
@@ -2834,15 +2834,15 @@
       },
       {
         "id": "B",
-        "text": "backup"
+        "text": "username"
       },
       {
         "id": "C",
-        "text": "malware"
+        "text": "email address"
       },
       {
         "id": "D",
-        "text": "phishing"
+        "text": "account name"
       }
     ],
     "correctChoiceId": "A",
@@ -2859,15 +2859,15 @@
       },
       {
         "id": "B",
-        "text": "malware"
+        "text": "cache"
       },
       {
         "id": "C",
-        "text": "phishing"
+        "text": "shortcut"
       },
       {
         "id": "D",
-        "text": "firewall"
+        "text": "temporary file"
       }
     ],
     "correctChoiceId": "A",
@@ -2884,11 +2884,11 @@
       },
       {
         "id": "B",
-        "text": "phishing"
+        "text": "firewall"
       },
       {
         "id": "C",
-        "text": "firewall"
+        "text": "antivirus"
       },
       {
         "id": "D",
@@ -2909,15 +2909,15 @@
       },
       {
         "id": "B",
-        "text": "firewall"
+        "text": "malware"
       },
       {
         "id": "C",
-        "text": "encryption"
+        "text": "spam"
       },
       {
         "id": "D",
-        "text": "ergonomics"
+        "text": "firewall"
       }
     ],
     "correctChoiceId": "A",
@@ -2934,15 +2934,15 @@
       },
       {
         "id": "B",
-        "text": "encryption"
+        "text": "antivirus"
       },
       {
         "id": "C",
-        "text": "ergonomics"
+        "text": "encryption"
       },
       {
         "id": "D",
-        "text": "deadline"
+        "text": "password"
       }
     ],
     "correctChoiceId": "A",
@@ -2959,15 +2959,15 @@
       },
       {
         "id": "B",
-        "text": "ergonomics"
+        "text": "firewall"
       },
       {
         "id": "C",
-        "text": "deadline"
+        "text": "backup"
       },
       {
         "id": "D",
-        "text": "itinerary"
+        "text": "antivirus"
       }
     ],
     "correctChoiceId": "A",
@@ -2984,15 +2984,15 @@
       },
       {
         "id": "B",
-        "text": "deadline"
+        "text": "occupational safety"
       },
       {
         "id": "C",
-        "text": "itinerary"
+        "text": "workstation design"
       },
       {
         "id": "D",
-        "text": "appointment"
+        "text": "office layout"
       }
     ],
     "correctChoiceId": "A",
@@ -3009,15 +3009,15 @@
       },
       {
         "id": "B",
-        "text": "itinerary"
+        "text": "schedule"
       },
       {
         "id": "C",
-        "text": "appointment"
+        "text": "itinerary"
       },
       {
         "id": "D",
-        "text": "promotion"
+        "text": "appointment"
       }
     ],
     "correctChoiceId": "A",
@@ -3034,15 +3034,15 @@
       },
       {
         "id": "B",
-        "text": "appointment"
+        "text": "schedule"
       },
       {
         "id": "C",
-        "text": "promotion"
+        "text": "travel order"
       },
       {
         "id": "D",
-        "text": "resignation"
+        "text": "appointment"
       }
     ],
     "correctChoiceId": "A",
@@ -3063,11 +3063,11 @@
       },
       {
         "id": "C",
-        "text": "resignation"
+        "text": "designation"
       },
       {
         "id": "D",
-        "text": "leave"
+        "text": "assignment"
       }
     ],
     "correctChoiceId": "A",
@@ -3084,15 +3084,15 @@
       },
       {
         "id": "B",
-        "text": "resignation"
+        "text": "appointment"
       },
       {
         "id": "C",
-        "text": "leave"
+        "text": "transfer"
       },
       {
         "id": "D",
-        "text": "overtime"
+        "text": "reassignment"
       }
     ],
     "correctChoiceId": "A",
@@ -3109,15 +3109,15 @@
       },
       {
         "id": "B",
-        "text": "leave"
+        "text": "termination"
       },
       {
         "id": "C",
-        "text": "overtime"
+        "text": "retirement"
       },
       {
         "id": "D",
-        "text": "attendance"
+        "text": "leave"
       }
     ],
     "correctChoiceId": "A",
@@ -3138,11 +3138,11 @@
       },
       {
         "id": "C",
-        "text": "attendance"
+        "text": "resignation"
       },
       {
         "id": "D",
-        "text": "punctuality"
+        "text": "attendance"
       }
     ],
     "correctChoiceId": "A",
@@ -3159,15 +3159,15 @@
       },
       {
         "id": "B",
-        "text": "attendance"
+        "text": "leave"
       },
       {
         "id": "C",
-        "text": "punctuality"
+        "text": "attendance"
       },
       {
         "id": "D",
-        "text": "professionalism"
+        "text": "undertime"
       }
     ],
     "correctChoiceId": "A",
@@ -3188,11 +3188,11 @@
       },
       {
         "id": "C",
-        "text": "professionalism"
+        "text": "leave"
       },
       {
         "id": "D",
-        "text": "courtesy"
+        "text": "overtime"
       }
     ],
     "correctChoiceId": "A",
@@ -3234,15 +3234,15 @@
       },
       {
         "id": "B",
-        "text": "courtesy"
+        "text": "punctuality"
       },
       {
         "id": "C",
-        "text": "integrity"
+        "text": "courtesy"
       },
       {
         "id": "D",
-        "text": "impartiality"
+        "text": "integrity"
       }
     ],
     "correctChoiceId": "A",
@@ -3259,15 +3259,15 @@
       },
       {
         "id": "B",
-        "text": "integrity"
+        "text": "punctuality"
       },
       {
         "id": "C",
-        "text": "impartiality"
+        "text": "professionalism"
       },
       {
         "id": "D",
-        "text": "efficiency"
+        "text": "integrity"
       }
     ],
     "correctChoiceId": "A",
@@ -3284,15 +3284,15 @@
       },
       {
         "id": "B",
-        "text": "impartiality"
+        "text": "punctuality"
       },
       {
         "id": "C",
-        "text": "efficiency"
+        "text": "professionalism"
       },
       {
         "id": "D",
-        "text": "effectiveness"
+        "text": "courtesy"
       }
     ],
     "correctChoiceId": "A",
@@ -3309,15 +3309,15 @@
       },
       {
         "id": "B",
-        "text": "efficiency"
+        "text": "integrity"
       },
       {
         "id": "C",
-        "text": "effectiveness"
+        "text": "courtesy"
       },
       {
         "id": "D",
-        "text": "service orientation"
+        "text": "professionalism"
       }
     ],
     "correctChoiceId": "A",
@@ -3338,11 +3338,11 @@
       },
       {
         "id": "C",
-        "text": "service orientation"
+        "text": "productivity"
       },
       {
         "id": "D",
-        "text": "client feedback"
+        "text": "economy"
       }
     ],
     "correctChoiceId": "A",
@@ -3359,15 +3359,15 @@
       },
       {
         "id": "B",
-        "text": "service orientation"
+        "text": "efficiency"
       },
       {
         "id": "C",
-        "text": "client feedback"
+        "text": "productivity"
       },
       {
         "id": "D",
-        "text": "frontline service"
+        "text": "performance"
       }
     ],
     "correctChoiceId": "A",
@@ -3384,15 +3384,15 @@
       },
       {
         "id": "B",
-        "text": "client feedback"
-      },
-      {
-        "id": "C",
         "text": "frontline service"
       },
       {
+        "id": "C",
+        "text": "client feedback"
+      },
+      {
         "id": "D",
-        "text": "citizen charter"
+        "text": "courtesy"
       }
     ],
     "correctChoiceId": "A",
@@ -3409,15 +3409,15 @@
       },
       {
         "id": "B",
-        "text": "frontline service"
+        "text": "complaint"
       },
       {
         "id": "C",
-        "text": "citizen charter"
+        "text": "service evaluation"
       },
       {
         "id": "D",
-        "text": "turnaround time"
+        "text": "suggestion"
       }
     ],
     "correctChoiceId": "A",
@@ -3438,11 +3438,11 @@
       },
       {
         "id": "C",
-        "text": "turnaround time"
+        "text": "client feedback"
       },
       {
         "id": "D",
-        "text": "complaint"
+        "text": "service desk"
       }
     ],
     "correctChoiceId": "A",
@@ -3484,15 +3484,15 @@
       },
       {
         "id": "B",
-        "text": "complaint"
+        "text": "citizen charter"
       },
       {
         "id": "C",
-        "text": "grievance"
+        "text": "complaint"
       },
       {
         "id": "D",
-        "text": "mediation"
+        "text": "grievance"
       }
     ],
     "correctChoiceId": "A",
@@ -3509,15 +3509,15 @@
       },
       {
         "id": "B",
-        "text": "grievance"
+        "text": "citizen charter"
       },
       {
         "id": "C",
-        "text": "mediation"
+        "text": "turnaround time"
       },
       {
         "id": "D",
-        "text": "arbitration"
+        "text": "grievance"
       }
     ],
     "correctChoiceId": "A",
@@ -3534,15 +3534,15 @@
       },
       {
         "id": "B",
-        "text": "mediation"
+        "text": "citizen charter"
       },
       {
         "id": "C",
-        "text": "arbitration"
+        "text": "turnaround time"
       },
       {
         "id": "D",
-        "text": "jurisdiction"
+        "text": "complaint"
       }
     ],
     "correctChoiceId": "A",
@@ -3563,11 +3563,11 @@
       },
       {
         "id": "C",
-        "text": "jurisdiction"
+        "text": "conciliation"
       },
       {
         "id": "D",
-        "text": "quorum"
+        "text": "negotiation"
       }
     ],
     "correctChoiceId": "A",
@@ -3584,15 +3584,15 @@
       },
       {
         "id": "B",
-        "text": "jurisdiction"
+        "text": "mediation"
       },
       {
         "id": "C",
-        "text": "quorum"
+        "text": "conciliation"
       },
       {
         "id": "D",
-        "text": "majority"
+        "text": "negotiation"
       }
     ],
     "correctChoiceId": "A",
@@ -3634,15 +3634,15 @@
       },
       {
         "id": "B",
-        "text": "majority"
+        "text": "jurisdiction"
       },
       {
         "id": "C",
-        "text": "plurality"
+        "text": "majority"
       },
       {
         "id": "D",
-        "text": "plebiscite"
+        "text": "plurality"
       }
     ],
     "correctChoiceId": "A",
@@ -3659,15 +3659,15 @@
       },
       {
         "id": "B",
-        "text": "plurality"
+        "text": "jurisdiction"
       },
       {
         "id": "C",
-        "text": "plebiscite"
+        "text": "quorum"
       },
       {
         "id": "D",
-        "text": "referendum"
+        "text": "plurality"
       }
     ],
     "correctChoiceId": "A",
@@ -3684,15 +3684,15 @@
       },
       {
         "id": "B",
-        "text": "plebiscite"
+        "text": "jurisdiction"
       },
       {
         "id": "C",
-        "text": "referendum"
+        "text": "quorum"
       },
       {
         "id": "D",
-        "text": "initiative"
+        "text": "majority"
       }
     ],
     "correctChoiceId": "A",
@@ -3734,15 +3734,15 @@
       },
       {
         "id": "B",
-        "text": "initiative"
+        "text": "plebiscite"
       },
       {
         "id": "C",
-        "text": "recall"
+        "text": "initiative"
       },
       {
         "id": "D",
-        "text": "suffrage"
+        "text": "recall"
       }
     ],
     "correctChoiceId": "A",
@@ -3759,15 +3759,15 @@
       },
       {
         "id": "B",
-        "text": "recall"
+        "text": "referendum"
       },
       {
         "id": "C",
-        "text": "suffrage"
+        "text": "plebiscite"
       },
       {
         "id": "D",
-        "text": "citizenship"
+        "text": "recall"
       }
     ],
     "correctChoiceId": "A",
@@ -3784,15 +3784,15 @@
       },
       {
         "id": "B",
-        "text": "suffrage"
+        "text": "initiative"
       },
       {
         "id": "C",
-        "text": "citizenship"
+        "text": "referendum"
       },
       {
         "id": "D",
-        "text": "natural-born citizen"
+        "text": "plebiscite"
       }
     ],
     "correctChoiceId": "A",
@@ -3813,11 +3813,11 @@
       },
       {
         "id": "C",
-        "text": "natural-born citizen"
+        "text": "plebiscite"
       },
       {
         "id": "D",
-        "text": "civil service"
+        "text": "referendum"
       }
     ],
     "correctChoiceId": "A",
@@ -3834,15 +3834,15 @@
       },
       {
         "id": "B",
-        "text": "natural-born citizen"
+        "text": "suffrage"
       },
       {
         "id": "C",
-        "text": "civil service"
+        "text": "naturalization"
       },
       {
         "id": "D",
-        "text": "merit system"
+        "text": "residency"
       }
     ],
     "correctChoiceId": "A",
@@ -3859,15 +3859,15 @@
       },
       {
         "id": "B",
-        "text": "civil service"
+        "text": "naturalized citizen"
       },
       {
         "id": "C",
-        "text": "merit system"
+        "text": "dual citizen"
       },
       {
         "id": "D",
-        "text": "nepotism"
+        "text": "resident alien"
       }
     ],
     "correctChoiceId": "A",
@@ -3909,15 +3909,15 @@
       },
       {
         "id": "B",
-        "text": "nepotism"
+        "text": "civil service"
       },
       {
         "id": "C",
-        "text": "conflict of interest"
+        "text": "nepotism"
       },
       {
         "id": "D",
-        "text": "red tape"
+        "text": "conflict of interest"
       }
     ],
     "correctChoiceId": "A",
@@ -3934,15 +3934,15 @@
       },
       {
         "id": "B",
-        "text": "conflict of interest"
+        "text": "civil service"
       },
       {
         "id": "C",
-        "text": "red tape"
+        "text": "merit system"
       },
       {
         "id": "D",
-        "text": "streamlining"
+        "text": "conflict of interest"
       }
     ],
     "correctChoiceId": "A",
@@ -3959,15 +3959,15 @@
       },
       {
         "id": "B",
-        "text": "red tape"
+        "text": "civil service"
       },
       {
         "id": "C",
-        "text": "streamlining"
+        "text": "merit system"
       },
       {
         "id": "D",
-        "text": "records disposal"
+        "text": "nepotism"
       }
     ],
     "correctChoiceId": "A",
@@ -3988,11 +3988,11 @@
       },
       {
         "id": "C",
-        "text": "records disposal"
+        "text": "bureaucracy"
       },
       {
         "id": "D",
-        "text": "data privacy"
+        "text": "delay"
       }
     ],
     "correctChoiceId": "A",
@@ -4009,15 +4009,15 @@
       },
       {
         "id": "B",
-        "text": "records disposal"
+        "text": "red tape"
       },
       {
         "id": "C",
-        "text": "data privacy"
+        "text": "simplification"
       },
       {
         "id": "D",
-        "text": "public bidding"
+        "text": "automation"
       }
     ],
     "correctChoiceId": "A",
@@ -4034,15 +4034,15 @@
       },
       {
         "id": "B",
-        "text": "data privacy"
+        "text": "archiving"
       },
       {
         "id": "C",
-        "text": "public bidding"
+        "text": "filing"
       },
       {
         "id": "D",
-        "text": "canvassing"
+        "text": "records retention"
       }
     ],
     "correctChoiceId": "A",
@@ -4059,15 +4059,15 @@
       },
       {
         "id": "B",
-        "text": "public bidding"
+        "text": "confidentiality"
       },
       {
         "id": "C",
-        "text": "canvassing"
+        "text": "encryption"
       },
       {
         "id": "D",
-        "text": "emergency purchase"
+        "text": "records disposal"
       }
     ],
     "correctChoiceId": "A",
@@ -4109,15 +4109,15 @@
       },
       {
         "id": "B",
-        "text": "emergency purchase"
+        "text": "public bidding"
       },
       {
         "id": "C",
-        "text": "supply officer"
+        "text": "emergency purchase"
       },
       {
         "id": "D",
-        "text": "property custodian"
+        "text": "supply officer"
       }
     ],
     "correctChoiceId": "A",
@@ -4134,15 +4134,15 @@
       },
       {
         "id": "B",
-        "text": "supply officer"
+        "text": "public bidding"
       },
       {
         "id": "C",
-        "text": "property custodian"
+        "text": "canvassing"
       },
       {
         "id": "D",
-        "text": "travel order"
+        "text": "supply officer"
       }
     ],
     "correctChoiceId": "A",
@@ -4163,11 +4163,11 @@
       },
       {
         "id": "C",
-        "text": "travel order"
+        "text": "procurement officer"
       },
       {
         "id": "D",
-        "text": "office order"
+        "text": "cashier"
       }
     ],
     "correctChoiceId": "A",
@@ -4184,15 +4184,15 @@
       },
       {
         "id": "B",
-        "text": "travel order"
+        "text": "supply officer"
       },
       {
         "id": "C",
-        "text": "office order"
+        "text": "accountable officer"
       },
       {
         "id": "D",
-        "text": "transmittal"
+        "text": "procurement officer"
       }
     ],
     "correctChoiceId": "A",
@@ -4213,11 +4213,11 @@
       },
       {
         "id": "C",
-        "text": "transmittal"
+        "text": "itinerary"
       },
       {
         "id": "D",
-        "text": "endorsement"
+        "text": "clearance"
       }
     ],
     "correctChoiceId": "A",
@@ -4234,15 +4234,15 @@
       },
       {
         "id": "B",
-        "text": "transmittal"
+        "text": "memorandum"
       },
       {
         "id": "C",
-        "text": "endorsement"
+        "text": "travel order"
       },
       {
         "id": "D",
-        "text": "certification"
+        "text": "circular"
       }
     ],
     "correctChoiceId": "A",
@@ -4263,11 +4263,11 @@
       },
       {
         "id": "C",
-        "text": "certification"
+        "text": "memorandum"
       },
       {
         "id": "D",
-        "text": "clearance"
+        "text": "cover letter"
       }
     ],
     "correctChoiceId": "A",
@@ -4284,15 +4284,15 @@
       },
       {
         "id": "B",
-        "text": "certification"
+        "text": "transmittal"
       },
       {
         "id": "C",
-        "text": "clearance"
+        "text": "certification"
       },
       {
         "id": "D",
-        "text": "agenda"
+        "text": "memorandum"
       }
     ],
     "correctChoiceId": "A",
@@ -4313,11 +4313,11 @@
       },
       {
         "id": "C",
-        "text": "agenda"
+        "text": "endorsement"
       },
       {
         "id": "D",
-        "text": "minutes"
+        "text": "memorandum"
       }
     ],
     "correctChoiceId": "A",
@@ -4334,15 +4334,15 @@
       },
       {
         "id": "B",
-        "text": "agenda"
+        "text": "certification"
       },
       {
         "id": "C",
-        "text": "minutes"
+        "text": "travel order"
       },
       {
         "id": "D",
-        "text": "memorandum"
+        "text": "endorsement"
       }
     ],
     "correctChoiceId": "A",
