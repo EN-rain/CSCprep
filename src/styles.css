@@ -1243,6 +1243,11 @@ h2 {
     min-width: 0;
   }
 
+  .exam-header__actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .history-tools {
     justify-content: stretch;
   }
@@ -1270,6 +1275,16 @@ h2 {
   .results-hero__actions .theme-toggle {
     width: 100%;
     justify-content: center;
+  }
+
+  .exam-header__actions .button {
+    min-width: 0;
+    padding-inline: 8px;
+    white-space: nowrap;
+  }
+
+  .exam-header__actions .timer-pill {
+    grid-column: 1 / -1;
   }
 
   .skipped-panel__actions .button,
