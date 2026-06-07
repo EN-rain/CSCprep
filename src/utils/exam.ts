@@ -118,7 +118,7 @@ function getSessionTitle(mode: ExamMode): string {
 }
 
 function preservesChoiceOrder(question: Question): boolean {
-  return Boolean(question.image) || question.prompt.trim().startsWith('Which term refers to ')
+  return Boolean(question.image)
 }
 
 export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = false): ExamSession {

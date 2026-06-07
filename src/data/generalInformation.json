@@ -1359,15 +1359,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "minutes"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "memorandum"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "resolution"
       }
     ],
     "correctChoiceId": "A",
@@ -1388,7 +1388,7 @@
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "resolution"
       },
       {
         "id": "D",
@@ -1409,7 +1409,7 @@
       },
       {
         "id": "B",
-        "text": "budget"
+        "text": "resolution"
       },
       {
         "id": "C",
@@ -1417,7 +1417,7 @@
       },
       {
         "id": "D",
-        "text": "inventory"
+        "text": "invoice"
       }
     ],
     "correctChoiceId": "A",
@@ -1434,15 +1434,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "ordinance"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "invoice"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "receipt"
       }
     ],
     "correctChoiceId": "A",
@@ -1459,15 +1459,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "invoice"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "receipt"
       },
       {
         "id": "D",
-        "text": "inventory"
+        "text": "voucher"
       }
     ],
     "correctChoiceId": "A",
@@ -1484,15 +1484,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "receipt"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "voucher"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "purchase order"
       }
     ],
     "correctChoiceId": "A",
@@ -1509,15 +1509,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "voucher"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "purchase order"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "requisition"
       }
     ],
     "correctChoiceId": "A",
@@ -1534,15 +1534,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "purchase order"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "requisition"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "inventory"
       }
     ],
     "correctChoiceId": "A",
@@ -1559,15 +1559,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "requisition"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "inventory"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "filing"
       }
     ],
     "correctChoiceId": "A",
@@ -1584,15 +1584,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "inventory"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "filing"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "indexing"
       }
     ],
     "correctChoiceId": "A",
@@ -1609,15 +1609,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "filing"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "indexing"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "archiving"
       }
     ],
     "correctChoiceId": "A",
@@ -1634,15 +1634,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "indexing"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "archiving"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "confidentiality"
       }
     ],
     "correctChoiceId": "A",
@@ -1659,15 +1659,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "archiving"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "confidentiality"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "accountability"
       }
     ],
     "correctChoiceId": "A",
@@ -1684,15 +1684,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "confidentiality"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "accountability"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "transparency"
       }
     ],
     "correctChoiceId": "A",
@@ -1709,15 +1709,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "accountability"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "transparency"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "due process"
       }
     ],
     "correctChoiceId": "A",
@@ -1734,15 +1734,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "transparency"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "due process"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "equal protection"
       }
     ],
     "correctChoiceId": "A",
@@ -1759,15 +1759,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "due process"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "equal protection"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "public office"
       }
     ],
     "correctChoiceId": "A",
@@ -1784,15 +1784,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "equal protection"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "public office"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "barangay"
       }
     ],
     "correctChoiceId": "A",
@@ -1809,15 +1809,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "public office"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "barangay"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "municipality"
       }
     ],
     "correctChoiceId": "A",
@@ -1834,15 +1834,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "barangay"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "municipality"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "province"
       }
     ],
     "correctChoiceId": "A",
@@ -1859,15 +1859,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "municipality"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "province"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "city"
       }
     ],
     "correctChoiceId": "A",
@@ -1884,15 +1884,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "province"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "city"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "Congress"
       }
     ],
     "correctChoiceId": "A",
@@ -1909,15 +1909,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "city"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "Congress"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "Supreme Court"
       }
     ],
     "correctChoiceId": "A",
@@ -1934,15 +1934,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "Congress"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "Supreme Court"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "President"
       }
     ],
     "correctChoiceId": "A",
@@ -1959,15 +1959,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "Supreme Court"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "President"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "Vice President"
       }
     ],
     "correctChoiceId": "A",
@@ -1984,15 +1984,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "President"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "Vice President"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "Ombudsman"
       }
     ],
     "correctChoiceId": "A",
@@ -2009,15 +2009,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "Vice President"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "Ombudsman"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "Code of Conduct"
       }
     ],
     "correctChoiceId": "A",
@@ -2034,15 +2034,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "Ombudsman"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "Code of Conduct"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "chain of command"
       }
     ],
     "correctChoiceId": "A",
@@ -2059,15 +2059,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "Code of Conduct"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "chain of command"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "delegation"
       }
     ],
     "correctChoiceId": "A",
@@ -2084,15 +2084,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "chain of command"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "delegation"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "coordination"
       }
     ],
     "correctChoiceId": "A",
@@ -2109,15 +2109,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "delegation"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "coordination"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "planning"
       }
     ],
     "correctChoiceId": "A",
@@ -2134,15 +2134,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "coordination"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "planning"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "evaluation"
       }
     ],
     "correctChoiceId": "A",
@@ -2159,15 +2159,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "planning"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "evaluation"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "monitoring"
       }
     ],
     "correctChoiceId": "A",
@@ -2184,15 +2184,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "evaluation"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "monitoring"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "procurement"
       }
     ],
     "correctChoiceId": "A",
@@ -2209,15 +2209,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "monitoring"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "procurement"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "bidding"
       }
     ],
     "correctChoiceId": "A",
@@ -2234,15 +2234,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "procurement"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "bidding"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "canvass"
       }
     ],
     "correctChoiceId": "A",
@@ -2259,15 +2259,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "bidding"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "canvass"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "petty cash"
       }
     ],
     "correctChoiceId": "A",
@@ -2284,15 +2284,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "canvass"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "petty cash"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "liquidation"
       }
     ],
     "correctChoiceId": "A",
@@ -2309,15 +2309,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "petty cash"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "liquidation"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "appropriation"
       }
     ],
     "correctChoiceId": "A",
@@ -2334,15 +2334,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "liquidation"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "appropriation"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "budget"
       }
     ],
     "correctChoiceId": "A",
@@ -2359,7 +2359,7 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "appropriation"
       },
       {
         "id": "C",
@@ -2367,7 +2367,7 @@
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "audit"
       }
     ],
     "correctChoiceId": "A",
@@ -2384,15 +2384,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
-      },
-      {
-        "id": "C",
         "text": "budget"
       },
       {
+        "id": "C",
+        "text": "audit"
+      },
+      {
         "id": "D",
-        "text": "ordinance"
+        "text": "asset"
       }
     ],
     "correctChoiceId": "A",
@@ -2409,15 +2409,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "audit"
       },
       {
         "id": "C",
-        "text": "ordinance"
+        "text": "asset"
       },
       {
         "id": "D",
-        "text": "inventory"
+        "text": "liability"
       }
     ],
     "correctChoiceId": "A",
@@ -2434,15 +2434,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "asset"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "liability"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "revenue"
       }
     ],
     "correctChoiceId": "A",
@@ -2459,15 +2459,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "liability"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "revenue"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "expenditure"
       }
     ],
     "correctChoiceId": "A",
@@ -2484,15 +2484,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "revenue"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "expenditure"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "cashier"
       }
     ],
     "correctChoiceId": "A",
@@ -2509,15 +2509,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "expenditure"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "cashier"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "clerk"
       }
     ],
     "correctChoiceId": "A",
@@ -2534,15 +2534,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "cashier"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "clerk"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "record"
       }
     ],
     "correctChoiceId": "A",
@@ -2559,15 +2559,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "clerk"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "record"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "hard copy"
       }
     ],
     "correctChoiceId": "A",
@@ -2584,15 +2584,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "record"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "hard copy"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "soft copy"
       }
     ],
     "correctChoiceId": "A",
@@ -2609,15 +2609,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "hard copy"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "soft copy"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "email"
       }
     ],
     "correctChoiceId": "A",
@@ -2634,15 +2634,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "soft copy"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "email"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "subject line"
       }
     ],
     "correctChoiceId": "A",
@@ -2659,15 +2659,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "email"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "subject line"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "attachment"
       }
     ],
     "correctChoiceId": "A",
@@ -2684,15 +2684,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "subject line"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "attachment"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "spreadsheet"
       }
     ],
     "correctChoiceId": "A",
@@ -2709,15 +2709,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "attachment"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "spreadsheet"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "word processor"
       }
     ],
     "correctChoiceId": "A",
@@ -2734,15 +2734,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "spreadsheet"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "word processor"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "database"
       }
     ],
     "correctChoiceId": "A",
@@ -2759,15 +2759,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "word processor"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "database"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "password"
       }
     ],
     "correctChoiceId": "A",
@@ -2784,15 +2784,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "database"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "password"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "backup"
       }
     ],
     "correctChoiceId": "A",
@@ -2809,15 +2809,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "password"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "backup"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "malware"
       }
     ],
     "correctChoiceId": "A",
@@ -2834,15 +2834,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "backup"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "malware"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "phishing"
       }
     ],
     "correctChoiceId": "A",
@@ -2859,15 +2859,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "malware"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "phishing"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "firewall"
       }
     ],
     "correctChoiceId": "A",
@@ -2884,15 +2884,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "phishing"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "firewall"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "encryption"
       }
     ],
     "correctChoiceId": "A",
@@ -2909,15 +2909,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "firewall"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "encryption"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "ergonomics"
       }
     ],
     "correctChoiceId": "A",
@@ -2934,15 +2934,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "encryption"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "ergonomics"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "deadline"
       }
     ],
     "correctChoiceId": "A",
@@ -2959,15 +2959,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "ergonomics"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "deadline"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "itinerary"
       }
     ],
     "correctChoiceId": "A",
@@ -2984,15 +2984,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "deadline"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "itinerary"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "appointment"
       }
     ],
     "correctChoiceId": "A",
@@ -3009,15 +3009,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "itinerary"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "appointment"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "promotion"
       }
     ],
     "correctChoiceId": "A",
@@ -3034,15 +3034,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "appointment"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "promotion"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "resignation"
       }
     ],
     "correctChoiceId": "A",
@@ -3059,15 +3059,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "promotion"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "resignation"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "leave"
       }
     ],
     "correctChoiceId": "A",
@@ -3084,15 +3084,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "resignation"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "leave"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "overtime"
       }
     ],
     "correctChoiceId": "A",
@@ -3109,15 +3109,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "leave"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "overtime"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "attendance"
       }
     ],
     "correctChoiceId": "A",
@@ -3134,15 +3134,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "overtime"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "attendance"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "punctuality"
       }
     ],
     "correctChoiceId": "A",
@@ -3159,15 +3159,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "attendance"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "punctuality"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "professionalism"
       }
     ],
     "correctChoiceId": "A",
@@ -3184,15 +3184,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "punctuality"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "professionalism"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "courtesy"
       }
     ],
     "correctChoiceId": "A",
@@ -3209,15 +3209,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "professionalism"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "courtesy"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "integrity"
       }
     ],
     "correctChoiceId": "A",
@@ -3234,15 +3234,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "courtesy"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "integrity"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "impartiality"
       }
     ],
     "correctChoiceId": "A",
@@ -3259,15 +3259,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "integrity"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "impartiality"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "efficiency"
       }
     ],
     "correctChoiceId": "A",
@@ -3284,15 +3284,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "impartiality"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "efficiency"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "effectiveness"
       }
     ],
     "correctChoiceId": "A",
@@ -3309,15 +3309,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "efficiency"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "effectiveness"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "service orientation"
       }
     ],
     "correctChoiceId": "A",
@@ -3334,15 +3334,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "effectiveness"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "service orientation"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "client feedback"
       }
     ],
     "correctChoiceId": "A",
@@ -3359,15 +3359,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "service orientation"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "client feedback"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "frontline service"
       }
     ],
     "correctChoiceId": "A",
@@ -3384,15 +3384,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "client feedback"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "frontline service"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "citizen charter"
       }
     ],
     "correctChoiceId": "A",
@@ -3409,15 +3409,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "frontline service"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "citizen charter"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "turnaround time"
       }
     ],
     "correctChoiceId": "A",
@@ -3434,15 +3434,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "citizen charter"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "turnaround time"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "complaint"
       }
     ],
     "correctChoiceId": "A",
@@ -3459,15 +3459,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "turnaround time"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "complaint"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "grievance"
       }
     ],
     "correctChoiceId": "A",
@@ -3484,15 +3484,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "complaint"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "grievance"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "mediation"
       }
     ],
     "correctChoiceId": "A",
@@ -3509,15 +3509,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "grievance"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "mediation"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "arbitration"
       }
     ],
     "correctChoiceId": "A",
@@ -3534,15 +3534,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "mediation"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "arbitration"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "jurisdiction"
       }
     ],
     "correctChoiceId": "A",
@@ -3559,15 +3559,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "arbitration"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "jurisdiction"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "quorum"
       }
     ],
     "correctChoiceId": "A",
@@ -3584,15 +3584,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "jurisdiction"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "quorum"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "majority"
       }
     ],
     "correctChoiceId": "A",
@@ -3609,15 +3609,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "quorum"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "majority"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "plurality"
       }
     ],
     "correctChoiceId": "A",
@@ -3634,15 +3634,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "majority"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "plurality"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "plebiscite"
       }
     ],
     "correctChoiceId": "A",
@@ -3659,15 +3659,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "plurality"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "plebiscite"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "referendum"
       }
     ],
     "correctChoiceId": "A",
@@ -3684,15 +3684,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "plebiscite"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "referendum"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "initiative"
       }
     ],
     "correctChoiceId": "A",
@@ -3709,15 +3709,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "referendum"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "initiative"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "recall"
       }
     ],
     "correctChoiceId": "A",
@@ -3734,15 +3734,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "initiative"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "recall"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "suffrage"
       }
     ],
     "correctChoiceId": "A",
@@ -3759,15 +3759,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "recall"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "suffrage"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "citizenship"
       }
     ],
     "correctChoiceId": "A",
@@ -3784,15 +3784,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "suffrage"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "citizenship"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "natural-born citizen"
       }
     ],
     "correctChoiceId": "A",
@@ -3809,15 +3809,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "citizenship"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "natural-born citizen"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "civil service"
       }
     ],
     "correctChoiceId": "A",
@@ -3834,15 +3834,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "natural-born citizen"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "civil service"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "merit system"
       }
     ],
     "correctChoiceId": "A",
@@ -3859,15 +3859,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "civil service"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "merit system"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "nepotism"
       }
     ],
     "correctChoiceId": "A",
@@ -3884,15 +3884,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "merit system"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "nepotism"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "conflict of interest"
       }
     ],
     "correctChoiceId": "A",
@@ -3909,15 +3909,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "nepotism"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "conflict of interest"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "red tape"
       }
     ],
     "correctChoiceId": "A",
@@ -3934,15 +3934,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "conflict of interest"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "red tape"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "streamlining"
       }
     ],
     "correctChoiceId": "A",
@@ -3959,15 +3959,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "red tape"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "streamlining"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "records disposal"
       }
     ],
     "correctChoiceId": "A",
@@ -3984,15 +3984,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "streamlining"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "records disposal"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "data privacy"
       }
     ],
     "correctChoiceId": "A",
@@ -4009,15 +4009,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "records disposal"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "data privacy"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "public bidding"
       }
     ],
     "correctChoiceId": "A",
@@ -4034,15 +4034,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "data privacy"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "public bidding"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "canvassing"
       }
     ],
     "correctChoiceId": "A",
@@ -4059,15 +4059,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "public bidding"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "canvassing"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "emergency purchase"
       }
     ],
     "correctChoiceId": "A",
@@ -4084,15 +4084,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "canvassing"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "emergency purchase"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "supply officer"
       }
     ],
     "correctChoiceId": "A",
@@ -4109,15 +4109,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "emergency purchase"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "supply officer"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "property custodian"
       }
     ],
     "correctChoiceId": "A",
@@ -4134,15 +4134,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "supply officer"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "property custodian"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "travel order"
       }
     ],
     "correctChoiceId": "A",
@@ -4159,15 +4159,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "property custodian"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "travel order"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "office order"
       }
     ],
     "correctChoiceId": "A",
@@ -4184,15 +4184,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "travel order"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "office order"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "transmittal"
       }
     ],
     "correctChoiceId": "A",
@@ -4209,15 +4209,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "office order"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "transmittal"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "endorsement"
       }
     ],
     "correctChoiceId": "A",
@@ -4234,15 +4234,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "transmittal"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "endorsement"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "certification"
       }
     ],
     "correctChoiceId": "A",
@@ -4259,15 +4259,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "endorsement"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "certification"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "clearance"
       }
     ],
     "correctChoiceId": "A",
@@ -4284,15 +4284,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "certification"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "clearance"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "agenda"
       }
     ],
     "correctChoiceId": "A",
@@ -4309,15 +4309,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "clearance"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "agenda"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "minutes"
       }
     ],
     "correctChoiceId": "A",
@@ -4334,15 +4334,15 @@
       },
       {
         "id": "B",
-        "text": "memorandum"
+        "text": "agenda"
       },
       {
         "id": "C",
-        "text": "budget"
+        "text": "minutes"
       },
       {
         "id": "D",
-        "text": "ordinance"
+        "text": "memorandum"
       }
     ],
     "correctChoiceId": "A",
