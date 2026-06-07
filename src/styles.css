@@ -89,7 +89,7 @@ button {
 }
 
 .app-shell {
-  width: min(1180px, calc(100% - 32px));
+  width: min(1440px, calc(100% - 32px));
   margin: 0 auto;
   padding: 32px 0 56px;
 }
@@ -502,7 +502,7 @@ h2 {
 
 .start-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 12px;
 }
 
@@ -570,14 +570,20 @@ h2 {
   position: sticky;
   top: 0;
   z-index: 5;
-  width: calc(100% + 32px);
-  margin-left: -16px;
-  margin-right: -16px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   border-left: 0;
   border-right: 0;
   border-radius: 0;
-  padding-inline: 24px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding-inline: clamp(12px, 3vw, 40px);
   box-shadow: 0 12px 30px rgba(22, 32, 38, 0.07);
+}
+
+.exam-header__summary {
+  min-width: 0;
 }
 
 .exam-header h1,
@@ -589,6 +595,7 @@ h2 {
 .exam-header__summary h1 {
   font-size: clamp(1.05rem, 2vw, 1.45rem);
   line-height: 1.15;
+  overflow-wrap: anywhere;
 }
 
 .exam-title-row {
@@ -604,6 +611,7 @@ h2 {
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
+  min-width: min(100%, 320px);
 }
 
 .exam-header__actions .theme-toggle {
@@ -657,10 +665,12 @@ h2 {
 .exam-meta {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
   gap: 8px;
   margin: 0;
   color: var(--muted);
   font-size: 0.82rem;
+  white-space: nowrap;
 }
 
 .exam-meta strong {
@@ -785,7 +795,7 @@ h2 {
 
 .choice-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
   gap: 10px;
 }
 
@@ -795,7 +805,7 @@ h2 {
 
 .choice {
   display: grid;
-  grid-template-columns: 34px 1fr;
+  grid-template-columns: 34px minmax(0, 1fr);
   align-items: center;
   gap: 12px;
   min-height: 58px;
@@ -806,6 +816,7 @@ h2 {
   color: var(--ink);
   text-align: left;
   cursor: pointer;
+  overflow-wrap: anywhere;
 }
 
 .choice--marker-only {
@@ -1208,17 +1219,18 @@ h2 {
   }
 
   .section-heading,
-  .exam-header,
   .results-hero {
     align-items: stretch;
     flex-direction: column;
   }
 
   .exam-header {
-    width: calc(100% + 20px);
-    margin-left: -10px;
-    margin-right: -10px;
-    padding-inline: 16px;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-inline: clamp(10px, 4vw, 20px);
   }
 
   .section-heading__title {
@@ -1228,6 +1240,7 @@ h2 {
   .exam-header__actions,
   .results-hero__actions {
     justify-content: stretch;
+    min-width: 0;
   }
 
   .history-tools {
