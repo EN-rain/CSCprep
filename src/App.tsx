@@ -30,6 +30,7 @@ const QUESTION_REPORTS_KEY = 'cscprep:question-reports:v1'
 const SCREEN_EXIT_MS = 300
 const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
+const QUESTION_BANK_BY_ID = new Map(questionBank.map((question) => [question.id, question]))
 
 type ReviewItem = {
   itemId: string
@@ -273,13 +274,28 @@ function isExamSession(value: unknown): value is ExamSession {
   )
 }
 
-function refreshExamSessionQuestions(session: ExamSession): ExamSession {
-  const currentQuestions = new Map(questionBank.map((question) => [question.id, question]))
+function isCsc11PageImage(image: string | undefined): boolean {
+  return Boolean(image?.includes('/question-images/csc11-page-'))
+}
 
+function getExamQuestionImage(
+  question: ExamSession['questions'][number]['question'],
+  mode: ExamMode,
+): string | undefined {
+  if (mode.kind !== 'fixed' || !isCsc11PageImage(question.image)) {
+    return question.image
+  }
+
+  const bankImage = QUESTION_BANK_BY_ID.get(question.id)?.image
+
+  return isCsc11PageImage(bankImage) ? undefined : bankImage
+}
+
+function refreshExamSessionQuestions(session: ExamSession): ExamSession {
   return {
     ...session,
     questions: session.questions.map((examQuestion) => {
-      const currentQuestion = currentQuestions.get(examQuestion.question.id)
+      const currentQuestion = QUESTION_BANK_BY_ID.get(examQuestion.question.id)
 
       if (!currentQuestion) {
         return examQuestion
@@ -522,7 +538,7 @@ function App() {
           questionId: question.id,
           subject: question.subject,
           prompt: question.prompt,
-          image: question.image,
+          image: getExamQuestionImage(question, session.mode),
           choices,
           selectedChoiceId,
           correctChoiceId: question.correctChoiceId,
@@ -1182,12 +1198,7 @@ function HomeScreen({
   theme,
   onToggleTheme,
 }: HomeScreenProps) {
-  const [isFixedExamSetupOpen, setIsFixedExamSetupOpen] = useState(false)
-  const [fixedItemCount, setFixedItemCount] = useState(() => Math.min(150, fixedExamQuestionCount))
-  const normalizedFixedItemCount = Math.min(
-    Math.max(1, Math.floor(fixedItemCount || 1)),
-    fixedExamQuestionCount,
-  )
+  const [examTypePanelOpen, setExamTypePanelOpen] = useState(false)
 
   return (
     <section className="home">
@@ -1195,7 +1206,7 @@ function HomeScreen({
         <div>
           <p className="eyebrow">Civil Service Exam Practice</p>
           <h1>CSCprep</h1>
-          <p className="tagline">Practice with anonymous 150-item exams, subject drills, instant results, and local cooldown tracking.</p>
+          <p className="tagline">Practice with anonymous 100-item exams, subject drills, instant results, and local cooldown tracking.</p>
         </div>
       </div>
 
@@ -1256,49 +1267,13 @@ function HomeScreen({
           </div>
         </div>
         <div className="start-grid">
-          <div className="start-option start-option--setup">
-            <button
-              className="start-option__main"
-              type="button"
-              onClick={() => setIsFixedExamSetupOpen((isOpen) => !isOpen)}
-            >
-              <strong>Fixed Exam</strong>
-              <span>{formatBankProgress(fixedExamQuestionCount)} CSC 11 items</span>
-            </button>
-            {isFixedExamSetupOpen && (
-              <div className="fixed-exam-setup">
-                <label className="fixed-exam-setup__field">
-                  <span>Items</span>
-                  <input
-                    aria-label="Fixed exam item count"
-                    max={fixedExamQuestionCount}
-                    min="1"
-                    onBlur={() => setFixedItemCount(normalizedFixedItemCount)}
-                    onChange={(event) => {
-                      const value = parseInt(event.target.value, 10)
-                      setFixedItemCount(Number.isNaN(value) ? 1 : value)
-                    }}
-                    type="number"
-                    value={fixedItemCount}
-                  />
-                </label>
-                <button
-                  className="button button--primary button--compact"
-                  onClick={() => onStartExam({ kind: 'fixed', itemCount: normalizedFixedItemCount })}
-                  type="button"
-                >
-                  Start
-                </button>
-              </div>
-            )}
-          </div>
           <button
             className="start-option"
             type="button"
-            onClick={() => onStartExam({ kind: 'mixed' })}
+            onClick={() => setExamTypePanelOpen(true)}
           >
-            <strong>Random Exam</strong>
-            <span>150 items</span>
+            <strong>Fixed/Random Exam</strong>
+            <span>Choose setup</span>
           </button>
           {SUBJECTS.map((subject) => (
             <button
@@ -1312,6 +1287,14 @@ function HomeScreen({
           ))}
         </div>
       </section>
+      {examTypePanelOpen && (
+        <ExamTypePanel
+          fixedExamQuestionCount={fixedExamQuestionCount}
+          onCancel={() => setExamTypePanelOpen(false)}
+          onStartFixedExam={(itemCount) => onStartExam({ kind: 'fixed', itemCount })}
+          onStartRandomExam={() => onStartExam({ kind: 'mixed' })}
+        />
+      )}
     </section>
   )
 }
@@ -1644,6 +1627,7 @@ function ExamScreen({
             itemId={id}
             itemNumber={itemNumber}
             key={id}
+            image={getExamQuestionImage(question, session.mode)}
             onChooseAnswer={onChooseAnswer}
             onOpenImage={onOpenImage}
             onReportQuestion={onReportQuestion}
@@ -1737,6 +1721,115 @@ type ExitExamPanelProps = {
   answeredCount: number
   onCancel: () => void
   onConfirm: () => void
+}
+
+type ExamTypePanelProps = {
+  fixedExamQuestionCount: number
+  onCancel: () => void
+  onStartFixedExam: (itemCount: number) => void
+  onStartRandomExam: () => void
+}
+
+function ExamTypePanel({ fixedExamQuestionCount, onCancel, onStartFixedExam, onStartRandomExam }: ExamTypePanelProps) {
+  const randomButtonRef = useRef<HTMLButtonElement>(null)
+  const backdropPointerStartedRef = useRef(false)
+  const [isFixedSetupOpen, setIsFixedSetupOpen] = useState(false)
+  const [fixedItemCount, setFixedItemCount] = useState(() => String(Math.min(100, fixedExamQuestionCount)))
+  const { closeWith, overlayClass } = usePopupTransition()
+  const parsedFixedItemCount = parseInt(fixedItemCount, 10)
+  const normalizedFixedItemCount = Math.min(
+    Math.max(1, Number.isNaN(parsedFixedItemCount) ? 1 : Math.floor(parsedFixedItemCount)),
+    fixedExamQuestionCount,
+  )
+
+  const closePanel = useCallback(() => {
+    closeWith(onCancel)
+  }, [closeWith, onCancel])
+
+  const startRandomExam = useCallback(() => {
+    closeWith(onStartRandomExam)
+  }, [closeWith, onStartRandomExam])
+
+  const startFixedExam = useCallback(() => {
+    closeWith(() => onStartFixedExam(normalizedFixedItemCount))
+  }, [closeWith, normalizedFixedItemCount, onStartFixedExam])
+
+  const closeFromBackdropClick = useCallback((event: MouseEvent<HTMLDivElement>) => {
+    if (event.target === event.currentTarget && backdropPointerStartedRef.current) {
+      closePanel()
+    }
+
+    backdropPointerStartedRef.current = false
+  }, [closePanel])
+
+  useEffect(() => {
+    randomButtonRef.current?.focus({ preventScroll: true })
+
+    function handleKeydown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        closePanel()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeydown)
+    return () => window.removeEventListener('keydown', handleKeydown)
+  }, [closePanel])
+
+  return (
+    <OverlayPortal>
+      <div
+        aria-labelledby="exam-type-title"
+        aria-modal="true"
+        className={`exam-dialog ${overlayClass}`}
+        onClick={closeFromBackdropClick}
+        onPointerDown={(event) => {
+          backdropPointerStartedRef.current = event.target === event.currentTarget
+        }}
+        role="dialog"
+      >
+        <div className="exam-dialog__content" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
+          <p className="eyebrow">Exam setup</p>
+          <h2 id="exam-type-title">Fixed/Random Exam</h2>
+          <div className="exam-type-options">
+            <button className="button button--primary" onClick={startRandomExam} ref={randomButtonRef} type="button">
+              Random
+            </button>
+            <button
+              aria-expanded={isFixedSetupOpen}
+              className="button button--ghost"
+              onClick={() => setIsFixedSetupOpen(true)}
+              type="button"
+            >
+              Fixed
+            </button>
+          </div>
+          {isFixedSetupOpen && (
+            <div className="exam-type-fixed">
+              <label className="exam-type-fixed__field">
+                <span>Items</span>
+                <input
+                  aria-label="Fixed exam item count"
+                  inputMode="numeric"
+                  max={fixedExamQuestionCount}
+                  min="1"
+                  onBlur={() => setFixedItemCount(String(normalizedFixedItemCount))}
+                  onChange={(event) => {
+                    setFixedItemCount(event.target.value.replace(/\D/gu, ''))
+                  }}
+                  pattern="[0-9]*"
+                  type="text"
+                  value={fixedItemCount}
+                />
+              </label>
+              <button className="button button--primary" onClick={startFixedExam} type="button">
+                Start Fixed
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+    </OverlayPortal>
+  )
 }
 
 function ExitExamPanel({ answeredCount, onCancel, onConfirm }: ExitExamPanelProps) {
@@ -2001,6 +2094,7 @@ function ResultsScreen({
 type QuestionCardProps = {
   answers: AnswerMap
   choices: ExamSession['questions'][number]['choices']
+  image?: string
   itemId: string
   itemNumber: number
   onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
@@ -2012,6 +2106,7 @@ type QuestionCardProps = {
 function QuestionCard({
   answers,
   choices,
+  image,
   itemId,
   itemNumber,
   onChooseAnswer,
@@ -2019,8 +2114,8 @@ function QuestionCard({
   onReportQuestion,
   question,
 }: QuestionCardProps) {
-  const markerChoicesOnly = Boolean(question.image) && usesImageChoiceMarkers(choices)
-  const promptIsShownInImage = hasPromptInImage(question.id, question.image, markerChoicesOnly)
+  const markerChoicesOnly = Boolean(image) && usesImageChoiceMarkers(choices)
+  const promptIsShownInImage = hasPromptInImage(question.id, image, markerChoicesOnly)
 
   return (
     <article className="question-card" id={`exam-item-${itemId}`}>
@@ -2039,13 +2134,13 @@ function QuestionCard({
           <span className="subject-tag">{question.subject}</span>
         </div>
       </div>
-      {question.image && (
+      {image && (
         <button
           className="question-image-button"
-          onClick={() => onOpenImage(question.image!)}
+          onClick={() => onOpenImage(image)}
           type="button"
         >
-          <img className="question-image" src={question.image} alt="Question reference" draggable={false} />
+          <img className="question-image" src={image} alt="Question reference" draggable={false} />
           <span className="question-image-hint">Click to enlarge</span>
         </button>
       )}

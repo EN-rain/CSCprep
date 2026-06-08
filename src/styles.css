@@ -530,10 +530,6 @@ h2 {
     color 160ms ease;
 }
 
-.start-option--setup {
-  padding: 0;
-}
-
 .start-option:hover {
   transform: translateY(-3px);
   border-color: rgba(15, 118, 110, 0.45);
@@ -543,32 +539,9 @@ h2 {
   box-shadow: 0 16px 34px rgba(22, 32, 38, 0.12);
 }
 
-.start-option__main {
-  display: flex;
-  width: 100%;
-  min-height: 90px;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  border: 0;
-  padding: 16px;
-  background: transparent;
-  color: inherit;
-  cursor: pointer;
-  font: inherit;
-  text-align: center;
-}
-
 .start-option:focus-visible {
   outline: 3px solid rgba(15, 118, 110, 0.3);
   outline-offset: 2px;
-}
-
-.start-option__main:focus-visible {
-  outline: 3px solid rgba(15, 118, 110, 0.3);
-  outline-offset: -5px;
 }
 
 .start-option strong,
@@ -584,38 +557,6 @@ h2 {
   color: var(--muted);
   font-size: 0.9rem;
   line-height: 1.35;
-}
-
-.fixed-exam-setup {
-  display: grid;
-  width: 100%;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 8px;
-  border-top: 1px solid var(--line);
-  padding: 12px;
-}
-
-.fixed-exam-setup__field {
-  display: grid;
-  min-width: 0;
-  grid-template-columns: auto minmax(0, 1fr);
-  align-items: center;
-  gap: 8px;
-  color: var(--muted);
-  font-size: 0.85rem;
-  font-weight: 800;
-}
-
-.fixed-exam-setup__field input {
-  width: 100%;
-  min-width: 0;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 9px 10px;
-  background: var(--surface);
-  color: var(--ink);
-  font: inherit;
-  font-weight: 800;
 }
 
 .exam-header,
@@ -1025,6 +966,42 @@ h2 {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 10px;
+}
+
+.exam-type-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.exam-type-fixed {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 10px;
+  margin-top: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.exam-type-fixed__field {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.exam-type-fixed__field input {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 11px 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 800;
 }
 
 .results-hero {

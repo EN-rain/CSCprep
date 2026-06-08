@@ -39,10 +39,12 @@ export type ExamMode =
     }
   | {
       kind: 'mixed'
+      itemCount?: never
     }
   | {
       kind: 'subject'
       subject: Subject
+      itemCount?: never
     }
 
 export type ExamSession = {

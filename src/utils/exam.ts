@@ -15,13 +15,13 @@ import {
 const HISTORY_KEY = 'cscprep:question-history:v1'
 const COMPLETED_EXAM_COUNT_KEY = 'cscprep:completed-exam-count:v1'
 const ITEMS_PER_SUBJECT = 20
-const TOTAL_EXAM_ITEMS = 150
+const TOTAL_EXAM_ITEMS = 100
 const COOLDOWN_EXAMS = 2
 const MIXED_EXAM_SUBJECT_COUNTS: Partial<Record<Subject, number>> = {
-  'Verbal Reasoning': 55,
-  'Analytical Ability': 40,
-  'Numerical Reasoning': 40,
-  'General Information': 15,
+  'Verbal Reasoning': 40,
+  'Analytical Ability': 25,
+  'Numerical Reasoning': 25,
+  'General Information': 10,
 }
 
 function isExamEligibleQuestion(question: Question): boolean {
