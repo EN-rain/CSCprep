@@ -19,13 +19,14 @@ import {
 } from './utils/exam'
 import { questionBank } from './data/questionBank'
 
-type Screen = 'home' | 'exam' | 'results' | 'history'
+type Screen = 'home' | 'exam' | 'results' | 'history' | 'reports'
 type Theme = 'light' | 'dark'
 type ScreenTransition = 'idle' | 'content-exit' | 'content-enter'
 const TIMED_EXAM_SECONDS = 60 * 60
 const THEME_KEY = 'cscprep-theme'
 const EXAM_ATTEMPT_HISTORY_KEY = 'cscprep:exam-attempt-history:v2'
 const IN_PROGRESS_EXAM_KEY = 'cscprep:in-progress-exam:v1'
+const QUESTION_REPORTS_KEY = 'cscprep:question-reports:v1'
 const SCREEN_EXIT_MS = 300
 const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
@@ -82,6 +83,15 @@ type InProgressExamDraft = {
   skippedItemNotice: SkippedItemNotice
   skippedItemQueue: SkippedItem[]
   activeSkippedItemId: string | null
+}
+
+type QuestionReport = {
+  id: string
+  questionId: string
+  itemNumber: number
+  subject: Subject
+  prompt: string
+  reportedAt: string
 }
 
 const LINE_BREAK_PROMPT_IDS = new Set([
@@ -373,6 +383,43 @@ function clearInProgressExamDraft(): void {
   }
 }
 
+function readQuestionReports(): QuestionReport[] {
+  if (typeof window === 'undefined') {
+    return []
+  }
+
+  try {
+    const raw = window.localStorage.getItem(QUESTION_REPORTS_KEY)
+    const parsed = raw ? JSON.parse(raw) : []
+
+    if (!Array.isArray(parsed)) {
+      return []
+    }
+
+    return parsed.filter((report): report is QuestionReport => {
+      if (!report || typeof report !== 'object') {
+        return false
+      }
+
+      const candidate = report as Partial<QuestionReport>
+      return (
+        typeof candidate.id === 'string' &&
+        typeof candidate.questionId === 'string' &&
+        typeof candidate.itemNumber === 'number' &&
+        typeof candidate.subject === 'string' &&
+        typeof candidate.prompt === 'string' &&
+        typeof candidate.reportedAt === 'string'
+      )
+    })
+  } catch {
+    return []
+  }
+}
+
+function writeQuestionReports(reports: QuestionReport[]): void {
+  window.localStorage.setItem(QUESTION_REPORTS_KEY, JSON.stringify(reports))
+}
+
 function getOnlineStatus(): boolean {
   return typeof navigator === 'undefined' ? true : navigator.onLine
 }
@@ -430,6 +477,7 @@ function App() {
   const [answeredHistoryCount, setAnsweredHistoryCount] = useState(() => getAnsweredHistoryCount())
   const [loadedQuestionCount] = useState(() => getLoadedQuestionCount())
   const [savedAttempts, setSavedAttempts] = useState<SavedExamAttempt[]>(() => readExamAttemptHistory())
+  const [questionReports, setQuestionReports] = useState<QuestionReport[]>(() => readQuestionReports())
   const [expandedImage, setExpandedImage] = useState<string | null>(null)
   const [skippedItemNotice, setSkippedItemNotice] = useState<SkippedItemNotice>(() => initialExamDraft?.skippedItemNotice ?? null)
   const [skippedItemQueue, setSkippedItemQueue] = useState<SkippedItem[]>(() => initialExamDraft?.skippedItemQueue ?? [])
@@ -658,6 +706,55 @@ function App() {
     })
   }
 
+  function openReports() {
+    transitionToScreen(() => {
+      setFilter('all')
+      setSkippedItemNotice(null)
+      setExitNoticeOpen(false)
+      setOfflineSubmitNoticeOpen(false)
+      setExpandedImage(null)
+      setScreen('reports')
+    })
+  }
+
+  function reportQuestion(itemId: string) {
+    if (!session) {
+      return
+    }
+
+    const examQuestion = session.questions.find((item) => item.id === itemId)
+
+    if (!examQuestion) {
+      return
+    }
+
+    setQuestionReports((currentReports) => {
+      const report: QuestionReport = {
+        id: `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
+        questionId: examQuestion.question.id,
+        itemNumber: examQuestion.itemNumber,
+        subject: examQuestion.question.subject,
+        prompt: examQuestion.question.prompt,
+        reportedAt: new Date().toISOString(),
+      }
+      const nextReports = [report, ...currentReports].slice(0, 200)
+      writeQuestionReports(nextReports)
+
+      return nextReports
+    })
+  }
+
+  function deleteQuestionReport(reportId: string) {
+    const nextReports = questionReports.filter((report) => report.id !== reportId)
+    writeQuestionReports(nextReports)
+    setQuestionReports(nextReports)
+  }
+
+  function clearQuestionReports() {
+    writeQuestionReports([])
+    setQuestionReports([])
+  }
+
   function openSavedAttempt(attempt: SavedExamAttempt) {
     transitionToScreen(() => {
       const refreshedSession = refreshExamSessionQuestions(attempt.session)
@@ -850,6 +947,18 @@ function App() {
   }, [screen])
 
   useEffect(() => {
+    function handleReportsShortcut(event: KeyboardEvent) {
+      if (event.ctrlKey && event.altKey && event.shiftKey && event.key.toLowerCase() === 'z') {
+        event.preventDefault()
+        openReports()
+      }
+    }
+
+    window.addEventListener('keydown', handleReportsShortcut)
+    return () => window.removeEventListener('keydown', handleReportsShortcut)
+  })
+
+  useEffect(() => {
     return () => {
       if (transitionTimeoutRef.current) {
         window.clearTimeout(transitionTimeoutRef.current)
@@ -896,6 +1005,7 @@ function App() {
             onExit={exitExam}
             onGoToNextSkippedItem={goToNextSkippedItem}
             onOpenImage={setExpandedImage}
+            onReportQuestion={reportQuestion}
             onGoToSkippedItem={goToSkippedItem}
             onSubmit={submitExam}
             onSubmitAnyway={finishSubmitExam}
@@ -943,6 +1053,19 @@ function App() {
             onDeleteAttempt={deleteSavedAttempt}
             onHome={goHome}
             onOpenAttempt={openSavedAttempt}
+            theme={theme}
+            onToggleTheme={toggleTheme}
+          />
+        </div>
+      )}
+
+      {screen === 'reports' && (
+        <div className="screen-frame screen-frame--reports">
+          <ReportsScreen
+            reports={questionReports}
+            onClearReports={clearQuestionReports}
+            onDeleteReport={deleteQuestionReport}
+            onHome={goHome}
             theme={theme}
             onToggleTheme={toggleTheme}
           />
@@ -1211,6 +1334,89 @@ function HistoryScreen({
   )
 }
 
+type ReportsScreenProps = {
+  reports: QuestionReport[]
+  onClearReports: () => void
+  onDeleteReport: (reportId: string) => void
+  onHome: () => void
+  theme: Theme
+  onToggleTheme: () => void
+}
+
+function ReportsScreen({
+  reports,
+  onClearReports,
+  onDeleteReport,
+  onHome,
+  theme,
+  onToggleTheme,
+}: ReportsScreenProps) {
+  return (
+    <section className="reports">
+      <header className="results-hero">
+        <div>
+          <p className="eyebrow">Question reports</p>
+          <h1>Reports</h1>
+          <p className="status">
+            {reports.length} {reports.length === 1 ? 'question' : 'questions'} marked for review.
+          </p>
+        </div>
+        <div className="results-hero__actions">
+          <ThemeToggle theme={theme} onToggle={onToggleTheme} />
+          <button className="button button--ghost" onClick={onHome} type="button">
+            Home
+          </button>
+        </div>
+      </header>
+
+      <section className="history-panel" aria-label="Reported questions">
+        <div className="section-heading">
+          <div className="section-heading__title">
+            <h2>Reported question IDs</h2>
+          </div>
+          <div className="history-panel__actions">
+            <button
+              className="attempt-row__delete"
+              disabled={reports.length === 0}
+              onClick={onClearReports}
+              type="button"
+            >
+              Clear all
+            </button>
+          </div>
+        </div>
+
+        {reports.length === 0 ? (
+          <p className="empty-history">No questions reported yet.</p>
+        ) : (
+          <div className="report-list">
+            {reports.map((report) => (
+              <article className="report-row" key={report.id}>
+                <div>
+                  <div className="report-row__meta">
+                    <strong>{report.questionId}</strong>
+                    <span>Item {report.itemNumber}</span>
+                    <span>{report.subject}</span>
+                    <span>{formatAttemptDate(report.reportedAt)}</span>
+                  </div>
+                  <p>{report.prompt}</p>
+                </div>
+                <button
+                  className="attempt-row__delete"
+                  onClick={() => onDeleteReport(report.id)}
+                  type="button"
+                >
+                  Delete
+                </button>
+              </article>
+            ))}
+          </div>
+        )}
+      </section>
+    </section>
+  )
+}
+
 type ExamScreenProps = {
   answeredCount: number
   answers: AnswerMap
@@ -1227,6 +1433,7 @@ type ExamScreenProps = {
   onGoToNextSkippedItem: () => void
   onGoToSkippedItem: (itemId: string) => void
   onOpenImage: (imageSrc: string) => void
+  onReportQuestion: (itemId: string) => void
   onSubmit: () => void
   onSubmitAnyway: () => void
   nextSkippedItem: SkippedItem | null
@@ -1255,6 +1462,7 @@ function ExamScreen({
   onGoToNextSkippedItem,
   onGoToSkippedItem,
   onOpenImage,
+  onReportQuestion,
   onSubmit,
   onSubmitAnyway,
   nextSkippedItem,
@@ -1325,6 +1533,7 @@ function ExamScreen({
             key={id}
             onChooseAnswer={onChooseAnswer}
             onOpenImage={onOpenImage}
+            onReportQuestion={onReportQuestion}
             question={question}
             choices={choices}
           />
@@ -1683,6 +1892,7 @@ type QuestionCardProps = {
   itemNumber: number
   onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
   onOpenImage: (imageSrc: string) => void
+  onReportQuestion: (itemId: string) => void
   question: ExamSession['questions'][number]['question']
 }
 
@@ -1693,6 +1903,7 @@ function QuestionCard({
   itemNumber,
   onChooseAnswer,
   onOpenImage,
+  onReportQuestion,
   question,
 }: QuestionCardProps) {
   const markerChoicesOnly = Boolean(question.image) && usesImageChoiceMarkers(choices)
@@ -1702,7 +1913,18 @@ function QuestionCard({
     <article className="question-card" id={`exam-item-${itemId}`}>
       <div className="question-card__top">
         <span className="question-number">Item {itemNumber}</span>
-        <span className="subject-tag">{question.subject}</span>
+        <div className="question-card__tools">
+          <button
+            aria-label={`Report question ${question.id}`}
+            className="report-question-button"
+            onClick={() => onReportQuestion(itemId)}
+            title={`Report question ${question.id}`}
+            type="button"
+          >
+            R
+          </button>
+          <span className="subject-tag">{question.subject}</span>
+        </div>
       </div>
       {question.image && (
         <button
