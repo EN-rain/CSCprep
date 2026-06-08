@@ -2109,7 +2109,7 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
 }
 
 function usesImageChoiceMarkers(choices: { text: string }[]): boolean {
-  const markerChoicePattern = /^(Underlined part [a-e]|No error(?: \/ walang mali)?)$/i
+  const markerChoicePattern = /^(Option [a-e]|Underlined part [a-e]|No error(?: \/ walang mali)?)$/i
 
   return choices.length > 0 && choices.every((choice) => markerChoicePattern.test(choice.text.trim()))
 }

@@ -4053,7 +4053,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Sa hanay ng bilang ng tropa, Malaysia ang may pinakamataas na datos sa tsart."
+    "explanation": "Sa hanay ng bilang ng tropa, Malaysia ang may pinakamataas na datos sa tsart.",
+    "image": "/question-images/fi-157.png"
   },
   {
     "id": "fi-158",
@@ -4078,7 +4079,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Sa porsiyento ng GDP na nakalaan sa badyet militar, Brunei ang may pinakamalaking bahagi ayon sa tsart."
+    "explanation": "Sa porsiyento ng GDP na nakalaan sa badyet militar, Brunei ang may pinakamalaking bahagi ayon sa tsart.",
+    "image": "/question-images/fi-158.png"
   },
   {
     "id": "fi-159",
@@ -4103,7 +4105,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Sa paghahambing ng GDP ng mga bansang nasa tsart, Japan ang may pinakamalaking halaga."
+    "explanation": "Sa paghahambing ng GDP ng mga bansang nasa tsart, Japan ang may pinakamalaking halaga.",
+    "image": "/question-images/fi-159.png"
   },
   {
     "id": "fi-160",
@@ -4128,7 +4131,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Makatwirang paliwanag na mababa ang bilang ng puwersang militar ng Brunei dahil maliit lamang itong bansa kumpara sa iba pang nasa tsart."
+    "explanation": "Makatwirang paliwanag na mababa ang bilang ng puwersang militar ng Brunei dahil maliit lamang itong bansa kumpara sa iba pang nasa tsart.",
+    "image": "/question-images/fi-160.png"
   },
   {
     "id": "fi-161",
