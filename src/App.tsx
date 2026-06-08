@@ -469,6 +469,7 @@ function App() {
   const [screen, setScreen] = useState<Screen>(() => (initialExamDraft ? 'exam' : 'home'))
   const [session, setSession] = useState<ExamSession | null>(() => initialExamDraft?.session ?? null)
   const [answers, setAnswers] = useState<AnswerMap>(() => initialExamDraft?.answers ?? {})
+  const answersRef = useRef<AnswerMap>(answers)
   const [submittedAnswers, setSubmittedAnswers] = useState<AnswerMap>({})
   const [filter, setFilter] = useState<ReviewFilter>('all')
   const [timerEnabled, setTimerEnabled] = useState(false)
@@ -588,10 +589,13 @@ function App() {
   }
 
   function chooseAnswer(questionId: string, choiceId: ChoiceId) {
-    setAnswers((current) => ({
-      ...current,
+    const nextAnswers = {
+      ...answersRef.current,
       [questionId]: choiceId,
-    }))
+    }
+
+    answersRef.current = nextAnswers
+    setAnswers(nextAnswers)
   }
 
   function submitExam() {
@@ -604,8 +608,9 @@ function App() {
       return
     }
 
+    const latestAnswers = answersRef.current
     const skippedQuestions = session.questions
-      .filter(({ id }) => !answers[id])
+      .filter(({ id }) => !latestAnswers[id])
       .map(({ id, itemNumber }) => ({
         itemId: id,
         itemNumber,
@@ -633,7 +638,7 @@ function App() {
       return
     }
 
-    finishExamWithAnswers(answers)
+    finishExamWithAnswers(answersRef.current)
   }
 
   function finishExamWithAnswers(finalAnswers: AnswerMap) {
@@ -868,6 +873,10 @@ function App() {
   }
 
   useEffect(() => {
+    answersRef.current = answers
+  }, [answers])
+
+  useEffect(() => {
     function updateOnlineStatus() {
       const nextIsOnline = getOnlineStatus()
       setIsOnline(nextIsOnline)
@@ -908,8 +917,8 @@ function App() {
       return
     }
 
-    finishExamWithAnswers(answers)
-  }, [answers, remainingSeconds, screen, screenTransition, session?.timed])
+    finishExamWithAnswers(answersRef.current)
+  }, [remainingSeconds, screen, screenTransition, session?.timed])
 
   useEffect(() => {
     if (screen !== 'exam' || !session) {
