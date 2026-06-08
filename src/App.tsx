@@ -14,6 +14,7 @@ import {
   completeExam,
   createExamSession,
   getAnsweredHistoryCount,
+  getFixedExamQuestionCount,
   getLoadedQuestionCount,
   resetQuestionHistory,
 } from './utils/exam'
@@ -488,6 +489,7 @@ function App() {
   const [remainingSeconds, setRemainingSeconds] = useState(() => initialExamDraft?.remainingSeconds ?? (customTimerMinutes * 60))
   const [answeredHistoryCount, setAnsweredHistoryCount] = useState(() => getAnsweredHistoryCount())
   const [loadedQuestionCount] = useState(() => getLoadedQuestionCount())
+  const [fixedExamQuestionCount] = useState(() => getFixedExamQuestionCount())
   const [savedAttempts, setSavedAttempts] = useState<SavedExamAttempt[]>(() => readExamAttemptHistory())
   const [questionReports, setQuestionReports] = useState<QuestionReport[]>(() => readQuestionReports())
   const [expandedImage, setExpandedImage] = useState<string | null>(null)
@@ -1004,6 +1006,7 @@ function App() {
             answeredHistoryCount={answeredHistoryCount}
             savedAttemptCount={savedAttempts.length}
             loadedQuestionCount={loadedQuestionCount}
+            fixedExamQuestionCount={fixedExamQuestionCount}
             onToggleTimer={toggleTimer}
             onOpenHistory={openHistory}
             onStartExam={startExam}
@@ -1152,6 +1155,7 @@ function SunIcon() {
 
 type HomeScreenProps = {
   answeredHistoryCount: number
+  fixedExamQuestionCount: number
   savedAttemptCount: number
   loadedQuestionCount: number
   onOpenHistory: () => void
@@ -1166,6 +1170,7 @@ type HomeScreenProps = {
 
 function HomeScreen({
   answeredHistoryCount,
+  fixedExamQuestionCount,
   savedAttemptCount,
   loadedQuestionCount,
   onOpenHistory,
@@ -1177,13 +1182,20 @@ function HomeScreen({
   theme,
   onToggleTheme,
 }: HomeScreenProps) {
+  const [isFixedExamSetupOpen, setIsFixedExamSetupOpen] = useState(false)
+  const [fixedItemCount, setFixedItemCount] = useState(() => Math.min(150, fixedExamQuestionCount))
+  const normalizedFixedItemCount = Math.min(
+    Math.max(1, Math.floor(fixedItemCount || 1)),
+    fixedExamQuestionCount,
+  )
+
   return (
     <section className="home">
       <div className="home__content">
         <div>
           <p className="eyebrow">Civil Service Exam Practice</p>
           <h1>CSCprep</h1>
-          <p className="tagline">Practice with anonymous 100-item exams, subject drills, instant results, and local cooldown tracking.</p>
+          <p className="tagline">Practice with anonymous 150-item exams, subject drills, instant results, and local cooldown tracking.</p>
         </div>
       </div>
 
@@ -1244,12 +1256,49 @@ function HomeScreen({
           </div>
         </div>
         <div className="start-grid">
+          <div className="start-option start-option--setup">
+            <button
+              className="start-option__main"
+              type="button"
+              onClick={() => setIsFixedExamSetupOpen((isOpen) => !isOpen)}
+            >
+              <strong>Fixed Exam</strong>
+              <span>{formatBankProgress(fixedExamQuestionCount)} CSC 11 items</span>
+            </button>
+            {isFixedExamSetupOpen && (
+              <div className="fixed-exam-setup">
+                <label className="fixed-exam-setup__field">
+                  <span>Items</span>
+                  <input
+                    aria-label="Fixed exam item count"
+                    max={fixedExamQuestionCount}
+                    min="1"
+                    onBlur={() => setFixedItemCount(normalizedFixedItemCount)}
+                    onChange={(event) => {
+                      const value = parseInt(event.target.value, 10)
+                      setFixedItemCount(Number.isNaN(value) ? 1 : value)
+                    }}
+                    type="number"
+                    value={fixedItemCount}
+                  />
+                </label>
+                <button
+                  className="button button--primary button--compact"
+                  onClick={() => onStartExam({ kind: 'fixed', itemCount: normalizedFixedItemCount })}
+                  type="button"
+                >
+                  Start
+                </button>
+              </div>
+            )}
+          </div>
           <button
             className="start-option"
             type="button"
             onClick={() => onStartExam({ kind: 'mixed' })}
           >
             <strong>Random Exam</strong>
+            <span>150 items</span>
           </button>
           {SUBJECTS.map((subject) => (
             <button

@@ -34,6 +34,10 @@ export type ExamQuestion = {
 
 export type ExamMode =
   | {
+      kind: 'fixed'
+      itemCount?: number
+    }
+  | {
       kind: 'mixed'
     }
   | {
