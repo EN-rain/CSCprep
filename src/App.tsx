@@ -22,7 +22,6 @@ import { questionBank } from './data/questionBank'
 type Screen = 'home' | 'exam' | 'results' | 'history' | 'reports'
 type Theme = 'light' | 'dark'
 type ScreenTransition = 'idle' | 'content-exit' | 'content-enter'
-const TIMED_EXAM_SECONDS = 60 * 60
 const THEME_KEY = 'cscprep-theme'
 const EXAM_ATTEMPT_HISTORY_KEY = 'cscprep:exam-attempt-history:v2'
 const IN_PROGRESS_EXAM_KEY = 'cscprep:in-progress-exam:v1'
@@ -473,7 +472,19 @@ function App() {
   const [submittedAnswers, setSubmittedAnswers] = useState<AnswerMap>({})
   const [filter, setFilter] = useState<ReviewFilter>('all')
   const [timerEnabled, setTimerEnabled] = useState(false)
-  const [remainingSeconds, setRemainingSeconds] = useState(() => initialExamDraft?.remainingSeconds ?? TIMED_EXAM_SECONDS)
+  const [customTimerMinutes, setCustomTimerMinutes] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const saved = window.localStorage.getItem('cscprep-custom-timer')
+      if (saved) {
+        const parsed = parseInt(saved, 10)
+        if (!isNaN(parsed) && parsed > 0) {
+          return parsed
+        }
+      }
+    }
+    return 60
+  })
+  const [remainingSeconds, setRemainingSeconds] = useState(() => initialExamDraft?.remainingSeconds ?? (customTimerMinutes * 60))
   const [answeredHistoryCount, setAnsweredHistoryCount] = useState(() => getAnsweredHistoryCount())
   const [loadedQuestionCount] = useState(() => getLoadedQuestionCount())
   const [savedAttempts, setSavedAttempts] = useState<SavedExamAttempt[]>(() => readExamAttemptHistory())
@@ -569,7 +580,7 @@ function App() {
       setActiveSkippedItemId(null)
       setExitNoticeOpen(false)
       setOfflineSubmitNoticeOpen(false)
-      setRemainingSeconds(TIMED_EXAM_SECONDS)
+      setRemainingSeconds(customTimerMinutes * 60)
       setScreen('exam')
     }
 
@@ -937,6 +948,12 @@ function App() {
   }, [theme])
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem('cscprep-custom-timer', String(customTimerMinutes))
+    }
+  }, [customTimerMinutes])
+
+  useEffect(() => {
     if (screen !== 'results') {
       return
     }
@@ -982,6 +999,8 @@ function App() {
             onOpenHistory={openHistory}
             onStartExam={startExam}
             timerEnabled={timerEnabled}
+            customTimerMinutes={customTimerMinutes}
+            onCustomTimerMinutesChange={setCustomTimerMinutes}
             theme={theme}
             onToggleTheme={toggleTheme}
           />
@@ -1130,6 +1149,8 @@ type HomeScreenProps = {
   onStartExam: (mode?: ExamMode) => void
   onToggleTimer: () => void
   timerEnabled: boolean
+  customTimerMinutes: number
+  onCustomTimerMinutesChange: (minutes: number) => void
   theme: Theme
   onToggleTheme: () => void
 }
@@ -1142,6 +1163,8 @@ function HomeScreen({
   onStartExam,
   onToggleTimer,
   timerEnabled,
+  customTimerMinutes,
+  onCustomTimerMinutesChange,
   theme,
   onToggleTheme,
 }: HomeScreenProps) {
@@ -1165,15 +1188,47 @@ function HomeScreen({
           </div>
           <div className="history-tools">
             <ThemeToggle theme={theme} onToggle={onToggleTheme} />
-            <button
-              aria-pressed={timerEnabled}
-              className={timerEnabled ? 'toggle toggle--active' : 'toggle'}
-              type="button"
-              onClick={onToggleTimer}
-            >
-              <span className="toggle__label">Timer</span>
-              <span className="toggle__state">{timerEnabled ? 'On' : 'Off'}</span>
-            </button>
+            <div className="timer-control-group">
+              <button
+                aria-pressed={timerEnabled}
+                className={timerEnabled ? 'toggle toggle--active' : 'toggle'}
+                type="button"
+                onClick={onToggleTimer}
+              >
+                <span className="toggle__label">Timer</span>
+                <span className="toggle__state">{timerEnabled ? 'On' : 'Off'}</span>
+              </button>
+              {timerEnabled && (
+                <div className="timer-input-wrapper">
+                  <input
+                    type="number"
+                    min="1"
+                    max="480"
+                    value={customTimerMinutes || ''}
+                    onChange={(e) => {
+                      const val = e.target.value
+                      if (val === '') {
+                        onCustomTimerMinutesChange(0)
+                        return
+                      }
+                      const value = parseInt(val, 10)
+                      if (!isNaN(value) && value >= 0) {
+                        onCustomTimerMinutesChange(value)
+                      }
+                    }}
+                    onBlur={(e) => {
+                      const value = parseInt(e.target.value, 10)
+                      if (isNaN(value) || value <= 0) {
+                        onCustomTimerMinutesChange(60)
+                      }
+                    }}
+                    className="timer-input"
+                    aria-label="Timer duration in minutes"
+                  />
+                  <span className="timer-input-unit">min</span>
+                </div>
+              )}
+            </div>
             <button className="button button--ghost button--compact" type="button" onClick={onOpenHistory}>
               History {savedAttemptCount > 0 ? `(${savedAttemptCount})` : ''}
             </button>
