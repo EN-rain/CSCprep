@@ -23,6 +23,7 @@ import { questionBank } from './data/questionBank'
 type Screen = 'home' | 'exam' | 'results' | 'history' | 'reports'
 type Theme = 'light' | 'dark'
 type ScreenTransition = 'idle' | 'content-exit' | 'content-enter'
+type ReportSyncStatus = 'idle' | 'syncing' | 'local-only'
 const THEME_KEY = 'cscprep-theme'
 const EXAM_ATTEMPT_HISTORY_KEY = 'cscprep:exam-attempt-history:v2'
 const IN_PROGRESS_EXAM_KEY = 'cscprep:in-progress-exam:v1'
@@ -53,6 +54,11 @@ type SkippedItem = {
 
 type SkippedItemNotice = {
   items: SkippedItem[]
+} | null
+
+type HintTarget = {
+  itemNumber: number
+  question: ExamSession['questions'][number]['question']
 } | null
 
 type SubjectStat = {
@@ -436,6 +442,83 @@ function writeQuestionReports(reports: QuestionReport[]): void {
   window.localStorage.setItem(QUESTION_REPORTS_KEY, JSON.stringify(reports))
 }
 
+function isQuestionReport(value: unknown): value is QuestionReport {
+  if (!value || typeof value !== 'object') {
+    return false
+  }
+
+  const candidate = value as Partial<QuestionReport>
+  return (
+    typeof candidate.id === 'string' &&
+    typeof candidate.questionId === 'string' &&
+    typeof candidate.itemNumber === 'number' &&
+    typeof candidate.subject === 'string' &&
+    typeof candidate.prompt === 'string' &&
+    typeof candidate.reportedAt === 'string'
+  )
+}
+
+async function fetchSharedQuestionReports(): Promise<QuestionReport[]> {
+  const response = await fetch('/api/reports', {
+    headers: { Accept: 'application/json' },
+  })
+
+  if (!response.ok) {
+    throw new Error('Reports API is unavailable.')
+  }
+
+  const payload: unknown = await response.json()
+  const reports = (payload as { reports?: unknown }).reports
+
+  if (!Array.isArray(reports)) {
+    return []
+  }
+
+  return reports.filter(isQuestionReport)
+}
+
+async function createSharedQuestionReport(report: QuestionReport): Promise<void> {
+  const response = await fetch('/api/reports', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+    },
+    body: JSON.stringify(report),
+  })
+
+  if (!response.ok) {
+    throw new Error('Report was saved locally only.')
+  }
+}
+
+async function deleteSharedQuestionReport(reportId: string): Promise<QuestionReport[]> {
+  const response = await fetch(`/api/reports?id=${encodeURIComponent(reportId)}`, {
+    method: 'DELETE',
+    headers: { Accept: 'application/json' },
+  })
+
+  if (!response.ok) {
+    throw new Error('Report was deleted locally only.')
+  }
+
+  const payload: unknown = await response.json()
+  const reports = (payload as { reports?: unknown }).reports
+
+  return Array.isArray(reports) ? reports.filter(isQuestionReport) : []
+}
+
+async function clearSharedQuestionReports(): Promise<void> {
+  const response = await fetch('/api/reports', {
+    method: 'DELETE',
+    headers: { Accept: 'application/json' },
+  })
+
+  if (!response.ok) {
+    throw new Error('Reports were cleared locally only.')
+  }
+}
+
 function getOnlineStatus(): boolean {
   return typeof navigator === 'undefined' ? true : navigator.onLine
 }
@@ -508,6 +591,7 @@ function App() {
   const [fixedExamQuestionCount] = useState(() => getFixedExamQuestionCount())
   const [savedAttempts, setSavedAttempts] = useState<SavedExamAttempt[]>(() => readExamAttemptHistory())
   const [questionReports, setQuestionReports] = useState<QuestionReport[]>(() => readQuestionReports())
+  const [reportSyncStatus, setReportSyncStatus] = useState<ReportSyncStatus>('idle')
   const [expandedImage, setExpandedImage] = useState<string | null>(null)
   const [skippedItemNotice, setSkippedItemNotice] = useState<SkippedItemNotice>(() => initialExamDraft?.skippedItemNotice ?? null)
   const [skippedItemQueue, setSkippedItemQueue] = useState<SkippedItem[]>(() => initialExamDraft?.skippedItemQueue ?? [])
@@ -741,6 +825,8 @@ function App() {
   }
 
   function openReports() {
+    void refreshQuestionReports()
+
     transitionToScreen(() => {
       setFilter('all')
       setSkippedItemNotice(null)
@@ -749,6 +835,19 @@ function App() {
       setExpandedImage(null)
       setScreen('reports')
     })
+  }
+
+  async function refreshQuestionReports() {
+    setReportSyncStatus('syncing')
+
+    try {
+      const sharedReports = await fetchSharedQuestionReports()
+      writeQuestionReports(sharedReports)
+      setQuestionReports(sharedReports)
+      setReportSyncStatus('idle')
+    } catch {
+      setReportSyncStatus('local-only')
+    }
   }
 
   function reportQuestion(itemId: string) {
@@ -762,31 +861,48 @@ function App() {
       return
     }
 
+    const report: QuestionReport = {
+      id: `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
+      questionId: examQuestion.question.id,
+      itemNumber: examQuestion.itemNumber,
+      subject: examQuestion.question.subject,
+      prompt: examQuestion.question.prompt,
+      reportedAt: new Date().toISOString(),
+    }
+
     setQuestionReports((currentReports) => {
-      const report: QuestionReport = {
-        id: `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
-        questionId: examQuestion.question.id,
-        itemNumber: examQuestion.itemNumber,
-        subject: examQuestion.question.subject,
-        prompt: examQuestion.question.prompt,
-        reportedAt: new Date().toISOString(),
-      }
       const nextReports = [report, ...currentReports].slice(0, 200)
       writeQuestionReports(nextReports)
 
       return nextReports
     })
+
+    void createSharedQuestionReport(report)
+      .then(() => setReportSyncStatus('idle'))
+      .catch(() => setReportSyncStatus('local-only'))
   }
 
   function deleteQuestionReport(reportId: string) {
     const nextReports = questionReports.filter((report) => report.id !== reportId)
     writeQuestionReports(nextReports)
     setQuestionReports(nextReports)
+
+    void deleteSharedQuestionReport(reportId)
+      .then((sharedReports) => {
+        writeQuestionReports(sharedReports)
+        setQuestionReports(sharedReports)
+        setReportSyncStatus('idle')
+      })
+      .catch(() => setReportSyncStatus('local-only'))
   }
 
   function clearQuestionReports() {
     writeQuestionReports([])
     setQuestionReports([])
+
+    void clearSharedQuestionReports()
+      .then(() => setReportSyncStatus('idle'))
+      .catch(() => setReportSyncStatus('local-only'))
   }
 
   function openSavedAttempt(attempt: SavedExamAttempt) {
@@ -1003,6 +1119,10 @@ function App() {
   })
 
   useEffect(() => {
+    void refreshQuestionReports()
+  }, [])
+
+  useEffect(() => {
     return () => {
       if (transitionTimeoutRef.current) {
         window.clearTimeout(transitionTimeoutRef.current)
@@ -1110,6 +1230,7 @@ function App() {
         <div className="screen-frame screen-frame--reports">
           <ReportsScreen
             reports={questionReports}
+            syncStatus={reportSyncStatus}
             onClearReports={clearQuestionReports}
             onDeleteReport={deleteQuestionReport}
             onHome={goHome}
@@ -1432,6 +1553,7 @@ function HistoryScreen({
 
 type ReportsScreenProps = {
   reports: QuestionReport[]
+  syncStatus: ReportSyncStatus
   onClearReports: () => void
   onDeleteReport: (reportId: string) => void
   onHome: () => void
@@ -1441,6 +1563,7 @@ type ReportsScreenProps = {
 
 function ReportsScreen({
   reports,
+  syncStatus,
   onClearReports,
   onDeleteReport,
   onHome,
@@ -1455,6 +1578,11 @@ function ReportsScreen({
           <h1>Reports</h1>
           <p className="status">
             {reports.length} {reports.length === 1 ? 'question' : 'questions'} marked for review.
+          </p>
+          <p className="report-sync-status">
+            {syncStatus === 'syncing' && 'Syncing shared reports...'}
+            {syncStatus === 'idle' && 'Shared reports sync is active.'}
+            {syncStatus === 'local-only' && 'Shared reports are unavailable; showing this device only.'}
           </p>
         </div>
         <div className="results-hero__actions">
@@ -1571,6 +1699,7 @@ function ExamScreen({
   onToggleTheme,
 }: ExamScreenProps) {
   const unansweredCount = totalQuestions - answeredCount
+  const [hintTarget, setHintTarget] = useState<HintTarget>(null)
 
   return (
     <section className="exam">
@@ -1629,6 +1758,7 @@ function ExamScreen({
             key={id}
             image={getExamQuestionImage(question, session.mode)}
             onChooseAnswer={onChooseAnswer}
+            onOpenHint={() => setHintTarget({ itemNumber, question })}
             onOpenImage={onOpenImage}
             onReportQuestion={onReportQuestion}
             question={question}
@@ -1666,6 +1796,13 @@ function ExamScreen({
       )}
 
       {expandedImage && <ImageLightbox imageSrc={expandedImage} onClose={onCloseImage} />}
+      {hintTarget && (
+        <HintPanel
+          itemNumber={hintTarget.itemNumber}
+          onClose={() => setHintTarget(null)}
+          question={hintTarget.question}
+        />
+      )}
     </section>
   )
 }
@@ -2098,6 +2235,7 @@ type QuestionCardProps = {
   itemId: string
   itemNumber: number
   onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
+  onOpenHint: () => void
   onOpenImage: (imageSrc: string) => void
   onReportQuestion: (itemId: string) => void
   question: ExamSession['questions'][number]['question']
@@ -2110,6 +2248,7 @@ function QuestionCard({
   itemId,
   itemNumber,
   onChooseAnswer,
+  onOpenHint,
   onOpenImage,
   onReportQuestion,
   question,
@@ -2122,15 +2261,28 @@ function QuestionCard({
       <div className="question-card__top">
         <span className="question-number">Item {itemNumber}</span>
         <div className="question-card__tools">
-          <button
-            aria-label={`Report question ${question.id}`}
-            className="report-question-button"
-            onClick={() => onReportQuestion(itemId)}
-            title={`Report question ${question.id}`}
-            type="button"
-          >
-            R
-          </button>
+          <span className="question-tool-wrapper">
+            <button
+              aria-label={`Show hint for question ${question.id}`}
+              className="question-tool-button hint-question-button"
+              onClick={onOpenHint}
+              type="button"
+            >
+              H
+            </button>
+            <span className="question-tool-tip" role="tooltip">Hint</span>
+          </span>
+          <span className="question-tool-wrapper">
+            <button
+              aria-label={`Report question ${question.id}`}
+              className="question-tool-button report-question-button"
+              onClick={() => onReportQuestion(itemId)}
+              type="button"
+            >
+              R
+            </button>
+            <span className="question-tool-tip" role="tooltip">Report question</span>
+          </span>
           <span className="subject-tag">{question.subject}</span>
         </div>
       </div>
@@ -2174,6 +2326,69 @@ function QuestionCard({
         })}
       </div>
     </article>
+  )
+}
+
+type HintPanelProps = {
+  itemNumber: number
+  onClose: () => void
+  question: ExamSession['questions'][number]['question']
+}
+
+function HintPanel({ itemNumber, onClose, question }: HintPanelProps) {
+  const closeButtonRef = useRef<HTMLButtonElement>(null)
+  const backdropPointerStartedRef = useRef(false)
+  const { closeWith, overlayClass } = usePopupTransition()
+
+  const closePanel = useCallback(() => {
+    closeWith(onClose)
+  }, [closeWith, onClose])
+
+  const closeFromBackdropClick = useCallback((event: MouseEvent<HTMLDivElement>) => {
+    if (event.target === event.currentTarget && backdropPointerStartedRef.current) {
+      closePanel()
+    }
+
+    backdropPointerStartedRef.current = false
+  }, [closePanel])
+
+  useEffect(() => {
+    closeButtonRef.current?.focus({ preventScroll: true })
+
+    function handleKeydown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        closePanel()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeydown)
+    return () => window.removeEventListener('keydown', handleKeydown)
+  }, [closePanel])
+
+  return (
+    <OverlayPortal>
+      <div
+        aria-labelledby="hint-panel-title"
+        aria-modal="true"
+        className={`exam-dialog ${overlayClass}`}
+        onClick={closeFromBackdropClick}
+        onPointerDown={(event) => {
+          backdropPointerStartedRef.current = event.target === event.currentTarget
+        }}
+        role="dialog"
+      >
+        <div className="exam-dialog__content hint-panel" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
+          <p className="eyebrow">Item {itemNumber}</p>
+          <h2 id="hint-panel-title">Hint</h2>
+          <p className="hint-panel__text">{buildQuestionHint(question)}</p>
+          <div className="exam-dialog__actions">
+            <button className="button button--primary" onClick={closePanel} ref={closeButtonRef} type="button">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </OverlayPortal>
   )
 }
 
@@ -2324,6 +2539,27 @@ function usesImageChoiceMarkers(choices: { text: string }[]): boolean {
 
 function hasPromptInImage(questionId: string, image: string | undefined, markerChoicesOnly: boolean): boolean {
   return Boolean(image) && (markerChoicesOnly || PROMPT_IN_IMAGE_IDS.has(questionId))
+}
+
+function buildQuestionHint(question: ExamSession['questions'][number]['question']): string {
+  if (question.image) {
+    return 'Use the reference image together with the wording of the question. Match each visible label, underline, shape, or pattern to the answer choices before choosing.'
+  }
+
+  switch (question.subject) {
+    case 'Numerical Reasoning':
+      return 'Write down what is being asked, list the given numbers, and convert percentages, fractions, rates, or units before calculating.'
+    case 'Analytical Ability':
+      return 'Track each condition carefully, eliminate choices that violate one condition, then compare only the remaining choices.'
+    case 'Verbal Reasoning':
+      return 'Use the sentence context and the tone of the phrase. Remove choices that do not fit the meaning in the sentence.'
+    case 'Filipino':
+      return 'Basahin ang buong pangungusap bago pumili. Hanapin ang salitang pinakaakma sa diwa, gamit, o ayos ng pangungusap.'
+    case 'General Information':
+      return 'Focus on the key term in the question first, then choose the option that matches the official concept, institution, or basic civic fact.'
+    default:
+      return 'Read the question carefully, remove clearly wrong choices, and compare the remaining options against the exact wording.'
+  }
 }
 
 function formatPromptLines(prompt: string): string[] {
