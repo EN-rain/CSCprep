@@ -19,6 +19,7 @@ export type Question = {
   id: string
   subject: Subject
   prompt: string
+  hint: string
   choices: Choice[]
   correctChoiceId: ChoiceId
   explanation?: string

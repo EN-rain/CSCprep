@@ -2380,7 +2380,7 @@ function HintPanel({ itemNumber, onClose, question }: HintPanelProps) {
         <div className="exam-dialog__content hint-panel" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
           <p className="eyebrow">Item {itemNumber}</p>
           <h2 id="hint-panel-title">Hint</h2>
-          <p className="hint-panel__text">{buildQuestionHint(question)}</p>
+          <p className="hint-panel__text">{question.hint}</p>
           <div className="exam-dialog__actions">
             <button className="button button--primary" onClick={closePanel} ref={closeButtonRef} type="button">
               Close
@@ -2539,27 +2539,6 @@ function usesImageChoiceMarkers(choices: { text: string }[]): boolean {
 
 function hasPromptInImage(questionId: string, image: string | undefined, markerChoicesOnly: boolean): boolean {
   return Boolean(image) && (markerChoicesOnly || PROMPT_IN_IMAGE_IDS.has(questionId))
-}
-
-function buildQuestionHint(question: ExamSession['questions'][number]['question']): string {
-  if (question.image) {
-    return 'Use the reference image together with the wording of the question. Match each visible label, underline, shape, or pattern to the answer choices before choosing.'
-  }
-
-  switch (question.subject) {
-    case 'Numerical Reasoning':
-      return 'Write down what is being asked, list the given numbers, and convert percentages, fractions, rates, or units before calculating.'
-    case 'Analytical Ability':
-      return 'Track each condition carefully, eliminate choices that violate one condition, then compare only the remaining choices.'
-    case 'Verbal Reasoning':
-      return 'Use the sentence context and the tone of the phrase. Remove choices that do not fit the meaning in the sentence.'
-    case 'Filipino':
-      return 'Basahin ang buong pangungusap bago pumili. Hanapin ang salitang pinakaakma sa diwa, gamit, o ayos ng pangungusap.'
-    case 'General Information':
-      return 'Focus on the key term in the question first, then choose the option that matches the official concept, institution, or basic civic fact.'
-    default:
-      return 'Read the question carefully, remove clearly wrong choices, and compare the remaining options against the exact wording.'
-  }
 }
 
 function formatPromptLines(prompt: string): string[] {

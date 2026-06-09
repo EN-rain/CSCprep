@@ -3,6 +3,7 @@
     "id": "nr-001",
     "subject": "Numerical Reasoning",
     "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 +\n17 + 18 + 19 + 20 = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -28,6 +29,7 @@
     "id": "nr-002",
     "subject": "Numerical Reasoning",
     "prompt": "Evaluate: {\n}\n-\n-\n+\n-\n.\n16\n(\n24\n8\n)\n22\n8 ×\n8",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -54,6 +56,7 @@
     "id": "nr-003",
     "subject": "Numerical Reasoning",
     "prompt": "Find the product: 800 x 125.",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -79,6 +82,7 @@
     "id": "nr-004",
     "subject": "Numerical Reasoning",
     "prompt": "Find the quotient: 8,000 / 125",
+    "hint": "Division item: cancel common factors or move decimal places before calculating.",
     "choices": [
       {
         "id": "A",
@@ -104,6 +108,7 @@
     "id": "nr-005",
     "subject": "Numerical Reasoning",
     "prompt": "Find the sum: 299 + 943 + 398 + 101",
+    "hint": "Addition item: group compatible numbers first, especially pairs that make tens, hundreds, or thousands.",
     "choices": [
       {
         "id": "A",
@@ -129,6 +134,7 @@
     "id": "nr-006",
     "subject": "Numerical Reasoning",
     "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103 + 104 + 105\n+ 106 + 107 + 108 + 109 + 110 = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -154,6 +160,7 @@
     "id": "nr-007",
     "subject": "Numerical Reasoning",
     "prompt": "What is the remainder when 192 888 is divided by 8?",
+    "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
         "id": "A",
@@ -179,6 +186,7 @@
     "id": "nr-008",
     "subject": "Numerical Reasoning",
     "prompt": "Rounding 299 943 to the nearest thousands, the result is",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -204,6 +212,7 @@
     "id": "nr-009",
     "subject": "Numerical Reasoning",
     "prompt": "If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find the value of\nx – y?",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -229,6 +238,7 @@
     "id": "nr-010",
     "subject": "Numerical Reasoning",
     "prompt": "398.101 is read as",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -254,6 +264,7 @@
     "id": "nr-011",
     "subject": "Numerical Reasoning",
     "prompt": "A number is divisible by 8 if its last three digits is divisible by 8. Which of the\nfollowing numbers is divisible by 8?",
+    "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
         "id": "A",
@@ -279,6 +290,7 @@
     "id": "nr-012",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following statements is true?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -304,6 +316,7 @@
     "id": "nr-013",
     "subject": "Numerical Reasoning",
     "prompt": "Simplify: ½ (128 – 84) – ½ (128 – 84)",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -329,6 +342,7 @@
     "id": "nr-014",
     "subject": "Numerical Reasoning",
     "prompt": "Simplify: 33 1/3% of 48 + 12 ½% of 96 – 44 4/9% of 27",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -354,6 +368,7 @@
     "id": "nr-015",
     "subject": "Numerical Reasoning",
     "prompt": "Reduce 231/1001 to its lowest terms",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -379,6 +394,7 @@
     "id": "nr-016",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following is true?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -405,6 +421,7 @@
     "id": "nr-017",
     "subject": "Numerical Reasoning",
     "prompt": "Find the value of x:\n(\n72\n)\n(\n35\n)\n\n\n8\n7",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -431,6 +448,7 @@
     "id": "nr-018",
     "subject": "Numerical Reasoning",
     "prompt": "What is 25% of 228?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -456,6 +474,7 @@
     "id": "nr-019",
     "subject": "Numerical Reasoning",
     "prompt": "228 is 25% of what number?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -481,6 +500,7 @@
     "id": "nr-020",
     "subject": "Numerical Reasoning",
     "prompt": "168 is what percent of 672?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -506,6 +526,7 @@
     "id": "nr-021",
     "subject": "Numerical Reasoning",
     "prompt": "Evaluate: 123 x 0.1 + 123 x 0.01 + 123 x 0.001",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -531,6 +552,7 @@
     "id": "nr-022",
     "subject": "Numerical Reasoning",
     "prompt": "Find 3 ¼ of 16",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -556,6 +578,7 @@
     "id": "nr-023",
     "subject": "Numerical Reasoning",
     "prompt": "Evaluate: 1 + ½ + ¼ + 1/8 = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -581,6 +604,7 @@
     "id": "nr-024",
     "subject": "Numerical Reasoning",
     "prompt": "Find the value of x in the equation: 3x + 7 = 28",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -606,6 +630,7 @@
     "id": "nr-025",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following has the greatest value?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -631,6 +656,7 @@
     "id": "nr-026",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following always yields an odd integer?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -656,6 +682,7 @@
     "id": "nr-027",
     "subject": "Numerical Reasoning",
     "prompt": "If 8x + 12 = 24, what is the value of 24x + 36",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -681,6 +708,7 @@
     "id": "nr-028",
     "subject": "Numerical Reasoning",
     "prompt": "If a positive integer m is divisible by both 3 and 8, then m must also be divisible\nby",
+    "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
         "id": "A",
@@ -706,6 +734,7 @@
     "id": "nr-029",
     "subject": "Numerical Reasoning",
     "prompt": "If positive integers m and n are not both odd, which of the following is always\ntrue?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -731,6 +760,7 @@
     "id": "nr-030",
     "subject": "Numerical Reasoning",
     "prompt": "Find the average temperature change for the 12-day period. Temperature\nchange in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -756,6 +786,7 @@
     "id": "nr-031",
     "subject": "Numerical Reasoning",
     "prompt": "Find the set of all odd numbers x satisfying the conditions 5x - 4≤ 0 and 3x – 7 ≥\n0",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -782,6 +813,7 @@
     "id": "nr-032",
     "subject": "Numerical Reasoning",
     "prompt": "State the property illustrated. If 8(6) + 4 = 48 + 4 = 52, then 8(6) + 4 = 52",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -807,6 +839,7 @@
     "id": "nr-033",
     "subject": "Numerical Reasoning",
     "prompt": "If 8 less than the product of a number and -3 is greater than 7, which of the\nfollowing could be that number?",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -832,6 +865,7 @@
     "id": "nr-034",
     "subject": "Numerical Reasoning",
     "prompt": "The difference between 8 times a number and 17 is 231. Find the number.",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -857,6 +891,7 @@
     "id": "nr-035",
     "subject": "Numerical Reasoning",
     "prompt": "Four times the perimeter of a parking lot is 16 less than 2,000 meters. What is\nthe perimeter of the lot?",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -882,6 +917,7 @@
     "id": "nr-036",
     "subject": "Numerical Reasoning",
     "prompt": "The amount of last month's telephone bill, decreased by the product of 3 and\nPhp30.00 equals Php1,319.50",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -907,6 +943,7 @@
     "id": "nr-037",
     "subject": "Numerical Reasoning",
     "prompt": "Eighteen less than seven times the number of sandwiches is 269. How many\nsandwiches are there?",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -932,6 +969,7 @@
     "id": "nr-038",
     "subject": "Numerical Reasoning",
     "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as the\nlot. How much does the lot cost?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -957,6 +995,7 @@
     "id": "nr-039",
     "subject": "Numerical Reasoning",
     "prompt": "The sale price of a television set is Php 7,200. The discount rate is 40%. Find its\nregular price.",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -982,6 +1021,7 @@
     "id": "nr-040",
     "subject": "Numerical Reasoning",
     "prompt": "The lenghts of the sides of a triangle can be represented by three consecutive\nintegers. The perimeter of the triangle is 96cm. Find the length of the longest side\nof the triangle.",
+    "hint": "Measurement item: write the formula first and confirm the units before substituting the numbers.",
     "choices": [
       {
         "id": "A",
@@ -1007,6 +1047,7 @@
     "id": "nr-041",
     "subject": "Numerical Reasoning",
     "prompt": "The length of a rectangle is 8 meters more than twice its width. The perimeter is\n112 meters. Find its area.",
+    "hint": "Measurement item: write the formula first and confirm the units before substituting the numbers.",
     "choices": [
       {
         "id": "A",
@@ -1032,6 +1073,7 @@
     "id": "nr-042",
     "subject": "Numerical Reasoning",
     "prompt": "Paula is twice as old as Queenie. Seven years ago the sum of their ages was 16.\nHow old is Queenie now?",
+    "hint": "Addition item: group compatible numbers first, especially pairs that make tens, hundreds, or thousands.",
     "choices": [
       {
         "id": "A",
@@ -1057,6 +1099,7 @@
     "id": "nr-043",
     "subject": "Numerical Reasoning",
     "prompt": "For what value of x will x be the average of 2, 4x, 6, 8, 10?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -1082,6 +1125,7 @@
     "id": "nr-044",
     "subject": "Numerical Reasoning",
     "prompt": "How many integers between 197 and 303 are divisible by 4 or 10?",
+    "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
         "id": "A",
@@ -1107,6 +1151,7 @@
     "id": "nr-045",
     "subject": "Numerical Reasoning",
     "prompt": "A patient must take his medication every 7 hours starting at 7:00 AM, Sunday.\nOn what day will the patient first receive his medication at 8 AM?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -1132,6 +1177,7 @@
     "id": "nr-046",
     "subject": "Numerical Reasoning",
     "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have a regular day of the week\non which they shop. What percentage of the shoppers did not have a regular day\nof shopping?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1157,6 +1203,7 @@
     "id": "nr-047",
     "subject": "Numerical Reasoning",
     "prompt": "A water container has 100mL of water in it and is 20% full. How many mL of\nwater can this container hold if it is full?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1182,6 +1229,7 @@
     "id": "nr-048",
     "subject": "Numerical Reasoning",
     "prompt": "How many containers each occupies an area of 2 1/8 square meters can be\nstored in a 952 square meter warehouse?",
+    "hint": "Measurement item: write the formula first and confirm the units before substituting the numbers.",
     "choices": [
       {
         "id": "A",
@@ -1207,6 +1255,7 @@
     "id": "nr-049",
     "subject": "Numerical Reasoning",
     "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a\nmonth. Next year the starting salary will be raised to Php18,000. What is the rate\nof increase in the starting salary?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1232,6 +1281,7 @@
     "id": "nr-050",
     "subject": "Numerical Reasoning",
     "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago\nwas Php12,500. There was a 420% increase in the price in the last five years.\nWhat is the price per square meter of that lot today?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1257,6 +1307,7 @@
     "id": "nr-051",
     "subject": "Numerical Reasoning",
     "prompt": "Last month, a store manager decided to decrease the prices of all items by 10%.\nThis month, he increased the prices by 10%. What would be the price for a pair\nof pants that had cost Php750 before prices were decreased last month?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1282,6 +1333,7 @@
     "id": "nr-052",
     "subject": "Numerical Reasoning",
     "prompt": "When the original price of an item is increased by a certain rate, the increased\nprice is Php 3,100. When the original price is decreased by the same rate, the\ndecreased price is Php1,900. What is the original price of this item?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1307,6 +1359,7 @@
     "id": "nr-053",
     "subject": "Numerical Reasoning",
     "prompt": "How much must one has to invest in corporate bonds paying 9.6% in order to\nearn an income of Php12,000 per annum?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1332,6 +1385,7 @@
     "id": "nr-054",
     "subject": "Numerical Reasoning",
     "prompt": "How much must be cut form the edge of a piece of glass 16 1/8 cm wide, in order\nfor it to fit into an opening 14 ¾ cm wide?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1357,6 +1411,7 @@
     "id": "nr-055",
     "subject": "Numerical Reasoning",
     "prompt": "A race car traveled for 2 ½ hours with an average speed of 132 5/8 km per hour.\nFind the total distance it covered.",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -1382,6 +1437,7 @@
     "id": "nr-056",
     "subject": "Numerical Reasoning",
     "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what\nwill be its weight with a full load?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -1407,6 +1463,7 @@
     "id": "nr-057",
     "subject": "Numerical Reasoning",
     "prompt": "How many liters will remain in 1 1000-liter storage tank if 8.2% of the liquid has\nevaporated due to excessive heat?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1432,6 +1489,7 @@
     "id": "nr-058",
     "subject": "Numerical Reasoning",
     "prompt": "Dante recently sold some stocks for which he originally bought for Php358. If it\nhas increased in value by 116%, how much did he receive for the stock?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1457,6 +1515,7 @@
     "id": "nr-059",
     "subject": "Numerical Reasoning",
     "prompt": "Mr. Manny Vargas, a real estate broker sold a building for Php175M. How much\ndid he receive if his commission is 5.5% of the sale price of the property?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1482,6 +1541,7 @@
     "id": "nr-060",
     "subject": "Numerical Reasoning",
     "prompt": "If 560 out of 700 examinees passed in the recent Career Service exam for Sub-\nProfessional level, what percent of the examinees passed?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1507,6 +1567,7 @@
     "id": "nr-061",
     "subject": "Numerical Reasoning",
     "prompt": "Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000\ninterest. What rate of interest did Asian Bank charge for the loan?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1532,6 +1593,7 @@
     "id": "nr-062",
     "subject": "Numerical Reasoning",
     "prompt": "A store sells shirts for Php1,078 each or 3 for Php2,997. How much would one\nsave by buying 3 shirts at a time instead of 3 shirts, one at a time?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -1557,6 +1619,7 @@
     "id": "nr-063",
     "subject": "Numerical Reasoning",
     "prompt": "A computer can be rented for Php1,745 a week or Php 347.50 a day. You need\nthe computer only for 6 days. At which rate (daily or weekly), would it be cheaper\nto rent and by how much cheaper?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1582,6 +1645,7 @@
     "id": "nr-064",
     "subject": "Numerical Reasoning",
     "prompt": "A 1.25 kg of box of Brand A detergent sells for Php 87.50. A 1.5 kg box of Brand\nB detergent sells for Php103.20. What is the difference in the price per kg.?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1607,6 +1671,7 @@
     "id": "nr-065",
     "subject": "Numerical Reasoning",
     "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe\nper meter?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1632,6 +1697,7 @@
     "id": "nr-066",
     "subject": "Numerical Reasoning",
     "prompt": "A homeowner can rent a chain saw from a rental agency at Php 2,700 a day. The\nbrand new of the same saw can be bought for Php18,900. For how many days\ncould the homeonwer rent the saw before renting would cost more than buying?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -1657,6 +1723,7 @@
     "id": "nr-067",
     "subject": "Numerical Reasoning",
     "prompt": "Paula uses ten 100-watt bulbs in her house. She uses these bulbs at an average\nof 5 hours each day. How many KWH do these bulbs use each day?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -1682,6 +1749,7 @@
     "id": "nr-068",
     "subject": "Numerical Reasoning",
     "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours a\nyear. How many kilowatt-hour is this?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -1707,6 +1775,7 @@
     "id": "nr-069",
     "subject": "Numerical Reasoning",
     "prompt": "A DVD movie, purchased for Php440 was marked up 25% on the selling price.\nLater, as retail prices fell, this movie was marked down 20% on the current sale\nprice. Find its new sale price.",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1732,6 +1801,7 @@
     "id": "nr-070",
     "subject": "Numerical Reasoning",
     "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480\npacks paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes\nof cards @ 0.80. A 5% sales tax is added. What was the company’s total bill?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -1757,6 +1827,7 @@
     "id": "nr-071",
     "subject": "Numerical Reasoning",
     "prompt": "The question “How many flowers are needed to border a rectangular garden?”,\ninvolves",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1782,6 +1853,7 @@
     "id": "nr-072",
     "subject": "Numerical Reasoning",
     "prompt": "How many meters of fencing are needed to enclose an 84-meter by 48-meter\nrectangular garden?",
+    "hint": "Measurement item: write the formula first and confirm the units before substituting the numbers.",
     "choices": [
       {
         "id": "A",
@@ -1807,6 +1879,7 @@
     "id": "nr-073",
     "subject": "Numerical Reasoning",
     "prompt": "How many 1-cm square stickers are needed to cover a photo box 4 cm long, 3cm\nwide and 5cm high?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1832,6 +1905,7 @@
     "id": "nr-074",
     "subject": "Numerical Reasoning",
     "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is\n4cm longer than the shortest side. How long is the shortest side if the perimeter\nis 67 cm?",
+    "hint": "Measurement item: write the formula first and confirm the units before substituting the numbers.",
     "choices": [
       {
         "id": "A",
@@ -1857,6 +1931,7 @@
     "id": "nr-075",
     "subject": "Numerical Reasoning",
     "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm,\nif its perimeter is 50cm?",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -1882,6 +1957,7 @@
     "id": "nr-076",
     "subject": "Numerical Reasoning",
     "prompt": "By what percent was the price per kilo of chicken inceased?\n1) The price per kilo of chicken was increased by Php20\n2) The price per kilo of chicken was increased by Php120",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -1911,6 +1987,7 @@
     "id": "nr-077",
     "subject": "Numerical Reasoning",
     "prompt": "A real estate broker received a commission of 8% of the selling price of a certain\nproperty, what was the selling price of the property?\n1) The selling price minus the real estate agent’s commission was Php\n9,200,000\n2) The selling price was 250% of the original purchase price of Php\n4,000,000.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -1940,6 +2017,7 @@
     "id": "nr-078",
     "subject": "Numerical Reasoning",
     "prompt": "Cherry and Keanna were among those who sold raffle tickets to raise money for\nthe club. If Cherry and Keanna sold a total of 168 tickets, how many tickets did\nCherry sell?\n1) Keanna sold 60% as many raffle tickets as Cherry\n2) Keanna sold 8% of all the raffle tickets sold.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -1969,6 +2047,7 @@
     "id": "nr-079",
     "subject": "Numerical Reasoning",
     "prompt": "What is the ratio of m : s: a?\n1) a = 2, and ms = 64\n2) m/s = 2 and a/s = ¼",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -1998,6 +2077,7 @@
     "id": "nr-080",
     "subject": "Numerical Reasoning",
     "prompt": "If x and y are integers, is x divisible by 17?\n1) The product xy is divisible by 17\n2) y is not divisible by 17",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2027,6 +2107,7 @@
     "id": "nr-081",
     "subject": "Numerical Reasoning",
     "prompt": "On Saturday morning the printing machine of Gerpress Printing ran continuously\nat a uniform rate to fill a production order. At what time did it completely fill the\norder that morning?\n1) The supervisor began the plan for production at 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by\n10:18am",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2056,6 +2137,7 @@
     "id": "nr-082",
     "subject": "Numerical Reasoning",
     "prompt": "How many books does Gerard have?\n1) If Gerard had 18 fewer books, he would have only half as many as he\nactually has.\n2) Gerard has three times as many fiction as non-fiction books.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2085,6 +2167,7 @@
     "id": "nr-083",
     "subject": "Numerical Reasoning",
     "prompt": "What number is 24% of x?\n1) 16 is 8% of x\n2) 1/8 of x is 1,600",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2114,6 +2197,7 @@
     "id": "nr-084",
     "subject": "Numerical Reasoning",
     "prompt": "What was the total amount raised for the Payatas Tragedy from private\ncorporations and personal donations?\n1) Of the amount donated,48% came from private corporations\n2) Of the amount donated, Php15M came from personal donations.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2143,6 +2227,7 @@
     "id": "nr-085",
     "subject": "Numerical Reasoning",
     "prompt": "Mary’s total score in the three bowling games was 530. What were her scores?\n1) Mary’s highest score was 198\n2) The sum of Mary’s two highest scores was 368",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2172,6 +2257,7 @@
     "id": "nr-086",
     "subject": "Numerical Reasoning",
     "prompt": "If the value of n closer to 48 than to 78?\n1) 78 – n > n – 48\n2) n > 60",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2201,6 +2287,7 @@
     "id": "nr-087",
     "subject": "Numerical Reasoning",
     "prompt": "In last Saturday’s Midnight Sale at Gaisano Mall a certain shop sold 75% of the\nshirts in its inventory. Each shirt was sold for Php358. What was the total\nrevenue from the sale of these shirts on that day?\n1) When the shop opened last Saturday, there were 448 shirts in its\ninventory\n2) All but 112 of the shop’s inventory were sold last Saturday.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2230,6 +2317,7 @@
     "id": "nr-088",
     "subject": "Numerical Reasoning",
     "prompt": "How many more boys than girls are there in the room?\n1) There is a total of 56 girls and boys in the room.\n2) The number of boys in the room equals the square of the number of girls\nin the room.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2259,6 +2347,7 @@
     "id": "nr-089",
     "subject": "Numerical Reasoning",
     "prompt": "In what year was David born?\n1) David’s friend Michelle, who is ½ years younger than him, was born in\n1979.\n2) In 1998, David turned 20 years old",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2288,6 +2377,7 @@
     "id": "nr-090",
     "subject": "Numerical Reasoning",
     "prompt": "A box contains 48 balls, of which 30 are red and 18 are blue. If 16 of the balls are\nremoved, how many of the balls left in the box are blue?\n1) Of the balls removed, the ratio of the number of red ones to the number of\nblue ones is 5:3\n2) Of the first 8 marbles removed, 5 are red",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2317,6 +2407,7 @@
     "id": "nr-091",
     "subject": "Numerical Reasoning",
     "prompt": "How long did it take Mrs. Lim to drive non-stop on a trip from here home to Ayala\nAlabang?\n1) If Mrs. Lim average speed for the trip had been 1.5 times as fast, the trip\nwould have taken 2 hours.\n2) Mrs. Lim average speed for the trip was 80 km per hour.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2346,6 +2437,7 @@
     "id": "nr-092",
     "subject": "Numerical Reasoning",
     "prompt": "If Lorna had a dentist’s appointment on a certain day, was the appointment on a\nFriday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2375,6 +2467,7 @@
     "id": "nr-093",
     "subject": "Numerical Reasoning",
     "prompt": "What was the average number of kilometers per liter of gasoline a car can\nconsume during a certain trip?\n1) The total cost of the gasoline used by the card or the 640-km trip was\nPhp1,152.\n2) The cost for the gasoline used by the car for the trip was Php18.00 per\nliter.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2404,6 +2497,7 @@
     "id": "nr-094",
     "subject": "Numerical Reasoning",
     "prompt": "What is the ratio of a to b?\n1) a is 8 more than twice b.\n2) The ratio of a to 4b is 3 : 7.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2433,6 +2527,7 @@
     "id": "nr-095",
     "subject": "Numerical Reasoning",
     "prompt": "At Avanti Review Center, 400 students are enrolled for the Review Program or\nAcademic Advancement Program or both. If 100 of these students are not\nenrolled in the Review Program, how many of them are enrolled in both Avanti\nReview Program and Avanti Academic Advancement Program?\n1) Of the 400 students, 160 are not enrolled in the Academic Advancement\nProgram.\n2) A total of 240 of the students are enrolled in the Academic Advancement\nProgram.",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2462,6 +2557,7 @@
     "id": "nr-096",
     "subject": "Numerical Reasoning",
     "prompt": "In which of the following years did over 2/3 of the students who took the exam not pass it?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -2492,6 +2588,7 @@
     "id": "nr-097",
     "subject": "Numerical Reasoning",
     "prompt": "It is known that a quarter of the students who passed the exam in 2007, passed it at the first trial. Assuming\neach exam has two trials, what percentage of all the students who took the exam that year passed it in the\nsecond trial?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2522,6 +2619,7 @@
     "id": "nr-098",
     "subject": "Numerical Reasoning",
     "prompt": "If the number of Chinese Insurance stocks represented 3.5% of all Insurance securities, approximately how\nmany Insurance bonds were Chinese?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2552,6 +2650,7 @@
     "id": "nr-099",
     "subject": "Numerical Reasoning",
     "prompt": "I Return on sales (Profit/sales) was highest in which year?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -2582,6 +2681,7 @@
     "id": "nr-100",
     "subject": "Numerical Reasoning",
     "prompt": "How many times return on sales (profit/sales) exceeded 15 % ?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2612,6 +2712,7 @@
     "id": "nr-101",
     "subject": "Numerical Reasoning",
     "prompt": "How many times growth in profit over the previous year exceeded 50% was registered ?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2642,6 +2743,7 @@
     "id": "nr-102",
     "subject": "Numerical Reasoning",
     "prompt": "Find the ratio between FEI for Malaysia in 1997 and FEI for Thailand in 1998",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -2672,6 +2774,7 @@
     "id": "nr-103",
     "subject": "Numerical Reasoning",
     "prompt": "Name the country which has the minimum change in the FEI",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -2702,6 +2805,7 @@
     "id": "nr-104",
     "subject": "Numerical Reasoning",
     "prompt": "If, Education sector in Thailand had 25% of FEI in 1997 and 60% of FEI in 1998, then find the approx ratio of\nthe amounts allocated to Education in 1997 to 1998. (Assume the GDPs of both of these years for Thailand is\nsame.)",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2732,6 +2836,7 @@
     "id": "nr-105",
     "subject": "Numerical Reasoning",
     "prompt": "A rumour about an upcoming recession in Japan has reduced the value of the Yen 7% compared with the\nEuro. How many Euros can you now buy for 500 Yen?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2762,6 +2867,7 @@
     "id": "nr-106",
     "subject": "Numerical Reasoning",
     "prompt": "In a records audit, 30% of the files were marked incomplete. What percent of the files were complete?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2791,6 +2897,7 @@
     "id": "nr-110",
     "subject": "Numerical Reasoning",
     "prompt": "A government office processed 240 applications in one day. If 25% were returned for correction, how many applications were returned?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2820,6 +2927,7 @@
     "id": "nr-111",
     "subject": "Numerical Reasoning",
     "prompt": "(25)^0 - (-2)^4 + (-3^4) - (-8)^2 = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -2849,6 +2957,7 @@
     "id": "nr-112",
     "subject": "Numerical Reasoning",
     "prompt": "-2^2 - (-9)^2 - (-3^2) + 15^0 = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -2878,6 +2987,7 @@
     "id": "nr-113",
     "subject": "Numerical Reasoning",
     "prompt": "20% of 30% of X is 225 what is the value of X",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2907,6 +3017,7 @@
     "id": "nr-114",
     "subject": "Numerical Reasoning",
     "prompt": "If the perimeter of a square is doubled, what happens to the area? ______",
+    "hint": "Measurement item: write the formula first and confirm the units before substituting the numbers.",
     "choices": [
       {
         "id": "A",
@@ -2932,6 +3043,7 @@
     "id": "nr-115",
     "subject": "Numerical Reasoning",
     "prompt": "A one-fourth percent of a number is 25. What is the number?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2957,6 +3069,7 @@
     "id": "nr-116",
     "subject": "Numerical Reasoning",
     "prompt": "√0.000225 = ____?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -2986,6 +3099,7 @@
     "id": "nr-117",
     "subject": "Numerical Reasoning",
     "prompt": "√0.00000081 = ____?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3015,6 +3129,7 @@
     "id": "nr-118",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the numbers below is 650 when rounded to the nearest ten and 600 when rounded to the nearest hundred?",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -3044,6 +3159,7 @@
     "id": "nr-119",
     "subject": "Numerical Reasoning",
     "prompt": "Round off to the nearest hundreds place: 9,750",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3073,6 +3189,7 @@
     "id": "nr-120",
     "subject": "Numerical Reasoning",
     "prompt": "Round off to the nearest hundreds place: 9,650",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3102,6 +3219,7 @@
     "id": "nr-121",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 125%, 100%, 80%, 64%,____",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -3131,6 +3249,7 @@
     "id": "nr-122",
     "subject": "Numerical Reasoning",
     "prompt": "Number series: 2, 10, 60, 420, ____",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -3160,6 +3279,7 @@
     "id": "nr-123",
     "subject": "Numerical Reasoning",
     "prompt": "The mean median and mode of 5 numbers are equal. The numbers are 7, 8, 10, 15. What is the 5th\nnumber?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -3189,6 +3309,7 @@
     "id": "nr-124",
     "subject": "Numerical Reasoning",
     "prompt": "The mean median and mode of 7 numbers are equal. The numbers are 24, 22, 18, 10, 38, 32. What is\nthe 7th number?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -3218,6 +3339,7 @@
     "id": "nr-125",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 1, 2, 2, 3, 4, 4, 8, 5, __",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -3247,6 +3369,7 @@
     "id": "nr-126",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 15, 7.5, 7.5, 15, 60, ____",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -3276,6 +3399,7 @@
     "id": "nr-127",
     "subject": "Numerical Reasoning",
     "prompt": "Round-off 2,833,333 to the nearest hundred thousands",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3305,6 +3429,7 @@
     "id": "nr-128",
     "subject": "Numerical Reasoning",
     "prompt": "The product of the ages of three sisters is 567. If the two sisters are twins and are 2 years older than their\nyounger sister. What is the age of their younger sister?",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -3334,6 +3459,7 @@
     "id": "nr-129",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: [4÷4×2], [8÷4×2], [16÷4×2], ___",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -3363,6 +3489,7 @@
     "id": "nr-130",
     "subject": "Numerical Reasoning",
     "prompt": "A solution is made of water and pure milk. If 70% of the solution is water, how many milliliters of pure milk\nare in 1 liter of this solution?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -3392,6 +3519,7 @@
     "id": "nr-131",
     "subject": "Numerical Reasoning",
     "prompt": "4010 x 0.0001 = ___",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -3421,6 +3549,7 @@
     "id": "nr-132",
     "subject": "Numerical Reasoning",
     "prompt": "(−7)² + (−7²) =",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3450,6 +3579,7 @@
     "id": "nr-133",
     "subject": "Numerical Reasoning",
     "prompt": "When the first and the last digits of 2, 836 are interchanged, the new number is _____.",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -3479,6 +3609,7 @@
     "id": "nr-134",
     "subject": "Numerical Reasoning",
     "prompt": "If twice the value of a certain number is increased by 8 the result is 40. What is the number?",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -3508,6 +3639,7 @@
     "id": "nr-135",
     "subject": "Numerical Reasoning",
     "prompt": "Genzy's dad is 5 times as old as Genzy and Genzy is twice as old as her sister Zymie. In two years, the\nsum of their ages will be 58. How old is Genzy now?",
+    "hint": "Addition item: group compatible numbers first, especially pairs that make tens, hundreds, or thousands.",
     "choices": [
       {
         "id": "A",
@@ -3537,6 +3669,7 @@
     "id": "nr-136",
     "subject": "Numerical Reasoning",
     "prompt": "In a group of 120 persons, there are 32 more women than men. How many women are there in the\ngroup?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3566,6 +3699,7 @@
     "id": "nr-137",
     "subject": "Numerical Reasoning",
     "prompt": "If the dimensions of a square change in such a manner that the area remains constant, what must\nhappen to the other side if one side will be increased by 1/4 of itself?",
+    "hint": "Measurement item: write the formula first and confirm the units before substituting the numbers.",
     "choices": [
       {
         "id": "A",
@@ -3595,6 +3729,7 @@
     "id": "nr-138",
     "subject": "Numerical Reasoning",
     "prompt": "If x - 3 = y, then (y - x )³ = _____ ?",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -3624,6 +3759,7 @@
     "id": "nr-139",
     "subject": "Numerical Reasoning",
     "prompt": "0.75 is to ¾ as 0.8 is to ______",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3653,6 +3789,7 @@
     "id": "nr-140",
     "subject": "Numerical Reasoning",
     "prompt": "75% is to 1/2 as 45% is to ______. Use the same rule: multiply the percent by 2/3.",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -3682,6 +3819,7 @@
     "id": "nr-141",
     "subject": "Numerical Reasoning",
     "prompt": "0.25 is to 0.125 as to 1.25 is to ________",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3711,6 +3849,7 @@
     "id": "nr-142",
     "subject": "Numerical Reasoning",
     "prompt": "2 is to 50 as 3.2 is to _________",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3740,6 +3879,7 @@
     "id": "nr-143",
     "subject": "Numerical Reasoning",
     "prompt": "14 is to 28 as 5 is to _________",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3769,6 +3909,7 @@
     "id": "nr-144",
     "subject": "Numerical Reasoning",
     "prompt": "4 × 8 + 12/4 - 8/2 =",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3798,6 +3939,7 @@
     "id": "nr-145",
     "subject": "Numerical Reasoning",
     "prompt": "483.43 + 123.334 + 31.5544 + 444.4 =",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3827,6 +3969,7 @@
     "id": "nr-146",
     "subject": "Numerical Reasoning",
     "prompt": "Which is the greatest?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3856,6 +3999,7 @@
     "id": "nr-147",
     "subject": "Numerical Reasoning",
     "prompt": "44 is 80% of what number?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -3885,6 +4029,7 @@
     "id": "nr-148",
     "subject": "Numerical Reasoning",
     "prompt": "18+ 3 × 3 + (54/3+ -68/-4) =",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -3914,6 +4059,7 @@
     "id": "nr-149",
     "subject": "Numerical Reasoning",
     "prompt": "There are 3 numbers whose sum is 54; one number is double and triple times greater than the other\nnumbers, what are those numbers?",
+    "hint": "Addition item: group compatible numbers first, especially pairs that make tens, hundreds, or thousands.",
     "choices": [
       {
         "id": "A",
@@ -3943,6 +4089,7 @@
     "id": "nr-150",
     "subject": "Numerical Reasoning",
     "prompt": "At 6:30 AM, a clerk reported that a transaction had been logged 15 1/4 hours earlier. At what time was the transaction logged?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -3972,6 +4119,7 @@
     "id": "nr-151",
     "subject": "Numerical Reasoning",
     "prompt": "If 3 document folders cost P15, how much will 12 document folders cost at the same rate?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4001,6 +4149,7 @@
     "id": "nr-152",
     "subject": "Numerical Reasoning",
     "prompt": "What number when increased by 74 percent of itself will equal to 80?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4030,6 +4179,7 @@
     "id": "nr-153",
     "subject": "Numerical Reasoning",
     "prompt": "What is the smallest positive number which, when you divided by 3, 4 or 5, will leave a remainder of 2?",
+    "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
         "id": "A",
@@ -4059,6 +4209,7 @@
     "id": "nr-154",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following numbers is represented by the prime factors 2 × 3 × 7?",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -4088,6 +4239,7 @@
     "id": "nr-155",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following numbers is divisible by 6?",
+    "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
         "id": "A",
@@ -4117,6 +4269,7 @@
     "id": "nr-156",
     "subject": "Numerical Reasoning",
     "prompt": "In a room, there are 9 boys and 12 girls. The ratio of girls to boys is ___",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -4142,6 +4295,7 @@
     "id": "nr-157",
     "subject": "Numerical Reasoning",
     "prompt": "A pet store has 8 cats, 12 dogs, and 3 rabbits. The ratio 8:23 compares",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -4167,6 +4321,7 @@
     "id": "nr-158",
     "subject": "Numerical Reasoning",
     "prompt": "Ratio of 750m and 3km is ____",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -4192,6 +4347,7 @@
     "id": "nr-159",
     "subject": "Numerical Reasoning",
     "prompt": "The ratio of two sides of a parallelogram is 4 : 3. If its perimeter is 56 cm, find the lengths of its sides.",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -4221,6 +4377,7 @@
     "id": "nr-160",
     "subject": "Numerical Reasoning",
     "prompt": "Four consecutive integers have a mean of 9.5. What is the largest of these integers?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -4250,6 +4407,7 @@
     "id": "nr-161",
     "subject": "Numerical Reasoning",
     "prompt": "A baseball pitcher won 80% of the games he pitched. If he pitched 35 ballgames, how many games did\nhe win?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4279,6 +4437,7 @@
     "id": "nr-162",
     "subject": "Numerical Reasoning",
     "prompt": "Jerry, an electrician, worked 9 months out of the year. What percent of the year did he work?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4308,6 +4467,7 @@
     "id": "nr-163",
     "subject": "Numerical Reasoning",
     "prompt": "There are 40 students in a class. Sixteen of those students are boys. What percent of the class are girls?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4337,6 +4497,7 @@
     "id": "nr-164",
     "subject": "Numerical Reasoning",
     "prompt": "Analie took a math test and got 48 correct and 12 incorrect answers. What was the percentage of correct\nanswers?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4366,6 +4527,7 @@
     "id": "nr-165",
     "subject": "Numerical Reasoning",
     "prompt": "120 is what percent of 48?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4391,6 +4553,7 @@
     "id": "nr-166",
     "subject": "Numerical Reasoning",
     "prompt": "120% of what number is 72?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4416,6 +4579,7 @@
     "id": "nr-167",
     "subject": "Numerical Reasoning",
     "prompt": "10% of 300 is what number?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4441,6 +4605,7 @@
     "id": "nr-168",
     "subject": "Numerical Reasoning",
     "prompt": "Two and one-half percent of what number is 88?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4466,6 +4631,7 @@
     "id": "nr-169",
     "subject": "Numerical Reasoning",
     "prompt": "In a barangay survey of 160 residents, 95% had valid IDs. How many residents did not have valid IDs?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4495,6 +4661,7 @@
     "id": "nr-170",
     "subject": "Numerical Reasoning",
     "prompt": "Of 300 registered applicants, 280 took the entrance test. If 70% of those who took the test passed, how many failed?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4524,6 +4691,7 @@
     "id": "nr-171",
     "subject": "Numerical Reasoning",
     "prompt": "40 % of 5 is equal to",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4553,6 +4721,7 @@
     "id": "nr-172",
     "subject": "Numerical Reasoning",
     "prompt": "In a shipment of computers, 2/25 of the computers are defective. What is the ratio of defective to non-defective computers?",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -4582,6 +4751,7 @@
     "id": "nr-173",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following is divisible (with no remainder) by 6?",
+    "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
         "id": "A",
@@ -4611,6 +4781,7 @@
     "id": "nr-174",
     "subject": "Numerical Reasoning",
     "prompt": "A solution is made of water and pure orange. If 80% of the solution is water, how many liters of pure\norange are in 25 liters of this solution?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4640,6 +4811,7 @@
     "id": "nr-175",
     "subject": "Numerical Reasoning",
     "prompt": "What is the average of 7/8 and 3/4?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -4669,6 +4841,7 @@
     "id": "nr-176",
     "subject": "Numerical Reasoning",
     "prompt": "If -6/(a - 3) = 3/(a + 2), then a = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -4698,6 +4871,7 @@
     "id": "nr-177",
     "subject": "Numerical Reasoning",
     "prompt": "A company makes a profit equal to 25% of its sales. The profit is shared equally among the 4 owners of\nthe company. If the company generates sales of $2,000,000, how much money does each one of the\nowners get?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4727,6 +4901,7 @@
     "id": "nr-178",
     "subject": "Numerical Reasoning",
     "prompt": "If a = 3, then 2 / (1/7 + 1/a) = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -4756,6 +4931,7 @@
     "id": "nr-179",
     "subject": "Numerical Reasoning",
     "prompt": "If (a + b)^2 = 25 and (a - b)^2 = 45, what is the value of a^2 + b^2?",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -4785,6 +4961,7 @@
     "id": "nr-180",
     "subject": "Numerical Reasoning",
     "prompt": "10-2+4×2-(10÷5×2) = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -4814,6 +4991,7 @@
     "id": "nr-181",
     "subject": "Numerical Reasoning",
     "prompt": "The population of a municipality is 5,000. If it increases by 5% each year, what will be the approximate population at the end of 10 years?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4843,6 +5021,7 @@
     "id": "nr-182",
     "subject": "Numerical Reasoning",
     "prompt": "An employee travels to a field office at 6 kph, and the trip takes 30 minutes. How far is the field office?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -4872,6 +5051,7 @@
     "id": "nr-183",
     "subject": "Numerical Reasoning",
     "prompt": "A boat takes 4/5 as much time to travel downstream as to its return. If the rate of the river's current is 6\nkph, what is the rate of the boat in still water?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -4901,6 +5081,7 @@
     "id": "nr-184",
     "subject": "Numerical Reasoning",
     "prompt": "If a car travels at 60 kph, what is the distance it travels in 30 minutes?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -4930,6 +5111,7 @@
     "id": "nr-185",
     "subject": "Numerical Reasoning",
     "prompt": "A car travels 120 miles at a speed of 40 miles per hour and makes a return trip at a speed of 60 miles per\nhour. What is its average speed, in miles per hour, of the police car?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -4959,6 +5141,7 @@
     "id": "nr-186",
     "subject": "Numerical Reasoning",
     "prompt": "What was the ratio of investment in 1997 over the investment in 1992 ?",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -4985,6 +5168,7 @@
     "id": "nr-187",
     "subject": "Numerical Reasoning",
     "prompt": "What was absolute difference in the FDI to Philippines in between 1996 and 1997 ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5011,6 +5195,7 @@
     "id": "nr-188",
     "subject": "Numerical Reasoning",
     "prompt": "If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI\nfrom all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was\nthe amount of FDI from the OPEC countries in 1997 ?",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -5037,6 +5222,7 @@
     "id": "nr-189",
     "subject": "Numerical Reasoning",
     "prompt": "Which year exhibited the highest growth in FDI in Philippines over the period shown ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5063,6 +5249,7 @@
     "id": "nr-190",
     "subject": "Numerical Reasoning",
     "prompt": "What was Philippines' total FDI for the period shown in the figure ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5089,6 +5276,7 @@
     "id": "nr-191",
     "subject": "Numerical Reasoning",
     "prompt": "What are the average marks obtained by the student in all the periodical exams during the last\nsession?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -5115,6 +5303,7 @@
     "id": "nr-192",
     "subject": "Numerical Reasoning",
     "prompt": "In which periodical exams there is a fall in percentage of marks as compared to the previous\nperiodical exams ?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5141,6 +5330,7 @@
     "id": "nr-193",
     "subject": "Numerical Reasoning",
     "prompt": "The total number of marks obtained in Feb. 02 is what percent of the total marks obtained in April 01\n?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5167,6 +5357,7 @@
     "id": "nr-194",
     "subject": "Numerical Reasoning",
     "prompt": "The table below shows the data Steve\ncollected while watching birds for one\nweek. How many raptors did Steve see on\nMonday?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5193,6 +5384,7 @@
     "id": "nr-195",
     "subject": "Numerical Reasoning",
     "prompt": "(2×1÷2), (4÷1×2), (6×1÷2), _____",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5218,6 +5410,7 @@
     "id": "nr-196",
     "subject": "Numerical Reasoning",
     "prompt": "(15-8+3), 8, (4÷2×3), ____",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5243,6 +5436,7 @@
     "id": "nr-197",
     "subject": "Numerical Reasoning",
     "prompt": "Simplify:\n33 1/3 % of 48 + 12 ½ % of 96 - 44 4/9 % of 27",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5268,6 +5462,7 @@
     "id": "nr-198",
     "subject": "Numerical Reasoning",
     "prompt": "12 is 125% of what number?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5297,6 +5492,7 @@
     "id": "nr-199",
     "subject": "Numerical Reasoning",
     "prompt": "What percent of 16 is 40?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5326,6 +5522,7 @@
     "id": "nr-200",
     "subject": "Numerical Reasoning",
     "prompt": "1 ¼ subtracted from its reciprocal is?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5355,6 +5552,7 @@
     "id": "nr-201",
     "subject": "Numerical Reasoning",
     "prompt": "What is the ratio of ¼ to 3/5?",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -5380,6 +5578,7 @@
     "id": "nr-202",
     "subject": "Numerical Reasoning",
     "prompt": "What is the difference between √150 and √54?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5409,6 +5608,7 @@
     "id": "nr-203",
     "subject": "Numerical Reasoning",
     "prompt": "A race car travelled for 2 ½ hours with an average speed of 132 5/8 km per hour.\nFind the total distance it covered.",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -5434,6 +5634,7 @@
     "id": "nr-204",
     "subject": "Numerical Reasoning",
     "prompt": "9^0 - (-2)^2 + (-3^2) - (-4)^2 = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5463,6 +5664,7 @@
     "id": "nr-205",
     "subject": "Numerical Reasoning",
     "prompt": "10^0 + (-4^2) - 2^2 = ?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5492,6 +5694,7 @@
     "id": "nr-206",
     "subject": "Numerical Reasoning",
     "prompt": "A one fourth percent of a number is 25. What is the number?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5517,6 +5720,7 @@
     "id": "nr-207",
     "subject": "Numerical Reasoning",
     "prompt": "A mini grocery store has a sale of Php 6435, Php 6927, Php 6855, Php 7230 and Php 6562 for 5\nconsecutive months. How much sale must he have in the sixth month so that he gets an average\nsale of Php 6500?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -5542,6 +5746,7 @@
     "id": "nr-208",
     "subject": "Numerical Reasoning",
     "prompt": "The mean median and mode of 9 numbers are equal. The numbers are 12, 22, 10, 15, 14, 11, 19,\n17.\nWhat is the 9th number?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -5571,6 +5776,7 @@
     "id": "nr-209",
     "subject": "Numerical Reasoning",
     "prompt": "The mean median and mode of 5 numbers are equal. The numbers are 29, 18, 24, 25.\nWhat is the 5th number?",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
@@ -5600,6 +5806,7 @@
     "id": "nr-210",
     "subject": "Numerical Reasoning",
     "prompt": "90 increased by what percent of itself gives 180?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5629,6 +5836,7 @@
     "id": "nr-211",
     "subject": "Numerical Reasoning",
     "prompt": "If 500 or 25% of graduating class are girls, how many are graduating?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5658,6 +5866,7 @@
     "id": "nr-212",
     "subject": "Numerical Reasoning",
     "prompt": "In a group of 8, 000 applicants for a civil service examination, 1600 failed to take the first part of\nthe test. What percent of the total applicants took the first part of the test?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5683,6 +5892,7 @@
     "id": "nr-213",
     "subject": "Numerical Reasoning",
     "prompt": "Cassy's father was 38 years of age when she was born while her mother was 36 years old when\nher brother four years younger to her was born. What is the difference between the ages of her\nparents?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5708,6 +5918,7 @@
     "id": "nr-214",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 100%, 2, 15/5, 4, ____?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5733,6 +5944,7 @@
     "id": "nr-215",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 1/6, 1/3, 1/2, 2/3, ____?",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -5758,6 +5970,7 @@
     "id": "nr-216",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 250%, 50%, 100%, 20%, 40%, ____?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5783,6 +5996,7 @@
     "id": "nr-217",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 0.1, 30%, 1/2, 0.7, 90%, ____?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -5804,6 +6018,7 @@
     "id": "nr-218",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 5, 6, 9, 15, ____, 40",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -5829,6 +6044,7 @@
     "id": "nr-219",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 5,16,49,104,____",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -5858,6 +6074,7 @@
     "id": "nr-220",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 225, 336, 447, ____, 669, 7710",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -5883,6 +6100,7 @@
     "id": "nr-221",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 563,647,479,815,____",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -5908,6 +6126,7 @@
     "id": "nr-222",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 3, 12, 27, 48,75, 108, ____",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -5933,6 +6152,7 @@
     "id": "nr-223",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 0.5, 0.55, 0.65, 0.8,____",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -5958,6 +6178,7 @@
     "id": "nr-224",
     "subject": "Numerical Reasoning",
     "prompt": "1/2 ÷ 1/4 = ___",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -5987,6 +6208,7 @@
     "id": "nr-225",
     "subject": "Numerical Reasoning",
     "prompt": "An office needs 1/2 ream of paper for a task. If each packet contains 1/10 ream, how many packets are needed?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -6012,6 +6234,7 @@
     "id": "nr-226",
     "subject": "Numerical Reasoning",
     "prompt": "A code multiplies each input by 9: 1 becomes 9, 2 becomes 18, and 3 becomes 27. What does 8 become?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -6029,6 +6252,7 @@
     "id": "nr-227",
     "subject": "Numerical Reasoning",
     "prompt": "83 : 25 :: 92 : ___?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -6054,6 +6278,7 @@
     "id": "nr-228",
     "subject": "Numerical Reasoning",
     "prompt": "72 : 18 :: 56 : ___?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -6079,6 +6304,7 @@
     "id": "nr-229",
     "subject": "Numerical Reasoning",
     "prompt": "Use the same multiplier: 2 : 12 :: 8 : ___?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -6108,6 +6334,7 @@
     "id": "nr-230",
     "subject": "Numerical Reasoning",
     "prompt": "12 : 72 : : 8 : ___?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -6133,6 +6360,7 @@
     "id": "nr-231",
     "subject": "Numerical Reasoning",
     "prompt": "PEMDAS: 10÷2×5−(12÷3×4)+1 =__?",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -6162,6 +6390,7 @@
     "id": "nr-232",
     "subject": "Numerical Reasoning",
     "prompt": "Sum of all odd numbers between 60 to 120.",
+    "hint": "Addition item: group compatible numbers first, especially pairs that make tens, hundreds, or thousands.",
     "choices": [
       {
         "id": "A",
@@ -6187,6 +6416,7 @@
     "id": "nr-233",
     "subject": "Numerical Reasoning",
     "prompt": "An employee walks at 2 meters per second for 3 minutes, then runs at 4 meters per second for 1 minute to reach the office on time. What total distance did the employee travel?",
+    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
     "choices": [
       {
         "id": "A",
@@ -6216,6 +6446,7 @@
     "id": "nr-234",
     "subject": "Numerical Reasoning",
     "prompt": "Radicals: √0.000025",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -6241,6 +6472,7 @@
     "id": "nr-235",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 1/12, 1/6, 1/4, 1/3, ____",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
         "id": "A",
@@ -6270,6 +6502,7 @@
     "id": "nr-236",
     "subject": "Numerical Reasoning",
     "prompt": "A chemist has 400 milliliters of a solution of 20% alcohol on hand, and he wants to mix it with\nenough pure alcohol to turn it into a 30% alcohol solution. How much pure alcohol will this\nrequire?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -6299,6 +6532,7 @@
     "id": "nr-237",
     "subject": "Numerical Reasoning",
     "prompt": "What is the percentage decrease from 80 to 60?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -6328,6 +6562,7 @@
     "id": "nr-238",
     "subject": "Numerical Reasoning",
     "prompt": "What is the percentage increase from 60 to 80?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -6357,6 +6592,7 @@
     "id": "nr-239",
     "subject": "Numerical Reasoning",
     "prompt": "A businessman sells 60% English books and still has 28 English books. Originally, he had:",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -6386,6 +6622,7 @@
     "id": "nr-240",
     "subject": "Numerical Reasoning",
     "prompt": "Twelve and one half percent of 200 is what number?",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -6415,6 +6652,7 @@
     "id": "nr-241",
     "subject": "Numerical Reasoning",
     "prompt": "If the price of a book is first decreased by 25% and then increased by 20%, then the net change in\nthe price will be :",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -6444,6 +6682,7 @@
     "id": "nr-242",
     "subject": "Numerical Reasoning",
     "prompt": "In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quantity\nof water to be further added is:",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -6473,6 +6712,7 @@
     "id": "nr-243",
     "subject": "Numerical Reasoning",
     "prompt": "Participants in a certain conference from Luzon, Visayas, and Mindanao are in the ratio of 4:3:2. If\nthere are 120 participants from Luzon, how many participants are there in all?",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
