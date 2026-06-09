@@ -140,6 +140,50 @@ function preservesChoiceOrder(question: Question): boolean {
   return Boolean(question.image)
 }
 
+function allocateProportionately(itemCount: number, subjectCounts: Record<Subject, number>): Record<Subject, number> {
+  const total = Object.values(subjectCounts).reduce((a, b) => a + b, 0)
+  if (total === 0) {
+    return SUBJECTS.reduce((acc, sub) => ({ ...acc, [sub]: 0 }), {} as Record<Subject, number>)
+  }
+
+  const allocations: Record<Subject, number> = {} as Record<Subject, number>
+  let allocatedSum = 0
+  const remainders: { subject: Subject; remainder: number }[] = []
+
+  SUBJECTS.forEach((subject) => {
+    const count = subjectCounts[subject] ?? 0
+    const exact = (count / total) * itemCount
+    const floor = Math.floor(exact)
+    allocations[subject] = floor
+    allocatedSum += floor
+    remainders.push({ subject, remainder: exact - floor })
+  })
+
+  remainders.sort((a, b) => b.remainder - a.remainder)
+
+  let index = 0
+  while (allocatedSum < itemCount && index < remainders.length) {
+    const sub = remainders[index].subject
+    if (allocations[sub] < (subjectCounts[sub] ?? 0)) {
+      allocations[sub] += 1
+      allocatedSum += 1
+    }
+    index += 1
+  }
+
+  if (allocatedSum < itemCount) {
+    for (const sub of SUBJECTS) {
+      const limit = subjectCounts[sub] ?? 0
+      while (allocations[sub] < limit && allocatedSum < itemCount) {
+        allocations[sub] += 1
+        allocatedSum += 1
+      }
+    }
+  }
+
+  return allocations
+}
+
 export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = false): ExamSession {
   const history = getQuestionHistory()
   const examNumber = getCompletedExamCount() + 1
@@ -151,7 +195,36 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
         getFixedExamQuestionCount(),
       )
 
-      return getCsc11ExamEligibleQuestions().slice(0, itemCount)
+      const allFixedQuestions = getCsc11ExamEligibleQuestions()
+
+      const fixedSubjectCounts: Record<Subject, number> = {} as Record<Subject, number>
+      SUBJECTS.forEach((sub) => {
+        fixedSubjectCounts[sub] = 0
+      })
+      allFixedQuestions.forEach((q) => {
+        fixedSubjectCounts[q.subject] = (fixedSubjectCounts[q.subject] ?? 0) + 1
+      })
+
+      const allocations = allocateProportionately(itemCount, fixedSubjectCounts)
+
+      const grouped: Record<Subject, Question[]> = {} as Record<Subject, Question[]>
+      SUBJECTS.forEach((sub) => {
+        grouped[sub] = []
+      })
+      allFixedQuestions.forEach((q) => {
+        grouped[q.subject].push(q)
+      })
+
+      const selectedQuestions: Question[] = []
+      SUBJECTS.forEach((sub) => {
+        const count = allocations[sub] ?? 0
+        selectedQuestions.push(...grouped[sub].slice(0, count))
+      })
+
+      const originalIndexMap = new Map(allFixedQuestions.map((q, idx) => [q.id, idx]))
+      selectedQuestions.sort((a, b) => (originalIndexMap.get(a.id) ?? 0) - (originalIndexMap.get(b.id) ?? 0))
+
+      return selectedQuestions
     }
 
     if (mode.kind === 'mixed') {
