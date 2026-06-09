@@ -2763,7 +2763,7 @@
     "id": "aa-106",
     "subject": "Analytical Ability",
     "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nWhat can we infer from this passage?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Inference item: choose the answer supported by the passage, not the one that merely sounds reasonable.",
     "choices": [
       {
         "id": "A",
@@ -2789,7 +2789,7 @@
     "id": "aa-107",
     "subject": "Analytical Ability",
     "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nBeing struck by lightning means:",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Inference item: choose the answer supported by the passage, not the one that merely sounds reasonable.",
     "choices": [
       {
         "id": "A",
@@ -2815,7 +2815,7 @@
     "id": "aa-108",
     "subject": "Analytical Ability",
     "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nLightning is caused by the following:",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Inference item: choose the answer supported by the passage, not the one that merely sounds reasonable.",
     "choices": [
       {
         "id": "A",
@@ -2841,7 +2841,7 @@
     "id": "aa-109",
     "subject": "Analytical Ability",
     "prompt": "Arrange the sentences into the most coherent order.\nA. A responsive educational system should be directed towards regional cooperation.\nB. Commonality of educational objectives should be replaced by better ways of achieving goals that fit the regional needs.\nC. It is necessary to revolutionize the contemporary methodologies in the teaching-learning processes.\nD. The educational goals should seek a better way of experimenting with teaching strategies and technologies.",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -2867,7 +2867,7 @@
     "id": "aa-110",
     "subject": "Analytical Ability",
     "prompt": "Tom puts on his socks before he puts on his shoes. He puts on his shirt before he puts on his jacket.\nTom puts on his shoes before he puts on his shirt.\nIf the first two statements are true, the third\nstatement is",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -2959,7 +2959,7 @@
     "id": "aa-114",
     "subject": "Analytical Ability",
     "prompt": "A records clerk stamps incoming documents at these times: 8:05, 8:12, 8:19, 8:26. What time comes next if the interval stays the same?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -2985,7 +2985,7 @@
     "id": "aa-115",
     "subject": "Analytical Ability",
     "prompt": "A document control number follows this pattern: DC-104, DC-108, DC-112, DC-116. What is the next control number?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3037,7 +3037,7 @@
     "id": "aa-117",
     "subject": "Analytical Ability",
     "prompt": "Permit folders are coded by square numbers: P-1, P-4, P-9, P-16, P-25. What code comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -3063,7 +3063,7 @@
     "id": "aa-118",
     "subject": "Analytical Ability",
     "prompt": "A routing batch doubles each hour: 5, 10, 20, 40, 80. How many documents are in the next batch?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3115,7 +3115,7 @@
     "id": "aa-120",
     "subject": "Analytical Ability",
     "prompt": "An encoded transmittal count triples by station: 2, 6, 18, 54, 162. What comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -3167,7 +3167,7 @@
     "id": "aa-122",
     "subject": "Analytical Ability",
     "prompt": "Archive boxes are labeled with descending square numbers: 144, 121, 100, 81, 64. What label follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3193,7 +3193,7 @@
     "id": "aa-123",
     "subject": "Analytical Ability",
     "prompt": "The number of pages reviewed follows 1, 1, 2, 3, 5, 8. What is the next number?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3219,7 +3219,7 @@
     "id": "aa-124",
     "subject": "Analytical Ability",
     "prompt": "A file-tag sequence is 6, 13, 27, 55, 111. What comes next?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3271,7 +3271,7 @@
     "id": "aa-126",
     "subject": "Analytical Ability",
     "prompt": "A record locator uses the pattern 4, 7, 13, 25, 49. What is the next number?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3297,7 +3297,7 @@
     "id": "aa-127",
     "subject": "Analytical Ability",
     "prompt": "The number of pending requests follows 9, 18, 15, 30, 27. What comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3323,7 +3323,7 @@
     "id": "aa-128",
     "subject": "Analytical Ability",
     "prompt": "A transaction code follows 2, 3, 5, 9, 17. What number follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
         "id": "A",
@@ -3349,7 +3349,7 @@
     "id": "aa-129",
     "subject": "Analytical Ability",
     "prompt": "A stack of forms is halved after each screening: 64, 32, 16, 8, 4. What is next?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -3375,7 +3375,7 @@
     "id": "aa-130",
     "subject": "Analytical Ability",
     "prompt": "A photocopy batch doubles as follows: 11, 22, 44, 88, 176. What is the next batch count?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3401,7 +3401,7 @@
     "id": "aa-131",
     "subject": "Analytical Ability",
     "prompt": "A registry pattern is 1, 3, 7, 15, 31. What comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3427,7 +3427,7 @@
     "id": "aa-132",
     "subject": "Analytical Ability",
     "prompt": "A division reduces open tickets as 90, 75, 61, 48, 36. What is the next number?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3453,7 +3453,7 @@
     "id": "aa-133",
     "subject": "Analytical Ability",
     "prompt": "A coded workload pattern is 8, 12, 18, 27, 40.5. What comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -3479,7 +3479,7 @@
     "id": "aa-134",
     "subject": "Analytical Ability",
     "prompt": "Office letter codes advance by growing gaps: C, F, J, O, U. What letter comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -3505,7 +3505,7 @@
     "id": "aa-135",
     "subject": "Analytical Ability",
     "prompt": "A filing code moves backward with growing gaps: Z, X, U, Q, L. What comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -3531,7 +3531,7 @@
     "id": "aa-136",
     "subject": "Analytical Ability",
     "prompt": "A document series uses B, E, I, N, T. What letter follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
         "id": "A",
@@ -3557,7 +3557,7 @@
     "id": "aa-137",
     "subject": "Analytical Ability",
     "prompt": "A section code is AA, AB, AD, AH, AP. What code follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
         "id": "A",
@@ -3583,7 +3583,7 @@
     "id": "aa-138",
     "subject": "Analytical Ability",
     "prompt": "A routing code uses M, O, R, V, A. What comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3609,7 +3609,7 @@
     "id": "aa-139",
     "subject": "Analytical Ability",
     "prompt": "A registry letter pattern is D, G, K, P, V. What follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3635,7 +3635,7 @@
     "id": "aa-140",
     "subject": "Analytical Ability",
     "prompt": "A code pair moves first letters forward and second letters backward: AZ, BY, CX, DW. What pair follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
         "id": "A",
@@ -3661,7 +3661,7 @@
     "id": "aa-141",
     "subject": "Analytical Ability",
     "prompt": "A control-code sequence is AB, CD, EF, GH. What comes next?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3687,7 +3687,7 @@
     "id": "aa-142",
     "subject": "Analytical Ability",
     "prompt": "A code pair moves first letters backward and second letters forward: ZA, YB, XC, WD. What pair follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
         "id": "A",
@@ -3713,7 +3713,7 @@
     "id": "aa-143",
     "subject": "Analytical Ability",
     "prompt": "A memo series uses Q, S, V, Z, E. What letter follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
         "id": "A",
@@ -3843,7 +3843,7 @@
     "id": "aa-148",
     "subject": "Analytical Ability",
     "prompt": "Notice of Meeting : agenda :: Office Order : ?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -3921,7 +3921,7 @@
     "id": "aa-151",
     "subject": "Analytical Ability",
     "prompt": "All incoming letters are stamped before logging. Letter X is logged. What must be true?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -3973,7 +3973,7 @@
     "id": "aa-153",
     "subject": "Analytical Ability",
     "prompt": "All urgent memos are routed to the division chief. Memo P was routed to the division chief. What follows?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -3999,7 +3999,7 @@
     "id": "aa-154",
     "subject": "Analytical Ability",
     "prompt": "All applications received after 5:00 p.m. are marked late. Application Q was not marked late. Which is the best conclusion?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -4051,7 +4051,7 @@
     "id": "aa-156",
     "subject": "Analytical Ability",
     "prompt": "No file without a control number is released. File R has no control number. What follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -4103,7 +4103,7 @@
     "id": "aa-158",
     "subject": "Analytical Ability",
     "prompt": "If a document is approved, it is filed. If it is filed, it is stamped received. Document S is approved. What follows?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -4129,7 +4129,7 @@
     "id": "aa-159",
     "subject": "Analytical Ability",
     "prompt": "A clerk files folders in this order: by year, then by month, then alphabetically by surname. Which file comes first?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -4155,7 +4155,7 @@
     "id": "aa-160",
     "subject": "Analytical Ability",
     "prompt": "Four documents are processed in this order: receive, stamp, log, route. If Document T has just been logged, what is the next step?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -4181,7 +4181,7 @@
     "id": "aa-161",
     "subject": "Analytical Ability",
     "prompt": "A code changes FILE to GJMF by moving each letter one step forward. How is NOTE written?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -4207,7 +4207,7 @@
     "id": "aa-162",
     "subject": "Analytical Ability",
     "prompt": "A code changes PERMIT to RGTOKV by moving each letter two places forward. How is RECORD written?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -4259,7 +4259,7 @@
     "id": "aa-164",
     "subject": "Analytical Ability",
     "prompt": "In a queue, Ana is before Ben. Carla is after Ben. Dana is before Ana. Who is first?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -4337,7 +4337,7 @@
     "id": "aa-167",
     "subject": "Analytical Ability",
     "prompt": "A receipt number increases by 7: 104, 111, 118, 125. What comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -4363,7 +4363,7 @@
     "id": "aa-168",
     "subject": "Analytical Ability",
     "prompt": "Office codes follow this pattern: AB, DE, GH. What code comes next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -4389,7 +4389,7 @@
     "id": "aa-169",
     "subject": "Analytical Ability",
     "prompt": "The number of encoded permits each day is 18, 24, 30, 36. If the pattern continues, what is next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -4415,7 +4415,7 @@
     "id": "aa-170",
     "subject": "Analytical Ability",
     "prompt": "A document control code alternates letters and numbers: A1, C3, E5, G7. What follows?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -4441,7 +4441,7 @@
     "id": "aa-171",
     "subject": "Analytical Ability",
     "prompt": "Arrange these entries alphabetically: A. Records Office B. Receiving Desk C. Releasing Unit D. Registry Section",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -4467,7 +4467,7 @@
     "id": "aa-172",
     "subject": "Analytical Ability",
     "prompt": "Arrange these names alphabetically: A. Santos, Ana B. Santiago, Carlo C. Sanchez, Ben D. San Diego, Mara",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -4493,7 +4493,7 @@
     "id": "aa-173",
     "subject": "Analytical Ability",
     "prompt": "Arrange these offices alphabetically: A. Budget Division B. Accounting Unit C. Administrative Office D. Cash Section",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -4571,7 +4571,7 @@
     "id": "aa-176",
     "subject": "Analytical Ability",
     "prompt": "A. National Archives\nB. National Museum\nC. National Library\nD. National Economic and Development Authority",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Inference item: choose the answer supported by the passage, not the one that merely sounds reasonable.",
     "choices": [
       {
         "id": "A",
@@ -4987,7 +4987,7 @@
     "id": "aa-192",
     "subject": "Analytical Ability",
     "prompt": "A code changes CAT to DBU by moving each letter one step forward. How is DOG written?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -5013,7 +5013,7 @@
     "id": "aa-193",
     "subject": "Analytical Ability",
     "prompt": "A code changes PLAN to QMBO by moving each letter one step forward. How is WORK written?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -5039,7 +5039,7 @@
     "id": "aa-194",
     "subject": "Analytical Ability",
     "prompt": "If Monday is coded as 1, Tuesday as 2, and so on, what is Friday coded as?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
         "id": "A",
@@ -5065,7 +5065,7 @@
     "id": "aa-195",
     "subject": "Analytical Ability",
     "prompt": "If all forms are stamped before filing, and Form 12 is filed, what must have happened?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -5091,7 +5091,7 @@
     "id": "aa-196",
     "subject": "Analytical Ability",
     "prompt": "A clerk sorts files by year, then by month name alphabetically, then by name. Which comes first: 2021 March Cruz or 2021 April Abad?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",
@@ -5143,7 +5143,7 @@
     "id": "aa-198",
     "subject": "Analytical Ability",
     "prompt": "If a statement must be signed to be valid, and a statement is unsigned, what follows?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
@@ -5195,7 +5195,7 @@
     "id": "aa-200",
     "subject": "Analytical Ability",
     "prompt": "A document is received before it is logged. It is logged before it is routed. It is routed before it is filed. Which action happens immediately before routing?",
-    "hint": "Ordering item: draw a short timeline or chain of events, then eliminate choices that break the order.",
+    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
         "id": "A",

@@ -705,7 +705,7 @@
     "id": "gi-028",
     "subject": "General Information",
     "prompt": "What may be classified as alienable lands of the public domain?",
-    "hint": "General information item: focus on the key term in the question and match it to the official definition, role, date, or institution.",
+    "hint": "Constitution item: identify the branch, office, right, power, or constitutional rule being asked before choosing.",
     "choices": [
       {
         "id": "A",
@@ -1017,7 +1017,7 @@
     "id": "gi-040",
     "subject": "General Information",
     "prompt": "Your boss asked you to send her a soft copy of your latest résumé. An example of a soft copy is:",
-    "hint": "General information item: focus on the key term in the question and match it to the official definition, role, date, or institution.",
+    "hint": "Computer/basic office item: separate the tool, file, process, and purpose; choose the term that matches the function.",
     "choices": [
       {
         "id": "A",
@@ -1665,7 +1665,7 @@
     "id": "gi-064",
     "subject": "General Information",
     "prompt": "Which term refers to list of property or supplies on hand?",
-    "hint": "Taxation item: focus on the type of tax and the taxable event, such as earning income, filing returns, or transferring property.",
+    "hint": "General information item: focus on the key term in the question and match it to the official definition, role, date, or institution.",
     "choices": [
       {
         "id": "A",
@@ -1847,7 +1847,7 @@
     "id": "gi-071",
     "subject": "General Information",
     "prompt": "Which term refers to fair procedure before deprivation of life, liberty, or property?",
-    "hint": "Taxation item: focus on the type of tax and the taxable event, such as earning income, filing returns, or transferring property.",
+    "hint": "Constitution item: identify the branch, office, right, power, or constitutional rule being asked before choosing.",
     "choices": [
       {
         "id": "A",
@@ -4317,7 +4317,7 @@
     "id": "gi-193",
     "subject": "General Information",
     "prompt": "Which term refers to person responsible for supplies and property?",
-    "hint": "Taxation item: focus on the type of tax and the taxable event, such as earning income, filing returns, or transferring property.",
+    "hint": "General information item: focus on the key term in the question and match it to the official definition, role, date, or institution.",
     "choices": [
       {
         "id": "A",

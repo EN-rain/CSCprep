@@ -2255,23 +2255,26 @@ function QuestionCard({
 }: QuestionCardProps) {
   const markerChoicesOnly = Boolean(image) && usesImageChoiceMarkers(choices)
   const promptIsShownInImage = hasPromptInImage(question.id, image, markerChoicesOnly)
+  const showHintButton = Boolean(question.hint.trim()) && !isImageOnlyQuestion(question.prompt, choices, image)
 
   return (
     <article className="question-card" id={`exam-item-${itemId}`}>
       <div className="question-card__top">
         <span className="question-number">Item {itemNumber}</span>
         <div className="question-card__tools">
-          <span className="question-tool-wrapper">
-            <button
-              aria-label={`Show hint for question ${question.id}`}
-              className="question-tool-button hint-question-button"
-              onClick={onOpenHint}
-              type="button"
-            >
-              H
-            </button>
-            <span className="question-tool-tip" role="tooltip">Hint</span>
-          </span>
+          {showHintButton && (
+            <span className="question-tool-wrapper">
+              <button
+                aria-label={`Show hint for question ${question.id}`}
+                className="question-tool-button hint-question-button"
+                onClick={onOpenHint}
+                type="button"
+              >
+                H
+              </button>
+              <span className="question-tool-tip" role="tooltip">Hint</span>
+            </span>
+          )}
           <span className="question-tool-wrapper">
             <button
               aria-label={`Report question ${question.id}`}
@@ -2535,6 +2538,17 @@ function usesImageChoiceMarkers(choices: { text: string }[]): boolean {
   const markerChoicePattern = /^(Option [a-e]|Underlined part [a-e]|No error(?: \/ walang mali)?)$/i
 
   return choices.length > 0 && choices.every((choice) => markerChoicePattern.test(choice.text.trim()))
+}
+
+function isImageOnlyQuestion(prompt: string, choices: { text: string }[], image: string | undefined): boolean {
+  if (!image) {
+    return false
+  }
+
+  const promptPointsToImageOnly = /Use the figure shown in the source image|Use the source image|Abstract Reasoning item/i.test(prompt)
+  const choicesAreOnlyMarkers = choices.length > 0 && choices.every((choice) => /^(Option [a-e]|[a-e])$/i.test(choice.text.trim()))
+
+  return promptPointsToImageOnly && choicesAreOnlyMarkers
 }
 
 function hasPromptInImage(questionId: string, image: string | undefined, markerChoicesOnly: boolean): boolean {

@@ -969,7 +969,7 @@
     "id": "nr-038",
     "subject": "Numerical Reasoning",
     "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as the\nlot. How much does the lot cost?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1073,7 +1073,7 @@
     "id": "nr-042",
     "subject": "Numerical Reasoning",
     "prompt": "Paula is twice as old as Queenie. Seven years ago the sum of their ages was 16.\nHow old is Queenie now?",
-    "hint": "Addition item: group compatible numbers first, especially pairs that make tens, hundreds, or thousands.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -1255,7 +1255,7 @@
     "id": "nr-049",
     "subject": "Numerical Reasoning",
     "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a\nmonth. Next year the starting salary will be raised to Php18,000. What is the rate\nof increase in the starting salary?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -1281,7 +1281,7 @@
     "id": "nr-050",
     "subject": "Numerical Reasoning",
     "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago\nwas Php12,500. There was a 420% increase in the price in the last five years.\nWhat is the price per square meter of that lot today?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -1437,7 +1437,7 @@
     "id": "nr-056",
     "subject": "Numerical Reasoning",
     "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what\nwill be its weight with a full load?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1749,7 +1749,7 @@
     "id": "nr-068",
     "subject": "Numerical Reasoning",
     "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours a\nyear. How many kilowatt-hour is this?",
-    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -1801,7 +1801,7 @@
     "id": "nr-070",
     "subject": "Numerical Reasoning",
     "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480\npacks paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes\nof cards @ 0.80. A 5% sales tax is added. What was the company’s total bill?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -2557,7 +2557,7 @@
     "id": "nr-096",
     "subject": "Numerical Reasoning",
     "prompt": "In which of the following years did over 2/3 of the students who took the exam not pass it?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -2588,7 +2588,7 @@
     "id": "nr-097",
     "subject": "Numerical Reasoning",
     "prompt": "It is known that a quarter of the students who passed the exam in 2007, passed it at the first trial. Assuming\neach exam has two trials, what percentage of all the students who took the exam that year passed it in the\nsecond trial?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -2650,7 +2650,7 @@
     "id": "nr-099",
     "subject": "Numerical Reasoning",
     "prompt": "I Return on sales (Profit/sales) was highest in which year?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -2681,7 +2681,7 @@
     "id": "nr-100",
     "subject": "Numerical Reasoning",
     "prompt": "How many times return on sales (profit/sales) exceeded 15 % ?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -2712,7 +2712,7 @@
     "id": "nr-101",
     "subject": "Numerical Reasoning",
     "prompt": "How many times growth in profit over the previous year exceeded 50% was registered ?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -2805,7 +2805,7 @@
     "id": "nr-104",
     "subject": "Numerical Reasoning",
     "prompt": "If, Education sector in Thailand had 25% of FEI in 1997 and 60% of FEI in 1998, then find the approx ratio of\nthe amounts allocated to Education in 1997 to 1998. (Assume the GDPs of both of these years for Thailand is\nsame.)",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -3249,7 +3249,7 @@
     "id": "nr-122",
     "subject": "Numerical Reasoning",
     "prompt": "Number series: 2, 10, 60, 420, ____",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -3339,7 +3339,7 @@
     "id": "nr-125",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 1, 2, 2, 3, 4, 4, 8, 5, __",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -3369,7 +3369,7 @@
     "id": "nr-126",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 15, 7.5, 7.5, 15, 60, ____",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -3429,7 +3429,7 @@
     "id": "nr-128",
     "subject": "Numerical Reasoning",
     "prompt": "The product of the ages of three sisters is 567. If the two sisters are twins and are 2 years older than their\nyounger sister. What is the age of their younger sister?",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -3459,7 +3459,7 @@
     "id": "nr-129",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: [4÷4×2], [8÷4×2], [16÷4×2], ___",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -3639,7 +3639,7 @@
     "id": "nr-135",
     "subject": "Numerical Reasoning",
     "prompt": "Genzy's dad is 5 times as old as Genzy and Genzy is twice as old as her sister Zymie. In two years, the\nsum of their ages will be 58. How old is Genzy now?",
-    "hint": "Addition item: group compatible numbers first, especially pairs that make tens, hundreds, or thousands.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -4437,7 +4437,7 @@
     "id": "nr-162",
     "subject": "Numerical Reasoning",
     "prompt": "Jerry, an electrician, worked 9 months out of the year. What percent of the year did he work?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -4661,7 +4661,7 @@
     "id": "nr-170",
     "subject": "Numerical Reasoning",
     "prompt": "Of 300 registered applicants, 280 took the entrance test. If 70% of those who took the test passed, how many failed?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -4871,7 +4871,7 @@
     "id": "nr-177",
     "subject": "Numerical Reasoning",
     "prompt": "A company makes a profit equal to 25% of its sales. The profit is shared equally among the 4 owners of\nthe company. If the company generates sales of $2,000,000, how much money does each one of the\nowners get?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -4991,7 +4991,7 @@
     "id": "nr-181",
     "subject": "Numerical Reasoning",
     "prompt": "The population of a municipality is 5,000. If it increases by 5% each year, what will be the approximate population at the end of 10 years?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -5222,7 +5222,7 @@
     "id": "nr-189",
     "subject": "Numerical Reasoning",
     "prompt": "Which year exhibited the highest growth in FDI in Philippines over the period shown ?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -5357,7 +5357,7 @@
     "id": "nr-194",
     "subject": "Numerical Reasoning",
     "prompt": "The table below shows the data Steve\ncollected while watching birds for one\nweek. How many raptors did Steve see on\nMonday?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -5892,7 +5892,7 @@
     "id": "nr-213",
     "subject": "Numerical Reasoning",
     "prompt": "Cassy's father was 38 years of age when she was born while her mother was 36 years old when\nher brother four years younger to her was born. What is the difference between the ages of her\nparents?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -5944,7 +5944,7 @@
     "id": "nr-215",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 1/6, 1/3, 1/2, 2/3, ____?",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -6018,7 +6018,7 @@
     "id": "nr-218",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 5, 6, 9, 15, ____, 40",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -6044,7 +6044,7 @@
     "id": "nr-219",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 5,16,49,104,____",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -6074,7 +6074,7 @@
     "id": "nr-220",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 225, 336, 447, ____, 669, 7710",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -6100,7 +6100,7 @@
     "id": "nr-221",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 563,647,479,815,____",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -6126,7 +6126,7 @@
     "id": "nr-222",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 3, 12, 27, 48,75, 108, ____",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -6152,7 +6152,7 @@
     "id": "nr-223",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 0.5, 0.55, 0.65, 0.8,____",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",
@@ -6252,7 +6252,7 @@
     "id": "nr-227",
     "subject": "Numerical Reasoning",
     "prompt": "83 : 25 :: 92 : ___?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -6278,7 +6278,7 @@
     "id": "nr-228",
     "subject": "Numerical Reasoning",
     "prompt": "72 : 18 :: 56 : ___?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -6304,7 +6304,7 @@
     "id": "nr-229",
     "subject": "Numerical Reasoning",
     "prompt": "Use the same multiplier: 2 : 12 :: 8 : ___?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -6334,7 +6334,7 @@
     "id": "nr-230",
     "subject": "Numerical Reasoning",
     "prompt": "12 : 72 : : 8 : ___?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
         "id": "A",
@@ -6472,7 +6472,7 @@
     "id": "nr-235",
     "subject": "Numerical Reasoning",
     "prompt": "Number Series: 1/12, 1/6, 1/4, 1/3, ____",
-    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
+    "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
         "id": "A",

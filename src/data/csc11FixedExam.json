@@ -986,7 +986,7 @@
     "id": "nr-038",
     "subject": "Numerical Reasoning",
     "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as the\nlot. How much does the lot cost?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1090,7 +1090,7 @@
     "id": "nr-042",
     "subject": "Numerical Reasoning",
     "prompt": "Paula is twice as old as Queenie. Seven years ago the sum of their ages was 16.\nHow old is Queenie now?",
-    "hint": "Addition item: group compatible numbers first, especially pairs that make tens, hundreds, or thousands.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -1272,7 +1272,7 @@
     "id": "nr-049",
     "subject": "Numerical Reasoning",
     "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a\nmonth. Next year the starting salary will be raised to Php18,000. What is the rate\nof increase in the starting salary?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -1298,7 +1298,7 @@
     "id": "nr-050",
     "subject": "Numerical Reasoning",
     "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago\nwas Php12,500. There was a 420% increase in the price in the last five years.\nWhat is the price per square meter of that lot today?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -1454,7 +1454,7 @@
     "id": "nr-056",
     "subject": "Numerical Reasoning",
     "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what\nwill be its weight with a full load?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1766,7 +1766,7 @@
     "id": "nr-068",
     "subject": "Numerical Reasoning",
     "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours a\nyear. How many kilowatt-hour is this?",
-    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -1818,7 +1818,7 @@
     "id": "nr-070",
     "subject": "Numerical Reasoning",
     "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480\npacks paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes\nof cards @ 0.80. A 5% sales tax is added. What was the company’s total bill?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -17029,7 +17029,7 @@
     "id": "gi-028",
     "subject": "General Information",
     "prompt": "What may be classified as alienable lands of the public domain?",
-    "hint": "General information item: focus on the key term in the question and match it to the official definition, role, date, or institution.",
+    "hint": "Constitution item: identify the branch, office, right, power, or constitutional rule being asked before choosing.",
     "choices": [
       {
         "id": "A",
