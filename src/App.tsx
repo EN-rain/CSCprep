@@ -14,8 +14,9 @@ import {
   completeExam,
   createExamSession,
   getAnsweredHistoryCount,
-  getFixedExamQuestionCount,
   getLoadedQuestionCount,
+  MAX_EXAM_ITEMS,
+  RANDOM_EXAM_ITEMS,
   replaceExamQuestion,
   resetQuestionHistory,
 } from './utils/exam'
@@ -32,6 +33,7 @@ const QUESTION_REPORTS_KEY = 'cscprep:question-reports:v1'
 const SCREEN_EXIT_MS = 300
 const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
+const QUESTION_REPLACE_ANIMATION_MS = 520
 const QUESTION_BANK_BY_ID = new Map(questionBank.map((question) => [question.id, question]))
 
 type ReviewItem = {
@@ -589,10 +591,10 @@ function App() {
   const [remainingSeconds, setRemainingSeconds] = useState(() => initialExamDraft?.remainingSeconds ?? (customTimerMinutes * 60))
   const [answeredHistoryCount, setAnsweredHistoryCount] = useState(() => getAnsweredHistoryCount())
   const [loadedQuestionCount] = useState(() => getLoadedQuestionCount())
-  const [fixedExamQuestionCount] = useState(() => getFixedExamQuestionCount())
   const [savedAttempts, setSavedAttempts] = useState<SavedExamAttempt[]>(() => readExamAttemptHistory())
   const [questionReports, setQuestionReports] = useState<QuestionReport[]>(() => readQuestionReports())
   const [reportSyncStatus, setReportSyncStatus] = useState<ReportSyncStatus>('idle')
+  const [replacingQuestionItemId, setReplacingQuestionItemId] = useState<string | null>(null)
   const [expandedImage, setExpandedImage] = useState<string | null>(null)
   const [skippedItemNotice, setSkippedItemNotice] = useState<SkippedItemNotice>(() => initialExamDraft?.skippedItemNotice ?? null)
   const [skippedItemQueue, setSkippedItemQueue] = useState<SkippedItem[]>(() => initialExamDraft?.skippedItemQueue ?? [])
@@ -602,6 +604,7 @@ function App() {
   const [offlineSubmitNoticeOpen, setOfflineSubmitNoticeOpen] = useState(false)
   const [screenTransition, setScreenTransition] = useState<ScreenTransition>('idle')
   const transitionTimeoutRef = useRef<number | null>(null)
+  const replacingQuestionTimeoutRef = useRef<number | null>(null)
 
   const totalQuestions = session?.questions.length ?? 0
   const answeredCount = Object.keys(answers).length
@@ -880,7 +883,16 @@ function App() {
 
     const nextSession = replaceExamQuestion(session, itemId)
     if (nextSession !== session) {
+      if (replacingQuestionTimeoutRef.current) {
+        window.clearTimeout(replacingQuestionTimeoutRef.current)
+      }
+
+      setReplacingQuestionItemId(itemId)
       setSession(nextSession)
+      replacingQuestionTimeoutRef.current = window.setTimeout(() => {
+        setReplacingQuestionItemId((currentItemId) => (currentItemId === itemId ? null : currentItemId))
+        replacingQuestionTimeoutRef.current = null
+      }, QUESTION_REPLACE_ANIMATION_MS)
     }
 
     if (answersRef.current[itemId]) {
@@ -1118,6 +1130,12 @@ function App() {
     })
   }, [screen])
 
+  useEffect(() => () => {
+    if (replacingQuestionTimeoutRef.current) {
+      window.clearTimeout(replacingQuestionTimeoutRef.current)
+    }
+  }, [])
+
   useEffect(() => {
     function handleReportsShortcut(event: KeyboardEvent) {
       if (event.ctrlKey && event.altKey && event.shiftKey && event.key.toLowerCase() === 'z') {
@@ -1154,7 +1172,6 @@ function App() {
             answeredHistoryCount={answeredHistoryCount}
             savedAttemptCount={savedAttempts.length}
             loadedQuestionCount={loadedQuestionCount}
-            fixedExamQuestionCount={fixedExamQuestionCount}
             onToggleTimer={toggleTimer}
             onOpenHistory={openHistory}
             onStartExam={startExam}
@@ -1191,6 +1208,7 @@ function App() {
             nextSkippedItem={nextSkippedItem}
             offlineSubmitNoticeOpen={offlineSubmitNoticeOpen}
             remainingSeconds={remainingSeconds}
+            replacingQuestionItemId={replacingQuestionItemId}
             session={session}
             skippedItemNotice={skippedItemNotice}
             theme={theme}
@@ -1304,7 +1322,6 @@ function SunIcon() {
 
 type HomeScreenProps = {
   answeredHistoryCount: number
-  fixedExamQuestionCount: number
   savedAttemptCount: number
   loadedQuestionCount: number
   onOpenHistory: () => void
@@ -1319,7 +1336,6 @@ type HomeScreenProps = {
 
 function HomeScreen({
   answeredHistoryCount,
-  fixedExamQuestionCount,
   savedAttemptCount,
   loadedQuestionCount,
   onOpenHistory,
@@ -1331,7 +1347,16 @@ function HomeScreen({
   theme,
   onToggleTheme,
 }: HomeScreenProps) {
-  const [examTypePanelOpen, setExamTypePanelOpen] = useState(false)
+  const [randomExamItemCount, setRandomExamItemCount] = useState(String(RANDOM_EXAM_ITEMS))
+  const [subjectExamItemCounts, setSubjectExamItemCounts] = useState<Record<Subject, string>>(() => (
+    SUBJECTS.reduce(
+      (counts, subject) => ({
+        ...counts,
+        [subject]: '100',
+      }),
+      {} as Record<Subject, string>,
+    )
+  ))
 
   return (
     <section className="home">
@@ -1339,7 +1364,7 @@ function HomeScreen({
         <div>
           <p className="eyebrow">Civil Service Exam Practice</p>
           <h1>CSCprep</h1>
-          <p className="tagline">Practice with anonymous 100-item exams, subject drills, instant results, and local cooldown tracking.</p>
+          <p className="tagline">Practice with anonymous random exams, subject drills, instant results, and local cooldown tracking.</p>
         </div>
       </div>
 
@@ -1400,34 +1425,108 @@ function HomeScreen({
           </div>
         </div>
         <div className="start-grid">
-          <button
-            className="start-option"
-            type="button"
-            onClick={() => setExamTypePanelOpen(true)}
+          <div
+            className="start-option start-option--configurable"
+            onClick={() => onStartExam({ kind: 'mixed', itemCount: normalizeRequestedItemCount(randomExamItemCount, RANDOM_EXAM_ITEMS) })}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault()
+                onStartExam({ kind: 'mixed', itemCount: normalizeRequestedItemCount(randomExamItemCount, RANDOM_EXAM_ITEMS) })
+              }
+            }}
+            role="button"
+            tabIndex={0}
           >
-            <strong>Fixed/Random Exam</strong>
-            <span>Choose setup</span>
-          </button>
+            <div className="start-option__content">
+              <strong>Random Exam</strong>
+            </div>
+            <label className="start-option__field">
+              <input
+                aria-label="Random exam item count"
+                inputMode="numeric"
+                max={MAX_EXAM_ITEMS}
+                min="1"
+                onBlur={() => setRandomExamItemCount(String(normalizeRequestedItemCount(randomExamItemCount, RANDOM_EXAM_ITEMS)))}
+                onChange={(event) => setRandomExamItemCount(event.target.value.replace(/\D/gu, ''))}
+                onClick={(event) => event.stopPropagation()}
+                onKeyDown={(event) => {
+                  event.stopPropagation()
+                  if (event.key === 'Enter') {
+                    event.preventDefault()
+                    onStartExam({ kind: 'mixed', itemCount: normalizeRequestedItemCount(randomExamItemCount, RANDOM_EXAM_ITEMS) })
+                  }
+                }}
+                pattern="[0-9]*"
+                type="text"
+                value={randomExamItemCount}
+              />
+            </label>
+          </div>
           {SUBJECTS.map((subject) => (
-            <button
-              className="start-option"
+            <div
+              className="start-option start-option--configurable"
               key={subject}
-              onClick={() => onStartExam({ kind: 'subject', subject })}
-              type="button"
+              onClick={() => onStartExam({
+                kind: 'subject',
+                subject,
+                itemCount: normalizeRequestedItemCount(subjectExamItemCounts[subject], 100),
+              })}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault()
+                  onStartExam({
+                    kind: 'subject',
+                    subject,
+                    itemCount: normalizeRequestedItemCount(subjectExamItemCounts[subject], 100),
+                  })
+                }
+              }}
+              role="button"
+              tabIndex={0}
             >
-              <strong>{subject} Exam</strong>
-            </button>
+              <div className="start-option__content">
+                <strong>{subject} Exam</strong>
+              </div>
+              <label className="start-option__field">
+                <input
+                  aria-label={`${subject} exam item count`}
+                  inputMode="numeric"
+                  max={MAX_EXAM_ITEMS}
+                  min="1"
+                  onBlur={() => {
+                    setSubjectExamItemCounts((currentCounts) => ({
+                      ...currentCounts,
+                      [subject]: String(normalizeRequestedItemCount(currentCounts[subject], 100)),
+                    }))
+                  }}
+                  onChange={(event) => {
+                    const nextValue = event.target.value.replace(/\D/gu, '')
+                    setSubjectExamItemCounts((currentCounts) => ({
+                      ...currentCounts,
+                      [subject]: nextValue,
+                    }))
+                  }}
+                  onClick={(event) => event.stopPropagation()}
+                  onKeyDown={(event) => {
+                    event.stopPropagation()
+                    if (event.key === 'Enter') {
+                      event.preventDefault()
+                      onStartExam({
+                        kind: 'subject',
+                        subject,
+                        itemCount: normalizeRequestedItemCount(subjectExamItemCounts[subject], 100),
+                      })
+                    }
+                  }}
+                  pattern="[0-9]*"
+                  type="text"
+                  value={subjectExamItemCounts[subject]}
+                />
+              </label>
+            </div>
           ))}
         </div>
       </section>
-      {examTypePanelOpen && (
-        <ExamTypePanel
-          fixedExamQuestionCount={fixedExamQuestionCount}
-          onCancel={() => setExamTypePanelOpen(false)}
-          onStartFixedExam={(itemCount) => onStartExam({ kind: 'fixed', itemCount })}
-          onStartRandomExam={() => onStartExam({ kind: 'mixed' })}
-        />
-      )}
     </section>
   )
 }
@@ -1675,6 +1774,7 @@ type ExamScreenProps = {
   nextSkippedItem: SkippedItem | null
   offlineSubmitNoticeOpen: boolean
   remainingSeconds: number
+  replacingQuestionItemId: string | null
   session: ExamSession
   skippedItemNotice: SkippedItemNotice
   theme: Theme
@@ -1704,6 +1804,7 @@ function ExamScreen({
   nextSkippedItem,
   offlineSubmitNoticeOpen,
   remainingSeconds,
+  replacingQuestionItemId,
   session,
   skippedItemNotice,
   theme,
@@ -1767,6 +1868,7 @@ function ExamScreen({
             answers={answers}
             itemId={id}
             itemNumber={itemNumber}
+            isReplacing={replacingQuestionItemId === id}
             key={id}
             image={getExamQuestionImage(question, session.mode)}
             onChooseAnswer={onChooseAnswer}
@@ -1870,115 +1972,6 @@ type ExitExamPanelProps = {
   answeredCount: number
   onCancel: () => void
   onConfirm: () => void
-}
-
-type ExamTypePanelProps = {
-  fixedExamQuestionCount: number
-  onCancel: () => void
-  onStartFixedExam: (itemCount: number) => void
-  onStartRandomExam: () => void
-}
-
-function ExamTypePanel({ fixedExamQuestionCount, onCancel, onStartFixedExam, onStartRandomExam }: ExamTypePanelProps) {
-  const randomButtonRef = useRef<HTMLButtonElement>(null)
-  const backdropPointerStartedRef = useRef(false)
-  const [isFixedSetupOpen, setIsFixedSetupOpen] = useState(false)
-  const [fixedItemCount, setFixedItemCount] = useState(() => String(Math.min(100, fixedExamQuestionCount)))
-  const { closeWith, overlayClass } = usePopupTransition()
-  const parsedFixedItemCount = parseInt(fixedItemCount, 10)
-  const normalizedFixedItemCount = Math.min(
-    Math.max(1, Number.isNaN(parsedFixedItemCount) ? 1 : Math.floor(parsedFixedItemCount)),
-    fixedExamQuestionCount,
-  )
-
-  const closePanel = useCallback(() => {
-    closeWith(onCancel)
-  }, [closeWith, onCancel])
-
-  const startRandomExam = useCallback(() => {
-    closeWith(onStartRandomExam)
-  }, [closeWith, onStartRandomExam])
-
-  const startFixedExam = useCallback(() => {
-    closeWith(() => onStartFixedExam(normalizedFixedItemCount))
-  }, [closeWith, normalizedFixedItemCount, onStartFixedExam])
-
-  const closeFromBackdropClick = useCallback((event: MouseEvent<HTMLDivElement>) => {
-    if (event.target === event.currentTarget && backdropPointerStartedRef.current) {
-      closePanel()
-    }
-
-    backdropPointerStartedRef.current = false
-  }, [closePanel])
-
-  useEffect(() => {
-    randomButtonRef.current?.focus({ preventScroll: true })
-
-    function handleKeydown(event: KeyboardEvent) {
-      if (event.key === 'Escape') {
-        closePanel()
-      }
-    }
-
-    window.addEventListener('keydown', handleKeydown)
-    return () => window.removeEventListener('keydown', handleKeydown)
-  }, [closePanel])
-
-  return (
-    <OverlayPortal>
-      <div
-        aria-labelledby="exam-type-title"
-        aria-modal="true"
-        className={`exam-dialog ${overlayClass}`}
-        onClick={closeFromBackdropClick}
-        onPointerDown={(event) => {
-          backdropPointerStartedRef.current = event.target === event.currentTarget
-        }}
-        role="dialog"
-      >
-        <div className="exam-dialog__content" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
-          <p className="eyebrow">Exam setup</p>
-          <h2 id="exam-type-title">Fixed/Random Exam</h2>
-          <div className="exam-type-options">
-            <button className="button button--primary" onClick={startRandomExam} ref={randomButtonRef} type="button">
-              Random
-            </button>
-            <button
-              aria-expanded={isFixedSetupOpen}
-              className="button button--ghost"
-              onClick={() => setIsFixedSetupOpen(true)}
-              type="button"
-            >
-              Fixed
-            </button>
-          </div>
-          {isFixedSetupOpen && (
-            <div className="exam-type-fixed">
-              <label className="exam-type-fixed__field">
-                <span>Items</span>
-                <input
-                  aria-label="Fixed exam item count"
-                  inputMode="numeric"
-                  max={fixedExamQuestionCount}
-                  min="1"
-                  onBlur={() => setFixedItemCount(String(normalizedFixedItemCount))}
-                  onChange={(event) => {
-                    setFixedItemCount(event.target.value.replace(/\D/gu, ''))
-                  }}
-                  pattern="[0-9]*"
-                  type="text"
-                  value={fixedItemCount}
-                />
-              </label>
-              <button className="button button--primary" onClick={startFixedExam} type="button">
-                Start Fixed
-              </button>
-            </div>
-          )}
-        </div>
-      </div>
-    </OverlayPortal>
-  )
 }
 
 function ExitExamPanel({ answeredCount, onCancel, onConfirm }: ExitExamPanelProps) {
@@ -2127,6 +2120,16 @@ function formatAttemptDate(value: string): string {
   }).format(date)
 }
 
+function normalizeRequestedItemCount(rawValue: string, fallback: number): number {
+  const parsedValue = parseInt(rawValue, 10)
+
+  if (Number.isNaN(parsedValue)) {
+    return fallback
+  }
+
+  return Math.min(MAX_EXAM_ITEMS, Math.max(1, Math.floor(parsedValue)))
+}
+
 function formatTimer(totalSeconds: number): string {
   const minutes = Math.floor(totalSeconds / 60)
   const seconds = totalSeconds % 60
@@ -2246,6 +2249,7 @@ type QuestionCardProps = {
   image?: string
   itemId: string
   itemNumber: number
+  isReplacing: boolean
   onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
   onOpenHint: () => void
   onOpenImage: (imageSrc: string) => void
@@ -2259,6 +2263,7 @@ function QuestionCard({
   image,
   itemId,
   itemNumber,
+  isReplacing,
   onChooseAnswer,
   onOpenHint,
   onOpenImage,
@@ -2270,7 +2275,7 @@ function QuestionCard({
   const showHintButton = Boolean(question.hint.trim()) && !isImageOnlyQuestion(question.prompt, choices, image)
 
   return (
-    <article className="question-card" id={`exam-item-${itemId}`}>
+    <article className={isReplacing ? 'question-card question-card--replacing' : 'question-card'} id={`exam-item-${itemId}`}>
       <div className="question-card__top">
         <span className="question-number">Item {itemNumber}</span>
         <div className="question-card__tools">

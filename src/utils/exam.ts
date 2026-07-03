@@ -16,12 +16,15 @@ const HISTORY_KEY = 'cscprep:question-history:v1'
 const COMPLETED_EXAM_COUNT_KEY = 'cscprep:completed-exam-count:v1'
 const ITEMS_PER_SUBJECT = 20
 const TOTAL_EXAM_ITEMS = 100
+const RANDOM_EXAM_ITEMS = 150
+const MAX_EXAM_ITEMS = 150
 const COOLDOWN_EXAMS = 2
 const MIXED_EXAM_SUBJECT_COUNTS: Partial<Record<Subject, number>> = {
   'Verbal Reasoning': 40,
   'Analytical Ability': 25,
   'Numerical Reasoning': 25,
   'General Information': 10,
+  Filipino: 10,
 }
 
 function isExamEligibleQuestion(question: Question): boolean {
@@ -187,11 +190,13 @@ function allocateProportionately(itemCount: number, subjectCounts: Record<Subjec
 export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = false): ExamSession {
   const history = getQuestionHistory()
   const examNumber = getCompletedExamCount() + 1
+  const allEligibleQuestions = getExamEligibleQuestions()
 
   const questions = (() => {
     if (mode.kind === 'fixed') {
       const itemCount = Math.min(
         Math.max(1, Math.floor(mode.itemCount ?? getFixedExamQuestionCount())),
+        MAX_EXAM_ITEMS,
         getFixedExamQuestionCount(),
       )
 
@@ -228,10 +233,16 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
     }
 
     if (mode.kind === 'mixed') {
+      const itemCount = Math.min(
+        Math.max(1, Math.floor(mode.itemCount ?? RANDOM_EXAM_ITEMS)),
+        MAX_EXAM_ITEMS,
+        allEligibleQuestions.length,
+      )
+      const allocations = allocateProportionately(itemCount, MIXED_EXAM_SUBJECT_COUNTS as Record<Subject, number>)
       const selectedQuestionIds = new Set<string>()
 
       return SUBJECTS.flatMap((subject) => {
-        const targetCount = MIXED_EXAM_SUBJECT_COUNTS[subject] ?? 0
+        const targetCount = allocations[subject] ?? 0
 
         if (targetCount === 0) {
           return []
@@ -250,7 +261,13 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
       })
     }
 
-    return pickSubjectQuestions(mode.subject, history, examNumber, TOTAL_EXAM_ITEMS)
+    const subjectQuestionCount = Math.min(
+      Math.max(1, Math.floor(mode.itemCount ?? TOTAL_EXAM_ITEMS)),
+      MAX_EXAM_ITEMS,
+      questionsBySubject(mode.subject).length,
+    )
+
+    return pickSubjectQuestions(mode.subject, history, examNumber, subjectQuestionCount)
   })()
   const shouldShuffleQuestions = mode.kind !== 'fixed'
   const shouldShuffleChoices = mode.kind !== 'fixed'
@@ -371,4 +388,4 @@ export function getFixedExamQuestionCount(): number {
   return getCsc11ExamEligibleQuestions().length
 }
 
-export { COOLDOWN_EXAMS, ITEMS_PER_SUBJECT, MIXED_EXAM_SUBJECT_COUNTS, TOTAL_EXAM_ITEMS }
+export { COOLDOWN_EXAMS, ITEMS_PER_SUBJECT, MAX_EXAM_ITEMS, MIXED_EXAM_SUBJECT_COUNTS, RANDOM_EXAM_ITEMS, TOTAL_EXAM_ITEMS }
