@@ -270,6 +270,64 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
   }
 }
 
+function replacementPoolForQuestion(session: ExamSession, targetQuestion: Question): Question[] {
+  if (session.mode.kind === 'fixed') {
+    const fixedPool = getCsc11ExamEligibleQuestions()
+    const sameSubjectFixedPool = fixedPool.filter((question) => question.subject === targetQuestion.subject)
+    return sameSubjectFixedPool.length > 0 ? sameSubjectFixedPool : fixedPool
+  }
+
+  if (session.mode.kind === 'subject') {
+    return questionsBySubject(session.mode.subject)
+  }
+
+  const sameSubjectPool = questionsBySubject(targetQuestion.subject)
+  return sameSubjectPool.length > 0 ? sameSubjectPool : getExamEligibleQuestions()
+}
+
+export function replaceExamQuestion(session: ExamSession, itemId: string): ExamSession {
+  const targetItem = session.questions.find((question) => question.id === itemId)
+
+  if (!targetItem) {
+    return session
+  }
+
+  const excludedQuestionIds = new Set(session.questions.map((question) => question.question.id))
+  const history = getQuestionHistory()
+  const replacementPool = replacementPoolForQuestion(session, targetItem.question)
+  const candidates = replacementPool.filter((question) => !excludedQuestionIds.has(question.id))
+  const eligibleCandidates = candidates.filter((question) => {
+    const entry = history[question.id]
+    return !entry || session.examNumber > entry.eligibleAgainAfterExamNumber
+  })
+  const fallbackCandidates = candidates
+    .filter((question) => !eligibleCandidates.includes(question))
+    .sort((a, b) => byLeastRecentCooldown(history[a.id], history[b.id]))
+  const replacementQuestion = shuffle(eligibleCandidates)[0] ?? fallbackCandidates[0]
+
+  if (!replacementQuestion) {
+    return session
+  }
+
+  const shouldShuffleChoices = session.mode.kind !== 'fixed'
+  const replacementChoices = preservesChoiceOrder(replacementQuestion) || !shouldShuffleChoices
+    ? replacementQuestion.choices
+    : shuffle(replacementQuestion.choices)
+
+  return {
+    ...session,
+    questions: session.questions.map((question) => (
+      question.id === itemId
+        ? {
+            ...question,
+            question: replacementQuestion,
+            choices: replacementChoices,
+          }
+        : question
+    )),
+  }
+}
+
 export function completeExam(session: ExamSession, answers: AnswerMap): void {
   const history = getQuestionHistory()
 

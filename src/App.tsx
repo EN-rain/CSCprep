@@ -16,6 +16,7 @@ import {
   getAnsweredHistoryCount,
   getFixedExamQuestionCount,
   getLoadedQuestionCount,
+  replaceExamQuestion,
   resetQuestionHistory,
 } from './utils/exam'
 import { questionBank } from './data/questionBank'
@@ -876,6 +877,17 @@ function App() {
 
       return nextReports
     })
+
+    const nextSession = replaceExamQuestion(session, itemId)
+    if (nextSession !== session) {
+      setSession(nextSession)
+    }
+
+    if (answersRef.current[itemId]) {
+      const { [itemId]: _removedAnswer, ...remainingAnswers } = answersRef.current
+      answersRef.current = remainingAnswers
+      setAnswers(remainingAnswers)
+    }
 
     void createSharedQuestionReport(report)
       .then(() => setReportSyncStatus('idle'))
