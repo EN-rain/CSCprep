@@ -641,6 +641,7 @@ function App() {
   const [isOnline, setIsOnline] = useState(getOnlineStatus)
   const [offlineSubmitNoticeOpen, setOfflineSubmitNoticeOpen] = useState(false)
   const [screenTransition, setScreenTransition] = useState<ScreenTransition>('idle')
+  const [reportsReturnScreen, setReportsReturnScreen] = useState<Screen>('home')
   const transitionTimeoutRef = useRef<number | null>(null)
   const replacingQuestionTimeoutRef = useRef<number | null>(null)
 
@@ -868,6 +869,7 @@ function App() {
 
   function openReports() {
     void refreshQuestionReports()
+    const returnScreen = screen === 'exam' && session ? 'exam' : screen
 
     transitionToScreen(() => {
       setFilter('all')
@@ -875,8 +877,25 @@ function App() {
       setExitNoticeOpen(false)
       setOfflineSubmitNoticeOpen(false)
       setExpandedImage(null)
+      setReportsReturnScreen(returnScreen)
       setScreen('reports')
     })
+  }
+
+  function closeReports() {
+    if (reportsReturnScreen === 'exam' && session) {
+      transitionToScreen(() => {
+        setFilter('all')
+        setSkippedItemNotice(null)
+        setExitNoticeOpen(false)
+        setOfflineSubmitNoticeOpen(false)
+        setExpandedImage(null)
+        setScreen('exam')
+      })
+      return
+    }
+
+    goHome()
   }
 
   async function refreshQuestionReports() {
@@ -1314,10 +1333,11 @@ function App() {
         <div className="screen-frame screen-frame--reports">
           <ReportsScreen
             reports={questionReports}
+            returnLabel={reportsReturnScreen === 'exam' && session ? 'Resume exam' : 'Home'}
             syncStatus={reportSyncStatus}
             onClearReports={clearQuestionReports}
             onDeleteReport={deleteQuestionReport}
-            onHome={goHome}
+            onReturn={closeReports}
             theme={theme}
             onToggleTheme={toggleTheme}
           />
@@ -1760,20 +1780,22 @@ function HistoryScreen({
 
 type ReportsScreenProps = {
   reports: QuestionReport[]
+  returnLabel: string
   syncStatus: ReportSyncStatus
   onClearReports: () => void
   onDeleteReport: (reportId: string) => void
-  onHome: () => void
+  onReturn: () => void
   theme: Theme
   onToggleTheme: () => void
 }
 
 function ReportsScreen({
   reports,
+  returnLabel,
   syncStatus,
   onClearReports,
   onDeleteReport,
-  onHome,
+  onReturn,
   theme,
   onToggleTheme,
 }: ReportsScreenProps) {
@@ -1794,8 +1816,8 @@ function ReportsScreen({
         </div>
         <div className="results-hero__actions">
           <ThemeToggle theme={theme} onToggle={onToggleTheme} />
-          <button className="button button--ghost" onClick={onHome} type="button">
-            Home
+          <button className="button button--ghost" onClick={onReturn} type="button">
+            {returnLabel}
           </button>
         </div>
       </header>
