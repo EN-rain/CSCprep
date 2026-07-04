@@ -2759,14 +2759,15 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
 
 function ReportPrompt({ prompt }: { prompt: string }) {
   const cleanPrompt = prompt.replace(/\n\nContext: (?:[A-Z]|[IVX]+)\. reading passage$/u, '')
+  const lines = formatPromptLines(cleanPrompt)
 
-  if (!isDataSufficiencyPrompt(cleanPrompt)) {
+  if (lines.length <= 1) {
     return <p>{cleanPrompt}</p>
   }
 
   return (
     <p>
-      {formatPromptLines(cleanPrompt).map((line, index) => (
+      {lines.map((line, index) => (
         <span className="prompt-line" key={`${line}-${index}`}>
           {line}
         </span>

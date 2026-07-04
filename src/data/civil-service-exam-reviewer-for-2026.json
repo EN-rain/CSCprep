@@ -2856,7 +2856,7 @@
   {
     "id": "cse2026-108",
     "subject": "Analytical Ability",
-    "prompt": "A. St. Stephen’s School B. St. Stephen’s University\nC. St. Scholastica’s Academy\nD. St. Scholastica’s College",
+    "prompt": "Arrange these schools alphabetically:\nA. St. Stephen's School\nB. St. Stephen's University\nC. St. Scholastica's Academy\nD. St. Scholastica's College",
     "hint": "Alphabetize by the key noun: School, University, Academy, College.",
     "choices": [
       {
@@ -15826,142 +15826,137 @@
   {
     "id": "cse2026-599",
     "subject": "Filipino",
-    "prompt": "Anong pamagat ang angkop sa tsart sa itaas?",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong pamagat ang angkop sa tsart sa itaas?",
+    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Badyet para sa Militar ng Iba't Ibang Bansa"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Kalagayang Pang-Ekonomiya"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Badyet at Katayuang Pangmilitar ng mga Piling Bansa"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Bilang ng mga Militar sa Iba't Ibang Bansa"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The original prompt is: Anong pamagat ang angkop sa tsart sa itaas?. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices.",
-    "image": "/question-images/cse2026-599.png"
+    "explanation": "Saklaw ng tsart ang badyet at katayuang pangmilitar ng mga piling bansa."
   },
   {
     "id": "cse2026-600",
     "subject": "Filipino",
-    "prompt": "Anong bansa ang may pinakamataas na bilang ng tropa?",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may pinakamataas na bilang ng tropa sa mga pagpipilian?",
+    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Japan"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "South Korea"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Brunei"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Malaysia"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: Anong bansa ang may pinakamataas na bilang ng tropa?. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices.",
-    "image": "/question-images/cse2026-600.png"
+    "correctChoiceId": "B",
+    "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672,000."
   },
   {
     "id": "cse2026-601",
     "subject": "Filipino",
-    "prompt": "Anong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet\nmilitar?",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet militar sa mga pagpipilian?",
+    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Japan"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "South Korea"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Brunei"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Malaysia"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The original prompt is: Anong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet\nmilitar?. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices.",
-    "image": "/question-images/cse2026-601.png"
+    "correctChoiceId": "C",
+    "explanation": "Sa mga pagpipilian, Brunei ang may pinakamataas na porsiyento ng GDP para sa badyet militar: 6.5%."
   },
   {
     "id": "cse2026-602",
     "subject": "Filipino",
-    "prompt": "Anong bansa ang may pinakamalaking GDP?",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may pinakamalaking GDP sa mga pagpipilian?",
+    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Japan"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Brunei"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Malaysia"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "South Korea"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The original prompt is: Anong bansa ang may pinakamalaking GDP?. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices.",
-    "image": "/question-images/cse2026-602.png"
+    "correctChoiceId": "A",
+    "explanation": "Batay sa laki ng badyet at porsiyento sa GDP, Japan ang may pinakamalaking GDP sa mga pagpipilian."
   },
   {
     "id": "cse2026-603",
     "subject": "Filipino",
-    "prompt": "Ano ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang\npangmilitar ng Brunei?",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAno ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang pangmilitar ng Brunei?",
+    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Kulang sila sa pananalapi"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Maliit na bansa lamang ang Brunei"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Hindi nila kailangan ang militar"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Walang nais magsundalo sa kanilang mga tao."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The original prompt is: Ano ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang\npangmilitar ng Brunei?. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices.",
-    "image": "/question-images/cse2026-603.png"
+    "correctChoiceId": "B",
+    "explanation": "Maliit na bansa ang Brunei, kaya mababa ang bilang ng tropa at kagamitang pangmilitar nito."
   },
   {
     "id": "cse2026-604",
     "subject": "Filipino",
-    "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang ?Clean Air Act? ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng ?tax break?.\nD. Ano nga ba ang ?Clean Air Act??\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+    "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang \"Clean Air Act\" ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng \"tax break\".\nD. Ano nga ba ang \"Clean Air Act\"?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -15987,20 +15982,20 @@
   {
     "id": "cse2026-605",
     "subject": "Filipino",
-    "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang ?Clean Air Act? ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng ?tax break?.\nD. Ano nga ba ang ?Clean Air Act??\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
+    "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang \"Clean Air Act\" ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng \"tax break\".\nD. Ano nga ba ang \"Clean Air Act\"?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
         "id": "A",
-        "text": "Ang ?Clean Air Act? ang tamang solusyon sa lahat ng polusyon."
+        "text": "Ang \"Clean Air Act\" ang tamang solusyon sa lahat ng polusyon."
       },
       {
         "id": "B",
-        "text": "Alamin ang tungkol sa ?Clean Air Act?."
+        "text": "Alamin ang tungkol sa \"Clean Air Act\"."
       },
       {
         "id": "C",
-        "text": "Kung ikaw ang may-ari ng kumpanya, sang-ayon ka ba sa ?Clean Air Act??"
+        "text": "Kung ikaw ang may-ari ng kumpanya, sang-ayon ka ba sa \"Clean Air Act\"?"
       },
       {
         "id": "D",
@@ -16013,7 +16008,7 @@
   {
     "id": "cse2026-606",
     "subject": "Filipino",
-    "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang ?Clean Air Act? ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng ?tax break?.\nD. Ano nga ba ang ?Clean Air Act??\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
+    "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang \"Clean Air Act\" ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng \"tax break\".\nD. Ano nga ba ang \"Clean Air Act\"?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -16039,7 +16034,7 @@
   {
     "id": "cse2026-608",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
+    "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
