@@ -13862,7 +13862,7 @@
   {
     "id": "cse2026-525",
     "subject": "Filipino",
-    "prompt": "G. at Gng. Reyes, matagal na nilang pinag-lipunan ang pangtustos sa\npag-aaral mo sa kolehiyo.",
+    "prompt": "at Gng. Reyes, matagal na nilang pinag-lipunan ang pangtustos sa\npag-aaral mo sa kolehiyo.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16039,7 +16039,7 @@
   {
     "id": "cse2026-608",
     "subject": "Filipino",
-    "prompt": "II.\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
+    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -16065,7 +16065,7 @@
   {
     "id": "cse2026-609",
     "subject": "Filipino",
-    "prompt": "II.\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa ang isang dayuhan?",
+    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa ang isang dayuhan?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -16091,7 +16091,7 @@
   {
     "id": "cse2026-610",
     "subject": "Filipino",
-    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {

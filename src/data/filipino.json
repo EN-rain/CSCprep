@@ -4027,7 +4027,7 @@
   {
     "id": "fi-151",
     "subject": "Filipino",
-    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nTungkol saan ang grapong nabasa?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nTungkol saan ang grapong nabasa?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4054,7 +4054,7 @@
   {
     "id": "fi-152",
     "subject": "Filipino",
-    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo\n1996?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo\n1996?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4081,7 +4081,7 @@
   {
     "id": "fi-153",
     "subject": "Filipino",
-    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4108,7 +4108,7 @@
   {
     "id": "fi-154",
     "subject": "Filipino",
-    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang\n₱145?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang\n₱145?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4135,7 +4135,7 @@
   {
     "id": "fi-155",
     "subject": "Filipino",
-    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nIlang beses nagkaroon ng dalawampung piso (₱20) pagtaas sa minimum wage?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nIlang beses nagkaroon ng dalawampung piso (₱20) pagtaas sa minimum wage?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4162,7 +4162,7 @@
   {
     "id": "fi-156",
     "subject": "Filipino",
-    "prompt": "G.\n\nAnong pamagat ang angkop sa tsart sa itaas?",
+    "prompt": "Anong pamagat ang angkop sa tsart sa itaas?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4189,7 +4189,7 @@
   {
     "id": "fi-157",
     "subject": "Filipino",
-    "prompt": "G.\n\nAnong bansa ang may pinakamataas na bilang ng tropa?",
+    "prompt": "Anong bansa ang may pinakamataas na bilang ng tropa?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4215,7 +4215,7 @@
   {
     "id": "fi-158",
     "subject": "Filipino",
-    "prompt": "G.\n\nAnong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet\nmilitar?",
+    "prompt": "Anong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet\nmilitar?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4267,7 +4267,7 @@
   {
     "id": "fi-160",
     "subject": "Filipino",
-    "prompt": "G.\n\nAno ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang\npangmilitar ng Brunei?",
+    "prompt": "Ano ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang\npangmilitar ng Brunei?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4293,7 +4293,7 @@
   {
     "id": "fi-161",
     "subject": "Filipino",
-    "prompt": "I.\nA. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang\ntalata?",
+    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang\ntalata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4319,7 +4319,7 @@
   {
     "id": "fi-162",
     "subject": "Filipino",
-    "prompt": "I.\nA. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa\nmga sumusunod ang pinaka-angkop?",
+    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa\nmga sumusunod ang pinaka-angkop?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4345,7 +4345,7 @@
   {
     "id": "fi-163",
     "subject": "Filipino",
-    "prompt": "I.\nA. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
+    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4371,7 +4371,7 @@
   {
     "id": "fi-164",
     "subject": "Filipino",
-    "prompt": "II.\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng\nmakabuluhang talata?",
+    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng\nmakabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4397,7 +4397,7 @@
   {
     "id": "fi-165",
     "subject": "Filipino",
-    "prompt": "II.\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAno ang pamamaraang ginamit upang mabuo ang talata?",
+    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAno ang pamamaraang ginamit upang mabuo ang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4423,7 +4423,7 @@
   {
     "id": "fi-166",
     "subject": "Filipino",
-    "prompt": "II.\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa\nang isang dayuhan?",
+    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa\nang isang dayuhan?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4449,7 +4449,7 @@
   {
     "id": "fi-167",
     "subject": "Filipino",
-    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng\nisang makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng\nisang makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4475,7 +4475,7 @@
   {
     "id": "fi-168",
     "subject": "Filipino",
-    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4501,7 +4501,7 @@
   {
     "id": "fi-169",
     "subject": "Filipino",
-    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang angkop na pamagat para sa talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang angkop na pamagat para sa talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4527,7 +4527,7 @@
   {
     "id": "fi-170",
     "subject": "Filipino",
-    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang\nnakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga\npangungusap upang makabuo ng makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang\nnakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga\npangungusap upang makabuo ng makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
