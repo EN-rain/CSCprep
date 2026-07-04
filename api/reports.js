@@ -214,6 +214,13 @@ export default async function handler(request, response) {
       }
 
       const report = sanitizeReport(body)
+      const existingReports = await readReports()
+
+      if (existingReports.some((existingReport) => existingReport.id === report.id)) {
+        sendJson(response, 200, { report })
+        return
+      }
+
       await redisCommand(['LPUSH', REPORTS_KEY, JSON.stringify(report)])
       await redisCommand(['LTRIM', REPORTS_KEY, 0, MAX_REPORTS - 1])
       sendJson(response, 201, { report })

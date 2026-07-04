@@ -1986,7 +1986,7 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
@@ -1997,8 +1997,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
+    "correctChoiceId": "E",
+    "explanation": "Statement 1 alone is not sufficient: 64 hours after a Wednesday time can fall on Friday evening or Saturday before late afternoon. Statement 2 alone gives only the time range. Together, the appointment could still be Friday from 4:00pm to 7:00pm or Saturday from 2:00pm to before 4:00pm, so the statements are not sufficient."
   },
   {
     "id": "nr-077",

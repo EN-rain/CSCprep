@@ -30,6 +30,7 @@ const THEME_KEY = 'cscprep-theme'
 const EXAM_ATTEMPT_HISTORY_KEY = 'cscprep:exam-attempt-history:v2'
 const IN_PROGRESS_EXAM_KEY = 'cscprep:in-progress-exam:v1'
 const QUESTION_REPORTS_KEY = 'cscprep:question-reports:v1'
+const PENDING_QUESTION_REPORTS_KEY = 'cscprep:pending-question-reports:v1'
 const RANDOM_EXAM_ITEM_COUNT_KEY = 'cscprep-random-exam-item-count'
 const SUBJECT_EXAM_ITEM_COUNTS_KEY = 'cscprep-subject-exam-item-counts'
 const SCREEN_EXIT_MS = 300
@@ -393,13 +394,13 @@ function clearInProgressExamDraft(): void {
   }
 }
 
-function readQuestionReports(): QuestionReport[] {
+function readStoredQuestionReports(key: string): QuestionReport[] {
   if (typeof window === 'undefined') {
     return []
   }
 
   try {
-    const raw = window.localStorage.getItem(QUESTION_REPORTS_KEY)
+    const raw = window.localStorage.getItem(key)
     const parsed = raw ? JSON.parse(raw) : []
 
     if (!Array.isArray(parsed)) {
@@ -426,8 +427,34 @@ function readQuestionReports(): QuestionReport[] {
   }
 }
 
+function readQuestionReports(): QuestionReport[] {
+  return readStoredQuestionReports(QUESTION_REPORTS_KEY)
+}
+
+function readPendingQuestionReports(): QuestionReport[] {
+  return readStoredQuestionReports(PENDING_QUESTION_REPORTS_KEY)
+}
+
 function writeQuestionReports(reports: QuestionReport[]): void {
   window.localStorage.setItem(QUESTION_REPORTS_KEY, JSON.stringify(reports))
+}
+
+function writePendingQuestionReports(reports: QuestionReport[]): void {
+  window.localStorage.setItem(PENDING_QUESTION_REPORTS_KEY, JSON.stringify(reports))
+}
+
+function mergeQuestionReports(...reportGroups: QuestionReport[][]): QuestionReport[] {
+  const reportsById = new Map<string, QuestionReport>()
+
+  reportGroups.flat().forEach((report) => {
+    if (!reportsById.has(report.id)) {
+      reportsById.set(report.id, report)
+    }
+  })
+
+  return [...reportsById.values()]
+    .sort((a, b) => Date.parse(b.reportedAt) - Date.parse(a.reportedAt))
+    .slice(0, 200)
 }
 
 function isQuestionReport(value: unknown): value is QuestionReport {
@@ -478,6 +505,32 @@ async function createSharedQuestionReport(report: QuestionReport): Promise<void>
   if (!response.ok) {
     throw new Error('Report was saved locally only.')
   }
+}
+
+async function syncPendingQuestionReports(): Promise<QuestionReport[]> {
+  const pendingReports = readPendingQuestionReports()
+
+  if (pendingReports.length === 0) {
+    return []
+  }
+
+  const unsyncedReports: QuestionReport[] = []
+
+  for (const report of pendingReports) {
+    try {
+      await createSharedQuestionReport(report)
+    } catch {
+      unsyncedReports.push(report)
+    }
+  }
+
+  writePendingQuestionReports(unsyncedReports)
+
+  if (unsyncedReports.length > 0) {
+    throw new Error('Some reports are still local only.')
+  }
+
+  return pendingReports
 }
 
 async function deleteSharedQuestionReport(reportId: string): Promise<QuestionReport[]> {
@@ -830,11 +883,16 @@ function App() {
     setReportSyncStatus('syncing')
 
     try {
+      await syncPendingQuestionReports()
       const sharedReports = await fetchSharedQuestionReports()
-      writeQuestionReports(sharedReports)
-      setQuestionReports(sharedReports)
+      const reports = mergeQuestionReports(sharedReports)
+      writeQuestionReports(reports)
+      setQuestionReports(reports)
       setReportSyncStatus('idle')
     } catch {
+      const reports = mergeQuestionReports(readQuestionReports(), readPendingQuestionReports())
+      writeQuestionReports(reports)
+      setQuestionReports(reports)
       setReportSyncStatus('local-only')
     }
   }
@@ -887,13 +945,23 @@ function App() {
     }
 
     void createSharedQuestionReport(report)
-      .then(() => setReportSyncStatus('idle'))
-      .catch(() => setReportSyncStatus('local-only'))
+      .then(() => {
+        const pendingReports = readPendingQuestionReports().filter((pendingReport) => pendingReport.id !== report.id)
+        writePendingQuestionReports(pendingReports)
+        setReportSyncStatus('idle')
+      })
+      .catch(() => {
+        const pendingReports = mergeQuestionReports([report], readPendingQuestionReports())
+        writePendingQuestionReports(pendingReports)
+        setReportSyncStatus('local-only')
+      })
   }
 
   function deleteQuestionReport(reportId: string) {
     const nextReports = questionReports.filter((report) => report.id !== reportId)
+    const nextPendingReports = readPendingQuestionReports().filter((report) => report.id !== reportId)
     writeQuestionReports(nextReports)
+    writePendingQuestionReports(nextPendingReports)
     setQuestionReports(nextReports)
 
     void deleteSharedQuestionReport(reportId)
@@ -907,6 +975,7 @@ function App() {
 
   function clearQuestionReports() {
     writeQuestionReports([])
+    writePendingQuestionReports([])
     setQuestionReports([])
 
     void clearSharedQuestionReports()
