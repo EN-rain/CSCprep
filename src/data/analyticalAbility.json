@@ -496,7 +496,7 @@
   {
     "id": "aa-020",
     "subject": "Analytical Ability",
-    "prompt": "A.Quesada, Arianne\nB. Quisumbing, Armie\nC. Quintin, Adela\nD. Quezon, Aurora",
+    "prompt": "A. Quesada, Arianne\nB. Quisumbing, Armie\nC. Quintin, Adela\nD. Quezon, Aurora",
     "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
     "choices": [
       {
@@ -2650,7 +2650,7 @@
   {
     "id": "aa-102",
     "subject": "Analytical Ability",
-    "prompt": "Subscribing to Cable T.V. is a luxury. All luxuries are needles expenditures. Having a cellular phone is not\na luxury. Dining in a Five-Star hotel is a needless expenditure\nCONCLUSION:",
+    "prompt": "Subscribing to Cable T.V. is a luxury. All luxuries are needles expenditures. Having a cellular phone is not a luxury. Dining in a Five-Star hotel is a needless expenditure\nCONCLUSION:",
     "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
@@ -2862,7 +2862,7 @@
   {
     "id": "aa-110",
     "subject": "Analytical Ability",
-    "prompt": "Tom puts on his socks before he puts on his shoes. He puts on his shirt before he puts on his jacket.\nTom puts on his shoes before he puts on his shirt.\nIf the first two statements are true, the third\nstatement is",
+    "prompt": "Tom puts on his socks before he puts on his shoes. He puts on his shirt before he puts on his jacket.\nTom puts on his shoes before he puts on his shirt.\nIf the first two statements are true, the third statement is",
     "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
@@ -2884,7 +2884,7 @@
   {
     "id": "aa-111",
     "subject": "Analytical Ability",
-    "prompt": "All the tulips in Zoe's garden are white.\nAll the pansies in Zoe's garden are yellow.\nAll the flowers in Zoe's garden are either white or\nyellow. If the first two statements are true, the third\nstatement is",
+    "prompt": "All the tulips in Zoe's garden are white.\nAll the pansies in Zoe's garden are yellow.\nAll the flowers in Zoe's garden are either white or yellow. If the first two statements are true, the third statement is",
     "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
@@ -2906,7 +2906,7 @@
   {
     "id": "aa-112",
     "subject": "Analytical Ability",
-    "prompt": "Three pencils cost the same as two erasers. Four erasers cost the same as one ruler.\nPencils are more expensive than rulers.\nIf the first two statements are true, the third\nstatement is",
+    "prompt": "Three pencils cost the same as two erasers. Four erasers cost the same as one ruler.\nPencils are more expensive than rulers.\nIf the first two statements are true, the third statement is",
     "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
@@ -3578,7 +3578,7 @@
   {
     "id": "aa-138",
     "subject": "Analytical Ability",
-    "prompt": "A routing code uses M, O, R, V, A. What comes next?",
+    "prompt": "A routing code uses M, O, R, V,\nA. What comes next?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -3708,7 +3708,7 @@
   {
     "id": "aa-143",
     "subject": "Analytical Ability",
-    "prompt": "A memo series uses Q, S, V, Z, E. What letter follows?",
+    "prompt": "A memo series uses Q, S, V, Z,\nE. What letter follows?",
     "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
@@ -4280,7 +4280,7 @@
   {
     "id": "aa-165",
     "subject": "Analytical Ability",
-    "prompt": "Box A is heavier than Box B. Box C is lighter than Box B. Box D is heavier than Box A. Which box is heaviest?",
+    "prompt": "Box A is heavier than Box\nB. Box C is lighter than Box\nB. Box D is heavier than Box\nA. Which box is heaviest?",
     "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
     "choices": [
       {
@@ -4306,7 +4306,7 @@
   {
     "id": "aa-166",
     "subject": "Analytical Ability",
-    "prompt": "A file is transferred from Section A to Section B, then to Section D. Section C receives only files from Section B. Which statement is certain?",
+    "prompt": "A file is transferred from Section A to Section B, then to Section\nD. Section C receives only files from Section\nB. Which statement is certain?",
     "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {
@@ -4436,7 +4436,7 @@
   {
     "id": "aa-171",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these entries alphabetically: A. Records Office B. Receiving Desk C. Releasing Unit D. Registry Section",
+    "prompt": "Arrange these entries alphabetically:\nA. Records Office\nB. Receiving Desk\nC. Releasing Unit\nD. Registry Section",
     "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
@@ -4488,7 +4488,7 @@
   {
     "id": "aa-173",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these offices alphabetically: A. Budget Division B. Accounting Unit C. Administrative Office D. Cash Section",
+    "prompt": "Arrange these offices alphabetically:\nA. Budget Division\nB. Accounting Unit\nC. Administrative Office\nD. Cash Section",
     "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {

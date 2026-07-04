@@ -28,7 +28,7 @@
   {
     "id": "nr-002",
     "subject": "Numerical Reasoning",
-    "prompt": "Evaluate: {\n}\n-\n-\n+\n-\n.\n16\n(\n24\n8\n)\n22\n8 ×\n8",
+    "prompt": "Evaluate: {16 - (24 - 8) + 22 x 8 - 8}.",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -49,8 +49,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"168\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/nr-002.png"
+    "explanation": "Work inside the parentheses first: 24 - 8 = 16. Then 16 - 16 + 22 x 8 - 8 = 0 + 176 - 8 = 168."
   },
   {
     "id": "nr-003",
@@ -102,7 +101,7 @@
       }
     ],
     "correctChoiceId": "B",
-  "explanation": "8,000 ÷ 125 = 64 because 125 × 64 = 8,000."
+    "explanation": "8,000 ÷ 125 = 64 because 125 × 64 = 8,000."
   },
   {
     "id": "nr-005",
@@ -128,7 +127,7 @@
       }
     ],
     "correctChoiceId": "C",
-  "explanation": "299 + 101 = 400 and 943 + 398 = 1,341, so the total is 1,741."
+    "explanation": "299 + 101 = 400 and 943 + 398 = 1,341, so the total is 1,741."
   },
   {
     "id": "nr-006",
@@ -393,7 +392,7 @@
   {
     "id": "nr-016",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the foloowing is true?",
+    "prompt": "Which of the following is true?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -402,25 +401,24 @@
       },
       {
         "id": "B",
-        "text": "8/64 = ¼"
+        "text": "8/64 = 1/4"
       },
       {
         "id": "C",
-        "text": "54 – 8 ≥ 8 – 54"
+        "text": "54 - 8 > 8 - 54"
       },
       {
         "id": "D",
-        "text": "9/117 = 1/17   3 5 +"
+        "text": "9/117 = 1/17"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"54 – 8 ≥ 8 – 54\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/nr-016.png"
+    "explanation": "54 - 8 = 46 and 8 - 54 = -46, so 54 - 8 > 8 - 54 is true."
   },
   {
     "id": "nr-017",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the value of x:\n(\n72\n)\n(\n35\n)\n\n\n8\n7",
+    "prompt": "Find the value of x: x = (3/8)(72) + (5/7)(35)",
     "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
@@ -441,8 +439,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"52\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/nr-017.png"
+    "explanation": "(3/8)(72) = 27 and (5/7)(35) = 25. Therefore x = 27 + 25 = 52."
   },
   {
     "id": "nr-018",

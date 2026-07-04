@@ -210,7 +210,7 @@
   {
     "id": "cse2026-009",
     "subject": "Numerical Reasoning",
-    "prompt": "1f23 + 28+37+x+53=168 and 23 + 28+ 40+y+50=120. Find the value\nof x-y?",
+    "prompt": "1f23 + 28+37+x+53=168 and 23 + 28+ 40+y+50=120. Find the value of x-y?",
     "hint": "Add the known numbers in each equation first, then solve for x and y separately.",
     "choices": [
       {
@@ -262,7 +262,7 @@
   {
     "id": "cse2026-011",
     "subject": "Numerical Reasoning",
-    "prompt": "A number is divisible by 8 if its last three digits is divisible by 8. Which of the\nfollowing numbers is divisible by 8?",
+    "prompt": "A number is divisible by 8 if its last three digits is divisible by 8. Which of the following numbers is divisible by 8?",
     "hint": "Apply the divisibility rule for 8: check the last three digits of each option and see if they form a multiple of 8.",
     "choices": [
       {
@@ -392,7 +392,7 @@
   {
     "id": "cse2026-016",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the foloowing is true?",
+    "prompt": "Which of the following is true?",
     "hint": "Simplify each option. For inequalities, compute both sides; for fractions, reduce to lowest terms.",
     "choices": [
       {
@@ -652,7 +652,7 @@
   {
     "id": "cse2026-026",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the following has the greatest value?\n8\n16\nl\n_ 168",
+    "prompt": "Which of the following has the greatest value?\n8\n16 l\n_ 168",
     "hint": "Convert each fraction or mixed number to a decimal to compare values directly.",
     "choices": [
       {
@@ -730,7 +730,7 @@
   {
     "id": "cse2026-029",
     "subject": "Numerical Reasoning",
-    "prompt": "If a positive integer m is divisible by both 3 and 8, then m must also be\ndivisible by",
+    "prompt": "If a positive integer m is divisible by both 3 and 8, then m must also be divisible by",
     "hint": "If m is divisible by both 3 and 8, it must be divisible by their least common multiple.",
     "choices": [
       {
@@ -756,7 +756,7 @@
   {
     "id": "cse2026-030",
     "subject": "Numerical Reasoning",
-    "prompt": "If positive integers m and n are not both odd, which of the following is always\ntrue?",
+    "prompt": "If positive integers m and n are not both odd, which of the following is always true?",
     "hint": "Test cases where one of m, n is even. For example, m = 2, n = 3.",
     "choices": [
       {
@@ -782,7 +782,7 @@
   {
     "id": "cse2026-031",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the average temperature change for the 12-day period. Temperature\nchange in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4,",
+    "prompt": "Find the average temperature change for the 12-day period. Temperature change in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4,",
     "hint": "Average = sum of all values ÷ number of values. Add the eleven visible values and account for the twelfth.",
     "choices": [
       {
@@ -886,7 +886,7 @@
   {
     "id": "cse2026-035",
     "subject": "Numerical Reasoning",
-    "prompt": "If 8 less than the product of anumber and -3 is greater than 7, which of the\nfollowing could be that number?",
+    "prompt": "If 8 less than the product of anumber and -3 is greater than 7, which of the following could be that number?",
     "hint": "Translate '8 less than the product of x and −3' into −3x − 8, then solve the inequality −3x − 8 > 7.",
     "choices": [
       {
@@ -934,7 +934,7 @@
   {
     "id": "cse2026-037",
     "subject": "Numerical Reasoning",
-    "prompt": "Four times the perimeter of a parking lot is 16 less than 2,000 meters. What\nis the perimeter of the lot?",
+    "prompt": "Four times the perimeter of a parking lot is 16 less than 2,000 meters. What is the perimeter of the lot?",
     "hint": "'16 less than 2000' means 2000 − 16. Divide the result by 4 to get the perimeter.",
     "choices": [
       {
@@ -986,7 +986,7 @@
   {
     "id": "cse2026-039",
     "subject": "Numerical Reasoning",
-    "prompt": "Eighteen less than seven times the number of sandwiches is 269. How many\nsandwiches are there?",
+    "prompt": "Eighteen less than seven times the number of sandwiches is 269. How many sandwiches are there?",
     "hint": "Translate '18 less than seven times s' into 7s − 18 = 269.",
     "choices": [
       {
@@ -1012,7 +1012,7 @@
   {
     "id": "cse2026-040",
     "subject": "Numerical Reasoning",
-    "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as\nthe lot. How much does the lot cost?",
+    "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as the lot. How much does the lot cost?",
     "hint": "Express the total in terms of the lot only: lot + 1.5 × lot = 2.5 × lot = 14,000,000.",
     "choices": [
       {
@@ -1038,7 +1038,7 @@
   {
     "id": "cse2026-041",
     "subject": "Numerical Reasoning",
-    "prompt": "The sale price of a television set is Php 7,200. The discount rate is 40%. Find\nits regular price.",
+    "prompt": "The sale price of a television set is Php 7,200. The discount rate is 40%. Find its regular price.",
     "hint": "A 40% discount means the sale price is 60% of the regular price. Divide the sale price by 0.60.",
     "choices": [
       {
@@ -1064,7 +1064,7 @@
   {
     "id": "cse2026-042",
     "subject": "Numerical Reasoning",
-    "prompt": "The lenghts of the sides of a triangle can be represented by three\nconsecutive integers. The perimeter of the triangle is 96cm. Find the length of\nthe longest side of the triangle.",
+    "prompt": "The lenghts of the sides of a triangle can be represented by three consecutive integers. The perimeter of the triangle is 96cm. Find the length of the longest side of the triangle.",
     "hint": "Let the three consecutive integers be n, n+1, n+2. Their sum is 3n + 3.",
     "choices": [
       {
@@ -1090,7 +1090,7 @@
   {
     "id": "cse2026-043",
     "subject": "Numerical Reasoning",
-    "prompt": "The length of a rectangle is 8 meters more than twice its width. The perimeter\nis 112 meters. Find its area.",
+    "prompt": "The length of a rectangle is 8 meters more than twice its width. The perimeter is 112 meters. Find its area.",
     "hint": "Use perimeter to get L + W = 56, then substitute L = 2W + 8 to find W. Area = L × W.",
     "choices": [
       {
@@ -1246,7 +1246,7 @@
   {
     "id": "cse2026-049",
     "subject": "Numerical Reasoning",
-    "prompt": "Awate¥%container has 100mL of water in it and is 20% full. How many mL of\nwater cap this container hold if it is full?",
+    "prompt": "Awate¥%container has 100mL of water in it and is 20% full. How many mL of water cap this container hold if it is full?",
     "hint": "If 100 mL is 20% of full capacity, then full capacity = 100 ÷ 0.20.",
     "choices": [
       {
@@ -1298,7 +1298,7 @@
   {
     "id": "cse2026-051",
     "subject": "Numerical Reasoning",
-    "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a\nmonth. Next year the starting salary will be raised to Php18,000. What is the rate\nof increase in the starting salary?",
+    "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a month. Next year the starting salary will be raised to Php18,000. What is the rate of increase in the starting salary?",
     "hint": "Rate of increase = (new − old) ÷ old = (18000 − 15000) ÷ 15000.",
     "choices": [
       {
@@ -1376,7 +1376,7 @@
   {
     "id": "cse2026-054",
     "subject": "Numerical Reasoning",
-    "prompt": "When the original price of an item is increased by a certain rate, the increased\nprice is Php 3,100. When the original price is decreased by the same rate, the\ndecreased price is Php1,900. What is the original price of this item?",
+    "prompt": "When the original price of an item is increased by a certain rate, the increased price is Php 3,100. When the original price is decreased by the same rate, the decreased price is Php1,900. What is the original price of this item?",
     "hint": "Let P = original price and r = rate. Then P(1+r) = 3100 and P(1−r) = 1900. Add the two equations.",
     "choices": [
       {
@@ -1402,7 +1402,7 @@
   {
     "id": "cse2026-055",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must one has to invest in corporate bonds paying 9.6% in order to\nearn an income of Php12,000 per annum?",
+    "prompt": "How much must one has to invest in corporate bonds paying 9.6% in order to earn an income of Php12,000 per annum?",
     "hint": "Income = investment × rate. So investment = income ÷ rate.",
     "choices": [
       {
@@ -1428,7 +1428,7 @@
   {
     "id": "cse2026-056",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must be cut form the edge of a piece of glass 16 1/8 cm wide, in\norder for it to fit into an opening 14 % cm wide?",
+    "prompt": "How much must be cut form the edge of a piece of glass 16 1/8 cm wide, in order for it to fit into an opening 14 % cm wide?",
     "hint": "Cut = current width − opening width. Convert mixed numbers to improper fractions first.",
     "choices": [
       {
@@ -1506,7 +1506,7 @@
   {
     "id": "cse2026-059",
     "subject": "Numerical Reasoning",
-    "prompt": "How many liters will remain in 1 1000-liter storage tank if 8.2% of the liquid has\nevaporated due to excessive heat?",
+    "prompt": "How many liters will remain in 1 1000-liter storage tank if 8.2% of the liquid has evaporated due to excessive heat?",
     "hint": "Remaining = total × (1 − evaporated fraction).",
     "choices": [
       {
@@ -1532,7 +1532,7 @@
   {
     "id": "cse2026-060",
     "subject": "Numerical Reasoning",
-    "prompt": "Dante recently sold some stocks for which he originally bought for Php358. If it\nhas increased in value by 116%, how much did he receive for the stock?",
+    "prompt": "Dante recently sold some stocks for which he originally bought for Php358. If it has increased in value by 116%, how much did he receive for the stock?",
     "hint": "New value = original × (1 + increase rate) = 358 × 2.16.",
     "choices": [
       {
@@ -1558,7 +1558,7 @@
   {
     "id": "cse2026-061",
     "subject": "Numerical Reasoning",
-    "prompt": "Mr. Manny Vargas, a real estate broker sold a building for Php175M. How much\ndid he receive if his commission is 5.5% of the sale price of the property?",
+    "prompt": "Mr. Manny Vargas, a real estate broker sold a building for Php175M. How much did he receive if his commission is 5.5% of the sale price of the property?",
     "hint": "Commission = sale price × commission rate = 175,000,000 × 0.055.",
     "choices": [
       {
@@ -1610,7 +1610,7 @@
   {
     "id": "cse2026-063",
     "subject": "Numerical Reasoning",
-    "prompt": "Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000\ninterest. What rate of interest did Asian Bank charge for the loan?",
+    "prompt": "Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000 interest. What rate of interest did Asian Bank charge for the loan?",
     "hint": "Interest rate = interest ÷ principal = 90,000 ÷ 750,000.",
     "choices": [
       {
@@ -1662,7 +1662,7 @@
   {
     "id": "cse2026-065",
     "subject": "Numerical Reasoning",
-    "prompt": "A compnet Qatilbe rented for Php1,745 a week or Php 347.50 a day. You need\nthe computer only for 6 days. At which rate (daily or weekly), would it be cheaper\nto rent and by how much cheaper?",
+    "prompt": "A compnet Qatilbe rented for Php1,745 a week or Php 347.50 a day. You need the computer only for 6 days. At which rate (daily or weekly), would it be cheaper to rent and by how much cheaper?",
     "hint": "Compare 6 days at the daily rate (6 × 347.50) with one week at the weekly rate (1745).",
     "choices": [
       {
@@ -1714,7 +1714,7 @@
   {
     "id": "cse2026-067",
     "subject": "Numerical Reasoning",
-    "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe\nper meter?",
+    "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe per meter?",
     "hint": "Price per meter = (price ÷ length in cm) × 100.",
     "choices": [
       {
@@ -1740,7 +1740,7 @@
   {
     "id": "cse2026-068",
     "subject": "Numerical Reasoning",
-    "prompt": "Ahomeowner can rent a chain saw from a rental agency at Php 2,700 a day.\nThe brand new of the same saw can be bought for Php18,900. For how many\ndays could the homeonwer rent the saw before renting would cost more than",
+    "prompt": "Ahomeowner can rent a chain saw from a rental agency at Php 2,700 a day.\nThe brand new of the same saw can be bought for Php18,900. For how many days could the homeonwer rent the saw before renting would cost more than",
     "hint": "Divide the purchase price by the daily rental rate to find the break-even point.",
     "choices": [
       {
@@ -1818,7 +1818,7 @@
   {
     "id": "cse2026-071",
     "subject": "Numerical Reasoning",
-    "prompt": "A DVD movie, purchased for Php440 was marked up 25% on the selling price.\nLater, as retail prices fell, this movie was marked down 20% on the current sale\nprice. Find its new sale price.",
+    "prompt": "A DVD movie, purchased for Php440 was marked up 25% on the selling price.\nLater, as retail prices fell, this movie was marked down 20% on the current sale price. Find its new sale price.",
     "hint": "Apply the 25% markup to get the intermediate price, then apply the 20% markdown to that intermediate price.",
     "choices": [
       {
@@ -1844,7 +1844,7 @@
   {
     "id": "cse2026-072",
     "subject": "Numerical Reasoning",
-    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480\npacks paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes\nof cards @ 0.80. A 5% sales tax is added. What was the company’s total bill?",
+    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480 packs paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes of cards @ 0.80. A 5% sales tax is added. What was the company’s total bill?",
     "hint": "Compute each line's subtotal, sum them, then multiply by 1.05 to add the 5% sales tax.",
     "choices": [
       {
@@ -1870,7 +1870,7 @@
   {
     "id": "cse2026-073",
     "subject": "Numerical Reasoning",
-    "prompt": "The question “How many flowers are needed to border a rectangular garden?”,\ninvolves",
+    "prompt": "The question “How many flowers are needed to border a rectangular garden?”, involves",
     "hint": "'Border a rectangular garden' means going around the outside edge, which is the perimeter.",
     "choices": [
       {
@@ -1896,7 +1896,7 @@
   {
     "id": "cse2026-074",
     "subject": "Numerical Reasoning",
-    "prompt": "How many meters of fencing are needed to enclose an 84-meter by 48-meter\nrectangular garden?",
+    "prompt": "How many meters of fencing are needed to enclose an 84-meter by 48-meter rectangular garden?",
     "hint": "Fencing encloses a rectangle, so compute the perimeter: 2(length + width).",
     "choices": [
       {
@@ -1948,7 +1948,7 @@
   {
     "id": "cse2026-076",
     "subject": "Numerical Reasoning",
-    "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is\n4cm longer than the shortest side. How long is the shortest side if the perimeter\nis 67 cm?",
+    "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is\n4cm longer than the shortest side. How long is the shortest side if the perimeter is 67 cm?",
     "hint": "Let the shortest side be x. Then the sides are x, x+3, and x+4. Sum to 67.",
     "choices": [
       {
@@ -1974,7 +1974,7 @@
   {
     "id": "cse2026-077",
     "subject": "Numerical Reasoning",
-    "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm,\nif its perimeter is 50cm?",
+    "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm, if its perimeter is 50cm?",
     "hint": "Let width = w, length = 2w − 2. Perimeter = 2(L + W) = 50.",
     "choices": [
       {
@@ -2000,7 +2000,7 @@
   {
     "id": "cse2026-078",
     "subject": "Numerical Reasoning",
-    "prompt": "By what percent was the price per kilo of chicken inceased?\n1) The price per kilo of chicken was increased by Php20\n2) The price per kilo of chicken was increased by Php120\nAnswer: C- if BOTH statements TOGETHER are sufficient, but NEITHER\nstatement ALONE is sufficient.\n1) The selling price minus the real estate agent’s commission was Php\n9,200,000\n2) The selling price was 250% of the original purchase price of Php\n4,000,000.",
+    "prompt": "By what percent was the price per kilo of chicken inceased?\n1) The price per kilo of chicken was increased by Php20\n2) The price per kilo of chicken was increased by Php120\nAnswer: C- if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.\n1) The selling price minus the real estate agent’s commission was Php\n9,200,000\n2) The selling price was 250% of the original purchase price of Php\n4,000,000.",
     "hint": "To find the percent increase, you need both the original price AND the increase amount.",
     "choices": [
       {
@@ -2090,7 +2090,7 @@
   {
     "id": "cse2026-081",
     "subject": "Numerical Reasoning",
-    "prompt": "Ifx andy are integers, is x divisible by 17?\n1) The product xy is divisible by 17\n2) y is not divisible by 17\nstatement ALONE issufficient.",
+    "prompt": "Ifx andy are integers, is x divisible by 17?\n1) The product xy is divisible by 17\n2) y is not divisible by 17 statement ALONE issufficient.",
     "hint": "Since 17 is prime, if xy is divisible by 17 then at least one of x, y must be divisible by 17.",
     "choices": [
       {
@@ -2150,7 +2150,7 @@
   {
     "id": "cse2026-083",
     "subject": "Numerical Reasoning",
-    "prompt": "How many books does Gerard have?\n1) If Gerard had 18 fewer books, he would have only half as many as he\nactually has.\n2) Gerard has three times as many fiction as non-fiction books.",
+    "prompt": "How many books does Gerard have?\n1) If Gerard had 18 fewer books, he would have only half as many as he actually has.\n2) Gerard has three times as many fiction as non-fiction books.",
     "hint": "Translate statement (1): x − 18 = x/2. Solve for x.",
     "choices": [
       {
@@ -2210,7 +2210,7 @@
   {
     "id": "cse2026-085",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the total amount raised for the Payatas Tragedy from private\ncorporations and personal donations?\n1) Of the amount donated,48% came from private corporations\n2) Of the amount donated, Php15M came from personal donations.\nstatement ALONE issufficient.",
+    "prompt": "What was the total amount raised for the Payatas Tragedy from private corporations and personal donations?\n1) Of the amount donated,48% came from private corporations\n2) Of the amount donated, Php15M came from personal donations. statement ALONE issufficient.",
     "hint": "If 48% came from corporations, then 52% came from personal donations. Use statement (2) to find the total.",
     "choices": [
       {
@@ -2240,7 +2240,7 @@
   {
     "id": "cse2026-086",
     "subject": "Numerical Reasoning",
-    "prompt": "Mary’s total score in the three bowling games was 530. What were her scores?\n1) Mary’s highest score was 198\n2) The sum of Mary’s two highest scores was 368\nstatement ALONE issufficient.",
+    "prompt": "Mary’s total score in the three bowling games was 530. What were her scores?\n1) Mary’s highest score was 198\n2) The sum of Mary’s two highest scores was 368 statement ALONE issufficient.",
     "hint": "Try to determine each of the three scores from the given information.",
     "choices": [
       {
@@ -2300,7 +2300,7 @@
   {
     "id": "cse2026-088",
     "subject": "Numerical Reasoning",
-    "prompt": "In last Saturday’s Midnight Sale at Gaisano Mall a certain shop sold 75% of the\nshirts in its inventory. Each shirt was sold for Php358. What was the total\nrevenue from the sale of these shirts on that day?\n1) When the shop opened last Saturday, there were 448 shirts in its\ninventory\nif each statement ALONE is sufficient",
+    "prompt": "In last Saturday’s Midnight Sale at Gaisano Mall a certain shop sold 75% of the shirts in its inventory. Each shirt was sold for Php358. What was the total revenue from the sale of these shirts on that day?\n1) When the shop opened last Saturday, there were 448 shirts in its inventory if each statement ALONE is sufficient",
     "hint": "Total revenue = (75% of inventory) × price per shirt. Statement (1) gives the inventory count.",
     "choices": [
       {
@@ -2330,7 +2330,7 @@
   {
     "id": "cse2026-089",
     "subject": "Numerical Reasoning",
-    "prompt": "How many more boys than girls are there in the room?\n1) There is a total of 56\ngirls and boys in the room.\n2) The number of boys in the room equals the square of the number of girls in\nthe room.",
+    "prompt": "How many more boys than girls are there in the room?\n1) There is a total of 56 girls and boys in the room.\n2) The number of boys in the room equals the square of the number of girls in the room.",
     "hint": "You need to determine the individual counts of boys and girls.",
     "choices": [
       {
@@ -2390,7 +2390,7 @@
   {
     "id": "cse2026-091",
     "subject": "Numerical Reasoning",
-    "prompt": "A box contains 48 balls, of which 30 are red and 18 are blue. If 16 of the balls\nare removed, how many of the balls left in the box are blue?\n1) Of the balls removed, the ratio of the number of red ones to the number of\nblue ones is 5:3\n2) Of the first 8 marbles removed, 5 are red",
+    "prompt": "A box contains 48 balls, of which 30 are red and 18 are blue. If 16 of the balls are removed, how many of the balls left in the box are blue?\n1) Of the balls removed, the ratio of the number of red ones to the number of blue ones is 5:3\n2) Of the first 8 marbles removed, 5 are red",
     "hint": "You need the number of blue balls REMOVED to find how many blue balls REMAIN.",
     "choices": [
       {
@@ -2420,7 +2420,7 @@
   {
     "id": "cse2026-092",
     "subject": "Numerical Reasoning",
-    "prompt": "How long did it take Mrs. Lim to drive non-stop on a trip from here home to Ayala\nAlabang?\n1) If Mrs. Lim average speed for the trip had been 1.5 times as fast, the trip\nwould have taken 2 hours.\n2) Mrs. Lim average speed for the trip was 80 km per hour.",
+    "prompt": "How long did it take Mrs. Lim to drive non-stop on a trip from here home to Ayala\nAlabang?\n1) If Mrs. Lim average speed for the trip had been 1.5 times as fast, the trip would have taken 2 hours.\n2) Mrs. Lim average speed for the trip was 80 km per hour.",
     "hint": "Time = distance ÷ speed. You need either distance alone or both speed and a relationship.",
     "choices": [
       {
@@ -2450,7 +2450,7 @@
   {
     "id": "cse2026-093",
     "subject": "Numerical Reasoning",
-    "prompt": "If Lorna had a dentist’s appointment on a certain day, was the appointment ona\nFriday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm\nAnswer: CC- ifBOTH statements TOGETHERaresufficient,butNEITHER\nstatement ALONE issufficient.",
+    "prompt": "If Lorna had a dentist’s appointment on a certain day, was the appointment ona\nFriday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm\nAnswer: CC- ifBOTH statements TOGETHERaresufficient,butNEITHER statement ALONE issufficient.",
     "hint": "Statement (1) places the appointment relative to Wednesday; statement (2) restricts the time of day.",
     "choices": [
       {
@@ -2480,7 +2480,7 @@
   {
     "id": "cse2026-094",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the average number of kilometers per liter of gasoline a car can\n1) The total cost of the gasoline used by the card or the 640-km trip was\nPhp1,152.\n2) The cost for the gasoline used by the car for the trip was Php18.00 per\nliter.",
+    "prompt": "What was the average number of kilometers per liter of gasoline a car can\n1) The total cost of the gasoline used by the card or the 640-km trip was\nPhp1,152.\n2) The cost for the gasoline used by the car for the trip was Php18.00 per liter.",
     "hint": "Average km/L = total km ÷ total liters. You need both total km and total liters.",
     "choices": [
       {
@@ -2540,7 +2540,7 @@
   {
     "id": "cse2026-096",
     "subject": "Numerical Reasoning",
-    "prompt": "At Avanti Review Center, 400 students are enrolled for the Review Program or\nAcademic Advancement Program or both. If 100 of these students are not\nenrolled in the Review Program, how many of them are enrolled in both Avanti\nReview Program and Avanti Academic Advancement Program?\n1) Of the 400 students, 160 are not enrolled in the Academic Advancement\nProgram.\n2) A total of 240 of the students are enrolled in the Academic Advancement\nProgram.",
+    "prompt": "At Avanti Review Center, 400 students are enrolled for the Review Program or\nAcademic Advancement Program or both. If 100 of these students are not enrolled in the Review Program, how many of them are enrolled in both Avanti\nReview Program and Avanti Academic Advancement Program?\n1) Of the 400 students, 160 are not enrolled in the Academic Advancement\nProgram.\n2) A total of 240 of the students are enrolled in the Academic Advancement\nProgram.",
     "hint": "Use the inclusion-exclusion formula: |A ∪ B| = |A| + |B| − |A ∩ B|. Solve for |A ∩ B|.",
     "choices": [
       {
@@ -3064,7 +3064,7 @@
   {
     "id": "cse2026-116",
     "subject": "Analytical Ability",
-    "prompt": "A.Quesada, Arianne B. Quisumbing, Armie\nC. Quintin, Adela\nD. Quezon, Aurora",
+    "prompt": "A. Quesada, Arianne\nB. Quisumbing, Armie\nC. Quintin, Adela\nD. Quezon, Aurora",
     "hint": "Alphabetize the surnames: Que(sada), Qu(isumbing), Qu(intin), Qu(ezon).",
     "choices": [
       {
@@ -3090,7 +3090,7 @@
   {
     "id": "cse2026-117",
     "subject": "Verbal Reasoning",
-    "prompt": "We should never be apathetic towards other people for we have a social\nresponsibility to fulfill.",
+    "prompt": "We should never be apathetic towards other people for we have a social responsibility to fulfill.",
     "hint": "'Apathetic' means showing no interest or concern. Find the antonym.",
     "choices": [
       {
@@ -3116,7 +3116,7 @@
   {
     "id": "cse2026-118",
     "subject": "Verbal Reasoning",
-    "prompt": "A good leader should be cognizant of the numerous issues that affect his\nconstituents.",
+    "prompt": "A good leader should be cognizant of the numerous issues that affect his constituents.",
     "hint": "'Cognizant' means aware or mindful. Find the synonym.",
     "choices": [
       {
@@ -3142,7 +3142,7 @@
   {
     "id": "cse2026-119",
     "subject": "Verbal Reasoning",
-    "prompt": "Always be careful not to issue any disparaging remarks against other people. a.\npraising",
+    "prompt": "Always be careful not to issue any disparaging remarks against other people. a. praising",
     "hint": "'Disparaging' means belittling or critical. Find the antonym.",
     "choices": [
       {
@@ -3164,7 +3164,7 @@
   {
     "id": "cse2026-120",
     "subject": "Verbal Reasoning",
-    "prompt": "Flowers are ephemeral; they bloom yet wither in a week or so later. a.\nshrivel",
+    "prompt": "Flowers are ephemeral; they bloom yet wither in a week or so later. a. shrivel",
     "hint": "'Ephemeral' means lasting for a very short time. Find the synonym.",
     "choices": [
       {
@@ -3212,7 +3212,7 @@
   {
     "id": "cse2026-122",
     "subject": "Verbal Reasoning",
-    "prompt": "The Ortigas Center is filled with gargantuan buildings, some having up to 50\nfloors.",
+    "prompt": "The Ortigas Center is filled with gargantuan buildings, some having up to 50 floors.",
     "hint": "'Gargantuan' means enormous. Find the synonym.",
     "choices": [
       {
@@ -3264,7 +3264,7 @@
   {
     "id": "cse2026-124",
     "subject": "Verbal Reasoning",
-    "prompt": "The corrupt policeman was discharged form service duetohis | /gnominious act\nof accepting bribes.",
+    "prompt": "The corrupt policeman was discharged form service duetohis | /gnominious act of accepting bribes.",
     "hint": "'Ignominious' means shameful or dishonorable. Find the antonym.",
     "choices": [
       {
@@ -3342,7 +3342,7 @@
   {
     "id": "cse2026-127",
     "subject": "Verbal Reasoning",
-    "prompt": "Never trust an insidious person because you'll never know what goes in his\nmind.",
+    "prompt": "Never trust an insidious person because you'll never know what goes in his mind.",
     "hint": "'Insidious' means treacherous or deceitful, proceeding in a gradual, subtle way but with harmful effects.",
     "choices": [
       {
@@ -3420,7 +3420,7 @@
   {
     "id": "cse2026-130",
     "subject": "Verbal Reasoning",
-    "prompt": "Christ teaches us to be concerned about putting up riches in heaven and not to\nbe obsessed with mundane things.",
+    "prompt": "Christ teaches us to be concerned about putting up riches in heaven and not to be obsessed with mundane things.",
     "hint": "'Mundane' means ordinary or worldly as opposed to spiritual. Find the synonym.",
     "choices": [
       {
@@ -3550,7 +3550,7 @@
   {
     "id": "cse2026-135",
     "subject": "Verbal Reasoning",
-    "prompt": "It is now plausible to say that someday, interplanetary travel will no longer be\nimpossible.",
+    "prompt": "It is now plausible to say that someday, interplanetary travel will no longer be impossible.",
     "hint": "'Plausible' means seeming reasonable or believable. Find the synonym.",
     "choices": [
       {
@@ -3706,7 +3706,7 @@
   {
     "id": "cse2026-141",
     "subject": "Verbal Reasoning",
-    "prompt": "Poverty should never be viewed as an impediment towards attaining good\neducation.",
+    "prompt": "Poverty should never be viewed as an impediment towards attaining good education.",
     "hint": "'Impediment' means something that hinders or obstructs. Find the synonym.",
     "choices": [
       {
@@ -3832,7 +3832,7 @@
   {
     "id": "cse2026-146",
     "subject": "Verbal Reasoning",
-    "prompt": "Dentists believe that babies should be weaned from feeding bottles as soon as\npossible to prevent malformation of the infant’s erupting teeth.",
+    "prompt": "Dentists believe that babies should be weaned from feeding bottles as soon as possible to prevent malformation of the infant’s erupting teeth.",
     "hint": "'Weaned' means gradually accustomed to a new situation or freed from a dependency.",
     "choices": [
       {
@@ -3858,7 +3858,7 @@
   {
     "id": "cse2026-147",
     "subject": "Verbal Reasoning",
-    "prompt": "Some people believe that Balete Drive is haunted because a wraith of a\nwoman’s appears there.",
+    "prompt": "Some people believe that Balete Drive is haunted because a wraith of a woman’s appears there.",
     "hint": "'Wraith' refers to a ghost or spirit of a dead person appearing as a pale, shadowy figure.",
     "choices": [
       {
@@ -3884,7 +3884,7 @@
   {
     "id": "cse2026-148",
     "subject": "Verbal Reasoning",
-    "prompt": "She looks unkempt with her wavy coarse hair falling freely behind her back. a.\npretty",
+    "prompt": "She looks unkempt with her wavy coarse hair falling freely behind her back. a. pretty",
     "hint": "'Unkempt' means not properly groomed or untidy in appearance.",
     "choices": [
       {
@@ -3958,7 +3958,7 @@
   {
     "id": "cse2026-151",
     "subject": "Verbal Reasoning",
-    "prompt": "Mindy runmaged through the chest of old clothes for something usable to\ndonate.",
+    "prompt": "Mindy runmaged through the chest of old clothes for something usable to donate.",
     "hint": "'Rummaged' means searched thoroughly through a collection of items.",
     "choices": [
       {
@@ -4010,7 +4010,7 @@
   {
     "id": "cse2026-153",
     "subject": "Verbal Reasoning",
-    "prompt": "To augment the policemen’s incom, the government allowed them to take\nparttime jobs.",
+    "prompt": "To augment the policemen’s incom, the government allowed them to take parttime jobs.",
     "hint": "'Augment' means to make greater or increase.",
     "choices": [
       {
@@ -4036,7 +4036,7 @@
   {
     "id": "cse2026-154",
     "subject": "Verbal Reasoning",
-    "prompt": "A person’s reputation is very important so be very careful not to calumniate\nanybody.",
+    "prompt": "A person’s reputation is very important so be very careful not to calumniate anybody.",
     "hint": "'Calumniate' means to make false and damaging statements about someone.",
     "choices": [
       {
@@ -4192,7 +4192,7 @@
   {
     "id": "cse2026-160",
     "subject": "Verbal Reasoning",
-    "prompt": "The reporter’s candid remarks caught the mayoralty candidate off-guard. a.\nsecret",
+    "prompt": "The reporter’s candid remarks caught the mayoralty candidate off-guard. a. secret",
     "hint": "'Candid' means honest, open, and frank in expression.",
     "choices": [
       {
@@ -4470,7 +4470,7 @@
   {
     "id": "cse2026-171",
     "subject": "Verbal Reasoning",
-    "prompt": "The players were confused when the kibitzers suddenly butted-in during the\nteam’s huddle.",
+    "prompt": "The players were confused when the kibitzers suddenly butted-in during the team’s huddle.",
     "hint": "'Kibitzers' are people who give unsolicited advice or commentary, often spectators watching a game.",
     "choices": [
       {
@@ -4544,7 +4544,7 @@
   {
     "id": "cse2026-174",
     "subject": "Verbal Reasoning",
-    "prompt": "Heinous criminals are truly /oathsome.\nrepugnant",
+    "prompt": "Heinous criminals are truly /oathsome. repugnant",
     "hint": "'Loathsome' means causing hatred or disgust. Find the synonym.",
     "choices": [
       {
@@ -4596,7 +4596,7 @@
   {
     "id": "cse2026-176",
     "subject": "Verbal Reasoning",
-    "prompt": "The free medical and dental checkup conducted by the AFP Group is just a\nproof of their munificence.",
+    "prompt": "The free medical and dental checkup conducted by the AFP Group is just a proof of their munificence.",
     "hint": "'Munificence' means great generosity. Find the synonym.",
     "choices": [
       {
@@ -4674,7 +4674,7 @@
   {
     "id": "cse2026-179",
     "subject": "Verbal Reasoning",
-    "prompt": "You will never get sufficient nourishment if you are Obdurate jn refusing to eat\nvegetables.",
+    "prompt": "You will never get sufficient nourishment if you are Obdurate jn refusing to eat vegetables.",
     "hint": "'Obdurate' means stubbornly refusing to change. Find the synonym.",
     "choices": [
       {
@@ -4830,7 +4830,7 @@
   {
     "id": "cse2026-185",
     "subject": "Verbal Reasoning",
-    "prompt": "She had the quixotic idea that she was a reincarnation of British princess. a.\nwuild",
+    "prompt": "She had the quixotic idea that she was a reincarnation of British princess. a. wuild",
     "hint": "'Quixotic' means extremely idealistic, unrealistic, or impractical.",
     "choices": [
       {
@@ -8736,7 +8736,7 @@
   {
     "id": "cse2026-330",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nJust like Edgar Allan Poe, it is believed that Nick Joaquin starts getting ideas after\nab. Cc.\nhe has drank alcoholic beverages. No error.",
+    "prompt": "Choose the underlined part that contains an error:\nJust like Edgar Allan Poe, it is believed that Nick Joaquin starts getting ideas after ab. Cc. he has drank alcoholic beverages. No error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -9006,7 +9006,7 @@
   {
     "id": "cse2026-339",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is\napproved, it goes to the President for approval or veto.\n\nWhat should be the first sentence?",
+    "prompt": "B. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat should be the first sentence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9066,7 +9066,7 @@
   {
     "id": "cse2026-341",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is\napproved, it goes to the President for approval or veto.\n\nWhat would the new order of the sentences be?",
+    "prompt": "B. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat would the new order of the sentences be?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9096,7 +9096,7 @@
   {
     "id": "cse2026-342",
     "subject": "Verbal Reasoning",
-    "prompt": "Arrange the sentences into a well-organized paragraph, then answer the question.\n\nA. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat should be the first sentence?",
+    "prompt": "Arrange the sentences into a well-organized paragraph, then answer the question.\nA. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat should be the first sentence?",
     "hint": "Paragraph development item: choose the sentence that introduces the topic before the procedural details.",
     "choices": [
       {
@@ -9126,7 +9126,7 @@
   {
     "id": "cse2026-343",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other\nhand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat should be the third sentence?",
+    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat should be the third sentence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9156,7 +9156,7 @@
   {
     "id": "cse2026-344",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other\nhand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat should be the fourth sentence?",
+    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat should be the fourth sentence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9186,7 +9186,7 @@
   {
     "id": "cse2026-345",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other\nhand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nA. Hence, it can be said that the President really has a lot of duties and\nresponsibilities.",
+    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\nA. Hence, it can be said that the President really has a lot of duties and responsibilities.",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -9276,7 +9276,7 @@
   {
     "id": "cse2026-348",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for\ninfrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the second sentence?",
+    "prompt": "B. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the second sentence?",
     "hint": "Identify the relationship between the first pair of terms, then apply the same relationship to find the missing term.",
     "choices": [
       {
@@ -9336,7 +9336,7 @@
   {
     "id": "cse2026-350",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for\ninfrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat is the appropriate title for the above paragraph?",
+    "prompt": "B. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat is the appropriate title for the above paragraph?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -9414,7 +9414,7 @@
   {
     "id": "cse2026-353",
     "subject": "Verbal Reasoning",
-    "prompt": "Due to bad weather, the airline company decided postpone the\nflight.",
+    "prompt": "Due to bad weather, the airline company decided postpone the flight.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9804,7 +9804,7 @@
   {
     "id": "cse2026-368",
     "subject": "Verbal Reasoning",
-    "prompt": "The DPWH crew worked the night to repair the damaged bridge. a.\nthre",
+    "prompt": "The DPWH crew worked the night to repair the damaged bridge. a. thre",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9982,7 +9982,7 @@
   {
     "id": "cse2026-375",
     "subject": "Verbal Reasoning",
-    "prompt": "The unexpected of vehicles along Marcos Highway caused heavy\ntraffic.",
+    "prompt": "The unexpected of vehicles along Marcos Highway caused heavy traffic.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10060,7 +10060,7 @@
   {
     "id": "cse2026-378",
     "subject": "Verbal Reasoning",
-    "prompt": "The Cabinet meeting was on account of the President’s ill health. a.\ncalled in",
+    "prompt": "The Cabinet meeting was on account of the President’s ill health. a. called in",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10082,7 +10082,7 @@
   {
     "id": "cse2026-379",
     "subject": "Verbal Reasoning",
-    "prompt": "The tele-novela viewers cried helpleslly when they got by the\ntragedy that befell the main character.",
+    "prompt": "The tele-novela viewers cried helpleslly when they got by the tragedy that befell the main character.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10108,7 +10108,7 @@
   {
     "id": "cse2026-380",
     "subject": "Verbal Reasoning",
-    "prompt": "We should on our expenditures and spend only on our needs. a. cut\nshort",
+    "prompt": "We should on our expenditures and spend only on our needs. a. cut short",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10260,7 +10260,7 @@
   {
     "id": "cse2026-386",
     "subject": "Verbal Reasoning",
-    "prompt": "We should never people with disabilities for they also have the right\nto live.",
+    "prompt": "We should never people with disabilities for they also have the right to live.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10416,7 +10416,7 @@
   {
     "id": "cse2026-392",
     "subject": "Verbal Reasoning",
-    "prompt": "“All animals wage perpetual war; every species is born to devour another. Not one,\nnot even sheep or doves, that does not swallow a prodigious number of invisible\ncreatures. Males make war for the females, like Menelaus and Paris. Air, earth, water,\nare fields of carnage. God having given reason to men, this reason might teach them no\nto emulate the brutes, particularly when nature has provided them neither with arms to\nkill their fellows nor with a desire for their blood.”\n“Can there be anything more horrible in all nature?”\n- Voltaire\n\nWhich of the following is the reason given why there is war?",
+    "prompt": "“All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, that does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, water, are fields of carnage. God having given reason to men, this reason might teach them no to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood.”\n“Can there be anything more horrible in all nature?”\n- Voltaire\n\nWhich of the following is the reason given why there is war?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -10520,7 +10520,7 @@
   {
     "id": "cse2026-396",
     "subject": "Verbal Reasoning",
-    "prompt": "Tell me not in mournful numbers,\nLife is but an empty\ndream! — For the soul is dead that\nslumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nPage | 83\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow,\nls our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n. excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nWhatisthe poet’sviewonlife?",
+    "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! — For the soul is dead that slumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nPage | 83\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow, ls our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n. excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nWhatisthe poet’sviewonlife?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10624,7 +10624,7 @@
   {
     "id": "cse2026-400",
     "subject": "Verbal Reasoning",
-    "prompt": "The author is a South African Negro during the Apartheid Policy when most blacks\nwere treated as inferior. To what could he be alluding to in the last two lines of the\npoem?",
+    "prompt": "The author is a South African Negro during the Apartheid Policy when most blacks were treated as inferior. To what could he be alluding to in the last two lines of the poem?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -10806,7 +10806,7 @@
   {
     "id": "cse2026-407",
     "subject": "Verbal Reasoning",
-    "prompt": "A person’s fingernails, just like the hair, keeps on growing even after a person’s\ndeath. What could account for this occurence?",
+    "prompt": "A person’s fingernails, just like the hair, keeps on growing even after a person’s death. What could account for this occurence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10832,7 +10832,7 @@
   {
     "id": "cse2026-408",
     "subject": "Verbal Reasoning",
-    "prompt": "What would happen to the soft cells at the base of the follicle if no nourishment\ncomes in?",
+    "prompt": "What would happen to the soft cells at the base of the follicle if no nourishment comes in?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10910,7 +10910,7 @@
   {
     "id": "cse2026-411",
     "subject": "Verbal Reasoning",
-    "prompt": "Who was born an Athenian citizen in Samos in 341 B.C.?",
+    "prompt": "Who was born an Athenian citizen in Samos in 341 B. C.?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11196,7 +11196,7 @@
   {
     "id": "cse2026-422",
     "subject": "Verbal Reasoning",
-    "prompt": "What does the author refer to in the last line “Look what I have! — and these are all\nfor you.”?",
+    "prompt": "What does the author refer to in the last line “Look what I have! — and these are all for you.”?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -11300,7 +11300,7 @@
   {
     "id": "cse2026-426",
     "subject": "Verbal Reasoning",
-    "prompt": "What does the statement, “Should I be untrue to my nature which is to be\ncompassionate just because this scorpion is being true to its nature to sting?”\nmean?",
+    "prompt": "What does the statement, “Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?” mean?",
     "hint": "Identify the relationship between the first pair of terms, then apply the same relationship to find the missing term.",
     "choices": [
       {
@@ -11742,7 +11742,7 @@
   {
     "id": "cse2026-443",
     "subject": "Filipino",
-    "prompt": "Karapatan ng bawat batang Pilipino ang magkaroon ng pamilyang mag-aaruga sa\nkanya.",
+    "prompt": "Karapatan ng bawat batang Pilipino ang magkaroon ng pamilyang mag-aaruga sa kanya.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -11820,7 +11820,7 @@
   {
     "id": "cse2026-446",
     "subject": "Filipino",
-    "prompt": "Hindi na nakapagpigil ang kaawa-awang katulong kaya isiniwalat ang sama ng\nloob sa mapang-aping amo.",
+    "prompt": "Hindi na nakapagpigil ang kaawa-awang katulong kaya isiniwalat ang sama ng loob sa mapang-aping amo.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -12132,7 +12132,7 @@
   {
     "id": "cse2026-458",
     "subject": "Filipino",
-    "prompt": "Madaling nababalino sa lihis na gawain ang mga kabataang laki sa langsangan. a.\nnatutuwa",
+    "prompt": "Madaling nababalino sa lihis na gawain ang mga kabataang laki sa langsangan. a. natutuwa",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -12154,7 +12154,7 @@
   {
     "id": "cse2026-459",
     "subject": "Filipino",
-    "prompt": "Maraming himutok ang mga mangagawa laban sa kanilang kumpanya gaya ng di\npagtaas ng kanilang sahod.",
+    "prompt": "Maraming himutok ang mga mangagawa laban sa kanilang kumpanya gaya ng di pagtaas ng kanilang sahod.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -12180,7 +12180,7 @@
   {
     "id": "cse2026-460",
     "subject": "Filipino",
-    "prompt": "Walang minimithi ang iyong magulang kung di ang mabigyan ka ng magandang\nkinabukasan.",
+    "prompt": "Walang minimithi ang iyong magulang kung di ang mabigyan ka ng magandang kinabukasan.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -12466,7 +12466,7 @@
   {
     "id": "cse2026-471",
     "subject": "Filipino",
-    "prompt": "Nabaghan siya nang dumating ang kanyang amang dalawang taong\nnaghanapbuhay sa ibang bansa.",
+    "prompt": "Nabaghan siya nang dumating ang kanyang amang dalawang taong naghanapbuhay sa ibang bansa.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -12596,7 +12596,7 @@
   {
     "id": "cse2026-476",
     "subject": "Filipino",
-    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa pasglilimos. a.\nbinalutan",
+    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa pasglilimos. a. binalutan",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -12622,7 +12622,7 @@
   {
     "id": "cse2026-477",
     "subject": "Filipino",
-    "prompt": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap\nmo.",
+    "prompt": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap mo.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -12778,7 +12778,7 @@
   {
     "id": "cse2026-483",
     "subject": "Filipino",
-    "prompt": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong\nmagbigay sa nangangailangan.",
+    "prompt": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong magbigay sa nangangailangan.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13012,7 +13012,7 @@
   {
     "id": "cse2026-492",
     "subject": "Filipino",
-    "prompt": "Hindi totoo ang kanyang katapangan sapagkat bahag ang buntot niya sa harap ng\npaghihirap.",
+    "prompt": "Hindi totoo ang kanyang katapangan sapagkat bahag ang buntot niya sa harap ng paghihirap.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13064,7 +13064,7 @@
   {
     "id": "cse2026-494",
     "subject": "Filipino",
-    "prompt": "Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang\nmabuti.",
+    "prompt": "Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang mabuti.",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -13090,7 +13090,7 @@
   {
     "id": "cse2026-495",
     "subject": "Filipino",
-    "prompt": "Noong panahon ng pananakop ng Kastila, ang mga Pilipino ay hawak sa tainga ng\nmga ito.",
+    "prompt": "Noong panahon ng pananakop ng Kastila, ang mga Pilipino ay hawak sa tainga ng mga ito.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13220,7 +13220,7 @@
   {
     "id": "cse2026-500",
     "subject": "Filipino",
-    "prompt": "Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong\nkadahilanan kaya siya mapagbigay.",
+    "prompt": "Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong kadahilanan kaya siya mapagbigay.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13342,7 +13342,7 @@
   {
     "id": "cse2026-505",
     "subject": "Filipino",
-    "prompt": "Hindi tama ang ika’y walang lingon-likod. Dapat ay suklian ang kabutihan ng iba sa\niyo.",
+    "prompt": "Hindi tama ang ika’y walang lingon-likod. Dapat ay suklian ang kabutihan ng iba sa iyo.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13472,7 +13472,7 @@
   {
     "id": "cse2026-510",
     "subject": "Filipino",
-    "prompt": "Hindi mo matatagpuan sa kanilang bahay si Cecile, palibhasaay maypuyo sa\ntalampakan.",
+    "prompt": "Hindi mo matatagpuan sa kanilang bahay si Cecile, palibhasaay maypuyo sa talampakan.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13524,7 +13524,7 @@
   {
     "id": "cse2026-512",
     "subject": "Filipino",
-    "prompt": "Mialimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang\nila.",
+    "prompt": "Mialimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang ila.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13550,7 +13550,7 @@
   {
     "id": "cse2026-513",
     "subject": "Filipino",
-    "prompt": "Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang\nkanyang bulsa.",
+    "prompt": "Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang kanyang bulsa.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13732,7 +13732,7 @@
   {
     "id": "cse2026-520",
     "subject": "Filipino",
-    "prompt": "suliranin ng pagtaas ng presyo ng gasolina ang pinakapaksa ng pulong sa\nkasalukuyan.",
+    "prompt": "suliranin ng pagtaas ng presyo ng gasolina ang pinakapaksa ng pulong sa kasalukuyan.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13758,7 +13758,7 @@
   {
     "id": "cse2026-521",
     "subject": "Filipino",
-    "prompt": "Ang paglalakbay Magellan noong 1521 ang naging dahilan kung bakit\nnakilala ang Pilipinas sa ibang bansa.",
+    "prompt": "Ang paglalakbay Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13810,7 +13810,7 @@
   {
     "id": "cse2026-523",
     "subject": "Filipino",
-    "prompt": "Pinatay mga Hapones si Jose Abad Santos nang tanggihan niyang\nibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
+    "prompt": "Pinatay mga Hapones si Jose Abad Santos nang tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13862,7 +13862,7 @@
   {
     "id": "cse2026-525",
     "subject": "Filipino",
-    "prompt": "at Gng. Reyes, matagal na nilang pinag-lipunan ang pangtustos sa\npag-aaral mo sa kolehiyo.",
+    "prompt": "at Gng. Reyes, matagal na nilang pinag-lipunan ang pangtustos sa pag-aaral mo sa kolehiyo.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13940,7 +13940,7 @@
   {
     "id": "cse2026-528",
     "subject": "Filipino",
-    "prompt": "Ang pagbabara ng mga estero ay dulot walang pakundangang pagtatapon\nng basura.",
+    "prompt": "Ang pagbabara ng mga estero ay dulot walang pakundangang pagtatapon ng basura.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14018,7 +14018,7 @@
   {
     "id": "cse2026-531",
     "subject": "Filipino",
-    "prompt": "Masaya sila napakaraming pagsubok ang dumarating sa kanilang\npamilya.",
+    "prompt": "Masaya sila napakaraming pagsubok ang dumarating sa kanilang pamilya.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14070,7 +14070,7 @@
   {
     "id": "cse2026-533",
     "subject": "Filipino",
-    "prompt": "Patuloy tayong maghahalinhinan sa pagroronda di pa nahuhuli ang\nmagnanakaw.",
+    "prompt": "Patuloy tayong maghahalinhinan sa pagroronda di pa nahuhuli ang magnanakaw.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14096,7 +14096,7 @@
   {
     "id": "cse2026-534",
     "subject": "Filipino",
-    "prompt": "Nagtatalon sa tuwa si Regina mapanalunan ang patimpalak sa pagsusulat\nng maikling kuwento.",
+    "prompt": "Nagtatalon sa tuwa si Regina mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14174,7 +14174,7 @@
   {
     "id": "cse2026-537",
     "subject": "Filipino",
-    "prompt": "Ang ng mga Mamamayan na huwag munang magtaas ng presyo ng langis\nay pinag-aaralan ng kinauukulan.",
+    "prompt": "Ang ng mga Mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14330,7 +14330,7 @@
   {
     "id": "cse2026-543",
     "subject": "Filipino",
-    "prompt": "Huwag mong ang sino mang nasa kapangyarihan kung nais mo lamang\nmakakuha ng pabor.",
+    "prompt": "Huwag mong ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14412,7 +14412,7 @@
   {
     "id": "cse2026-546",
     "subject": "Filipino",
-    "prompt": "Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal.\nab Cc Walang mali.",
+    "prompt": "Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal. ab Cc Walang mali.",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -14606,7 +14606,7 @@
   {
     "id": "cse2026-553",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nHindi lamang sipag kundi tiyaga din ang kinakailangan upang magtagumpay sa\nisang",
+    "prompt": "Choose the underlined part that contains an error:\nHindi lamang sipag kundi tiyaga din ang kinakailangan upang magtagumpay sa isang",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -15124,7 +15124,7 @@
   {
     "id": "cse2026-572",
     "subject": "Filipino",
-    "prompt": "Sa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang\ntula?",
+    "prompt": "Sa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang tula?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15150,7 +15150,7 @@
   {
     "id": "cse2026-573",
     "subject": "Filipino",
-    "prompt": "Aling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa\npamayanan?",
+    "prompt": "Aling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -15176,7 +15176,7 @@
   {
     "id": "cse2026-574",
     "subject": "Filipino",
-    "prompt": "Ano ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang\nhuling pangungusap ng talata?",
+    "prompt": "Ano ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang huling pangungusap ng talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16086,7 +16086,7 @@
   {
     "id": "cse2026-610",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba't ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -16112,7 +16112,7 @@
   {
     "id": "cse2026-611",
     "subject": "Filipino",
-    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang\nmga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng\nisang makabuluhang talata?",
+    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16138,7 +16138,7 @@
   {
     "id": "cse2026-612",
     "subject": "Filipino",
-    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang\nmga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
+    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16190,7 +16190,7 @@
   {
     "id": "cse2026-614",
     "subject": "Filipino",
-    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang\nmga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang\nnakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga\npangungusap upang makabuo ng makabuluhang talata?",
+    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16268,7 +16268,7 @@
   {
     "id": "cse2026-617",
     "subject": "General Information",
-    "prompt": "Who among the following may issue a warrant of arrest or a search warrant? a. a\nsenator",
+    "prompt": "Who among the following may issue a warrant of arrest or a search warrant? a. a senator",
     "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -16502,7 +16502,7 @@
   {
     "id": "cse2026-626",
     "subject": "General Information",
-    "prompt": "Which of the following shows the transfer of power should the President be incapable\nof discharging his duties?",
+    "prompt": "Which of the following shows the transfer of power should the President be incapable of discharging his duties?",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -16728,7 +16728,7 @@
   {
     "id": "cse2026-635",
     "subject": "General Information",
-    "prompt": "What tax is imposed on one’s right to transmit property at death, and is measured by\nthe value of the property?",
+    "prompt": "What tax is imposed on one’s right to transmit property at death, and is measured by the value of the property?",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -16754,7 +16754,7 @@
   {
     "id": "cse2026-636",
     "subject": "General Information",
-    "prompt": "Which of the following is classified as being a “Head of the Family” for income tax\npurposes?",
+    "prompt": "Which of the following is classified as being a “Head of the Family” for income tax purposes?",
     "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -16780,7 +16780,7 @@
   {
     "id": "cse2026-637",
     "subject": "General Information",
-    "prompt": "What Act implements the mandate for the “State to make essential goods, health and\nother social services available to all the people at affordable cost?”",
+    "prompt": "What Act implements the mandate for the “State to make essential goods, health and other social services available to all the people at affordable cost?”",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -16858,7 +16858,7 @@
   {
     "id": "cse2026-640",
     "subject": "General Information",
-    "prompt": "What is the maximum equity for aliens in a corporation or association in the\nexploration development and utilization of natural resources?",
+    "prompt": "What is the maximum equity for aliens in a corporation or association in the exploration development and utilization of natural resources?",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -18159,7 +18159,7 @@
   {
     "id": "cse2026-690",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\naa33bb cc77dd ee1111ff",
+    "prompt": "What comes next in the sequence? aa33bb cc77dd ee1111ff",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18185,7 +18185,7 @@
   {
     "id": "cse2026-691",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nb9b9 c7c7 d5d5",
+    "prompt": "What comes next in the sequence? b9b9 c7c7 d5d5",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {

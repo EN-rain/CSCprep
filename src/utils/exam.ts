@@ -158,10 +158,8 @@ function allocateProportionately(itemCount: number, subjectCounts: Record<Subjec
   let index = 0
   while (allocatedSum < itemCount && index < remainders.length) {
     const sub = remainders[index].subject
-    if (allocations[sub] < (subjectCounts[sub] ?? 0)) {
-      allocations[sub] += 1
-      allocatedSum += 1
-    }
+    allocations[sub] += 1
+    allocatedSum += 1
     index += 1
   }
 

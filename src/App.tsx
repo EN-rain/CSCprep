@@ -2740,7 +2740,7 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
     )
   }
 
-  if (!LINE_BREAK_PROMPT_IDS.has(questionId) && !isDataSufficiencyPrompt(prompt)) {
+  if (!LINE_BREAK_PROMPT_IDS.has(questionId) && !isDataSufficiencyPrompt(prompt) && !prompt.includes('\n')) {
     return <h2 className={headingClassName}>{prompt}</h2>
   }
 
