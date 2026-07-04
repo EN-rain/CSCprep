@@ -72,6 +72,8 @@ function isReport(value) {
     typeof value.prompt === 'string' &&
     value.prompt.length >= 1 &&
     value.prompt.length <= 5000 &&
+    (value.issueDescription === undefined ||
+      (typeof value.issueDescription === 'string' && value.issueDescription.length <= 1000)) &&
     typeof value.reportedAt === 'string' &&
     !Number.isNaN(Date.parse(value.reportedAt))
   )
@@ -84,6 +86,7 @@ function sanitizeReport(report) {
     itemNumber: report.itemNumber,
     subject: report.subject,
     prompt: report.prompt.slice(0, 1200),
+    ...(report.issueDescription ? { issueDescription: report.issueDescription.slice(0, 600) } : {}),
     reportedAt: new Date(report.reportedAt).toISOString(),
   }
 }

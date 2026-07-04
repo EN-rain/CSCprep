@@ -1827,19 +1827,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Circle a"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Circle b"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Circle c"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Circle d"
       }
     ],
     "correctChoiceId": "D",
@@ -1930,28 +1930,28 @@
   {
     "id": "aa-075",
     "subject": "Analytical Ability",
-    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 5. Use the figure shown in the source image.",
+    "prompt": "Use the diagram to complete the pyramid.\n\nWhich circle marked a, b, c, or d fits logically into the blank top circle? The sequence starts at the bottom row and each upper circle depends on the two circles directly below it.",
     "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Circle a"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Circle b"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Circle c"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Circle d"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The correct answer is choice D because it completes the visual pattern shown in the diagram.",
     "image": "/question-images/aa-075.png"
   },
   {
@@ -4466,7 +4466,7 @@
   {
     "id": "aa-172",
     "subject": "Analytical Ability",
-  "prompt": "Arrange these names alphabetically:\nA. Santos, Ana\nB. Santiago, Carlo\nC. Sanchez, Ben\nD. San Diego, Mara",
+    "prompt": "Arrange these names alphabetically:\nA. Santos, Ana\nB. Santiago, Carlo\nC. Sanchez, Ben\nD. San Diego, Mara",
     "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {

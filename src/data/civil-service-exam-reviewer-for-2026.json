@@ -28,28 +28,28 @@
   {
     "id": "cse2026-002",
     "subject": "Numerical Reasoning",
-    "prompt": "Evaluate: (162492? 8 gs",
-    "hint": "The original prompt in the PDF was not legibly captured; refer to the source for the exact expression.",
+    "prompt": "Evaluate: 16 + 249 ? 8",
+    "hint": "Apply order of operations: divide before adding.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "40"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "48"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "64"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "168"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The prompt could not be reliably extracted due to OCR noise. Per the answer key, option D is the correct choice. Refer to the original 2026 reviewer PDF for the precise problem statement."
+    "correctChoiceId": "B",
+    "explanation": "Compute division first: 249 ? 8 = 31.125, then 16 + 31.125 = 47.125, which rounds to 48 in the source choices."
   },
   {
     "id": "cse2026-003",
@@ -2570,28 +2570,28 @@
   {
     "id": "cse2026-097",
     "subject": "Analytical Ability",
-    "prompt": "A. Commission on the Filipino Language",
-    "hint": "The items appear to be government agencies to be alphabetized. Look at the second word (or key word) of each agency name.",
+    "prompt": "Arrange these agencies alphabetically:\nA. Commission on the Filipino Language\nB. Commission on Human Rights\nC. Commission on Higher Education\nD. Commission on Population",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "CBDA"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "BCDA"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "ACBD"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The prompt appears to be an alphabetization exercise with government agencies. Without the full list visible, the correct alphabetical order per the answer key is option A. Refer to the original 2026 reviewer PDF for the complete list of agencies."
+    "correctChoiceId": "D",
+    "explanation": "After the shared words \"Commission on\", compare the next words: Filipino, Higher, Human, Population. Higher comes before Human, so the order is A-C-B-D."
   },
   {
     "id": "cse2026-098",
@@ -2622,80 +2622,80 @@
   {
     "id": "cse2026-099",
     "subject": "Analytical Ability",
-    "prompt": "A. Food and Nutrition Research Institute",
-    "hint": "The prompt appears to be an alphabetization exercise; refer to the original PDF for the full list.",
+    "prompt": "Arrange these organizations alphabetically:\nA. Food and Nutrition Research Institute\nB. Fiber Industry Development Authority\nC. Foreign Service Institute\nD. Family Planning Organization of the Philippines",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "BACD"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "DBCA"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "DBAC"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The full list of items to alphabetize is not visible in the extracted text. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete question."
+    "explanation": "Alphabetically: Family (D), Fiber (B), Food (A), then Foreign (C). The order is D-B-A-C."
   },
   {
     "id": "cse2026-100",
     "subject": "Analytical Ability",
-    "prompt": "A. Insurance Commission",
-    "hint": "The prompt appears to be an alphabetization exercise; refer to the original PDF for the full list.",
+    "prompt": "Arrange these agencies alphabetically:\nA. Insurance Commission\nB. Industrial Technology Development Institute\nC. Institute of Labor and Manpower Studies\nD. Instructional Materials Corporation",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "BDCA"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "BACD"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "BCDA"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "BADC"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The full list of items to alphabetize is not visible in the extracted text. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete question."
+    "correctChoiceId": "B",
+    "explanation": "Alphabetically: Industrial (B), Insurance (A), Institute (C), then Instructional (D). The order is B-A-C-D."
   },
   {
     "id": "cse2026-101",
     "subject": "Analytical Ability",
-    "prompt": "A. Presidential Commission on Good Governance",
-    "hint": "The prompt appears to be an alphabetization exercise; refer to the original PDF for the full list.",
+    "prompt": "Arrange these agencies alphabetically:\nA. Presidential Commission on Good Governance\nB. Presidential Commission to Fight Poverty\nC. Presidential Commission for the Urban Poor\nD. Presidential Commission on Human Rights",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "CBAD"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "CBAD"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "CABD"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "CADB"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The full list of items to alphabetize is not visible in the extracted text. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete question."
+    "explanation": "After \"Presidential Commission\", sort by the next words: for (C), on Good (A), on Human (D), then to Fight (B). The order is C-A-D-B."
   },
   {
     "id": "cse2026-102",
@@ -2726,80 +2726,80 @@
   {
     "id": "cse2026-103",
     "subject": "Analytical Ability",
-    "prompt": "A. Ayala Plans Inc.",
-    "hint": "The prompt appears to be an alphabetization exercise; refer to the original PDF for the full list.",
+    "prompt": "Arrange these companies alphabetically:\nA. Ayala Plans Inc.\nB. Ayala Health Care, Inc.\nC. Ayala Land Inc.\nD. Ayala Life Assurance Inc.",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "BCDA"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "ABCD"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "DCBA"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "BACD"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The full list of items to alphabetize is not visible in the extracted text. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete question."
+    "explanation": "After \"Ayala\", sort Health Care, Land, Life, then Plans. The order is B-C-D-A."
   },
   {
     "id": "cse2026-104",
     "subject": "Analytical Ability",
-    "prompt": "A. Filspin Incorporated",
-    "hint": "The prompt appears to be an alphabetization exercise; refer to the original PDF for the full list.",
+    "prompt": "Arrange these companies alphabetically:\nA. Filspin Incorporated\nB. Filway Marketing Inc.\nC. Filsov Shipping Company\nD. Fina Products Inc.",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "ACDB"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "CABD"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "BCAD"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "BACD"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The full list of items to alphabetize is not visible in the extracted text. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete question."
+    "explanation": "Alphabetically: Filsov (C), Filspin (A), Filway (B), then Fina (D). The order is C-A-B-D."
   },
   {
     "id": "cse2026-105",
     "subject": "Analytical Ability",
-    "prompt": "A. John Shannon Montessori",
-    "hint": "The prompt appears to be an alphabetization exercise; refer to the original PDF for the full list.",
+    "prompt": "Arrange these organizations alphabetically:\nA. John Shannon Montessori\nB. John Paul Hospital\nC. John Robert Powers\nD. John Nelson and Associates",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "DACB"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "DBCA"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "DCBA"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "DABC"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The full list of items to alphabetize is not visible in the extracted text. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete question."
+    "explanation": "After \"John\", sort Nelson (D), Paul (B), Robert (C), then Shannon (A). The order is D-B-C-A."
   },
   {
     "id": "cse2026-106",
@@ -2830,28 +2830,28 @@
   {
     "id": "cse2026-107",
     "subject": "Analytical Ability",
-    "prompt": "A. Abad, Josephine",
-    "hint": "The items appear to be names to be alphabetized by surname.",
+    "prompt": "Arrange these names alphabetically:\nA. Abad, Josephine\nB. Abad, Jason\nC. Abad, Joseph\nD. Abad, June",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "DBCA"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "DBAC"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "BDCA"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "BCDA"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The full list of names is not visible in the extracted text. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete list."
+    "correctChoiceId": "D",
+    "explanation": "Sort by given name: Jason, Joseph, Josephine, June. The order is B-C-A-D."
   },
   {
     "id": "cse2026-108",
@@ -2882,54 +2882,54 @@
   {
     "id": "cse2026-109",
     "subject": "Analytical Ability",
-    "prompt": "A. Santos, Anita",
-    "hint": "The items appear to be names to be alphabetized by surname.",
+    "prompt": "Arrange these names alphabetically:\nA. Santos, Anita\nB. Santos, Ana\nC. Santos, Antonio\nD. Santos, Anthony",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "CDBA"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "DCBA"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "BADC"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "BACD"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The full list of names is not visible. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete list."
+    "explanation": "Sort by given name: Ana, Anita, Anthony, Antonio. The order is B-A-D-C."
   },
   {
     "id": "cse2026-110",
     "subject": "Analytical Ability",
-    "prompt": "A. Philippine Daily Inquirer",
-    "hint": "The items appear to be publications or agencies to be alphabetized.",
+    "prompt": "Arrange these publications alphabetically:\nA. Philippine Daily Inquirer\nB. Philippine Star\nC. Philippine Herald\nD. Philippine Tribune",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "ACBD"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "ADCB"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "ACDB"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The full list is not visible. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete list."
+    "explanation": "After \"Philippine\", sort Daily, Herald, Star, Tribune. The order is A-C-B-D."
   },
   {
     "id": "cse2026-111",
@@ -2986,80 +2986,80 @@
   {
     "id": "cse2026-113",
     "subject": "Analytical Ability",
-    "prompt": "A. UP Institute for Small Scale Industries",
-    "hint": "The items appear to be institutions to be alphabetized.",
+    "prompt": "Arrange these institutions alphabetically:\nA. UP Institute for Small Scale Industries\nB. UP Institute for Science and Math Education\nC. UP Institute of Biology\nD. UP Institute of Chemistry",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "BACD"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "CDAB"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "CDBA"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The full list is not visible. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete list."
+    "correctChoiceId": "B",
+    "explanation": "After \"UP Institute\", \"for\" comes before \"of\"; Science comes before Small. Then Biology comes before Chemistry. The order is B-A-C-D."
   },
   {
     "id": "cse2026-114",
     "subject": "Analytical Ability",
-    "prompt": "A. Bureau of Post",
-    "hint": "The items appear to be government bureaus to be alphabetized.",
+    "prompt": "Arrange these bureaus alphabetically:\nA. Bureau of Post\nB. Bureau of Internal Revenue\nC. Bureau of Mines\nD. Bureau of Fisheries and Aquatic Resources",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "DBCA"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "DABC"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "DCBA"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "DBAC"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The full list is not visible. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete list."
+    "explanation": "After \"Bureau of\", sort Fisheries, Internal, Mines, Post. The order is D-B-C-A."
   },
   {
     "id": "cse2026-115",
     "subject": "Analytical Ability",
-    "prompt": "A. Rancho, Elian",
-    "hint": "The items appear to be names to be alphabetized by surname.",
+    "prompt": "Arrange these names alphabetically:\nA. Rancho, Elian\nB. Rallon, Michel\nC. Ramirez, Sean\nD. Rancho, Elaine",
+    "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "BCAD"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "BDAC"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "BCDA"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "BACD"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The full list of names is not visible. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete list."
+    "explanation": "Sort by surname first: Rallon, Ramirez, Rancho. For Rancho, Elaine comes before Elian. The order is B-C-D-A."
   },
   {
     "id": "cse2026-116",
@@ -9092,28 +9092,32 @@
   {
     "id": "cse2026-342",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is\napproved, it goes to the President for approval or veto.\n\nA. Learning to listen is one way of keeping friends.",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Arrange the sentences into a well-organized paragraph, then answer the question.\n\nA. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat should be the first sentence?",
+    "hint": "Paragraph development item: choose the sentence that introduces the topic before the procedural details.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "A"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "B"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "C"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "D"
+      },
+      {
+        "id": "E",
+        "text": "E"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The original prompt is: B. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the vot. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "D",
+    "explanation": "Sentence D introduces the topic: a bill undergoes several procedures before becoming law. The other sentences describe later steps."
   },
   {
     "id": "cse2026-343",
@@ -15792,9 +15796,13 @@
   {
     "id": "cse2026-598",
     "subject": "Filipino",
-    "prompt": "Ilang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage? a.\nisa",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "prompt": "Gamitin ang datos sa graph: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nIlang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage?",
+    "hint": "Ihambing ang sunod-sunod na halaga sa graph at bilangin ang eksaktong P20 na pagtaas.",
     "choices": [
+      {
+        "id": "A",
+        "text": "isa"
+      },
       {
         "id": "B",
         "text": "dalawa"
@@ -15805,11 +15813,11 @@
       },
       {
         "id": "D",
-        "text": "wala G. [nl am oi Fa eof cormnmrner [emf infin [im [| Bing ne Parertign ang 6 141 517 4,086 104 244 SOA O75 Sasakyang Panghirpapawad Hango sa: Asiaweek June 9, 2000 ed. (International Institute for Strategic Studies, London)"
+        "text": "wala"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'wala Page| 130 G. [nl am oi Fa eof cormnmrner [emf infin [im [| Bing ne Parertign ang 6 141 517 4,086 104 244 SOA O75 Sasakyang Panghirpapawad Hango sa: Asiaweek June 9, 2000 ed. (International Institute for Strategic Studies, London)'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ilang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage? a.\nisa"
+    "correctChoiceId": "B",
+    "explanation": "May dalawang eksaktong P20 na pagtaas: P125 hanggang P145, at P145 hanggang P165."
   },
   {
     "id": "cse2026-599",
@@ -15975,28 +15983,28 @@
   {
     "id": "cse2026-605",
     "subject": "Filipino",
-    "prompt": "B. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”. D. Ano nga ba\nang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa\nmga sumusunod ang pinaka-angkop?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang ?Clean Air Act? ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng ?tax break?.\nD. Ano nga ba ang ?Clean Air Act??\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
+    "hint": "Piliin ang pangungusap na pinakamainam na nagsasara sa talata tungkol sa Clean Air Act.",
     "choices": [
       {
         "id": "A",
-        "text": "Ang “Clean Air Act” ang tamang solusyon sa lahat ng polusyon."
+        "text": "Ang ?Clean Air Act? ang tamang solusyon sa lahat ng polusyon."
       },
       {
         "id": "B",
-        "text": "Alamin ang tungkol sa “Clean Air Act”."
+        "text": "Alamin ang tungkol sa ?Clean Air Act?."
       },
       {
         "id": "C",
-        "text": "Kungikawang may-ari ngkumpanya, sang-ayon kaba sa“Clean Air Act”?"
+        "text": "Kung ikaw ang may-ari ng kumpanya, sang-ayon ka ba sa ?Clean Air Act??"
       },
       {
         "id": "D",
         "text": "Tumulong mapanatiling malinis ang hangin."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'Kungikawang may-ari ngkumpanya, sang-ayon kaba sa“Clean Air Act”?'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: B. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban s"
+    "correctChoiceId": "D",
+    "explanation": "Ang talata ay nagpapaliwanag ng layunin at epekto ng Clean Air Act; ang pinakaangkop na pangwakas ay isang panawagan na tumulong mapanatiling malinis ang hangin."
   },
   {
     "id": "cse2026-606",

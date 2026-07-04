@@ -1074,6 +1074,38 @@ h2 {
   line-height: 1.5;
 }
 
+.report-panel {
+  width: min(520px, 100%);
+}
+
+.report-panel__field {
+  display: grid;
+  gap: 10px;
+  margin: 4px 0 18px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.report-panel__field textarea {
+  width: 100%;
+  min-height: 138px;
+  resize: vertical;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: var(--surface-strong);
+  color: var(--ink);
+  font: inherit;
+  line-height: 1.45;
+  outline: none;
+}
+
+.report-panel__field textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
 .skipped-panel__actions,
 .exam-dialog__actions {
   display: flex;
@@ -1331,6 +1363,13 @@ h2 {
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+.report-row .report-row__issue {
+  border-left: 3px solid var(--accent);
+  padding-left: 10px;
+  color: var(--ink);
+  -webkit-line-clamp: 4;
 }
 
 .report-row__meta {

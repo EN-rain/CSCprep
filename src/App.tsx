@@ -104,6 +104,7 @@ type QuestionReport = {
   itemNumber: number
   subject: Subject
   prompt: string
+  issueDescription?: string
   reportedAt: string
 }
 
@@ -419,6 +420,7 @@ function readStoredQuestionReports(key: string): QuestionReport[] {
         typeof candidate.itemNumber === 'number' &&
         typeof candidate.subject === 'string' &&
         typeof candidate.prompt === 'string' &&
+        (candidate.issueDescription === undefined || typeof candidate.issueDescription === 'string') &&
         typeof candidate.reportedAt === 'string'
       )
     })
@@ -469,6 +471,7 @@ function isQuestionReport(value: unknown): value is QuestionReport {
     typeof candidate.itemNumber === 'number' &&
     typeof candidate.subject === 'string' &&
     typeof candidate.prompt === 'string' &&
+    (candidate.issueDescription === undefined || typeof candidate.issueDescription === 'string') &&
     typeof candidate.reportedAt === 'string'
   )
 }
@@ -916,7 +919,7 @@ function App() {
     }
   }
 
-  function reportQuestion(itemId: string) {
+  function reportQuestion(itemId: string, issueDescription: string) {
     if (!session) {
       return
     }
@@ -932,7 +935,8 @@ function App() {
       questionId: examQuestion.question.id,
       itemNumber: examQuestion.itemNumber,
       subject: examQuestion.question.subject,
-      prompt: examQuestion.question.prompt,
+      prompt: createReportPrompt(examQuestion.question.prompt),
+      issueDescription: issueDescription.trim() || undefined,
       reportedAt: new Date().toISOString(),
     }
 
@@ -1853,6 +1857,9 @@ function ReportsScreen({
                     <span>{formatAttemptDate(report.reportedAt)}</span>
                   </div>
                   <ReportPrompt prompt={report.prompt} />
+                  {report.issueDescription && (
+                    <p className="report-row__issue">{report.issueDescription}</p>
+                  )}
                 </div>
                 <button
                   className="attempt-row__delete"
@@ -1886,7 +1893,7 @@ type ExamScreenProps = {
   onGoToNextSkippedItem: () => void
   onGoToSkippedItem: (itemId: string) => void
   onOpenImage: (imageSrc: string) => void
-  onReportQuestion: (itemId: string) => void
+  onReportQuestion: (itemId: string, issueDescription: string) => void
   onSubmit: () => void
   onSubmitAnyway: () => void
   nextSkippedItem: SkippedItem | null
@@ -2148,6 +2155,75 @@ function ExitExamPanel({ answeredCount, onCancel, onConfirm }: ExitExamPanelProp
   )
 }
 
+type ReportQuestionPanelProps = {
+  itemNumber: number
+  onClose: () => void
+  onSubmit: (issueDescription: string) => void
+}
+
+function ReportQuestionPanel({ itemNumber, onClose, onSubmit }: ReportQuestionPanelProps) {
+  const [issueDescription, setIssueDescription] = useState('')
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
+  const { closeWith, overlayClass } = usePopupTransition()
+
+  const closePanel = useCallback(() => {
+    closeWith(onClose)
+  }, [closeWith, onClose])
+
+  const submitReport = useCallback(() => {
+    closeWith(() => onSubmit(issueDescription))
+  }, [closeWith, issueDescription, onSubmit])
+
+  useEffect(() => {
+    textareaRef.current?.focus({ preventScroll: true })
+
+    function handleKeydown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        closePanel()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeydown)
+    return () => window.removeEventListener('keydown', handleKeydown)
+  }, [closePanel])
+
+  return (
+    <OverlayPortal>
+      <div
+        aria-labelledby="report-question-title"
+        aria-modal="true"
+        className={`exam-dialog ${overlayClass}`}
+        onClick={closePanel}
+        role="dialog"
+      >
+        <div className="exam-dialog__content report-panel" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
+          <p className="eyebrow">Report question</p>
+          <h2 id="report-question-title">Item {itemNumber}</h2>
+          <label className="report-panel__field">
+            <span>Describe issue</span>
+            <textarea
+              maxLength={600}
+              onChange={(event) => setIssueDescription(event.target.value)}
+              placeholder="Example: missing context, wrong answer, image not loading..."
+              ref={textareaRef}
+              rows={5}
+              value={issueDescription}
+            />
+          </label>
+          <div className="exam-dialog__actions">
+            <button className="button button--primary" onClick={submitReport} type="button">
+              Submit
+            </button>
+            <button className="button button--ghost" onClick={closePanel} type="button">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </OverlayPortal>
+  )
+}
+
 type SkippedItemPanelProps = {
   canSubmit: boolean
   items: SkippedItem[]
@@ -2371,7 +2447,7 @@ type QuestionCardProps = {
   onChooseAnswer: (itemId: string, choiceId: ChoiceId) => void
   onOpenHint: () => void
   onOpenImage: (imageSrc: string) => void
-  onReportQuestion: (itemId: string) => void
+  onReportQuestion: (itemId: string, issueDescription: string) => void
   question: ExamSession['questions'][number]['question']
 }
 
@@ -2388,9 +2464,14 @@ function QuestionCard({
   onReportQuestion,
   question,
 }: QuestionCardProps) {
+  const [reportPanelOpen, setReportPanelOpen] = useState(false)
   const markerChoicesOnly = Boolean(image) && usesImageChoiceMarkers(choices)
   const promptIsShownInImage = hasPromptInImage(question.id, image, markerChoicesOnly)
   const showHintButton = Boolean(question.hint.trim()) && !isImageOnlyQuestion(question.prompt, choices, image)
+  const submitReport = useCallback((issueDescription: string) => {
+    setReportPanelOpen(false)
+    onReportQuestion(itemId, issueDescription)
+  }, [itemId, onReportQuestion])
 
   return (
     <article className={isReplacing ? 'question-card question-card--replacing' : 'question-card'} id={`exam-item-${itemId}`}>
@@ -2414,7 +2495,7 @@ function QuestionCard({
             <button
               aria-label={`Report question ${question.id}`}
               className="question-tool-button report-question-button"
-              onClick={() => onReportQuestion(itemId)}
+              onClick={() => setReportPanelOpen(true)}
               type="button"
             >
               R
@@ -2463,6 +2544,13 @@ function QuestionCard({
           )
         })}
       </div>
+      {reportPanelOpen && (
+        <ReportQuestionPanel
+          itemNumber={itemNumber}
+          onClose={() => setReportPanelOpen(false)}
+          onSubmit={submitReport}
+        />
+      )}
     </article>
   )
 }
@@ -2683,6 +2771,25 @@ function ReportPrompt({ prompt }: { prompt: string }) {
       ))}
     </p>
   )
+}
+
+function createReportPrompt(prompt: string): string {
+  const parts = prompt.split(/\n{2,}/u).map((part) => part.trim()).filter(Boolean)
+
+  if (parts.length < 2) {
+    return prompt
+  }
+
+  const question = parts[parts.length - 1]
+  const passage = parts.slice(0, -1).join(' ')
+
+  if (passage.length < 500 || question.length > 220) {
+    return prompt
+  }
+
+  const passageLabel = passage.match(/^([A-Z]|[IVX]+)\./u)?.[0] ?? 'Passage'
+
+  return `${question}\n\nContext: ${passageLabel} reading passage`
 }
 
 function usesImageChoiceMarkers(choices: { text: string }[]): boolean {
