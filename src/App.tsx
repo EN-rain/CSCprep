@@ -1830,7 +1830,7 @@ function ReportsScreen({
                     <span>{report.subject}</span>
                     <span>{formatAttemptDate(report.reportedAt)}</span>
                   </div>
-                  <p>{report.prompt}</p>
+                  <ReportPrompt prompt={report.prompt} />
                 </div>
                 <button
                   className="attempt-row__delete"
@@ -2630,7 +2630,7 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
     )
   }
 
-  if (!LINE_BREAK_PROMPT_IDS.has(questionId)) {
+  if (!LINE_BREAK_PROMPT_IDS.has(questionId) && !isDataSufficiencyPrompt(prompt)) {
     return <h2 className={headingClassName}>{prompt}</h2>
   }
 
@@ -2644,6 +2644,22 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
         </span>
       ))}
     </h2>
+  )
+}
+
+function ReportPrompt({ prompt }: { prompt: string }) {
+  if (!isDataSufficiencyPrompt(prompt)) {
+    return <p>{prompt}</p>
+  }
+
+  return (
+    <p>
+      {formatPromptLines(prompt).map((line, index) => (
+        <span className="prompt-line" key={`${line}-${index}`}>
+          {line}
+        </span>
+      ))}
+    </p>
   )
 }
 
@@ -2672,10 +2688,14 @@ function formatPromptLines(prompt: string): string[] {
   return prompt
     .replace(/^([IVX]+)\.\s+([A-E]\.)/u, '$1.\n$2')
     .replace(/\s+([A-E]\.\s)/gu, '\n$1')
-    .replace(/\s+([12]\)\s)/gu, '\n$1')
+    .replace(/\s+([12]\))\s*/gu, '\n$1 ')
     .replace(/\n(?!\n|[IVX]+\.$|[A-E]\.\s|[12]\)\s|What\b)/gu, ' ')
     .split('\n')
     .map((line) => line.trim())
+}
+
+function isDataSufficiencyPrompt(prompt: string): boolean {
+  return /\b1\)/u.test(prompt) && /\b2\)/u.test(prompt)
 }
 
 type ImageLightboxProps = {

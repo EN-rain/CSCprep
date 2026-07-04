@@ -23,8 +23,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"155\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-4.png"
+    "explanation": "The correct answer is choice B (\"155\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-002",
@@ -51,7 +50,7 @@
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"168\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-4.png"
+    "image": "/question-images/nr-002.png"
   },
   {
     "id": "nr-003",
@@ -77,8 +76,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"100 000\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-4.png"
+    "explanation": "The correct answer is choice D (\"100 000\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-004",
@@ -104,8 +102,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"64\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-4.png"
+  "explanation": "8,000 ÷ 125 = 64 because 125 × 64 = 8,000."
   },
   {
     "id": "nr-005",
@@ -131,8 +128,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"1,741\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-4.png"
+  "explanation": "299 + 101 = 400 and 943 + 398 = 1,341, so the total is 1,741."
   },
   {
     "id": "nr-006",
@@ -419,7 +415,7 @@
     ],
     "correctChoiceId": "C",
     "explanation": "The correct answer is choice C (\"54 – 8 ≥ 8 – 54\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-6.png"
+    "image": "/question-images/nr-016.png"
   },
   {
     "id": "nr-017",
@@ -446,7 +442,7 @@
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"52\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-7.png"
+    "image": "/question-images/nr-017.png"
   },
   {
     "id": "nr-018",
@@ -472,8 +468,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"57\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-7.png"
+    "explanation": "The correct answer is choice B (\"57\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-019",
@@ -499,8 +494,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"912\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-7.png"
+    "explanation": "The correct answer is choice D (\"912\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-020",
@@ -526,8 +520,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"25%\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-7.png"
+    "explanation": "The correct answer is choice A (\"25%\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-021",
@@ -553,8 +546,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"13.653\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-7.png"
+    "explanation": "The correct answer is choice A (\"13.653\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-022",
@@ -710,8 +702,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"72\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-9.png"
+    "explanation": "The correct answer is choice D (\"72\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-028",
@@ -737,8 +728,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"24\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-9.png"
+    "explanation": "The correct answer is choice C (\"24\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-029",
@@ -764,8 +754,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"mn is even\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-9.png"
+    "explanation": "The correct answer is choice B (\"mn is even\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-030",
@@ -791,8 +780,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"5.4\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-9.png"
+    "explanation": "The correct answer is choice D (\"5.4\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-031",
@@ -819,7 +807,7 @@
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"{}\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-9.png"
+    "image": "/question-images/nr-031.png"
   },
   {
     "id": "nr-032",
@@ -845,8 +833,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"transitive property of equality\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-10.png"
+    "explanation": "The correct answer is choice D (\"transitive property of equality\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-033",
@@ -872,8 +859,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"-6\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-10.png"
+    "explanation": "The correct answer is choice A (\"-6\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-034",
@@ -899,8 +885,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"31\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-10.png"
+    "explanation": "The correct answer is choice A (\"31\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-035",
@@ -926,8 +911,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"496 m\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-10.png"
+    "explanation": "The correct answer is choice A (\"496 m\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-036",
@@ -953,8 +937,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Php 1, 409.50\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/csc11-page-10.png"
+    "explanation": "The correct answer is choice D (\"Php 1, 409.50\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "nr-037",
