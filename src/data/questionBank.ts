@@ -1,4 +1,5 @@
 import analyticalAbility from './analyticalAbility.json'
+import cse2026 from './civil-service-exam-reviewer-for-2026.json'
 import filipino from './filipino.json'
 import generalInformation from './generalInformation.json'
 import numericalReasoning from './numericalReasoning.json'
@@ -11,4 +12,5 @@ export const questionBank: Question[] = [
   ...(analyticalAbility as Question[]),
   ...(filipino as Question[]),
   ...(generalInformation as Question[]),
+  ...(cse2026 as Question[]),
 ]

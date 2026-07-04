@@ -23,7 +23,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"nauulinigan\" ay nangangahulugang naririnig o napakikinggan. Dahil malakas ang tinig ng grupo, ang usapan ay napakikinggan."
+    "explanation": "Tamang sagot ang choice B (\"napakikinggan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-002",
@@ -49,7 +49,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"mag-aaruga\" ay nangangahulugang mag-aalaga nang may malasakit. Kaya ang pamilyang mag-aaruga sa bata ay pamilyang mag-aalaga sa kanya."
+    "explanation": "Tamang sagot ang choice A (\"mag-aalaga\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-003",
@@ -75,7 +75,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"nagugulumihanan\" ay nangangahulugang nalilito o hindi makapagpasya. Tugma ito sa pag-aalinlangan ni Rochelle sa kukuning kurso."
+    "explanation": "Tamang sagot ang choice D (\"nalilito\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-004",
@@ -101,7 +101,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"tigib\" ay nangangahulugang punung-puno. Kaya ang dyip na tigib ng pasahero ay punung-puno na."
+    "explanation": "Tamang sagot ang choice A (\"punung-puno\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-005",
@@ -127,12 +127,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"isiniwalat\" ay nangangahulugang ibinunyag o ibinulgar. Inilabas ng katulong ang kanyang sama ng loob sa amo."
+    "explanation": "Tamang sagot ang choice D (\"ibinulgar\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-006",
     "subject": "Filipino",
-    "prompt": "Iminungkahi ang pagbabawal magtapon ng basura sa di-wastong lugar.",
+    "prompt": "Iminungkuhi ang pagbabawal magtapon ng basura sa di-wastong lugar.",
     "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
     "choices": [
       {
@@ -153,7 +153,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"iminungkahi\" ay nangangahulugang ipinanukala o inirekomenda. Kaya ang pagbabawal sa maling pagtatapon ng basura ay ipinanukala."
+    "explanation": "Tamang sagot ang choice A (\"ipinanukala\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-007",
@@ -179,7 +179,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"kapalaluan\" ay labis na pagmamataas o kayabangan. Ito ang maaaring maging sanhi ng away."
+    "explanation": "Tamang sagot ang choice B (\"kayabangan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-008",
@@ -205,7 +205,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"naliligalig\" ay nangangahulugang nababagabag o magulo ang isip. Ang labis na suliranin ang sanhi ng kanyang pagkabalisa."
+    "explanation": "Tamang sagot ang choice C (\"magulo ang isip\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-009",
@@ -231,7 +231,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"maalwan\" sa kontekstong ito ay magaan o hindi pabigat dalhin. Kaya magaan ang bagay na nararapat dalhin ng bata."
+    "explanation": "Tamang sagot ang choice A (\"magaan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-010",
@@ -257,7 +257,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"palihan\" ay pook na pinagpupukpukan o pinagpapanday ng bakal. Kaya ito ay pandayan."
+    "explanation": "Tamang sagot ang choice D (\"pandayan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-011",
@@ -283,7 +283,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"pagkutya\" ay panlalait o paglibak sa kapwa. Hindi ito dapat gawing katuwaan."
+    "explanation": "Tamang sagot ang choice B (\"paglibak\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-012",
@@ -309,7 +309,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"nakabubulahaw\" ay nakagugulo o nakaiistorbo, gaya ng malakas na pag-eensayo ng banda."
+    "explanation": "Tamang sagot ang choice B (\"nakagugulo\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-013",
@@ -327,7 +327,7 @@
       },
       {
         "id": "C",
-        "text": "mag-ipon"
+        "text": "magtamasa"
       },
       {
         "id": "D",
@@ -335,7 +335,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"magkamal\" ay nangangahulugang magtipon o mag-ipon, lalo na ng salapi o yaman. Kaya ang pinakamalapit na kahulugan sa pangungusap ay \"mag-ipon.\""
+    "explanation": "Tamang sagot ang choice C (\"magtamasa\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-014",
@@ -361,7 +361,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"siniil\" ay nangangahulugang inapi o pinigil sa kalayaan. Tumutukoy ito sa pang-aapi ng mga dayuhan sa mga Pilipino."
+    "explanation": "Tamang sagot ang choice B (\"inapi\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-015",
@@ -387,7 +387,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"alitan\" ay hindi pagkakasundo o bangayan. Kaya hindi dapat hayaang tumagal ang bangayan."
+    "explanation": "Tamang sagot ang choice D (\"bangayan\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-016",
@@ -413,7 +413,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"laganap\" ay nangangahulugang kalat o malawak na kumalat. Kaya ang krisis ay kalat sa maraming lugar."
+    "explanation": "Tamang sagot ang choice A (\"kalat\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-017",
@@ -439,7 +439,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"nababalino\" ay nahihikayat o nagaganyak sa isang bagay, dito ay sa lihis na gawain."
+    "explanation": "Tamang sagot ang choice C (\"nagaganyak\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-018",
@@ -465,7 +465,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"himutok\" ay daing, hinaing, o reklamo. Kaya ang mga manggagawa ay may reklamo laban sa kumpanya."
+    "explanation": "Tamang sagot ang choice D (\"reklamo\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-019",
@@ -491,7 +491,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"minimithi\" ay ninanais o inaasam. Ang magandang kinabukasan ang ninanais ng magulang para sa anak."
+    "explanation": "Tamang sagot ang choice B (\"ninanais\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-020",
@@ -517,7 +517,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"sumugba\" ay sumuong o sumugod sa panganib. Kaya dapat iwasang sumugod sa alanganin."
+    "explanation": "Tamang sagot ang choice A (\"sumugod\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-021",
@@ -543,7 +543,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"pukawin\" ay gisingin o antigin. Sa pangungusap, huwag gisingin ang batang nahihimlay."
+    "explanation": "Tamang sagot ang choice D (\"gisingin\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-022",
@@ -569,7 +569,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"magmaktol\" ay magreklamo, magdabog, o magtampo dahil napagsasabihan. Sa mga pagpipilian, pinakamalapit ang magtampo."
+    "explanation": "Tamang sagot ang choice B (\"magtampo\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-023",
@@ -595,7 +595,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"namumutiktik\" ay nangangahulugang napakarami o siksik sa dami. Kaya ang puno ng mangga ay maraming-marami ang bunga."
+    "explanation": "Tamang sagot ang choice A (\"maraming-marami\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-024",
@@ -621,7 +621,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"kumipot\" ay lumiit ang luwang o sumikip. Sa dami ng tao, tila sumikip ang Maynila."
+    "explanation": "Tamang sagot ang choice C (\"sumikip\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-025",
@@ -647,12 +647,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"patang-pata\" ay pagod na pagod. Tugma ito sa pagod matapos marating ang tuktok ng bundok."
+    "explanation": "Tamang sagot ang choice A (\"pagod na pagod\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-026",
     "subject": "Filipino",
-    "prompt": "Ang pag-iibigan nina Florante at Laura ay matimyas. Ano ang kahulugan ng salitang matimyas?",
+    "prompt": "Ang pag-iibigan nina Florante at Laura ay matimyas.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -672,13 +672,13 @@
         "text": "wagas"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang \"matimyas\" ay nangangahulugang dalisay, wagas, o taos-puso. Sa mga pagpipilian, ang \"dalisay\" ang tuwirang kahulugan nito."
+    "correctChoiceId": "B",
+    "explanation": "Tamang sagot ang choice B (\"di-totoo\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-027",
     "subject": "Filipino",
-    "prompt": "Nilalagyan ng pataba ang halaman upang ito’y yumabong. Ano ang kasalungat ng salitang yumabong?",
+    "prompt": "Nilalagyan ng pataba ang halaman upang ito’y yumabong.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -699,12 +699,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"yumabong\" ay lumago o sumigla ang halaman. Ang kasalungat nito ay malanta."
+    "explanation": "Tamang sagot ang choice C (\"malanta\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-028",
     "subject": "Filipino",
-    "prompt": "Namamasyal siya sa parke upang mapawi ang lumbay. Ano ang kasalungat ng salitang lumbay?",
+    "prompt": "Namamasyal siya sa parke upang mapawi ang lumbay.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -725,12 +725,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"lumbay\" ay lungkot. Ang kasalungat nito ay galak."
+    "explanation": "Tamang sagot ang choice A (\"galak\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-029",
     "subject": "Filipino",
-    "prompt": "Hinintay namin ang pagdaong ng 2GO na barko upang salubungin si Ate. Ano ang kasalungat ng salitang pagdaong?",
+    "prompt": "Hinintay namin ang pagdaong ng 2GO na barko upang salubungin si Ate.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -751,12 +751,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"pagdaong\" ay pagdating o paghimpil ng barko sa daungan. Ang kasalungat nito ay pag-alis."
+    "explanation": "Tamang sagot ang choice A (\"pag-alis\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-030",
     "subject": "Filipino",
-    "prompt": "Palasak na ang paggamit ng kompyuter. Ano ang kasalungat ng salitang palasak?",
+    "prompt": "Palasak na ang paggamit ng kompyuter.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -777,7 +777,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"palasak\" ay pangkaraniwan o laganap. Ang kasalungat nito ay pambihira."
+    "explanation": "Tamang sagot ang choice A (\"pambihira\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-031",
@@ -802,13 +802,13 @@
         "text": "nahimatay"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang \"nabaghan\" ay nangangahulugang nagulat o namangha. Sa pangungusap, nagulat siya sa pagdating ng kanyang ama matapos ang dalawang taon."
+    "correctChoiceId": "C",
+    "explanation": "Tamang sagot ang choice C (\"nainis\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-032",
     "subject": "Filipino",
-    "prompt": "Huwag mong ugaliin ang umalipusta ng iyong kapwa. Ano ang kasalungat ng salitang umalipusta?",
+    "prompt": "Huwag mong ugaliin ang umalipusta ng iyong kapwa.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -829,12 +829,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"umalipusta\" ay manglait o manghamak. Ang kasalungat nito ay purihin."
+    "explanation": "Tamang sagot ang choice B (\"purihin\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-033",
     "subject": "Filipino",
-    "prompt": "Pahapay na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya. Ano ang kasalungat ng salitang pahapay?",
+    "prompt": "Pahapay na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -855,12 +855,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"pahapay\" ay pabagsak, tagilid, o humihina ang kalagayan. Ang kasalungat sa pagpipilian ay paunlad."
+    "explanation": "Tamang sagot ang choice A (\"paunlad\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-034",
     "subject": "Filipino",
-    "prompt": "Makapal at magalas ang palad ng mga mason at karpintero. Ano ang kasalungat ng salitang magalas?",
+    "prompt": "Makapal at magalas ang palad ng mga mason at karpintero.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -881,12 +881,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"magalas\" ay magaspang. Ang kasalungat nito ay makinis."
+    "explanation": "Tamang sagot ang choice D (\"makinis\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-035",
     "subject": "Filipino",
-    "prompt": "Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa. Ano ang kasalungat ng salitang masalimuot?",
+    "prompt": "Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -907,12 +907,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"masalimuot\" ay magulo o komplikado. Ang kasalungat nito ay maayos."
+    "explanation": "Tamang sagot ang choice C (\"maayos\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-036",
     "subject": "Filipino",
-    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos. Ano ang kasalungat ng salitang sinaplutan?",
+    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -933,12 +933,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"sinaplutan\" ay binalutan, tinakpan, o dinamitan. Ang kasalungat nito ay hinubaran."
+    "explanation": "Tamang sagot ang choice D (\"hinubaran\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-037",
     "subject": "Filipino",
-    "prompt": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap\nmo. Ano ang kasalungat ng salitang taksil?",
+    "prompt": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap\nmo.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -959,12 +959,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"taksil\" ay traydor o hindi tapat. Ang kasalungat nito ay matapat."
+    "explanation": "Tamang sagot ang choice B (\"matapat\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-038",
     "subject": "Filipino",
-    "prompt": "Tila walang kapaguran ang mabungalngal na bibig ni Lina. Ano ang kasalungat ng salitang mabungalngal?",
+    "prompt": "Tila walang kapaguran ang mabungalngal na bibig ni Lina.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -985,12 +985,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"mabungalngal\" ay madaldal o masalita. Ang kasalungat nito ay tahimik."
+    "explanation": "Tamang sagot ang choice A (\"tahimik\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-039",
     "subject": "Filipino",
-    "prompt": "Napakukupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip. Ano ang kasalungat ng salitang napakukupad?",
+    "prompt": "Napakukupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1011,12 +1011,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"napakukupad\" ay napakabagal. Ang kasalungat nito ay napakabilis."
+    "explanation": "Tamang sagot ang choice A (\"napakabilis\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-040",
     "subject": "Filipino",
-    "prompt": "Patuloy na magdarahop ang taong tamad. Ano ang kasalungat ng salitang magdarahop?",
+    "prompt": "Patuloy na magdarahop ang taong tamad.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1037,12 +1037,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"magdarahop\" ay maghihirap o magiging salat. Ang kasalungat nito ay aasenso."
+    "explanation": "Tamang sagot ang choice A (\"aasenso\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-041",
     "subject": "Filipino",
-    "prompt": "Mahirap pakinggan ang sinasabi ng taong garil. Ano ang kasalungat ng salitang garil?",
+    "prompt": "Mahirap pakinggan ang sinasabi ng taong garil.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1063,12 +1063,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"garil\" ay hindi malinaw o hindi matatas magsalita. Ang kasalungat nito ay matatas."
+    "explanation": "Tamang sagot ang choice D (\"matatas\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-042",
     "subject": "Filipino",
-    "prompt": "Kumain ka ng masustansyang pagkain upang manatiling malusog. Ano ang kasalungat ng salitang malusog?",
+    "prompt": "Kumain ka ng masustansyang pagkain nang hindi maging hawas.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1089,12 +1089,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"malusog\" ay nangangahulugang malakas at mabuti ang pangangatawan. Ang kasalungat nito ay sakitin."
+    "explanation": "Tamang sagot ang choice D (\"sakitin\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-043",
     "subject": "Filipino",
-    "prompt": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong\nmagbigay sa nangangailangan. Ano ang kasalungat ng salitang hidhid?",
+    "prompt": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong\nmagbigay sa nangangailangan.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1115,12 +1115,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"hidhid\" ay labis na kuripot o sakim sa paghawak ng pera. Ang kasalungat nito ay waldas."
+    "explanation": "Tamang sagot ang choice A (\"waldas\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-044",
     "subject": "Filipino",
-    "prompt": "Hungkag ang bigasan dahil nasira ng bagyo ang mga palay. Ano ang kasalungat ng salitang hungkag?",
+    "prompt": "Hungkag ang bigasan dahil nasira ng bagyo ang mga palay.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1141,12 +1141,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"hungkag\" ay walang laman o salat. Ang kasalungat nito ay puno."
+    "explanation": "Tamang sagot ang choice B (\"puno\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-045",
     "subject": "Filipino",
-    "prompt": "Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init. Ano ang kasalungat ng salitang naluoy?",
+    "prompt": "Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1167,12 +1167,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"naluoy\" ay nalanta o natuyo. Ang kasalungat nito ay namukadkad."
+    "explanation": "Tamang sagot ang choice C (\"namukadkad\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-046",
     "subject": "Filipino",
-    "prompt": "Totoo bang walang latoy ang pagkain sa ospital? Ano ang kasalungat ng pariralang walang latoy?",
+    "prompt": "Totoo bang walang latoy ang pagkain sa ospital?",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1193,12 +1193,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"walang latoy\" ay walang lasa o walang dating. Ang kasalungat nito ay malasa."
+    "explanation": "Tamang sagot ang choice C (\"malasa\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-047",
     "subject": "Filipino",
-    "prompt": "Hindi nilubayan ng mga manunulat ang pagtatanong sa panauhing pandangal. Ano ang kasalungat ng salitang nilubayan?",
+    "prompt": "Hindi nilubayan ng mga manunulat ang pagtatanong sa panauhing pandangal.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1219,12 +1219,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"nilubayan\" ay tinigilan o iniwan. Ang kasalungat nito ay pinagpatuloy."
+    "explanation": "Tamang sagot ang choice D (\"pinagpatuloy\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-048",
     "subject": "Filipino",
-    "prompt": "Ang mga tirahan ng mayayaman ay maagwat sa isa’t isa. Ano ang kasalungat ng salitang maagwat?",
+    "prompt": "Ang mga tirahan ng mayayaman ay maagwat sa isa’t isa.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1245,12 +1245,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"maagwat\" ay magkakalayo o may pagitan. Ang kasalungat nito ay magkakadikit."
+    "explanation": "Tamang sagot ang choice B (\"magkakadikit\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-049",
     "subject": "Filipino",
-    "prompt": "Maantak ang sugat kapag napatakan ng kalamansi. Ano ang kasalungat ng salitang maantak?",
+    "prompt": "Maantak ang sugat kapag napatakan ng kalamansi.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1271,12 +1271,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"maantak\" ay mahapdi o masakit ang pakiramdam. Ang kasalungat nito ay manhid."
+    "explanation": "Tamang sagot ang choice C (\"manhid\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-050",
     "subject": "Filipino",
-    "prompt": "Tunay na mabalasik ang leon at ang tigre. Ano ang kasalungat ng salitang mabalasik?",
+    "prompt": "Tunay na mabalasik ang leon at ang tigre.",
     "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
     "choices": [
       {
@@ -1297,7 +1297,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"mabalasik\" ay mabangis o mapanganib. Ang kasalungat nito ay maamo."
+    "explanation": "Tamang sagot ang choice A (\"maamo\") dahil ito ang salitang may kabaligtarang kahulugan sa nasa tanong."
   },
   {
     "id": "fi-051",
@@ -1323,7 +1323,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"nag-alsa balutan\" ay tumutukoy sa pag-alis o paglisan dala ang gamit, kaya sa pangungusap ang katulong ay lumayas dahil sa kalupitan ng amo."
+    "explanation": "Tamang sagot ang choice B (\"lumayas\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-052",
@@ -1349,7 +1349,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"bahag ang buntot\" ay idyomang nangangahulugang duwag o walang tapang, kaya hindi totoo ang sinasabing katapangan niya."
+    "explanation": "Tamang sagot ang choice C (\"duwag\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-053",
@@ -1375,7 +1375,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"basa ang papel\" ay nangangahulugang sirang-sira na ang tiwala sa tao. Dahil paulit-ulit siyang nagsisinungaling, ayaw na siyang paniwalaan."
+    "explanation": "Tamang sagot ang choice A (\"ayaw nang paniwalaan\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-054",
@@ -1401,7 +1401,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"kumukulo ang dugo\" ay ginagamit kapag sobra ang galit ng isang tao. Kaya ang ina ni Robin ay galit na galit sa kanya."
+    "explanation": "Tamang sagot ang choice B (\"galit na galit\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-055",
@@ -1427,7 +1427,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"di-mahapayang gatang\" ay tumutukoy sa bagay na hindi mapigilan o hindi maawat, tulad ng mainit na pagpapalitan ng kuro-kuro."
+    "explanation": "Tamang sagot ang choice D (\"hindi maawat\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-056",
@@ -1453,7 +1453,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"hawak sa tainga\" ay nangangahulugang kontrolado at sunud-sunuran sa iba. Ipinapakita nito ang kalagayan ng mga Pilipino sa panahon ng pananakop."
+    "explanation": "Tamang sagot ang choice A (\"sunud-sunuran\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-057",
@@ -1479,7 +1479,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"mabulaklak ang landas\" ay nagpapahiwatig ng maganda o maayos na hinaharap. Kaya ang taong masikap ay may magandang kinabukasan."
+    "explanation": "Tamang sagot ang choice D (\"maganda ang kinabukasan\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-058",
@@ -1505,7 +1505,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"maliit ang sisidlan\" ay tumutukoy sa taong madaling mapikon o kapos sa pasensiya, kaya iniiwasan siyang biruin."
+    "explanation": "Tamang sagot ang choice D (\"walang pasensiya\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-059",
@@ -1515,7 +1515,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "lumiliit ang mata"
+        "text": "lumiliit ang mgata"
       },
       {
         "id": "B",
@@ -1531,7 +1531,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"nagmamatang-manok\" ay tumutukoy sa panlalabo ng mata, lalo na kapag nahihirapang makakita sa dilim."
+    "explanation": "Tamang sagot ang choice B (\"malabo ang mata\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-060",
@@ -1557,7 +1557,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"pagsasaulian ng kandila\" ay tumutukoy sa pagwawakas o pagkasira ng pagkakaibigan. Sa pangungusap, inggit ang nagiging dahilan ng alitan ng magkakaibigan."
+    "explanation": "Tamang sagot ang choice C (\"pagkasira ng pagkakaibigan\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-061",
@@ -1583,7 +1583,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"pabalat-bunga\" ay kilos na mukhang mabuti sa labas pero hindi tunay ang layunin. Kaya ang pagiging bukas-palad niya ay pakunwari lamang."
+    "explanation": "Tamang sagot ang choice B (\"pakunwari\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-062",
@@ -1609,7 +1609,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"tiklop-tuhod\" ay larawan ng taong halos lumuluhod sa paghingi ng awa, kaya ang ibig sabihin ay nagmamamakawa."
+    "explanation": "Tamang sagot ang choice C (\"nagmamamakawa\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-063",
@@ -1635,7 +1635,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"talo-saling\" ay tumutukoy sa taong mahiyain o ilag sa tao, kaya ayaw humarap ni Eula sa iba."
+    "explanation": "Tamang sagot ang choice C (\"mahiyain\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-064",
@@ -1661,7 +1661,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"walang kusang-palo\" ay taong hindi kumikilos kung hindi pa inuutusan, kaya ito ay walang kusang-loob."
+    "explanation": "Tamang sagot ang choice A (\"walang kusang-loob\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-065",
@@ -1687,7 +1687,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"walang lingon-likod\" ay hindi marunong tumingin sa kabutihang natanggap. Kaya ang kahulugan nito ay walang utang na loob."
+    "explanation": "Tamang sagot ang choice C (\"walang utang na loob\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-066",
@@ -1713,7 +1713,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"makapigil-hininga\" ay ginagamit sa palabas o pangyayaring kapana-panabik, kaya ang pelikula ay nakasasabik."
+    "explanation": "Tamang sagot ang choice A (\"nakasasabik\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-067",
@@ -1739,7 +1739,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"halang ang kaluluwa\" ay tumutukoy sa taong masama ang budhi o kayang gumawa ng karumal-dumal na bagay."
+    "explanation": "Tamang sagot ang choice C (\"maitim ang budhi\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-068",
@@ -1765,7 +1765,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"di-maliparan ng uwak\" ay sobrang lawak na parang hindi kayang liparin ng uwak ang buong lugar, kaya napakalawak ang lupain."
+    "explanation": "Tamang sagot ang choice B (\"napakalawak\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-069",
@@ -1791,7 +1791,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"uugud-ugod\" ay tumutukoy sa sobrang katandaan at panghihina ng katawan, kaya napakatanda na si Lola Rosa."
+    "explanation": "Tamang sagot ang choice D (\"napakatanda na\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-070",
@@ -1817,7 +1817,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"nilubugan ng araw\" ay nagpapahiwatig ng pagkawala ng pag-asa, tulad ng mga nasalanta na nawalan ng tirahan."
+    "explanation": "Tamang sagot ang choice A (\"nawalan ng pag-asa\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-071",
@@ -1843,7 +1843,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"may puyo sa talampakan\" ay tawag sa taong laging umaalis o gala, kaya mahilig mamasyal si Cecile."
+    "explanation": "Tamang sagot ang choice B (\"mahilig mamasyal\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-072",
@@ -1869,7 +1869,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"naniningalang-pugad\" ay idyomang tumutukoy sa binatang nanliligaw o naghahanap ng mapapangasawa."
+    "explanation": "Tamang sagot ang choice C (\"nanliligaw\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-073",
@@ -1895,7 +1895,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"maanghang ang dila\" ay taong matalas o masakit magsalita, kaya madalas siyang may kabanggaan sa opisina."
+    "explanation": "Tamang sagot ang choice C (\"masakit magsalita\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-074",
@@ -1921,7 +1921,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"butas ang bulsa\" ay nangangahulugang walang pera, kaya hindi napaunlakan ni Ana ang imbitasyong manood ng sine."
+    "explanation": "Tamang sagot ang choice B (\"walang pera\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-075",
@@ -1947,7 +1947,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"nagtataingang-kawali\" ay nagpapanggap na walang naririnig kahit tinatawag, kaya siya ay nagbibingi-bingihan."
+    "explanation": "Tamang sagot ang choice D (\"nagbibingi-bingihan\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "fi-076",
@@ -1973,7 +1973,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Gamit ang \"ng\" dahil ang pariralang \"katungkulan ng sinuman\" ay nagpapakita ng pagmamay-ari o kaugnayan. Ang \"nang\" ay karaniwang para sa paraan, oras, o pang-abay."
+    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-077",
@@ -1999,7 +1999,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mas angkop ang \"Isinulat\" dahil ang mga kaganapan ay inilagay sa papel. Ang \"sinulat\" ay maaari ring gamitin sa ibang gamit, ngunit dito mas pormal at tuwirang tumutugma ang \"isinulat ko ... sa papel.\""
+    "explanation": "Tamang sagot ang choice A (\"Isinulat\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-078",
@@ -2025,7 +2025,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"pakiusap\" ang pangngalang tumutukoy sa hiling ng mga manlalaro. Hindi \"ipakiusap\" dahil pandiwa iyon, at hindi \"pakikipag-usap\" dahil usapan iyon, hindi mismong hiling."
+    "explanation": "Tamang sagot ang choice D (\"pakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-079",
@@ -2051,7 +2051,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Gamit ang \"nang\" dahil tumutukoy ito sa panahon o sandali ng pagkagulat: nagulat sila nang mabalitaan ang kaguluhan."
+    "explanation": "Tamang sagot ang choice A (\"nang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-080",
@@ -2077,7 +2077,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"Hanapan\" ay nangangahulugang maghanap para sa isang tao. Sa pangungusap, si Chin ang tutulungan at hahanapan ng damit sa kabinet."
+    "explanation": "Tamang sagot ang choice C (\"Hanapan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-081",
@@ -2103,7 +2103,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tama ang \"Hinggil sa\" dahil ang paksa ay tungkol sa suliranin. \"Hinggil kay\" ay para sa tao, samantalang ang suliranin ay bagay o paksa."
+    "explanation": "Tamang sagot ang choice C (\"Hinggil sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-082",
@@ -2129,7 +2129,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Gamit ang \"ni\" dahil si Magellan ang gumawa ng paglalakbay. Ang \"paglalakbay ni Magellan\" ay nagpapakita ng gumaganap o nagmamay-ari ng kilos."
+    "explanation": "Tamang sagot ang choice A (\"ni\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-083",
@@ -2155,7 +2155,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang wastong parirala ay \"labag sa batas,\" na nangangahulugang salungat o hindi naaayon sa batas. Hindi karaniwang sabihin na \"laban sa batas\" sa ganitong pormal na gamit."
+    "explanation": "Tamang sagot ang choice D (\"labag sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-084",
@@ -2181,7 +2181,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Gamit ang \"ng\" dahil ang mga Hapones ang gumaganap ng kilos sa pandiwang \"pinatay.\" Sa Filipino, ginagamit ang \"ng\" para sa tagaganap sa ganitong ayos ng pangungusap."
+    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-085",
@@ -2207,7 +2207,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"Ipakiusap\" ay pandiwang pautos: hinihiling mong sabihin sa kanila ang pakiusap na magdala ng mapagsasaluhan."
+    "explanation": "Tamang sagot ang choice C (\"Ipakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-086",
@@ -2233,7 +2233,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tama ang \"Ayon kina\" dahil dalawa ang tinutukoy, sina G. at Gng. Reyes. \"Ayon kay\" ay para sa iisang tao lamang."
+    "explanation": "Tamang sagot ang choice C (\"Ayon kina\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-087",
@@ -2243,7 +2243,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "Sinulat"
+        "text": "Winika"
       },
       {
         "id": "B",
@@ -2259,7 +2259,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang Kartilya ng Katipunan ay sinulat ni Emilio Jacinto. Kaya ang wastong pandiwa sa pangungusap ay \"Sinulat.\""
+    "explanation": "Tamang sagot ang choice A (\"Winika\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-088",
@@ -2285,7 +2285,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"kaya\" ay pang-ugnay na nagpapakita ng bunga o resulta: dumating ang Lola, kaya nagdiwang ang pamilya."
+    "explanation": "Tamang sagot ang choice A (\"kaya\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-089",
@@ -2311,7 +2311,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Gamit ang \"ng\" dahil ipinapakita nito ang sanhi ng pagbabara ng mga estero: ang walang pakundangang pagtatapon ng basura."
+    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-090",
@@ -2337,7 +2337,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"Kung maaari\" ay karaniwang parirala para sa kondisyon o pakiusap: kung maaari, magtipid tayo nang husto."
+    "explanation": "Tamang sagot ang choice A (\"Kung\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-091",
@@ -2363,7 +2363,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"kung\" ay nagpapakita ng kondisyon: mapapadali ang gawain kapag o kung magtutulungan ang lahat."
+    "explanation": "Tamang sagot ang choice B (\"kung\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-092",
@@ -2389,7 +2389,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"kahit\" ay nagpapakita ng pagsalungat sa inaasahan: masaya pa rin sila kahit maraming pagsubok."
+    "explanation": "Tamang sagot ang choice C (\"kahit\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-093",
@@ -2415,7 +2415,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"Bagaman\" ay angkop dahil ipinapakita nito ang salungat na kalagayan: pagod si Rey, ngunit nakapag-aral pa rin siya."
+    "explanation": "Tamang sagot ang choice A (\"Bagaman\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-094",
@@ -2441,7 +2441,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang \"hanggang\" ay nagpapakita ng hangganan ng panahon: magpapatuloy ang pagroronda hanggang hindi pa nahuhuli ang magnanakaw."
+    "explanation": "Tamang sagot ang choice B (\"hanggang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-095",
@@ -2467,7 +2467,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Gamit ang \"nang\" dahil tumutukoy ito sa panahon o sandali ng pagtatalon sa tuwa: nang mapanalunan ni Regina ang patimpalak."
+    "explanation": "Tamang sagot ang choice C (\"nang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-096",
@@ -2493,7 +2493,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tama ang \"sa\" dahil ang pariralang \"dahil sa\" ang ginagamit upang magbigay ng dahilan o sanhi."
+    "explanation": "Tamang sagot ang choice D (\"sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-097",
@@ -2519,7 +2519,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Gamit ang \"ng\" dahil ang \"awiting Pilipino\" ang tuwirang layon ng pandiwang \"nagpapatugtog.\""
+    "explanation": "Tamang sagot ang choice C (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-098",
@@ -2545,7 +2545,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"pakiusap\" ang pangngalan para sa hiling ng mga mamamayan. Ang \"ipakiusap\" ay pandiwa, kaya hindi ito babagay pagkatapos ng \"Ang.\""
+    "explanation": "Tamang sagot ang choice D (\"pakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-099",
@@ -2571,7 +2571,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"pa\" ay nagpapakitang hindi pa nangyayari o hindi pa natatapos ang inaasahang lunas sa kasalukuyan."
+    "explanation": "Tamang sagot ang choice A (\"pa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-100",
@@ -2597,7 +2597,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mas angkop ang \"Mayroon\" sa tanong na nangangailangan ng mas buong anyo bago ang \"bang\": \"Mayroon bang suliranin.\""
+    "explanation": "Tamang sagot ang choice B (\"Mayroon\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-101",
@@ -2623,7 +2623,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Gamit ang \"May\" kapag direktang sinusundan ng pangngalan: \"May patimpalak...\" Ang \"mayroon\" ay mas karaniwang ginagamit kapag nakapag-iisa o bago ang panghalip/pang-abay."
+    "explanation": "Tamang sagot ang choice A (\"May\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-102",
@@ -2649,7 +2649,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang \"Paano\" ang tanong sa paraan o proseso. Ang pangungusap ay nagtatanong kung paano nabubuo o nagkakaroon ng bulkan."
+    "explanation": "Tamang sagot ang choice D (\"Paano\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-103",
@@ -2675,7 +2675,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang \"Abutan\" ay nangangahulugang bigyan o tulungan ang isang tao sa pamamagitan ng pagbibigay. Ang tinutukoy dito ay pagtulong sa kapwang nangangailangan."
+    "explanation": "Tamang sagot ang choice A (\"Abutan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-104",
@@ -2701,7 +2701,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Sa kontekstong ito, ang \"abutan\" ay tumutukoy sa pagbibigay o pag-aabot ng suhol/pabor sa nasa kapangyarihan. Mas akma ito kaysa \"abutin,\" na karaniwang nangangahulugang maabot."
+    "explanation": "Tamang sagot ang choice B (\"abutan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-105",
@@ -2727,7 +2727,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"Kunin\" ay angkop dahil hinihiling na kunin o buhatin ang mabibigat na dalahin ng Inay. Hindi \"kunan,\" dahil hindi ito pagkuha ng bagay mula sa isang tao o lugar para sa iba."
+    "explanation": "Tamang sagot ang choice C (\"Kunin\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "fi-106",
@@ -2757,8 +2757,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Mali ang \"ng Rizal\" dahil si Rizal ang taong gumawa ng pagsulat. Kapag tao ang gumaganap ng kilos, gamitin ang \"ni\": sinulat ni Rizal.",
-    "image": "/question-images/fi-106.png"
+    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-120.png"
   },
   {
     "id": "fi-107",
@@ -2788,8 +2788,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Dalawang tao ang tinutukoy: Teodora Alonzo at Francisco Mercado. Para sa dalawa o higit pang tao, gamitin ang \"Sina,\" hindi \"Si.\"",
-    "image": "/question-images/fi-107.png"
+    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-120.png"
   },
   {
     "id": "fi-108",
@@ -2819,8 +2819,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mali ang \"nang buwis\" dahil ang buwis ang bagay na nililikha. Gamitin ang \"ng\" para sa layon ng pandiwa: lumikha ng buwis.",
-    "image": "/question-images/fi-108.png"
+    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-120.png"
   },
   {
     "id": "fi-109",
@@ -2850,8 +2850,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mali ang \"rin\" pagkatapos ng salitang nagtatapos sa katinig. Dahil nagtatapos sa tunog na p ang \"iniisip,\" mas angkop ang \"din\": Iniisip din.",
-    "image": "/question-images/fi-109.png"
+    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-120.png"
   },
   {
     "id": "fi-110",
@@ -2881,8 +2881,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mali ang pagkakabuo ng \"Mainam sa lahat ng paraan.\" Mas malinaw at wasto ang \"Mainam na paraan ng pag-aaral ang magbalik-aral.\"",
-    "image": "/question-images/fi-110.png"
+    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-120.png"
   },
   {
     "id": "fi-111",
@@ -2912,8 +2912,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Hindi bagay ang \"binitawan\" para sa payo; ang payo ay ibinibigay o binabanggit. Mas wasto: Ang mga payong ibinigay ay dapat mong pakinggan.",
-    "image": "/question-images/fi-111.png"
+    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-120.png"
   },
   {
     "id": "fi-112",
@@ -2943,8 +2943,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mali ang \"ng mabuti\" dahil inilalarawan nito kung paano mag-aral. Kapag pang-abay o paraan ng kilos, gamitin ang \"nang\": Mag-aral nang mabuti.",
-    "image": "/question-images/fi-112.png"
+    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-120.png"
   },
   {
     "id": "fi-113",
@@ -2974,8 +2974,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Mali ang baybay na \"maalahanin.\" Ang wastong salita ay \"maalalahanin,\" na nangangahulugang mapag-alala o maasikaso sa kapwa.",
-    "image": "/question-images/fi-113.png"
+    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-120.png"
   },
   {
     "id": "fi-114",
@@ -3005,8 +3005,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mali ang \"din\" pagkatapos ng salitang nagtatapos sa patinig. Dahil nagtatapos sa a ang \"tiyaga,\" mas angkop ang \"rin\": tiyaga rin.",
-    "image": "/question-images/fi-114.png"
+    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-121.png"
   },
   {
     "id": "fi-115",
@@ -3036,8 +3036,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Mali ang \"nagsisipilyo\" dahil ipinapayo pa lamang ang dapat gawin. Mas wasto ang pawatas na anyo: magsipilyo matapos kumain.",
-    "image": "/question-images/fi-115.png"
+    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-121.png"
   },
   {
     "id": "fi-116",
@@ -3067,8 +3067,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mali ang \"Haluin\" kung ang ibig sabihin ay lagyan ng gulay ang sopas. Mas wasto ang \"Haluan mo ang sopas ng iba't ibang gulay.\"",
-    "image": "/question-images/fi-116.png"
+    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-121.png"
   },
   {
     "id": "fi-117",
@@ -3098,8 +3098,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mali ang \"Kundi\" dito. Para sa kondisyon, gamitin ang \"Kung hindi\": Kung hindi ka kikilos at gagawin ang proyekto, wala kang mapapala.",
-    "image": "/question-images/fi-117.png"
+    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-121.png"
   },
   {
     "id": "fi-118",
@@ -3129,8 +3129,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mali ang \"mayroon proyekto.\" Kapag sinusundan ng pangngalan, mas wasto ang \"may proyekto\" o \"mayroong proyekto.\"",
-    "image": "/question-images/fi-118.png"
+    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-121.png"
   },
   {
     "id": "fi-119",
@@ -3160,8 +3160,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mali ang \"Nagtutulungan\" dahil pangkasalukuyan ito. Ang tinutukoy ay ginawa na ng mga ninunong Ifugao, kaya mas wasto ang \"Nagtulungan.\"",
-    "image": "/question-images/fi-119.png"
+    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-121.png"
   },
   {
     "id": "fi-120",
@@ -3191,8 +3191,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Mali ang \"sapagkat nagkakaroon ng kalamidad\" dahil ginagawa nitong dahilan ang kalamidad. Mas malinaw: ginigising sila sa pamamagitan ng kalamidad o tuwing may kalamidad.",
-    "image": "/question-images/fi-120.png"
+    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-121.png"
   },
   {
     "id": "fi-121",
@@ -3222,8 +3222,8 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Walang mali sa pangungusap: tama ang ugnayan ng \"ngunit\" para sa salungat na katangian at \"kaya\" para sa bunga. Maayos din ang gamit ng \"sa mga kamag-aral.\"",
-    "image": "/question-images/fi-121.png"
+    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "image": "/question-images/csc11-page-122.png"
   },
   {
     "id": "fi-122",
@@ -3253,8 +3253,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Mali ang \"nang lahat\" dahil ang \"lahat\" ang gumagawa o kabilang sa pagtutulungan. Gamitin ang \"ng\": pagtutulungan ng lahat.",
-    "image": "/question-images/fi-122.png"
+    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-122.png"
   },
   {
     "id": "fi-123",
@@ -3284,8 +3284,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mali ang \"mayroon matibay.\" Kapag sinusundan ng pangngalan o parirala, mas wasto ang \"may matibay\" o \"mayroong matibay na paniniwala.\"",
-    "image": "/question-images/fi-123.png"
+    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-122.png"
   },
   {
     "id": "fi-124",
@@ -3315,8 +3315,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mali ang \"pinayagan\" dahil humihiling pa lamang ng pahintulot. Mas wasto ang \"payagan\": ipinakiusap mo ba na payagan kang gamitin ang kompyuter.",
-    "image": "/question-images/fi-124.png"
+    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-122.png"
   },
   {
     "id": "fi-125",
@@ -3346,8 +3346,8 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Walang mali sa pangungusap. Ang \"Hanapan mo ng sagot ... ang iyong guro\" ay wastong anyo dahil ang guro ang hahanapan at ang sagot ang bagay na hinahanap.",
-    "image": "/question-images/fi-125.png"
+    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "image": "/question-images/csc11-page-122.png"
   },
   {
     "id": "fi-126",
@@ -3377,8 +3377,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Mali ang \"ng pag-iwas\" sa pariralang ito. Ang ehersisyo ay nakatutulong sa pag-iwas sa sakit, kaya mas wasto ang \"sa pag-iwas.\"",
-    "image": "/question-images/fi-126.png"
+    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-122.png"
   },
   {
     "id": "fi-127",
@@ -3408,8 +3408,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mali ang \"iiwasan\" pagkatapos ng \"Dapat nating.\" Sa ganitong pangungusap, gamitin ang payak na anyo ng pandiwa: Dapat nating iwasan.",
-    "image": "/question-images/fi-127.png"
+    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-122.png"
   },
   {
     "id": "fi-128",
@@ -3439,8 +3439,8 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Walang mali sa pangungusap. Tama ang anyong \"Panatilihin nating\" at malinaw ang layon: panatilihing malinis at malayo sa polusyon ang kapaligiran para sa kalusugan.",
-    "image": "/question-images/fi-128.png"
+    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "image": "/question-images/csc11-page-122.png"
   },
   {
     "id": "fi-129",
@@ -3470,8 +3470,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mali ang \"Laban sa batas\" bilang ibig sabihing illegal. Ang wastong pahayag ay \"Labag sa batas ang smuggling.\"",
-    "image": "/question-images/fi-129.png"
+    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-123.png"
   },
   {
     "id": "fi-130",
@@ -3501,13 +3501,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Mali ang \"nang tahanan\" dahil ang tahanan at lipunan ang layon ng pandiwang \"nakasisira.\" Gamitin ang \"ng\": nakasisira ng tahanan at lipunan.",
-    "image": "/question-images/fi-130.png"
+    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "image": "/question-images/csc11-page-123.png"
   },
   {
     "id": "fi-131",
     "subject": "Filipino",
-    "prompt": "Sa Langit Kong Gusto\nni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto\nna may mga Anghel\nna nanunuod sa akin\nsa langit kong gusto\nSa mga ibon na lumilipad\nkatulad nila gusto ko ring lumipad\nnang mataas na mataas sa langit\nsa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nAno ang nais mapuntahan ng manunula?",
+    "prompt": "A. Sa Langit Kong Gusto\nni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto\nna may mga Anghel\nna nanunuod sa akin\nsa langit kong gusto\nSa mga ibon na lumilipad\nkatulad nila gusto ko ring lumipad\nnang mataas na mataas sa langit\nsa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nAno ang nais mapuntahan ng manunula?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3528,12 +3528,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Paulit-ulit na sinasabi ng tula ang \"sa langit kong gusto\" at sa huling bahagi ay binabanggit ang pag-akyat patungo roon, kaya langit ang nais mapuntahan ng manunula."
+    "explanation": "Tamang sagot ang choice B (\"langit\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-132",
     "subject": "Filipino",
-    "prompt": "Sa Langit Kong Gusto\nni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto\nna may mga Anghel\nna nanunuod sa akin\nsa langit kong gusto\nSa mga ibon na lumilipad\nkatulad nila gusto ko ring lumipad\nnang mataas na mataas sa langit\nsa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nAno ang tayutay ng ginamit sa unang dalawang linya ng ikalawang saknong?",
+    "prompt": "A. Sa Langit Kong Gusto\nni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto\nna may mga Anghel\nna nanunuod sa akin\nsa langit kong gusto\nSa mga ibon na lumilipad\nkatulad nila gusto ko ring lumipad\nnang mataas na mataas sa langit\nsa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nAno ang tayutay ng ginamit sa unang dalawang linya ng ikalawang saknong?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3554,12 +3554,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "May pagtutulad sa linyang \"katulad nila gusto ko ring lumipad\" dahil inihahambing ng persona ang sarili sa mga ibong lumilipad."
+    "explanation": "Tamang sagot ang choice A (\"pagtutulad\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-133",
     "subject": "Filipino",
-    "prompt": "Sa Langit Kong Gusto\nni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto\nna may mga Anghel\nna nanunuod sa akin\nsa langit kong gusto\nSa mga ibon na lumilipad\nkatulad nila gusto ko ring lumipad\nnang mataas na mataas sa langit\nsa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nSa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng\nkanyang tula?",
+    "prompt": "A. Sa Langit Kong Gusto\nni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto\nna may mga Anghel\nna nanunuod sa akin\nsa langit kong gusto\nSa mga ibon na lumilipad\nkatulad nila gusto ko ring lumipad\nnang mataas na mataas sa langit\nsa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nSa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng\nkanyang tula?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3580,12 +3580,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Sa unang saknong agad inilalahad ang pangunahing hangarin ng tula: ang pagnanais na pumunta sa langit na gusto ng persona."
+    "explanation": "Tamang sagot ang choice A (\"unang saknong\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-134",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nAling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa\npamayanan?",
+    "prompt": "B. Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nAling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa\npamayanan?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3606,12 +3606,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Hindi nakatutulong sa bayan ang pakikiisa sa kabataang may masamang bisyo; taliwas ito sa mensahe ng talata tungkol sa pagmamalasakit, paglilinis, kapayapaan, at pag-ibig sa bayan."
+    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-135",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nPaano maiaahon ng kabataan ang bansang Pilipinas sa tiyak na kasawian?",
+    "prompt": "B. Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nPaano maiaahon ng kabataan ang bansang Pilipinas sa tiyak na kasawian?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3632,12 +3632,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Sinabi mismo ng talata na mahahango ang bansa sa kasawian kung ang kabataan ay magkakaroon ng tunay na pag-ibig sa bayan."
+    "explanation": "Tamang sagot ang choice A (\"Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-136",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nAno ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang\nhuling pangungusap ng talata?",
+    "prompt": "B. Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nAno ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang\nhuling pangungusap ng talata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3658,12 +3658,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Makikita ang lungkot sa mga tanong na tila binibigo ng kabataan ang pangarap ni Rizal. Ipinahihiwatig nito ang panghihinayang sa maaaring pagkasira ng tiwala sa kabataan."
+    "explanation": "Tamang sagot ang choice B (\"Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-137",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nBatay sa talata, ano ang implikasyon ng pahayag na “Ang kabataan ay pag-asa ng bayan”?",
+    "prompt": "B. Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating\npambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng\nmga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na\nkasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa\nbayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring\nsimulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga\nproyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng\npagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong\ndin ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga\npamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang\npangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming\nmakabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\n“Ang kabataan ay pag-asa ng bayan.” Ano ang implikasyon ng pangungusap na ito?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3676,7 +3676,7 @@
       },
       {
         "id": "C",
-        "text": "May suliraning kailangang tugunan ang bayan"
+        "text": "May suliranin ang bayan"
       },
       {
         "id": "D",
@@ -3684,12 +3684,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Batay sa talata, inaasahang makatutulong ang kabataan sa pagpapaunlad ng bansa, pagpapanatili ng kapayapaan, at pag-ahon mula sa kasawian. Ipinahihiwatig nito na may mga suliraning kailangang tugunan ang bayan."
+    "explanation": "Tamang sagot ang choice C (\"May suliranin ang bayan\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-138",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAno ang Ixora coccinea L.?",
+    "prompt": "C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAno ang Ixora coccinea L.?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3710,12 +3710,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Sa unang pangungusap pa lang binanggit na ang pang-agham na pangalan ng Santan ay Ixora coccinea L., kaya ito ang tuwirang sagot."
+    "explanation": "Tamang sagot ang choice B (\"Pang-agham na pangalan ng Santan.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-139",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAlin sa mga sumusunod na pangungusap ang wasto?",
+    "prompt": "C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAlin sa mga sumusunod na pangungusap ang wasto?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3736,12 +3736,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Binibigyang-diin ng talata ang maraming gamit ng Santan bilang gamot, gaya ng pinakulong ugat, pangmumog, at pantapal."
+    "explanation": "Tamang sagot ang choice D (\"Maaaring ipanggamot ang Santan.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-140",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAnong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
+    "prompt": "C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAnong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3762,12 +3762,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang solusyon na maaaring purga ay mula sa pinakulong ugat, kaya ugat ang bahaging tinutukoy."
+    "explanation": "Tamang sagot ang choice C (\"ugat\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-141",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAno ang pinakamabuting pamagat para sa talatang nabasa?",
+    "prompt": "C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAno ang pinakamabuting pamagat para sa talatang nabasa?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3788,12 +3788,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang buong talata ay naglalarawan sa Santan: pangalan, pinagmulan, uri, at gamit nito bilang halamang gamot."
+    "explanation": "Tamang sagot ang choice B (\"Ang Santan\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-142",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAlin sa mga sumusunod ang wastong gamit ng solusyon mula sa pinakulong ugat ng\nsantan?",
+    "prompt": "C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na\nhalamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na\npampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba\nrin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas\nmalapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora\ncoccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang\nsolusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa\nnagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring\nipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal\nsa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang\ngamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAlin sa mga sumusunod ang wastong gamit ng solusyon mula sa pinakulong ugat ng\nsantan?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3814,12 +3814,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Binanggit sa talata na nakatutulong ang Santan sa pagkakaroon ng gana sa pagkain, kaya maaari itong pampagana."
+    "explanation": "Tamang sagot ang choice A (\"Maaaring pampagana ng pagkain\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-143",
     "subject": "Filipino",
-    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at\nmasalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa,\npaggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa\nlarangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing\ninilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman\no nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na\nmaaaring bigyang pansin sa pagbabasa.\n\nAno ang pangunahing diwa ng seleksiyon?",
+    "prompt": "D. Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at\nmasalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa,\npaggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa\nlarangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing\ninilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman\no nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na\nmaaaring bigyang pansin sa pagbabasa.\n\nAno ang pangunahing diwa ng seleksiyon?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3840,12 +3840,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Pangunahing tinatalakay ng seleksiyon kung bakit mahalaga ang pagbabasa sa buhay: nagpapalawak ito ng kaalaman, kasanayan, at pag-unawa."
+    "explanation": "Tamang sagot ang choice C (\"Ang kahalagahan ng pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-144",
     "subject": "Filipino",
-    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at\nmasalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa,\npaggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa\nlarangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing\ninilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman\no nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na\nmaaaring bigyang pansin sa pagbabasa.\n\nBakit mahalaga ang pagbabasa?",
+    "prompt": "D. Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at\nmasalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa,\npaggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa\nlarangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing\ninilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman\no nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na\nmaaaring bigyang pansin sa pagbabasa.\n\nBakit mahalaga ang pagbabasa?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3854,7 +3854,7 @@
       },
       {
         "id": "B",
-        "text": "Sapagkat nagdudulot ito ng pag-unawa, kasanayan, at bagong kaalaman."
+        "text": "Sapagkat mararating ang daigdig ng pangarap sa pagbabasa."
       },
       {
         "id": "C",
@@ -3865,13 +3865,13 @@
         "text": "Walang tamang sagot."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Binibigyang-diin ng talata na ang pagbabasa ay nagdudulot ng pag-unawa, kasanayan sa pag-iisip, paggamit ng sanggunian, at bagong kaalaman sa iba't ibang larangan."
+    "correctChoiceId": "C",
+    "explanation": "Tamang sagot ang choice C (\"Lahat ng nabanaggit sa tama.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-145",
     "subject": "Filipino",
-    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at\nmasalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa,\npaggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa\nlarangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing\ninilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman\no nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na\nmaaaring bigyang pansin sa pagbabasa.\n\nAno ang pinakamainam na pamagat ng nabasa?",
+    "prompt": "D. Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at\nmasalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa,\npaggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa\nlarangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing\ninilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman\no nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na\nmaaaring bigyang pansin sa pagbabasa.\n\nAno ang pinakamainam na pamagat ng nabasa?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3892,12 +3892,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Pinakamainam ang pamagat na \"Ang Kahalagahan ng Pagbabasa\" dahil iyon ang sentro ng buong talata mula sa unang tanong hanggang sa mga detalyeng sumusuporta rito."
+    "explanation": "Tamang sagot ang choice A (\"Ang Kahalagahan ng Pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-146",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang paksang pangungusap sa talata?",
+    "prompt": "E. Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang paksang pangungusap sa talata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3917,13 +3917,13 @@
         "text": "Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang paksang pangungusap ang pangunahing ideyang pinalalawak ng talata. Dito, ang talata ay tungkol sa iba't ibang damdamin at gamit na naipakikita sa mata, kaya ang unang pangungusap ang pinakaangkop na paksa."
+    "correctChoiceId": "D",
+    "explanation": "Tamang sagot ang choice D (\"Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-147",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang pinakamainam sa pamagat sa talata?",
+    "prompt": "E. Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang pinakamainam sa pamagat sa talata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3944,12 +3944,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang talata ay tungkol sa ibat ibang gamit ng mata sa emosyon, pansin, panunukso, galit, pagpapaganda, at pagtingin, kaya iyon ang pinakaangkop na pamagat."
+    "explanation": "Tamang sagot ang choice C (\"Ang Iba’t Ibang Gamit ng Mata\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-148",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
+    "prompt": "E. Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3970,12 +3970,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Hindi binanggit na ang mata ay nagpapakita ng matinding karamdaman. Ang talata ay nakatuon sa emosyon, komunikasyon, pagpapaganda, at iba pang gamit ng mata."
+    "explanation": "Tamang sagot ang choice B (\"nagpapakita ng matinding karamdaman\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-149",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
+    "prompt": "E. Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3995,13 +3995,13 @@
         "text": "Natutuhan nila na may palamuti para sa mga mata."
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Tuwirang sinasabi ng talata na noon, ang mata ay itinuturing na bahagi lamang ng mukha, ngunit ngayon ay pinalalamutian na rin. Kaya ang pinakamalinaw na pagbabagong binanggit ay ang paggamit ng palamuti para sa mga mata."
+    "correctChoiceId": "A",
+    "explanation": "Tamang sagot ang choice A (\"Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-150",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
+    "prompt": "E. Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-\nasam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito,\nnakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring\nmagbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y\npinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong\npuhunan sa pagandahan.Tunay ngang maraming gamit ang matang minumuta,\nkinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4022,12 +4022,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang \"nanlilisik na mata\" ay karaniwang nagpapahiwatig ng galit o masamang balak, kaya ito ang pariralang pinakamalapit sa paggamit ng mata sa kasamaan."
+    "explanation": "Tamang sagot ang choice C (\"nanlilisik na mata\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-151",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nTungkol saan ang grapong nabasa?",
+    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nTungkol saan ang grapong nabasa?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4048,13 +4048,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang grap ay tungkol sa minimum wage sa Maynila sa ibat ibang taon; ang mga tuldok ay kumakatawan sa pasahod mula 1990 hanggang 1999.",
-    "image": "/question-images/fi-151.png"
+    "explanation": "Tamang sagot ang choice B (\"Pinakamababang pasahod sa Maynila sa iba’t ibang taon.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "image": "/question-images/csc11-page-130.png"
   },
   {
     "id": "fi-152",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo\n1996?",
+    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo\n1996?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4075,13 +4075,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Kinukuha ang diperensiya ng pasahod noong Oktubre 1999 at Mayo 1996 ayon sa grapo. Ang agwat ng dalawang halaga ay PHP 58.50.",
-    "image": "/question-images/fi-152.png"
+    "explanation": "Tamang sagot ang choice D (\"₱58.50\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "image": "/question-images/csc11-page-130.png"
   },
   {
     "id": "fi-153",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
+    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4102,13 +4102,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ayon sa grapo, ang pinakamaliit na pagtaas ng minimum wage ay nasa Abril 1994, kaya iyon ang petsang tinutukoy.",
-    "image": "/question-images/fi-153.png"
+    "explanation": "Tamang sagot ang choice D (\"Abril 1994\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "image": "/question-images/csc11-page-130.png"
   },
   {
     "id": "fi-154",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang\n₱145?",
+    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang\n₱145?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4129,13 +4129,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ipinapakita ng grapo na nanatili ang PHP 145 na minimum wage sa loob ng dalawamput limang buwan bago ito muling tumaas.",
-    "image": "/question-images/fi-154.png"
+    "explanation": "Tamang sagot ang choice D (\"dalawampu’t limang buwan\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "image": "/question-images/csc11-page-131.png"
   },
   {
     "id": "fi-155",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nIlang beses nagkaroon ng dalawampung piso (₱20) pagtaas sa minimum wage?",
+    "prompt": "F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nIlang beses nagkaroon ng dalawampung piso (₱20) pagtaas sa minimum wage?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4156,13 +4156,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Sa grapo, dalawang pagkakataon makikita ang eksaktong PHP 20 na pagtaas sa minimum wage.",
-    "image": "/question-images/fi-155.png"
+    "explanation": "Tamang sagot ang choice B (\"dalawa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "image": "/question-images/csc11-page-131.png"
   },
   {
     "id": "fi-156",
     "subject": "Filipino",
-    "prompt": "Anong pamagat ang angkop sa tsart sa itaas?",
+    "prompt": "G.\n\nAnong pamagat ang angkop sa tsart sa itaas?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4183,13 +4183,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang pamagat na ito ang angkop dahil pinagsasama ng tsart ang badyet militar at katayuang pangmilitar ng piling bansa.",
-    "image": "/question-images/fi-156.png"
+    "explanation": "Tamang sagot ang choice C (\"Badyet at Katayuang Pangmilitar ng mga Piling Bansa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "image": "/question-images/csc11-page-131.png"
   },
   {
     "id": "fi-157",
     "subject": "Filipino",
-    "prompt": "Anong bansa ang may pinakamataas na bilang ng tropa?",
+    "prompt": "G.\n\nAnong bansa ang may pinakamataas na bilang ng tropa?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4210,13 +4210,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Sa hanay ng bilang ng tropa, Malaysia ang may pinakamataas na datos sa tsart.",
-    "image": "/question-images/fi-157.png"
+    "explanation": "Tamang sagot ang choice D (\"Malaysia\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-158",
     "subject": "Filipino",
-    "prompt": "Anong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet\nmilitar?",
+    "prompt": "G.\n\nAnong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet\nmilitar?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4237,13 +4236,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Sa porsiyento ng GDP na nakalaan sa badyet militar, Brunei ang may pinakamalaking bahagi ayon sa tsart.",
-    "image": "/question-images/fi-158.png"
+    "explanation": "Tamang sagot ang choice C (\"Brunei\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-159",
     "subject": "Filipino",
-    "prompt": "Anong bansa ang may pinakamalaking GDP?",
+    "prompt": "G.\n\nAnong bansa ang may pinakamalaking GDP?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4264,13 +4262,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Sa paghahambing ng GDP ng mga bansang nasa tsart, Japan ang may pinakamalaking halaga.",
-    "image": "/question-images/fi-159.png"
+    "explanation": "Tamang sagot ang choice A (\"Japan\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-160",
     "subject": "Filipino",
-    "prompt": "Ano ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang\npangmilitar ng Brunei?",
+    "prompt": "G.\n\nAno ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang\npangmilitar ng Brunei?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4291,13 +4288,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Makatwirang paliwanag na mababa ang bilang ng puwersang militar ng Brunei dahil maliit lamang itong bansa kumpara sa iba pang nasa tsart.",
-    "image": "/question-images/fi-160.png"
+    "explanation": "Tamang sagot ang choice B (\"Maliit na bansa lamang ang Brunei\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "fi-161",
     "subject": "Filipino",
-    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang\ntalata?",
+    "prompt": "I.\nA. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang\ntalata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4318,12 +4314,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Nauuna ang tanong na D bilang panimula, kasunod ang depinisyon sa B, saka detalye ng parusa sa A, at panghuling dagdag na benepisyo sa C."
+    "explanation": "Tamang sagot ang choice D (\"D-B-A-C\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-162",
     "subject": "Filipino",
-    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa\nmga sumusunod ang pinaka-angkop?",
+    "prompt": "I.\nA. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa\nmga sumusunod ang pinaka-angkop?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4344,12 +4340,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang pangungusap na ito ang huling tanong matapos ipakilala at ipaliwanag ang Clean Air Act. Lohikal itong ilagay sa dulo dahil hinihingi na nito ang sariling pananaw ng mambabasa pagkatapos ng paliwanag."
+    "explanation": "Tamang sagot ang choice C (\"Kung ikaw ang may-ari ng kumpanya, sang-ayon kaba sa “Clean Air Act”?\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-163",
     "subject": "Filipino",
-    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
+    "prompt": "I.\nA. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na\nnakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating\nhangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga\ngamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4370,12 +4366,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Pinakaangkop ang \"Ang Clean Air Act\" dahil ang talata ay nagpapaliwanag kung ano ang batas na ito, kanino ito nagpapataw ng pananagutan, at anong insentibo ang ibinibigay."
+    "explanation": "Tamang sagot ang choice B (\"Ang Clean Air Act\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-164",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng\nmakabuluhang talata?",
+    "prompt": "II.\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng\nmakabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4396,12 +4392,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Nauuna ang pangkalahatang pahayag sa A, pagkatapos ay iniisa-isa ang mga katangian sa D, B, C, at E. Ang mga salitang \"Isa,\" \"Ikalawa,\" \"Isa pa,\" at \"huli\" ang gabay sa ayos."
+    "explanation": "Tamang sagot ang choice C (\"A-D-B-C-E\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-165",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAno ang pamamaraang ginamit upang mabuo ang talata?",
+    "prompt": "II.\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAno ang pamamaraang ginamit upang mabuo ang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4422,12 +4418,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Enumerasyon ang paraan dahil isa-isang inililista ng talata ang mga katangiang kailangan upang maging Presidente."
+    "explanation": "Tamang sagot ang choice D (\"pag-iisa-isa o enumerasyon\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-166",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa\nang isang dayuhan?",
+    "prompt": "II.\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang\nnagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at\nsumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa\naraw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na\nmamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung\ntaon bago dumating ang halalan.\n\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa\nang isang dayuhan?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4448,12 +4444,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Pangungusap D ang nagsasabing kailangang katutubong ipinanganak na mamamayan ng Pilipinas, kaya hindi maaaring dayuhan ang maging Presidente."
+    "explanation": "Tamang sagot ang choice C (\"pangungusap D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-167",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng\nisang makabuluhang talata?",
+    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng\nisang makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4474,12 +4470,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Nauuna ang C dahil ipinakikilala nito ang pinakaunang pangkat. Sinusundan ito ng A na paliwanag sa pinagmulan nila, pagkatapos B para sa sumunod na Indones, at D para sa huling pangkat na Malay."
+    "explanation": "Tamang sagot ang choice B (\"C-A-B-D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-168",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
+    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4500,12 +4496,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang paksang pangungusap na ito ang sumasaklaw sa buong talata dahil lahat ng kasunod na pangungusap ay tungkol sa tatlong pangkat na dumating sa Pilipinas."
+    "explanation": "Tamang sagot ang choice A (\"May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-169",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang angkop na pamagat para sa talata?",
+    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang angkop na pamagat para sa talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4526,12 +4522,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang pamagat na ito ang angkop dahil tinatalakay ng talata ang Ita o Negrito, Indones, at Malay bilang mga unang pangkat ng tao sa Pilipinas."
+    "explanation": "Tamang sagot ang choice D (\"Ang mga Unang Pangkat ng mga Pilipino\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-170",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang\nnakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga\npangungusap upang makabuo ng makabuluhang talata?",
+    "prompt": "III.\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang\nnagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay\nang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang\nnakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga\npangungusap upang makabuo ng makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4552,7 +4548,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Kapag idinagdag ang E tungkol sa pagdating ng mga Indones, dapat itong sumunod sa B na nagpapakilala sa Indones. Kaya ang ayos ay C-A-B-E-D."
+    "explanation": "Tamang sagot ang choice B (\"C-A-B-E-D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
   },
   {
     "id": "fi-171",

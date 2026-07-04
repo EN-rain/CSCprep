@@ -1,5 +1,4 @@
 import { questionBank } from '../data/questionBank'
-import csc11FixedExam from '../data/csc11FixedExam.json'
 import {
   SUBJECTS,
   type AnswerMap,
@@ -33,10 +32,6 @@ function isExamEligibleQuestion(question: Question): boolean {
 
 function getExamEligibleQuestions(): Question[] {
   return questionBank.filter(isExamEligibleQuestion)
-}
-
-function getCsc11ExamEligibleQuestions(): Question[] {
-  return (csc11FixedExam as Question[]).filter(isExamEligibleQuestion)
 }
 
 function shuffle<T>(items: T[]): T[] {
@@ -128,10 +123,6 @@ function pickSubjectQuestions(
 }
 
 function getSessionTitle(mode: ExamMode): string {
-  if (mode.kind === 'fixed') {
-    return 'Fixed Exam'
-  }
-
   if (mode.kind === 'mixed') {
     return 'Random Exam'
   }
@@ -193,45 +184,6 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
   const allEligibleQuestions = getExamEligibleQuestions()
 
   const questions = (() => {
-    if (mode.kind === 'fixed') {
-      const itemCount = Math.min(
-        Math.max(1, Math.floor(mode.itemCount ?? getFixedExamQuestionCount())),
-        MAX_EXAM_ITEMS,
-        getFixedExamQuestionCount(),
-      )
-
-      const allFixedQuestions = getCsc11ExamEligibleQuestions()
-
-      const fixedSubjectCounts: Record<Subject, number> = {} as Record<Subject, number>
-      SUBJECTS.forEach((sub) => {
-        fixedSubjectCounts[sub] = 0
-      })
-      allFixedQuestions.forEach((q) => {
-        fixedSubjectCounts[q.subject] = (fixedSubjectCounts[q.subject] ?? 0) + 1
-      })
-
-      const allocations = allocateProportionately(itemCount, fixedSubjectCounts)
-
-      const grouped: Record<Subject, Question[]> = {} as Record<Subject, Question[]>
-      SUBJECTS.forEach((sub) => {
-        grouped[sub] = []
-      })
-      allFixedQuestions.forEach((q) => {
-        grouped[q.subject].push(q)
-      })
-
-      const selectedQuestions: Question[] = []
-      SUBJECTS.forEach((sub) => {
-        const count = allocations[sub] ?? 0
-        selectedQuestions.push(...grouped[sub].slice(0, count))
-      })
-
-      const originalIndexMap = new Map(allFixedQuestions.map((q, idx) => [q.id, idx]))
-      selectedQuestions.sort((a, b) => (originalIndexMap.get(a.id) ?? 0) - (originalIndexMap.get(b.id) ?? 0))
-
-      return selectedQuestions
-    }
-
     if (mode.kind === 'mixed') {
       const itemCount = Math.min(
         Math.max(1, Math.floor(mode.itemCount ?? RANDOM_EXAM_ITEMS)),
@@ -269,9 +221,7 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
 
     return pickSubjectQuestions(mode.subject, history, examNumber, subjectQuestionCount)
   })()
-  const shouldShuffleQuestions = mode.kind !== 'fixed'
-  const shouldShuffleChoices = mode.kind !== 'fixed'
-  const orderedQuestions = shouldShuffleQuestions ? shuffle(questions) : questions
+  const orderedQuestions = shuffle(questions)
 
   return {
     examNumber,
@@ -282,18 +232,12 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
       id: `${question.id}-${index + 1}`,
       itemNumber: index + 1,
       question,
-      choices: preservesChoiceOrder(question) || !shouldShuffleChoices ? question.choices : shuffle(question.choices),
+      choices: preservesChoiceOrder(question) ? question.choices : shuffle(question.choices),
     })),
   }
 }
 
 function replacementPoolForQuestion(session: ExamSession, targetQuestion: Question): Question[] {
-  if (session.mode.kind === 'fixed') {
-    const fixedPool = getCsc11ExamEligibleQuestions()
-    const sameSubjectFixedPool = fixedPool.filter((question) => question.subject === targetQuestion.subject)
-    return sameSubjectFixedPool.length > 0 ? sameSubjectFixedPool : fixedPool
-  }
-
   if (session.mode.kind === 'subject') {
     return questionsBySubject(session.mode.subject)
   }
@@ -326,8 +270,7 @@ export function replaceExamQuestion(session: ExamSession, itemId: string): ExamS
     return session
   }
 
-  const shouldShuffleChoices = session.mode.kind !== 'fixed'
-  const replacementChoices = preservesChoiceOrder(replacementQuestion) || !shouldShuffleChoices
+  const replacementChoices = preservesChoiceOrder(replacementQuestion)
     ? replacementQuestion.choices
     : shuffle(replacementQuestion.choices)
 
@@ -382,10 +325,6 @@ export function getAnsweredHistoryCount(): number {
 
 export function getLoadedQuestionCount(): number {
   return getExamEligibleQuestions().length
-}
-
-export function getFixedExamQuestionCount(): number {
-  return getCsc11ExamEligibleQuestions().length
 }
 
 export { COOLDOWN_EXAMS, ITEMS_PER_SUBJECT, MAX_EXAM_ITEMS, MIXED_EXAM_SUBJECT_COUNTS, RANDOM_EXAM_ITEMS, TOTAL_EXAM_ITEMS }

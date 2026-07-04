@@ -30,6 +30,8 @@ const THEME_KEY = 'cscprep-theme'
 const EXAM_ATTEMPT_HISTORY_KEY = 'cscprep:exam-attempt-history:v2'
 const IN_PROGRESS_EXAM_KEY = 'cscprep:in-progress-exam:v1'
 const QUESTION_REPORTS_KEY = 'cscprep:question-reports:v1'
+const RANDOM_EXAM_ITEM_COUNT_KEY = 'cscprep-random-exam-item-count'
+const SUBJECT_EXAM_ITEM_COUNTS_KEY = 'cscprep-subject-exam-item-counts'
 const SCREEN_EXIT_MS = 300
 const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
@@ -281,23 +283,6 @@ function isExamSession(value: unknown): value is ExamSession {
     Boolean(session.mode) &&
     Array.isArray(session.questions)
   )
-}
-
-function isCsc11PageImage(image: string | undefined): boolean {
-  return Boolean(image?.includes('/question-images/csc11-page-'))
-}
-
-function getExamQuestionImage(
-  question: ExamSession['questions'][number]['question'],
-  mode: ExamMode,
-): string | undefined {
-  if (mode.kind !== 'fixed' || !isCsc11PageImage(question.image)) {
-    return question.image
-  }
-
-  const bankImage = QUESTION_BANK_BY_ID.get(question.id)?.image
-
-  return isCsc11PageImage(bankImage) ? undefined : bankImage
 }
 
 function refreshExamSessionQuestions(session: ExamSession): ExamSession {
@@ -626,7 +611,7 @@ function App() {
           questionId: question.id,
           subject: question.subject,
           prompt: question.prompt,
-          image: getExamQuestionImage(question, session.mode),
+          image: question.image,
           choices,
           selectedChoiceId,
           correctChoiceId: question.correctChoiceId,
@@ -1347,16 +1332,58 @@ function HomeScreen({
   theme,
   onToggleTheme,
 }: HomeScreenProps) {
-  const [randomExamItemCount, setRandomExamItemCount] = useState(String(RANDOM_EXAM_ITEMS))
-  const [subjectExamItemCounts, setSubjectExamItemCounts] = useState<Record<Subject, string>>(() => (
-    SUBJECTS.reduce(
-      (counts, subject) => ({
-        ...counts,
-        [subject]: '100',
-      }),
-      {} as Record<Subject, string>,
-    )
-  ))
+  const [randomExamItemCount, setRandomExamItemCount] = useState(() => {
+    if (typeof window === 'undefined') {
+      return String(RANDOM_EXAM_ITEMS)
+    }
+
+    const saved = window.localStorage.getItem(RANDOM_EXAM_ITEM_COUNT_KEY)
+    return saved && /^\d+$/u.test(saved)
+      ? String(normalizeRequestedItemCount(saved, RANDOM_EXAM_ITEMS))
+      : String(RANDOM_EXAM_ITEMS)
+  })
+  const [subjectExamItemCounts, setSubjectExamItemCounts] = useState<Record<Subject, string>>(() => {
+      const defaultCounts = SUBJECTS.reduce(
+        (counts, subject) => ({
+          ...counts,
+          [subject]: '100',
+        }),
+        {} as Record<Subject, string>,
+      )
+
+      if (typeof window === 'undefined') {
+        return defaultCounts
+      }
+
+      try {
+        const raw = window.localStorage.getItem(SUBJECT_EXAM_ITEM_COUNTS_KEY)
+        const parsed = raw ? JSON.parse(raw) as Partial<Record<Subject, string>> : null
+
+        if (!parsed || typeof parsed !== 'object') {
+          return defaultCounts
+        }
+
+        return SUBJECTS.reduce(
+          (counts, subject) => ({
+            ...counts,
+            [subject]: typeof parsed[subject] === 'string' && /^\d+$/u.test(parsed[subject] as string)
+              ? String(normalizeRequestedItemCount(parsed[subject] as string, 100))
+              : defaultCounts[subject],
+          }),
+          {} as Record<Subject, string>,
+        )
+      } catch {
+        return defaultCounts
+      }
+    })
+
+  useEffect(() => {
+    window.localStorage.setItem(RANDOM_EXAM_ITEM_COUNT_KEY, randomExamItemCount)
+  }, [randomExamItemCount])
+
+  useEffect(() => {
+    window.localStorage.setItem(SUBJECT_EXAM_ITEM_COUNTS_KEY, JSON.stringify(subjectExamItemCounts))
+  }, [subjectExamItemCounts])
 
   return (
     <section className="home">
@@ -1870,7 +1897,7 @@ function ExamScreen({
             itemNumber={itemNumber}
             isReplacing={replacingQuestionItemId === id}
             key={id}
-            image={getExamQuestionImage(question, session.mode)}
+            image={question.image}
             onChooseAnswer={onChooseAnswer}
             onOpenHint={() => setHintTarget({ itemNumber, question })}
             onOpenImage={onOpenImage}

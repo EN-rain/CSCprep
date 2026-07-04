@@ -40,6 +40,10 @@ src/data/csc*.audit.json
 src/data/csc*.extracted.txt
 src/data/csc*.ocr.txt
 src/data/csc*.questions.json
+src/data/cse2026.audit.json
+src/data/cse2026.extracted.txt
+src/data/cse2026.ocr.txt
+src/data/cse2026.questions.json
 src/data/pdf-image-context-notes.json
 
 # Superseded full-page PDF renders; the app uses per-item crops instead.

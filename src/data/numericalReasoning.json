@@ -23,7 +23,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Add the numbers from 11 to 20 by pairing the ends: 11+20, 12+19, 13+18, 14+17, and 15+16 are each 31. Five pairs of 31 give 155."
+    "explanation": "The correct answer is choice B (\"155\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-4.png"
   },
   {
     "id": "nr-002",
@@ -49,8 +50,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Use order of operations inside the braces: 24 - 8 = 16, so 16 - 16 = 0. Then 22 x 8 = 176, and 176 - 8 = 168.",
-    "image": "/question-images/nr-002.png"
+    "explanation": "The correct answer is choice D (\"168\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-4.png"
   },
   {
     "id": "nr-003",
@@ -76,12 +77,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Compute 800 x 125 as 8 x 125 x 100. Since 8 x 125 = 1,000, the product is 100,000."
+    "explanation": "The correct answer is choice D (\"100 000\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-4.png"
   },
   {
     "id": "nr-004",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the quotient: 8,000 / 125",
+    "prompt": "Find the quotient: 8 000 ÷ 125",
     "hint": "Division item: cancel common factors or move decimal places before calculating.",
     "choices": [
       {
@@ -102,7 +104,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Since 125 x 64 = 8,000, the quotient 8,000 / 125 is 64."
+    "explanation": "The correct answer is choice B (\"64\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-4.png"
   },
   {
     "id": "nr-005",
@@ -128,7 +131,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Add in easy pairs: 299 + 101 = 400 and 943 + 398 = 1,341. Then 400 + 1,341 = 1,741."
+    "explanation": "The correct answer is choice C (\"1,741\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-4.png"
   },
   {
     "id": "nr-006",
@@ -154,7 +158,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "There are 10 numbers from 101 to 110. Their average is (101 + 110) / 2 = 105.5, so the sum is 105.5 x 10 = 1,055."
+    "explanation": "The correct answer is choice A (\"1,055\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-007",
@@ -180,7 +184,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Use the divisibility rule for 8: only the last three digits matter. Since 888 / 8 = 111 exactly, 192,888 leaves a remainder of 0."
+    "explanation": "The correct answer is choice A (\"0\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-008",
@@ -206,7 +210,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "To round 299,943 to the nearest thousand, look at the hundreds digit: 9. Since it is 5 or more, 299,943 rounds up to 300,000."
+    "explanation": "The correct answer is choice D (\"300 000\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-009",
@@ -232,7 +236,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "From the first equation, x = 168 - (23 + 28 + 37 + 53) = 27. From the second, y = 120 - (23 + 28 + 40 + 50) = -21. Therefore x - y = 27 - (-21) = 48."
+    "explanation": "The correct answer is choice B (\"48\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-010",
@@ -258,7 +262,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The decimal 398.101 is read as 398 and 101 thousandths because there are three digits after the decimal point."
+    "explanation": "The correct answer is choice D (\"three hundred ninety eight and one hundred one thousands\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-011",
@@ -284,7 +288,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A number is divisible by 8 when its last three digits are divisible by 8. For 9,208, the last three digits are 208, and 208 / 8 = 26 exactly."
+    "explanation": "The correct answer is choice A (\"9 208\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-012",
@@ -310,7 +314,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Any number divisible by 10 ends in 0. Numbers ending in 0 are also divisible by 5, so statement B is always true."
+    "explanation": "The correct answer is choice B (\"If a number is divisible by 10, then it is divisible by 5.\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-013",
@@ -335,8 +339,8 @@
         "text": "64"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "First compute the expression in parentheses: 128 - 84 = 44. Half of 44 is 22, so the expression becomes 22 - 22 = 0."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"44\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-014",
@@ -362,7 +366,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Compute each part: 33 1/3% of 48 is 16, 12 1/2% of 96 is 12, and 44 4/9% of 27 is 12. So 16 + 12 - 12 = 16."
+    "explanation": "The correct answer is choice B (\"16\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-015",
@@ -388,12 +392,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Both 231 and 1001 are divisible by 77. Dividing gives 231 / 77 = 3 and 1001 / 77 = 13, so the fraction reduces to 3/13."
+    "explanation": "The correct answer is choice C (\"3/13\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-016",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the following is true?",
+    "prompt": "Which of the foloowing is true?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -414,8 +418,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Evaluate each statement. Choice C is true because 54 - 8 = 46 and 8 - 54 = -46, and 46 is greater than or equal to -46.",
-    "image": "/question-images/nr-016.png"
+    "explanation": "The correct answer is choice C (\"54 – 8 ≥ 8 – 54\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-6.png"
   },
   {
     "id": "nr-017",
@@ -441,8 +445,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Compute each part: (3/8)(72) = 27 and (5/7)(35) = 25. Add them to get 27 + 25 = 52.",
-    "image": "/question-images/nr-017.png"
+    "explanation": "The correct answer is choice D (\"52\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-7.png"
   },
   {
     "id": "nr-018",
@@ -468,7 +472,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "25% means one-fourth. One-fourth of 228 is 228 / 4 = 57."
+    "explanation": "The correct answer is choice B (\"57\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-7.png"
   },
   {
     "id": "nr-019",
@@ -494,7 +499,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "If 228 is 25% of a number, then 228 is one-fourth of it. Multiply 228 by 4 to get 912."
+    "explanation": "The correct answer is choice D (\"912\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-7.png"
   },
   {
     "id": "nr-020",
@@ -520,7 +526,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Find the percent by dividing 168 by 672: 168 / 672 = 0.25. As a percent, 0.25 is 25%."
+    "explanation": "The correct answer is choice A (\"25%\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-7.png"
   },
   {
     "id": "nr-021",
@@ -546,7 +553,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Distribute 123 across the decimals: 123(0.1 + 0.01 + 0.001) = 123(0.111) = 13.653."
+    "explanation": "The correct answer is choice A (\"13.653\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-7.png"
   },
   {
     "id": "nr-022",
@@ -572,7 +580,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "3 1/4 means 3.25. Multiplying 3.25 by 16 gives 52."
+    "explanation": "The correct answer is choice D (\"52\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-023",
@@ -598,7 +606,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Use eighths: 1 = 8/8, 1/2 = 4/8, 1/4 = 2/8, and 1/8 stays 1/8. The sum is 15/8, or 1 7/8."
+    "explanation": "The correct answer is choice D (\"1 7/8\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-024",
@@ -624,39 +632,39 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Solve 3x + 7 = 28 by subtracting 7 from both sides: 3x = 21. Divide by 3, so x = 7."
+    "explanation": "The correct answer is choice A (\"7\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-025",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the following has the greatest value?",
+    "prompt": "Which of the following has the greatest value?\n8",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
-        "text": "2^2 + (6)(8) + 16"
+        "text": "2 2 ( 6 )( 8 ) 16"
       },
       {
         "id": "B",
-        "text": "2^3 + (6)(8) + 168"
+        "text": "2 3 ( 6 )( 8 ) 1"
       },
       {
         "id": "C",
-        "text": "3^2 + (6)(8) + 16"
+        "text": "3 2 ( 6 )( 8 ) 168"
       },
       {
         "id": "D",
-        "text": "4^3 + (6)(8)"
+        "text": "4 3 ( 6 )( 8 )"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Evaluate each expression. A = 4 + 48 + 16 = 68, B = 8 + 48 + 168 = 224, C = 9 + 48 + 16 = 73, and D = 64 + 48 = 112. The greatest value is 224, so choice B is correct."
+    "explanation": "The correct answer is choice B (\"2 3 ( 6 )( 8 ) 1\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-026",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the following always yields an odd integer?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "prompt": "Whic of the following cannot yield an odd integer when divided by 10?",
+    "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
         "id": "A",
@@ -676,7 +684,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The product of two odd integers is always odd, so choice C must yield an odd integer. The other choices can be even depending on the numbers used."
+    "explanation": "The correct answer is choice C (\"The product of two odd integers\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-027",
@@ -702,7 +710,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "First solve 8x + 12 = 24: subtract 12 to get 8x = 12, so x = 1.5. Then 24x + 36 = 24(1.5) + 36 = 36 + 36 = 72."
+    "explanation": "The correct answer is choice D (\"72\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-9.png"
   },
   {
     "id": "nr-028",
@@ -728,7 +737,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "If m is divisible by both 3 and 8, it must be divisible by their least common multiple. Since 3 and 8 have no common factor, LCM(3, 8) = 24."
+    "explanation": "The correct answer is choice C (\"24\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-9.png"
   },
   {
     "id": "nr-029",
@@ -746,15 +756,16 @@
       },
       {
         "id": "C",
-        "text": "m - n cannot be odd"
+        "text": "m – n cannot be odd"
       },
       {
         "id": "D",
-        "text": "m + n - 1 is odd"
+        "text": "m + n – 1 is odd"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "\"Not both odd\" means at least one of m or n is even. If one factor is even, their product mn is always even."
+    "explanation": "The correct answer is choice B (\"mn is even\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-9.png"
   },
   {
     "id": "nr-030",
@@ -780,7 +791,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Add the 12 temperature changes to get 64.8, then divide by 12. The average change is 64.8 / 12 = 5.4."
+    "explanation": "The correct answer is choice D (\"5.4\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-9.png"
   },
   {
     "id": "nr-031",
@@ -806,8 +818,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Solve each inequality: 5x - 4 <= 0 gives x <= 4/5, while 3x - 7 >= 0 gives x >= 7/3. No number can satisfy both conditions, so the solution set is empty.",
-    "image": "/question-images/nr-031.png"
+    "explanation": "The correct answer is choice D (\"{}\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-9.png"
   },
   {
     "id": "nr-032",
@@ -833,7 +845,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The statement chains equal quantities: 8(6)+4 equals 48+4, and 48+4 equals 52. Therefore 8(6)+4 equals 52, which is the transitive property of equality."
+    "explanation": "The correct answer is choice D (\"transitive property of equality\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-10.png"
   },
   {
     "id": "nr-033",
@@ -859,7 +872,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Translate the phrase as -3n - 8 > 7. Add 8 to get -3n > 15. Dividing by -3 flips the sign, so n < -5. The only listed value less than -5 is -6."
+    "explanation": "The correct answer is choice A (\"-6\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-10.png"
   },
   {
     "id": "nr-034",
@@ -885,7 +899,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "\"The difference between 8 times a number and 17 is 231\" means 8x - 17 = 231. Add 17 to get 8x = 248, then divide by 8: x = 31."
+    "explanation": "The correct answer is choice A (\"31\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-10.png"
   },
   {
     "id": "nr-035",
@@ -911,12 +926,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Four times the perimeter is 16 less than 2,000, so 4P = 2,000 - 16 = 1,984. Divide by 4 to get P = 496 meters."
+    "explanation": "The correct answer is choice A (\"496 m\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-10.png"
   },
   {
     "id": "nr-036",
     "subject": "Numerical Reasoning",
-    "prompt": "The amount of last month's telephone bill, decreased by the product of 3 and\nPhp30.00 equals Php1,319.50",
+    "prompt": "The amount of last month’s telephone bill, decreased by the product of 3 and\nPhp30.00 equals Php1,319.50",
     "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
@@ -937,7 +953,8 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Let the original bill be x. The bill decreased by 3 x Php30 equals Php1,319.50, so x - 90 = 1,319.50. Add 90 to get Php1,409.50."
+    "explanation": "The correct answer is choice D (\"Php 1, 409.50\") because it matches the result shown by the expression or figure in the source image.",
+    "image": "/question-images/csc11-page-10.png"
   },
   {
     "id": "nr-037",
@@ -963,7 +980,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Set up 7s - 18 = 269. Add 18 to get 7s = 287, then divide by 7: s = 41 sandwiches."
+    "explanation": "The correct answer is choice B (\"41\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-038",
@@ -989,7 +1006,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Let the lot cost x. The house costs 1.5x, so x + 1.5x = 14M. That gives 2.5x = 14M, so x = 5.6M."
+    "explanation": "The correct answer is choice A (\"Php 5.6M\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-039",
@@ -1015,7 +1032,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A 40% discount means the sale price is 60% of the regular price. If 7,200 = 0.60R, then R = 7,200 / 0.60 = 12,000."
+    "explanation": "The correct answer is choice B (\"Php 12,000\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-040",
@@ -1041,7 +1058,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Let the side lengths be x, x+1, and x+2. Their sum is 96, so 3x + 3 = 96. Then x = 31 and the longest side is 33 cm."
+    "explanation": "The correct answer is choice C (\"33\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-041",
@@ -1067,7 +1084,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Let width be w. Length is 2w + 8. Perimeter 112 means 2(w + 2w + 8) = 112, so 3w + 8 = 56 and w = 16. Length is 40, so area is 16 x 40 = 640 square meters."
+    "explanation": "The correct answer is choice D (\"640 m2\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-042",
@@ -1093,7 +1110,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Let Queenie's current age be q, so Paula is 2q. Seven years ago, (q - 7) + (2q - 7) = 16. Thus 3q - 14 = 16, so q = 10."
+    "explanation": "The correct answer is choice B (\"10\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-043",
@@ -1119,7 +1136,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "If x is the average of 2, 4x, 6, 8, and 10, then (2 + 4x + 6 + 8 + 10) / 5 = x. So (26 + 4x) / 5 = x, giving x = 26."
+    "explanation": "The correct answer is choice C (\"26\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-044",
@@ -1144,8 +1161,8 @@
         "text": "37"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Count multiples from 197 to 303. There are 26 multiples of 4 and 11 multiples of 10. Multiples of both 4 and 10 are multiples of 20, and there are 6 of them. By inclusion-exclusion, the total is 26 + 11 - 6 = 31."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"26\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-045",
@@ -1171,7 +1188,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Each dose is 7 hours after the previous one. Starting Sunday 7:00 AM, the times are Sunday 2:00 PM, Sunday 9:00 PM, Monday 4:00 AM, Monday 11:00 AM, Monday 6:00 PM, Tuesday 1:00 AM, and Tuesday 8:00 AM. So the first 8:00 AM dose is on Tuesday."
+    "explanation": "The correct answer is choice D (\"Tuesday\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-046",
@@ -1197,7 +1214,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Compute the percentage by dividing the part by the whole: 96 / 300 = 0.32. Converting to a percent gives 32%."
+    "explanation": "The correct answer is choice A (\"32%\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-047",
@@ -1223,7 +1240,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "If 100 mL is 20% of the container, then the full capacity is 100 / 0.20 = 500 mL."
+    "explanation": "The correct answer is choice C (\"500 mL\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-048",
@@ -1249,7 +1266,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Each container uses 2 1/8 square meters, or 2.125. Divide 952 by 2.125 to get 448 containers."
+    "explanation": "The correct answer is choice B (\"448\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-049",
@@ -1275,7 +1292,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The increase is Php18,000 - Php15,000 = Php3,000. Divide by the original salary: 3,000 / 15,000 = 0.20, or 20%."
+    "explanation": "The correct answer is choice B (\"20%\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-050",
@@ -1301,7 +1318,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A 420% increase means the new price is 100% + 420% = 520% of the old price. 12,500 x 5.2 = 65,000."
+    "explanation": "The correct answer is choice D (\"Php 65,000\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-051",
@@ -1327,7 +1344,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "After a 10% decrease, Php750 becomes 750 x 0.90 = Php675. Increasing that by 10% gives 675 x 1.10 = Php742.50."
+    "explanation": "The correct answer is choice A (\"PHp 742.50\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-052",
@@ -1353,7 +1370,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The increased and decreased prices are equally far from the original price. Average them: (3,100 + 1,900) / 2 = 2,500."
+    "explanation": "The correct answer is choice C (\"Php2,500\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-053",
@@ -1379,7 +1396,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Use income = principal x rate. Since 12,000 = P x 0.096, divide to get P = 12,000 / 0.096 = 125,000."
+    "explanation": "The correct answer is choice C (\"Php 125,000\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-054",
@@ -1405,7 +1422,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Subtract the target width from the original width: 16 1/8 - 14 3/4. Convert to eighths: 16 1/8 - 14 6/8 = 1 3/8 cm."
+    "explanation": "The correct answer is choice C (\"1 3/8cm\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-055",
@@ -1431,7 +1448,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Distance equals rate x time: 132 5/8 x 2 1/2. That is 132.625 x 2.5 = 331.5625, or 331 9/16 km."
+    "explanation": "The correct answer is choice B (\"331 9/16km\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-056",
@@ -1457,7 +1474,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A full load is 3 1/8 times 241 kg. Since 3 1/8 = 3.125, compute 241 x 3.125 = 753.125, or 753 1/8 kg."
+    "explanation": "The correct answer is choice D (\"753 1/8kg\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-057",
@@ -1483,7 +1500,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "If 8.2% evaporates, 91.8% remains. 91.8% of 1,000 liters is 0.918 x 1,000 = 918 liters."
+    "explanation": "The correct answer is choice A (\"918\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-058",
@@ -1509,7 +1526,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A 116% increase means the stock is worth 216% of the original price. 358 x 2.16 = 773.28."
+    "explanation": "The correct answer is choice C (\"Php773.28\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-059",
@@ -1535,7 +1552,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Commission is 5.5% of Php175M. Compute 175 x 0.055 = 9.625, so the commission is Php9.625M."
+    "explanation": "The correct answer is choice C (\"Php9.625M\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-060",
@@ -1561,7 +1578,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Find the pass rate by dividing passed examinees by total examinees: 560 / 700 = 0.8. As a percent, that is 80%."
+    "explanation": "The correct answer is choice C (\"80%\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-061",
@@ -1587,7 +1604,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The interest rate is interest divided by principal: 90,000 / 750,000 = 0.12, or 12%."
+    "explanation": "The correct answer is choice D (\"12%\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-062",
@@ -1613,7 +1630,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Three shirts bought separately cost 3 x 1,078 = Php3,234. The bundle costs Php2,997, so the savings is 3,234 - 2,997 = Php237."
+    "explanation": "The correct answer is choice A (\"Php237\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-063",
@@ -1639,7 +1656,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Six daily rentals cost 6 x Php347.50 = Php2,085. Weekly rental is Php1,745, so weekly is cheaper by Php340."
+    "explanation": "The correct answer is choice A (\"weekly: Php340\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-064",
@@ -1665,7 +1682,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Brand A costs 87.50 / 1.25 = Php70 per kg. Brand B costs 103.20 / 1.5 = Php68.80 per kg. The difference is Php1.20 per kg."
+    "explanation": "The correct answer is choice A (\"Php 1.20\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-065",
@@ -1691,7 +1708,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Convert 30 cm to 0.30 meter. If 0.30 meter costs Php249, then 1 meter costs 249 / 0.30 = Php830."
+    "explanation": "The correct answer is choice A (\"Php 830\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-066",
@@ -1717,7 +1734,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Buying the saw costs Php18,900. Divide by the daily rental cost: 18,900 / 2,700 = 7 days."
+    "explanation": "The correct answer is choice C (\"7\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-067",
@@ -1743,7 +1760,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ten 100-watt bulbs use 1,000 watts, or 1 kilowatt. Used for 5 hours, that is 1 x 5 = 5 kWh."
+    "explanation": "The correct answer is choice A (\"5\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-068",
@@ -1769,7 +1786,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "12,200 watts is 12.2 kilowatts. Over 60 hours, usage is 12.2 x 60 = 732 kWh."
+    "explanation": "The correct answer is choice B (\"732\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-069",
@@ -1795,7 +1812,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A 25% markup followed by a 20% markdown returns to the original price because 1.25 x 0.80 = 1. The final price is Php440."
+    "explanation": "The correct answer is choice B (\"Php 440\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-070",
@@ -1821,7 +1838,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "First total the supplies: 1,320(.125) + 1,480(.625) + 1,240(.875) + 1,720(.80) = Php3,551. Add 5% tax: 3,551 x 1.05 = Php3,728.55."
+    "explanation": "The correct answer is choice D (\"Php 3,728.55\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-071",
@@ -1847,7 +1864,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Bordering a rectangle means going around its outside edge. That measurement is perimeter."
+    "explanation": "The correct answer is choice B (\"perimeter\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-072",
@@ -1873,7 +1890,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A rectangle's perimeter is 2(length + width). So 2(84 + 48) = 2(132) = 264 meters."
+    "explanation": "The correct answer is choice C (\"264m\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-073",
@@ -1899,7 +1916,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Covering the outside of a box uses surface area: 2(lw + lh + wh). With 4, 3, and 5, that is 2(12 + 20 + 15) = 94 square centimeters, so 94 stickers are needed."
+    "explanation": "The correct answer is choice D (\"94\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-074",
@@ -1925,7 +1942,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Let the shortest side be x. The other sides are x+3 and x+4. Then x + (x+3) + (x+4) = 67, so 3x + 7 = 67 and x = 20 cm."
+    "explanation": "The correct answer is choice A (\"20 cm\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-075",
@@ -1951,7 +1968,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Let width be w, so length is 2w - 2. Perimeter 50 means 2(w + 2w - 2) = 50. Then 3w - 2 = 25, so w = 9."
+    "explanation": "The correct answer is choice B (\"9\") because it is the result that satisfies the problem."
   },
   {
     "id": "nr-076",
@@ -1980,8 +1997,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "E",
-    "explanation": "To find a percent increase, we need the amount of increase and the original price. Statement 1 gives only a peso increase, not the original price. Statement 2 also gives only a peso increase, not the original price. Even together, the original price is still missing, so the percent increase cannot be determined from the statements as written."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-077",
@@ -2011,7 +2028,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Let the selling price be P. Statement 1 is enough because after an 8% commission, the broker keeps 92% of the selling price: 0.92P = 9,200,000. Statement 2 is also enough because it directly gives the selling price as 250% of Php4,000,000. Each statement can determine the selling price by itself."
+    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-078",
@@ -2040,8 +2057,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Statement 1 is enough. If Keanna sold 60% as many tickets as Cherry, then Keanna = 0.60C. Since together they sold 168 tickets, C + 0.60C = 168, so Cherry's tickets can be found. Statement 2 is not enough because knowing Keanna sold 8% of all tickets sold does not tell us how many total tickets the whole club sold."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-079",
@@ -2071,7 +2088,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Statement 1 is not enough because a = 2 and ms = 64 still allows different values for m and s, such as 8 and 8 or 16 and 4. Statement 2 is enough because m/s = 2 gives m = 2s, and a/s = 1/4 gives a = s/4. That fixes the ratio m : s : a as 2 : 1 : 1/4, or 8 : 4 : 1."
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-080",
@@ -2101,12 +2118,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Statement 1 alone is not enough because xy could be divisible by 17 because of x or because of y. Statement 2 alone is not enough because it says only that y is not divisible by 17. Together, since xy is divisible by 17 and y is not, x must be divisible by 17."
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-081",
     "subject": "Numerical Reasoning",
-    "prompt": "On Saturday morning the printing machine of Gerpress Printing ran continuously\nat a uniform rate to fill a production order. At what time did it completely fill the\norder that morning?\n1) The supervisor began the plan for production at 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by\n10:18am",
+    "prompt": "On Saturday monring the printing machine of Gerpress Printing ran continuously\nat uniform rate to fill a production order. At what time did it completely fill the\norder that morning?\n1) The supervisor began the plan for production 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by\n10:18am",
     "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
@@ -2131,7 +2148,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Statement 1 only gives a possible starting time, not the machine's rate, so it cannot tell when the order finished. Statement 2 is enough: the machine went from 50% complete to 5/6 complete in 30 minutes, which is 1/3 of the order in 30 minutes. The remaining amount after 10:18am is 1/6 of the order, so it takes 15 more minutes and finishes at 10:33am."
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-082",
@@ -2161,7 +2178,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Statement 1 is enough. If Gerard has G books, then G - 18 is half of G, so G - 18 = G/2 and G can be solved. Statement 2 only gives the ratio of fiction to non-fiction books, so the total could be many different numbers."
+    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-083",
@@ -2191,7 +2208,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Statement 1 is enough because 16 is 8% of x, so x can be found and then 24% of x can be found. Statement 2 is also enough because 1/8 of x is given, so x can be found and then 24% of x can be found. Each statement gives a definite value for x."
+    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-084",
@@ -2221,7 +2238,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Statement 1 alone gives only a percent, so it does not give the total amount donated. Statement 2 alone gives only the personal donations. Together, if 48% came from private corporations, then the remaining 52% came from personal donations; since that 52% is Php15M, the total donation amount can be calculated."
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-085",
@@ -2251,7 +2268,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Statement 1 alone is not enough because knowing the highest score is 198 leaves many possible pairs for the other two scores. Statement 2 alone is not enough because it gives only the sum of the two highest scores, not each score. Together, the highest score is 198 and the two highest total 368, so the second-highest is 170; the third score is 530 - 368 = 162."
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-086",
@@ -2281,7 +2298,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Statement 1 is enough because 78 - n > n - 48 means n is farther from 78 than from 48, so the answer to the question is yes. Statement 2 is not enough because n > 60 could mean n is 61, which is closer to 48, or n is 70, which is closer to 78."
+    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-087",
@@ -2311,7 +2328,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Revenue depends on how many shirts were sold. Statement 1 is enough because 75% of 448 shirts gives the number sold, and each sold for Php358. Statement 2 is also enough because if all but 112 shirts were sold, and that sold amount is 75% of inventory, then the number sold can be found. Each statement is enough to calculate revenue."
+    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-088",
@@ -2341,7 +2358,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Statement 1 alone gives the total number of boys and girls, but not how many are boys. Statement 2 alone gives the relationship boys = girls squared, but not the actual numbers. Together, if girls = g, then boys = g^2 and g + g^2 = 56. That gives g = 7 and boys = 49, so the difference can be found."
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-089",
@@ -2371,7 +2388,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Statement 1 is not enough because being half a year older than someone born in 1979 could place David's birth year on either side depending on the exact months. Statement 2 is enough because if David turned 20 in 1998, his birth year is 1998 - 20 = 1978."
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-090",
@@ -2401,7 +2418,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Statement 1 is enough because 16 balls were removed in a red-to-blue ratio of 5:3, so 6 blue balls were removed and 18 - 6 = 12 blue balls remain. Statement 2 is not enough because it tells only about the first 8 balls removed; the colors of the other 8 removed balls are still unknown."
+    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-091",
@@ -2431,7 +2448,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Statement 1 is enough. For the same trip distance, time and speed move oppositely: if the speed were 1.5 times as fast and the trip took 2 hours, the original trip took 1.5 x 2 = 3 hours. Statement 2 gives only the speed, not the trip distance, so the time cannot be found."
+    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-092",
@@ -2460,8 +2477,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "E",
-    "explanation": "Statement 1 alone is not enough because 64 hours after some time on Wednesday could be on Friday or Saturday, depending on the exact time on Wednesday. Statement 2 alone gives only the appointment time, not the day. Even together, the appointment could still be Friday, such as Friday at 5:00pm, or Saturday, such as Saturday at 3:00pm. So the statements do not prove whether the appointment was on Friday."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-093",
@@ -2491,7 +2508,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "To find kilometers per liter, we need both the trip distance and the number of liters used. The 640-km distance is given in the question. Statement 1 gives the total gasoline cost but not liters; statement 2 gives the price per liter but not total liters. Together, liters used = 1,152 / 18 = 64, so the mileage can be found."
+    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-094",
@@ -2521,7 +2538,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Statement 1 is not enough because a = 2b + 8 makes the ratio a/b depend on the value of b. Statement 2 is enough because a : 4b = 3 : 7 means a/(4b) = 3/7, so a/b = 12/7. That fixes the ratio of a to b."
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-095",
@@ -2551,7 +2568,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "From the question, 400 students are in at least one program and 100 are not in the Review Program, so 300 are in the Review Program. Statement 1 is enough because if 160 are not in Academic Advancement, then 240 are in it, and both = 300 + 240 - 400. Statement 2 directly gives the same Academic Advancement total of 240, so it is also enough."
+    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "nr-096",

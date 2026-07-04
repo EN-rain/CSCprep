@@ -23,7 +23,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The preamble is the introductory statement of the Constitution. It comes before the articles and states the Constitution's broad purposes and principles."
+    "explanation": "The correct answer is choice C (\"Preamble\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-002",
@@ -49,7 +49,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The Philippines is both democratic and republican: authority comes from the people, and officials govern through elected representation."
+    "explanation": "The correct answer is choice D (\"both a and b\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-003",
@@ -75,7 +75,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Eminent domain is the State's power to take private property for public use, but only with payment of just compensation."
+    "explanation": "The correct answer is choice D (\"right of eminent domain\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-004",
@@ -101,7 +101,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Warrants of arrest and search warrants are issued by judges after the legal requirements, such as probable cause, are satisfied."
+    "explanation": "The correct answer is choice B (\"a judge\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-005",
@@ -127,7 +127,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Naturalization is the legal process by which a foreigner may become a Filipino citizen."
+    "explanation": "The correct answer is choice A (\"naturalization\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-006",
@@ -153,7 +153,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Suffrage means the right to vote in elections."
+    "explanation": "The correct answer is choice A (\"suffrage\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-007",
@@ -179,7 +179,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The Philippine Senate has 24 senators."
+    "explanation": "The correct answer is choice B (\"twenty-four\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-008",
@@ -205,7 +205,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A senator must be at least 35 years old on election day."
+    "explanation": "The correct answer is choice D (\"thirty-five\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-009",
@@ -231,7 +231,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Appropriation, revenue or tariff, and private bills must originate in the House. Amnesty is not one of those House-originating bills."
+    "explanation": "The correct answer is choice C (\"Amnesty\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-010",
@@ -257,7 +257,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The House of Representatives is composed of district representatives and party-list representatives."
+    "explanation": "The correct answer is choice C (\"elected by district and party list\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-011",
@@ -283,7 +283,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Legislative power is the power to make laws, and under the Constitution it is vested in Congress."
+    "explanation": "The correct answer is choice B (\"Congress\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-012",
@@ -309,7 +309,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A presidential candidate must be a resident of the Philippines for at least 10 years immediately before the election. Living abroad for the five years before the election would fail that residency requirement."
+    "explanation": "The correct answer is choice B (\"He lived abroad five years preceding the election.\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-013",
@@ -335,7 +335,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "If the President cannot discharge the office, succession goes to the Vice-President, then the Senate President, then the Speaker of the House."
+    "explanation": "The correct answer is choice A (\"President -→ Vice-President -→ Senate President -→ House Speaker\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-014",
@@ -361,7 +361,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A Supreme Court member must be a natural-born citizen and, among other qualifications, must have been a judge or practiced law in the Philippines for at least 15 years."
+    "explanation": "The correct answer is choice A (\"must have been for fifteen years or more, a judge of a lower court.\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-015",
@@ -387,7 +387,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The Supreme Court is composed of one Chief Justice and fourteen Associate Justices."
+    "explanation": "The correct answer is choice A (\"a Chief Justice and fourteen Associate Justices\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-016",
@@ -413,7 +413,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The constitutional commissions are the Civil Service Commission, Commission on Elections, and Commission on Audit. Among the choices, only the Civil Service Commission is one of them."
+    "explanation": "The correct answer is choice C (\"Civil Service Commission\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-017",
@@ -439,7 +439,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The House of Representatives has the exclusive power to initiate impeachment cases. The Senate tries and decides impeachment cases after initiation."
+    "explanation": "The correct answer is choice C (\"House of Representative\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-018",
@@ -465,7 +465,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Senators are not among the officials removable by impeachment. Impeachable officials include the President, Vice-President, Supreme Court members, constitutional commission members, and the Ombudsman."
+    "explanation": "The correct answer is choice D (\"Senators\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-019",
@@ -491,7 +491,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The national language of the Philippines is Filipino."
+    "explanation": "The correct answer is choice D (\"Filipino\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-020",
@@ -517,7 +517,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Amendments or revisions may be proposed by Congress or by a constitutional convention."
+    "explanation": "The correct answer is choice A (\"Congress or a Constitutional Convention\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-021",
@@ -543,7 +543,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Individuals who earn compensation income pay income tax on that income."
+    "explanation": "The correct answer is choice C (\"Income tax\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-022",
@@ -569,7 +569,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The traditional filing deadline for individual income tax returns is April 15 following the taxable year."
+    "explanation": "The correct answer is choice A (\"April 15\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-023",
@@ -595,7 +595,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A tax is an enforced contribution imposed by the government; it is not a voluntary payment."
+    "explanation": "The correct answer is choice C (\"It is an enforced contribution\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-024",
@@ -621,7 +621,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Estate tax is imposed on the transfer of a person's estate at death and is based on the value of the property transferred."
+    "explanation": "The correct answer is choice D (\"Estate tax\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-025",
@@ -647,7 +647,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "In the context of this older tax classification, a head of the family is an unmarried individual who supports qualified dependents."
+    "explanation": "The correct answer is choice B (\"an unmarried individual with dependents\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-026",
@@ -673,7 +673,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The Generics Act supports access to affordable medicines by promoting the use and prescribing of generic drug names."
+    "explanation": "The correct answer is choice B (\"Generics Act\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-027",
@@ -699,7 +699,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Elective local officials generally serve a three-year term."
+    "explanation": "The correct answer is choice A (\"The term of office is three years\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-028",
@@ -725,7 +725,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Of the public-domain land classifications, agricultural lands are the ones that may be alienable or disposable."
+    "explanation": "The correct answer is choice D (\"agricultural lands\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-029",
@@ -751,7 +751,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "For exploration, development, and utilization of natural resources, the Constitution limits foreign equity to 40%, with at least 60% Filipino ownership."
+    "explanation": "The correct answer is choice B (\"40%\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-030",
@@ -777,7 +777,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The Constitution recognizes the family as the foundation of the nation."
+    "explanation": "The correct answer is choice C (\"family\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "gi-031",
