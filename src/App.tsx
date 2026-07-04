@@ -2758,13 +2758,15 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
 }
 
 function ReportPrompt({ prompt }: { prompt: string }) {
-  if (!isDataSufficiencyPrompt(prompt)) {
-    return <p>{prompt}</p>
+  const cleanPrompt = prompt.replace(/\n\nContext: (?:[A-Z]|[IVX]+)\. reading passage$/u, '')
+
+  if (!isDataSufficiencyPrompt(cleanPrompt)) {
+    return <p>{cleanPrompt}</p>
   }
 
   return (
     <p>
-      {formatPromptLines(prompt).map((line, index) => (
+      {formatPromptLines(cleanPrompt).map((line, index) => (
         <span className="prompt-line" key={`${line}-${index}`}>
           {line}
         </span>
@@ -2787,9 +2789,7 @@ function createReportPrompt(prompt: string): string {
     return prompt
   }
 
-  const passageLabel = passage.match(/^([A-Z]|[IVX]+)\./u)?.[0] ?? 'Passage'
-
-  return `${question}\n\nContext: ${passageLabel} reading passage`
+  return question
 }
 
 function usesImageChoiceMarkers(choices: { text: string }[]): boolean {

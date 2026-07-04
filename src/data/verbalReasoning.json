@@ -4968,33 +4968,32 @@
   {
     "id": "vr-187",
     "subject": "Verbal Reasoning",
-    "prompt": "Gorio and Tekla, in addition to Captain Barbel, was a popular comic books during\na. b. c. d.\nthe ‘70s. No error.\ne.",
+    "prompt": "Choose the underlined part that contains an error:\nGorio and Tekla, in addition to Captain Barbel, was a popular comic book during the ?70s. No error.",
     "hint": "Identifying errors item: test the underlined parts for subject-verb agreement, tense, pronoun use, modifier placement, and prepositions.",
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Gorio and Tekla"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "in addition to Captain Barbel"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "was"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "comic book"
       },
       {
         "id": "E",
-        "text": "No error / walang mali"
+        "text": "No error"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Underlined part c\") because that underlined part contains the error.",
-    "image": "/question-images/vr-187.png"
+    "explanation": "The subject is compound (Gorio and Tekla), so the verb should be ?were,? not ?was.?"
   },
   {
     "id": "vr-188",
@@ -5216,32 +5215,32 @@
   {
     "id": "vr-195",
     "subject": "Verbal Reasoning",
-  "prompt": "Choose the underlined part that contains an error:\nA quarter of the government tax collections goes to infrastructure projects. No error.",
+    "prompt": "Choose the underlined part that contains an error:\nA quarter of the government tax collections goes to infrastructure projects. No error.",
     "hint": "Identifying errors item: test the underlined parts for subject-verb agreement, tense, pronoun use, modifier placement, and prepositions.",
     "choices": [
       {
         "id": "A",
-      "text": "A quarter"
+        "text": "A quarter"
       },
       {
         "id": "B",
-      "text": "collections"
+        "text": "collections"
       },
       {
         "id": "C",
-      "text": "goes"
+        "text": "goes"
       },
       {
         "id": "D",
-      "text": "projects"
+        "text": "projects"
       },
       {
         "id": "E",
         "text": "No error / walang mali"
       }
     ],
-  "correctChoiceId": "E",
-  "explanation": "There is no grammatical error. 'A quarter' is the singular subject, so 'goes' is acceptable.",
+    "correctChoiceId": "E",
+    "explanation": "There is no grammatical error. 'A quarter' is the singular subject, so 'goes' is acceptable.",
     "image": "/question-images/vr-195.png"
   },
   {
@@ -6052,7 +6051,7 @@
   {
     "id": "vr-222",
     "subject": "Verbal Reasoning",
-    "prompt": "I. A. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is\napproved, it goes to the President for approval or veto.\n\nWhat should be the fourth sentence?",
+    "prompt": "Arrange the sentences into a well-organized paragraph.\nA. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat should be the fourth sentence?",
     "hint": "Paragraph development item: find the topic sentence first, then arrange supporting sentences from general to specific or cause to effect.",
     "choices": [
       {
@@ -6073,7 +6072,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"C\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The logical order is D-A-E-C-B. The fourth sentence is C."
   },
   {
     "id": "vr-223",
@@ -8138,7 +8137,7 @@
   {
     "id": "vr-301",
     "subject": "Verbal Reasoning",
-    "prompt": "H.\nLove in the Open Han\nby Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nWhat figure of speech was used in the third stanza?",
+    "prompt": "Love in the Open Han\nby Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nWhat figure of speech was used in the third stanza?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8164,7 +8163,7 @@
   {
     "id": "vr-302",
     "subject": "Verbal Reasoning",
-    "prompt": "H.\nLove in the Open Han\nby Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nWhat does the author refer to in the last line “Look what I have! – and these are all\nfor you.”?",
+    "prompt": "Love in the Open Han\nby Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nWhat does the author refer to in the last line “Look what I have! – and these are all\nfor you.”?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8346,7 +8345,7 @@
   {
     "id": "vr-309",
     "subject": "Verbal Reasoning",
-    "prompt": "J. Although many quarts of blood pass through the heart each day, the heart cannot\nutilize the blood within itself, but rather is sustained by branches of arteries originating\nexternally. These coronary arteries can become blocked by the deposition of fatty\nmaterial (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the\nvessel walls. If the blockage is severe, numerous heart muscle cells become oxygen\nstarved and the heart stops. In less sever cases, only part of the heart muscle dies as\na result of the blockage. The dead muscle is replaced by scar tissue and the heart\ncontinues to function, though less efficiently. Diet, stress, smoking, and alcohol all\ncontribute to the problem of heart attacks. Interestingly, although fats in the diet are\noften blamed for the heart attacts, about 70% of the heart’s energy requirement\nnormally is derived from oxidation of fatty acids.\nfrom: Biology by Norstog and Meyerriecks\n\nCoronary arteries can become blocked by",
+    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot\nutilize the blood within itself, but rather is sustained by branches of arteries originating\nexternally. These coronary arteries can become blocked by the deposition of fatty\nmaterial (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the\nvessel walls. If the blockage is severe, numerous heart muscle cells become oxygen\nstarved and the heart stops. In less sever cases, only part of the heart muscle dies as\na result of the blockage. The dead muscle is replaced by scar tissue and the heart\ncontinues to function, though less efficiently. Diet, stress, smoking, and alcohol all\ncontribute to the problem of heart attacks. Interestingly, although fats in the diet are\noften blamed for the heart attacts, about 70% of the heart’s energy requirement\nnormally is derived from oxidation of fatty acids.\nfrom: Biology by Norstog and Meyerriecks\n\nCoronary arteries can become blocked by",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8398,7 +8397,7 @@
   {
     "id": "vr-311",
     "subject": "Verbal Reasoning",
-    "prompt": "J. Although many quarts of blood pass through the heart each day, the heart cannot\nutilize the blood within itself, but rather is sustained by branches of arteries originating\nexternally. These coronary arteries can become blocked by the deposition of fatty\nmaterial (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the\nvessel walls. If the blockage is severe, numerous heart muscle cells become oxygen\nstarved and the heart stops. In less sever cases, only part of the heart muscle dies as\na result of the blockage. The dead muscle is replaced by scar tissue and the heart\ncontinues to function, though less efficiently. Diet, stress, smoking, and alcohol all\ncontribute to the problem of heart attacks. Interestingly, although fats in the diet are\noften blamed for the heart attacts, about 70% of the heart’s energy requirement\nnormally is derived from oxidation of fatty acids.\nfrom: Biology by Norstog and Meyerriecks\n\nFats in the diet -",
+    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot\nutilize the blood within itself, but rather is sustained by branches of arteries originating\nexternally. These coronary arteries can become blocked by the deposition of fatty\nmaterial (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the\nvessel walls. If the blockage is severe, numerous heart muscle cells become oxygen\nstarved and the heart stops. In less sever cases, only part of the heart muscle dies as\na result of the blockage. The dead muscle is replaced by scar tissue and the heart\ncontinues to function, though less efficiently. Diet, stress, smoking, and alcohol all\ncontribute to the problem of heart attacks. Interestingly, although fats in the diet are\noften blamed for the heart attacts, about 70% of the heart’s energy requirement\nnormally is derived from oxidation of fatty acids.\nfrom: Biology by Norstog and Meyerriecks\n\nFats in the diet -",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8502,7 +8501,7 @@
   {
     "id": "vr-315",
     "subject": "Verbal Reasoning",
-    "prompt": "K. Cancer is a disease in which cells somehow become activated into uncontrolled\nmultiplication and thus produce an overgrowth, or tumor, composed of malformed,\nmalignanat cells. Cancerous tumors can occur in almost any tissue of the body,\nalthough some are more often affected than others. Three general kinds of cancer,\nnamed after the tissues most often affected, are recognized: carcinomas (from\nkarkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect\nmainly connective tissues, including bone; and leukemias, which start in the bone\nmarrow and lymphatic tissues and spread in the blood and lymph.\nfrom: Biology\nby Norstog and Meyerriecks\n\nCancer found in the skin would most likely be classifed as",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled\nmultiplication and thus produce an overgrowth, or tumor, composed of malformed,\nmalignanat cells. Cancerous tumors can occur in almost any tissue of the body,\nalthough some are more often affected than others. Three general kinds of cancer,\nnamed after the tissues most often affected, are recognized: carcinomas (from\nkarkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect\nmainly connective tissues, including bone; and leukemias, which start in the bone\nmarrow and lymphatic tissues and spread in the blood and lymph.\nfrom: Biology\nby Norstog and Meyerriecks\n\nCancer found in the skin would most likely be classifed as",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8658,7 +8657,7 @@
   {
     "id": "vr-321",
     "subject": "Verbal Reasoning",
-    "prompt": "L. When the tissues of the body are wounded, several events occur that resist the loss\nof blood from the cut vessels and begin the healing processes. At the wound site,\nblood platelets swell and burst, releasing chemicals that cause the arteries to constric\nand thus slow the loss of blood. The platelets also initiate a process that results in\nactivation of prothrombin activator, an enzyme that converts a blood-protein\nconstituent called prothrombin to thrombin. In the presence of calcium ions, thrombin\ncatalyzes the conversion of another blood-protein component, fibrinogen, into fibrin\nthreads. The fibrin threads form a fine meshwork in the blood and together with\ntrapped cells and other blood particles make a clot and block further the escape of\nblood from the wound. In the hereditary disease hemophilia, there is a deficiency in\nthe factors that activate the formation of prothrombin activator; the hemophiliac lacks\nthe ability to form clots at the point of wounding and may bleed to death from an\napparently minor cut or abrasion.\nfrom: Biology by Norstog and Meyerriecks\n\nHow are fibrin threads formed?",
+    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss\nof blood from the cut vessels and begin the healing processes. At the wound site,\nblood platelets swell and burst, releasing chemicals that cause the arteries to constric\nand thus slow the loss of blood. The platelets also initiate a process that results in\nactivation of prothrombin activator, an enzyme that converts a blood-protein\nconstituent called prothrombin to thrombin. In the presence of calcium ions, thrombin\ncatalyzes the conversion of another blood-protein component, fibrinogen, into fibrin\nthreads. The fibrin threads form a fine meshwork in the blood and together with\ntrapped cells and other blood particles make a clot and block further the escape of\nblood from the wound. In the hereditary disease hemophilia, there is a deficiency in\nthe factors that activate the formation of prothrombin activator; the hemophiliac lacks\nthe ability to form clots at the point of wounding and may bleed to death from an\napparently minor cut or abrasion.\nfrom: Biology by Norstog and Meyerriecks\n\nHow are fibrin threads formed?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {

@@ -4241,7 +4241,7 @@
   {
     "id": "fi-159",
     "subject": "Filipino",
-    "prompt": "G.\n\nAnong bansa ang may pinakamalaking GDP?",
+    "prompt": "Anong bansa ang may pinakamalaking GDP?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {

@@ -2146,28 +2146,24 @@
   {
     "id": "aa-083",
     "subject": "Analytical Ability",
-    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with a question mark?\n\nAbstract Reasoning item 13. Use the figure shown in the source image.",
+    "prompt": "Which of the figures a, b, or c will fit in the center tile with the question mark?",
     "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Figure a"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Figure b"
       },
       {
         "id": "C",
-        "text": "Option c"
-      },
-      {
-        "id": "D",
-        "text": "Option d"
+        "text": "Figure c"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Option a\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The correct answer is figure a because it completes the row-and-column pattern shown in the image.",
     "image": "/question-images/aa-083.png"
   },
   {
@@ -2502,23 +2498,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Figure a"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Figure b"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Figure c"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Figure d"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The correct answer is figure c because it is the figure that contains the shape shown on the left.",
     "image": "/question-images/aa-096.png"
   },
   {
