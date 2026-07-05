@@ -12,7 +12,7 @@ import {
 } from './types'
 import {
   completeExam,
-  createExamSession,
+  createExamSessionWithExclusions,
   getAnsweredHistoryCount,
   getLoadedQuestionCount,
   MAX_EXAM_ITEMS,
@@ -459,6 +459,10 @@ function mergeQuestionReports(...reportGroups: QuestionReport[][]): QuestionRepo
     .slice(0, 200)
 }
 
+function getReportedQuestionIds(reports: QuestionReport[] = readQuestionReports()): Set<string> {
+  return new Set(reports.map((report) => report.questionId))
+}
+
 function isQuestionReport(value: unknown): value is QuestionReport {
   if (!value || typeof value !== 'object') {
     return false
@@ -718,7 +722,7 @@ function App() {
     }
 
     clearInProgressExamDraft()
-    const nextSession = createExamSession(mode, timerEnabled)
+    const nextSession = createExamSessionWithExclusions(mode, timerEnabled, getReportedQuestionIds())
     const openExam = () => {
       setSession(nextSession)
       setAnswers({})
@@ -947,7 +951,7 @@ function App() {
       return nextReports
     })
 
-    const nextSession = replaceExamQuestion(session, itemId)
+    const nextSession = replaceExamQuestion(session, itemId, getReportedQuestionIds([report, ...questionReports]))
     if (nextSession !== session) {
       if (replacingQuestionTimeoutRef.current) {
         window.clearTimeout(replacingQuestionTimeoutRef.current)

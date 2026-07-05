@@ -1797,7 +1797,7 @@
   {
     "id": "nr-070",
     "subject": "Numerical Reasoning",
-    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens @ Php 0.125; 1,480\npacks paper clips @ Php 0.625; 1,240 boxes of tape @ Php 0.875; 1,720 boxes\nof cards @ 0.80. A 5% sales tax is added. What was the company’s total bill?",
+    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens at Php 0.125 each; 1,480 packs of paper clips at Php 0.625 each; 1,240 boxes of tape at Php 0.875 each; and 1,720 boxes of cards at Php 0.80 each. A 5% sales tax is added. What was the company's total bill?",
     "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
@@ -1818,7 +1818,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Php 3,728.55\") because it is the result that satisfies the problem."
+    "explanation": "The @ symbol in the source means \"at the unit price of.\" Subtotal = 1320(0.125) + 1480(0.625) + 1240(0.875) + 1720(0.80) = 3551. Add 5% tax: 3551(1.05) = Php 3,728.55."
   },
   {
     "id": "nr-071",

@@ -113,15 +113,6 @@ function pickQuestions(
   ].slice(0, targetCount)
 }
 
-function pickSubjectQuestions(
-  subject: Subject,
-  history: QuestionHistory,
-  examNumber: number,
-  targetCount: number,
-): Question[] {
-  return pickQuestions(questionsBySubject(subject), history, examNumber, targetCount)
-}
-
 function getSessionTitle(mode: ExamMode): string {
   if (mode.kind === 'mixed') {
     return 'Random Exam'
@@ -177,6 +168,14 @@ function allocateProportionately(itemCount: number, subjectCounts: Record<Subjec
 }
 
 export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = false): ExamSession {
+  return createExamSessionWithExclusions(mode, timed)
+}
+
+export function createExamSessionWithExclusions(
+  mode: ExamMode = { kind: 'mixed' },
+  timed = false,
+  excludedQuestionIds = new Set<string>(),
+): ExamSession {
   const history = getQuestionHistory()
   const examNumber = getCompletedExamCount() + 1
   const allEligibleQuestions = getExamEligibleQuestions()
@@ -203,7 +202,7 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
           history,
           examNumber,
           targetCount,
-          selectedQuestionIds,
+          new Set([...selectedQuestionIds, ...excludedQuestionIds]),
         )
 
         subjectQuestions.forEach((question) => selectedQuestionIds.add(question.id))
@@ -217,7 +216,7 @@ export function createExamSession(mode: ExamMode = { kind: 'mixed' }, timed = fa
       questionsBySubject(mode.subject).length,
     )
 
-    return pickSubjectQuestions(mode.subject, history, examNumber, subjectQuestionCount)
+    return pickQuestions(questionsBySubject(mode.subject), history, examNumber, subjectQuestionCount, excludedQuestionIds)
   })()
   const orderedQuestions = shuffle(questions)
 
@@ -244,17 +243,24 @@ function replacementPoolForQuestion(session: ExamSession, targetQuestion: Questi
   return sameSubjectPool.length > 0 ? sameSubjectPool : getExamEligibleQuestions()
 }
 
-export function replaceExamQuestion(session: ExamSession, itemId: string): ExamSession {
+export function replaceExamQuestion(
+  session: ExamSession,
+  itemId: string,
+  excludedQuestionIds = new Set<string>(),
+): ExamSession {
   const targetItem = session.questions.find((question) => question.id === itemId)
 
   if (!targetItem) {
     return session
   }
 
-  const excludedQuestionIds = new Set(session.questions.map((question) => question.question.id))
+  const excludedIds = new Set([
+    ...session.questions.map((question) => question.question.id),
+    ...excludedQuestionIds,
+  ])
   const history = getQuestionHistory()
   const replacementPool = replacementPoolForQuestion(session, targetItem.question)
-  const candidates = replacementPool.filter((question) => !excludedQuestionIds.has(question.id))
+  const candidates = replacementPool.filter((question) => !excludedIds.has(question.id))
   const eligibleCandidates = candidates.filter((question) => {
     const entry = history[question.id]
     return !entry || session.examNumber > entry.eligibleAgainAfterExamNumber

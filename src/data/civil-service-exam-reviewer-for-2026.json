@@ -860,28 +860,28 @@
   {
     "id": "cse2026-034",
     "subject": "Numerical Reasoning",
-    "prompt": "State the property illustrated. If 8(6) +4 =48+ 4 = 52, then 8(6)+4=52",
+    "prompt": "State the property illustrated: If 8(6) + 4 = 48 + 4 and 48 + 4 = 52, then 8(6) + 4 = 52.",
     "hint": "Identify which equality property lets you replace an expression with its computed value (e.g., 8×6 with 48).",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Distributive property of multiplication over addition"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Commutative property of addition"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Associative property"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Transitive property of equality"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "This illustrates the substitution property of equality (also called the replacement property): if a = b, then a can be replaced by b in any expression. Here 8(6) = 48, so 8(6) + 4 becomes 48 + 4 = 52. Per the answer key, option D names this property."
+    "correctChoiceId": "D",
+    "explanation": "If one expression equals a second expression, and the second equals a third, then the first equals the third. This is the transitive property of equality."
   },
   {
     "id": "cse2026-035",
@@ -2960,28 +2960,28 @@
   {
     "id": "cse2026-112",
     "subject": "Analytical Ability",
-    "prompt": "A. Felimon, Jason",
+    "prompt": "Arrange these names alphabetically:\nA. Felimon, Jason\nB. Felipe, Julian\nC. Felimon, Jamie\nD. Felipe, Julia",
     "hint": "The items appear to be names to be alphabetized by surname.",
     "choices": [
       {
         "id": "A",
-        "text": "Procession for a saint"
+        "text": "CADB"
       },
       {
         "id": "B",
-        "text": "Procession in court"
+        "text": "ACBD"
       },
       {
         "id": "C",
-        "text": "Funeral procession"
+        "text": "CABD"
       },
       {
         "id": "D",
-        "text": "Floral procession"
+        "text": "ACDB"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The full list of names is not visible. Per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the complete list."
+    "correctChoiceId": "C",
+    "explanation": "Sort by surname first, then given name: Felipe, Julia; Felipe, Julian; Felimon, Jamie; Felimon, Jason. The order is C-A-B-D."
   },
   {
     "id": "cse2026-113",
@@ -4236,7 +4236,7 @@
   {
     "id": "cse2026-162",
     "subject": "Verbal Reasoning",
-    "prompt": "Charmwas_ ecstatic when she won first prize in the short story writing contest.",
+    "prompt": "Charm was ecstatic when she won first prize in the short story writing contest.",
     "hint": "'Ecstatic' means feeling overwhelming happiness or joy.",
     "choices": [
       {
@@ -11430,28 +11430,28 @@
   {
     "id": "cse2026-431",
     "subject": "Verbal Reasoning",
-    "prompt": "Fats in the diet -",
+    "prompt": "Batay sa binasa tungkol sa puso: kapag nabara ang coronary arteries, nababawasan ang oxygen sa heart muscle. Kapag hindi sapat ang oxygen, maaaring mamatay ang bahagi ng muscle at mapalitan ng scar tissue. Karaniwang malaking bahagi ng energy requirement ng puso ay nagmumula sa oxidation ng fatty acids.\n\nFats in the diet -",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "are always useless."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "normally provide the heart's energy requirement."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "always cause heart blockage."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "normally get wasted."
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The original prompt is: Fats in the diet -. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The passage says about 70% of the heart's energy requirement normally comes from oxidation of fatty acids."
   },
   {
     "id": "cse2026-432",
@@ -11482,28 +11482,28 @@
   {
     "id": "cse2026-433",
     "subject": "Verbal Reasoning",
-    "prompt": "It is believed that cancer",
+    "prompt": "Batay sa binasa tungkol sa cancer: ang cancer ay sakit kung saan ang cells ay nagiging uncontrolled ang multiplication at bumubuo ng malignant tumors. Maaari itong mangyari sa halos anumang tissue ng katawan, bagama't may mga tissue na mas madalas maapektuhan kaysa sa iba.\n\nIt is believed that cancer",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "can occur in any tissue of the body."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "affects certain tissues of the body more than it does other tissues."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "both A and B"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "neither A nor B"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: It is believed that cancer. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "C",
+    "explanation": "The passage states both that cancer can occur in almost any tissue and that some tissues are more often affected than others."
   },
   {
     "id": "cse2026-434",
@@ -15670,28 +15670,28 @@
   {
     "id": "cse2026-593",
     "subject": "Filipino",
-    "prompt": "00\nNov90 Jan91 Dec93 Apr94 May96 May97 Feb98 Oct 99\nDates\nSource: Regional Tripartite Wages & Productivity Board - NCR",
+    "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999:\nNov 1990: Php 89.00\nJan 1991: Php 106.00\nDec 1993: Php 118.00\nApr 1994: Php 125.00\nMay 1996: Php 135.00\nMay 1997: Php 145.00\nFeb 1998: Php 165.00\nOct 1999: Php 193.50\nSource: Regional Tripartite Wages & Productivity Board - NCR\n\nTungkol saan ang grapong nabasa?",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Pinakamataas na pasahod sa Maynila sa iba't ibang taon"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Pinakamababang pasahod sa Maynila sa iba't ibang taon"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Regional Tripartite Wages and Productivity Board"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Bilang ng mga manggagawang napasahod sa iba't ibang taon"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The original prompt is: 00\nNov90 Jan91 Dec93 Apr94 May96 May97 Feb98 Oct 99\nDates\nSource: Regional Tripartite Wages & Productivity Board - NCR. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "A",
+    "explanation": "Ipinapakita ng graph ang minimum wage o pasahod sa Maynila sa iba't ibang taon."
   },
   {
     "id": "cse2026-594",
@@ -15722,28 +15722,28 @@
   {
     "id": "cse2026-595",
     "subject": "Filipino",
-    "prompt": "Gaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo\n1996?",
+    "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999:\nNov 1990: Php 89.00\nJan 1991: Php 106.00\nDec 1993: Php 118.00\nApr 1994: Php 125.00\nMay 1996: Php 135.00\nMay 1997: Php 145.00\nFeb 1998: Php 165.00\nOct 1999: Php 193.50\nSource: Regional Tripartite Wages & Productivity Board - NCR\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 1996?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
         "id": "A",
-        "text": "78.50"
+        "text": "Php 78.50"
       },
       {
         "id": "B",
-        "text": "838.50"
+        "text": "Php 838.50"
       },
       {
         "id": "C",
-        "text": "388.50"
+        "text": "Php 388.50"
       },
       {
         "id": "D",
-        "text": "®58.50"
+        "text": "Php 58.50"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: '®58.50'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Gaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo\n1996?"
+    "explanation": "Oktubre 1999 is Php 193.50 and Mayo 1996 is Php 135.00. Difference: 193.50 - 135.00 = Php 58.50."
   },
   {
     "id": "cse2026-596",
@@ -16910,7 +16910,7 @@
   {
     "id": "cse2026-642",
     "subject": "Analytical Ability",
-    "prompt": "3691215",
+    "prompt": "3 6 9 12 15",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17977,7 +17977,7 @@
   {
     "id": "cse2026-683",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nA26 C24 E21 F21",
+    "prompt": "A26 C24 E21 F21",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {

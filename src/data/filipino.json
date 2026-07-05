@@ -2949,33 +2949,32 @@
   {
     "id": "fi-113",
     "subject": "Filipino",
-    "prompt": "Tunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali. a b c d e",
+    "prompt": "Tunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali.",
     "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Tunay nga"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "masipag"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "maalahanin"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "ang panganay"
       },
       {
         "id": "E",
-        "text": "No error / walang mali"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
-    "image": "/question-images/fi-113.png"
+    "explanation": "Ang wastong anyo ay \"maalalahanin,\" kaya mali ang \"maalahanin.\""
   },
   {
     "id": "fi-114",
