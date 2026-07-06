@@ -18099,32 +18099,27 @@
     "id": "cse2026-680",
     "subject": "Analytical Ability",
     "prompt": "DQ4 GT7 CP3 HU8 BO2",
-    "hint": "This is a Analytical Ability item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "IV9"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "KX11"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "JW10"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
-      },
-      {
-        "id": "E",
-        "text": "No error"
+        "text": "MZ13"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: DQ4 GT7 CP3 HU8 BO2. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices.",
-    "image": "/question-images/cse2026-680.png"
+    "explanation": "The correct answer is choice A (\"IV9\") because it is the option that continues the sequence or pattern correctly."
   },
   {
     "id": "cse2026-681",
