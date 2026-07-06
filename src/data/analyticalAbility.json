@@ -4306,7 +4306,7 @@
   {
     "id": "aa-166",
     "subject": "Analytical Ability",
-    "prompt": "A file is transferred from Section A to Section B, then to Section\nD. Section C receives only files from Section\nB. Which statement is certain?",
+    "prompt": "A file is transferred from Section A to Section B, then to Section D.\nSection C receives only files from Section B.\nWhich statement is certain?",
     "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
     "choices": [
       {

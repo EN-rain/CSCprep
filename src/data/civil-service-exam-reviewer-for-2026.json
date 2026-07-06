@@ -782,28 +782,28 @@
   {
     "id": "cse2026-031",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the average temperature change for the 12-day period. Temperature change in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4,",
+    "prompt": "Find the average temperature change for the 12-day period. Temperature change in degrees Celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2.",
     "hint": "Average = sum of all values ÷ number of values. Add the eleven visible values and account for the twelfth.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "4.8"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "4.9"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "5.2"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "5.4"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The 12-day temperature changes sum to a total T. Average = T ÷ 12. The prompt lists only 11 values (the 12th is cut off); using the answer key, option D corresponds to the average computed from the full data set. Refer to the original PDF for the complete list of values."
+    "explanation": "The sum is 64.8. Divide by 12 to get 5.4."
   },
   {
     "id": "cse2026-032",
@@ -1017,23 +1017,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Php 5.6M"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Php 8.4M"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Php 10.5M"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Php 21M"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Let L = lot cost. House = 1.5L. Total: L + 1.5L = 2.5L = 14,000,000. So L = 14,000,000 ÷ 2.5 = 5,600,000 pesos."
+    "correctChoiceId": "A",
+    "explanation": "Let the lot cost x. Then house = 1.5x and total = 2.5x = 14M, so x = 5.6M."
   },
   {
     "id": "cse2026-041",
@@ -5936,7 +5936,7 @@
   {
     "id": "cse2026-228",
     "subject": "Verbal Reasoning",
-    "prompt": "Mazurka: Polish || Fandango: =”",
+    "prompt": "Mazurka: Polish || Fandango: ______",
     "hint": "The Mazurka is a Polish folk dance. The Fandango is from which country?",
     "choices": [
       {
@@ -5956,8 +5956,8 @@
         "text": "Polish"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The Mazurka is a traditional Polish dance. The Fandango is a lively Spanish dance. So the answer is Spanish."
+    "correctChoiceId": "B",
+    "explanation": "A mazurka is a Polish dance; a fandango is a Spanish dance."
   },
   {
     "id": "cse2026-229",
@@ -6560,28 +6560,28 @@
   {
     "id": "cse2026-252",
     "subject": "Verbal Reasoning",
-    "prompt": "hand: arm",
+    "prompt": "hand : arm",
     "hint": "A hand is part of an arm. Find another part-to-whole body relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "foot : leg"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "hips : sway"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "waist : belt"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "shoulder : neck"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "A hand is part of an arm. The choices are placeholders in the extracted text; per the answer key, option A is correct. Common answers include: 'finger : hand', 'eye : face', 'foot : leg'. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "A",
+    "explanation": "A hand is part of an arm; a foot is part of a leg."
   },
   {
     "id": "cse2026-253",
@@ -7404,7 +7404,7 @@
   {
     "id": "cse2026-284",
     "subject": "Verbal Reasoning",
-    "prompt": "Choose the underlined part that contains an error:\nThe Supreme Court upholds the highest principles and standards of morality as",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -7429,7 +7429,8 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The prompt is truncated. Per the answer key, option A is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question."
+    "explanation": "The sentence is acceptable as written; choose No error.",
+    "image": "/question-images/vr-166.png"
   },
   {
     "id": "cse2026-285",
@@ -9006,7 +9007,7 @@
   {
     "id": "cse2026-339",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat should be the first sentence?",
+    "prompt": "A. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat should be the first sentence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9156,7 +9157,7 @@
   {
     "id": "cse2026-344",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat should be the fourth sentence?",
+    "prompt": "A. Learning to listen is one way of keeping friends.\nB. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat should be the fourth sentence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9216,7 +9217,7 @@
   {
     "id": "cse2026-346",
     "subject": "Verbal Reasoning",
-    "prompt": "B. He has control over department secretaries and can overrule their decisions.\nC. Furthermore, the President exercises veto power over bills passed by the\nCongress.\nD. Lastly, he is the Chief Executive, executing the laws and rules of the country.\nE. The president in a presidential system is the Head of the State and the Head of\nGovernment\n\nWhat should be the second sentence?",
+    "prompt": "A. Hence, it can be said that the President really has a lot of duties and responsibilities.\nB. He has control over department secretaries and can overrule their decisions.\nC. Furthermore, the President exercises veto power over bills passed by the Congress.\nD. Lastly, he is the Chief Executive, executing the laws and rules of the country.\nE. The president in a presidential system is the Head of the State and the Head of Government.\n\nWhat should be the second sentence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11560,28 +11561,28 @@
   {
     "id": "cse2026-436",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the basis for the classification of cancers?",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas, sarcomas, and leukemias.\n\nWhat is the basis for the classification of cancers?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "the cancer's size and weight"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "the cancer's location and the tissue affected"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "the cancer's length of existence"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "the cancer's extent of growth"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: What is the basis for the classification of cancers?. Per the answer key, the correct choice is B. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "B",
+    "explanation": "The passage says cancers are named after the tissues most often affected."
   },
   {
     "id": "cse2026-437",
@@ -13888,28 +13889,28 @@
   {
     "id": "cse2026-526",
     "subject": "Filipino",
-    "prompt": "ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan. 4.\nWinika",
+    "prompt": "________ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan.",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Winika"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Sinulatan"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Isinabi"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Nalaman"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The original prompt is: ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan. 4.\nWinika. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "A",
+    "explanation": "The best completion is \"Winika ni Emilio Jacinto...\""
   },
   {
     "id": "cse2026-527",
@@ -17196,7 +17197,7 @@
   {
     "id": "cse2026-653",
     "subject": "Analytical Ability",
-    "prompt": "49511613715",
+    "prompt": "4 9 5 11 6 13 7 15",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17326,7 +17327,7 @@
   {
     "id": "cse2026-658",
     "subject": "Analytical Ability",
-    "prompt": "EFHGIJ",
+    "prompt": "E F H G I J",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17339,7 +17340,7 @@
       },
       {
         "id": "C",
-        "text": ""
+        "text": "KM"
       },
       {
         "id": "D",
@@ -17430,7 +17431,7 @@
   {
     "id": "cse2026-662",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nABCDEF",
+    "prompt": "A B C D E F",
     "hint": "Continue the alphabet sequence.",
     "choices": [
       {
