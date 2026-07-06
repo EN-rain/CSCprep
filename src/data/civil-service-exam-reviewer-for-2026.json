@@ -7262,7 +7262,7 @@
   {
     "id": "cse2026-279",
     "subject": "Verbal Reasoning",
-    "prompt": "Choose the underlined part that contains an error:\nNo one were happy about the Mindanao crisis. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7287,12 +7287,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The sentence has a subject-verb agreement error. 'No one' is singular and requires the singular verb 'was', not 'were'. The correct sentence: 'No one was happy about the Mindanao crisis.'"
+    "explanation": "The sentence has a subject-verb agreement error. 'No one' is singular and requires the singular verb 'was', not 'were'. The correct sentence: 'No one was happy about the Mindanao crisis.'",
+    "image": "/question-images/vr-161.png"
   },
   {
     "id": "cse2026-280",
     "subject": "Verbal Reasoning",
-    "prompt": "The House of Representatives’ decision to decrease the budget for the.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "The sentence is incomplete (cut off). Refer to the original PDF for the full question.",
     "choices": [
       {
@@ -7313,12 +7314,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The prompt is truncated. Per the answer key, option A is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question."
+    "explanation": "The prompt is truncated. Per the answer key, option A is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question.",
+    "image": "/question-images/vr-162.png"
   },
   {
     "id": "cse2026-281",
     "subject": "Verbal Reasoning",
-    "prompt": "Choose the underlined part that contains an error:\nThe Cabinet regularly meet once a week. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7343,12 +7345,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The sentence has a subject-verb agreement error. 'The Cabinet' (plural members) should take 'meet' as a collective noun acting as plural, OR if singular, 'meets'. Actually, in this context, 'Cabinet' refers to the body of ministers collectively, which is plural in number — so 'meets' (singular) is acceptable, but 'regularly meets' is the corrected form."
+    "explanation": "The sentence has a subject-verb agreement error. 'The Cabinet' (plural members) should take 'meet' as a collective noun acting as plural, OR if singular, 'meets'. Actually, in this context, 'Cabinet' refers to the body of ministers collectively, which is plural in number — so 'meets' (singular) is acceptable, but 'regularly meets' is the corrected form.",
+    "image": "/question-images/vr-163.png"
   },
   {
     "id": "cse2026-282",
     "subject": "Verbal Reasoning",
-    "prompt": "Choose the underlined part that contains an error:\nBoth the Senators and the Congressmen legislates laws. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7373,12 +7376,13 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "With 'both...and', the verb should agree with the nearer subject or be plural. 'Both Senators and Congressmen' takes the plural verb 'legislate', not 'legislates'. The correct sentence: 'Both the Senators and the Congressmen legislate laws.'"
+    "explanation": "With 'both...and', the verb should agree with the nearer subject or be plural. 'Both Senators and Congressmen' takes the plural verb 'legislate', not 'legislates'. The correct sentence: 'Both the Senators and the Congressmen legislate laws.'",
+    "image": "/question-images/vr-164.png"
   },
   {
     "id": "cse2026-283",
     "subject": "Verbal Reasoning",
-    "prompt": "The Philippine government have three branches of powers: the executive, the",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "'Government' can be singular or plural. Check the context.",
     "choices": [
       {
@@ -7399,7 +7403,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The sentence has a subject-verb agreement error. 'Government' is singular, so it should take 'has' not 'have'. The correct sentence: 'The Philippine government has three branches of powers...'"
+    "explanation": "The sentence has a subject-verb agreement error. 'Government' is singular, so it should take 'has' not 'have'. The correct sentence: 'The Philippine government has three branches of powers...'",
+    "image": "/question-images/vr-165.png"
   },
   {
     "id": "cse2026-284",
@@ -7435,7 +7440,7 @@
   {
     "id": "cse2026-285",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nSome historians contests the origin of the Filipino flag. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7460,12 +7465,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The subject 'Some historians' is plural, so the verb should be 'contest' (without the -s). The correct sentence: 'Some historians contest the origin of the Filipino flag. No error.'"
+    "explanation": "The subject 'Some historians' is plural, so the verb should be 'contest' (without the -s). The correct sentence: 'Some historians contest the origin of the Filipino flag. No error.'",
+    "image": "/question-images/vr-167.png"
   },
   {
     "id": "cse2026-286",
     "subject": "General Information",
-    "prompt": "Some believe that the flag we use now is not the same as the one made by Marcela",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "The sentence is incomplete (cut off). Refer to the original PDF for the full question.",
     "choices": [
       {
@@ -7486,12 +7492,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The prompt is truncated. Per the answer key, option D is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question."
+    "explanation": "The prompt is truncated. Per the answer key, option D is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question.",
+    "image": "/question-images/vr-168.png"
   },
   {
     "id": "cse2026-287",
     "subject": "General Information",
-    "prompt": "Either Prof. Teodoro Agoncillo or Dr. Gregorio F. Zaide affirm the history of our flag.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "With 'either...or', the verb agrees with the nearer subject. 'Dr. Zaide' is singular.",
     "choices": [
       {
@@ -7516,12 +7523,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "With 'either...or', the verb agrees with the nearer subject. 'Dr. Gregorio F. Zaide' is singular, so the verb should be 'affirms' (singular), not 'affirm'. The correct sentence: 'Either Prof. Teodoro Agoncillo or Dr. Gregorio F. Zaide affirms the history of our flag.'"
+    "explanation": "With 'either...or', the verb agrees with the nearer subject. 'Dr. Gregorio F. Zaide' is singular, so the verb should be 'affirms' (singular), not 'affirm'. The correct sentence: 'Either Prof. Teodoro Agoncillo or Dr. Gregorio F. Zaide affirms the history of our flag.'",
+    "image": "/question-images/vr-169.png"
   },
   {
     "id": "cse2026-288",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThe news are written immediately to meet the previous deadline. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7546,12 +7554,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "'News' is an uncountable noun treated as singular, so it should take 'is' not 'are'. The correct sentence: 'The news is written immediately to meet the previous deadline. No error.'"
+    "explanation": "'News' is an uncountable noun treated as singular, so it should take 'is' not 'are'. The correct sentence: 'The news is written immediately to meet the previous deadline. No error.'",
+    "image": "/question-images/vr-170.png"
   },
   {
     "id": "cse2026-289",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nAttempts is made to locate and restore the last original Filipino flag. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7576,12 +7585,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "'Attempts' is plural, so it requires the plural verb 'are' not 'is'. The correct sentence: 'Attempts are made to locate and restore the last original Filipino flag. No error.'"
+    "explanation": "'Attempts' is plural, so it requires the plural verb 'are' not 'is'. The correct sentence: 'Attempts are made to locate and restore the last original Filipino flag. No error.'",
+    "image": "/question-images/vr-171.png"
   },
   {
     "id": "cse2026-290",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nBoth Chelle and Charm enjoys reading. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7606,12 +7616,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "With 'both...and' connecting two subjects (Chelle and Charm), the verb should be plural: 'enjoy', not 'enjoys'. The correct sentence: 'Both Chelle and Charm enjoy reading. No error.'"
+    "explanation": "With 'both...and' connecting two subjects (Chelle and Charm), the verb should be plural: 'enjoy', not 'enjoys'. The correct sentence: 'Both Chelle and Charm enjoy reading. No error.'",
+    "image": "/question-images/vr-172.png"
   },
   {
     "id": "cse2026-291",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nReading books widens one’s horizons. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7636,12 +7647,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The sentence 'Reading books widens one's horizons' is grammatically correct. 'Reading books' is the gerund subject (singular), so 'widens' agrees with it. The answer is 'No error'."
+    "explanation": "The sentence 'Reading books widens one's horizons' is grammatically correct. 'Reading books' is the gerund subject (singular), so 'widens' agrees with it. The answer is 'No error'.",
+    "image": "/question-images/vr-173.png"
   },
   {
     "id": "cse2026-292",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nIf everybody know how to read, then books will never cease to be useful. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7666,12 +7678,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "'Everybody' is singular and requires the singular verb 'knows', not 'know'. The correct sentence: 'If everybody knows how to read, then books will never cease to be useful.'"
+    "explanation": "'Everybody' is singular and requires the singular verb 'knows', not 'know'. The correct sentence: 'If everybody knows how to read, then books will never cease to be useful.'",
+    "image": "/question-images/vr-174.png"
   },
   {
     "id": "cse2026-293",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nNo one dares to question how invaluable books are. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7696,12 +7709,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The sentence is grammatically correct: 'No one' (singular) takes 'dares' (singular). The answer is 'No error'."
+    "explanation": "The sentence is grammatically correct: 'No one' (singular) takes 'dares' (singular). The answer is 'No error'.",
+    "image": "/question-images/vr-175.png"
   },
   {
     "id": "cse2026-294",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nGreat literary works enriches the vocabulary of their readers. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7726,12 +7740,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The subject 'Great literary works' is plural, so it requires the plural verb 'enrich', not 'enriches'. The correct sentence: 'Great literary works enrich the vocabulary of their readers.'"
+    "explanation": "The subject 'Great literary works' is plural, so it requires the plural verb 'enrich', not 'enriches'. The correct sentence: 'Great literary works enrich the vocabulary of their readers.'",
+    "image": "/question-images/vr-176.png"
   },
   {
     "id": "cse2026-295",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nHave either of the books been returned?. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7756,12 +7771,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "'Either' is singular and requires the singular auxiliary 'Has', not 'Have'. The correct sentence: 'Has either of the books been returned?'"
+    "explanation": "'Either' is singular and requires the singular auxiliary 'Has', not 'Have'. The correct sentence: 'Has either of the books been returned?'",
+    "image": "/question-images/vr-177.png"
   },
   {
     "id": "cse2026-296",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nOne hundred fifty pesos are the average selling price of one textbook. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7786,12 +7802,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "'One hundred fifty pesos' is a single sum of money, so it takes the singular verb 'is', not 'are'. The correct sentence: 'One hundred fifty pesos is the average selling price of one textbook.'"
+    "explanation": "'One hundred fifty pesos' is a single sum of money, so it takes the singular verb 'is', not 'are'. The correct sentence: 'One hundred fifty pesos is the average selling price of one textbook.'",
+    "image": "/question-images/vr-178.png"
   },
   {
     "id": "cse2026-297",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nOne of the machines in the printing press weren’t functioning properly. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7816,12 +7833,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The subject 'One' is singular, so the verb should be 'wasn't', not 'weren't'. The correct sentence: 'One of the machines in the printing press wasn't functioning properly.'"
+    "explanation": "The subject 'One' is singular, so the verb should be 'wasn't', not 'weren't'. The correct sentence: 'One of the machines in the printing press wasn't functioning properly.'",
+    "image": "/question-images/vr-179.png"
   },
   {
     "id": "cse2026-298",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nEither the teachers or the librarian, take care of the books. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7846,12 +7864,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "With 'either...or', the verb agrees with the nearer subject. 'The librarian' is singular, so the verb should be 'takes'. Also, no comma before the verb. The correct sentence: 'Either the teachers or the librarian takes care of the books.'"
+    "explanation": "With 'either...or', the verb agrees with the nearer subject. 'The librarian' is singular, so the verb should be 'takes'. Also, no comma before the verb. The correct sentence: 'Either the teachers or the librarian takes care of the books.'",
+    "image": "/question-images/vr-180.png"
   },
   {
     "id": "cse2026-299",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nA number of books is regularly donated to public schools. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7876,12 +7895,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "'A number of books' is plural and takes the plural verb 'are', not 'is'. The correct sentence: 'A number of books are regularly donated to public schools.'"
+    "explanation": "'A number of books' is plural and takes the plural verb 'are', not 'is'. The correct sentence: 'A number of books are regularly donated to public schools.'",
+    "image": "/question-images/vr-181.png"
   },
   {
     "id": "cse2026-300",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThe number of readers continually rise each year. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7906,12 +7926,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "'The number of readers' is singular (the subject is 'number'), so the verb should be 'rises', not 'rise'. The correct sentence: 'The number of readers continually rises each year.'"
+    "explanation": "'The number of readers' is singular (the subject is 'number'), so the verb should be 'rises', not 'rise'. The correct sentence: 'The number of readers continually rises each year.'",
+    "image": "/question-images/vr-182.png"
   },
   {
     "id": "cse2026-301",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nFor I, Reader’s Digest is informative as well as entertaining. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7936,12 +7957,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "After the preposition 'For', the objective pronoun 'me' should be used, not the subjective 'I'. The correct sentence: 'For me, Reader's Digest is informative as well as entertaining.'"
+    "explanation": "After the preposition 'For', the objective pronoun 'me' should be used, not the subjective 'I'. The correct sentence: 'For me, Reader's Digest is informative as well as entertaining.'",
+    "image": "/question-images/vr-183.png"
   },
   {
     "id": "cse2026-302",
     "subject": "General Information",
-    "prompt": "The Manila Bulletin has been published the Panorama magazine for over a hundred",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "The sentence is incomplete (cut off). Refer to the original PDF for the full question.",
     "choices": [
       {
@@ -7962,12 +7984,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The prompt is truncated. Per the answer key, option B is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question."
+    "explanation": "The prompt is truncated. Per the answer key, option B is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question.",
+    "image": "/question-images/vr-184.png"
   },
   {
     "id": "cse2026-303",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nAll children has inherent rights that must be protected. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -7992,12 +8015,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "'All children' is plural and requires the plural verb 'have', not 'has'. The correct sentence: 'All children have inherent rights that must be protected.'"
+    "explanation": "'All children' is plural and requires the plural verb 'have', not 'has'. The correct sentence: 'All children have inherent rights that must be protected.'",
+    "image": "/question-images/vr-185.png"
   },
   {
     "id": "cse2026-304",
     "subject": "General Information",
-    "prompt": "The editor-in-chief, together with the writers, confers about the contents of their",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "When 'together with' is inserted between subject and verb, the subject remains singular.",
     "choices": [
       {
@@ -8018,12 +8042,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The subject is 'The editor-in-chief' (singular). The phrase 'together with the writers' is parenthetical and does not change the subject. So 'confers' (singular) is correct. The sentence has no error."
+    "explanation": "The subject is 'The editor-in-chief' (singular). The phrase 'together with the writers' is parenthetical and does not change the subject. So 'confers' (singular) is correct. The sentence has no error.",
+    "image": "/question-images/vr-186.png"
   },
   {
     "id": "cse2026-305",
     "subject": "General Information",
-    "prompt": "Gorio and Tekla, in addition to Captain Barbel, was a popular comic books during _",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "The compound subject 'Gorio and Tekla' is plural, so the verb must be plural.",
     "choices": [
       {
@@ -8048,12 +8073,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The compound subject 'Gorio and Tekla' is plural. The phrase 'in addition to Captain Barbel' is parenthetical. So the verb should be 'were', not 'was'. The correct sentence: 'Gorio and Tekla, in addition to Captain Barbel, were popular comic books during the '70s.'"
+    "explanation": "The compound subject 'Gorio and Tekla' is plural. The phrase 'in addition to Captain Barbel' is parenthetical. So the verb should be 'were', not 'was'. The correct sentence: 'Gorio and Tekla, in addition to Captain Barbel, were popular comic books during the '70s.'",
+    "image": "/question-images/vr-187.png"
   },
   {
     "id": "cse2026-306",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nPol Medina has drew the very famous Pugad Baboy characters. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8078,12 +8104,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "After 'has', the past participle 'drawn' should be used, not the simple past 'drew'. The correct sentence: 'Pol Medina has drawn the very famous Pugad Baboy characters.'"
+    "explanation": "After 'has', the past participle 'drawn' should be used, not the simple past 'drew'. The correct sentence: 'Pol Medina has drawn the very famous Pugad Baboy characters.'",
+    "image": "/question-images/vr-188.png"
   },
   {
     "id": "cse2026-307",
     "subject": "General Information",
-    "prompt": "Pugad Baboy first appear in the Philippine Daily Inquirer during the late ‘80s.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "'First appear' should be in the past tense 'first appeared' to match the time marker 'during the late '80s'.",
     "choices": [
       {
@@ -8108,12 +8135,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The sentence uses the simple present 'appear' but refers to a past event ('during the late '80s'). The correct verb form is 'appeared'. The correct sentence: 'Pugad Baboy first appeared in the Philippine Daily Inquirer during the late '80s.' Note: the answer key marks D (No error), but the sentence does contain an error."
+    "explanation": "The sentence uses the simple present 'appear' but refers to a past event ('during the late '80s'). The correct verb form is 'appeared'. The correct sentence: 'Pugad Baboy first appeared in the Philippine Daily Inquirer during the late '80s.' Note: the answer key marks D (No error), but the sentence does contain an error.",
+    "image": "/question-images/vr-189.png"
   },
   {
     "id": "cse2026-308",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nNeither Pol Medina nor his friends thinks he will become successful. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8138,12 +8166,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "With 'neither...nor', the verb agrees with the nearer subject. 'His friends' is plural, so the verb should be 'think', not 'thinks'. The correct sentence: 'Neither Pol Medina nor his friends think he will become successful.'"
+    "explanation": "With 'neither...nor', the verb agrees with the nearer subject. 'His friends' is plural, so the verb should be 'think', not 'thinks'. The correct sentence: 'Neither Pol Medina nor his friends think he will become successful.'",
+    "image": "/question-images/vr-190.png"
   },
   {
     "id": "cse2026-309",
     "subject": "General Information",
-    "prompt": "Some believes that Mr. Medina’s works satirize the socio-economic condition of the",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "'Some' as a subject is plural and takes a plural verb.",
     "choices": [
       {
@@ -8164,12 +8193,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "'Some' as a subject is plural and takes the plural verb 'believe', not 'believes'. The correct sentence: 'Some believe that Mr. Medina's works satirize the socio-economic condition of the people in our country.'"
+    "explanation": "'Some' as a subject is plural and takes the plural verb 'believe', not 'believes'. The correct sentence: 'Some believe that Mr. Medina's works satirize the socio-economic condition of the people in our country.'",
+    "image": "/question-images/vr-191.png"
   },
   {
     "id": "cse2026-310",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThe youth delegates have been sang the National Anthem. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8194,12 +8224,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "After 'have been', the present participle should be used. 'Singing' is correct; 'sang' is simple past and doesn't fit. The correct sentence: 'The youth delegates have been singing the National Anthem.'"
+    "explanation": "After 'have been', the present participle should be used. 'Singing' is correct; 'sang' is simple past and doesn't fit. The correct sentence: 'The youth delegates have been singing the National Anthem.'",
+    "image": "/question-images/vr-192.png"
   },
   {
     "id": "cse2026-311",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThat house and lot in the corner are government-owned. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8224,12 +8255,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "'House and lot' in this context refers to a single property (a house-and-lot package), which is treated as singular. The verb should be 'is', not 'are'. The correct sentence: 'That house and lot in the corner is government-owned.'"
+    "explanation": "'House and lot' in this context refers to a single property (a house-and-lot package), which is treated as singular. The verb should be 'is', not 'are'. The correct sentence: 'That house and lot in the corner is government-owned.'",
+    "image": "/question-images/vr-193.png"
   },
   {
     "id": "cse2026-312",
     "subject": "General Information",
-    "prompt": "The number of socialized housing units sponsored by the government increases",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "'The number of' is singular, and 'increases' agrees with it. The sentence is correct.",
     "choices": [
       {
@@ -8250,12 +8282,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The subject 'The number of socialized housing units' is singular (the head noun is 'number'), and 'increases' agrees with it. The sentence is grammatically correct. The answer is 'No error'."
+    "explanation": "The subject 'The number of socialized housing units' is singular (the head noun is 'number'), and 'increases' agrees with it. The sentence is grammatically correct. The answer is 'No error'.",
+    "image": "/question-images/vr-194.png"
   },
   {
     "id": "cse2026-313",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nA quarter of the government tax collections goes to infrastructure projects. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8280,12 +8313,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The original prompt is: A quarter of the government tax collections goes to infrastructure projects. No error.. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: A quarter of the government tax collections goes to infrastructure projects. No error.. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/vr-195.png"
   },
   {
     "id": "cse2026-314",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThe beneficiaries of the study grant given by the government will be them. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8310,12 +8344,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The error in the sentence is at the underlined portion marked choice C: '4.'. Review the grammar rule that applies here.. The original sentence: The beneficiaries of the study grant given by the government will be them. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice C: '4.'. Review the grammar rule that applies here.. The original sentence: The beneficiaries of the study grant given by the government will be them. No error.",
+    "image": "/question-images/vr-196.png"
   },
   {
     "id": "cse2026-315",
     "subject": "General Information",
-    "prompt": "Studies suggests that exposure to too much violence on television makes one",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -8336,12 +8371,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Choice B ('Cc. equally violent. No error.') correctly states the fact or principle tested. Question: Studies suggests that exposure to too much violence on television makes one"
+    "explanation": "Choice B ('Cc. equally violent. No error.') correctly states the fact or principle tested. Question: Studies suggests that exposure to too much violence on television makes one",
+    "image": "/question-images/vr-197.png"
   },
   {
     "id": "cse2026-316",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThe possible effects of television viewing needs to be explored further. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8366,12 +8402,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: The possible effects of television viewing needs to be explored further. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: The possible effects of television viewing needs to be explored further. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/vr-198.png"
   },
   {
     "id": "cse2026-317",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nEvery weekdays, Chel and Charm goes to school together. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8396,12 +8433,13 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The error in the sentence is at the underlined portion marked choice E: 'Page| 67'. Review the grammar rule that applies here.. The original sentence: Every weekdays, Chel and Charm goes to school together. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice E: 'Page| 67'. Review the grammar rule that applies here.. The original sentence: Every weekdays, Chel and Charm goes to school together. No error.",
+    "image": "/question-images/vr-199.png"
   },
   {
     "id": "cse2026-318",
     "subject": "General Information",
-    "prompt": "The Scent of Apples, a story about a Filipino who immigrated to the United States",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -8418,12 +8456,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Choice A ('') correctly states the fact or principle tested. Question: The Scent of Apples, a story about a Filipino who immigrated to the United States"
+    "explanation": "Choice A ('') correctly states the fact or principle tested. Question: The Scent of Apples, a story about a Filipino who immigrated to the United States",
+    "image": "/question-images/vr-200.png"
   },
   {
     "id": "cse2026-319",
     "subject": "General Information",
-    "prompt": "Nick Joaquin, one of the exceptional Filipino writers, is also known for Quijano de",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -8440,12 +8479,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Choice D ('Manila. No error.') correctly states the fact or principle tested. Question: Nick Joaquin, one of the exceptional Filipino writers, is also known for Quijano de"
+    "explanation": "Choice D ('Manila. No error.') correctly states the fact or principle tested. Question: Nick Joaquin, one of the exceptional Filipino writers, is also known for Quijano de",
+    "image": "/question-images/vr-201.png"
   },
   {
     "id": "cse2026-320",
     "subject": "General Information",
-    "prompt": "Some people believes that one could see his future mate by looking into a mirror on",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -8470,12 +8510,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Choice A ('') correctly states the fact or principle tested. Question: Some people believes that one could see his future mate by looking into a mirror on"
+    "explanation": "Choice A ('') correctly states the fact or principle tested. Question: Some people believes that one could see his future mate by looking into a mirror on",
+    "image": "/question-images/vr-202.png"
   },
   {
     "id": "cse2026-321",
     "subject": "General Information",
-    "prompt": "Jose Garcia Villa was a recipient of numerous awards, between them, the “National",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -8500,12 +8541,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Choice A ('') correctly states the fact or principle tested. Question: Jose Garcia Villa was a recipient of numerous awards, between them, the “National"
+    "explanation": "Choice A ('') correctly states the fact or principle tested. Question: Jose Garcia Villa was a recipient of numerous awards, between them, the “National",
+    "image": "/question-images/vr-203.png"
   },
   {
     "id": "cse2026-322",
     "subject": "General Information",
-    "prompt": "The Far Eastern University (FEU) also gave he a Docotr of Literature honoris causa",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -8526,12 +8568,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: The Far Eastern University (FEU) also gave he a Docotr of Literature honoris causa. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: The Far Eastern University (FEU) also gave he a Docotr of Literature honoris causa. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/vr-204.png"
   },
   {
     "id": "cse2026-323",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nBetween the numerous prose writers, I think Nick Joaquin is the best. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8556,12 +8599,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'Cc.'. Review the grammar rule that applies here.. The original sentence: Between the numerous prose writers, I think Nick Joaquin is the best. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'Cc.'. Review the grammar rule that applies here.. The original sentence: Between the numerous prose writers, I think Nick Joaquin is the best. No error.",
+    "image": "/question-images/vr-205.png"
   },
   {
     "id": "cse2026-324",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThose are work of famous authors. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8586,12 +8630,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The error in the sentence is at the underlined portion marked choice A: 'b. ©.'. Check agreement between 'those' and 'are'. The original sentence: Those are work of famous authors. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice A: 'b. ©.'. Check agreement between 'those' and 'are'. The original sentence: Those are work of famous authors. No error.",
+    "image": "/question-images/vr-206.png"
   },
   {
     "id": "cse2026-325",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThe professor asked her a question about they. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8616,12 +8661,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The sentence is grammatically correct. There is no error."
+    "explanation": "The sentence is grammatically correct. There is no error.",
+    "image": "/question-images/vr-207.png"
   },
   {
     "id": "cse2026-326",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nLiterature seem elusive to people who profess indifference to it. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8646,12 +8692,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The sentence is grammatically correct. There is no error."
+    "explanation": "The sentence is grammatically correct. There is no error.",
+    "image": "/question-images/vr-208.png"
   },
   {
     "id": "cse2026-327",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nIt appeals both to the readers intellect and passion. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8676,12 +8723,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: It appeals both to the readers intellect and passion. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: It appeals both to the readers intellect and passion. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/vr-209.png"
   },
   {
     "id": "cse2026-328",
     "subject": "General Information",
-    "prompt": "Robert Frost, an American poet, defines litereature as “performance in words.”",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -8702,12 +8750,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Choice D ('No error.') correctly states the fact or principle tested. Question: Robert Frost, an American poet, defines litereature as “performance in words.”"
+    "explanation": "Choice D ('No error.') correctly states the fact or principle tested. Question: Robert Frost, an American poet, defines litereature as “performance in words.”",
+    "image": "/question-images/vr-210.png"
   },
   {
     "id": "cse2026-329",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nEither of the authors have received citations for their remarkable works. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8732,12 +8781,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: Either of the authors have received citations for their remarkable works. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: Either of the authors have received citations for their remarkable works. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/vr-211.png"
   },
   {
     "id": "cse2026-330",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nJust like Edgar Allan Poe, it is believed that Nick Joaquin starts getting ideas after ab. Cc. he has drank alcoholic beverages. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8762,12 +8812,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The original prompt is: Just like Edgar Allan Poe, it is believed that Nick Joaquin starts getting ideas after\nab. Cc.\nhe has drank alcoholic beverages. No error.. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: Just like Edgar Allan Poe, it is believed that Nick Joaquin starts getting ideas after\nab. Cc.\nhe has drank alcoholic beverages. No error.. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/vr-212.png"
   },
   {
     "id": "cse2026-331",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nComputers are widely use nowadays even in preschools. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8792,12 +8843,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: Computers are widely use nowadays even in preschools. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: Computers are widely use nowadays even in preschools. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/vr-213.png"
   },
   {
     "id": "cse2026-332",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nThe number of Computer Science students steadily increases. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8822,12 +8874,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'Cc.'. Review the grammar rule that applies here.. The original sentence: The number of Computer Science students steadily increases. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'Cc.'. Review the grammar rule that applies here.. The original sentence: The number of Computer Science students steadily increases. No error.",
+    "image": "/question-images/vr-214.png"
   },
   {
     "id": "cse2026-333",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nAMA, in addition to STI, train students to be proficient in computer use. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8852,12 +8905,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'Cc.'. Review the grammar rule that applies here.. The original sentence: AMA, in addition to STI, train students to be proficient in computer use. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'Cc.'. Review the grammar rule that applies here.. The original sentence: AMA, in addition to STI, train students to be proficient in computer use. No error.",
+    "image": "/question-images/vr-215.png"
   },
   {
     "id": "cse2026-334",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nKnowledge should always be put to good use. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8882,12 +8936,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'C.'. Review the grammar rule that applies here.. The original sentence: Knowledge should always be put to good use. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'C.'. Review the grammar rule that applies here.. The original sentence: Knowledge should always be put to good use. No error.",
+    "image": "/question-images/vr-216.png"
   },
   {
     "id": "cse2026-335",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nOne of the viruses has infect my brother’s brand new laptop computer. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8912,12 +8967,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'C.'. Review the grammar rule that applies here.. The original sentence: One of the viruses has infect my brother’s brand new laptop computer. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice B: 'C.'. Review the grammar rule that applies here.. The original sentence: One of the viruses has infect my brother’s brand new laptop computer. No error.",
+    "image": "/question-images/vr-217.png"
   },
   {
     "id": "cse2026-336",
     "subject": "General Information",
-    "prompt": "Internet access allow us to communicate with other people anywhere in the world.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
@@ -8942,12 +8998,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Choice D ('No error.') correctly states the fact or principle tested. Question: Internet access allow us to communicate with other people anywhere in the world."
+    "explanation": "Choice D ('No error.') correctly states the fact or principle tested. Question: Internet access allow us to communicate with other people anywhere in the world.",
+    "image": "/question-images/vr-218.png"
   },
   {
     "id": "cse2026-337",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nAll of the pens are no spent yesterday. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -8972,12 +9029,13 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "The error in the sentence is at the underlined portion marked choice E: 'Page| 69'. Check agreement between 'all of the pens' and 'are'. The original sentence: All of the pens are no spent yesterday. No error."
+    "explanation": "The error in the sentence is at the underlined portion marked choice E: 'Page| 69'. Check agreement between 'all of the pens' and 'are'. The original sentence: All of the pens are no spent yesterday. No error.",
+    "image": "/question-images/vr-219.png"
   },
   {
     "id": "cse2026-338",
     "subject": "General Information",
-    "prompt": "Choose the underlined part that contains an error:\nEach computer come with either a compact disk player or a DVD player. No error.",
+    "prompt": "Choose the underlined part that contains an error.",
     "hint": "Identifying errors item: check subject-verb agreement, tense, pronoun case, modifiers, and prepositions.",
     "choices": [
       {
@@ -9002,7 +9060,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: Each computer come with either a compact disk player or a DVD player. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: Each computer come with either a compact disk player or a DVD player. No error.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/vr-220.png"
   },
   {
     "id": "cse2026-339",
@@ -9067,7 +9126,7 @@
   {
     "id": "cse2026-341",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat would the new order of the sentences be?",
+    "prompt": "A. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\nF. It should be noted, however, that the President must communicate his veto within thirty days from receipt of the bill; otherwise, the bill is considered to have been approved by him.\n\nWhat would the new order of the sentences be?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9091,7 +9150,7 @@
         "text": "C-B-D-A-E-F"
       }
     ],
-    "correctChoiceId": "B",
+    "correctChoiceId": "C",
     "explanation": "Based on the context of the sentence, the correct answer is A: 'B-C-D-E-A-F'. Question: B. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, befor"
   },
   {
@@ -9127,7 +9186,7 @@
   {
     "id": "cse2026-343",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat should be the third sentence?",
+    "prompt": "A. Learning to listen is one way of keeping friends.\nB. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat should be the third sentence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9187,32 +9246,32 @@
   {
     "id": "cse2026-345",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\nA. Hence, it can be said that the President really has a lot of duties and responsibilities.",
+    "prompt": "A. Learning to listen is one way of keeping friends.\nB. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat is the appropriate title for the above paragraph?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Learning to Listen"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Keeping Friends"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Comforting the Speaker"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "A Good Listener"
       },
       {
         "id": "E",
-        "text": "Choice E"
+        "text": "The Importance of Friendship"
       }
     ],
-    "correctChoiceId": "E",
-    "explanation": "The original prompt is: B. Although listening can really be very tiring on the listener, it may, on the other\nhand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that th. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "A",
+    "explanation": "The paragraph focuses on learning to listen as a way of keeping friends."
   },
   {
     "id": "cse2026-346",
@@ -9247,7 +9306,7 @@
   {
     "id": "cse2026-347",
     "subject": "Verbal Reasoning",
-    "prompt": "B. He has control over department secretaries and can overrule their decisions.\nC. Furthermore, the President exercises veto power over bills passed by the\nCongress.\nD. Lastly, he is the Chief Executive, executing the laws and rules of the country.\nE. The president in a presidential system is the Head of the State and the Head of\nGovernment\n\nWhat should be the last sentence?",
+    "prompt": "A. Hence, it can be said that the President really has a lot of duties and responsibilities.\nB. He has control over department secretaries and can overrule their decisions.\nC. Furthermore, the President exercises veto power over bills passed by the Congress.\nD. Lastly, he is the Chief Executive, executing the laws and rules of the country.\nE. The president in a presidential system is the Head of the State and the Head of Government.\n\nWhat should be the last sentence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9277,7 +9336,7 @@
   {
     "id": "cse2026-348",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the second sentence?",
+    "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one?s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the second sentence?",
     "hint": "Identify the relationship between the first pair of terms, then apply the same relationship to find the missing term.",
     "choices": [
       {
@@ -9337,28 +9396,32 @@
   {
     "id": "cse2026-350",
     "subject": "Verbal Reasoning",
-    "prompt": "B. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat is the appropriate title for the above paragraph?",
+    "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one?s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat is the appropriate title for the above paragraph?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Economic Progress"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "A Citizen?s Duty"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Taxing the Economy"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Taxes and Economic Progress"
+      },
+      {
+        "id": "E",
+        "text": "Lend a Hand for Progress"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The original prompt is: B. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for\ninfrastructure and other projects.\nE. So be a good citizen and pay your taxes. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The paragraph connects paying correct taxes with economic progress and government projects."
   },
   {
     "id": "cse2026-351",
@@ -14383,7 +14446,7 @@
   {
     "id": "cse2026-545",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nAng walang kamatayang Mi Ultimo Adiogy sinulat ng Rizal sa Fort Santiago.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14408,12 +14471,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang walang kamatayang Mi Ultimo Adiogy sinulat ng Rizal sa Fort Santiago."
+    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang walang kamatayang Mi Ultimo Adiogy sinulat ng Rizal sa Fort Santiago.",
+    "image": "/question-images/fi-106.png"
   },
   {
     "id": "cse2026-546",
     "subject": "Filipino",
-    "prompt": "Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal. ab Cc Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -14434,12 +14498,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The original prompt is: Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal.\nab Cc Walang mali.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal.\nab Cc Walang mali.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/fi-107.png"
   },
   {
     "id": "cse2026-547",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nHindi dapat lumikha nang buwis na hindi makakayang bayaran ng kahit sino.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14464,12 +14529,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay C: 'd Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi dapat lumikha nang buwis na hindi makakayang bayaran ng kahit sino."
+    "explanation": "Ang tamang sagot ay C: 'd Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi dapat lumikha nang buwis na hindi makakayang bayaran ng kahit sino.",
+    "image": "/question-images/fi-108.png"
   },
   {
     "id": "cse2026-548",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nIniisip rin ng ating pamahalaan ang kapakanan ng mga maralita. Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14494,12 +14560,13 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Iniisip rin ng ating pamahalaan ang kapakanan ng mga maralita. Walang mali."
+    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Iniisip rin ng ating pamahalaan ang kapakanan ng mga maralita. Walang mali.",
+    "image": "/question-images/fi-109.png"
   },
   {
     "id": "cse2026-549",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nMainam sa lahat ng paraan ng pag-aaral ang magbalik-aral ng mga aralin bago pa",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14524,12 +14591,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b man dumating ang mga pagsusulit sa paaralan. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mainam sa lahat ng paraan ng pag-aaral ang magbalik-aral ng mga aralin bago pa"
+    "explanation": "Ang tamang sagot ay A: 'b man dumating ang mga pagsusulit sa paaralan. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mainam sa lahat ng paraan ng pag-aaral ang magbalik-aral ng mga aralin bago pa",
+    "image": "/question-images/fi-110.png"
   },
   {
     "id": "cse2026-550",
     "subject": "Filipino",
-    "prompt": "Ang mga payo kung binitawan ay dapat mong pakinggan. Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -14550,12 +14618,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: Ang mga payo kung binitawan ay dapat mong pakinggan. Walang mali.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The original prompt is: Ang mga payo kung binitawan ay dapat mong pakinggan. Walang mali.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "image": "/question-images/fi-111.png"
   },
   {
     "id": "cse2026-551",
     "subject": "Filipino",
-    "prompt": "Mag-aral ng mabuti upang hindi masayang ang iyong pera at panahon. Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14572,12 +14641,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mag-aral ng mabuti upang hindi masayang ang iyong pera at panahon. Walang mali."
+    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mag-aral ng mabuti upang hindi masayang ang iyong pera at panahon. Walang mali.",
+    "image": "/question-images/fi-112.png"
   },
   {
     "id": "cse2026-552",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nTunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14602,12 +14672,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali."
+    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali.",
+    "image": "/question-images/fi-113.png"
   },
   {
     "id": "cse2026-553",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nHindi lamang sipag kundi tiyaga din ang kinakailangan upang magtagumpay sa isang",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14632,12 +14703,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'd negosyo. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi lamang sipag kundi tiyaga din ang kinakailangan upang magtagumpay sa\nisang"
+    "explanation": "Ang tamang sagot ay C: 'd negosyo. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi lamang sipag kundi tiyaga din ang kinakailangan upang magtagumpay sa\nisang",
+    "image": "/question-images/fi-114.png"
   },
   {
     "id": "cse2026-554",
     "subject": "Filipino",
-    "prompt": "Upang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14654,12 +14726,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'b nagsisipilyo matapos kumain. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Upang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na"
+    "explanation": "Ang tamang sagot ay A: 'b nagsisipilyo matapos kumain. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Upang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na",
+    "image": "/question-images/fi-115.png"
   },
   {
     "id": "cse2026-555",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nHaluin mo ang sopas ng iba’t ibang gulay. Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14684,12 +14757,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Haluin mo ang sopas ng iba’t ibang gulay. Walang mali."
+    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Haluin mo ang sopas ng iba’t ibang gulay. Walang mali.",
+    "image": "/question-images/fi-116.png"
   },
   {
     "id": "cse2026-556",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nKundi ka kikilos at di gagawin ang iyong proyekto ay wala kang mapapala.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14714,12 +14788,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Kundi ka kikilos at di gagawin ang iyong proyekto ay wala kang mapapala."
+    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Kundi ka kikilos at di gagawin ang iyong proyekto ay wala kang mapapala.",
+    "image": "/question-images/fi-117.png"
   },
   {
     "id": "cse2026-557",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nAlam mo ba na mayroon proyekto ang CHED na tinaguriang “Study Now, Pay a",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14744,12 +14819,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'Later”? Walang Mali. Cc'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Alam mo ba na mayroon proyekto ang CHED na tinaguriang “Study Now, Pay a"
+    "explanation": "Ang tamang sagot ay D: 'Later”? Walang Mali. Cc'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Alam mo ba na mayroon proyekto ang CHED na tinaguriang “Study Now, Pay a",
+    "image": "/question-images/fi-118.png"
   },
   {
     "id": "cse2026-558",
     "subject": "Filipino",
-    "prompt": "Nagtutulungan ang mga ninuno nating Ifugao kaya nayari ang hagdan-hagdang",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14762,12 +14838,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'b Cc taniman ng palay. Walang mali'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nagtutulungan ang mga ninuno nating Ifugao kaya nayari ang hagdan-hagdang"
+    "explanation": "Ang tamang sagot ay A: 'b Cc taniman ng palay. Walang mali'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nagtutulungan ang mga ninuno nating Ifugao kaya nayari ang hagdan-hagdang",
+    "image": "/question-images/fi-119.png"
   },
   {
     "id": "cse2026-559",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nGinigising lamang daw ng Maykapal ang mga taong nakalilimot sa Kanya sapagkat",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14792,12 +14869,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b cdnagkakaroon ng kalamidad. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ginigising lamang daw ng Maykapal ang mga taong nakalilimot sa Kanya sapagkat"
+    "explanation": "Ang tamang sagot ay A: 'b cdnagkakaroon ng kalamidad. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ginigising lamang daw ng Maykapal ang mga taong nakalilimot sa Kanya sapagkat",
+    "image": "/question-images/fi-120.png"
   },
   {
     "id": "cse2026-560",
     "subject": "Filipino",
-    "prompt": "Maganda siya ngunit masungit kaya hindi siya popular sa mga kamag-aral.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14814,12 +14892,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Maganda siya ngunit masungit kaya hindi siya popular sa mga kamag-aral."
+    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Maganda siya ngunit masungit kaya hindi siya popular sa mga kamag-aral.",
+    "image": "/question-images/fi-121.png"
   },
   {
     "id": "cse2026-561",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nUpang umunlad ang bayan kailangan ang pagtutulungan nang lahat. Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14844,12 +14923,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Upang umunlad ang bayan kailangan ang pagtutulungan nang lahat. Walang mali."
+    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Upang umunlad ang bayan kailangan ang pagtutulungan nang lahat. Walang mali.",
+    "image": "/question-images/fi-122.png"
   },
   {
     "id": "cse2026-562",
     "subject": "Filipino",
-    "prompt": "Hindi nawawalan ng pag-asa ang mga mayroon matibay na paniniwala.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14866,12 +14946,13 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Ang tamang sagot ay C: 'd Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi nawawalan ng pag-asa ang mga mayroon matibay na paniniwala."
+    "explanation": "Ang tamang sagot ay C: 'd Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi nawawalan ng pag-asa ang mga mayroon matibay na paniniwala.",
+    "image": "/question-images/fi-123.png"
   },
   {
     "id": "cse2026-563",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nIpinakiusap mo ba na pinayagan kang gamitin ang kompyuter?. Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14896,12 +14977,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ipinakiusap mo ba na pinayagan kang gamitin ang kompyuter? Walang mali."
+    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ipinakiusap mo ba na pinayagan kang gamitin ang kompyuter? Walang mali.",
+    "image": "/question-images/fi-124.png"
   },
   {
     "id": "cse2026-564",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nHanapan mo ng sagot sa iyong katanungan ang iyong guro. Walang mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14926,12 +15008,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hanapan mo ng sagot sa iyong katanungan ang iyong guro. Walang mali."
+    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hanapan mo ng sagot sa iyong katanungan ang iyong guro. Walang mali.",
+    "image": "/question-images/fi-125.png"
   },
   {
     "id": "cse2026-565",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nAyon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo ng pag-",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14956,12 +15039,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'iwas Sa pagkakaroon ng sakit sa puso. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ayon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo ng pag-"
+    "explanation": "Ang tamang sagot ay C: 'iwas Sa pagkakaroon ng sakit sa puso. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ayon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo ng pag-",
+    "image": "/question-images/fi-126.png"
   },
   {
     "id": "cse2026-566",
     "subject": "Filipino",
-    "prompt": "Piliin ang bahaging may mali sa pangungusap:\nDapat nating iiwasan ang labis na pagkain ng mga maaalat na pagkain.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14986,12 +15070,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang mali ay 'iiwasan'. Dapat: 'Dapat nating iwasan ang labis na pagkain ng mga maaalat na pagkain.'"
+    "explanation": "Ang mali ay 'iiwasan'. Dapat: 'Dapat nating iwasan ang labis na pagkain ng mga maaalat na pagkain.'",
+    "image": "/question-images/fi-127.png"
   },
   {
     "id": "cse2026-567",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nPanatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran para __",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -15016,12 +15101,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'be d_ narinsa ating kalusugan. Walang mali'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran para __"
+    "explanation": "Ang tamang sagot ay A: 'be d_ narinsa ating kalusugan. Walang mali'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran para __",
+    "image": "/question-images/fi-128.png"
   },
   {
     "id": "cse2026-568",
     "subject": "Filipino",
-    "prompt": "Choose the underlined part that contains an error:\nLaban sa batas ang smuggling dahil ito ay isang paraan ng pagsabotahe sa__",
+    "prompt": "Piliin ang salitang may salungguhit na may mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -15046,7 +15132,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Laban sa batas ang smuggling dahil ito ay isang paraan ng pagsabotahe sa__"
+    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Laban sa batas ang smuggling dahil ito ay isang paraan ng pagsabotahe sa__",
+    "image": "/question-images/fi-129.png"
   },
   {
     "id": "cse2026-569",
@@ -16113,7 +16200,7 @@
   {
     "id": "cse2026-611",
     "subject": "Filipino",
-    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16139,7 +16226,7 @@
   {
     "id": "cse2026-612",
     "subject": "Filipino",
-    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16191,7 +16278,7 @@
   {
     "id": "cse2026-614",
     "subject": "Filipino",
-    "prompt": "B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\nE. Ang mga Indones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan.\n\nAno ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16937,7 +17024,7 @@
   {
     "id": "cse2026-643",
     "subject": "Analytical Ability",
-    "prompt": "CEGIK",
+    "prompt": "C E G I K",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -16963,7 +17050,7 @@
   {
     "id": "cse2026-644",
     "subject": "Analytical Ability",
-    "prompt": "IKMOQ",
+    "prompt": "I K M O Q",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -16989,7 +17076,7 @@
   {
     "id": "cse2026-645",
     "subject": "Analytical Ability",
-    "prompt": "BDFHJ",
+    "prompt": "B D F H J",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17067,7 +17154,7 @@
   {
     "id": "cse2026-648",
     "subject": "Analytical Ability",
-    "prompt": "3952586412 144",
+    "prompt": "3 9 5 25 8 64 12 144",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17171,7 +17258,7 @@
   {
     "id": "cse2026-652",
     "subject": "Analytical Ability",
-    "prompt": "1256111219 20",
+    "prompt": "1 2 5 6 11 12 19 20",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17223,7 +17310,7 @@
   {
     "id": "cse2026-654",
     "subject": "Analytical Ability",
-    "prompt": "612 36 72 216",
+    "prompt": "6 12 36 72 216",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17249,7 +17336,7 @@
   {
     "id": "cse2026-655",
     "subject": "Analytical Ability",
-    "prompt": "ACCFFF",
+    "prompt": "A C C F F F",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17275,7 +17362,7 @@
   {
     "id": "cse2026-656",
     "subject": "Analytical Ability",
-    "prompt": "12612 36",
+    "prompt": "1 2 6 12 36",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17301,7 +17388,7 @@
   {
     "id": "cse2026-657",
     "subject": "Analytical Ability",
-    "prompt": "HHLLPPTT",
+    "prompt": "H H L L P P T T",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17353,7 +17440,7 @@
   {
     "id": "cse2026-659",
     "subject": "Analytical Ability",
-    "prompt": "612711810",
+    "prompt": "6 12 7 11 8 10",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17379,7 +17466,7 @@
   {
     "id": "cse2026-660",
     "subject": "Analytical Ability",
-    "prompt": "ACFJO",
+    "prompt": "A C F J O",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17457,7 +17544,7 @@
   {
     "id": "cse2026-663",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nNOPQRS",
+    "prompt": "N O P Q R S",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17483,7 +17570,7 @@
   {
     "id": "cse2026-664",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n3 8 48 55 440",
+    "prompt": "3 8 48 55 440",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17509,7 +17596,7 @@
   {
     "id": "cse2026-665",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n16 12 17 11 18",
+    "prompt": "16 12 17 11 18",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17535,7 +17622,7 @@
   {
     "id": "cse2026-666",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n29 58 29 145 29",
+    "prompt": "29 58 29 145 29",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17561,7 +17648,7 @@
   {
     "id": "cse2026-667",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nMZ KX IV GT",
+    "prompt": "MZ KX IV GT",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17587,7 +17674,7 @@
   {
     "id": "cse2026-668",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nLO KP JQ IR HS",
+    "prompt": "LO KP JQ IR HS",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17613,7 +17700,7 @@
   {
     "id": "cse2026-669",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nG F I H K",
+    "prompt": "G F I H K",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17639,7 +17726,7 @@
   {
     "id": "cse2026-670",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nAZ BY CX DW EV",
+    "prompt": "AZ BY CX DW EV",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17665,7 +17752,7 @@
   {
     "id": "cse2026-671",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n396 384 370 354 336",
+    "prompt": "396 384 370 354 336",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17691,7 +17778,7 @@
   {
     "id": "cse2026-672",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n15 17 18 21 22",
+    "prompt": "15 17 18 21 22",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17717,7 +17804,7 @@
   {
     "id": "cse2026-673",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n7 21 14 42 42",
+    "prompt": "7 21 14 42 42",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17743,7 +17830,7 @@
   {
     "id": "cse2026-674",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n314 321 322 330 332",
+    "prompt": "314 321 322 330 332",
     "hint": "Look at the alternating increases: +7, +1, +8, +2, then the next larger jump.",
     "choices": [
       {
@@ -17769,7 +17856,7 @@
   {
     "id": "cse2026-675",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nF21 H19 K16 O12 T7",
+    "prompt": "F21 H19 K16 O12 T7",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17795,7 +17882,7 @@
   {
     "id": "cse2026-676",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nI18 K16 M14 O12",
+    "prompt": "I18 K16 M14 O12",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17821,7 +17908,7 @@
   {
     "id": "cse2026-677",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nBO DQ FS HU JW",
+    "prompt": "BO DQ FS HU JW",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17847,7 +17934,7 @@
   {
     "id": "cse2026-678",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nBC PQ EF HU JW",
+    "prompt": "BC PQ EF HU JW",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17873,7 +17960,7 @@
   {
     "id": "cse2026-679",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nE4 G6 I8 K10 M12",
+    "prompt": "E4 G6 I8 K10 M12",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17926,7 +18013,7 @@
   {
     "id": "cse2026-681",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nAN1 CP3 ER5 GT7 IV9 KX11",
+    "prompt": "AN1 CP3 ER5 GT7 IV9 KX11",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17952,7 +18039,7 @@
   {
     "id": "cse2026-682",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nA1 C3 E5",
+    "prompt": "A1 C3 E5",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18004,7 +18091,7 @@
   {
     "id": "cse2026-684",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nJ10 L12 N14",
+    "prompt": "J10 L12 N14",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18030,7 +18117,7 @@
   {
     "id": "cse2026-685",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n8R 6T 4V",
+    "prompt": "8R 6T 4V",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18056,7 +18143,7 @@
   {
     "id": "cse2026-686",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nJ10 17 L12 15 N14 13",
+    "prompt": "J10 17 L12 15 N14 13",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18082,7 +18169,7 @@
   {
     "id": "cse2026-687",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\nAC FH KM",
+    "prompt": "AC FH KM",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18108,7 +18195,7 @@
   {
     "id": "cse2026-688",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n15 16 18 19 21 22",
+    "prompt": "15 16 18 19 21 22",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18134,7 +18221,7 @@
   {
     "id": "cse2026-689",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence?\n1121 2242 3483",
+    "prompt": "1121 2242 3483",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18160,7 +18247,7 @@
   {
     "id": "cse2026-690",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence? aa33bb cc77dd ee1111ff",
+    "prompt": "aa33bb cc77dd ee1111ff",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -18186,7 +18273,7 @@
   {
     "id": "cse2026-691",
     "subject": "Analytical Ability",
-    "prompt": "What comes next in the sequence? b9b9 c7c7 d5d5",
+    "prompt": "b9b9 c7c7 d5d5",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
