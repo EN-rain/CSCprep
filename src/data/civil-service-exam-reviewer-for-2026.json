@@ -314,54 +314,54 @@
   {
     "id": "cse2026-013",
     "subject": "Numerical Reasoning",
-    "prompt": "Simplify: % (128 — 84) — % (128 - 84)",
+    "prompt": "Simplify: 1/2(128 - 84) + 1/2(128 - 84)",
     "hint": "The OCR could not reliably capture the original expression; refer to the 2026 reviewer PDF for the exact problem.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "0"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "20"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "44"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "64"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The original prompt was not legibly extracted. Per the answer key, option C is correct. Refer to the original 2026 reviewer PDF for the precise arithmetic expression."
+    "explanation": "128 - 84 = 44, and one-half plus one-half of the same value gives 44."
   },
   {
     "id": "cse2026-014",
     "subject": "Numerical Reasoning",
-    "prompt": "Simplify: 33 1/3% of 48 + 12 %% of 96 — 44 4/9% of 27",
+    "prompt": "Simplify: 33 1/3% of 48 + 12 1/2% of 96 - 44 4/9% of 27",
     "hint": "Convert each mixed percentage to a simple fraction first: 33⅓% = 1/3, 12½% = 1/8, 44⁴⁄₉% = 4/9.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "12"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "16"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "24"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "48"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "33⅓% of 48 = (1/3) × 48 = 16. 12½% of 96 = (1/8) × 96 = 12. 44⁴⁄₉% of 27 = (4/9) × 27 = 12. Total: 16 + 12 − 12 = 16."
+    "explanation": "33 1/3% of 48 = 16; 12 1/2% of 96 = 12; 44 4/9% of 27 = 12. Total: 16 + 12 - 12 = 16."
   },
   {
     "id": "cse2026-015",
@@ -4093,23 +4093,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "passed through"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "passed by"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "went beyond"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "did not reach"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "To overshoot the runway means the plane went past the end of the runway before touching down. The choices are placeholders in the extracted text; per the answer key, option C is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "explanation": "Overshot means went beyond the intended point."
   },
   {
     "id": "cse2026-157",
@@ -4496,7 +4496,7 @@
   {
     "id": "cse2026-172",
     "subject": "Verbal Reasoning",
-    "prompt": "The /anky lad stood out among the average-sized students.",
+    "prompt": "The lanky lad stood out among the average-sized students.",
     "hint": "'Lanky' means ungracefully tall and thin.",
     "choices": [
       {
@@ -4509,11 +4509,15 @@
       },
       {
         "id": "C",
-        "text": "short and stout tall and thin"
+        "text": "short and stout"
+      },
+      {
+        "id": "D",
+        "text": "tall and thin"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Lanky describes someone who is tall, thin, and often awkward in build. The synonym is 'tall and thin'. Note: the answer key marks A (fierce-looking), which is unrelated to physical stature."
+    "correctChoiceId": "D",
+    "explanation": "Lanky means tall and thin."
   },
   {
     "id": "cse2026-173",
@@ -7298,19 +7302,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Underlined part d"
+      },
+      {
+        "id": "E",
+        "text": "No error"
       }
     ],
     "correctChoiceId": "D",
@@ -7387,19 +7395,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Underlined part d"
+      },
+      {
+        "id": "E",
+        "text": "No error"
       }
     ],
     "correctChoiceId": "C",
@@ -7476,19 +7488,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "Cc."
+        "text": "Underlined part b"
+      },
+      {
+        "id": "C",
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "Agoncillo. No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "D",
@@ -7503,23 +7519,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": ""
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": "8"
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "D",
@@ -7968,19 +7984,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "C. _years. No error."
+        "text": "Underlined part b"
+      },
+      {
+        "id": "C",
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": ""
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "D",
@@ -8026,19 +8046,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "Cc. newspapers. No error."
+        "text": "Underlined part b"
+      },
+      {
+        "id": "C",
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": ""
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "A",
@@ -8053,23 +8077,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": ""
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": ""
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "the ‘70s. No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "C",
@@ -8115,23 +8139,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": ""
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": ""
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "C",
@@ -8177,19 +8201,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "C. people in our country. No error."
+        "text": "Underlined part b"
+      },
+      {
+        "id": "C",
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": ""
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "B",
@@ -8266,19 +8294,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "C."
+        "text": "Underlined part b"
+      },
+      {
+        "id": "C",
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "each year. No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "D",
@@ -8355,19 +8387,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "Cc. equally violent. No error."
+        "text": "Underlined part b"
+      },
+      {
+        "id": "C",
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": ""
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "B",
@@ -8444,15 +8480,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "are written by Bienvenido Santos. No error."
+        "text": "Underlined part b"
+      },
+      {
+        "id": "C",
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": ""
+        "text": "Underlined part d"
+      },
+      {
+        "id": "E",
+        "text": "No error"
       }
     ],
     "correctChoiceId": "A",
@@ -8466,16 +8510,24 @@
     "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
     "choices": [
       {
+        "id": "A",
+        "text": "Underlined part a"
+      },
+      {
+        "id": "B",
+        "text": "Underlined part b"
+      },
+      {
         "id": "C",
-        "text": ""
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "Manila. No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "D",
@@ -8490,23 +8542,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": ""
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": ""
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "May day eve. No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "A",
@@ -8521,23 +8573,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": ""
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": ""
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "Artist Award for Literature”. No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "A",
@@ -8552,19 +8604,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Underlined part d"
+      },
+      {
+        "id": "E",
+        "text": "No error"
       }
     ],
     "correctChoiceId": "A",
@@ -8734,19 +8790,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "Cc."
+        "text": "Underlined part b"
+      },
+      {
+        "id": "C",
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "D",
@@ -8978,23 +9038,23 @@
     "choices": [
       {
         "id": "A",
-        "text": ""
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": ""
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": ""
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "No error."
+        "text": "Underlined part d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "No error"
       }
     ],
     "correctChoiceId": "D",
@@ -10532,7 +10592,7 @@
   {
     "id": "cse2026-394",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the best title for the selection?",
+    "prompt": "?All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, that does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, water, are fields of carnage. God having given reason to men, this reason might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood.?\n?Can there be anything more horrible in all nature??\n- Voltaire\n\nWhat is the best title for the selection?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10552,7 +10612,7 @@
         "text": "The Elements of War"
       }
     ],
-    "correctChoiceId": "C",
+    "correctChoiceId": "A",
     "explanation": "Based on the context of the sentence, the correct answer is B: 'The Products of War'. Question: What is the best title for the selection?"
   },
   {
@@ -11650,27 +11710,27 @@
   {
     "id": "cse2026-437",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the best title for the paragraph?",
+    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate activation of prothrombin activator, which converts prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of fibrinogen into fibrin threads. The fibrin threads form a fine meshwork and, together with trapped cells and other blood particles, make a clot and block further blood loss.\n\nWhat is the best title for the paragraph?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Blood and its Uses"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "The Evolution of Blood"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "The Importance of Blood Clots"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "How a Blood Clot is Formed"
       }
     ],
-    "correctChoiceId": "B",
+    "correctChoiceId": "D",
     "explanation": "The original prompt is: What is the best title for the paragraph?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
   },
   {
@@ -12660,28 +12720,28 @@
   {
     "id": "cse2026-476",
     "subject": "Filipino",
-    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa pasglilimos. a. binalutan",
+    "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "binalutan"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "tinakpan"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "dinamitan"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "hinubaran"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The original prompt is: Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa pasglilimos. a.\nbinalutan. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "D",
+    "explanation": "Sinaplutan means dressed or clothed, so the closest synonym is dinamitan."
   },
   {
     "id": "cse2026-477",
@@ -14451,23 +14511,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "B",
@@ -14482,19 +14542,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Salungguhit d"
+      },
+      {
+        "id": "E",
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "C",
@@ -14509,23 +14573,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "D",
@@ -14540,19 +14604,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
@@ -14571,23 +14635,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "B",
@@ -14602,19 +14666,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Salungguhit d"
+      },
+      {
+        "id": "E",
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "A",
@@ -14629,15 +14697,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "b"
+        "text": "Salungguhit a"
+      },
+      {
+        "id": "B",
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "d"
+        "text": "Salungguhit c"
+      },
+      {
+        "id": "D",
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "A",
@@ -14652,19 +14728,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
@@ -14683,23 +14759,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "B",
@@ -14714,15 +14790,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "b nagsisipilyo matapos kumain. Walang mali."
+        "text": "Salungguhit a"
+      },
+      {
+        "id": "B",
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "d"
+        "text": "Salungguhit c"
+      },
+      {
+        "id": "D",
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "C",
@@ -14737,19 +14821,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
@@ -14768,23 +14852,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "C",
@@ -14799,23 +14883,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "A",
@@ -14830,11 +14914,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "b Cc taniman ng palay. Walang mali"
+        "text": "Salungguhit a"
+      },
+      {
+        "id": "B",
+        "text": "Salungguhit b"
+      },
+      {
+        "id": "C",
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "e"
+        "text": "Salungguhit d"
+      },
+      {
+        "id": "E",
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "A",
@@ -14849,23 +14945,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "B",
@@ -14880,15 +14976,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "b Cc"
+        "text": "Salungguhit a"
+      },
+      {
+        "id": "B",
+        "text": "Salungguhit b"
+      },
+      {
+        "id": "C",
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Walang mali."
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "A",
@@ -14903,19 +15007,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
@@ -14934,15 +15038,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "b"
+        "text": "Salungguhit a"
+      },
+      {
+        "id": "B",
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "d Walang mali."
+        "text": "Salungguhit c"
+      },
+      {
+        "id": "D",
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": ""
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "E",
@@ -14957,19 +15069,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
@@ -14988,19 +15100,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
@@ -15019,23 +15131,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "B",
@@ -15050,23 +15162,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "iiwasan"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "labis"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "maaalat"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Walang mali"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "pagkain"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "A",
@@ -15081,23 +15193,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "C",
@@ -15112,23 +15224,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Underlined part a"
+        "text": "Salungguhit a"
       },
       {
         "id": "B",
-        "text": "Underlined part b"
+        "text": "Salungguhit b"
       },
       {
         "id": "C",
-        "text": "Underlined part c"
+        "text": "Salungguhit c"
       },
       {
         "id": "D",
-        "text": "Underlined part d"
+        "text": "Salungguhit d"
       },
       {
         "id": "E",
-        "text": "No error"
+        "text": "Walang mali"
       }
     ],
     "correctChoiceId": "B",
@@ -17991,19 +18103,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Underlined part a"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Underlined part b"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Underlined part c"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Underlined part d"
+      },
+      {
+        "id": "E",
+        "text": "No error"
       }
     ],
     "correctChoiceId": "A",

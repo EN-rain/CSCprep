@@ -27,7 +27,12 @@ const MIXED_EXAM_SUBJECT_COUNTS: Partial<Record<Subject, number>> = {
 }
 
 function isExamEligibleQuestion(question: Question): boolean {
-  return Boolean(question.prompt && question.choices.length >= 2)
+  const hasPlaceholderChoices = question.choices.some((choice) => {
+    const text = choice.text.trim()
+    return !text || /^Option [A-E]$/.test(text) || /^Choice [A-E]$/.test(text)
+  })
+
+  return Boolean(question.prompt && question.choices.length >= 2 && !hasPlaceholderChoices)
 }
 
 function getExamEligibleQuestions(): Question[] {

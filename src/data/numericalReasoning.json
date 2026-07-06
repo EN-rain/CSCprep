@@ -626,28 +626,11 @@
   {
     "id": "nr-025",
     "subject": "Numerical Reasoning",
-    "prompt": "Which of the following has the greatest value?\n8",
+    "prompt": "Which of the following has the greatest value?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "2 2 ( 6 )( 8 ) 16"
-      },
-      {
-        "id": "B",
-        "text": "2 3 ( 6 )( 8 ) 1"
-      },
-      {
-        "id": "C",
-        "text": "3 2 ( 6 )( 8 ) 168"
-      },
-      {
-        "id": "D",
-        "text": "4 3 ( 6 )( 8 )"
-      }
-    ],
+    "choices": [],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"2 3 ( 6 )( 8 ) 1\") because it is the result that satisfies the problem."
+    "explanation": "Excluded: the original source expression and choices are not legible enough to verify safely."
   },
   {
     "id": "nr-026",
@@ -782,20 +765,20 @@
   {
     "id": "nr-031",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the set of all odd numbers x satisfying the conditions 5x - 4≤ 0 and 3x – 7 ≥\n0",
+    "prompt": "Find the set of all odd numbers x satisfying both conditions: 5x - 4 <= 0 and 3x - 7 >= 0.",
     "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
     "choices": [
       {
         "id": "A",
-        "text": "{ }  x | x 1"
+        "text": "{x | x is an odd number and x <= 0}"
       },
       {
         "id": "B",
-        "text": "{} 1"
+        "text": "{1}"
       },
       {
         "id": "C",
-        "text": "{ }   x | x"
+        "text": "All odd real numbers"
       },
       {
         "id": "D",
@@ -803,8 +786,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"{}\") because it matches the result shown by the expression or figure in the source image.",
-    "image": "/question-images/nr-031.png"
+    "explanation": "The first inequality gives x <= 0.8, while the second gives x >= 7/3. No number can satisfy both, so the set is empty."
   },
   {
     "id": "nr-032",
