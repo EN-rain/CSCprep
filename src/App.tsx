@@ -1288,7 +1288,7 @@ function App() {
         return
       }
 
-      if (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === 'x') {
+      if (event.ctrlKey && event.altKey && event.shiftKey && event.key.toLowerCase() === 'a') {
         event.preventDefault()
         openImageQuestions()
       }
