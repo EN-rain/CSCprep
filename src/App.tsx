@@ -22,7 +22,7 @@ import {
 } from './utils/exam'
 import { questionBank } from './data/questionBank'
 
-type Screen = 'home' | 'exam' | 'results' | 'history' | 'reports' | 'images'
+type Screen = 'home' | 'exam' | 'results' | 'history' | 'reports'
 type Theme = 'light' | 'dark'
 type ScreenTransition = 'idle' | 'content-exit' | 'content-enter'
 type ReportSyncStatus = 'idle' | 'syncing' | 'local-only'
@@ -106,14 +106,6 @@ type QuestionReport = {
   prompt: string
   issueDescription?: string
   reportedAt: string
-}
-
-type ImageQuestionItem = {
-  id: string
-  subject: Subject
-  prompt: string
-  image?: string
-  choices: ExamSession['questions'][number]['choices']
 }
 
 const LINE_BREAK_PROMPT_IDS = new Set([
@@ -657,25 +649,11 @@ function App() {
   const [offlineSubmitNoticeOpen, setOfflineSubmitNoticeOpen] = useState(false)
   const [screenTransition, setScreenTransition] = useState<ScreenTransition>('idle')
   const [reportsReturnScreen, setReportsReturnScreen] = useState<Screen>('home')
-  const [imageQuestionsReturnScreen, setImageQuestionsReturnScreen] = useState<Screen>('home')
   const transitionTimeoutRef = useRef<number | null>(null)
   const replacingQuestionTimeoutRef = useRef<number | null>(null)
 
   const totalQuestions = session?.questions.length ?? 0
   const answeredCount = Object.keys(answers).length
-  const imageQuestions = useMemo<ImageQuestionItem[]>(
-    () =>
-      questionBank
-        .filter((question) => Boolean(question.image) || question.choices.some((choice) => Boolean(choice.image)))
-        .map((question) => ({
-          id: question.id,
-          subject: question.subject,
-          prompt: question.prompt,
-          image: question.image,
-          choices: question.choices,
-        })),
-    [],
-  )
   const reviewItems = useMemo<ReviewItem[]>(() => {
     if (!session) {
       return []
@@ -911,24 +889,6 @@ function App() {
     })
   }
 
-  function openImageQuestions() {
-    if (screen === 'images') {
-      return
-    }
-
-    const returnScreen = screen === 'exam' && session ? 'exam' : screen
-
-    transitionToScreen(() => {
-      setFilter('all')
-      setSkippedItemNotice(null)
-      setExitNoticeOpen(false)
-      setOfflineSubmitNoticeOpen(false)
-      setExpandedImage(null)
-      setImageQuestionsReturnScreen(returnScreen)
-      setScreen('images')
-    })
-  }
-
   function closeReports() {
     if (reportsReturnScreen === 'exam' && session) {
       transitionToScreen(() => {
@@ -943,29 +903,6 @@ function App() {
     }
 
     goHome()
-  }
-
-  function closeImageQuestions() {
-    if (imageQuestionsReturnScreen === 'exam' && session) {
-      transitionToScreen(() => {
-        setFilter('all')
-        setSkippedItemNotice(null)
-        setExitNoticeOpen(false)
-        setOfflineSubmitNoticeOpen(false)
-        setExpandedImage(null)
-        setScreen('exam')
-      })
-      return
-    }
-
-    transitionToScreen(() => {
-      setFilter('all')
-      setSkippedItemNotice(null)
-      setExitNoticeOpen(false)
-      setOfflineSubmitNoticeOpen(false)
-      setExpandedImage(null)
-      setScreen(imageQuestionsReturnScreen)
-    })
   }
 
   async function refreshQuestionReports() {
@@ -1285,12 +1222,6 @@ function App() {
       if (event.ctrlKey && event.altKey && event.shiftKey && event.key.toLowerCase() === 'z') {
         event.preventDefault()
         openReports()
-        return
-      }
-
-      if (event.ctrlKey && event.altKey && event.shiftKey && event.key.toLowerCase() === 'a') {
-        event.preventDefault()
-        openImageQuestions()
       }
     }
 
@@ -1421,20 +1352,6 @@ function App() {
         </div>
       )}
 
-      {screen === 'images' && (
-        <div className="screen-frame screen-frame--reports">
-          <ImageQuestionsScreen
-            expandedImage={expandedImage}
-            items={imageQuestions}
-            onCloseImage={() => setExpandedImage(null)}
-            onOpenImage={setExpandedImage}
-            onReturn={closeImageQuestions}
-            returnLabel={imageQuestionsReturnScreen === 'exam' && session ? 'Resume exam' : 'Back'}
-            theme={theme}
-            onToggleTheme={toggleTheme}
-          />
-        </div>
-      )}
     </main>
   )
 }
@@ -1961,99 +1878,6 @@ function ReportsScreen({
           </div>
         )}
       </section>
-    </section>
-  )
-}
-
-type ImageQuestionsScreenProps = {
-  expandedImage: string | null
-  items: ImageQuestionItem[]
-  onCloseImage: () => void
-  onOpenImage: (imageSrc: string) => void
-  onReturn: () => void
-  returnLabel: string
-  theme: Theme
-  onToggleTheme: () => void
-}
-
-function ImageQuestionsScreen({
-  expandedImage,
-  items,
-  onCloseImage,
-  onOpenImage,
-  onReturn,
-  returnLabel,
-  theme,
-  onToggleTheme,
-}: ImageQuestionsScreenProps) {
-  return (
-    <section className="reports">
-      <header className="results-hero">
-        <div>
-          <p className="eyebrow">Hidden image browser</p>
-          <h1>Image Questions</h1>
-          <p className="status">
-            {items.length} {items.length === 1 ? 'question' : 'questions'} include image content.
-          </p>
-        </div>
-        <div className="results-hero__actions">
-          <ThemeToggle theme={theme} onToggle={onToggleTheme} />
-          <button className="button button--ghost" onClick={onReturn} type="button">
-            {returnLabel}
-          </button>
-        </div>
-      </header>
-
-      <section className="history-panel" aria-label="Image questions">
-        <div className="section-heading">
-          <div className="section-heading__title">
-            <h2>Image-linked questions</h2>
-          </div>
-        </div>
-
-        <div className="image-question-list">
-          {items.map((item) => (
-            <article className="image-question-row" key={item.id}>
-              <div className="report-row__meta">
-                <strong>{item.id}</strong>
-                <span>{item.subject}</span>
-                <span>{item.choices.length} choices</span>
-              </div>
-              <PromptText prompt={item.prompt} questionId={item.id} />
-              {item.image && (
-                <button
-                  className="question-image-button image-question-row__prompt-image"
-                  onClick={() => onOpenImage(item.image!)}
-                  type="button"
-                >
-                  <img className="question-image" src={item.image} alt={`${item.id} prompt image`} draggable={false} />
-                  <span className="question-image-hint">Click to enlarge</span>
-                </button>
-              )}
-              <div className="review-choices review-choices--images">
-                {item.choices.map((choice, index) => (
-                  <div className="review-choice" key={choice.id}>
-                    <span>{String.fromCharCode(97 + index)}</span>
-                    {choice.image ? (
-                      <button
-                        className="choice-image-button"
-                        onClick={() => onOpenImage(choice.image!)}
-                        type="button"
-                      >
-                        <img className="choice-image" src={choice.image} alt={`${item.id} choice ${choice.id}`} draggable={false} />
-                      </button>
-                    ) : (
-                      <p>{choice.text}</p>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      {expandedImage && <ImageLightbox imageSrc={expandedImage} onClose={onCloseImage} />}
     </section>
   )
 }
