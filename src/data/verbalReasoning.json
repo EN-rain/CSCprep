@@ -4993,7 +4993,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The subject is compound (Gorio and Tekla), so the verb should be ?were,? not ?was.?"
+    "explanation": "The subject is compound (Gorio and Tekla), so the verb should be ?were,? not ?was.?",
+    "image": "/question-images/vr-187.png"
   },
   {
     "id": "vr-188",

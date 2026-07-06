@@ -2210,7 +2210,7 @@
   {
     "id": "cse2026-085",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the total amount raised for the Payatas Tragedy from private corporations and personal donations?\n1) Of the amount donated,48% came from private corporations\n2) Of the amount donated, Php15M came from personal donations. statement ALONE issufficient.",
+    "prompt": "Choose whether statement 1 alone, statement 2 alone, both together, each alone, or neither is sufficient.\n\nWhat was the total amount raised for the Payatas Tragedy from private corporations and personal donations?\n1) Of the amount donated, 48% came from private corporations.\n2) Of the amount donated, Php 15M came from personal donations.",
     "hint": "If 48% came from corporations, then 52% came from personal donations. Use statement (2) to find the total.",
     "choices": [
       {
@@ -2480,7 +2480,7 @@
   {
     "id": "cse2026-094",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the average number of kilometers per liter of gasoline a car can\n1) The total cost of the gasoline used by the card or the 640-km trip was\nPhp1,152.\n2) The cost for the gasoline used by the car for the trip was Php18.00 per liter.",
+    "prompt": "Choose whether statement 1 alone, statement 2 alone, both together, each alone, or neither is sufficient.\n\nWhat was the average number of kilometers per liter of gasoline a car consumed during a 640-km trip?\n1) The total cost of gasoline used by the car for the 640-km trip was Php 1,152.\n2) The cost of gasoline was Php 18.00 per liter.",
     "hint": "Average km/L = total km ÷ total liters. You need both total km and total liters.",
     "choices": [
       {
@@ -10514,7 +10514,7 @@
   {
     "id": "cse2026-391",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the golden mean identified by Aristotle?",
+    "prompt": "Passage: Virtue is the mean between two vices: one arising from excess and one from defect. Virtue finds and chooses the mean in both emotion and action.\n\nWhat is the golden mean identified by Aristotle?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10566,7 +10566,7 @@
   {
     "id": "cse2026-393",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the author’s stand on war?",
+    "prompt": "Passage: \"All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, and water are fields of carnage. God, having given reason to men, might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood. Can there be anything more horrible in all nature?\" - Voltaire\n\nWhat is the author's stand on war?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -10618,7 +10618,7 @@
   {
     "id": "cse2026-395",
     "subject": "Verbal Reasoning",
-    "prompt": "What does statement “All animals wage perpetual war...” mean?",
+    "prompt": "Passage: \"All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, and water are fields of carnage. God, having given reason to men, might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood. Can there be anything more horrible in all nature?\" - Voltaire\n\nWhat does the statement \"All animals wage perpetual war...\" mean?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10670,7 +10670,7 @@
   {
     "id": "cse2026-397",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the antecedent of the pronoun /ts in the line “And the grave is not its goal;”?",
+    "prompt": "Passage: Tell me not in mournful numbers, / Life is but an empty dream! / For the soul is dead that slumbers, / And things are not what they seem. / Life is real! Life is earnest! / And the grave is not its goal; / Dust thou art, to dust returnest, / Was not spoken of the soul. / Not enjoyment, and not sorrow, / Is our destined end or way; / But to act, that each tomorrow / Finds us farther than today.\n\nWhat is the antecedent of the pronoun \"its\" in the line \"And the grave is not its goal;\"?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10696,7 +10696,7 @@
   {
     "id": "cse2026-398",
     "subject": "Verbal Reasoning",
-    "prompt": "According to the author, what should be our goal in life?",
+    "prompt": "Passage: Tell me not in mournful numbers, / Life is but an empty dream! / For the soul is dead that slumbers, / And things are not what they seem. / Life is real! Life is earnest! / And the grave is not its goal; / Dust thou art, to dust returnest, / Was not spoken of the soul. / Not enjoyment, and not sorrow, / Is our destined end or way; / But to act, that each tomorrow / Finds us farther than today.\n\nAccording to the author, what should be our goal in life?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -10722,7 +10722,7 @@
   {
     "id": "cse2026-399",
     "subject": "Verbal Reasoning",
-    "prompt": "What figure of speech did the author use in the first stanza?",
+    "prompt": "Passage: Dreams by Langston Hughes. Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nWhat figure of speech did the author use in the first stanza?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -10748,7 +10748,7 @@
   {
     "id": "cse2026-400",
     "subject": "Verbal Reasoning",
-    "prompt": "The author is a South African Negro during the Apartheid Policy when most blacks were treated as inferior. To what could he be alluding to in the last two lines of the poem?",
+    "prompt": "Passage: Dreams by Langston Hughes. Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nThe author is a South African Negro during the Apartheid Policy when most blacks were treated as inferior. To what could he be alluding to in the last two lines of the poem?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -10774,7 +10774,7 @@
   {
     "id": "cse2026-401",
     "subject": "Verbal Reasoning",
-    "prompt": "What effect does the poem have upon the Negroes?",
+    "prompt": "Passage: Dreams by Langston Hughes. Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nWhat effect does the poem have upon the Negroes?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10800,7 +10800,7 @@
   {
     "id": "cse2026-402",
     "subject": "Verbal Reasoning",
-    "prompt": "Which statement is not a correct inference based on the poem?",
+    "prompt": "Passage: Dreams by Langston Hughes. Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nWhich statement is not a correct inference based on the poem?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -10826,7 +10826,7 @@
   {
     "id": "cse2026-403",
     "subject": "Verbal Reasoning",
-    "prompt": "Why should we all learn how to cope with criticism?",
+    "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nWhy should we all learn how to cope with criticism?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10852,7 +10852,7 @@
   {
     "id": "cse2026-404",
     "subject": "Verbal Reasoning",
-    "prompt": "According to the author, what is the best defense against criticism?",
+    "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nAccording to the author, what is the best defense against criticism?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -10878,7 +10878,7 @@
   {
     "id": "cse2026-405",
     "subject": "Verbal Reasoning",
-    "prompt": "Why is it easier to be critical than correct?",
+    "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nWhy is it easier to be critical than correct?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -10904,7 +10904,7 @@
   {
     "id": "cse2026-406",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the best title for the above selection?",
+    "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nWhat is the best title for the above selection?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -10930,7 +10930,7 @@
   {
     "id": "cse2026-407",
     "subject": "Verbal Reasoning",
-    "prompt": "A person’s fingernails, just like the hair, keeps on growing even after a person’s death. What could account for this occurence?",
+    "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nA person's fingernails, just like the hair, keep on growing even after death. What could account for this occurrence?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10956,7 +10956,7 @@
   {
     "id": "cse2026-408",
     "subject": "Verbal Reasoning",
-    "prompt": "What would happen to the soft cells at the base of the follicle if no nourishment comes in?",
+    "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nWhat would happen to the soft cells at the base of the follicle if no nourishment comes in?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10982,7 +10982,7 @@
   {
     "id": "cse2026-409",
     "subject": "Verbal Reasoning",
-    "prompt": "What could possibly explain the occurrence of white hair?",
+    "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nWhat could possibly explain the occurrence of white hair?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11008,7 +11008,7 @@
   {
     "id": "cse2026-410",
     "subject": "Verbal Reasoning",
-    "prompt": "Which of the following statements is NOT true?",
+    "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nWhich of the following statements is NOT true?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -11034,7 +11034,7 @@
   {
     "id": "cse2026-411",
     "subject": "Verbal Reasoning",
-    "prompt": "Who was born an Athenian citizen in Samos in 341 B. C.?",
+    "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWho was born an Athenian citizen in Samos in 341 B.C.?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11060,7 +11060,7 @@
   {
     "id": "cse2026-412",
     "subject": "Verbal Reasoning",
-    "prompt": "What do the Epicureans think about the universe?",
+    "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWhat do the Epicureans think about the universe?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -11086,7 +11086,7 @@
   {
     "id": "cse2026-413",
     "subject": "Verbal Reasoning",
-    "prompt": "What was the Epicureans’ ultimate goal?",
+    "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWhat was the Epicureans' ultimate goal?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11112,7 +11112,7 @@
   {
     "id": "cse2026-414",
     "subject": "Verbal Reasoning",
-    "prompt": "Epicureans had a different view about religion. What was it?",
+    "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nEpicureans had a different view about religion. What was it?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -11138,7 +11138,7 @@
   {
     "id": "cse2026-415",
     "subject": "Verbal Reasoning",
-    "prompt": "Which of the following is not a belief of the Epicureans?",
+    "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWhich of the following is not a belief of the Epicureans?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -11164,7 +11164,7 @@
   {
     "id": "cse2026-416",
     "subject": "Verbal Reasoning",
-    "prompt": "What constitutes a happy life?",
+    "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nWhat constitutes a happy life?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11190,7 +11190,7 @@
   {
     "id": "cse2026-417",
     "subject": "Verbal Reasoning",
-    "prompt": "How can one attain a happy life, according to Seneca?",
+    "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nHow can one attain a happy life, according to Seneca?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -11216,7 +11216,7 @@
   {
     "id": "cse2026-418",
     "subject": "Verbal Reasoning",
-    "prompt": "What is an indication that a man’s soul is already like that of a god’s?",
+    "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nWhat is an indication that a man's soul is already like that of a god's?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11242,7 +11242,7 @@
   {
     "id": "cse2026-419",
     "subject": "Verbal Reasoning",
-    "prompt": "Which of the following statements is NOT true based on the selection?",
+    "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nWhich of the following statements is NOT true based on the selection?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -11268,7 +11268,7 @@
   {
     "id": "cse2026-420",
     "subject": "Verbal Reasoning",
-    "prompt": "What stanza states the main idea of the poem?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nWhat stanza states the main idea of the poem?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11294,7 +11294,7 @@
   {
     "id": "cse2026-421",
     "subject": "Verbal Reasoning",
-    "prompt": "What figure of speech was used in the third stanza?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nWhat figure of speech was used in the third stanza?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11320,7 +11320,7 @@
   {
     "id": "cse2026-422",
     "subject": "Verbal Reasoning",
-    "prompt": "What does the author refer to in the last line “Look what I have! — and these are all for you.”?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nWhat does the author refer to in the last line \"Look what I have! - and these are all for you.\"?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -11346,7 +11346,7 @@
   {
     "id": "cse2026-423",
     "subject": "Verbal Reasoning",
-    "prompt": "According to the author, how should one manifest his love for someone?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nAccording to the author, how should one manifest his love for someone?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -11372,7 +11372,7 @@
   {
     "id": "cse2026-424",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the gender of the persona in the poem?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nWhat is the gender of the persona in the poem?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -11398,7 +11398,7 @@
   {
     "id": "cse2026-425",
     "subject": "Verbal Reasoning",
-    "prompt": "Why did the guru attempt to remove the scorpion from the branches?",
+    "prompt": "Passage: A guru and his young disciples were seated on a riverbank when an uprooted tree floated down and caught on the bank. A scorpion was trapped in the branches and would drown if it fell into the river. The guru tried to rescue it, but it stung his hand. He tried again and was stung again. He kept trying until his hand was red and swollen. A disciple asked why he kept trying to save a scorpion that did not want to be saved. The guru replied, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\"\n\nWhy did the guru attempt to remove the scorpion from the branches?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11424,7 +11424,7 @@
   {
     "id": "cse2026-426",
     "subject": "Verbal Reasoning",
-    "prompt": "What does the statement, “Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?” mean?",
+    "prompt": "Passage: A guru and his young disciples were seated on a riverbank when an uprooted tree floated down and caught on the bank. A scorpion was trapped in the branches and would drown if it fell into the river. The guru tried to rescue it, but it stung his hand. He tried again and was stung again. He kept trying until his hand was red and swollen. A disciple asked why he kept trying to save a scorpion that did not want to be saved. The guru replied, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\"\n\nWhat does the statement, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\" mean?",
     "hint": "Identify the relationship between the first pair of terms, then apply the same relationship to find the missing term.",
     "choices": [
       {
@@ -11450,7 +11450,7 @@
   {
     "id": "cse2026-427",
     "subject": "Verbal Reasoning",
-    "prompt": "What is the best title for selection?",
+    "prompt": "Passage: A guru and his young disciples were seated on a riverbank when an uprooted tree floated down and caught on the bank. A scorpion was trapped in the branches and would drown if it fell into the river. The guru tried to rescue it, but it stung his hand. He tried again and was stung again. He kept trying until his hand was red and swollen. A disciple asked why he kept trying to save a scorpion that did not want to be saved. The guru replied, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\"\n\nWhat is the best title for the selection?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -11476,7 +11476,7 @@
   {
     "id": "cse2026-428",
     "subject": "Verbal Reasoning",
-    "prompt": "What statement is NOT true based on the selection?",
+    "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nWhat statement is NOT true based on the selection?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11502,7 +11502,7 @@
   {
     "id": "cse2026-429",
     "subject": "Verbal Reasoning",
-    "prompt": "Coronary arteries can become blocked by",
+    "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nCoronary arteries can become blocked by",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11528,7 +11528,7 @@
   {
     "id": "cse2026-430",
     "subject": "Verbal Reasoning",
-    "prompt": "What causes heart stoppage?",
+    "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nWhat causes heart stoppage?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11554,7 +11554,7 @@
   {
     "id": "cse2026-431",
     "subject": "Verbal Reasoning",
-    "prompt": "Batay sa binasa tungkol sa puso: kapag nabara ang coronary arteries, nababawasan ang oxygen sa heart muscle. Kapag hindi sapat ang oxygen, maaaring mamatay ang bahagi ng muscle at mapalitan ng scar tissue. Karaniwang malaking bahagi ng energy requirement ng puso ay nagmumula sa oxidation ng fatty acids.\n\nFats in the diet -",
+    "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nFats in the diet -",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -15350,7 +15350,7 @@
   {
     "id": "cse2026-573",
     "subject": "Filipino",
-    "prompt": "Aling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
+    "prompt": "Talata: Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaari nilang simulan ang pagmamalasakit sa kani-kanilang pamayanan. Sa mga proyektong inilulunsad ng pamahalaan, may mga gawaing pangkabataan tulad ng pagpapaganda ng kapaligiran at paglilinis ng sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa pamayanan. Ngunit bakit tila ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayan na sandata sa pagtatanggol sa Inang Bayan?\n\nAlin sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
     "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
@@ -15376,7 +15376,7 @@
   {
     "id": "cse2026-574",
     "subject": "Filipino",
-    "prompt": "Ano ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang huling pangungusap ng talata?",
+    "prompt": "Talata: Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaari nilang simulan ang pagmamalasakit sa kani-kanilang pamayanan. Sa mga proyektong inilulunsad ng pamahalaan, may mga gawaing pangkabataan tulad ng pagpapaganda ng kapaligiran at paglilinis ng sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa pamayanan. Ngunit bakit tila ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayan na sandata sa pagtatanggol sa Inang Bayan?\n\nAno ang nadarama ng may-akda sa kabataan na ipinahiwatig sa dalawang huling pangungusap ng talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15402,7 +15402,7 @@
   {
     "id": "cse2026-575",
     "subject": "Filipino",
-    "prompt": "“Ang kabataan ay pag-asa ng bayan.” Ano ang implikasyon ng pangungusap na ito?",
+    "prompt": "Talata: Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaari nilang simulan ang pagmamalasakit sa kani-kanilang pamayanan. Sa mga proyektong inilulunsad ng pamahalaan, may mga gawaing pangkabataan tulad ng pagpapaganda ng kapaligiran at paglilinis ng sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa pamayanan. Ngunit bakit tila ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayan na sandata sa pagtatanggol sa Inang Bayan?\n\n?Ang kabataan ay pag-asa ng bayan.? Ano ang implikasyon ng pangungusap na ito?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15428,7 +15428,7 @@
   {
     "id": "cse2026-576",
     "subject": "Filipino",
-    "prompt": "Ano ang Ixora coccinea L.?",
+    "prompt": "Talata: Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na Santan sa ating bayan. Ito ay halamang pampalamuti na may maraming klase: puti, pula, dilaw, at malaginto; may mahahaba at makikitid na dahon, at mayroon ding mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil maaari itong ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga, ipainom sa nagduduwal at sinisinok, makatulong sa gana sa pagkain, at gamitin sa ilang karamdaman. Ang binayong sariwang sanga ay mainam na pantapal sa pilay, eksema, galis, at maysakit na bahagi ng katawan.\n\nAno ang Ixora coccinea L.?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15454,7 +15454,7 @@
   {
     "id": "cse2026-577",
     "subject": "Filipino",
-    "prompt": "Alin sa mga sumusunod na pangungusap ang wasto?",
+    "prompt": "Talata: Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na Santan sa ating bayan. Ito ay halamang pampalamuti na may maraming klase: puti, pula, dilaw, at malaginto; may mahahaba at makikitid na dahon, at mayroon ding mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil maaari itong ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga, ipainom sa nagduduwal at sinisinok, makatulong sa gana sa pagkain, at gamitin sa ilang karamdaman. Ang binayong sariwang sanga ay mainam na pantapal sa pilay, eksema, galis, at maysakit na bahagi ng katawan.\n\nAlin sa mga sumusunod na pangungusap ang wasto?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15480,7 +15480,7 @@
   {
     "id": "cse2026-578",
     "subject": "Filipino",
-    "prompt": "Anong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
+    "prompt": "Talata: Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na Santan sa ating bayan. Ito ay halamang pampalamuti na may maraming klase: puti, pula, dilaw, at malaginto; may mahahaba at makikitid na dahon, at mayroon ding mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil maaari itong ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga, ipainom sa nagduduwal at sinisinok, makatulong sa gana sa pagkain, at gamitin sa ilang karamdaman. Ang binayong sariwang sanga ay mainam na pantapal sa pilay, eksema, galis, at maysakit na bahagi ng katawan.\n\nAnong bahagi ng Santan ang may pinakamaraming gamit bilang gamot?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15506,7 +15506,7 @@
   {
     "id": "cse2026-579",
     "subject": "Filipino",
-    "prompt": "Ano ang pinakamabuting pamagat para sa talatang nabasa?",
+    "prompt": "Talata: Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na Santan sa ating bayan. Ito ay halamang pampalamuti na may maraming klase: puti, pula, dilaw, at malaginto; may mahahaba at makikitid na dahon, at mayroon ding mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil maaari itong ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga, ipainom sa nagduduwal at sinisinok, makatulong sa gana sa pagkain, at gamitin sa ilang karamdaman. Ang binayong sariwang sanga ay mainam na pantapal sa pilay, eksema, galis, at maysakit na bahagi ng katawan.\n\nAno ang pinakamabuting pamagat para sa talatang nabasa?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15610,7 +15610,7 @@
   {
     "id": "cse2026-583",
     "subject": "Filipino",
-    "prompt": "Ano ang paksang pangungusap sa talata?",
+    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAno ang paksang pangungusap sa talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15636,7 +15636,7 @@
   {
     "id": "cse2026-584",
     "subject": "Filipino",
-    "prompt": "Ano ang pinakamainam sa pamagat sa talata?",
+    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAno ang pinakamainam na pamagat sa talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15662,7 +15662,7 @@
   {
     "id": "cse2026-585",
     "subject": "Filipino",
-    "prompt": "Alin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
+    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15688,7 +15688,7 @@
   {
     "id": "cse2026-586",
     "subject": "Filipino",
-    "prompt": "Paano nagbago ang pananaw ng tao hinggil sa mga mata?",
+    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15714,7 +15714,7 @@
   {
     "id": "cse2026-587",
     "subject": "Filipino",
-    "prompt": "Anong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
+    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15896,7 +15896,7 @@
   {
     "id": "cse2026-594",
     "subject": "Filipino",
-    "prompt": "Tungkol saan ang grapong nabasa?",
+    "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999: Nov 1990 - Php 89.00, Jan 1991 - Php 106.00, Dec 1993 - Php 118.00, Apr 1994 - Php 125.00, May 1996 - Php 145.00, May 1997 - Php 165.00, Feb 1998 - Php 175.00, Oct 1999 - Php 223.50.\n\nTungkol saan ang grapong nabasa?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15948,7 +15948,7 @@
   {
     "id": "cse2026-596",
     "subject": "Filipino",
-    "prompt": "Kailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
+    "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999: Nov 1990 - Php 89.00, Jan 1991 - Php 106.00, Dec 1993 - Php 118.00, Apr 1994 - Php 125.00, May 1996 - Php 145.00, May 1997 - Php 165.00, Feb 1998 - Php 175.00, Oct 1999 - Php 223.50.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15974,7 +15974,7 @@
   {
     "id": "cse2026-597",
     "subject": "Filipino",
-    "prompt": "Gaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang\nF145?",
+    "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999: Nov 1990 - Php 89.00, Jan 1991 - Php 106.00, Dec 1993 - Php 118.00, Apr 1994 - Php 125.00, May 1996 - Php 145.00, May 1997 - Php 165.00, Feb 1998 - Php 175.00, Oct 1999 - Php 223.50.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang Php 145?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
