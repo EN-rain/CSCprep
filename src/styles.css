@@ -1377,6 +1377,40 @@ h2 {
   background: var(--surface);
 }
 
+.image-question-list {
+  display: grid;
+  gap: 16px;
+}
+
+.image-question-row {
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px;
+  background: var(--surface);
+}
+
+.image-question-row__prompt-image {
+  justify-self: start;
+  max-width: min(100%, 460px);
+}
+
+.choice-image-button {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: zoom-in;
+}
+
+.choice-image-button:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 4px;
+  border-radius: 10px;
+}
+
 .report-row p {
   display: -webkit-box;
   margin: 8px 0 0;
