@@ -13,6 +13,7 @@ export type ChoiceId = 'A' | 'B' | 'C' | 'D' | 'E'
 export type Choice = {
   id: ChoiceId
   text: string
+  image?: string
 }
 
 export type Question = {

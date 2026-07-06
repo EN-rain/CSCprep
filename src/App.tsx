@@ -2469,7 +2469,8 @@ function QuestionCard({
   question,
 }: QuestionCardProps) {
   const [reportPanelOpen, setReportPanelOpen] = useState(false)
-  const markerChoicesOnly = Boolean(image) && usesImageChoiceMarkers(choices)
+  const choicesHaveImages = choices.some((choice) => Boolean(choice.image))
+  const markerChoicesOnly = Boolean(image) && usesImageChoiceMarkers(choices) && !choicesHaveImages
   const promptIsShownInImage = hasPromptInImage(question.id, image, markerChoicesOnly)
   const showHintButton = Boolean(question.hint.trim()) && !isImageOnlyQuestion(question.prompt, choices, image)
   const submitReport = useCallback((issueDescription: string) => {
@@ -2524,10 +2525,15 @@ function QuestionCard({
         questionId={question.id}
         visuallyHidden={promptIsShownInImage}
       />
-      <div className={markerChoicesOnly ? 'choice-grid choice-grid--markers' : 'choice-grid'}>
+      <div className={[
+        'choice-grid',
+        markerChoicesOnly ? 'choice-grid--markers' : '',
+        choicesHaveImages ? 'choice-grid--images' : '',
+      ].filter(Boolean).join(' ')}>
         {choices.map((choice, index) => {
           const isSelected = answers[itemId] === choice.id
           const displayLetter = markerChoicesOnly ? choice.id.toLowerCase() : String.fromCharCode(97 + index)
+          const markerTextOnly = /^(Option [a-e]|[a-e])$/i.test(choice.text.trim())
 
           return (
             <button
@@ -2543,7 +2549,12 @@ function QuestionCard({
               type="button"
             >
               <span>{displayLetter}</span>
-              {!markerChoicesOnly && choice.text}
+              {choice.image ? (
+                <img className="choice-image" src={choice.image} alt={`Choice ${displayLetter}`} draggable={false} />
+              ) : (
+                !markerChoicesOnly && choice.text
+              )}
+              {choice.image && !markerTextOnly && <p className="choice-text">{choice.text}</p>}
             </button>
           )
         })}
@@ -2657,7 +2668,8 @@ function formatReviewExplanation(explanation: string, correctChoiceText: string)
 }
 
 function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
-  const markerChoicesOnly = Boolean(item.image) && usesImageChoiceMarkers(item.choices)
+  const choicesHaveImages = item.choices.some((choice) => Boolean(choice.image))
+  const markerChoicesOnly = Boolean(item.image) && usesImageChoiceMarkers(item.choices) && !choicesHaveImages
   const promptIsShownInImage = hasPromptInImage(item.questionId, item.image, markerChoicesOnly)
   const correctChoice = item.choices.find((choice) => choice.id === item.correctChoiceId)
 
@@ -2690,7 +2702,11 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
           </p>
         </div>
       )}
-      <div className={markerChoicesOnly ? 'review-choices review-choices--markers' : 'review-choices'}>
+      <div className={[
+        'review-choices',
+        markerChoicesOnly ? 'review-choices--markers' : '',
+        choicesHaveImages ? 'review-choices--images' : '',
+      ].filter(Boolean).join(' ')}>
         {item.choices.map((choice, index) => {
           const isSelected = item.selectedChoiceId === choice.id
           const isCorrect = item.correctChoiceId === choice.id
@@ -2703,11 +2719,17 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
             .filter(Boolean)
             .join(' ')
           const displayLetter = markerChoicesOnly ? choice.id.toLowerCase() : String.fromCharCode(97 + index)
+          const markerTextOnly = /^(Option [a-e]|[a-e])$/i.test(choice.text.trim())
 
           return (
             <div className={className} key={choice.id}>
               <span>{displayLetter}</span>
-              {!markerChoicesOnly && <p>{choice.text}</p>}
+              {choice.image ? (
+                <img className="choice-image" src={choice.image} alt={`Choice ${displayLetter}`} draggable={false} />
+              ) : (
+                !markerChoicesOnly && <p>{choice.text}</p>
+              )}
+              {choice.image && !markerTextOnly && <p>{choice.text}</p>}
               {isSelected && <strong>Your answer</strong>}
               {isCorrect && <strong>Correct</strong>}
             </div>

@@ -288,7 +288,7 @@
   {
     "id": "aa-012",
     "subject": "Analytical Ability",
-    "prompt": "A. St. Stephen’s School\nB. St. Stephen’s University\nC. St. Scholastica’s Academy\nD. St. Scholastica’s College",
+    "prompt": "A. St. Stephen\u00e2\u20ac\u2122s School\nB. St. Stephen\u00e2\u20ac\u2122s University\nC. St. Scholastica\u00e2\u20ac\u2122s Academy\nD. St. Scholastica\u00e2\u20ac\u2122s College",
     "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
     "choices": [
       {
@@ -309,7 +309,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = St. Scholastica’s Academy, D = St. Scholastica’s College, A = St. Stephen’s School, B = St. Stephen’s University. That matches choice C."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = St. Scholastica\u00e2\u20ac\u2122s Academy, D = St. Scholastica\u00e2\u20ac\u2122s College, A = St. Stephen\u00e2\u20ac\u2122s School, B = St. Stephen\u00e2\u20ac\u2122s University. That matches choice C."
   },
   {
     "id": "aa-013",
@@ -1827,24 +1827,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Circle a"
+        "text": "Circle a",
+        "image": "/question-images/aa-071-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Circle b"
+        "text": "Circle b",
+        "image": "/question-images/aa-071-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Circle c"
+        "text": "Circle c",
+        "image": "/question-images/aa-071-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Circle d"
+        "text": "Circle d",
+        "image": "/question-images/aa-071-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-071.png"
+    "image": "/question-images/aa-071-question.png"
   },
   {
     "id": "aa-072",
@@ -1854,24 +1858,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-072-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-072-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-072-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-072-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-072.png"
+    "image": "/question-images/aa-072-question.png"
   },
   {
     "id": "aa-073",
@@ -1881,24 +1889,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-073-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-073-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-073-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-073-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-073.png"
+    "image": "/question-images/aa-073-question.png"
   },
   {
     "id": "aa-074",
@@ -1908,24 +1920,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-074-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-074-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-074-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-074-choice-d.png"
       }
     ],
     "correctChoiceId": "C",
     "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-074.png"
+    "image": "/question-images/aa-074-question.png"
   },
   {
     "id": "aa-075",
@@ -1935,24 +1951,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Circle a"
+        "text": "Circle a",
+        "image": "/question-images/aa-075-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Circle b"
+        "text": "Circle b",
+        "image": "/question-images/aa-075-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Circle c"
+        "text": "Circle c",
+        "image": "/question-images/aa-075-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Circle d"
+        "text": "Circle d",
+        "image": "/question-images/aa-075-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D because it completes the visual pattern shown in the diagram.",
-    "image": "/question-images/aa-075.png"
+    "image": "/question-images/aa-075-question.png"
   },
   {
     "id": "aa-076",
@@ -1962,24 +1982,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-076-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-076-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-076-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-076-choice-d.png"
       }
     ],
     "correctChoiceId": "A",
     "explanation": "The correct answer is choice A (\"Option a\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-076.png"
+    "image": "/question-images/aa-076-question.png"
   },
   {
     "id": "aa-077",
@@ -1989,24 +2013,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-077-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-077-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-077-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-077-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-077.png"
+    "image": "/question-images/aa-077-question.png"
   },
   {
     "id": "aa-078",
@@ -2016,24 +2044,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-078-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-078-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-078-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-078-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-078.png"
+    "image": "/question-images/aa-078-question.png"
   },
   {
     "id": "aa-079",
@@ -2043,24 +2075,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-079-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-079-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-079-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-079-choice-d.png"
       }
     ],
     "correctChoiceId": "C",
     "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-079.png"
+    "image": "/question-images/aa-079-question.png"
   },
   {
     "id": "aa-080",
@@ -2070,24 +2106,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-080-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-080-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-080-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-080-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-080.png"
+    "image": "/question-images/aa-080-question.png"
   },
   {
     "id": "aa-081",
@@ -2097,24 +2137,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-081-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-081-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-081-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-081-choice-d.png"
       }
     ],
     "correctChoiceId": "C",
     "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-081.png"
+    "image": "/question-images/aa-081-question.png"
   },
   {
     "id": "aa-082",
@@ -2124,24 +2168,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-082-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-082-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-082-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-082-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-082.png"
+    "image": "/question-images/aa-082-question.png"
   },
   {
     "id": "aa-083",
@@ -2151,20 +2199,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Figure a"
+        "text": "Figure a",
+        "image": "/question-images/aa-083-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Figure b"
+        "text": "Figure b",
+        "image": "/question-images/aa-083-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Figure c"
+        "text": "Figure c",
+        "image": "/question-images/aa-083-choice-c.png"
       }
     ],
     "correctChoiceId": "A",
     "explanation": "The correct answer is figure a because it completes the row-and-column pattern shown in the image.",
-    "image": "/question-images/aa-083.png"
+    "image": "/question-images/aa-083-question.png"
   },
   {
     "id": "aa-084",
@@ -2174,24 +2225,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-084-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-084-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-084-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-084-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-084.png"
+    "image": "/question-images/aa-084-question.png"
   },
   {
     "id": "aa-085",
@@ -2201,24 +2256,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-085-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-085-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-085-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-085-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-085.png"
+    "image": "/question-images/aa-085-question.png"
   },
   {
     "id": "aa-086",
@@ -2228,24 +2287,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-086-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-086-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-086-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-086-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-086.png"
+    "image": "/question-images/aa-086-question.png"
   },
   {
     "id": "aa-087",
@@ -2255,24 +2318,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-087-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-087-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-087-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-087-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-087.png"
+    "image": "/question-images/aa-087-question.png"
   },
   {
     "id": "aa-088",
@@ -2282,24 +2349,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-088-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-088-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-088-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-088-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-088.png"
+    "image": "/question-images/aa-088-question.png"
   },
   {
     "id": "aa-089",
@@ -2309,24 +2380,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-089-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-089-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-089-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-089-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-089.png"
+    "image": "/question-images/aa-089-question.png"
   },
   {
     "id": "aa-090",
@@ -2336,24 +2411,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-090-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-090-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-090-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-090-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-090.png"
+    "image": "/question-images/aa-090-question.png"
   },
   {
     "id": "aa-091",
@@ -2363,24 +2442,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-091-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-091-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-091-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-091-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-091.png"
+    "image": "/question-images/aa-091-question.png"
   },
   {
     "id": "aa-092",
@@ -2390,24 +2473,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-092-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-092-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-092-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-092-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-092.png"
+    "image": "/question-images/aa-092-question.png"
   },
   {
     "id": "aa-093",
@@ -2417,24 +2504,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-093-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-093-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-093-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-093-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-093.png"
+    "image": "/question-images/aa-093-question.png"
   },
   {
     "id": "aa-094",
@@ -2444,24 +2535,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-094-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-094-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-094-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-094-choice-d.png"
       }
     ],
     "correctChoiceId": "A",
     "explanation": "The correct answer is choice A (\"Option a\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-094.png"
+    "image": "/question-images/aa-094-question.png"
   },
   {
     "id": "aa-095",
@@ -2471,24 +2566,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-095-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-095-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-095-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-095-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-095.png"
+    "image": "/question-images/aa-095-question.png"
   },
   {
     "id": "aa-096",
@@ -2498,24 +2597,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Figure a"
+        "text": "Figure a",
+        "image": "/question-images/aa-096-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Figure b"
+        "text": "Figure b",
+        "image": "/question-images/aa-096-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Figure c"
+        "text": "Figure c",
+        "image": "/question-images/aa-096-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Figure d"
+        "text": "Figure d",
+        "image": "/question-images/aa-096-choice-d.png"
       }
     ],
     "correctChoiceId": "C",
     "explanation": "The correct answer is figure c because it is the figure that contains the shape shown on the left.",
-    "image": "/question-images/aa-096.png"
+    "image": "/question-images/aa-096-question.png"
   },
   {
     "id": "aa-097",
@@ -2525,24 +2628,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-097-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-097-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-097-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-097-choice-d.png"
       }
     ],
     "correctChoiceId": "C",
     "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-097.png"
+    "image": "/question-images/aa-097-question.png"
   },
   {
     "id": "aa-098",
@@ -2552,24 +2659,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-098-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-098-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-098-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-098-choice-d.png"
       }
     ],
     "correctChoiceId": "C",
     "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-098.png"
+    "image": "/question-images/aa-098-question.png"
   },
   {
     "id": "aa-099",
@@ -2579,24 +2690,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-099-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-099-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-099-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-099-choice-d.png"
       }
     ],
     "correctChoiceId": "B",
     "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-099.png"
+    "image": "/question-images/aa-099-question.png"
   },
   {
     "id": "aa-100",
@@ -2606,24 +2721,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a"
+        "text": "Option a",
+        "image": "/question-images/aa-100-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b"
+        "text": "Option b",
+        "image": "/question-images/aa-100-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c"
+        "text": "Option c",
+        "image": "/question-images/aa-100-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d"
+        "text": "Option d",
+        "image": "/question-images/aa-100-choice-d.png"
       }
     ],
     "correctChoiceId": "D",
     "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-100.png"
+    "image": "/question-images/aa-100-question.png"
   },
   {
     "id": "aa-101",
@@ -4436,7 +4555,7 @@
   {
     "id": "aa-171",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these entries alphabetically:\nA. Records Office\nB. Receiving Desk\nC. Releasing Unit\nD. Registry Section",
+    "prompt": "A. Records Office\nB. Receiving Desk\nC. Releasing Unit\nD. Registry Section",
     "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
@@ -4462,7 +4581,7 @@
   {
     "id": "aa-172",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these names alphabetically:\nA. Santos, Ana\nB. Santiago, Carlo\nC. Sanchez, Ben\nD. San Diego, Mara",
+    "prompt": "A. Santos, Ana\nB. Santiago, Carlo\nC. Sanchez, Ben\nD. San Diego, Mara",
     "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
@@ -4488,7 +4607,7 @@
   {
     "id": "aa-173",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these offices alphabetically:\nA. Budget Division\nB. Accounting Unit\nC. Administrative Office\nD. Cash Section",
+    "prompt": "A. Budget Division\nB. Accounting Unit\nC. Administrative Office\nD. Cash Section",
     "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {

@@ -2570,7 +2570,7 @@
   {
     "id": "cse2026-097",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these agencies alphabetically:\nA. Commission on the Filipino Language\nB. Commission on Human Rights\nC. Commission on Higher Education\nD. Commission on Population",
+    "prompt": "A. Commission on the Filipino Language\nB. Commission on Human Rights\nC. Commission on Higher Education\nD. Commission on Population",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2596,7 +2596,7 @@
   {
     "id": "cse2026-098",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these agencies alphabetically:\nA. Cooperative Development Authority\nB. Cottage Industry Development Enterprise\nC. Cottage Industry Technology Center\nD. Council for the Welfare of Children",
+    "prompt": "A. Cooperative Development Authority\nB. Cottage Industry Development Enterprise\nC. Cottage Industry Technology Center\nD. Council for the Welfare of Children",
     "hint": "Alphabetize the agencies by their key noun (Cooperative, Cottage, Council).",
     "choices": [
       {
@@ -2622,7 +2622,7 @@
   {
     "id": "cse2026-099",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these organizations alphabetically:\nA. Food and Nutrition Research Institute\nB. Fiber Industry Development Authority\nC. Foreign Service Institute\nD. Family Planning Organization of the Philippines",
+    "prompt": "A. Food and Nutrition Research Institute\nB. Fiber Industry Development Authority\nC. Foreign Service Institute\nD. Family Planning Organization of the Philippines",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2648,7 +2648,7 @@
   {
     "id": "cse2026-100",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these agencies alphabetically:\nA. Insurance Commission\nB. Industrial Technology Development Institute\nC. Institute of Labor and Manpower Studies\nD. Instructional Materials Corporation",
+    "prompt": "A. Insurance Commission\nB. Industrial Technology Development Institute\nC. Institute of Labor and Manpower Studies\nD. Instructional Materials Corporation",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2674,7 +2674,7 @@
   {
     "id": "cse2026-101",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these agencies alphabetically:\nA. Presidential Commission on Good Governance\nB. Presidential Commission to Fight Poverty\nC. Presidential Commission for the Urban Poor\nD. Presidential Commission on Human Rights",
+    "prompt": "A. Presidential Commission on Good Governance\nB. Presidential Commission to Fight Poverty\nC. Presidential Commission for the Urban Poor\nD. Presidential Commission on Human Rights",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2700,7 +2700,7 @@
   {
     "id": "cse2026-102",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these companies alphabetically:\nA. AA Industrial Chemical Supply\nB. AB Capital and Investment Corporation\nC. A Soriano Aviation Incorporated\nD. A-1 Driving Company Incorporated",
+    "prompt": "A. AA Industrial Chemical Supply\nB. AB Capital and Investment Corporation\nC. A Soriano Aviation Incorporated\nD. A-1 Driving Company Incorporated",
     "hint": "Alphabetize the companies exactly as written.",
     "choices": [
       {
@@ -2726,7 +2726,7 @@
   {
     "id": "cse2026-103",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these companies alphabetically:\nA. Ayala Plans Inc.\nB. Ayala Health Care, Inc.\nC. Ayala Land Inc.\nD. Ayala Life Assurance Inc.",
+    "prompt": "A. Ayala Plans Inc.\nB. Ayala Health Care, Inc.\nC. Ayala Land Inc.\nD. Ayala Life Assurance Inc.",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2752,7 +2752,7 @@
   {
     "id": "cse2026-104",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these companies alphabetically:\nA. Filspin Incorporated\nB. Filway Marketing Inc.\nC. Filsov Shipping Company\nD. Fina Products Inc.",
+    "prompt": "A. Filspin Incorporated\nB. Filway Marketing Inc.\nC. Filsov Shipping Company\nD. Fina Products Inc.",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2778,7 +2778,7 @@
   {
     "id": "cse2026-105",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these organizations alphabetically:\nA. John Shannon Montessori\nB. John Paul Hospital\nC. John Robert Powers\nD. John Nelson and Associates",
+    "prompt": "A. John Shannon Montessori\nB. John Paul Hospital\nC. John Robert Powers\nD. John Nelson and Associates",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2804,7 +2804,7 @@
   {
     "id": "cse2026-106",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these businesses alphabetically:\nA. Sports Zone Restaurant\nB. Sports Resources Inc.\nC. Sports Values Inc.\nD. Sports House and General Merchandise",
+    "prompt": "A. Sports Zone Restaurant\nB. Sports Resources Inc.\nC. Sports Values Inc.\nD. Sports House and General Merchandise",
     "hint": "Alphabetize by the second word: Resources, House, Values, Zone.",
     "choices": [
       {
@@ -2830,7 +2830,7 @@
   {
     "id": "cse2026-107",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these names alphabetically:\nA. Abad, Josephine\nB. Abad, Jason\nC. Abad, Joseph\nD. Abad, June",
+    "prompt": "A. Abad, Josephine\nB. Abad, Jason\nC. Abad, Joseph\nD. Abad, June",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2856,7 +2856,7 @@
   {
     "id": "cse2026-108",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these schools alphabetically:\nA. St. Stephen's School\nB. St. Stephen's University\nC. St. Scholastica's Academy\nD. St. Scholastica's College",
+    "prompt": "A. St. Stephen's School\nB. St. Stephen's University\nC. St. Scholastica's Academy\nD. St. Scholastica's College",
     "hint": "Alphabetize by the key noun: School, University, Academy, College.",
     "choices": [
       {
@@ -2882,7 +2882,7 @@
   {
     "id": "cse2026-109",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these names alphabetically:\nA. Santos, Anita\nB. Santos, Ana\nC. Santos, Antonio\nD. Santos, Anthony",
+    "prompt": "A. Santos, Anita\nB. Santos, Ana\nC. Santos, Antonio\nD. Santos, Anthony",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2908,7 +2908,7 @@
   {
     "id": "cse2026-110",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these publications alphabetically:\nA. Philippine Daily Inquirer\nB. Philippine Star\nC. Philippine Herald\nD. Philippine Tribune",
+    "prompt": "A. Philippine Daily Inquirer\nB. Philippine Star\nC. Philippine Herald\nD. Philippine Tribune",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -2934,7 +2934,7 @@
   {
     "id": "cse2026-111",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these names alphabetically:\nA. Luna, Antonio\nB. Luna, Juan\nC. Luna, Olive\nD. Luna, Oliver",
+    "prompt": "A. Luna, Antonio\nB. Luna, Juan\nC. Luna, Olive\nD. Luna, Oliver",
     "hint": "The items appear to be names to be alphabetized by surname.",
     "choices": [
       {
@@ -2960,7 +2960,7 @@
   {
     "id": "cse2026-112",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these names alphabetically:\nA. Felimon, Jason\nB. Felipe, Julian\nC. Felimon, Jamie\nD. Felipe, Julia",
+    "prompt": "A. Felimon, Jason\nB. Felipe, Julian\nC. Felimon, Jamie\nD. Felipe, Julia",
     "hint": "The items appear to be names to be alphabetized by surname.",
     "choices": [
       {
@@ -2986,7 +2986,7 @@
   {
     "id": "cse2026-113",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these institutions alphabetically:\nA. UP Institute for Small Scale Industries\nB. UP Institute for Science and Math Education\nC. UP Institute of Biology\nD. UP Institute of Chemistry",
+    "prompt": "A. UP Institute for Small Scale Industries\nB. UP Institute for Science and Math Education\nC. UP Institute of Biology\nD. UP Institute of Chemistry",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -3012,7 +3012,7 @@
   {
     "id": "cse2026-114",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these bureaus alphabetically:\nA. Bureau of Post\nB. Bureau of Internal Revenue\nC. Bureau of Mines\nD. Bureau of Fisheries and Aquatic Resources",
+    "prompt": "A. Bureau of Post\nB. Bureau of Internal Revenue\nC. Bureau of Mines\nD. Bureau of Fisheries and Aquatic Resources",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -3038,7 +3038,7 @@
   {
     "id": "cse2026-115",
     "subject": "Analytical Ability",
-    "prompt": "Arrange these names alphabetically:\nA. Rancho, Elian\nB. Rallon, Michel\nC. Ramirez, Sean\nD. Rancho, Elaine",
+    "prompt": "A. Rancho, Elian\nB. Rallon, Michel\nC. Ramirez, Sean\nD. Rancho, Elaine",
     "hint": "Alphabetizing item: compare the entries word by word and sort them in dictionary order.",
     "choices": [
       {
@@ -4522,7 +4522,7 @@
   {
     "id": "cse2026-173",
     "subject": "Verbal Reasoning",
-    "prompt": "The sickly dog was givena_ /ethal dose of morphine tablets.",
+    "prompt": "The sickly dog was given a lethal dose of morphine tablets.",
     "hint": "'Lethal' means capable of causing death. Find the synonym.",
     "choices": [
       {

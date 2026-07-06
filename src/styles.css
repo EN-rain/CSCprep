@@ -955,6 +955,10 @@ h2 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
+.choice-grid--images {
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+}
+
 .choice {
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr);
@@ -983,6 +987,24 @@ h2 {
   height: 38px;
   font-size: 1rem;
   text-transform: lowercase;
+}
+
+.choice-grid--images .choice {
+  grid-template-columns: 34px minmax(0, 1fr);
+  min-height: 132px;
+}
+
+.choice-image {
+  display: block;
+  width: min(100%, 180px);
+  max-height: 120px;
+  object-fit: contain;
+  justify-self: center;
+}
+
+.choice-text {
+  grid-column: 2;
+  margin: 0;
 }
 
 .choice span,
@@ -1407,6 +1429,10 @@ h2 {
   gap: 10px;
 }
 
+.review-choices--images {
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+}
+
 .review-choice {
   display: grid;
   grid-template-columns: 34px 1fr auto auto;
@@ -1430,6 +1456,17 @@ h2 {
   height: 38px;
   font-size: 1rem;
   text-transform: lowercase;
+}
+
+.review-choices--images .review-choice {
+  grid-template-columns: 34px minmax(0, 1fr);
+  align-content: center;
+  min-height: 144px;
+}
+
+.review-choices--images .review-choice strong {
+  grid-column: 1 / -1;
+  justify-self: start;
 }
 
 .review-choice p,
