@@ -1340,11 +1340,14 @@ function App() {
       {screen === 'reports' && (
         <div className="screen-frame screen-frame--reports">
           <ReportsScreen
+            expandedImage={expandedImage}
             reports={questionReports}
             returnLabel={reportsReturnScreen === 'exam' && session ? 'Resume exam' : 'Home'}
             syncStatus={reportSyncStatus}
+            onCloseImage={() => setExpandedImage(null)}
             onClearReports={clearQuestionReports}
             onDeleteReport={deleteQuestionReport}
+            onOpenImage={setExpandedImage}
             onReturn={closeReports}
             theme={theme}
             onToggleTheme={toggleTheme}
@@ -1788,22 +1791,28 @@ function HistoryScreen({
 }
 
 type ReportsScreenProps = {
+  expandedImage: string | null
   reports: QuestionReport[]
   returnLabel: string
   syncStatus: ReportSyncStatus
+  onCloseImage: () => void
   onClearReports: () => void
   onDeleteReport: (reportId: string) => void
+  onOpenImage: (imageSrc: string) => void
   onReturn: () => void
   theme: Theme
   onToggleTheme: () => void
 }
 
 function ReportsScreen({
+  expandedImage,
   reports,
   returnLabel,
   syncStatus,
+  onCloseImage,
   onClearReports,
   onDeleteReport,
+  onOpenImage,
   onReturn,
   theme,
   onToggleTheme,
@@ -1852,33 +1861,82 @@ function ReportsScreen({
           <p className="empty-history">No questions reported yet.</p>
         ) : (
           <div className="report-list">
-            {reports.map((report) => (
-              <article className="report-row" key={report.id}>
-                <div>
-                  <div className="report-row__meta">
-                    <strong>{report.questionId}</strong>
-                    <span>Item {report.itemNumber}</span>
-                    <span>{report.subject}</span>
-                    <span>{formatAttemptDate(report.reportedAt)}</span>
+            {reports.map((report) => {
+              const currentQuestion = QUESTION_BANK_BY_ID.get(report.questionId)
+
+              return (
+                <article className="report-row" key={report.id}>
+                  <div>
+                    <div className="report-row__meta">
+                      <strong>{report.questionId}</strong>
+                      <span>Item {report.itemNumber}</span>
+                      <span>{report.subject}</span>
+                      <span>{formatAttemptDate(report.reportedAt)}</span>
+                    </div>
+                    <ReportPrompt prompt={report.prompt} />
+                    {currentQuestion && (
+                      <ReportQuestionDetails question={currentQuestion} onOpenImage={onOpenImage} />
+                    )}
+                    {report.issueDescription && (
+                      <p className="report-row__issue">{report.issueDescription}</p>
+                    )}
                   </div>
-                  <ReportPrompt prompt={report.prompt} />
-                  {report.issueDescription && (
-                    <p className="report-row__issue">{report.issueDescription}</p>
-                  )}
-                </div>
-                <button
-                  className="attempt-row__delete"
-                  onClick={() => onDeleteReport(report.id)}
-                  type="button"
-                >
-                  Delete
-                </button>
-              </article>
-            ))}
+                  <button
+                    className="attempt-row__delete"
+                    onClick={() => onDeleteReport(report.id)}
+                    type="button"
+                  >
+                    Delete
+                  </button>
+                </article>
+              )
+            })}
           </div>
         )}
       </section>
+
+      {expandedImage && <ImageLightbox imageSrc={expandedImage} onClose={onCloseImage} />}
     </section>
+  )
+}
+
+type ReportQuestionDetailsProps = {
+  question: (typeof questionBank)[number]
+  onOpenImage: (imageSrc: string) => void
+}
+
+function ReportQuestionDetails({ question, onOpenImage }: ReportQuestionDetailsProps) {
+  return (
+    <div className="report-question-details">
+      {question.image && (
+        <button
+          className="question-image-button report-question-details__image"
+          onClick={() => onOpenImage(question.image!)}
+          type="button"
+        >
+          <img className="question-image" src={question.image} alt={`${question.id} prompt image`} draggable={false} />
+          <span className="question-image-hint">Click to enlarge</span>
+        </button>
+      )}
+      <div className="report-choice-list">
+        {question.choices.map((choice, index) => (
+          <div className="report-choice" key={choice.id}>
+            <span>{String.fromCharCode(97 + index)}</span>
+            {choice.image ? (
+              <button
+                className="choice-image-button"
+                onClick={() => onOpenImage(choice.image!)}
+                type="button"
+              >
+                <img className="choice-image" src={choice.image} alt={`${question.id} choice ${choice.id}`} draggable={false} />
+              </button>
+            ) : (
+              <p>{choice.text}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
   )
 }
 
