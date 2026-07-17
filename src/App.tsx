@@ -38,6 +38,16 @@ const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
 const QUESTION_REPLACE_ANIMATION_MS = 520
 const QUESTION_BANK_BY_ID = new Map(questionBank.map((question) => [question.id, question]))
+const RESOLVED_QUESTION_REPORT_IDS = new Set([
+  'cse2026-023',
+  'nr-027',
+  'cse2026-642',
+  'vr-037',
+  'cse2026-167',
+  'cse2026-358',
+  'fi-149',
+  'nr-025',
+])
 
 type ReviewItem = {
   itemId: string
@@ -449,6 +459,10 @@ function mergeQuestionReports(...reportGroups: QuestionReport[][]): QuestionRepo
   const reportsById = new Map<string, QuestionReport>()
 
   reportGroups.flat().forEach((report) => {
+    if (RESOLVED_QUESTION_REPORT_IDS.has(report.questionId)) {
+      return
+    }
+
     if (!reportsById.has(report.id)) {
       reportsById.set(report.id, report)
     }

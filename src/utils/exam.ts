@@ -27,12 +27,23 @@ const MIXED_EXAM_SUBJECT_COUNTS: Partial<Record<Subject, number>> = {
 }
 
 function isExamEligibleQuestion(question: Question): boolean {
+  if (question.status === 'excluded' || question.status === 'needs-review') {
+    return false
+  }
+
   const hasPlaceholderChoices = question.choices.some((choice) => {
     const text = choice.text.trim()
     return !text || /^Option [A-E]$/.test(text) || /^Choice [A-E]$/.test(text)
   })
 
-  return Boolean(question.prompt && question.choices.length >= 2 && !hasPlaceholderChoices)
+  const hasCorrectChoice = question.choices.some((choice) => choice.id === question.correctChoiceId)
+
+  return Boolean(
+    question.prompt.trim() &&
+    question.choices.length >= 2 &&
+    !hasPlaceholderChoices &&
+    hasCorrectChoice
+  )
 }
 
 function getExamEligibleQuestions(): Question[] {

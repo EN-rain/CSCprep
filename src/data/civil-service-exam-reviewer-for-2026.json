@@ -574,7 +574,7 @@
   {
     "id": "cse2026-023",
     "subject": "Numerical Reasoning",
-    "prompt": "Find 3 %4 of 16",
+    "prompt": "Find 3 1/4 of 16",
     "hint": "Convert 3¼ to either 3.25 or 13/4 before multiplying by 16.",
     "choices": [
       {
@@ -761,7 +761,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "m-+nis even"
+        "text": "m + n is even"
       },
       {
         "id": "B",
@@ -769,15 +769,15 @@
       },
       {
         "id": "C",
-        "text": "m-—ncannot be odd"
+        "text": "m - n cannot be odd"
       },
       {
         "id": "D",
-        "text": "m+n-‘1is odd"
+        "text": "m + n - 1 is odd"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "If m and n are not both odd, at least one is even. Then mn = (even) × n is even, so 'mn is even' is always true. The other options are not guaranteed: m + n can be odd (e.g., 2 + 3 = 5), m − n can be odd, and m + n − 1 can be even."
+    "correctChoiceId": "B",
+    "explanation": "If m and n are not both odd, at least one is even. Then mn = (even) x n is even, so 'mn is even' is always true. The other options are not guaranteed: m + n can be odd (e.g., 2 + 3 = 5), m - n can be odd, and m + n - 1 can be even."
   },
   {
     "id": "cse2026-031",
@@ -4366,7 +4366,7 @@
   {
     "id": "cse2026-167",
     "subject": "Verbal Reasoning",
-    "prompt": "Keep on believing that physical disability is nota Aindrance to success.",
+    "prompt": "Keep on believing that physical disability is not a hindrance to success.",
     "hint": "'Hindrance' means something that obstructs progress. Find the synonym.",
     "choices": [
       {
@@ -4386,8 +4386,8 @@
         "text": "difficulty"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "A hindrance is something that blocks or holds back progress. The synonym is 'block' or 'difficulty'. Note: the answer key marks B (stepping stone), which is the opposite — something that helps rather than hinders."
+    "correctChoiceId": "A",
+    "explanation": "A hindrance is something that blocks or obstructs progress. Therefore, the closest synonym is 'block'."
   },
   {
     "id": "cse2026-168",
@@ -9668,7 +9668,7 @@
   {
     "id": "cse2026-358",
     "subject": "Verbal Reasoning",
-    "prompt": "His to Mount Apo was carefully documented.",
+    "prompt": "His _____ to Mount Apo was carefully documented.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9689,7 +9689,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'ascent'. Question: His to Mount Apo was carefully documented."
+    "explanation": "'Ascent' means an upward climb, so it correctly completes the sentence. 'Assent' means agreement."
   },
   {
     "id": "cse2026-359",
@@ -15688,6 +15688,8 @@
   {
     "id": "cse2026-586",
     "subject": "Filipino",
+    "status": "excluded",
+    "exclusionReason": "Duplicate of fi-149 in the canonical Filipino question bank.",
     "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
@@ -17110,7 +17112,7 @@
   {
     "id": "cse2026-642",
     "subject": "Analytical Ability",
-    "prompt": "3 6 9 12 15",
+    "prompt": "What number comes next in the sequence: 3, 6, 9, 12, 15, _____?",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17131,7 +17133,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Choice B ('18') is the answer that best fits the question's requirement. Question: 3691215"
+    "explanation": "The sequence increases by 3 each time, so the next number is 18."
   },
   {
     "id": "cse2026-643",

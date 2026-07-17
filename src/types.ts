@@ -16,6 +16,8 @@ export type Choice = {
   image?: string
 }
 
+export type QuestionStatus = 'active' | 'excluded' | 'needs-review'
+
 export type Question = {
   id: string
   subject: Subject
@@ -25,6 +27,8 @@ export type Question = {
   correctChoiceId: ChoiceId
   explanation?: string
   image?: string
+  status?: QuestionStatus
+  exclusionReason?: string
 }
 
 export type ExamQuestion = {

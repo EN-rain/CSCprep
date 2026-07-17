@@ -626,6 +626,8 @@
   {
     "id": "nr-025",
     "subject": "Numerical Reasoning",
+    "status": "excluded",
+    "exclusionReason": "The source expressions and choices are not legible enough to verify safely.",
     "prompt": "Which of the following has the greatest value?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [],
@@ -661,7 +663,7 @@
   {
     "id": "nr-027",
     "subject": "Numerical Reasoning",
-    "prompt": "If 8x + 12 = 24, what is the value of 24x + 36",
+    "prompt": "If 8x + 12 = 24, what is the value of 24x + 36?",
     "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
@@ -682,7 +684,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"72\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "Since 24x + 36 = 3(8x + 12), its value is 3 × 24 = 72."
   },
   {
     "id": "nr-028",
@@ -726,11 +728,11 @@
       },
       {
         "id": "C",
-        "text": "m – n cannot be odd"
+        "text": "m - n cannot be odd"
       },
       {
         "id": "D",
-        "text": "m + n – 1 is odd"
+        "text": "m + n - 1 is odd"
       }
     ],
     "correctChoiceId": "B",
