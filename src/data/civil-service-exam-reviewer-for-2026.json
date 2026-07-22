@@ -860,7 +860,7 @@
   {
     "id": "cse2026-034",
     "subject": "Numerical Reasoning",
-    "prompt": "State the property illustrated: If 8(6) + 4 = 48 + 4 and 48 + 4 = 52, then 8(6) + 4 = 52.",
+    "prompt": "If 8(6) + 4 = 48 + 4 and 48 + 4 = 52, then 8(6) + 4 = 52.",
     "hint": "Identify which equality property lets you replace an expression with its computed value (e.g., 8×6 with 48).",
     "choices": [
       {
@@ -912,24 +912,28 @@
   {
     "id": "cse2026-036",
     "subject": "Numerical Reasoning",
-    "prompt": "Thédifference between 8 times a number and 17 is 231. Find the number. a.\n31",
-    "hint": "Translate 'difference between 8 times a number and 17' into 8x − 17 = 231.",
+    "prompt": "The difference between 8 times a number and 17 is 231. Find the number.",
+    "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
+        "id": "A",
+        "text": "31"
+      },
+      {
         "id": "B",
-        "text": "37 48"
+        "text": "37"
       },
       {
         "id": "C",
-        "text": "1984"
+        "text": "48"
       },
       {
         "id": "D",
-        "text": ""
+        "text": "1 984"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "8x − 17 = 231 → 8x = 248 → x = 31. The number is 31. Per the answer key, option D corresponds to 31."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"31\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "cse2026-037",
@@ -1099,7 +1103,7 @@
       },
       {
         "id": "B",
-        "text": ""
+        "text": "40m"
       },
       {
         "id": "C",
@@ -1110,8 +1114,8 @@
         "text": "640 m2"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "L = 2W + 8. From perimeter: 2(L + W) = 112 → L + W = 56. Substituting: (2W + 8) + W = 56 → 3W = 48 → W = 16. Then L = 2(16) + 8 = 40. Area = 16 × 40 = 640 m². Note: the answer key marks A (the width), but the question asks for area, which is 640 m²."
+    "correctChoiceId": "D",
+    "explanation": "The perimeter gives L + W = 56. With L = 2W + 8, W = 16 and L = 40, so the area is 640 m2."
   },
   {
     "id": "cse2026-044",
@@ -2090,7 +2094,7 @@
   {
     "id": "cse2026-081",
     "subject": "Numerical Reasoning",
-    "prompt": "Ifx andy are integers, is x divisible by 17?\n1) The product xy is divisible by 17\n2) y is not divisible by 17 statement ALONE issufficient.",
+    "prompt": "If x and y are integers, is x divisible by 17?\n1) The product xy is divisible by 17\n2) y is not divisible by 17",
     "hint": "Since 17 is prime, if xy is divisible by 17 then at least one of x, y must be divisible by 17.",
     "choices": [
       {
@@ -2114,8 +2118,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Statement (1): xy divisible by 17 means 17 divides x or y (or both) — not sufficient alone. Statement (2): y not divisible by 17 alone tells you nothing about x. Together: xy divisible by 17 AND y not divisible by 17 forces x to be divisible by 17. Answer C is correct."
+    "correctChoiceId": "C",
+    "explanation": "Statement (1) alone is not sufficient because the factor divisible by 17 could be x or y. Statement (2) alone says nothing about x. Together, xy is divisible by 17 and y is not, so x must be divisible by 17."
   },
   {
     "id": "cse2026-082",
@@ -2240,7 +2244,7 @@
   {
     "id": "cse2026-086",
     "subject": "Numerical Reasoning",
-    "prompt": "Mary’s total score in the three bowling games was 530. What were her scores?\n1) Mary’s highest score was 198\n2) The sum of Mary’s two highest scores was 368 statement ALONE issufficient.",
+    "prompt": "Mary?s total score in the three bowling games was 530. What were her scores?\n1) Mary?s highest score was 198\n2) The sum of Mary?s two highest scores was 368",
     "hint": "Try to determine each of the three scores from the given information.",
     "choices": [
       {
@@ -2264,8 +2268,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Statement (1): highest = 198, but the other two scores can vary (e.g., 198, 170, 162 or 198, 200, 132 if 200 were allowed, but 198 is highest). Not sufficient. Statement (2): two highest sum to 368, third = 162, but we don't know how the 368 splits. Together: highest = 198 and two highest sum to 368 → second = 170, third = 162. Wait — this IS sufficient together. Answer C may be correct here, though statement (2) alone leaves ambiguity about the split."
+    "correctChoiceId": "C",
+    "explanation": "Statement (1) alone is not sufficient because the other two scores can vary. Statement (2) alone is not sufficient because the highest score is unknown. Together, the highest score is 198 and the second highest is 170, so the third score is 162."
   },
   {
     "id": "cse2026-087",
@@ -2450,7 +2454,7 @@
   {
     "id": "cse2026-093",
     "subject": "Numerical Reasoning",
-    "prompt": "If Lorna had a dentist’s appointment on a certain day, was the appointment ona\nFriday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm\nAnswer: CC- ifBOTH statements TOGETHERaresufficient,butNEITHER statement ALONE issufficient.",
+    "prompt": "If Lorna had a dentist?s appointment on a certain day, was the appointment on a Friday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
     "hint": "Statement (1) places the appointment relative to Wednesday; statement (2) restricts the time of day.",
     "choices": [
       {
@@ -2474,8 +2478,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Statement (1): 64 hours before the appointment was Wednesday. 64 hours = 2 days + 16 hours. So the appointment is 16 hours after Friday morning Wednesday+2days = Friday, plus 16 hours → Saturday early morning. So the appointment is on a Saturday, not Friday — sufficient to answer NO. Statement (2): time of day doesn't determine the day of week. Answer should be A. Note: the answer key marks C."
+    "correctChoiceId": "E",
+    "explanation": "Statement (1) alone is not sufficient because 64 hours after some time on Wednesday can fall on Friday or Saturday. Statement (2) alone does not identify the day. Together, a Friday evening appointment and a Saturday afternoon appointment can both satisfy the statements, so the day is still not fixed."
   },
   {
     "id": "cse2026-094",
@@ -2510,7 +2514,7 @@
   {
     "id": "cse2026-095",
     "subject": "Numerical Reasoning",
-    "prompt": "What is the ratio of a to b?",
+    "prompt": "What is the ratio of a to b?\n1) a is 8 more than twice b.\n2) The ratio of a to 4b is 3 : 7.",
     "hint": "Statement (2) typically gives a direct equation between a and b.",
     "choices": [
       {
@@ -2534,8 +2538,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The statements are missing from the extracted text. Per the answer key, option C is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question."
+    "correctChoiceId": "B",
+    "explanation": "Statement (1) gives a = 2b + 8, which does not fix one ratio for all b. Statement (2) gives a : 4b = 3 : 7, so a : b = 12 : 7."
   },
   {
     "id": "cse2026-096",
@@ -3142,9 +3146,13 @@
   {
     "id": "cse2026-119",
     "subject": "Verbal Reasoning",
-    "prompt": "Always be careful not to issue any disparaging remarks against other people. a. praising",
+    "prompt": "Always be careful not to issue any disparaging remarks against other people.",
     "hint": "'Disparaging' means belittling or critical. Find the antonym.",
     "choices": [
+      {
+        "id": "A",
+        "text": "praising"
+      },
       {
         "id": "B",
         "text": "confusing"
@@ -3155,18 +3163,22 @@
       },
       {
         "id": "D",
-        "text": "discouragin"
+        "text": "discouraging"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Disparaging remarks are insulting or critical. The antonym is 'praising'. Note: the answer key marks D (discouraging), which is closer in meaning, not an antonym. The correct antonym is A (praising)."
+    "correctChoiceId": "A",
+    "explanation": "Disparaging means expressing a low opinion or belittling someone. The opposite is praising."
   },
   {
     "id": "cse2026-120",
     "subject": "Verbal Reasoning",
-    "prompt": "Flowers are ephemeral; they bloom yet wither in a week or so later. a. shrivel",
+    "prompt": "Flowers are ephemeral; they bloom yet wither in a week or so later.",
     "hint": "'Ephemeral' means lasting for a very short time. Find the synonym.",
     "choices": [
+      {
+        "id": "A",
+        "text": "shrivel"
+      },
       {
         "id": "B",
         "text": "long lasting"
@@ -3181,7 +3193,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ephemeral means short-lived or transient. The synonym is 'short-lived'. Note: the answer key marks C (beautiful), which is unrelated. The correct synonym is D (short-lived)."
+    "explanation": "Ephemeral means lasting for a short time; short lived is the matching choice."
   },
   {
     "id": "cse2026-121",
@@ -3733,7 +3745,7 @@
     "id": "cse2026-142",
     "subject": "Verbal Reasoning",
     "prompt": "The students were upbraided for misbehaving during the assembly.",
-    "hint": "'Upbraided' means scolded or reprimanded harshly. Find the synonym.",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -3741,15 +3753,19 @@
       },
       {
         "id": "B",
-        "text": "honored scolded . stop ped"
+        "text": "honored"
+      },
+      {
+        "id": "C",
+        "text": "scolded"
       },
       {
         "id": "D",
-        "text": ""
+        "text": "stopped"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "To upbraid someone is to scold them severely. The synonym is 'scolded'."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"scolded\") because it is the closest in meaning to the word or expression in the item."
   },
   {
     "id": "cse2026-143",
@@ -3884,9 +3900,13 @@
   {
     "id": "cse2026-148",
     "subject": "Verbal Reasoning",
-    "prompt": "She looks unkempt with her wavy coarse hair falling freely behind her back. a. pretty",
-    "hint": "'Unkempt' means not properly groomed or untidy in appearance.",
+    "prompt": "She looks unkempt with her wavy coarse hair falling freely behind her back.",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
+      {
+        "id": "A",
+        "text": "pretty"
+      },
       {
         "id": "B",
         "text": "neat"
@@ -3901,7 +3921,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Unkempt means having an untidy or messy appearance. The synonym is 'untidy'."
+    "explanation": "The correct answer is choice D (\"untidy\") because it is the closest in meaning to the word or expression in the item."
   },
   {
     "id": "cse2026-149",
@@ -3958,12 +3978,12 @@
   {
     "id": "cse2026-151",
     "subject": "Verbal Reasoning",
-    "prompt": "Mindy runmaged through the chest of old clothes for something usable to donate.",
+    "prompt": "Mindy rummaged through the chest of old clothes for something usable to donate.",
     "hint": "'Rummaged' means searched thoroughly through a collection of items.",
     "choices": [
       {
         "id": "A",
-        "text": "searched thourgh"
+        "text": "searched through"
       },
       {
         "id": "B",
@@ -3979,7 +3999,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "To rummage means to search through items in a hasty or disorderly way. The synonym is 'searched through'."
+    "explanation": "Rummaged means searched through something, usually by moving items around."
   },
   {
     "id": "cse2026-152",
@@ -4192,9 +4212,13 @@
   {
     "id": "cse2026-160",
     "subject": "Verbal Reasoning",
-    "prompt": "The reporter’s candid remarks caught the mayoralty candidate off-guard. a. secret",
+    "prompt": "The reporter?s candid remarks caught the mayoralty candidate off-guard.",
     "hint": "'Candid' means honest, open, and frank in expression.",
     "choices": [
+      {
+        "id": "A",
+        "text": "secret"
+      },
       {
         "id": "B",
         "text": "frank"
@@ -4208,14 +4232,14 @@
         "text": "reserved"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Candid remarks are honest, open, and frank. The synonym is 'frank'. Note: the answer key marks C (well-thought), which is unrelated."
+    "correctChoiceId": "B",
+    "explanation": "Candid means honest, open, or frank."
   },
   {
     "id": "cse2026-161",
     "subject": "Verbal Reasoning",
     "prompt": "The mean boys derided the sickly boy.",
-    "hint": "'Derided' means mocked or laughed at contemptuously.",
+    "hint": "Antonym item: identify the meaning of the capitalized or key word first, then choose the strongest opposite in context.",
     "choices": [
       {
         "id": "A",
@@ -4227,11 +4251,15 @@
       },
       {
         "id": "C",
-        "text": "praised abandoned"
+        "text": "praised"
+      },
+      {
+        "id": "D",
+        "text": "abandoned"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "To deride someone means to mock, ridicule, or make fun of them contemptuously. The synonym is 'made fun of'."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"praised\") because it is the best opposite in meaning to the word or expression in the item."
   },
   {
     "id": "cse2026-162",
@@ -4548,7 +4576,7 @@
   {
     "id": "cse2026-174",
     "subject": "Verbal Reasoning",
-    "prompt": "Heinous criminals are truly /oathsome. repugnant",
+    "prompt": "Heinous criminals are truly loathsome.",
     "hint": "'Loathsome' means causing hatred or disgust. Find the synonym.",
     "choices": [
       {
@@ -4569,7 +4597,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Loathsome means repugnant, hateful, or disgusting."
+    "explanation": "Loathsome means repugnant or causing hatred and disgust."
   },
   {
     "id": "cse2026-175",
@@ -4834,9 +4862,13 @@
   {
     "id": "cse2026-185",
     "subject": "Verbal Reasoning",
-    "prompt": "She had the quixotic idea that she was a reincarnation of British princess. a. wuild",
+    "prompt": "She had the quixotic idea that she was a reincarnation of British princess.",
     "hint": "'Quixotic' means extremely idealistic, unrealistic, or impractical.",
     "choices": [
+      {
+        "id": "A",
+        "text": "wuild"
+      },
       {
         "id": "B",
         "text": "fantastic"
@@ -4850,8 +4882,8 @@
         "text": "dreamy"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Quixotic describes ideas that are romantic but utterly impractical, like Don Quixote's chivalrous quests. The synonym is 'fantastic' or 'dreamy'. Note: the answer key marks C (realistic), which is the antonym."
+    "correctChoiceId": "B",
+    "explanation": "Quixotic describes an impractical or wildly idealistic idea; fantastic is the intended synonym."
   },
   {
     "id": "cse2026-186",
@@ -4960,7 +4992,7 @@
   {
     "id": "cse2026-190",
     "subject": "Verbal Reasoning",
-    "prompt": "The stong current of the floodwaters caused the wooden bridge to vacillate.",
+    "prompt": "The strong current of the floodwaters caused the wooden bridge to vacillate.",
     "hint": "'Vacillate' means waver or sway between options. Find the synonym.",
     "choices": [
       {
@@ -4980,14 +5012,14 @@
         "text": "be firm"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "To vacillate means to waver or oscillate between opinions or actions. The synonym is 'sway'. Note: the answer key marks D (be firm), which is the antonym."
+    "correctChoiceId": "B",
+    "explanation": "Vacillate means to sway or waver."
   },
   {
     "id": "cse2026-191",
     "subject": "Verbal Reasoning",
     "prompt": "The vindictive politician spreaed rumors about his opponent.",
-    "hint": "'Vindictive' means having a strong desire for revenge. Find the synonym.",
+    "hint": "Antonym item: identify the meaning of the capitalized or key word first, then choose the strongest opposite in context.",
     "choices": [
       {
         "id": "A",
@@ -4995,11 +5027,19 @@
       },
       {
         "id": "B",
-        "text": "forgiving Spiteful fhalicious"
+        "text": "forgiving"
+      },
+      {
+        "id": "C",
+        "text": "spiteful"
+      },
+      {
+        "id": "D",
+        "text": "malicious"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Vindictive means having or showing a strong desire for revenge. The synonym is 'revengeful' or 'spiteful'."
+    "explanation": "The correct answer is choice B (\"forgiving\") because it is the best opposite in meaning to the word or expression in the item."
   },
   {
     "id": "cse2026-192",
@@ -9928,9 +9968,13 @@
   {
     "id": "cse2026-368",
     "subject": "Verbal Reasoning",
-    "prompt": "The DPWH crew worked the night to repair the damaged bridge. a. thre",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The DPWH crew worked __________ the night to repair the damaged bridge.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
+      {
+        "id": "A",
+        "text": "thre"
+      },
       {
         "id": "B",
         "text": "through"
@@ -9944,8 +9988,8 @@
         "text": "true"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'through'. Question: The DPWH crew worked the night to repair the damaged bridge. a.\nthre"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"through\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-369",
@@ -10184,9 +10228,13 @@
   {
     "id": "cse2026-378",
     "subject": "Verbal Reasoning",
-    "prompt": "The Cabinet meeting was on account of the President’s ill health. a. called in",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The Cabinet meeting was __________ on account of the President’s ill health.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
+      {
+        "id": "A",
+        "text": "called in"
+      },
       {
         "id": "B",
         "text": "called up"
@@ -10201,7 +10249,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'called off'. Question: The Cabinet meeting was on account of the President’s ill health. a.\ncalled in"
+    "explanation": "The correct answer is choice D (\"called off\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-379",
@@ -10232,9 +10280,13 @@
   {
     "id": "cse2026-380",
     "subject": "Verbal Reasoning",
-    "prompt": "We should on our expenditures and spend only on our needs. a. cut short",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "We should __________ on our expenditures and spend only on our needs.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
+      {
+        "id": "A",
+        "text": "cut short"
+      },
       {
         "id": "B",
         "text": "cut up"
@@ -10249,7 +10301,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'cut back'. Question: We should on our expenditures and spend only on our needs. a. cut\nshort"
+    "explanation": "The correct answer is choice C (\"cut back\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-381",
@@ -11268,7 +11320,7 @@
   {
     "id": "cse2026-420",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nWhat stanza states the main idea of the poem?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\nLook what I have! And these are all for you.\n\nWhat stanza states the main idea of the poem?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11288,8 +11340,8 @@
         "text": "main idea is implied"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'stanza 3'. Question: What stanza states the main idea of the poem?"
+    "correctChoiceId": "C",
+    "explanation": "The third stanza directly states the central image of giving love openly, so it carries the main idea."
   },
   {
     "id": "cse2026-421",
@@ -12256,9 +12308,13 @@
   {
     "id": "cse2026-458",
     "subject": "Filipino",
-    "prompt": "Madaling nababalino sa lihis na gawain ang mga kabataang laki sa langsangan. a. natutuwa",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "prompt": "Madaling nababalino sa lihis na gawain ang mga kabataang laki sa langsangan.",
+    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
     "choices": [
+      {
+        "id": "A",
+        "text": "natutuwa"
+      },
       {
         "id": "B",
         "text": "namamalik-mata"
@@ -12273,7 +12329,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'nagaganyak'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Madaling nababalino sa lihis na gawain ang mga kabataang laki sa langsangan. a.\nnatutuwa"
+    "explanation": "Tamang sagot ang choice C (\"nagaganyak\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "cse2026-459",
@@ -13345,7 +13401,7 @@
     "id": "cse2026-500",
     "subject": "Filipino",
     "prompt": "Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong kadahilanan kaya siya mapagbigay.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
     "choices": [
       {
         "id": "A",
@@ -13353,11 +13409,19 @@
       },
       {
         "id": "B",
-        "text": "pakunwari pasikreto"
+        "text": "pakunwari"
+      },
+      {
+        "id": "C",
+        "text": "pasikreto"
+      },
+      {
+        "id": "D",
+        "text": "sapilitan"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'taos-puso'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong\nkadahilanan kaya siya mapagbigay."
+    "explanation": "Tamang sagot ang choice B (\"pakunwari\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "cse2026-501",
@@ -14246,8 +14310,8 @@
   {
     "id": "cse2026-535",
     "subject": "Filipino",
-    "prompt": "Hindi maaaring ibilanggo ang sino man dahil kanyang pagkakautang.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "prompt": "Hindi maaaring ibilanggo ang sino man dahil ________ kanyang pagkakautang.",
+    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
     "choices": [
       {
         "id": "A",
@@ -14255,7 +14319,7 @@
       },
       {
         "id": "B",
-        "text": ""
+        "text": "ng"
       },
       {
         "id": "C",
@@ -14266,8 +14330,8 @@
         "text": "sa"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'nang'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi maaaring ibilanggo ang sino man dahil kanyang pagkakautang."
+    "correctChoiceId": "D",
+    "explanation": "Tamang sagot ang choice D (\"sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
   },
   {
     "id": "cse2026-536",
@@ -15267,7 +15331,9 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Ang tamang sagot ay C: 'd tahanan at lipunan. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Walang kabutihang naidudulot ang droga, bagkus ito pa nga ang nakasisiranang _"
+    "explanation": "Ang tamang sagot ay C: 'd tahanan at lipunan. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Walang kabutihang naidudulot ang droga, bagkus ito pa nga ang nakasisiranang _",
+    "status": "excluded",
+    "exclusionReason": "Source OCR merged the question and choices; original choices require visual re-verification before restoring."
   },
   {
     "id": "cse2026-570",
@@ -16049,7 +16115,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Saklaw ng tsart ang badyet at katayuang pangmilitar ng mga piling bansa."
+    "explanation": "Saklaw ng tsart ang badyet at katayuang pangmilitar ng mga piling bansa.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "cse2026-600",
@@ -16075,7 +16142,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672,000."
+    "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672,000.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "cse2026-601",
@@ -16101,7 +16169,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Sa mga pagpipilian, Brunei ang may pinakamataas na porsiyento ng GDP para sa badyet militar: 6.5%."
+    "explanation": "Sa mga pagpipilian, Brunei ang may pinakamataas na porsiyento ng GDP para sa badyet militar: 6.5%.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "cse2026-602",
@@ -16127,7 +16196,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Batay sa laki ng badyet at porsiyento sa GDP, Japan ang may pinakamalaking GDP sa mga pagpipilian."
+    "explanation": "Batay sa laki ng badyet at porsiyento sa GDP, Japan ang may pinakamalaking GDP sa mga pagpipilian.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "cse2026-603",
@@ -16153,7 +16223,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Maliit na bansa ang Brunei, kaya mababa ang bilang ng tropa at kagamitang pangmilitar nito."
+    "explanation": "Maliit na bansa ang Brunei, kaya mababa ang bilang ng tropa at kagamitang pangmilitar nito.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "cse2026-604",
@@ -16163,19 +16234,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-D-B-C"
+        "text": "ADBC"
       },
       {
         "id": "B",
-        "text": "B-D-A-C"
+        "text": "BDAC"
       },
       {
         "id": "C",
-        "text": "D-A-B-C"
+        "text": "DABC"
       },
       {
         "id": "D",
-        "text": "D-B-A-C"
+        "text": "DBAC"
       }
     ],
     "correctChoiceId": "D",
@@ -16241,19 +16312,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D-E"
+        "text": "ABCDE"
       },
       {
         "id": "B",
-        "text": "A-B-D-C-E"
+        "text": "ABDCE"
       },
       {
         "id": "C",
-        "text": "A-D-B-C-E"
+        "text": "ADBCE"
       },
       {
         "id": "D",
-        "text": "A-D-C-B-E"
+        "text": "ADCBE"
       }
     ],
     "correctChoiceId": "C",
@@ -16293,19 +16364,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "C-A-B-D"
+        "text": "CABD"
       },
       {
         "id": "C",
-        "text": "C-B-D-A"
+        "text": "CBDA"
       },
       {
         "id": "D",
-        "text": "C-B-A-D"
+        "text": "CBAD"
       }
     ],
     "correctChoiceId": "B",
@@ -16319,19 +16390,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "C-A-B-D"
+        "text": "CABD"
       },
       {
         "id": "C",
-        "text": "C-B-D-A"
+        "text": "CBDA"
       },
       {
         "id": "D",
-        "text": "C-B-A-D"
+        "text": "CBAD"
       }
     ],
     "correctChoiceId": "B",
@@ -16397,19 +16468,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-E- C-D"
+        "text": "ABECD"
       },
       {
         "id": "B",
-        "text": "C-A-B- E-D"
+        "text": "CABED"
       },
       {
         "id": "C",
-        "text": "C-B-E- D-A"
+        "text": "CBEDA"
       },
       {
         "id": "D",
-        "text": "C-B-E- A-D"
+        "text": "CBEAD"
       }
     ],
     "correctChoiceId": "B",
@@ -16782,9 +16853,13 @@
   {
     "id": "cse2026-629",
     "subject": "General Information",
-    "prompt": "What branch of government has the sole right to initiate all cases of impeachment? a.\nSenate",
-    "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
+    "prompt": "What branch of government has the sole right to initiate all cases of impeachment?",
+    "hint": "Constitution item: identify the branch, office, right, power, or constitutional rule being asked before choosing.",
     "choices": [
+      {
+        "id": "A",
+        "text": "Senate"
+      },
       {
         "id": "B",
         "text": "Commission of Election"
@@ -16799,7 +16874,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Choice C ('House of Representative') correctly states the fact or principle tested. Question: What branch of government has the sole right to initiate all cases of impeachment? a.\nSenate"
+    "explanation": "The correct answer is choice C (\"House of Representative\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-630",
@@ -16882,24 +16957,28 @@
   {
     "id": "cse2026-633",
     "subject": "General Information",
-    "prompt": "When is the deadline for filing income tax returns for every taxable year? a. April 15",
-    "hint": "Read the question carefully and recall the relevant fact, definition, or principle.",
+    "prompt": "When is the deadline for filing income tax returns for every taxable year?",
+    "hint": "Taxation item: focus on the type of tax and the taxable event, such as earning income, filing returns, or transferring property.",
     "choices": [
+      {
+        "id": "A",
+        "text": "April 15"
+      },
       {
         "id": "B",
         "text": "April 30"
       },
       {
         "id": "C",
-        "text": ""
+        "text": "March 15"
       },
       {
         "id": "D",
         "text": "March 30"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Choice C ('') correctly states the fact or principle tested. Question: When is the deadline for filing income tax returns for every taxable year? a. April 15\nPage| 139"
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"April 15\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-634",
@@ -17528,7 +17607,7 @@
   {
     "id": "cse2026-658",
     "subject": "Analytical Ability",
-    "prompt": "E F H G I J",
+    "prompt": "Find the next pair in the alternating sequence: E F, H G, I J, ?",
     "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
     "choices": [
       {
@@ -17549,7 +17628,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Choice B ('JL') is the answer that best fits the question's requirement. Question: EFHGIJ\nPage| 144"
+    "explanation": "In each pair, the first letters move +3, +1, +3 while the second letters move +1, +3, +1. After I J, the next pair is L K."
   },
   {
     "id": "cse2026-659",
@@ -17632,7 +17711,7 @@
   {
     "id": "cse2026-662",
     "subject": "Analytical Ability",
-    "prompt": "A B C D E F",
+    "prompt": "Find the missing letter in this alternating sequence: A, D, B, E, C, F, ?",
     "hint": "Continue the alphabet sequence.",
     "choices": [
       {
@@ -17653,12 +17732,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The letters are consecutive: A, B, C, D, E, F. The next letter is G."
+    "explanation": "The sequence interleaves A, B, C and D, E, F. The next letter continues the second strand: G."
   },
   {
     "id": "cse2026-663",
     "subject": "Analytical Ability",
-    "prompt": "N O P Q R S",
+    "prompt": "Find the missing term in the paired sequence: N, Q, O, R, P, S, ?",
     "hint": "Sequence item: identify the pattern, then choose the next term.",
     "choices": [
       {
@@ -17679,7 +17758,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The letters are consecutive: N, O, P, Q, R, S. The next letter is T."
+    "explanation": "The sequence interleaves N, O, P and Q, R, S. The next term continues the second strand: T."
   },
   {
     "id": "cse2026-664",

@@ -2417,7 +2417,7 @@
   {
     "id": "nr-092",
     "subject": "Numerical Reasoning",
-    "prompt": "If Lorna had a dentist’s appointment on a certain day, was the appointment on a\nFriday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
+    "prompt": "If Lorna had a dentist?s appointment on a certain day, was the appointment on a Friday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
     "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
@@ -2430,19 +2430,19 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"if BOTH statements TOGETHER are sufficient, but NEITHER statement\") because it is the statement combination that is sufficient to answer the question."
+    "correctChoiceId": "E",
+    "explanation": "Statement (1) alone is not sufficient because 64 hours after some time on Wednesday can fall on Friday or Saturday. Statement (2) alone does not identify the day. Together, a Friday evening appointment and a Saturday afternoon appointment can both satisfy the statements, so the day is still not fixed."
   },
   {
     "id": "nr-093",

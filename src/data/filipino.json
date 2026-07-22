@@ -4182,7 +4182,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Saklaw ng tsart ang badyet at katayuang pangmilitar ng mga piling bansa."
+    "explanation": "Saklaw ng tsart ang badyet at katayuang pangmilitar ng mga piling bansa.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "fi-157",
@@ -4208,7 +4209,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672,000."
+    "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672,000.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "fi-158",
@@ -4234,7 +4236,8 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Sa mga pagpipilian, Brunei ang may pinakamataas na porsiyento ng GDP para sa badyet militar: 6.5%."
+    "explanation": "Sa mga pagpipilian, Brunei ang may pinakamataas na porsiyento ng GDP para sa badyet militar: 6.5%.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "fi-159",
@@ -4260,7 +4263,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Batay sa laki ng badyet at porsiyento sa GDP, Japan ang may pinakamalaking GDP sa mga pagpipilian."
+    "explanation": "Batay sa laki ng badyet at porsiyento sa GDP, Japan ang may pinakamalaking GDP sa mga pagpipilian.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "fi-160",
@@ -4286,7 +4290,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Maliit na bansa ang Brunei, kaya mababa ang bilang ng tropa at kagamitang pangmilitar nito."
+    "explanation": "Maliit na bansa ang Brunei, kaya mababa ang bilang ng tropa at kagamitang pangmilitar nito.",
+    "image": "/question-images/military-budget-chart.png"
   },
   {
     "id": "fi-161",
@@ -4296,19 +4301,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-D-B-C"
+        "text": "ADBC"
       },
       {
         "id": "B",
-        "text": "B-D-A-C"
+        "text": "BDAC"
       },
       {
         "id": "C",
-        "text": "D-A-B-C"
+        "text": "DABC"
       },
       {
         "id": "D",
-        "text": "D-B-A-C"
+        "text": "DBAC"
       }
     ],
     "correctChoiceId": "D",
@@ -4374,19 +4379,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D-E"
+        "text": "ABCDE"
       },
       {
         "id": "B",
-        "text": "A-B-D-C-E"
+        "text": "ABDCE"
       },
       {
         "id": "C",
-        "text": "A-D-B-C-E"
+        "text": "ADBCE"
       },
       {
         "id": "D",
-        "text": "A-D-C-B-E"
+        "text": "ADCBE"
       }
     ],
     "correctChoiceId": "C",
@@ -4452,19 +4457,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "C-A-B-D"
+        "text": "CABD"
       },
       {
         "id": "C",
-        "text": "C-B-D-A"
+        "text": "CBDA"
       },
       {
         "id": "D",
-        "text": "C-B-A-D"
+        "text": "CBAD"
       }
     ],
     "correctChoiceId": "B",
@@ -4530,19 +4535,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-E-C-D"
+        "text": "ABECD"
       },
       {
         "id": "B",
-        "text": "C-A-B-E-D"
+        "text": "CABED"
       },
       {
         "id": "C",
-        "text": "C-B-E-D-A"
+        "text": "CBEDA"
       },
       {
         "id": "D",
-        "text": "C-B-E-A-D"
+        "text": "CBEAD"
       }
     ],
     "correctChoiceId": "B",

@@ -71,11 +71,11 @@
       },
       {
         "id": "D",
-        "text": "discouragin"
+        "text": "discouraging"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"damaging\") because it is the closest in meaning to the word or expression in the item."
+    "correctChoiceId": "A",
+    "explanation": "Disparaging means expressing a low opinion or belittling someone. The opposite is praising."
   },
   {
     "id": "vr-004",
@@ -886,12 +886,12 @@
   {
     "id": "vr-035",
     "subject": "Verbal Reasoning",
-    "prompt": "Mindy runmaged through the chest of old clothes for something usable to donate.",
+    "prompt": "Mindy rummaged through the chest of old clothes for something usable to donate.",
     "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
-        "text": "searched thourgh"
+        "text": "searched through"
       },
       {
         "id": "B",
@@ -907,7 +907,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"searched thourgh\") because it is the closest in meaning to the word or expression in the item."
+    "explanation": "Rummaged means searched through something, usually by moving items around."
   },
   {
     "id": "vr-036",
@@ -1900,7 +1900,7 @@
   {
     "id": "vr-074",
     "subject": "Verbal Reasoning",
-    "prompt": "The stong current of the floodwaters caused the wooden bridge to vacillate.",
+    "prompt": "The strong current of the floodwaters caused the wooden bridge to vacillate.",
     "hint": "Antonym item: identify the meaning of the capitalized or key word first, then choose the strongest opposite in context.",
     "choices": [
       {
@@ -1920,8 +1920,8 @@
         "text": "be firm"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"be firm\") because it is the best opposite in meaning to the word or expression in the item."
+    "correctChoiceId": "B",
+    "explanation": "Vacillate means to sway or waver."
   },
   {
     "id": "vr-075",

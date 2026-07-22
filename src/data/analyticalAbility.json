@@ -288,7 +288,7 @@
   {
     "id": "aa-012",
     "subject": "Analytical Ability",
-    "prompt": "A. St. Stephen\u00e2\u20ac\u2122s School\nB. St. Stephen\u00e2\u20ac\u2122s University\nC. St. Scholastica\u00e2\u20ac\u2122s Academy\nD. St. Scholastica\u00e2\u20ac\u2122s College",
+    "prompt": "A. St. Stephenâ€™s School\nB. St. Stephenâ€™s University\nC. St. Scholasticaâ€™s Academy\nD. St. Scholasticaâ€™s College",
     "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
     "choices": [
       {
@@ -309,7 +309,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = St. Scholastica\u00e2\u20ac\u2122s Academy, D = St. Scholastica\u00e2\u20ac\u2122s College, A = St. Stephen\u00e2\u20ac\u2122s School, B = St. Stephen\u00e2\u20ac\u2122s University. That matches choice C."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = St. Scholasticaâ€™s Academy, D = St. Scholasticaâ€™s College, A = St. Stephenâ€™s School, B = St. Stephenâ€™s University. That matches choice C."
   },
   {
     "id": "aa-013",
@@ -938,7 +938,7 @@
   {
     "id": "aa-037",
     "subject": "Analytical Ability",
-    "prompt": "E F H G I J",
+    "prompt": "Find the next pair in the alternating sequence: E F, H G, I J, ?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -959,7 +959,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"LK\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "In each pair, the first letters move +3, +1, +3 while the second letters move +1, +3, +1. After I J, the next pair is L K."
   },
   {
     "id": "aa-038",
@@ -1042,7 +1042,7 @@
   {
     "id": "aa-041",
     "subject": "Analytical Ability",
-    "prompt": "A B C D E F",
+    "prompt": "Find the missing letter in this alternating sequence: A, D, B, E, C, F, ?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -1063,12 +1063,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"G\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "The sequence interleaves A, B, C and D, E, F. The next letter continues the second strand: G."
   },
   {
     "id": "aa-042",
     "subject": "Analytical Ability",
-    "prompt": "N O P Q R S",
+    "prompt": "Find the missing term in the paired sequence: N, Q, O, R, P, S, ?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -1089,7 +1089,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"T\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "The sequence interleaves N, O, P and Q, R, S. The next term continues the second strand: T."
   },
   {
     "id": "aa-043",
@@ -1822,8 +1822,8 @@
   {
     "id": "aa-071",
     "subject": "Analytical Ability",
-    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 1. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -1853,8 +1853,8 @@
   {
     "id": "aa-072",
     "subject": "Analytical Ability",
-    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 2. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -1884,8 +1884,8 @@
   {
     "id": "aa-073",
     "subject": "Analytical Ability",
-    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 3. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -1915,8 +1915,8 @@
   {
     "id": "aa-074",
     "subject": "Analytical Ability",
-    "prompt": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram below? There is a logical sequence to how the diagram is built up, starting at the bottom row.\n\nAbstract Reasoning item 4. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -1946,8 +1946,8 @@
   {
     "id": "aa-075",
     "subject": "Analytical Ability",
-    "prompt": "Use the diagram to complete the pyramid.\n\nWhich circle marked a, b, c, or d fits logically into the blank top circle? The sequence starts at the bottom row and each upper circle depends on the two circles directly below it.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -1977,8 +1977,8 @@
   {
     "id": "aa-076",
     "subject": "Analytical Ability",
-    "prompt": "Moving up the pyramid from the bottom row, these lines appear in each hexagon according to a set rule, depending on the lines which appear in the two hexagons directly below it. Which of a, b, c, d, below, should replace the hexagon with the question mark at the top of the pyramid?\n\nAbstract Reasoning item 6. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2008,8 +2008,8 @@
   {
     "id": "aa-077",
     "subject": "Analytical Ability",
-    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with the question mark?\n\nAbstract Reasoning item 7. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2039,8 +2039,8 @@
   {
     "id": "aa-078",
     "subject": "Analytical Ability",
-    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with the question mark?\n\nAbstract Reasoning item 8. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2070,8 +2070,8 @@
   {
     "id": "aa-079",
     "subject": "Analytical Ability",
-    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with the question mark?\n\nAbstract Reasoning item 9. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2101,8 +2101,8 @@
   {
     "id": "aa-080",
     "subject": "Analytical Ability",
-    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with the question mark?\n\nAbstract Reasoning item 10. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2132,8 +2132,8 @@
   {
     "id": "aa-081",
     "subject": "Analytical Ability",
-    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with a question mark?\n\nAbstract Reasoning item 11. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2163,8 +2163,8 @@
   {
     "id": "aa-082",
     "subject": "Analytical Ability",
-    "prompt": "Which of the squares, a, b, c, d, will fit in at the square with a question mark?\n\nAbstract Reasoning item 12. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2194,8 +2194,8 @@
   {
     "id": "aa-083",
     "subject": "Analytical Ability",
-    "prompt": "Which of the figures a, b, or c will fit in the center tile with the question mark?",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2220,8 +2220,8 @@
   {
     "id": "aa-084",
     "subject": "Analytical Ability",
-    "prompt": "Look across each row and down each column, then try to find the correct right-hand bottom tile from the choices below.\n\nAbstract Reasoning item 14. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2251,8 +2251,8 @@
   {
     "id": "aa-085",
     "subject": "Analytical Ability",
-    "prompt": "Look across each row and down each column, then try to find the correct right-hand bottom tile from the choices below.\n\nAbstract Reasoning item 15. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2282,8 +2282,8 @@
   {
     "id": "aa-086",
     "subject": "Analytical Ability",
-    "prompt": "Look across each row and down each column, then try to find the correct right-hand bottom tile from the choices below.\n\nAbstract Reasoning item 16. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2313,8 +2313,8 @@
   {
     "id": "aa-087",
     "subject": "Analytical Ability",
-    "prompt": "Look across each row and down each column, then try to find the correct right-hand bottom tile from the choices below.\n\nAbstract Reasoning item 17. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2344,8 +2344,8 @@
   {
     "id": "aa-088",
     "subject": "Analytical Ability",
-    "prompt": "Select the missing piece from a, b, c, or d, so that the whole square will contain an even, symmetrical pattern.\n\nAbstract Reasoning item 18. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2375,8 +2375,8 @@
   {
     "id": "aa-089",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 19. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2406,8 +2406,8 @@
   {
     "id": "aa-090",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 20. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2437,8 +2437,8 @@
   {
     "id": "aa-091",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 21. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2468,8 +2468,8 @@
   {
     "id": "aa-092",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 22. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2499,8 +2499,8 @@
   {
     "id": "aa-093",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 23. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2530,8 +2530,8 @@
   {
     "id": "aa-094",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 24. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2561,8 +2561,8 @@
   {
     "id": "aa-095",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 25. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2592,8 +2592,8 @@
   {
     "id": "aa-096",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 26. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2623,8 +2623,8 @@
   {
     "id": "aa-097",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 27. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2654,8 +2654,8 @@
   {
     "id": "aa-098",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 28. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2685,8 +2685,8 @@
   {
     "id": "aa-099",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 29. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -2716,8 +2716,8 @@
   {
     "id": "aa-100",
     "subject": "Analytical Ability",
-    "prompt": "Select the figure from the choices at the right which contains the figure on the left.\n\nAbstract Reasoning item 30. Use the figure shown in the source image.",
-    "hint": "Abstract reasoning item: inspect the image for rotation, count, shading, position, and symmetry before checking the answer choices.",
+    "prompt": "",
+    "hint": "",
     "choices": [
       {
         "id": "A",
@@ -4347,7 +4347,7 @@
   {
     "id": "aa-163",
     "subject": "Analytical Ability",
-    "prompt": "A routing code uses A=1, B=2, C=3, and so on. What is the total code value of CAB?",
+    "prompt": "A routing code assigns A=1, B=2, C=3, and so on. For a three-letter code, add the letter values and multiply by the number of vowels in the code. What is the value of CAB?",
     "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
     "choices": [
       {
@@ -4368,7 +4368,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "C is 3, A is 1, and B is 2. Their sum is 6."
+    "explanation": "CAB has values 3, 1, and 2. Their sum is 6, and the code has one vowel, so the value remains 6."
   },
   {
     "id": "aa-164",
@@ -4560,19 +4560,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "B-A-C-D"
+        "text": "BACD"
       },
       {
         "id": "C",
-        "text": "B-A-D-C"
+        "text": "BADC"
       },
       {
         "id": "D",
-        "text": "A-D-B-C"
+        "text": "ADBC"
       }
     ],
     "correctChoiceId": "C",
@@ -4586,19 +4586,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "D-C-B-A"
+        "text": "DCBA"
       },
       {
         "id": "B",
-        "text": "C-D-B-A"
+        "text": "CDBA"
       },
       {
         "id": "C",
-        "text": "C-B-D-A"
+        "text": "CBDA"
       },
       {
         "id": "D",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       }
     ],
     "correctChoiceId": "A",
@@ -4612,19 +4612,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "B-C-A-D"
+        "text": "BCAD"
       },
       {
         "id": "B",
-        "text": "C-B-A-D"
+        "text": "CBAD"
       },
       {
         "id": "C",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "D",
-        "text": "D-A-B-C"
+        "text": "DABC"
       }
     ],
     "correctChoiceId": "A",
@@ -4664,19 +4664,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "B-D-C-A"
+        "text": "BDCA"
       },
       {
         "id": "B",
-        "text": "C-D-B-A"
+        "text": "CDBA"
       },
       {
         "id": "C",
-        "text": "B-C-D-A"
+        "text": "BCDA"
       },
       {
         "id": "D",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       }
     ],
     "correctChoiceId": "C",
@@ -4690,19 +4690,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-D-C-B"
+        "text": "ADCB"
       },
       {
         "id": "B",
-        "text": "D-A-C-B"
+        "text": "DACB"
       },
       {
         "id": "C",
-        "text": "A-C-D-B"
+        "text": "ACDB"
       },
       {
         "id": "D",
-        "text": "A-D-B-C"
+        "text": "ADBC"
       }
     ],
     "correctChoiceId": "A",
@@ -4716,19 +4716,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "B-A-C-D"
+        "text": "BACD"
       },
       {
         "id": "C",
-        "text": "B-A-D-C"
+        "text": "BADC"
       },
       {
         "id": "D",
-        "text": "D-C-B-A"
+        "text": "DCBA"
       }
     ],
     "correctChoiceId": "B",
@@ -4742,19 +4742,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "A-D-C-B"
+        "text": "ADCB"
       },
       {
         "id": "C",
-        "text": "D-A-C-B"
+        "text": "DACB"
       },
       {
         "id": "D",
-        "text": "A-C-D-B"
+        "text": "ACDB"
       }
     ],
     "correctChoiceId": "B",
@@ -4768,19 +4768,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "C-D-A-B"
+        "text": "CDAB"
       },
       {
         "id": "C",
-        "text": "B-A-C-D"
+        "text": "BACD"
       },
       {
         "id": "D",
-        "text": "C-D-B-A"
+        "text": "CDBA"
       }
     ],
     "correctChoiceId": "B",
@@ -4794,19 +4794,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "B-A-C-D"
+        "text": "BACD"
       },
       {
         "id": "C",
-        "text": "B-C-A-D"
+        "text": "BCAD"
       },
       {
         "id": "D",
-        "text": "D-C-A-B"
+        "text": "DCAB"
       }
     ],
     "correctChoiceId": "B",
@@ -4820,19 +4820,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "D-C-B-A"
+        "text": "DCBA"
       },
       {
         "id": "B",
-        "text": "C-D-B-A"
+        "text": "CDBA"
       },
       {
         "id": "C",
-        "text": "C-B-D-A"
+        "text": "CBDA"
       },
       {
         "id": "D",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       }
     ],
     "correctChoiceId": "B",
@@ -4846,19 +4846,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "B-C-A-D"
+        "text": "BCAD"
       },
       {
         "id": "B",
-        "text": "C-B-A-D"
+        "text": "CBAD"
       },
       {
         "id": "C",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "D",
-        "text": "B-A-C-D"
+        "text": "BACD"
       }
     ],
     "correctChoiceId": "A",
@@ -4872,19 +4872,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "B-A-C-D"
+        "text": "BACD"
       },
       {
         "id": "B",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "C",
-        "text": "A-C-B-D"
+        "text": "ACBD"
       },
       {
         "id": "D",
-        "text": "D-C-B-A"
+        "text": "DCBA"
       }
     ],
     "correctChoiceId": "A",
@@ -4898,19 +4898,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "B-A-C-D"
+        "text": "BACD"
       },
       {
         "id": "C",
-        "text": "B-C-A-D"
+        "text": "BCAD"
       },
       {
         "id": "D",
-        "text": "C-B-A-D"
+        "text": "CBAD"
       }
     ],
     "correctChoiceId": "B",
@@ -4924,19 +4924,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "C-A-D-B"
+        "text": "CADB"
       },
       {
         "id": "B",
-        "text": "A-C-D-B"
+        "text": "ACDB"
       },
       {
         "id": "C",
-        "text": "A-D-C-B"
+        "text": "ADCB"
       },
       {
         "id": "D",
-        "text": "B-D-C-A"
+        "text": "BDCA"
       }
     ],
     "correctChoiceId": "B",
@@ -4950,19 +4950,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "D-B-C-A"
+        "text": "DBCA"
       },
       {
         "id": "B",
-        "text": "B-D-C-A"
+        "text": "BDCA"
       },
       {
         "id": "C",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "D",
-        "text": "D-C-B-A"
+        "text": "DCBA"
       }
     ],
     "correctChoiceId": "A",
@@ -4976,19 +4976,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "C-A-B-D"
+        "text": "CABD"
       },
       {
         "id": "C",
-        "text": "A-C-B-D"
+        "text": "ACBD"
       },
       {
         "id": "D",
-        "text": "D-C-B-A"
+        "text": "DCBA"
       }
     ],
     "correctChoiceId": "C",
@@ -5002,19 +5002,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A-B-C-D"
+        "text": "ABCD"
       },
       {
         "id": "B",
-        "text": "B-C-D-A"
+        "text": "BCDA"
       },
       {
         "id": "C",
-        "text": "B-C-A-D"
+        "text": "BCAD"
       },
       {
         "id": "D",
-        "text": "C-B-D-A"
+        "text": "CBDA"
       }
     ],
     "correctChoiceId": "B",

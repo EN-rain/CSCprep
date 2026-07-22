@@ -474,7 +474,22 @@ function mergeQuestionReports(...reportGroups: QuestionReport[][]): QuestionRepo
 }
 
 function getReportedQuestionIds(reports: QuestionReport[] = readQuestionReports()): Set<string> {
-  return new Set(reports.map((report) => report.questionId))
+  const reportedKeys = new Set(
+    reports.map((report) => {
+      const question = QUESTION_BANK_BY_ID.get(report.questionId)
+      return normalizeQuestionKey(question?.prompt ?? report.prompt)
+    }),
+  )
+
+  return new Set(
+    questionBank
+      .filter((question) => reportedKeys.has(normalizeQuestionKey(question.prompt)))
+      .map((question) => question.id),
+  )
+}
+
+function normalizeQuestionKey(prompt: string): string {
+  return prompt.replace(/\s+/g, ' ').trim().toLowerCase()
 }
 
 function isQuestionReport(value: unknown): value is QuestionReport {
