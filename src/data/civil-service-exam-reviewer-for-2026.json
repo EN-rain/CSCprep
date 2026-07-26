@@ -80,8 +80,8 @@
   {
     "id": "cse2026-004",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the quotient: 8000 +125",
-    "hint": "Multiplying both numbers by 8 turns the denominator into 1000, which is much easier to divide by.",
+    "prompt": "Find the quotient: 8 000 ÷ 125",
+    "hint": "Division item: cancel common factors or move decimal places before calculating.",
     "choices": [
       {
         "id": "A",
@@ -101,7 +101,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "8000 ÷ 125. Multiply numerator and denominator by 8: (8000 × 8) ÷ (125 × 8) = 64,000 ÷ 1,000 = 64. Alternatively, 125 × 64 = 8,000, confirming the quotient."
+    "explanation": "8,000 ÷ 125 = 64 because 125 × 64 = 8,000."
   },
   {
     "id": "cse2026-005",
@@ -159,27 +159,27 @@
     "id": "cse2026-007",
     "subject": "Numerical Reasoning",
     "prompt": "What is the remainder when 192 888 is divided by 8?",
-    "hint": "A number is divisible by 8 if its last three digits form a number divisible by 8. Check just 888.",
+    "hint": "Check the last three digits: 888 is divisible by 8.",
     "choices": [
       {
         "id": "A",
-        "text": "9 208"
+        "text": "0"
       },
       {
         "id": "B",
-        "text": "6 236"
+        "text": "4"
       },
       {
         "id": "C",
-        "text": "88 254"
+        "text": "8"
       },
       {
         "id": "D",
-        "text": "8 886"
+        "text": "24 111"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "192,888 ÷ 8. The last three digits are 888, and 888 ÷ 8 = 111 exactly (8 × 111 = 888). So 192,888 is divisible by 8 with remainder 0. Equivalently, 192,888 ÷ 8 = 24,111."
+    "explanation": "192,888 is divisible by 8 because 888 ? 8 = 111 exactly. The remainder is 0."
   },
   {
     "id": "cse2026-008",
@@ -1166,8 +1166,8 @@
         "text": "39"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "x = (2 + 4x + 6 + 8 + 10)/5 = (26 + 4x)/5. Multiply by 5: 5x = 26 + 4x → x = 26."
+    "correctChoiceId": "C",
+    "explanation": "The average is (2 + 4x + 6 + 8 + 10) / 5 = (26 + 4x) / 5. Therefore 5x = 26 + 4x, so x = 26."
   },
   {
     "id": "cse2026-046",
@@ -10098,8 +10098,8 @@
   {
     "id": "cse2026-373",
     "subject": "Verbal Reasoning",
-    "prompt": "The secretary due to stress.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The secretary ______ due to stress.",
+    "hint": "Complete the sentence with the phrase that means the secretary could no longer function normally because of stress.",
     "choices": [
       {
         "id": "A",
@@ -10119,7 +10119,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'broke down'. Question: The secretary due to stress."
+    "explanation": "To break down means to lose emotional or physical control under stress. The correct answer is D."
   },
   {
     "id": "cse2026-374",

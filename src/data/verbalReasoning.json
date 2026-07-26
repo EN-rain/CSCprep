@@ -11139,7 +11139,7 @@
     "id": "vr-418",
     "subject": "Verbal Reasoning",
     "prompt": "This report leaves much to be DESIRED.",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "hint": "\"Leaves much to be desired\" means unsatisfactory or disappointing.",
     "choices": [
       {
         "id": "A",
@@ -11159,7 +11159,7 @@
       },
       {
         "id": "E",
-        "text": "ready For each of the following sentences, choose the correct spelling for the missing word."
+        "text": "ready"
       }
     ],
     "correctChoiceId": "A",

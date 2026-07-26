@@ -2599,8 +2599,8 @@
   {
     "id": "nr-098",
     "subject": "Numerical Reasoning",
-    "prompt": "If the number of Chinese Insurance stocks represented 3.5% of all Insurance securities, approximately how\nmany Insurance bonds were Chinese?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "prompt": "If Chinese Insurance stocks represented 3.5% of all Insurance securities, approximately how many Insurance bonds were Chinese? Use the chart; values are in thousands.",
+    "hint": "The chart shows 36,000 total Insurance securities and China represents 30% of them. First find Chinese securities, then subtract Chinese stocks equal to 3.5% of all Insurance securities.",
     "choices": [
       {
         "id": "A",
@@ -2624,7 +2624,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "From the chart, Insurance has 33,000 bonds and 3,000 stocks, or 36,000 total securities. Chinese Insurance stocks are 3.5% of the total: 0.035 x 36,000 = 1,260. Since China is 30% of Insurance securities, Chinese securities total 10,800; subtracting 1,260 leaves about 9,540 Chinese bonds, closest to 9,500,000 in the choices.",
+    "explanation": "Insurance has 33,000 bonds and 3,000 stocks, for 36,000 securities. Chinese securities are 30% of 36,000 = 10,800. Chinese stocks are 3.5% of 36,000 = 1,260. Chinese bonds are about 10,800 - 1,260 = 9,540 thousand, closest to 9,500,000.",
     "image": "/question-images/nr-098.png"
   },
   {
