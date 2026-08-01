@@ -4451,8 +4451,8 @@
   {
     "id": "aa-167",
     "subject": "Analytical Ability",
-    "prompt": "A receipt number increases by 7: 104, 111, 118, 125. What comes next?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "prompt": "A receipt number increases by 7 each time: 104, 111, 118, 125. What is the next number?",
+    "hint": "Find the pattern: each term increases by the same amount. Add that amount to the last term.",
     "choices": [
       {
         "id": "A",
@@ -4472,7 +4472,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Each number increases by 7. After 125, the next number is 132."
+    "explanation": "Each number increases by 7: 104 + 7 = 111, 111 + 7 = 118, 118 + 7 = 125, 125 + 7 = 132."
   },
   {
     "id": "aa-168",

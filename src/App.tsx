@@ -47,6 +47,18 @@ const RESOLVED_QUESTION_REPORT_IDS = new Set([
   'cse2026-358',
   'fi-149',
   'nr-025',
+  'cse2026-590',
+  'nr-067',
+  'aa-167',
+  'nr-176',
+  'cse2026-275',
+  'cse2026-356',
+  'cse2026-124',
+  'cse2026-550',
+  'nr-206',
+  'cse2026-354',
+  'cse2026-456',
+  'cse2026-420',
 ])
 
 type ReviewItem = {

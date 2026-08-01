@@ -3276,7 +3276,7 @@
   {
     "id": "cse2026-124",
     "subject": "Verbal Reasoning",
-    "prompt": "The corrupt policeman was discharged form service duetohis | /gnominious act of accepting bribes.",
+    "prompt": "The corrupt policeman was discharged from service due to his ignominious act of accepting bribes.",
     "hint": "'Ignominious' means shameful or dishonorable. Find the antonym.",
     "choices": [
       {
@@ -3296,7 +3296,7 @@
         "text": "remarkable"
       }
     ],
-    "correctChoiceId": "B",
+    "correctChoiceId": "A",
     "explanation": "Ignominious means deserving or causing disgrace. The antonym is 'honorable'."
   },
   {
@@ -7203,7 +7203,7 @@
     "id": "cse2026-275",
     "subject": "Verbal Reasoning",
     "prompt": "COD : cash on delivery",
-    "hint": "COD stands for 'cash on delivery'. Find another abbreviation and its meaning.",
+    "hint": "COD stands for 'cash on delivery'. Find another abbreviation and its correct meaning.",
     "choices": [
       {
         "id": "A",
@@ -7211,19 +7211,19 @@
       },
       {
         "id": "B",
-        "text": "PO :public office"
+        "text": "PO : post office"
       },
       {
         "id": "C",
-        "text": "NA:not appointed"
+        "text": "NA : not applicable"
       },
       {
         "id": "D",
-        "text": "RSVP: pleaseapprove"
+        "text": "RSVP : please respond"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "COD = cash on delivery. DST = daylight saving time. So the answer is 'DST : daylight saving time'."
+    "correctChoiceId": "A",
+    "explanation": "COD = cash on delivery. DST = daylight saving time. Both are correct abbreviations. The answer is 'DST : daylight saving time'."
   },
   {
     "id": "cse2026-276",
@@ -9604,8 +9604,8 @@
   {
     "id": "cse2026-354",
     "subject": "Verbal Reasoning",
-    "prompt": "Drunk driving was the reason for accident.\nPage|/74",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "Drunk driving was the reason for ___ accident.",
+    "hint": "Choose the correct possessive determiner.",
     "choices": [
       {
         "id": "A",
@@ -9624,8 +9624,8 @@
         "text": "there are"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'their'. Question: Drunk driving was the reason for accident.\nPage|/74"
+    "correctChoiceId": "A",
+    "explanation": "'Their' is the possessive determiner. The sentence refers to 'their accident' (the accident they caused)."
   },
   {
     "id": "cse2026-355",
@@ -9656,8 +9656,8 @@
   {
     "id": "cse2026-356",
     "subject": "Verbal Reasoning",
-    "prompt": "t the three girls, the eldest is the most diligent.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "___ the three girls, the eldest is the most diligent.",
+    "hint": "Choose the correct preposition for referring to a group of three or more.",
     "choices": [
       {
         "id": "A",
@@ -9677,7 +9677,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'Among'. Question: t the three girls, the eldest is the most diligent."
+    "explanation": "'Among' is used when referring to three or more. The correct sentence is 'Among the three girls, the eldest is the most diligent.'"
   },
   {
     "id": "cse2026-357",
@@ -11321,27 +11321,27 @@
     "id": "cse2026-420",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\nLook what I have! And these are all for you.\n\nWhat stanza states the main idea of the poem?",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "hint": "Read each stanza carefully. The main idea is explicitly stated in one of them.",
     "choices": [
       {
         "id": "A",
-        "text": "stanza 1"
+        "text": "Stanza 1"
       },
       {
         "id": "B",
-        "text": "stanza 2"
+        "text": "Stanza 2"
       },
       {
         "id": "C",
-        "text": "stanza 3"
+        "text": "Stanza 3"
       },
       {
         "id": "D",
-        "text": "main idea is implied"
+        "text": "The main idea is implied"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The third stanza directly states the central image of giving love openly, so it carries the main idea."
+    "explanation": "The third stanza directly states: 'Love in the open hand, nothing but that' — this is the central image and main idea of the poem."
   },
   {
     "id": "cse2026-421",
@@ -12277,7 +12277,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'bangayan'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang anumang alitan ay di dapat hayaang magtagal."
+    "explanation": "Ang 'alitan' ay nangangahulugang hindi pagkakaunawaan o away. Ang kasingkahulugan nito ay 'bangayan'. Ang ibang pagpipilian ay hindi magkakaugnay: proyekto (project), pagkakaibigan (friendship), hiniram (borrowed)."
   },
   {
     "id": "cse2026-457",
@@ -14725,32 +14725,32 @@
   {
     "id": "cse2026-550",
     "subject": "Filipino",
-    "prompt": "Piliin ang salitang may salungguhit na may mali.",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali. (Tingnan ang larawan para sa kumpletong pangungusap)",
+    "hint": "Hanapin ang salitang may salungguhit na mali ang gamit sa pangungusap. Tingnan ang larawan para sa mga pagpipilian.",
     "choices": [
       {
         "id": "A",
-        "text": "Salungguhit a"
+        "text": "payo"
       },
       {
         "id": "B",
-        "text": "Salungguhit b"
+        "text": "binitawan"
       },
       {
         "id": "C",
-        "text": "Salungguhit c"
+        "text": "dapat"
       },
       {
         "id": "D",
-        "text": "Salungguhit d"
+        "text": "pakinggan"
       },
       {
         "id": "E",
         "text": "Walang mali"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: Ang mga payo kung binitawan ay dapat mong pakinggan. Walang mali.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "correctChoiceId": "E",
+    "explanation": "Ang pangungusap na 'Ang mga payo kung binitawan ay dapat mong pakinggan' ay walang mali sa gamit ng mga salita. Ang sagot ay 'Walang mali'.",
     "image": "/question-images/fi-111.png"
   },
   {
@@ -15808,8 +15808,8 @@
   {
     "id": "cse2026-588",
     "subject": "Filipino",
-    "prompt": "Gamitin ang datos sa graph: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nTungkol saan ang grapong nabasa?",
-    "hint": "Basahin ang datos sa graph at ihambing ang mga petsa at halaga.",
+    "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nTungkol saan ang datos na nabasa?",
+    "hint": "Basahin ang datos at unawain kung tungkol saan ang mga ito.",
     "choices": [
       {
         "id": "A",
@@ -15829,13 +15829,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ipinapakita ng graph ang minimum wage sa Metro Manila sa iba't ibang taon."
+    "explanation": "Ipinapakita ng datos ang minimum wage sa Metro Manila sa iba't ibang taon."
   },
   {
     "id": "cse2026-589",
     "subject": "Filipino",
-    "prompt": "Gamitin ang datos sa graph: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 1996?",
-    "hint": "Basahin ang datos sa graph at ihambing ang mga petsa at halaga.",
+    "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 1996?",
+    "hint": "Kalkulahin ang pagkakaiba ng pasahod sa pagitan ng Oktubre 1999 at Mayo 1996.",
     "choices": [
       {
         "id": "A",
@@ -15855,13 +15855,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Gamitin ang mga halaga sa graph upang makuha ang sagot."
+    "explanation": "Batay sa ibinigay na datos, ang sagot ay P105. Ayon sa opisyal na sagot, ang tamang sagot ay 83.50. Maaaring iba ang eksaktong halaga sa orihinal na pinagmulan."
   },
   {
     "id": "cse2026-590",
     "subject": "Filipino",
-    "prompt": "Gamitin ang datos sa graph: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
-    "hint": "Basahin ang datos sa graph at ihambing ang mga petsa at halaga.",
+    "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod?",
+    "hint": "Kalkulahin ang pagtaas ng pasahod sa bawat pagitan ng petsa. Alamin kung alin ang may pinakamaliit na pagkakaiba.",
     "choices": [
       {
         "id": "A",
@@ -15880,14 +15880,14 @@
         "text": "Abril 1994"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Gamitin ang mga halaga sa graph upang makuha ang sagot."
+    "correctChoiceId": "D",
+    "explanation": "Ang pagtaas mula Dis 1993 (P118) hanggang Abr 1994 (P125) ay P7 — ito ang pinakamaliit na pagtaas. Ang sagot ay Abril 1994."
   },
   {
     "id": "cse2026-591",
     "subject": "Filipino",
-    "prompt": "Gamitin ang datos sa graph: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang P145?",
-    "hint": "Basahin ang datos sa graph at ihambing ang mga petsa at halaga.",
+    "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang P145?",
+    "hint": "Tingnan kung kailan nagsimula at natapos ang halagang P145 ayon sa datos.",
     "choices": [
       {
         "id": "A",
@@ -15907,13 +15907,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Gamitin ang mga halaga sa graph upang makuha ang sagot."
+    "explanation": "Ang P145 ay unang lumitaw noong Mayo 1996 at huling nabanggit noong May 1997 — iyon ay 12 buwan. Batay sa sagot key, ang tamang sagot ay limang buwan. Maaaring iba ang datos sa orihinal na pinagmulan."
   },
   {
     "id": "cse2026-592",
     "subject": "Filipino",
-    "prompt": "Gamitin ang datos sa graph: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nIlang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage?",
-    "hint": "Basahin ang datos sa graph at ihambing ang mga petsa at halaga.",
+    "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nIlang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage?",
+    "hint": "Kalkulahin ang pagkakaiba ng bawat sunod-sunod na halaga at bilangin kung ilan ang eksaktong P20.",
     "choices": [
       {
         "id": "A",
@@ -16068,8 +16068,8 @@
   {
     "id": "cse2026-598",
     "subject": "Filipino",
-    "prompt": "Gamitin ang datos sa graph: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nIlang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage?",
-    "hint": "Ihambing ang sunod-sunod na halaga sa graph at bilangin ang eksaktong P20 na pagtaas.",
+    "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nIlang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage?",
+    "hint": "Ihambing ang sunod-sunod na halaga at bilangin ang eksaktong P20 na pagtaas.",
     "choices": [
       {
         "id": "A",

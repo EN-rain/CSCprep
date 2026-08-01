@@ -1704,7 +1704,7 @@
     "id": "nr-067",
     "subject": "Numerical Reasoning",
     "prompt": "Paula uses ten 100-watt bulbs in her house. She uses these bulbs at an average\nof 5 hours each day. How many KWH do these bulbs use each day?",
-    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
+    "hint": "Compute total wattage: 10 bulbs x 100W = 1000W. Multiply by hours: 1000W x 5h = 5000 Wh = 5 kWh.",
     "choices": [
       {
         "id": "A",
@@ -1724,7 +1724,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"5\") because it is the result that satisfies the problem."
+    "explanation": "10 bulbs x 100W = 1000W. 1000W x 5h = 5000 Wh = 5 kWh. The correct answer is 5."
   },
   {
     "id": "nr-068",
@@ -4822,11 +4822,11 @@
     "id": "nr-176",
     "subject": "Numerical Reasoning",
     "prompt": "If -6/(a - 3) = 3/(a + 2), then a = ?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "Cross-multiply then solve for a. Check your answer by substituting back.",
     "choices": [
       {
         "id": "A",
-        "text": "1/3"
+        "text": "-1/3"
       },
       {
         "id": "B",
@@ -4838,15 +4838,15 @@
       },
       {
         "id": "D",
-        "text": "1/2"
+        "text": "3"
       },
       {
         "id": "E",
-        "text": "3"
+        "text": "-3"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Solve -6/(a - 3) = 3/(a + 2) by cross-multiplying: -6(a + 2) = 3(a - 3). That gives -6a - 12 = 3a - 9, so -9a = 3 and a = -1/3."
+    "explanation": "Cross-multiply: -6(a + 2) = 3(a - 3). That gives -6a - 12 = 3a - 9, so -9a = 3 and a = -1/3."
   },
   {
     "id": "nr-177",
