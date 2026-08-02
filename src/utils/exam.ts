@@ -15,8 +15,8 @@ const HISTORY_KEY = 'cscprep:question-history:v1'
 const COMPLETED_EXAM_COUNT_KEY = 'cscprep:completed-exam-count:v1'
 const ITEMS_PER_SUBJECT = 20
 const TOTAL_EXAM_ITEMS = 100
-const RANDOM_EXAM_ITEMS = 150
-const MAX_EXAM_ITEMS = 150
+const RANDOM_EXAM_ITEMS = 999
+const MAX_EXAM_ITEMS = 999
 const COOLDOWN_EXAMS = 2
 const MIXED_EXAM_SUBJECT_COUNTS: Partial<Record<Subject, number>> = {
   'Verbal Reasoning': 40,

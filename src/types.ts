@@ -67,4 +67,6 @@ export type QuestionHistoryEntry = {
 
 export type QuestionHistory = Record<string, QuestionHistoryEntry>
 
-export type ReviewFilter = 'all' | 'correct' | 'wrong'
+export type ReviewFilterOption = 'correct' | 'wrong' | Subject
+
+export type ReviewFilter = ReviewFilterOption[]

@@ -8,6 +8,7 @@ import {
   type ExamMode,
   type ExamSession,
   type ReviewFilter,
+  type ReviewFilterOption,
   type Subject,
 } from './types'
 import {
@@ -660,7 +661,7 @@ function App() {
   const [answers, setAnswers] = useState<AnswerMap>(() => initialExamDraft?.answers ?? {})
   const answersRef = useRef<AnswerMap>(answers)
   const [submittedAnswers, setSubmittedAnswers] = useState<AnswerMap>({})
-  const [filter, setFilter] = useState<ReviewFilter>('all')
+  const [filter, setFilter] = useState<ReviewFilter>([])
   const [timerEnabled, setTimerEnabled] = useState(false)
   const [customTimerMinutes, setCustomTimerMinutes] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -726,17 +727,27 @@ function App() {
   const score = reviewItems.filter((item) => item.isCorrect).length
   const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0
   const passed = percentage >= 80
-  const filteredReviewItems = reviewItems.filter((item) => {
-    if (filter === 'correct') {
-      return item.isCorrect
+  const filteredReviewItems = useMemo(() => reviewItems.filter((item) => {
+    if (filter.length === 0) {
+      return true
     }
 
-    if (filter === 'wrong') {
-      return !item.isCorrect
+    for (const option of filter) {
+      if (option === 'correct' && !item.isCorrect) {
+        return false
+      }
+
+      if (option === 'wrong' && item.isCorrect) {
+        return false
+      }
+
+      if ((option === 'Verbal Reasoning' || option === 'Numerical Reasoning' || option === 'Analytical Ability' || option === 'Filipino' || option === 'General Information') && item.subject !== option) {
+        return false
+      }
     }
 
     return true
-  })
+  }), [reviewItems, filter])
   const nextSkippedItem = useMemo(() => {
     if (!activeSkippedItemId || !answers[activeSkippedItemId]) {
       return null
@@ -768,7 +779,7 @@ function App() {
       setSession(nextSession)
       setAnswers({})
       setSubmittedAnswers({})
-      setFilter('all')
+      setFilter([])
       setSkippedItemNotice(null)
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
@@ -892,7 +903,7 @@ function App() {
       setSession(null)
       setAnswers({})
       setSubmittedAnswers({})
-      setFilter('all')
+      setFilter([])
       setSkippedItemNotice(null)
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
@@ -906,7 +917,7 @@ function App() {
   function openHistory() {
     transitionToScreen(() => {
       clearInProgressExamDraft()
-      setFilter('all')
+      setFilter([])
       setSkippedItemNotice(null)
       setExitNoticeOpen(false)
       setOfflineSubmitNoticeOpen(false)
@@ -920,7 +931,7 @@ function App() {
     const returnScreen = screen === 'exam' && session ? 'exam' : screen
 
     transitionToScreen(() => {
-      setFilter('all')
+      setFilter([])
       setSkippedItemNotice(null)
       setExitNoticeOpen(false)
       setOfflineSubmitNoticeOpen(false)
@@ -933,7 +944,7 @@ function App() {
   function closeReports() {
     if (reportsReturnScreen === 'exam' && session) {
       transitionToScreen(() => {
-        setFilter('all')
+        setFilter([])
         setSkippedItemNotice(null)
         setExitNoticeOpen(false)
         setOfflineSubmitNoticeOpen(false)
@@ -1059,7 +1070,7 @@ function App() {
       setSession(refreshedSession)
       setAnswers(attempt.answers)
       setSubmittedAnswers(attempt.answers)
-      setFilter('all')
+      setFilter([])
       setSkippedItemNotice(null)
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
@@ -1108,7 +1119,7 @@ function App() {
       setSession(null)
       setAnswers({})
       setSubmittedAnswers({})
-      setFilter('all')
+      setFilter([])
       setSkippedItemNotice(null)
       setSkippedItemQueue([])
       setActiveSkippedItemId(null)
@@ -1346,7 +1357,15 @@ function App() {
             expandedImage={expandedImage}
             filter={filter}
             filteredReviewItems={filteredReviewItems}
-            onFilterChange={setFilter}
+            onToggleFilter={(option) => {
+              setFilter((current) => {
+                if (current.includes(option)) {
+                  return current.filter((o) => o !== option)
+                }
+
+                return [...current, option]
+              })
+            }}
             onCloseImage={() => setExpandedImage(null)}
             onOpenImage={setExpandedImage}
             onRetake={() => startExam(session.mode)}
@@ -2439,7 +2458,7 @@ type ResultsScreenProps = {
   expandedImage: string | null
   filter: ReviewFilter
   filteredReviewItems: ReviewItem[]
-  onFilterChange: (filter: ReviewFilter) => void
+  onToggleFilter: (option: ReviewFilterOption) => void
   onCloseImage: () => void
   onOpenImage: (imageSrc: string) => void
   onHome: () => void
@@ -2457,7 +2476,7 @@ function ResultsScreen({
   expandedImage,
   filter,
   filteredReviewItems,
-  onFilterChange,
+  onToggleFilter,
   onCloseImage,
   onOpenImage,
   onHome,
@@ -2513,15 +2532,26 @@ function ResultsScreen({
       </div>
 
       <div className="filter-row" role="group" aria-label="Filter reviewed answers">
-        {(['all', 'correct', 'wrong'] as ReviewFilter[]).map((option) => (
+        {(['correct', 'wrong'] as ReviewFilterOption[]).map((option) => (
           <button
-            aria-pressed={filter === option}
-            className={filter === option ? 'filter-button filter-button--active' : 'filter-button'}
+            aria-pressed={filter.includes(option)}
+            className={filter.includes(option) ? 'filter-button filter-button--active' : 'filter-button'}
             key={option}
-            onClick={() => onFilterChange(option)}
+            onClick={() => onToggleFilter(option)}
             type="button"
           >
-            {option === 'all' ? 'All items' : option === 'correct' ? 'Correct only' : 'Wrong only'}
+            {option === 'correct' ? 'Correct only' : 'Wrong only'}
+          </button>
+        ))}
+        {SUBJECTS.map((subject) => (
+          <button
+            aria-pressed={filter.includes(subject)}
+            className={filter.includes(subject) ? 'filter-button filter-button--active' : 'filter-button'}
+            key={subject}
+            onClick={() => onToggleFilter(subject)}
+            type="button"
+          >
+            {subject}
           </button>
         ))}
       </div>
