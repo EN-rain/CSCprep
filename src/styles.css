@@ -231,6 +231,10 @@ h2 {
   line-height: 1.35;
 }
 
+.review-card h2 {
+  font-weight: normal;
+}
+
 .prompt-line {
   display: block;
 }
