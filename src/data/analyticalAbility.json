@@ -111,7 +111,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "CBAD"
+        "text": "BCAD"
       },
       {
         "id": "B",
@@ -938,7 +938,7 @@
   {
     "id": "aa-037",
     "subject": "Analytical Ability",
-    "prompt": "Find the next pair in the alternating sequence: E F, H G, I J, ?",
+    "prompt": "Find the next pair in the alternating sequence: E F, H G, I J,?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -1042,7 +1042,7 @@
   {
     "id": "aa-041",
     "subject": "Analytical Ability",
-    "prompt": "Find the missing letter in this alternating sequence: A, D, B, E, C, F, ?",
+    "prompt": "Find the missing letter in this alternating sequence: A, D, B, E, C, F,?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -1068,7 +1068,7 @@
   {
     "id": "aa-042",
     "subject": "Analytical Ability",
-    "prompt": "Find the missing term in the paired sequence: N, Q, O, R, P, S, ?",
+    "prompt": "Find the missing term in the paired sequence: N, Q, O, R, P, S,?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -1293,11 +1293,11 @@
       },
       {
         "id": "D",
-        "text": "314"
+        "text": "312"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"316\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Differences: −12, −14, −16, −18; next difference −20 → 336 − 20 = 316."
   },
   {
     "id": "aa-051",
@@ -1827,22 +1827,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Circle a",
+        "text": "A",
         "image": "/question-images/aa-071-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Circle b",
+        "text": "B",
         "image": "/question-images/aa-071-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Circle c",
+        "text": "C",
         "image": "/question-images/aa-071-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Circle d",
+        "text": "D",
         "image": "/question-images/aa-071-choice-d.png"
       }
     ],
@@ -1858,22 +1858,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-072-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-072-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-072-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-072-choice-d.png"
       }
     ],
@@ -1889,22 +1889,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-073-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-073-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-073-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-073-choice-d.png"
       }
     ],
@@ -1920,22 +1920,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-074-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-074-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-074-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-074-choice-d.png"
       }
     ],
@@ -1951,22 +1951,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Circle a",
+        "text": "A",
         "image": "/question-images/aa-075-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Circle b",
+        "text": "B",
         "image": "/question-images/aa-075-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Circle c",
+        "text": "C",
         "image": "/question-images/aa-075-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Circle d",
+        "text": "D",
         "image": "/question-images/aa-075-choice-d.png"
       }
     ],
@@ -1982,22 +1982,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-076-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-076-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-076-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-076-choice-d.png"
       }
     ],
@@ -2013,22 +2013,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-077-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-077-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-077-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-077-choice-d.png"
       }
     ],
@@ -2044,22 +2044,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-078-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-078-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-078-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-078-choice-d.png"
       }
     ],
@@ -2075,22 +2075,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-079-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-079-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-079-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-079-choice-d.png"
       }
     ],
@@ -2106,22 +2106,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-080-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-080-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-080-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-080-choice-d.png"
       }
     ],
@@ -2137,22 +2137,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-081-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-081-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-081-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-081-choice-d.png"
       }
     ],
@@ -2168,22 +2168,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-082-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-082-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-082-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-082-choice-d.png"
       }
     ],
@@ -2199,17 +2199,17 @@
     "choices": [
       {
         "id": "A",
-        "text": "Figure a",
+        "text": "A",
         "image": "/question-images/aa-083-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Figure b",
+        "text": "B",
         "image": "/question-images/aa-083-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Figure c",
+        "text": "C",
         "image": "/question-images/aa-083-choice-c.png"
       }
     ],
@@ -2225,22 +2225,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-084-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-084-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-084-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-084-choice-d.png"
       }
     ],
@@ -2256,22 +2256,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-085-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-085-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-085-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-085-choice-d.png"
       }
     ],
@@ -2287,22 +2287,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-086-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-086-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-086-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-086-choice-d.png"
       }
     ],
@@ -2318,22 +2318,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-087-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-087-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-087-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-087-choice-d.png"
       }
     ],
@@ -2349,22 +2349,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-088-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-088-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-088-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-088-choice-d.png"
       }
     ],
@@ -2380,22 +2380,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-089-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-089-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-089-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-089-choice-d.png"
       }
     ],
@@ -2411,22 +2411,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-090-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-090-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-090-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-090-choice-d.png"
       }
     ],
@@ -2442,22 +2442,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-091-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-091-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-091-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-091-choice-d.png"
       }
     ],
@@ -2473,22 +2473,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-092-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-092-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-092-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-092-choice-d.png"
       }
     ],
@@ -2504,22 +2504,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-093-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-093-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-093-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-093-choice-d.png"
       }
     ],
@@ -2535,22 +2535,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-094-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-094-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-094-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-094-choice-d.png"
       }
     ],
@@ -2566,22 +2566,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-095-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-095-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-095-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-095-choice-d.png"
       }
     ],
@@ -2597,22 +2597,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Figure a",
+        "text": "A",
         "image": "/question-images/aa-096-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Figure b",
+        "text": "B",
         "image": "/question-images/aa-096-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Figure c",
+        "text": "C",
         "image": "/question-images/aa-096-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Figure d",
+        "text": "D",
         "image": "/question-images/aa-096-choice-d.png"
       }
     ],
@@ -2628,22 +2628,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-097-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-097-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-097-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-097-choice-d.png"
       }
     ],
@@ -2659,22 +2659,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-098-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-098-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-098-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-098-choice-d.png"
       }
     ],
@@ -2690,22 +2690,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-099-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-099-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-099-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-099-choice-d.png"
       }
     ],
@@ -2721,22 +2721,22 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option a",
+        "text": "A",
         "image": "/question-images/aa-100-choice-a.png"
       },
       {
         "id": "B",
-        "text": "Option b",
+        "text": "B",
         "image": "/question-images/aa-100-choice-b.png"
       },
       {
         "id": "C",
-        "text": "Option c",
+        "text": "C",
         "image": "/question-images/aa-100-choice-c.png"
       },
       {
         "id": "D",
-        "text": "Option d",
+        "text": "D",
         "image": "/question-images/aa-100-choice-d.png"
       }
     ],
@@ -3120,7 +3120,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The numeric part increases by 4 each time: 104, 108, 112, 116, then 120."
+    "explanation": "The numeric part increases by 4 each time: 104,108, 112,116, then 120."
   },
   {
     "id": "aa-116",
@@ -3229,7 +3229,7 @@
   {
     "id": "aa-120",
     "subject": "Analytical Ability",
-    "prompt": "An encoded transmittal count triples by station: 2, 6, 18, 54, 162. What comes next?",
+    "prompt": "An encoded transmittal count triples by station: 2, 6, 18, 54,162. What comes next?",
     "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
     "choices": [
       {
@@ -3281,7 +3281,7 @@
   {
     "id": "aa-122",
     "subject": "Analytical Ability",
-    "prompt": "Archive boxes are labeled with descending square numbers: 144, 121, 100, 81, 64. What label follows?",
+    "prompt": "Archive boxes are labeled with descending square numbers: 144,121, 100, 81, 64. What label follows?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -3333,7 +3333,7 @@
   {
     "id": "aa-124",
     "subject": "Analytical Ability",
-    "prompt": "A file-tag sequence is 6, 13, 27, 55, 111. What comes next?",
+    "prompt": "A file-tag sequence is 6, 13, 27, 55,111. What comes next?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -3489,7 +3489,7 @@
   {
     "id": "aa-130",
     "subject": "Analytical Ability",
-    "prompt": "A photocopy batch doubles as follows: 11, 22, 44, 88, 176. What is the next batch count?",
+    "prompt": "A photocopy batch doubles as follows: 11, 22, 44, 88,176. What is the next batch count?",
     "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
     "choices": [
       {
@@ -3853,7 +3853,7 @@
   {
     "id": "aa-144",
     "subject": "Analytical Ability",
-    "prompt": "Records Unit : Receiving Copy :: Cashier : ?",
+    "prompt": "Records Unit: Receiving Copy:: Cashier:?",
     "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
     "choices": [
       {
@@ -3879,7 +3879,7 @@
   {
     "id": "aa-145",
     "subject": "Analytical Ability",
-    "prompt": "Minutes : Meeting :: Abstract of Bids : ?",
+    "prompt": "Minutes: Meeting:: Abstract of Bids:?",
     "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
     "choices": [
       {
@@ -3905,7 +3905,7 @@
   {
     "id": "aa-146",
     "subject": "Analytical Ability",
-    "prompt": "Route slip : document movement :: attendance sheet : ?",
+    "prompt": "Route slip: document movement:: attendance sheet:?",
     "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
     "choices": [
       {
@@ -3931,7 +3931,7 @@
   {
     "id": "aa-147",
     "subject": "Analytical Ability",
-    "prompt": "Confidential : open circulation :: urgent : ?",
+    "prompt": "Confidential: open circulation:: urgent:?",
     "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
     "choices": [
       {
@@ -3957,7 +3957,7 @@
   {
     "id": "aa-148",
     "subject": "Analytical Ability",
-    "prompt": "Notice of Meeting : agenda :: Office Order : ?",
+    "prompt": "Notice of Meeting: agenda:: Office Order:?",
     "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
     "choices": [
       {
@@ -3983,24 +3983,24 @@
   {
     "id": "aa-149",
     "subject": "Analytical Ability",
-    "prompt": "Which pair has the same relationship as Request : Approval?",
+    "prompt": "Which pair has the same relationship as Request: Approval?",
     "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
     "choices": [
       {
         "id": "A",
-        "text": "report : table"
+        "text": "report: table"
       },
       {
         "id": "B",
-        "text": "application : action"
+        "text": "application: action"
       },
       {
         "id": "C",
-        "text": "folder : cabinet"
+        "text": "folder: cabinet"
       },
       {
         "id": "D",
-        "text": "memo : paragraph"
+        "text": "memo: paragraph"
       }
     ],
     "correctChoiceId": "B",
@@ -4009,24 +4009,24 @@
   {
     "id": "aa-150",
     "subject": "Analytical Ability",
-    "prompt": "Which pair has the same relationship as Auditor : Examination?",
+    "prompt": "Which pair has the same relationship as Auditor: Examination?",
     "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
     "choices": [
       {
         "id": "A",
-        "text": "driver : vehicle"
+        "text": "driver: vehicle"
       },
       {
         "id": "B",
-        "text": "clerk : stamp"
+        "text": "clerk: stamp"
       },
       {
         "id": "C",
-        "text": "inspector : verification"
+        "text": "inspector: verification"
       },
       {
         "id": "D",
-        "text": "applicant : form"
+        "text": "applicant: form"
       }
     ],
     "correctChoiceId": "C",
@@ -4451,7 +4451,7 @@
   {
     "id": "aa-167",
     "subject": "Analytical Ability",
-    "prompt": "A receipt number increases by 7 each time: 104, 111, 118, 125. What is the next number?",
+    "prompt": "A receipt number increases by 7 each time: 104,111, 118,125. What is the next number?",
     "hint": "Find the pattern: each term increases by the same amount. Add that amount to the last term.",
     "choices": [
       {
@@ -4472,7 +4472,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Each number increases by 7: 104 + 7 = 111, 111 + 7 = 118, 118 + 7 = 125, 125 + 7 = 132."
+    "explanation": "Each number increases by 7: 104 + 7 = 111,111 + 7 = 118,118 + 7 = 125,125 + 7 = 132."
   },
   {
     "id": "aa-168",

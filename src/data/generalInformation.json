@@ -236,7 +236,7 @@
   {
     "id": "gi-010",
     "subject": "General Information",
-    "prompt": "The Members of the Lower House are",
+    "prompt": "The Members of the Lower House are:",
     "hint": "General information item: focus on the key term in the question and match it to the official definition, role, date, or institution.",
     "choices": [
       {
@@ -262,7 +262,7 @@
   {
     "id": "gi-011",
     "subject": "General Information",
-    "prompt": "The legislative power of the government shall be vested in the",
+    "prompt": "The legislative power of the government shall be vested in the:",
     "hint": "Constitution item: identify the branch, office, right, power, or constitutional rule being asked before choosing.",
     "choices": [
       {
@@ -340,7 +340,7 @@
   {
     "id": "gi-014",
     "subject": "General Information",
-    "prompt": "A member of the Supreme Court",
+    "prompt": "A member of the Supreme Court:",
     "hint": "Constitution item: identify the branch, office, right, power, or constitutional rule being asked before choosing.",
     "choices": [
       {
@@ -366,7 +366,7 @@
   {
     "id": "gi-015",
     "subject": "General Information",
-    "prompt": "The Supreme Court is composed of",
+    "prompt": "The Supreme Court is composed of:",
     "hint": "Constitution item: identify the branch, office, right, power, or constitutional rule being asked before choosing.",
     "choices": [
       {
@@ -379,7 +379,7 @@
       },
       {
         "id": "C",
-        "text": "a Chief Justic and twelve Associate Justices"
+        "text": "a Chief Justice and twelve Associate Justices"
       },
       {
         "id": "D",
@@ -470,7 +470,7 @@
   {
     "id": "gi-019",
     "subject": "General Information",
-    "prompt": "The national language of the Philippines is",
+    "prompt": "The national language of the Philippines is:",
     "hint": "General information item: focus on the key term in the question and match it to the official definition, role, date, or institution.",
     "choices": [
       {
@@ -1232,7 +1232,7 @@
   {
     "id": "gi-048",
     "subject": "General Information",
-    "prompt": "On August 16, 2018, the government announced at least ___ Philippine holidays for 2019 as\ndeclared by virtue of Proclamation No. 555, series of 2018.",
+    "prompt": "On August 16,2018, the government announced at least ___ Philippine holidays for 2019 as\ndeclared by virtue of Proclamation No. 555, series of 2018.",
     "hint": "Constitution item: identify the branch, office, right, power, or constitutional rule being asked before choosing.",
     "choices": [
       {

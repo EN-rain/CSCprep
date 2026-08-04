@@ -2931,8 +2931,11 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
   return (
     <h2 className={headingClassName}>
       {lines.map((line, index) => (
-        <span className="prompt-line" key={`${questionId}-${index}`}>
-          {line}
+        <span
+          className={line.trim() ? 'prompt-line' : 'prompt-line prompt-line--blank'}
+          key={`${questionId}-${index}`}
+        >
+          {line.trim() ? line : ' '}
         </span>
       ))}
     </h2>
@@ -3001,10 +3004,12 @@ function formatPromptLines(prompt: string): string[] {
     .replace(/^([IVX]+)\.\s+([A-E]\.)/u, '$1.\n$2')
     .replace(/\s+([A-E]\.\s)/gu, '\n$1')
     .replace(/\s+([12]\))\s*/gu, '\n$1 ')
-    .replace(/\n(?!\n|[IVX]+\.$|[A-E]\.\s|[12]\)\s|What\b)/gu, ' ')
+    // Preserve blank lines (paragraph breaks). Collapse only soft single newlines.
+    .replace(/([^\n])\n(?!\n|[IVX]+\.$|[A-E]\.\s|[12]\)\s|What\b|Alin\b|Ano\b|Basahin\b|Arrange\b|This paragraph\b)/gu, '$1 ')
     .split('\n')
-    .map((line) => line.trim())
+    .map((line) => line.trimEnd())
 }
+
 
 function isDataSufficiencyPrompt(prompt: string): boolean {
   return /\b1\)/u.test(prompt) && /\b2\)/u.test(prompt)

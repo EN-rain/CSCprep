@@ -2420,8 +2420,8 @@
   {
     "id": "vr-094",
     "subject": "Verbal Reasoning",
-    "prompt": "Catholic: Priest || Moslem: ________",
-    "hint": "Single-word analogy item: state the relationship between the first pair, then apply the same relationship to the second pair.",
+    "prompt": "Catholic: Priest || Muslim: ________",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
@@ -2446,7 +2446,7 @@
   {
     "id": "vr-095",
     "subject": "Verbal Reasoning",
-    "prompt": "Giovanni Boccaccio: Decameron || Niccolo Machiavellli: ______________",
+    "prompt": "Giovanni Boccaccio: Decameron || Niccolò Machiavelli: ______________",
     "hint": "Single-word analogy item: state the relationship between the first pair, then apply the same relationship to the second pair.",
     "choices": [
       {
@@ -3122,1042 +3122,1042 @@
   {
     "id": "vr-121",
     "subject": "Verbal Reasoning",
-    "prompt": "blend : mix",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "blend: mix",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "blare : whisper"
+        "text": "blare: whisper"
       },
       {
         "id": "B",
-        "text": "bleach : whiten"
+        "text": "bleach: whiten"
       },
       {
         "id": "C",
-        "text": "blink : blink"
+        "text": "blink: blink"
       },
       {
         "id": "D",
-        "text": "bloom : flower"
+        "text": "bloom: flower"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"bleach : whiten\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"bleach: whiten\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-122",
     "subject": "Verbal Reasoning",
-    "prompt": "abattoir : slaughterhouse",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "abattoir: slaughterhouse",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "quay : wharf"
+        "text": "quay: wharf"
       },
       {
         "id": "B",
-        "text": "quack : duck"
+        "text": "quack: duck"
       },
       {
         "id": "C",
-        "text": "snail : slow"
+        "text": "snail: slow"
       },
       {
         "id": "D",
-        "text": "clown : fun"
+        "text": "clown: fun"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"quay : wharf\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"quay: wharf\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-123",
     "subject": "Verbal Reasoning",
-    "prompt": "marriageable : nubile",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "marriageable: nubile",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "single : group"
+        "text": "single: group"
       },
       {
         "id": "B",
-        "text": "music : mobile"
+        "text": "music: mobile"
       },
       {
         "id": "C",
-        "text": "puzzle : answer"
+        "text": "puzzle: answer"
       },
       {
         "id": "D",
-        "text": "decipherable : comprehensible"
+        "text": "decipherable: comprehensible"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"decipherable : comprehensible\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice D (\"decipherable: comprehensible\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-124",
     "subject": "Verbal Reasoning",
-    "prompt": "numismatist : money",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "numismatist: money",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "aesthetics : beauty"
+        "text": "aesthetics: beauty"
       },
       {
         "id": "B",
-        "text": "fetish : obsession"
+        "text": "fetish: obsession"
       },
       {
         "id": "C",
-        "text": "linguist : language"
+        "text": "linguist: language"
       },
       {
         "id": "D",
-        "text": "scientist : sense"
+        "text": "scientist: sense"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"linguist : language\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice C (\"linguist: language\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-125",
     "subject": "Verbal Reasoning",
-    "prompt": "anxious : uneasy",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "anxious: uneasy",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "egocentric : self-centered"
+        "text": "egocentric: self-centered"
       },
       {
         "id": "B",
-        "text": "wary : placid"
+        "text": "wary: placid"
       },
       {
         "id": "C",
-        "text": "feeble : strong"
+        "text": "feeble: strong"
       },
       {
         "id": "D",
-        "text": "scornful : admirable"
+        "text": "scornful: admirable"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"egocentric : self-centered\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"egocentric: self-centered\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-126",
     "subject": "Verbal Reasoning",
-    "prompt": "goat : kid",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "goat: kid",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "bear : cub"
+        "text": "bear: cub"
       },
       {
         "id": "B",
-        "text": "chicken : hen"
+        "text": "chicken: hen"
       },
       {
         "id": "C",
-        "text": "dog : Dalmatian"
+        "text": "dog: Dalmatian"
       },
       {
         "id": "D",
-        "text": "tiger : tigress"
+        "text": "tiger: tigress"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"bear : cub\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"bear: cub\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-127",
     "subject": "Verbal Reasoning",
-    "prompt": "key : lock",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "key: lock",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "litter : trash"
+        "text": "litter: trash"
       },
       {
         "id": "B",
-        "text": "pestle : pound"
+        "text": "pestle: pound"
       },
       {
         "id": "C",
-        "text": "table : desk"
+        "text": "table: desk"
       },
       {
         "id": "D",
-        "text": "sword : scabbard"
+        "text": "sword: scabbard"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"sword : scabbard\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice D (\"sword: scabbard\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-128",
     "subject": "Verbal Reasoning",
-    "prompt": "dog : kennel",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "dog: kennel",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "whale : pond"
+        "text": "whale: pond"
       },
       {
         "id": "B",
-        "text": "socks : feet"
+        "text": "socks: feet"
       },
       {
         "id": "C",
-        "text": "pig : sty"
+        "text": "pig: sty"
       },
       {
         "id": "D",
-        "text": "eagle : barn"
+        "text": "eagle: barn"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"pig : sty\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice C (\"pig: sty\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-129",
     "subject": "Verbal Reasoning",
-    "prompt": "book : leaves",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "book: leaves",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "house : kitchen"
+        "text": "house: kitchen"
       },
       {
         "id": "B",
-        "text": "chimney : roof"
+        "text": "chimney: roof"
       },
       {
         "id": "C",
-        "text": "fan : electricity"
+        "text": "fan: electricity"
       },
       {
         "id": "D",
-        "text": "chair : sitting"
+        "text": "chair: sitting"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"house : kitchen\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"house: kitchen\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-130",
     "subject": "Verbal Reasoning",
-    "prompt": "panda : china",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "panda: china",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "grizzly : Africa"
+        "text": "grizzly: Africa"
       },
       {
         "id": "B",
-        "text": "polar bear : America"
+        "text": "polar bear: America"
       },
       {
         "id": "C",
-        "text": "Pooh : Disneyland"
+        "text": "Pooh: Disneyland"
       },
       {
         "id": "D",
-        "text": "koala : Australia"
+        "text": "koala: Australia"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"koala : Australia\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice D (\"koala: Australia\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-131",
     "subject": "Verbal Reasoning",
-    "prompt": "jubilant : morose",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "jubilant: morose",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "humble : modest"
+        "text": "humble: modest"
       },
       {
         "id": "B",
-        "text": "joyous : happy"
+        "text": "joyous: happy"
       },
       {
         "id": "C",
-        "text": "simple : lavish"
+        "text": "simple: lavish"
       },
       {
         "id": "D",
-        "text": "pompous : pretentious"
+        "text": "pompous: pretentious"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"simple : lavish\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice C (\"simple: lavish\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-132",
     "subject": "Verbal Reasoning",
-    "prompt": "tiny : microscopic",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "tiny: microscopic",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "uproar : laughter"
+        "text": "uproar: laughter"
       },
       {
         "id": "B",
-        "text": "large : mammoth"
+        "text": "large: mammoth"
       },
       {
         "id": "C",
-        "text": "argument : meeting"
+        "text": "argument: meeting"
       },
       {
         "id": "D",
-        "text": "storm : weather"
+        "text": "storm: weather"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"large : mammoth\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"large: mammoth\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-133",
     "subject": "Verbal Reasoning",
-    "prompt": "to smile : to guffaw",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "to smile: to guffaw",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "to walk : to stroll"
+        "text": "to walk: to stroll"
       },
       {
         "id": "B",
-        "text": "to frown : to weep"
+        "text": "to frown: to weep"
       },
       {
         "id": "C",
-        "text": "to munch : to eat"
+        "text": "to munch: to eat"
       },
       {
         "id": "D",
-        "text": "to lift : to carry"
+        "text": "to lift: to carry"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"to frown : to weep\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"to frown: to weep\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-134",
     "subject": "Verbal Reasoning",
-    "prompt": "hand : arm",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "hand: arm",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "foot : leg"
+        "text": "foot: leg"
       },
       {
         "id": "B",
-        "text": "hips : sway"
+        "text": "hips: sway"
       },
       {
         "id": "C",
-        "text": "waist : belt"
+        "text": "waist: belt"
       },
       {
         "id": "D",
-        "text": "shoulder : neck"
+        "text": "shoulder: neck"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"foot : leg\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"foot: leg\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-135",
     "subject": "Verbal Reasoning",
-    "prompt": "pre : post",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "pre: post",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "anti : pro"
+        "text": "anti: pro"
       },
       {
         "id": "B",
-        "text": "semi : equi"
+        "text": "semi: equi"
       },
       {
         "id": "C",
-        "text": "able : can"
+        "text": "able: can"
       },
       {
         "id": "D",
-        "text": "demi : half"
+        "text": "demi: half"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"anti : pro\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"anti: pro\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-136",
     "subject": "Verbal Reasoning",
-    "prompt": "auditorium : audience",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "auditorium: audience",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "hall : pictures"
+        "text": "hall: pictures"
       },
       {
         "id": "B",
-        "text": "movie house : cinema"
+        "text": "movie house: cinema"
       },
       {
         "id": "C",
-        "text": "coliseum : spectators"
+        "text": "coliseum: spectators"
       },
       {
         "id": "D",
-        "text": "commuters : transportation"
+        "text": "commuters: transportation"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"coliseum : spectators\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice C (\"coliseum: spectators\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-137",
     "subject": "Verbal Reasoning",
-    "prompt": "Edgar Allan Poe : Annabel Lee",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "Edgar Allan Poe: Annabel Lee",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "Robert Frost : Medea"
+        "text": "Robert Frost: Medea"
       },
       {
         "id": "B",
-        "text": "Pygmalion : Galatea"
+        "text": "Pygmalion: Galatea"
       },
       {
         "id": "C",
-        "text": "Chaucer : Antigone"
+        "text": "Chaucer: Antigone"
       },
       {
         "id": "D",
-        "text": "Shakespeare : Romeo and Juliet"
+        "text": "Shakespeare: Romeo and Juliet"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Shakespeare : Romeo and Juliet\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice D (\"Shakespeare: Romeo and Juliet\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-138",
     "subject": "Verbal Reasoning",
-    "prompt": "advise : counsel",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "advise: counsel",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "lead : direct"
+        "text": "lead: direct"
       },
       {
         "id": "B",
-        "text": "loss : lost"
+        "text": "loss: lost"
       },
       {
         "id": "C",
-        "text": "peace : piece"
+        "text": "peace: piece"
       },
       {
         "id": "D",
-        "text": "want : quality"
+        "text": "want: quality"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"lead : direct\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"lead: direct\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-139",
     "subject": "Verbal Reasoning",
-    "prompt": "perspire : sweat",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "perspire: sweat",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "clouds : rain"
+        "text": "clouds: rain"
       },
       {
         "id": "B",
-        "text": "cry : tears"
+        "text": "cry: tears"
       },
       {
         "id": "C",
-        "text": "fan : wind"
+        "text": "fan: wind"
       },
       {
         "id": "D",
-        "text": "sad : lonely"
+        "text": "sad: lonely"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"cry : tears\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"cry: tears\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-140",
     "subject": "Verbal Reasoning",
-    "prompt": "extricate : set free",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "extricate: set free",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "journey : far"
+        "text": "journey: far"
       },
       {
         "id": "B",
-        "text": "liquidate : liquefy"
+        "text": "liquidate: liquefy"
       },
       {
         "id": "C",
-        "text": "implicate : involve"
+        "text": "implicate: involve"
       },
       {
         "id": "D",
-        "text": "migrate : stay"
+        "text": "migrate: stay"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"implicate : involve\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice C (\"implicate: involve\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-141",
     "subject": "Verbal Reasoning",
-    "prompt": "maggot : fly",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "maggot: fly",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "caterpillar : leaves"
+        "text": "caterpillar: leaves"
       },
       {
         "id": "B",
-        "text": "bees : wasp"
+        "text": "bees: wasp"
       },
       {
         "id": "C",
-        "text": "butterfly : moth"
+        "text": "butterfly: moth"
       },
       {
         "id": "D",
-        "text": "tadpole : frog"
+        "text": "tadpole: frog"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"tadpole : frog\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice D (\"tadpole: frog\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-142",
     "subject": "Verbal Reasoning",
-    "prompt": "he : him",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "he: him",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "me : I"
+        "text": "me: I"
       },
       {
         "id": "B",
-        "text": "they : them"
+        "text": "they: them"
       },
       {
         "id": "C",
-        "text": "you : yours"
+        "text": "you: yours"
       },
       {
         "id": "D",
-        "text": "her : she"
+        "text": "her: she"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"they : them\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"they: them\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-143",
     "subject": "Verbal Reasoning",
-    "prompt": "lie : to recline",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "lie: to recline",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "lay : put down"
+        "text": "lay: put down"
       },
       {
         "id": "B",
-        "text": "macabre : beauty"
+        "text": "macabre: beauty"
       },
       {
         "id": "C",
-        "text": "nab : release"
+        "text": "nab: release"
       },
       {
         "id": "D",
-        "text": "quench : to thirst"
+        "text": "quench: to thirst"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"lay : put down\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"lay: put down\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-144",
     "subject": "Verbal Reasoning",
-    "prompt": "igloo : Eskimo",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "igloo: Eskimo",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "cavemen : cave"
+        "text": "cavemen: cave"
       },
       {
         "id": "B",
-        "text": "palace : kings"
+        "text": "palace: kings"
       },
       {
         "id": "C",
-        "text": "destitute : shanty"
+        "text": "destitute: shanty"
       },
       {
         "id": "D",
-        "text": "bees : beehive"
+        "text": "bees: beehive"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"palace : kings\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"palace: kings\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-145",
     "subject": "Verbal Reasoning",
-    "prompt": "dictionary : word meanings:",
+    "prompt": "dictionary: word meanings:",
     "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
     "choices": [
       {
         "id": "A",
-        "text": "alamanac : synonyms"
+        "text": "alamanac: synonyms"
       },
       {
         "id": "B",
-        "text": "encyclopedia : word origin"
+        "text": "encyclopedia: word origin"
       },
       {
         "id": "C",
-        "text": "atlas : maps"
+        "text": "atlas: maps"
       },
       {
         "id": "D",
-        "text": "thesaurus : dinosaurs"
+        "text": "thesaurus: dinosaurs"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"atlas : maps\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice C (\"atlas: maps\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-146",
     "subject": "Verbal Reasoning",
-    "prompt": "extemporaneous : rehearsed",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "extemporaneous: rehearsed",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "live : taped"
+        "text": "live: taped"
       },
       {
         "id": "B",
-        "text": "momentous : important"
+        "text": "momentous: important"
       },
       {
         "id": "C",
-        "text": "nefarious : wicked"
+        "text": "nefarious: wicked"
       },
       {
         "id": "D",
-        "text": "salubrious : healthful"
+        "text": "salubrious: healthful"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"live : taped\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"live: taped\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-147",
     "subject": "Verbal Reasoning",
-    "prompt": "tavern : bar",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "tavern: bar",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "inn : hotel"
+        "text": "inn: hotel"
       },
       {
         "id": "B",
-        "text": "apartment : loft"
+        "text": "apartment: loft"
       },
       {
         "id": "C",
-        "text": "condominium : office"
+        "text": "condominium: office"
       },
       {
         "id": "D",
-        "text": "attic : chimney"
+        "text": "attic: chimney"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"inn : hotel\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"inn: hotel\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-148",
     "subject": "Verbal Reasoning",
-    "prompt": "duchess : duke",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "duchess: duke",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "count : countess"
+        "text": "count: countess"
       },
       {
         "id": "B",
-        "text": "ewe : ram"
+        "text": "ewe: ram"
       },
       {
         "id": "C",
-        "text": "gentleman : lady"
+        "text": "gentleman: lady"
       },
       {
         "id": "D",
-        "text": "wizard : witch"
+        "text": "wizard: witch"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"ewe : ram\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"ewe: ram\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-149",
     "subject": "Verbal Reasoning",
-    "prompt": "dwindle : decrease",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "dwindle: decrease",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "defer : act promptly"
+        "text": "defer: act promptly"
       },
       {
         "id": "B",
-        "text": "deny : grant"
+        "text": "deny: grant"
       },
       {
         "id": "C",
-        "text": "forge : stop"
+        "text": "forge: stop"
       },
       {
         "id": "D",
-        "text": "multiply : increase"
+        "text": "multiply: increase"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"multiply : increase\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice D (\"multiply: increase\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-150",
     "subject": "Verbal Reasoning",
-    "prompt": "prowess : cowardice",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "prowess: cowardice",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "adept : skilled"
+        "text": "adept: skilled"
       },
       {
         "id": "B",
-        "text": "adroit : uncoordinated"
+        "text": "adroit: uncoordinated"
       },
       {
         "id": "C",
-        "text": "garrulous : talkative"
+        "text": "garrulous: talkative"
       },
       {
         "id": "D",
-        "text": "hubris : pride"
+        "text": "hubris: pride"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"adroit : uncoordinated\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"adroit: uncoordinated\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-151",
     "subject": "Verbal Reasoning",
-    "prompt": "charisma : charismata",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "charisma: charismata",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "deer : deers"
+        "text": "deer: deers"
       },
       {
         "id": "B",
-        "text": "bacterium : bacteriums"
+        "text": "bacterium: bacteriums"
       },
       {
         "id": "C",
-        "text": "basis : bases"
+        "text": "basis: bases"
       },
       {
         "id": "D",
-        "text": "eight : eighty’s"
+        "text": "eight: eighty’s"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"bacterium : bacteriums\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"bacterium: bacteriums\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-152",
     "subject": "Verbal Reasoning",
-    "prompt": "quintuplet : five",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "quintuplet: five",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "triplet : three"
+        "text": "triplet: three"
       },
       {
         "id": "B",
-        "text": "quartuplet : four"
+        "text": "quartuplet: four"
       },
       {
         "id": "C",
-        "text": "doublet : two"
+        "text": "doublet: two"
       },
       {
         "id": "D",
-        "text": "sexton : six"
+        "text": "sexton: six"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"triplet : three\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"triplet: three\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-153",
     "subject": "Verbal Reasoning",
-    "prompt": "attention : attn",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "attention: attn",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "approximate : appro"
+        "text": "approximate: appro"
       },
       {
         "id": "B",
-        "text": "bal : balance"
+        "text": "bal: balance"
       },
       {
         "id": "C",
-        "text": "building : bldng"
+        "text": "building: bldng"
       },
       {
         "id": "D",
-        "text": "manager : mgr"
+        "text": "manager: mgr"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"bal : balance\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"bal: balance\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-154",
     "subject": "Verbal Reasoning",
-    "prompt": "arachnophobia : fear of spiders",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "arachnophobia: fear of spiders",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "hydrophobia : fear of wet objects"
+        "text": "hydrophobia: fear of wet objects"
       },
       {
         "id": "B",
-        "text": "claustrophobia : fear of clauses"
+        "text": "claustrophobia: fear of clauses"
       },
       {
         "id": "C",
-        "text": "photophobia : fear of light"
+        "text": "photophobia: fear of light"
       },
       {
         "id": "D",
-        "text": "xenophobia : fear of sin"
+        "text": "xenophobia: fear of sin"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"photophobia : fear of light\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice C (\"photophobia: fear of light\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-155",
     "subject": "Verbal Reasoning",
-    "prompt": "unscrew : tighten",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "unscrew: tighten",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "remove : restore"
+        "text": "remove: restore"
       },
       {
         "id": "B",
-        "text": "relinquish : give up"
+        "text": "relinquish: give up"
       },
       {
         "id": "C",
-        "text": "sensitive : make sensitive"
+        "text": "sensitive: make sensitive"
       },
       {
         "id": "D",
-        "text": "stupefy : make insensible"
+        "text": "stupefy: make insensible"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"remove : restore\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"remove: restore\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-156",
     "subject": "Verbal Reasoning",
-    "prompt": "verbose : speechless",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "verbose: speechless",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "voracious : greedy"
+        "text": "voracious: greedy"
       },
       {
         "id": "B",
-        "text": "vicious : kind"
+        "text": "vicious: kind"
       },
       {
         "id": "C",
-        "text": "wanton : lewd"
+        "text": "wanton: lewd"
       },
       {
         "id": "D",
-        "text": "waspish : irritable"
+        "text": "waspish: irritable"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"vicious : kind\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice B (\"vicious: kind\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-157",
     "subject": "Verbal Reasoning",
-    "prompt": "COD : cash on delivery",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "COD: cash on delivery",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "DST : daylight saving time"
+        "text": "DST: daylight saving time"
       },
       {
         "id": "B",
-        "text": "PO : public office"
+        "text": "PO: public office"
       },
       {
         "id": "C",
-        "text": "NA : not appointed"
+        "text": "NA: not appointed"
       },
       {
         "id": "D",
-        "text": "RSVP : please approve"
+        "text": "RSVP: please approve"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"DST : daylight saving time\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"DST: daylight saving time\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-158",
     "subject": "Verbal Reasoning",
-    "prompt": "adjacent : near",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "adjacent: near",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "congruent : dissimilar"
+        "text": "congruent: dissimilar"
       },
       {
         "id": "B",
-        "text": "converge : separate"
+        "text": "converge: separate"
       },
       {
         "id": "C",
-        "text": "deliberate : intentional"
+        "text": "deliberate: intentional"
       },
       {
         "id": "D",
-        "text": "delude : guide"
+        "text": "delude: guide"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"deliberate : intentional\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice C (\"deliberate: intentional\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-159",
     "subject": "Verbal Reasoning",
-    "prompt": "firmament : sky",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "firmament: sky",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "clouds : air"
+        "text": "clouds: air"
       },
       {
         "id": "B",
-        "text": "moon : planer"
+        "text": "moon: planer"
       },
       {
         "id": "C",
-        "text": "star : gas"
+        "text": "star: gas"
       },
       {
         "id": "D",
-        "text": "soil : groun"
+        "text": "soil: groun"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"soil : groun\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice D (\"soil: groun\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-160",
     "subject": "Verbal Reasoning",
-    "prompt": "languid : strong",
-    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
+    "prompt": "languid: strong",
+    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
     "choices": [
       {
         "id": "A",
-        "text": "feeble : active"
+        "text": "feeble: active"
       },
       {
         "id": "B",
-        "text": "innocuous : harmless"
+        "text": "innocuous: harmless"
       },
       {
         "id": "C",
-        "text": "opportune : timely"
+        "text": "opportune: timely"
       },
       {
         "id": "D",
-        "text": "truculent : restless"
+        "text": "truculent: restless"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"feeble : active\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is choice A (\"feeble: active\") because both word pairs follow the same relationship."
   },
   {
     "id": "vr-161",
@@ -4968,7 +4968,7 @@
   {
     "id": "vr-187",
     "subject": "Verbal Reasoning",
-    "prompt": "Choose the underlined part that contains an error:\nGorio and Tekla, in addition to Captain Barbel, was a popular comic book during the ?70s. No error.",
+    "prompt": "Choose the underlined part that contains an error:\nGorio and Tekla, in addition to Captain Barbel, was a popular comic book during the?70s. No error.",
     "hint": "Identifying errors item: test the underlined parts for subject-verb agreement, tense, pronoun use, modifier placement, and prepositions.",
     "choices": [
       {
@@ -4993,7 +4993,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The subject is compound (Gorio and Tekla), so the verb should be ?were,? not ?was.?",
+    "explanation": "The subject is compound (Gorio and Tekla), so the verb should be?were,? not?was.?",
     "image": "/question-images/vr-187.png"
   },
   {
@@ -7878,7 +7878,7 @@
   {
     "id": "vr-291",
     "subject": "Verbal Reasoning",
-    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B. C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nWho was born an Athenian citizen in Samos in 341 B. C.?",
+    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nWho was born an Athenian citizen in Samos in 341 B.C.?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7904,7 +7904,7 @@
   {
     "id": "vr-292",
     "subject": "Verbal Reasoning",
-    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B. C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nWhat do the Epicureans think about the universe?",
+    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nWhat do the Epicureans think about the universe?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7930,7 +7930,7 @@
   {
     "id": "vr-293",
     "subject": "Verbal Reasoning",
-    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B. C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nWhat was the Epicureans’ ultimate goal?",
+    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nWhat was the Epicureans’ ultimate goal?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7956,7 +7956,7 @@
   {
     "id": "vr-294",
     "subject": "Verbal Reasoning",
-    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B. C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nEpicureans had a different view about religion. What was it?",
+    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nEpicureans had a different view about religion. What was it?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7982,7 +7982,7 @@
   {
     "id": "vr-295",
     "subject": "Verbal Reasoning",
-    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B. C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nWhich of the following is not a belief of the Epicureans?",
+    "prompt": "The concepts of Epicureanism are largely known to us through Lucretius, rather than\nEpicurus. The latter born on Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunection to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace and mind. This would be obtained personally by self- control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships – “live unknown” – refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\n- from The Great Political Theories, Vol. 1 by Michael Curtis\n\nWhich of the following is not a belief of the Epicureans?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8320,7 +8320,7 @@
   {
     "id": "vr-308",
     "subject": "Verbal Reasoning",
-    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less sever cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacts, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nWhat statement is NOT true based on the selection?",
+    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacks, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nWhat statement is NOT true based on the selection?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8346,7 +8346,7 @@
   {
     "id": "vr-309",
     "subject": "Verbal Reasoning",
-    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less sever cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacts, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nCoronary arteries can become blocked by",
+    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacks, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nCoronary arteries can become blocked by",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8372,7 +8372,7 @@
   {
     "id": "vr-310",
     "subject": "Verbal Reasoning",
-    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less sever cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacts, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nWhat causes heart stoppage?",
+    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacks, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nWhat causes heart stoppage?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8398,7 +8398,7 @@
   {
     "id": "vr-311",
     "subject": "Verbal Reasoning",
-    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (inlcuding cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less sever cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacts, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nFats in the diet -",
+    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacks, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nFats in the diet -",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8424,7 +8424,7 @@
   {
     "id": "vr-312",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignanat cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nHow does cancer occur?",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nHow does cancer occur?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8450,7 +8450,7 @@
   {
     "id": "vr-313",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignanat cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nIt is believed that cancer",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nIt is believed that cancer",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8476,7 +8476,7 @@
   {
     "id": "vr-314",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignanat cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nWhat do you call the type of cancer which affects connective tissues?",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nWhat do you call the type of cancer which affects connective tissues?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8502,7 +8502,7 @@
   {
     "id": "vr-315",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignanat cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nCancer found in the skin would most likely be classifed as",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nCancer found in the skin would most likely be classifed as",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8528,7 +8528,7 @@
   {
     "id": "vr-316",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignanat cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nWhat is the basis for the classification of cancers?",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nWhat is the basis for the classification of cancers?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8554,7 +8554,7 @@
   {
     "id": "vr-317",
     "subject": "Verbal Reasoning",
-    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constric and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion. from: Biology by Norstog and Meyerriecks\n\nWhat is the best title for the paragraph?",
+    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes.\n\nAt the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin.\n\nIn the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound.\n\nIn the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion.\n\nFrom: Biology by Norstog and Meyerriecks\n\nWhat is the best title for the paragraph?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8580,7 +8580,7 @@
   {
     "id": "vr-318",
     "subject": "Verbal Reasoning",
-    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constric and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion. from: Biology by Norstog and Meyerriecks\n\nWhat part of the blood plays an essential role in clot formation?",
+    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes.\n\nAt the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin.\n\nIn the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound.\n\nIn the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion.\n\nFrom: Biology by Norstog and Meyerriecks\n\nWhat part of the blood plays an essential role in clot formation?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8606,7 +8606,7 @@
   {
     "id": "vr-319",
     "subject": "Verbal Reasoning",
-    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constric and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion. from: Biology by Norstog and Meyerriecks\n\nWhat could happen to a hemophiliac should he get wounded?",
+    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes.\n\nAt the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin.\n\nIn the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound.\n\nIn the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion.\n\nFrom: Biology by Norstog and Meyerriecks\n\nWhat could happen to a hemophiliac should he get wounded?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8632,7 +8632,7 @@
   {
     "id": "vr-320",
     "subject": "Verbal Reasoning",
-    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constric and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion. from: Biology by Norstog and Meyerriecks\n\nWhat is the first step in the formation of a blood clot?",
+    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes.\n\nAt the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin.\n\nIn the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound.\n\nIn the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion.\n\nFrom: Biology by Norstog and Meyerriecks\n\nWhat is the first step in the formation of a blood clot?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8658,7 +8658,7 @@
   {
     "id": "vr-321",
     "subject": "Verbal Reasoning",
-    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constric and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion. from: Biology by Norstog and Meyerriecks\n\nHow are fibrin threads formed?",
+    "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes.\n\nAt the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin.\n\nIn the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound.\n\nIn the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion.\n\nFrom: Biology by Norstog and Meyerriecks\n\nHow are fibrin threads formed?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8710,8 +8710,8 @@
   {
     "id": "vr-323",
     "subject": "Verbal Reasoning",
-    "prompt": "DEBACLE",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word DEBACLE is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8736,8 +8736,8 @@
   {
     "id": "vr-324",
     "subject": "Verbal Reasoning",
-    "prompt": "KABAL",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word KABAL is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8762,8 +8762,8 @@
   {
     "id": "vr-325",
     "subject": "Verbal Reasoning",
-    "prompt": "HAGINIT",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word HAGINIT is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8788,8 +8788,8 @@
   {
     "id": "vr-326",
     "subject": "Verbal Reasoning",
-    "prompt": "DALAHIKAN",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word DALAHIKAN is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8814,8 +8814,8 @@
   {
     "id": "vr-327",
     "subject": "Verbal Reasoning",
-    "prompt": "FORBEARANCE",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word FORBEARANCE is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8840,8 +8840,8 @@
   {
     "id": "vr-328",
     "subject": "Verbal Reasoning",
-    "prompt": "ALLEGIANCE",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word ALLEGIANCE is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8866,8 +8866,8 @@
   {
     "id": "vr-329",
     "subject": "Verbal Reasoning",
-    "prompt": "GRUNGY",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word GRUNGY is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8892,8 +8892,8 @@
   {
     "id": "vr-330",
     "subject": "Verbal Reasoning",
-    "prompt": "PROSCRIBE",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word PROSCRIBE is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8918,8 +8918,8 @@
   {
     "id": "vr-331",
     "subject": "Verbal Reasoning",
-    "prompt": "HULAS",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word HULAS is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8944,8 +8944,8 @@
   {
     "id": "vr-332",
     "subject": "Verbal Reasoning",
-    "prompt": "DALAHIRA",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word DALAHIRA is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8970,8 +8970,8 @@
   {
     "id": "vr-333",
     "subject": "Verbal Reasoning",
-    "prompt": "BARAL",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word BARAL is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -8996,8 +8996,8 @@
   {
     "id": "vr-334",
     "subject": "Verbal Reasoning",
-    "prompt": "LAGAK",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word LAGAK is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -9022,8 +9022,8 @@
   {
     "id": "vr-335",
     "subject": "Verbal Reasoning",
-    "prompt": "CANTANKEROUS",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word CANTANKEROUS is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -9048,8 +9048,8 @@
   {
     "id": "vr-336",
     "subject": "Verbal Reasoning",
-    "prompt": "PERAMBULATE",
-    "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
+    "prompt": "The word PERAMBULATE is closest in meaning to:",
+    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
         "id": "A",
@@ -9532,7 +9532,7 @@
   {
     "id": "vr-356",
     "subject": "Verbal Reasoning",
-    "prompt": "Genuine : Authentic : : Mirage : _____",
+    "prompt": "Genuine: Authentic:: Mirage: _____",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
@@ -9558,28 +9558,28 @@
   {
     "id": "vr-357",
     "subject": "Verbal Reasoning",
-    "prompt": "SECLUSION : HERMIT ::",
+    "prompt": "SECLUSION: HERMIT::",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "fraud : embezzler"
+        "text": "fraud: embezzler"
       },
       {
         "id": "B",
-        "text": "ambition : philanthropist"
+        "text": "ambition: philanthropist"
       },
       {
         "id": "C",
-        "text": "domination : athlete"
+        "text": "domination: athlete"
       },
       {
         "id": "D",
-        "text": "turpitude : introvert"
+        "text": "turpitude: introvert"
       },
       {
         "id": "E",
-        "text": "injustice : lawyer"
+        "text": "injustice: lawyer"
       }
     ],
     "correctChoiceId": "A",
@@ -9588,28 +9588,28 @@
   {
     "id": "vr-358",
     "subject": "Verbal Reasoning",
-    "prompt": "philanthropist : munificence ::",
+    "prompt": "philanthropist: munificence::",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "aristocrat : gratitude"
+        "text": "aristocrat: gratitude"
       },
       {
         "id": "B",
-        "text": "skeptic : disbelief"
+        "text": "skeptic: disbelief"
       },
       {
         "id": "C",
-        "text": "symptom : treatment"
+        "text": "symptom: treatment"
       },
       {
         "id": "D",
-        "text": "anomaly : plausibility"
+        "text": "anomaly: plausibility"
       },
       {
         "id": "E",
-        "text": "cynic : melancholy"
+        "text": "cynic: melancholy"
       }
     ],
     "correctChoiceId": "B",
@@ -9618,24 +9618,24 @@
   {
     "id": "vr-359",
     "subject": "Verbal Reasoning",
-    "prompt": "Vague : Nebulous : :",
+    "prompt": "Vague: Nebulous::",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "spectacular : legitimate"
+        "text": "spectacular: legitimate"
       },
       {
         "id": "B",
-        "text": "mundane : commonplace"
+        "text": "mundane: commonplace"
       },
       {
         "id": "C",
-        "text": "magical : impressive"
+        "text": "magical: impressive"
       },
       {
         "id": "D",
-        "text": "steep : shallow"
+        "text": "steep: shallow"
       }
     ],
     "correctChoiceId": "B",
@@ -9644,28 +9644,28 @@
   {
     "id": "vr-360",
     "subject": "Verbal Reasoning",
-    "prompt": "Diaphanous : Opaque",
+    "prompt": "Diaphanous: Opaque",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "dishevelled : messy"
+        "text": "dishevelled: messy"
       },
       {
         "id": "B",
-        "text": "disconsolate : happy"
+        "text": "disconsolate: happy"
       },
       {
         "id": "C",
-        "text": "disrespectful : injurious"
+        "text": "disrespectful: injurious"
       },
       {
         "id": "D",
-        "text": "disallow : reject"
+        "text": "disallow: reject"
       },
       {
         "id": "E",
-        "text": "distraught : calm"
+        "text": "distraught: calm"
       }
     ],
     "correctChoiceId": "E",
@@ -9674,28 +9674,28 @@
   {
     "id": "vr-361",
     "subject": "Verbal Reasoning",
-    "prompt": "FRAME : PICTURE",
+    "prompt": "FRAME: PICTURE",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "display : museum"
+        "text": "display: museum"
       },
       {
         "id": "B",
-        "text": "shelf : refrigerator"
+        "text": "shelf: refrigerator"
       },
       {
         "id": "C",
-        "text": "mechanic : electrician"
+        "text": "mechanic: electrician"
       },
       {
         "id": "D",
-        "text": "nail : hammer"
+        "text": "nail: hammer"
       },
       {
         "id": "E",
-        "text": "fence : backyard"
+        "text": "fence: backyard"
       }
     ],
     "correctChoiceId": "E",
@@ -9704,28 +9704,28 @@
   {
     "id": "vr-362",
     "subject": "Verbal Reasoning",
-    "prompt": "SEARCH : FIND",
+    "prompt": "SEARCH: FIND",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "sleep : wake"
+        "text": "sleep: wake"
       },
       {
         "id": "B",
-        "text": "explore : discover"
+        "text": "explore: discover"
       },
       {
         "id": "C",
-        "text": "draw : paint"
+        "text": "draw: paint"
       },
       {
         "id": "D",
-        "text": "think : relate"
+        "text": "think: relate"
       },
       {
         "id": "E",
-        "text": "walk : run"
+        "text": "walk: run"
       }
     ],
     "correctChoiceId": "B",
@@ -9734,28 +9734,28 @@
   {
     "id": "vr-363",
     "subject": "Verbal Reasoning",
-    "prompt": "PHARMACY : DRUGS",
+    "prompt": "PHARMACY: DRUGS",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "mall : store"
+        "text": "mall: store"
       },
       {
         "id": "B",
-        "text": "doctor : medicine"
+        "text": "doctor: medicine"
       },
       {
         "id": "C",
-        "text": "bakery : bread"
+        "text": "bakery: bread"
       },
       {
         "id": "D",
-        "text": "supermarket : discount store"
+        "text": "supermarket: discount store"
       },
       {
         "id": "E",
-        "text": "toys : games"
+        "text": "toys: games"
       }
     ],
     "correctChoiceId": "C",
@@ -9764,28 +9764,28 @@
   {
     "id": "vr-364",
     "subject": "Verbal Reasoning",
-    "prompt": "LAYER : TIER",
+    "prompt": "LAYER: TIER",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "section : segment"
+        "text": "section: segment"
       },
       {
         "id": "B",
-        "text": "dais : speaker"
+        "text": "dais: speaker"
       },
       {
         "id": "C",
-        "text": "curtain : stage"
+        "text": "curtain: stage"
       },
       {
         "id": "D",
-        "text": "chapter : verse"
+        "text": "chapter: verse"
       },
       {
         "id": "E",
-        "text": "cotton : bale"
+        "text": "cotton: bale"
       }
     ],
     "correctChoiceId": "A",
@@ -9794,28 +9794,28 @@
   {
     "id": "vr-365",
     "subject": "Verbal Reasoning",
-    "prompt": "METROPOLITAN : URBAN",
+    "prompt": "METROPOLITAN: URBAN",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "bucolic : rural"
+        "text": "bucolic: rural"
       },
       {
         "id": "B",
-        "text": "sleepy : nocturnal"
+        "text": "sleepy: nocturnal"
       },
       {
         "id": "C",
-        "text": "agricultural : cow"
+        "text": "agricultural: cow"
       },
       {
         "id": "D",
-        "text": "autumn : harvest"
+        "text": "autumn: harvest"
       },
       {
         "id": "E",
-        "text": "agrarian : generous"
+        "text": "agrarian: generous"
       }
     ],
     "correctChoiceId": "A",
@@ -9824,28 +9824,28 @@
   {
     "id": "vr-366",
     "subject": "Verbal Reasoning",
-    "prompt": "TEACHER : SCHOOL",
+    "prompt": "TEACHER: SCHOOL",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "actor : role"
+        "text": "actor: role"
       },
       {
         "id": "B",
-        "text": "mechanic : engine"
+        "text": "mechanic: engine"
       },
       {
         "id": "C",
-        "text": "jockey : horse"
+        "text": "jockey: horse"
       },
       {
         "id": "D",
-        "text": "judge : courthouse"
+        "text": "judge: courthouse"
       },
       {
         "id": "E",
-        "text": "author : book"
+        "text": "author: book"
       }
     ],
     "correctChoiceId": "D",
@@ -9854,28 +9854,28 @@
   {
     "id": "vr-367",
     "subject": "Verbal Reasoning",
-    "prompt": "CAR : GASOLINE",
+    "prompt": "CAR: GASOLINE",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "truck : trailer"
+        "text": "truck: trailer"
       },
       {
         "id": "B",
-        "text": "car : garage"
+        "text": "car: garage"
       },
       {
         "id": "C",
-        "text": "bicycle : feet"
+        "text": "bicycle: feet"
       },
       {
         "id": "D",
-        "text": "boat : ocean"
+        "text": "boat: ocean"
       },
       {
         "id": "E",
-        "text": "deck : house"
+        "text": "deck: house"
       }
     ],
     "correctChoiceId": "C",
@@ -9889,23 +9889,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "trot : race"
+        "text": "trot: race"
       },
       {
         "id": "B",
-        "text": "swim : dive"
+        "text": "swim: dive"
       },
       {
         "id": "C",
-        "text": "dance : ballet"
+        "text": "dance: ballet"
       },
       {
         "id": "D",
-        "text": "juggle : bounce"
+        "text": "juggle: bounce"
       },
       {
         "id": "E",
-        "text": "rain : drizzle"
+        "text": "rain: drizzle"
       }
     ],
     "correctChoiceId": "E",
@@ -9914,28 +9914,28 @@
   {
     "id": "vr-369",
     "subject": "Verbal Reasoning",
-    "prompt": "RADIO : TELEVISION",
+    "prompt": "RADIO: TELEVISION",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "electricity : lightning"
+        "text": "electricity: lightning"
       },
       {
         "id": "B",
-        "text": "up : down"
+        "text": "up: down"
       },
       {
         "id": "C",
-        "text": "ear : eye"
+        "text": "ear: eye"
       },
       {
         "id": "D",
-        "text": "nose : face"
+        "text": "nose: face"
       },
       {
         "id": "E",
-        "text": "old : new"
+        "text": "old: new"
       }
     ],
     "correctChoiceId": "C",
@@ -9944,28 +9944,28 @@
   {
     "id": "vr-370",
     "subject": "Verbal Reasoning",
-    "prompt": "TAILOR : SUIT",
+    "prompt": "TAILOR: SUIT",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {
         "id": "A",
-        "text": "scheme : agent"
+        "text": "scheme: agent"
       },
       {
         "id": "B",
-        "text": "edit : manuscript"
+        "text": "edit: manuscript"
       },
       {
         "id": "C",
-        "text": "revise : writer"
+        "text": "revise: writer"
       },
       {
         "id": "D",
-        "text": "mention : opinion"
+        "text": "mention: opinion"
       },
       {
         "id": "E",
-        "text": "implode : building"
+        "text": "implode: building"
       }
     ],
     "correctChoiceId": "B",
@@ -10074,7 +10074,7 @@
   {
     "id": "vr-378",
     "subject": "Verbal Reasoning",
-    "prompt": "There are no effective boundaries when it comes to pollutants. Studies have shown that toxic insecticides that have been banned in many countries are riding the wind from countries where they remain legal. Compounds such as DDT and toxaphene have been found in remote places like the Yukon and other Arctic regions.\nThis paragraph best supports the statement that",
+    "prompt": "There are no effective boundaries when it comes to pollutants. Studies have shown that toxic insecticides that have been banned in many countries are riding the wind from countries where they remain legal.\n\nCompounds such as DDT and toxaphene have been found in remote places like the Yukon and other Arctic regions.\n\nThis paragraph best supports the statement that",
     "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
     "choices": [
       {
@@ -10130,7 +10130,7 @@
   {
     "id": "vr-380",
     "subject": "Verbal Reasoning",
-    "prompt": "Critical reading is a demanding process. To read critically, you must slow down your reading and, with pencil in hand, perform specific operations on the text. Mark up the text with your reactions, conclusions, and questions. When you read, become an active participant.\nThis paragraph best supports the statement that",
+    "prompt": "Critical reading is a demanding process.\n\nTo read critically, you must slow down your reading and, with pencil in hand, perform specific operations on the text. Mark up the text with your reactions, conclusions, and questions. When you read, become an active participant.\n\nThis paragraph best supports the statement that",
     "hint": "Verbal item: use context clues, eliminate words with the wrong tone, and pick the choice that fits the sentence exactly.",
     "choices": [
       {
@@ -10190,7 +10190,7 @@
   {
     "id": "vr-382",
     "subject": "Verbal Reasoning",
-    "prompt": "Sixty years ago I know everything ; now I know nothing ; education is a progressive discovery of our own ignorance.\nThe sentence best supports the statement that __________.",
+    "prompt": "Sixty years ago I know everything; now I know nothing; education is a progressive discovery of our own ignorance.\nThe sentence best supports the statement that __________.",
     "hint": "Grammar item: check agreement, tense, pronouns, prepositions, and whether the sentence sounds complete.",
     "choices": [
       {
@@ -11420,7 +11420,7 @@
   {
     "id": "vr-429",
     "subject": "Verbal Reasoning",
-    "prompt": "Computer : fqprxvht :: Language : ?",
+    "prompt": "Computer: fqprxvht:: Language:?",
     "hint": "Analogy item: name the relationship first, such as part-to-whole, cause-effect, function, degree, or category.",
     "choices": [
       {

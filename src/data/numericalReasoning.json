@@ -2,7 +2,7 @@
   {
     "id": "nr-001",
     "subject": "Numerical Reasoning",
-    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 +\n17 + 18 + 19 + 20 = ?",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 +\n17 + 18 + 19 + 20 =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -55,7 +55,7 @@
     "id": "nr-003",
     "subject": "Numerical Reasoning",
     "prompt": "Find the product: 800 x 125.",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -132,7 +132,7 @@
   {
     "id": "nr-006",
     "subject": "Numerical Reasoning",
-    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103 + 104 + 105\n+ 106 + 107 + 108 + 109 + 110 = ?",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103 + 104 + 105\n+ 106 + 107 + 108 + 109 + 110 =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -153,7 +153,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"1,055\") because it is the result that satisfies the problem."
+    "explanation": "The sum 1 through 10 equals 55. Adding 100 to each of those ten terms adds 1,000, so 101 through 110 equals 55 + 1,000 = 1,055."
   },
   {
     "id": "nr-007",
@@ -179,7 +179,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"0\") because it is the result that satisfies the problem."
+    "explanation": "A number is divisible by 8 when its last three digits form a multiple of 8. 888 ÷ 8 = 111, so 192,888 leaves remainder 0."
   },
   {
     "id": "nr-008",
@@ -205,13 +205,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"300 000\") because it is the result that satisfies the problem."
+    "explanation": "To round 299,943 to the nearest thousand, look at the hundreds digit (9). Since 9 ≥ 5, round up to 300,000."
   },
   {
     "id": "nr-009",
     "subject": "Numerical Reasoning",
     "prompt": "If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find the value of\nx – y?",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -231,7 +231,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"48\") because it is the result that satisfies the problem."
+    "explanation": "23+28+37+x+53=168 → 141+x=168 → x=27. 23+28+40+y+50=120 → 141+y=120 → y=−21. x − y = 27 − (−21) = 48."
   },
   {
     "id": "nr-010",
@@ -257,7 +257,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"three hundred ninety eight and one hundred one thousands\") because it is the result that satisfies the problem."
+    "explanation": "398.101 is read as three hundred ninety-eight and one hundred one thousandths. That matches choice D."
   },
   {
     "id": "nr-011",
@@ -283,7 +283,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"9 208\") because it is the result that satisfies the problem."
+    "explanation": "Only 9,208 has last three digits 208, and 208 ÷ 8 = 26, so it is divisible by 8."
   },
   {
     "id": "nr-012",
@@ -309,7 +309,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"If a number is divisible by 10, then it is divisible by 5.\") because it is the result that satisfies the problem."
+    "explanation": "Every multiple of 10 is a multiple of 5, so “if a number is divisible by 10, then it is divisible by 5” is always true. The other statements fail for simple counterexamples (e.g., 5 is divisible by 5 but not by 10)."
   },
   {
     "id": "nr-013",
@@ -334,8 +334,8 @@
         "text": "64"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"44\") because it is the result that satisfies the problem."
+    "correctChoiceId": "A",
+    "explanation": "½(128 − 84) − ½(128 − 84) = 22 − 22 = 0."
   },
   {
     "id": "nr-014",
@@ -361,7 +361,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"16\") because it is the result that satisfies the problem."
+    "explanation": "33⅓% of 48 = 16; 12½% of 96 = 12; 44 4/9% of 27 = 12. Then 16 + 12 − 12 = 16."
   },
   {
     "id": "nr-015",
@@ -387,7 +387,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"3/13\") because it is the result that satisfies the problem."
+    "explanation": "231 = 3×7×11 and 1001 = 7×11×13, so gcd = 77 and 231/1001 = 3/13."
   },
   {
     "id": "nr-016",
@@ -523,7 +523,7 @@
     "id": "nr-021",
     "subject": "Numerical Reasoning",
     "prompt": "Evaluate: 123 x 0.1 + 123 x 0.01 + 123 x 0.001",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -569,12 +569,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"52\") because it is the result that satisfies the problem."
+    "explanation": "3¼ × 16 = (13/4)×16 = 52."
   },
   {
     "id": "nr-023",
     "subject": "Numerical Reasoning",
-    "prompt": "Evaluate: 1 + ½ + ¼ + 1/8 = ?",
+    "prompt": "Evaluate: 1 + ½ + ¼ + 1/8 =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -595,13 +595,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"1 7/8\") because it is the result that satisfies the problem."
+    "explanation": "1 + 1/2 + 1/4 + 1/8 = 15/8 = 1 7/8."
   },
   {
     "id": "nr-024",
     "subject": "Numerical Reasoning",
     "prompt": "Find the value of x in the equation: 3x + 7 = 28",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -621,7 +621,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"7\") because it is the result that satisfies the problem."
+    "explanation": "3x + 7 = 28 → 3x = 21 → x = 7."
   },
   {
     "id": "nr-025",
@@ -658,7 +658,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"The product of two odd integers\") because it is the result that satisfies the problem."
+    "explanation": "The product of two odd integers is odd. An odd integer is never divisible by 10, so dividing it by 10 cannot yield an integer (odd or even)."
   },
   {
     "id": "nr-027",
@@ -689,7 +689,7 @@
   {
     "id": "nr-028",
     "subject": "Numerical Reasoning",
-    "prompt": "If a positive integer m is divisible by both 3 and 8, then m must also be divisible\nby",
+    "prompt": "If a positive integer m is divisible by both 3 and 8, then m must also be divisible by?",
     "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
@@ -710,7 +710,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"24\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "If m is divisible by both 3 and 8, it is divisible by LCM(3,8)=24."
   },
   {
     "id": "nr-029",
@@ -768,7 +768,7 @@
     "id": "nr-031",
     "subject": "Numerical Reasoning",
     "prompt": "Find the set of all odd numbers x satisfying both conditions: 5x - 4 <= 0 and 3x - 7 >= 0.",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -794,7 +794,7 @@
     "id": "nr-032",
     "subject": "Numerical Reasoning",
     "prompt": "State the property illustrated. If 8(6) + 4 = 48 + 4 = 52, then 8(6) + 4 = 52",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Number-property item: identify which property (commutative, associative, distributive, identity) is illustrated by the example.",
     "choices": [
       {
         "id": "A",
@@ -820,7 +820,7 @@
     "id": "nr-033",
     "subject": "Numerical Reasoning",
     "prompt": "If 8 less than the product of a number and -3 is greater than 7, which of the\nfollowing could be that number?",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -897,28 +897,28 @@
   {
     "id": "nr-036",
     "subject": "Numerical Reasoning",
-    "prompt": "The amount of last month’s telephone bill, decreased by the product of 3 and\nPhp30.00 equals Php1,319.50",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "prompt": "The amount of last month's telephone bill, decreased by the product of 3 and Php30.00, equals Php1,319.50. What was the amount of last month's telephone bill?",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
-        "text": "Php 1,229.50"
+        "text": "Php1,229.50"
       },
       {
         "id": "B",
-        "text": "Php 1,289.50"
+        "text": "Php1,289.50"
       },
       {
         "id": "C",
-        "text": "Php 1,310.50"
+        "text": "Php1,310.50"
       },
       {
         "id": "D",
-        "text": "Php 1, 409.50"
+        "text": "Php1,409.50"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Php 1, 409.50\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "Bill − (3 × 30) = 1,319.50 → Bill − 90 = 1,319.50 → Bill = 1,409.50."
   },
   {
     "id": "nr-037",
@@ -944,59 +944,59 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"41\") because it is the result that satisfies the problem."
+    "explanation": "7s − 18 = 269 → 7s = 287 → s = 41."
   },
   {
     "id": "nr-038",
     "subject": "Numerical Reasoning",
-    "prompt": "A house and lot are sold for Php 14M. The house costs 1.5 times as much as the\nlot. How much does the lot cost?",
+    "prompt": "A house and lot are sold for Php14M. The house costs 1.5 times as much as the\nlot. How much does the lot cost?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
-        "text": "Php 5.6M"
+        "text": "Php5.6M"
       },
       {
         "id": "B",
-        "text": "Php 8.4M"
+        "text": "Php8.4M"
       },
       {
         "id": "C",
-        "text": "Php 10.5 M"
+        "text": "Php10.5 M"
       },
       {
         "id": "D",
-        "text": "Php 21M"
+        "text": "Php21M"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Php 5.6M\") because it is the result that satisfies the problem."
+    "explanation": "Let the lot cost L. House = 1.5L. Then 2.5L = 14M → L = 5.6M."
   },
   {
     "id": "nr-039",
     "subject": "Numerical Reasoning",
-    "prompt": "The sale price of a television set is Php 7,200. The discount rate is 40%. Find its\nregular price.",
+    "prompt": "The sale price of a television set is Php7,200. The discount rate is 40%. Find its\nregular price.",
     "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
-        "text": "Php 4,320"
+        "text": "Php4,320"
       },
       {
         "id": "B",
-        "text": "Php 12,000"
+        "text": "Php12,000"
       },
       {
         "id": "C",
-        "text": "Php 6,800"
+        "text": "Php6,800"
       },
       {
         "id": "D",
-        "text": "Php 10,000"
+        "text": "Php10,000"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Php 12,000\") because it is the result that satisfies the problem."
+    "explanation": "A 40% discount means the sale price is 60% of regular price: 7,200 ÷ 0.60 = 12,000."
   },
   {
     "id": "nr-040",
@@ -1022,7 +1022,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"33\") because it is the result that satisfies the problem."
+    "explanation": "Sides n, n+1, n+2 with perimeter 96: 3n+3=96 → 3n=93 → n=31. Longest side = 33 cm."
   },
   {
     "id": "nr-041",
@@ -1048,7 +1048,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"640 m2\") because it is the result that satisfies the problem."
+    "explanation": "L = 2W+8 and 2(L+W)=112 → L+W=56 → 3W+8=56 → W=16, L=40. Area = 16×40 = 640 m²."
   },
   {
     "id": "nr-042",
@@ -1074,7 +1074,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"10\") because it is the result that satisfies the problem."
+    "explanation": "Queenie = Q, Paula = 2Q. Seven years ago: (Q−7)+(2Q−7)=16 → 3Q=30 → Q=10."
   },
   {
     "id": "nr-043",
@@ -1100,7 +1100,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"26\") because it is the result that satisfies the problem."
+    "explanation": "x = (2+4x+6+8+10)/5 → 5x = 4x+26 → x = 26."
   },
   {
     "id": "nr-044",
@@ -1125,8 +1125,8 @@
         "text": "37"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"26\") because it is the result that satisfies the problem."
+    "correctChoiceId": "C",
+    "explanation": "Integers from 198 to 302 inclusive divisible by 4 or 10: |4|=26, |10|=11, |20|=6; union = 26+11−6 = 31."
   },
   {
     "id": "nr-045",
@@ -1152,7 +1152,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Tuesday\") because it is the result that satisfies the problem."
+    "explanation": "Starting Sunday 7:00 AM and adding 7 hours each dose reaches Tuesday 8:00 AM."
   },
   {
     "id": "nr-046",
@@ -1178,12 +1178,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"32%\") because it is the result that satisfies the problem."
+    "explanation": "96/300 = 0.32 = 32%."
   },
   {
     "id": "nr-047",
     "subject": "Numerical Reasoning",
-    "prompt": "A water container has 100mL of water in it and is 20% full. How many mL of\nwater can this container hold if it is full?",
+    "prompt": "A water container has 100 mL of water in it and is 20% full. How many mL of water can this container hold if it is full?",
     "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
@@ -1204,7 +1204,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"500 mL\") because it is the result that satisfies the problem."
+    "explanation": "100 mL is 20% of capacity, so full capacity = 100 ÷ 0.20 = 500 mL."
   },
   {
     "id": "nr-048",
@@ -1230,7 +1230,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"448\") because it is the result that satisfies the problem."
+    "explanation": "952 ÷ 2⅛ = 952 ÷ (17/8) = 952 × 8/17 = 448 containers."
   },
   {
     "id": "nr-049",
@@ -1256,7 +1256,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"20%\") because it is the result that satisfies the problem."
+    "explanation": "Rate of increase = (18,000 − 15,000)/15,000 = 20%."
   },
   {
     "id": "nr-050",
@@ -1266,23 +1266,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Php 17,500"
+        "text": "Php17,500"
       },
       {
         "id": "B",
-        "text": "Php 52,500"
+        "text": "Php52,500"
       },
       {
         "id": "C",
-        "text": "Php 19,000"
+        "text": "Php19,000"
       },
       {
         "id": "D",
-        "text": "Php 65,000"
+        "text": "Php65,000"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Php 65,000\") because it is the result that satisfies the problem."
+    "explanation": "A 420% increase multiplies the original by 5.20: 12,500 × 5.20 = 65,000."
   },
   {
     "id": "nr-051",
@@ -1292,29 +1292,29 @@
     "choices": [
       {
         "id": "A",
-        "text": "PHp 742.50"
+        "text": "Php742.50"
       },
       {
         "id": "B",
-        "text": "Php 750.00"
+        "text": "Php750.00"
       },
       {
         "id": "C",
-        "text": "Php 675.00"
+        "text": "Php675.00"
       },
       {
         "id": "D",
-        "text": "Php 825.00"
+        "text": "Php825.00"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"PHp 742.50\") because it is the result that satisfies the problem."
+    "explanation": "750 × 0.90 = 675, then 675 × 1.10 = 742.50."
   },
   {
     "id": "nr-052",
     "subject": "Numerical Reasoning",
-    "prompt": "When the original price of an item is increased by a certain rate, the increased\nprice is Php 3,100. When the original price is decreased by the same rate, the\ndecreased price is Php1,900. What is the original price of this item?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "prompt": "When the original price of an item is increased by a certain rate, the increased\nprice is Php3,100. When the original price is decreased by the same rate, the\ndecreased price is Php1,900. What is the original price of this item?",
+    "hint": "Rate/proportion item: set up a proportion or unit rate, then scale to the quantity asked.",
     "choices": [
       {
         "id": "A",
@@ -1334,12 +1334,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Php2,500\") because it is the result that satisfies the problem."
+    "explanation": "P(1+r)=3,100 and P(1−r)=1,900. Adding gives 2P=5,000 → P=2,500."
   },
   {
     "id": "nr-053",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must one invest in corporate bonds paying 9.6% in order to earn an income of Php 12,000 per annum?",
+    "prompt": "How much must one invest in corporate bonds paying 9.6% in order to earn an income of Php12,000 per annum?",
     "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
@@ -1348,19 +1348,19 @@
       },
       {
         "id": "B",
-        "text": "Php 23,040"
+        "text": "Php23,040"
       },
       {
         "id": "C",
-        "text": "Php 125,000"
+        "text": "Php125,000"
       },
       {
         "id": "D",
-        "text": "Php 250,000"
+        "text": "Php250,000"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Principal = 12000 / 0.096 = 125000. Correct answer is C (Php 125,000)."
+    "explanation": "Principal = 12000 / 0.096 = 125000. Correct answer is C (Php125,000)."
   },
   {
     "id": "nr-054",
@@ -1386,7 +1386,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"1 3/8cm\") because it is the result that satisfies the problem."
+    "explanation": "16⅛ − 14¾ = 129/8 − 118/8 = 11/8 = 1⅜ cm."
   },
   {
     "id": "nr-055",
@@ -1412,7 +1412,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"331 9/16km\") because it is the result that satisfies the problem."
+    "explanation": "Distance = 2½ × 132⅝ = (5/2)×(1,061/8) = 5,305/16 = 331 9/16 km."
   },
   {
     "id": "nr-056",
@@ -1438,7 +1438,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"753 1/8kg\") because it is the result that satisfies the problem."
+    "explanation": "241 × 3⅛ = 241 × 25/8 = 7,531.25? 241×25=6,025; 6,025/8 = 753 1/8 kg."
   },
   {
     "id": "nr-057",
@@ -1464,7 +1464,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"918\") because it is the result that satisfies the problem."
+    "explanation": "Remaining = 1,000 × (1 − 0.082) = 918 liters."
   },
   {
     "id": "nr-058",
@@ -1490,7 +1490,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Php773.28\") because it is the result that satisfies the problem."
+    "explanation": "358 × 2.16 = 773.28."
   },
   {
     "id": "nr-059",
@@ -1516,7 +1516,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Php9.625M\") because it is the result that satisfies the problem."
+    "explanation": "175,000,000 × 5.5% = 9,625,000 = Php9.625M."
   },
   {
     "id": "nr-060",
@@ -1542,13 +1542,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"80%\") because it is the result that satisfies the problem."
+    "explanation": "560/700 = 80%."
   },
   {
     "id": "nr-061",
     "subject": "Numerical Reasoning",
     "prompt": "Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000\ninterest. What rate of interest did Asian Bank charge for the loan?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Interest item: interest = principal × rate × time (adjust rate/time units first).",
     "choices": [
       {
         "id": "A",
@@ -1568,13 +1568,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"12%\") because it is the result that satisfies the problem."
+    "explanation": "90,000 / 750,000 = 12%."
   },
   {
     "id": "nr-062",
     "subject": "Numerical Reasoning",
-    "prompt": "A store sells shirts for Php1,078 each or 3 for Php2,997. How much would one\nsave by buying 3 shirts at a time instead of 3 shirts, one at a time?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "prompt": "A store sells shirts for Php1,078 each or 3 for Php2,997. How much would one save by buying 3 shirts at a time instead of 3 shirts, one at a time?",
+    "hint": "Compare the single-item total for 3 shirts with the 3-for package price; the difference is the savings.",
     "choices": [
       {
         "id": "A",
@@ -1594,13 +1594,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Php237\") because it is the result that satisfies the problem."
+    "explanation": "Buying one at a time: 3 × 1,078 = 3,234. Buying the package: 2,997. Savings: 3,234 − 2,997 = 237."
   },
   {
     "id": "nr-063",
     "subject": "Numerical Reasoning",
-    "prompt": "A computer can be rented for Php1,745 a week or Php 347.50 a day. You need\nthe computer only for 6 days. At which rate (daily or weekly), would it be cheaper\nto rent and by how much cheaper?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "prompt": "A computer can be rented for Php1,745 a week or Php347.50 a day. You need the computer only for 6 days. How much do you save by renting weekly instead of daily?",
+    "hint": "Rate/proportion item: set up a proportion or unit rate, then scale to the quantity asked.",
     "choices": [
       {
         "id": "A",
@@ -1612,7 +1612,7 @@
       },
       {
         "id": "C",
-        "text": "daily:Php340"
+        "text": "daily: Php340"
       },
       {
         "id": "D",
@@ -1620,65 +1620,65 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"weekly: Php340\") because it is the result that satisfies the problem."
+    "explanation": "Six days at the daily rate cost 6 × 347.50 = 2,085. The weekly rate is 1,745, which is Php340 cheaper."
   },
   {
     "id": "nr-064",
     "subject": "Numerical Reasoning",
-    "prompt": "A 1.25 kg of box of Brand A detergent sells for Php 87.50. A 1.5 kg box of Brand\nB detergent sells for Php103.20. What is the difference in the price per kg.?",
+    "prompt": "A 1.25 kg of box of Brand A detergent sells for Php87.50. A 1.5 kg box of Brand\nB detergent sells for Php103.20. What is the difference in the price per kg.?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
-        "text": "Php 1.20"
+        "text": "Php1.20"
       },
       {
         "id": "B",
-        "text": "Php 1.50"
+        "text": "Php1.50"
       },
       {
         "id": "C",
-        "text": "Php 1.80"
+        "text": "Php1.80"
       },
       {
         "id": "D",
-        "text": "Php 2.00"
+        "text": "Php2.00"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Php 1.20\") because it is the result that satisfies the problem."
+    "explanation": "Brand A: 87.50/1.25 = Php70 per kg. Brand B: 103.20/1.5 = Php68.80 per kg. Difference = Php1.20."
   },
   {
     "id": "nr-065",
     "subject": "Numerical Reasoning",
     "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe\nper meter?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Rate/proportion item: set up a proportion or unit rate, then scale to the quantity asked.",
     "choices": [
       {
         "id": "A",
-        "text": "Php 830"
+        "text": "Php830"
       },
       {
         "id": "B",
-        "text": "Php 840"
+        "text": "Php840"
       },
       {
         "id": "C",
-        "text": "Php 747"
+        "text": "Php747"
       },
       {
         "id": "D",
-        "text": "Php 749"
+        "text": "Php749"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Php 830\") because it is the result that satisfies the problem."
+    "explanation": "Price per meter = (249/30)×100 = Php830."
   },
   {
     "id": "nr-066",
     "subject": "Numerical Reasoning",
-    "prompt": "A homeowner can rent a chain saw from a rental agency at Php 2,700 a day. The\nbrand new of the same saw can be bought for Php18,900. For how many days\ncould the homeonwer rent the saw before renting would cost more than buying?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "prompt": "A homeowner can rent a chain saw from a rental agency at Php2,700 a day. A brand-new saw of the same model can be bought for Php18,900. For how many days could the homeowner rent the saw before renting would cost more than buying?",
+    "hint": "Divide the purchase price by the daily rental rate to find the break-even point.",
     "choices": [
       {
         "id": "A",
@@ -1698,13 +1698,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"7\") because it is the result that satisfies the problem."
+    "explanation": "18,900 ÷ 2,700 = 7. After 7 days of renting, cost equals buying; beyond that, renting costs more. Answer C (7)."
   },
   {
     "id": "nr-067",
     "subject": "Numerical Reasoning",
     "prompt": "Paula uses ten 100-watt bulbs in her house. She uses these bulbs at an average\nof 5 hours each day. How many KWH do these bulbs use each day?",
-    "hint": "Compute total wattage: 10 bulbs x 100W = 1000W. Multiply by hours: 1000W x 5h = 5000 Wh = 5 kWh.",
+    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
         "id": "A",
@@ -1750,7 +1750,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"732\") because it is the result that satisfies the problem."
+    "explanation": "12,200 W × 60 h = 732,000 Wh = 732 kWh."
   },
   {
     "id": "nr-069",
@@ -1760,54 +1760,54 @@
     "choices": [
       {
         "id": "A",
-        "text": "Php 352"
+        "text": "Php352"
       },
       {
         "id": "B",
-        "text": "Php 440"
+        "text": "Php440"
       },
       {
         "id": "C",
-        "text": "Php 500"
+        "text": "Php500"
       },
       {
         "id": "D",
-        "text": "Php 550"
+        "text": "Php550"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Php 440\") because it is the result that satisfies the problem."
+    "explanation": "A 25% markup followed by a 20% markdown on the new price returns to the original when markup is taken on cost: 440 × 1.25 × 0.80 = 440."
   },
   {
     "id": "nr-070",
     "subject": "Numerical Reasoning",
-    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens at Php 0.125 each; 1,480 packs of paper clips at Php 0.625 each; 1,240 boxes of tape at Php 0.875 each; and 1,720 boxes of cards at Php 0.80 each. A 5% sales tax is added. What was the company's total bill?",
-    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
+    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens at Php0.125 each; 1,480 packs of paper clips at Php0.625 each; 1,240 boxes of tape at Php0.875 each; and 1,720 boxes of cards at Php0.80 each. A 5% sales tax is added. What was the company's total bill?",
+    "hint": "Compute each line subtotal (quantity × unit price), sum them, then multiply by 1.05 to add the 5% sales tax.",
     "choices": [
       {
         "id": "A",
-        "text": "Php 173.25"
+        "text": "Php173.25"
       },
       {
         "id": "B",
-        "text": "Php 3,551"
+        "text": "Php3,551"
       },
       {
         "id": "C",
-        "text": "Php 971.25"
+        "text": "Php971.25"
       },
       {
         "id": "D",
-        "text": "Php 3,728.55"
+        "text": "Php3,728.55"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The @ symbol in the source means \"at the unit price of.\" Subtotal = 1320(0.125) + 1480(0.625) + 1240(0.875) + 1720(0.80) = 3551. Add 5% tax: 3551(1.05) = Php 3,728.55."
+    "explanation": "Subtotal = 1,320×0.125 + 1,480×0.625 + 1,240×0.875 + 1,720×0.80 = 3,551. Add 5% sales tax: 3,551 × 1.05 = Php3,728.55."
   },
   {
     "id": "nr-071",
     "subject": "Numerical Reasoning",
-    "prompt": "The question “How many flowers are needed to border a rectangular garden?”,\ninvolves",
+    "prompt": "The question \"How many flowers are needed to border a rectangular garden?\" involves",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -1828,7 +1828,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"perimeter\") because it is the result that satisfies the problem."
+    "explanation": "A border around a garden measures the distance around it, which is the perimeter."
   },
   {
     "id": "nr-072",
@@ -1854,7 +1854,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"264m\") because it is the result that satisfies the problem."
+    "explanation": "Perimeter = 2(84+48) = 264 m."
   },
   {
     "id": "nr-073",
@@ -1880,7 +1880,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"94\") because it is the result that satisfies the problem."
+    "explanation": "Surface area = 2(4×3 + 3×5 + 4×5) = 2(12+15+20) = 94. Need 94 one-cm stickers."
   },
   {
     "id": "nr-074",
@@ -1906,7 +1906,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"20 cm\") because it is the result that satisfies the problem."
+    "explanation": "Sides x, x+3, x+4 sum to 67: 3x+7=67 → x=20. Shortest side is 20 cm."
   },
   {
     "id": "nr-075",
@@ -1932,7 +1932,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"9\") because it is the result that satisfies the problem."
+    "explanation": "L = 2W − 2 and 2(L+W)=50 → L+W=25 → 3W − 2 = 25 → W = 9."
   },
   {
     "id": "nr-076",
@@ -1967,7 +1967,7 @@
   {
     "id": "nr-077",
     "subject": "Numerical Reasoning",
-    "prompt": "A real estate broker received a commission of 8% of the selling price of a certain\nproperty, what was the selling price of the property?\n1) The selling price minus the real estate agent’s commission was Php\n9,200,000\n2) The selling price was 250% of the original purchase price of Php\n4,000,000.",
+    "prompt": "A real estate broker received a commission of 8% of the selling price of a certain\nproperty, what was the selling price of the property?\n1) The selling price minus the real estate agent’s commission was Php9,200,000\n2) The selling price was 250% of the original purchase price of Php4,000,000.",
     "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
@@ -1980,11 +1980,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -1997,8 +1997,8 @@
   {
     "id": "nr-078",
     "subject": "Numerical Reasoning",
-    "prompt": "Cherry and Keanna were among those who sold raffle tickets to raise money for\nthe club. If Cherry and Keanna sold a total of 168 tickets, how many tickets did\nCherry sell?\n1) Keanna sold 60% as many raffle tickets as Cherry\n2) Keanna sold 8% of all the raffle tickets sold.",
-    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
+    "prompt": "Cherry and Keanna were among those who sold raffle tickets to raise money for the club. If Cherry and Keanna sold a total of 168 tickets, how many tickets did Cherry sell?\n1) Keanna sold 60% as many raffle tickets as Cherry\n2) Keanna sold 8% of all the raffle tickets sold.",
+    "hint": "Data sufficiency: check statement (1) alone, then (2) alone, then both together. Do not solve more than needed.",
     "choices": [
       {
         "id": "A",
@@ -2010,24 +2010,24 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
+    "correctChoiceId": "A",
+    "explanation": "From the stem, C+K=168. Statement (1): K=0.6C → C+0.6C=168 → C=105. Sufficient alone. Statement (2): K=0.08T involves other sellers, so C cannot be found from (2) alone. Answer A."
   },
   {
     "id": "nr-079",
     "subject": "Numerical Reasoning",
-    "prompt": "What is the ratio of m : s: a?\n1) a = 2, and ms = 64\n2) m/s = 2 and a/s = ¼",
+    "prompt": "What is the ratio of m: s: a?\n1) a = 2, and ms = 64\n2) m/s = 2 and a/s = ¼",
     "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
@@ -2040,11 +2040,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2070,11 +2070,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2100,11 +2100,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2130,11 +2130,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2160,11 +2160,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2190,11 +2190,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2220,11 +2220,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2237,8 +2237,8 @@
   {
     "id": "nr-086",
     "subject": "Numerical Reasoning",
-    "prompt": "If the value of n closer to 48 than to 78?\n1) 78 – n > n – 48\n2) n > 60",
-    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
+    "prompt": "Is the value of n closer to 48 than to 78?\n1) 78 – n > n – 48\n2) n > 60",
+    "hint": "Data sufficiency: check statement (1) alone, then (2) alone, then both together. Do not solve more than needed.",
     "choices": [
       {
         "id": "A",
@@ -2250,11 +2250,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2262,13 +2262,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
+    "explanation": "Closer to 48 than to 78 means |n − 48| < |n − 78|, which is equivalent to n < 63. Statement (1): 78 − n > n − 48 → 126 > 2n → n < 63 — exactly the condition, so (1) alone is sufficient. Statement (2): n > 60 does not decide whether n < 63 (e.g. 61 is closer to 48; 70 is closer to 78), so (2) alone is not sufficient. Answer is A."
   },
   {
     "id": "nr-087",
     "subject": "Numerical Reasoning",
-    "prompt": "In last Saturday’s Midnight Sale at Gaisano Mall a certain shop sold 75% of the\nshirts in its inventory. Each shirt was sold for Php358. What was the total\nrevenue from the sale of these shirts on that day?\n1) When the shop opened last Saturday, there were 448 shirts in its\ninventory\n2) All but 112 of the shop’s inventory were sold last Saturday.",
-    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
+    "prompt": "In last Saturday's Midnight Sale at Gaisano Mall a certain shop sold 75% of the shirts in its inventory. Each shirt was sold for Php358. What was the total revenue from the sale of these shirts on that day?\n1) When the shop opened last Saturday, there were 448 shirts in its inventory\n2) All but 112 of the shop's inventory were sold last Saturday.",
+    "hint": "Data sufficiency: check statement (1) alone, then (2) alone, then both together. Do not solve more than needed.",
     "choices": [
       {
         "id": "A",
@@ -2280,11 +2280,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2292,7 +2292,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"if each statement ALONE is sufficient\") because it is the statement combination that is sufficient to answer the question."
+    "explanation": "Revenue = 0.75 × inventory × 358. Statement (1) gives inventory=448 → revenue determined. Statement (2): sold = inventory−112 = 0.75×inventory → inventory=448 → same. Each statement alone is sufficient. Answer D."
   },
   {
     "id": "nr-088",
@@ -2310,11 +2310,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2340,11 +2340,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2370,11 +2370,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2400,11 +2400,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2460,11 +2460,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2477,7 +2477,7 @@
   {
     "id": "nr-094",
     "subject": "Numerical Reasoning",
-    "prompt": "What is the ratio of a to b?\n1) a is 8 more than twice b.\n2) The ratio of a to 4b is 3 : 7.",
+    "prompt": "What is the ratio of a to b?\n1) a is 8 more than twice b.\n2) The ratio of a to 4b is 3: 7.",
     "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
@@ -2490,11 +2490,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2520,11 +2520,11 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient"
+        "text": "if each statement ALONE is sufficient."
       },
       {
         "id": "E",
@@ -2600,7 +2600,7 @@
     "id": "nr-098",
     "subject": "Numerical Reasoning",
     "prompt": "If Chinese Insurance stocks represented 3.5% of all Insurance securities, approximately how many Insurance bonds were Chinese? Use the chart; values are in thousands.",
-    "hint": "The chart shows 36,000 total Insurance securities and China represents 30% of them. First find Chinese securities, then subtract Chinese stocks equal to 3.5% of all Insurance securities.",
+    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
         "id": "A",
@@ -2661,7 +2661,7 @@
   {
     "id": "nr-100",
     "subject": "Numerical Reasoning",
-    "prompt": "How many times return on sales (profit/sales) exceeded 15 % ?",
+    "prompt": "How many times return on sales (profit/sales) exceeded 15 %?",
     "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
@@ -2692,7 +2692,7 @@
   {
     "id": "nr-101",
     "subject": "Numerical Reasoning",
-    "prompt": "How many times growth in profit over the previous year exceeded 50% was registered ?",
+    "prompt": "How many times growth in profit over the previous year exceeded 50% was registered?",
     "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
@@ -2728,19 +2728,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "7 : 25"
+        "text": "7: 25"
       },
       {
         "id": "B",
-        "text": "8 : 21"
+        "text": "8: 21"
       },
       {
         "id": "C",
-        "text": "6 : 11"
+        "text": "6: 11"
       },
       {
         "id": "D",
-        "text": "1067 : 582"
+        "text": "1067: 582"
       },
       {
         "id": "E",
@@ -2748,14 +2748,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Read the chart values: Malaysia in 1997 is 10.67 and Thailand in 1998 is 5.82. The ratio 10.67 : 5.82 is the same as 1067 : 582.",
+    "explanation": "Read the chart values: Malaysia in 1997 is 10.67 and Thailand in 1998 is 5.82. The ratio 10.67: 5.82 is the same as 1067: 582.",
     "image": "/question-images/nr-102.png"
   },
   {
     "id": "nr-103",
     "subject": "Numerical Reasoning",
     "prompt": "Name the country which has the minimum change in the FEI",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
         "id": "A",
@@ -2771,7 +2771,7 @@
       },
       {
         "id": "D",
-        "text": "S.Korea"
+        "text": "S. Korea"
       },
       {
         "id": "E",
@@ -2790,19 +2790,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "1 : 5"
+        "text": "1: 5"
       },
       {
         "id": "B",
-        "text": "25 : 72"
+        "text": "25: 72"
       },
       {
         "id": "C",
-        "text": "6 : 11"
+        "text": "6: 11"
       },
       {
         "id": "D",
-        "text": "7 : 25"
+        "text": "7: 25"
       },
       {
         "id": "E",
@@ -2810,7 +2810,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Thailand FEI is 5.09 in 1997 and 5.82 in 1998. Education gets 25% of 5.09 and 60% of 5.82. The ratio is (5.09 x 25) : (5.82 x 60), which is closest to 25 : 72.",
+    "explanation": "Thailand FEI is 5.09 in 1997 and 5.82 in 1998. Education gets 25% of 5.09 and 60% of 5.82. The ratio is (5.09 x 25): (5.82 x 60), which is closest to 25: 72.",
     "image": "/question-images/nr-104.png"
   },
   {
@@ -2907,7 +2907,7 @@
   {
     "id": "nr-111",
     "subject": "Numerical Reasoning",
-    "prompt": "(25)^0 - (-2)^4 + (-3^4) - (-8)^2 = ?",
+    "prompt": "(25)^0 - (-2)^4 + (-3^4) - (-8)^2 =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -2937,7 +2937,7 @@
   {
     "id": "nr-112",
     "subject": "Numerical Reasoning",
-    "prompt": "-2^2 - (-9)^2 - (-3^2) + 15^0 = ?",
+    "prompt": "-2^2 - (-9)^2 - (-3^2) + 15^0 =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -3229,7 +3229,7 @@
   {
     "id": "nr-122",
     "subject": "Numerical Reasoning",
-    "prompt": "Number series: 2, 10, 60, 420, ____",
+    "prompt": "Number series: 2, 10, 60,420, ____",
     "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
@@ -3500,7 +3500,7 @@
     "id": "nr-131",
     "subject": "Numerical Reasoning",
     "prompt": "4010 x 0.0001 = ___",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -3559,7 +3559,7 @@
   {
     "id": "nr-133",
     "subject": "Numerical Reasoning",
-    "prompt": "When the first and the last digits of 2, 836 are interchanged, the new number is _____.",
+    "prompt": "When the first and the last digits of 2,836 are interchanged, the new number is _____.",
     "hint": "Algebra item: translate the sentence into an equation or inequality, then isolate the unknown carefully.",
     "choices": [
       {
@@ -3568,15 +3568,15 @@
       },
       {
         "id": "B",
-        "text": "3996 less than 2, 836"
+        "text": "3996 less than 2,836"
       },
       {
         "id": "C",
-        "text": "1404 more than 2, 836"
+        "text": "1404 more than 2,836"
       },
       {
         "id": "D",
-        "text": "1404 less than 2, 836"
+        "text": "1404 less than 2,836"
       },
       {
         "id": "E",
@@ -3709,8 +3709,8 @@
   {
     "id": "nr-138",
     "subject": "Numerical Reasoning",
-    "prompt": "If x - 3 = y, then (y - x )³ = _____ ?",
-    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10, 100, or 1000.",
+    "prompt": "If x - 3 = y, then (y - x )³ = _____?",
+    "hint": "Multiplication item: simplify first by factoring or grouping numbers that make 10,100, or 1000.",
     "choices": [
       {
         "id": "A",
@@ -4100,7 +4100,7 @@
     "id": "nr-151",
     "subject": "Numerical Reasoning",
     "prompt": "If 3 document folders cost P15, how much will 12 document folders cost at the same rate?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Rate/proportion item: set up a proportion or unit rate, then scale to the quantity asked.",
     "choices": [
       {
         "id": "A",
@@ -4254,19 +4254,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "9 : 24"
+        "text": "9: 24"
       },
       {
         "id": "B",
-        "text": "3 : 4"
+        "text": "3: 4"
       },
       {
         "id": "C",
-        "text": "4 : 3"
+        "text": "4: 3"
       },
       {
         "id": "D",
-        "text": "1 : 2"
+        "text": "1: 2"
       }
     ],
     "correctChoiceId": "C",
@@ -4306,28 +4306,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "3 : 7"
+        "text": "3: 7"
       },
       {
         "id": "B",
-        "text": "3 : 5"
+        "text": "3: 5"
       },
       {
         "id": "C",
-        "text": "2 : 7"
+        "text": "2: 7"
       },
       {
         "id": "D",
-        "text": "1 : 4"
+        "text": "1: 4"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Convert 3 km to 3,000 m, then compare 750 m : 3,000 m. Dividing both terms by 750 gives 1 : 4."
+    "explanation": "Convert 3 km to 3,000 m, then compare 750 m: 3,000 m. Dividing both terms by 750 gives 1: 4."
   },
   {
     "id": "nr-159",
     "subject": "Numerical Reasoning",
-    "prompt": "The ratio of two sides of a parallelogram is 4 : 3. If its perimeter is 56 cm, find the lengths of its sides.",
+    "prompt": "The ratio of two sides of a parallelogram is 4: 3. If its perimeter is 56 cm, find the lengths of its sides.",
     "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
@@ -4671,7 +4671,7 @@
   {
     "id": "nr-171",
     "subject": "Numerical Reasoning",
-    "prompt": "40 % of 5 is equal to",
+    "prompt": "40% of 5 is equal to:",
     "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
@@ -4821,7 +4821,7 @@
   {
     "id": "nr-176",
     "subject": "Numerical Reasoning",
-    "prompt": "If -6/(a - 3) = 3/(a + 2), then a = ?",
+    "prompt": "If -6/(a - 3) = 3/(a + 2), then a =?",
     "hint": "Cross-multiply then solve for a. Check your answer by substituting back.",
     "choices": [
       {
@@ -4881,7 +4881,7 @@
   {
     "id": "nr-178",
     "subject": "Numerical Reasoning",
-    "prompt": "If a = 3, then 2 / (1/7 + 1/a) = ?",
+    "prompt": "If a = 3, then 2 / (1/7 + 1/a) =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -4941,7 +4941,7 @@
   {
     "id": "nr-180",
     "subject": "Numerical Reasoning",
-    "prompt": "10-2+4×2-(10÷5×2) = ?",
+    "prompt": "10-2+4×2-(10÷5×2) =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -5002,7 +5002,7 @@
     "id": "nr-182",
     "subject": "Numerical Reasoning",
     "prompt": "An employee travels to a field office at 6 kph, and the trip takes 30 minutes. How far is the field office?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Motion item: distance = speed × time. Convert minutes to hours when speed is in kph.",
     "choices": [
       {
         "id": "A",
@@ -5032,7 +5032,7 @@
     "id": "nr-183",
     "subject": "Numerical Reasoning",
     "prompt": "A boat takes 4/5 as much time to travel downstream as to its return. If the rate of the river's current is 6\nkph, what is the rate of the boat in still water?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Motion item: relate upstream/downstream times and distances; use consistent speed relationships.",
     "choices": [
       {
         "id": "A",
@@ -5062,7 +5062,7 @@
     "id": "nr-184",
     "subject": "Numerical Reasoning",
     "prompt": "If a car travels at 60 kph, what is the distance it travels in 30 minutes?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Motion item: distance = speed × time. Convert minutes to hours when speed is in kph.",
     "choices": [
       {
         "id": "A",
@@ -5121,7 +5121,7 @@
   {
     "id": "nr-186",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the ratio of investment in 1997 over the investment in 1992 ?",
+    "prompt": "What was the ratio of investment in 1997 over the investment in 1992?",
     "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
@@ -5148,7 +5148,7 @@
   {
     "id": "nr-187",
     "subject": "Numerical Reasoning",
-    "prompt": "What was absolute difference in the FDI to Philippines in between 1996 and 1997 ?",
+    "prompt": "What was absolute difference in the FDI to Philippines in between 1996 and 1997?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -5175,7 +5175,7 @@
   {
     "id": "nr-188",
     "subject": "Numerical Reasoning",
-    "prompt": "If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI\nfrom all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was\nthe amount of FDI from the OPEC countries in 1997 ?",
+    "prompt": "If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI\nfrom all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was\nthe amount of FDI from the OPEC countries in 1997?",
     "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
@@ -5202,7 +5202,7 @@
   {
     "id": "nr-189",
     "subject": "Numerical Reasoning",
-    "prompt": "Which year exhibited the highest growth in FDI in Philippines over the period shown ?",
+    "prompt": "Which year exhibited the highest growth in FDI in Philippines over the period shown?",
     "hint": "Data interpretation item: read the labels and units first, then compare the requested year, group, or percentage only.",
     "choices": [
       {
@@ -5229,7 +5229,7 @@
   {
     "id": "nr-190",
     "subject": "Numerical Reasoning",
-    "prompt": "What was Philippines' total FDI for the period shown in the figure ?",
+    "prompt": "What was Philippines' total FDI for the period shown in the figure?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -5283,7 +5283,7 @@
   {
     "id": "nr-192",
     "subject": "Numerical Reasoning",
-    "prompt": "In which periodical exams there is a fall in percentage of marks as compared to the previous\nperiodical exams ?",
+    "prompt": "In which periodical exams there is a fall in percentage of marks as compared to the previous\nperiodical exams?",
     "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
@@ -5304,7 +5304,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Each exam score is higher than the previous one: 360, 365, 370, 385, 400, then 405. Since there is no drop, the answer is None.",
+    "explanation": "Each exam score is higher than the previous one: 360,365, 370,385, 400, then 405. Since there is no drop, the answer is None.",
     "image": "/question-images/nr-192.png"
   },
   {
@@ -5537,23 +5537,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "1 : 3"
+        "text": "1: 3"
       },
       {
         "id": "B",
-        "text": "3 : 20"
+        "text": "3: 20"
       },
       {
         "id": "C",
-        "text": "5 : 12"
+        "text": "5: 12"
       },
       {
         "id": "D",
-        "text": "3 : 4"
+        "text": "3: 4"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Convert both quantities to fractions: 1/4 : 3/5. Clear denominators by multiplying both terms by 20, giving 5 : 12."
+    "explanation": "Convert both quantities to fractions: 1/4: 3/5. Clear denominators by multiplying both terms by 20, giving 5: 12."
   },
   {
     "id": "nr-202",
@@ -5614,7 +5614,7 @@
   {
     "id": "nr-204",
     "subject": "Numerical Reasoning",
-    "prompt": "9^0 - (-2)^2 + (-3^2) - (-4)^2 = ?",
+    "prompt": "9^0 - (-2)^2 + (-3^2) - (-4)^2 =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -5644,7 +5644,7 @@
   {
     "id": "nr-205",
     "subject": "Numerical Reasoning",
-    "prompt": "10^0 + (-4^2) - 2^2 = ?",
+    "prompt": "10^0 + (-4^2) - 2^2 =?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -5700,28 +5700,28 @@
   {
     "id": "nr-207",
     "subject": "Numerical Reasoning",
-    "prompt": "A mini grocery store has a sale of Php 6435, Php 6927, Php 6855, Php 7230 and Php 6562 for 5\nconsecutive months. How much sale must he have in the sixth month so that he gets an average\nsale of Php 6500?",
+    "prompt": "A mini grocery store has a sale of Php6435, Php6927, Php6855, Php7230 and Php6562 for 5\nconsecutive months. How much sale must he have in the sixth month so that he gets an average\nsale of Php6500?",
     "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
-        "text": "Php 4991"
+        "text": "Php4991"
       },
       {
         "id": "B",
-        "text": "Php 5991"
+        "text": "Php5991"
       },
       {
         "id": "C",
-        "text": "Php 6001"
+        "text": "Php6001"
       },
       {
         "id": "D",
-        "text": "Php 6991"
+        "text": "Php6991"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "To average Php 6500 over 6 months, the total sales must be 6500 x 6 = Php 39,000. The first five months total Php 34,009, so the sixth month must be 39,000 - 34,009 = Php 4,991."
+    "explanation": "To average Php6500 over 6 months, the total sales must be 6500 x 6 = Php39,000. The first five months total Php34,009, so the sixth month must be 39,000 - 34,009 = Php4,991."
   },
   {
     "id": "nr-208",
@@ -5846,7 +5846,7 @@
   {
     "id": "nr-212",
     "subject": "Numerical Reasoning",
-    "prompt": "In a group of 8, 000 applicants for a civil service examination, 1600 failed to take the first part of\nthe test. What percent of the total applicants took the first part of the test?",
+    "prompt": "In a group of 8,000 applicants for a civil service examination, 1600 failed to take the first part of\nthe test. What percent of the total applicants took the first part of the test?",
     "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
@@ -6054,7 +6054,7 @@
   {
     "id": "nr-220",
     "subject": "Numerical Reasoning",
-    "prompt": "Number Series: 225, 336, 447, ____, 669, 7710",
+    "prompt": "Number Series: 225,336, 447, ____, 669,7710",
     "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
@@ -6106,7 +6106,7 @@
   {
     "id": "nr-222",
     "subject": "Numerical Reasoning",
-    "prompt": "Number Series: 3, 12, 27, 48,75, 108, ____",
+    "prompt": "Number Series: 3, 12, 27, 48,75,108, ____",
     "hint": "Number series item: compare differences, ratios, alternating terms, or repeated operations before checking the choices.",
     "choices": [
       {
@@ -6189,7 +6189,7 @@
     "id": "nr-225",
     "subject": "Numerical Reasoning",
     "prompt": "An office needs 1/2 ream of paper for a task. If each packet contains 1/10 ream, how many packets are needed?",
-    "hint": "Time item: convert mixed hours and minutes into one unit, then count forward or backward on a 12-hour clock.",
+    "hint": "Rate/proportion item: set up a proportion or unit rate, then scale to the quantity asked.",
     "choices": [
       {
         "id": "A",
@@ -6232,7 +6232,7 @@
   {
     "id": "nr-227",
     "subject": "Numerical Reasoning",
-    "prompt": "83 : 25 :: 92 : ___?",
+    "prompt": "83: 25:: 92: ___?",
     "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
@@ -6258,7 +6258,7 @@
   {
     "id": "nr-228",
     "subject": "Numerical Reasoning",
-    "prompt": "72 : 18 :: 56 : ___?",
+    "prompt": "72: 18:: 56: ___?",
     "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
@@ -6284,7 +6284,7 @@
   {
     "id": "nr-229",
     "subject": "Numerical Reasoning",
-    "prompt": "Use the same multiplier: 2 : 12 :: 8 : ___?",
+    "prompt": "Use the same multiplier: 2: 12:: 8: ___?",
     "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
@@ -6314,7 +6314,7 @@
   {
     "id": "nr-230",
     "subject": "Numerical Reasoning",
-    "prompt": "12 : 72 : : 8 : ___?",
+    "prompt": "12: 72:: 8: ___?",
     "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
@@ -6632,7 +6632,7 @@
   {
     "id": "nr-241",
     "subject": "Numerical Reasoning",
-    "prompt": "If the price of a book is first decreased by 25% and then increased by 20%, then the net change in\nthe price will be :",
+    "prompt": "If the price of a book is first decreased by 25% and then increased by 20%, then the net change in\nthe price will be:",
     "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
@@ -6662,7 +6662,7 @@
   {
     "id": "nr-242",
     "subject": "Numerical Reasoning",
-    "prompt": "In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quantity\nof water to be further added is:",
+    "prompt": "In a mixture 60 litres, the ratio of milk and water 2: 1. If this ratio is to be 1: 2, then the quantity\nof water to be further added is:",
     "hint": "Ratio item: write the comparison as parts, add the total parts if needed, then scale the parts to the given total.",
     "choices": [
       {
