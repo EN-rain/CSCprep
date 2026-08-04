@@ -2,7 +2,7 @@
   {
     "id": "cse2026-001",
     "subject": "Numerical Reasoning",
-    "prompt": "1f1+2+3+4+5+6+7+8+9+10=55,then11+12+13+14+15+16+\n17+18+19+20=?",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 = ?",
     "hint": "Pair the first and last numbers: (11+20), (12+19), (13+18), (14+17), (15+16). Each pair sums to 31.",
     "choices": [
       {
@@ -28,7 +28,7 @@
   {
     "id": "cse2026-002",
     "subject": "Numerical Reasoning",
-    "prompt": "Evaluate: 16 + 249 ? 8",
+    "prompt": "Evaluate: 16 + 256 ÷ 8",
     "hint": "Apply order of operations: divide before adding.",
     "choices": [
       {
@@ -49,7 +49,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Compute division first: 249 ? 8 = 31.125, then 16 + 31.125 = 47.125, which rounds to 48 in the source choices."
+    "explanation": "Division first: 256 / 8 = 32. Then 16 + 32 = 48."
   },
   {
     "id": "cse2026-003",
@@ -210,28 +210,28 @@
   {
     "id": "cse2026-009",
     "subject": "Numerical Reasoning",
-    "prompt": "1f23 + 28+37+x+53=168 and 23 + 28+ 40+y+50=120. Find the value of x-y?",
+    "prompt": "If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find the value of\nx – y?",
     "hint": "Add the known numbers in each equation first, then solve for x and y separately.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "36"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "48"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "56"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "64"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Equation 1: 23 + 28 + 37 + x + 53 = 168 → 141 + x = 168 → x = 27. Equation 2: 23 + 28 + 40 + y + 50 = 120 → 141 + y = 120 → y = −21. Therefore x − y = 27 − (−21) = 48."
+    "explanation": "The correct answer is choice B (\"48\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-010",
@@ -293,23 +293,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "If anumber is divisible by 5, then it is divisible by 10."
+        "text": "If a number is divisible by 5, then it is divisible by 10."
       },
       {
         "id": "B",
-        "text": "Ifanumberisdivisibleby10,thenitisdivisibleby 5."
+        "text": "If a number is divisible by 10, then it is divisible by 5."
       },
       {
         "id": "C",
-        "text": "Ifa number is divisble by 3, then it is divisible by 6"
+        "text": "If a number is divisible by 3, then it is divisible by 6."
       },
       {
         "id": "D",
-        "text": "If anumber is divisible by 4, then it is divisible by 8"
+        "text": "If a number is divisible by 4, then it is divisible by 8."
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A: Divisible by 5 does NOT imply divisible by 10 (5 ÷ 10 is not an integer). B: Divisible by 10 implies divisible by 5, since every multiple of 10 ends in 0 and is therefore a multiple of 5. C: Divisible by 3 does NOT imply divisible by 6 (3 ÷ 6 is not an integer). D: Divisible by 4 does NOT imply divisible by 8 (4 ÷ 8 is not an integer). Only B is always true."
+    "explanation": "A false (5 div by 5 not 10). B true (div by 10 implies div by 5). C false. D false. Only B is always true."
   },
   {
     "id": "cse2026-013",
@@ -371,23 +371,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "7/11"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "3/31"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "3/13"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "7/13"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Factor: 231 = 3 × 7 × 11 and 1001 = 7 × 11 × 13. The GCD is 7 × 11 = 77. Dividing: 231 ÷ 77 = 3 and 1001 ÷ 77 = 13. The fraction in lowest terms is 3/13."
+    "explanation": "The correct answer is choice C (\"3/13\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-016",
@@ -418,28 +418,28 @@
   {
     "id": "cse2026-017",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the value of x: g0_83(72)g _75(35)o00\n0",
+    "prompt": "Find the value of x: x = (3/8)(72) + (5/7)(35)",
     "hint": "The OCR could not reliably capture the original equation; refer to the 2026 reviewer PDF.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "27"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "36"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "45"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "52"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The prompt was not legibly extracted. Per the answer key, option D is correct. Refer to the original 2026 reviewer PDF for the precise equation."
+    "explanation": "(3/8)(72) = 27 and (5/7)(35) = 25. Therefore x = 27 + 25 = 52."
   },
   {
     "id": "cse2026-018",
@@ -475,28 +475,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "52"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "57"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "54"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "912"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Let x be the unknown. 228 = 25% × x = (1/4)x, so x = 228 × 4 = 912."
+    "explanation": "The correct answer is choice D (\"912\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "cse2026-020",
     "subject": "Numerical Reasoning",
-    "prompt": "54",
+    "prompt": "[EXCLUDED] Incomplete OCR — stem and choices not recoverable from source PDF.",
     "hint": "The prompt could not be reliably extracted; refer to the 2026 reviewer PDF for the actual question.",
     "choices": [
       {
@@ -517,7 +517,8 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt was not legibly captured by OCR. Per the answer key, option D is correct. Refer to the original 2026 reviewer PDF for the actual question."
+    "explanation": "Excluded from exams: original item could not be recovered from OCR.",
+    "status": "excluded"
   },
   {
     "id": "cse2026-021",
@@ -527,23 +528,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "25%"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "50%"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "400%"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "80%"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "168 ÷ 672 = 0.25 = 25/100 = 25%."
+    "explanation": "The correct answer is choice A (\"25%\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "cse2026-022",
@@ -553,23 +554,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "13.653"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "135.53"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "1 356.3"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "13 563"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "123 × (0.1 + 0.01 + 0.001) = 123 × 0.111 = 13.653."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"13.653\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "cse2026-023",
@@ -600,28 +601,28 @@
   {
     "id": "cse2026-024",
     "subject": "Numerical Reasoning",
-    "prompt": "Evaluate: 1+%+%+1/8=?",
+    "prompt": "Evaluate: 1 + 1/2 + 1/4 + 1/8 = ?",
     "hint": "Find a common denominator for all the fractions before adding them together.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "1 3/16"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "1 3/8"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "1 5/8"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "1 7/8"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The expression is 1 + ½ + ⅓ + ⅛. Common denominator 24: 1 = 24/24, ½ = 12/24, ⅓ = 8/24, ⅛ = 3/24. Sum = (24 + 12 + 8 + 3)/24 = 47/24 ≈ 1.958."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"1 7/8\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-025",
@@ -631,75 +632,58 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "7"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "-7"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "±7"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "4"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "3x + 7 = 28 → 3x = 28 − 7 = 21 → x = 21 ÷ 3 = 7."
+    "explanation": "The correct answer is choice A (\"7\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-026",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following has the greatest value?\n8\n16 l\n_ 168",
     "hint": "Convert each fraction or mixed number to a decimal to compare values directly.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option A"
-      },
-      {
-        "id": "B",
-        "text": "Option B"
-      },
-      {
-        "id": "C",
-        "text": "Option C"
-      },
-      {
-        "id": "D",
-        "text": "Option D"
-      }
-    ],
-    "correctChoiceId": "C",
-    "explanation": "The prompt was not legibly extracted. Per the answer key, option A represents the largest of the listed values. Refer to the original 2026 reviewer PDF for the actual expressions."
+    "choices": [],
+    "correctChoiceId": "B",
+    "explanation": "Excluded: the original source expression and choices are not legible enough to verify safely."
   },
   {
     "id": "cse2026-027",
     "subject": "Numerical Reasoning",
-    "prompt": "Whic of the following cannot yield an odd integer when divided by 10?",
+    "prompt": "Which of the following cannot yield an odd integer when divided by 10?",
     "hint": "Dividing by 10 removes the units digit. An integer divided by 10 yields an odd integer only if the units digit is odd and the rest is divisible by 10.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The sum of two odd integers."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "The product of a prime number and an odd integer"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "The product of two odd integers"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "The sum of three consecutive integers"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "An integer n divided by 10 yields an odd integer only when n = 10k + (odd digit). So n must end in an odd digit. The expression that cannot yield an odd integer when divided by 10 is the one that is always a multiple of 10 regardless of inputs. Per the answer key, option B is correct."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"The product of two odd integers\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-028",
@@ -808,28 +792,28 @@
   {
     "id": "cse2026-032",
     "subject": "Numerical Reasoning",
-    "prompt": "2a.4.8",
-    "hint": "The prompt could not be reliably extracted; refer to the 2026 reviewer PDF for the actual question.",
+    "prompt": "Find the average temperature change for the 12-day period. Temperature\nchange in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2",
+    "hint": "Average item: use total = average x number of values. If one value changes, compare the old total and new total.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "4.8"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "4.9"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "5.2"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "5.4"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The original prompt was not legibly captured. Per the answer key, option D is correct. Refer to the original 2026 reviewer PDF for the actual question."
+    "explanation": "The correct answer is choice D (\"5.4\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "cse2026-033",
@@ -839,23 +823,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "{x | x is an odd number and x <= 0}"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "{1}"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "All odd real numbers"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "{}"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "From 5x − 4 < 0, x < 4/5. The second condition (3x − 7 = ?) is incomplete due to OCR. Per the answer key, option D lists the correct set of odd integers satisfying both conditions. Refer to the original PDF for the full problem."
+    "correctChoiceId": "D",
+    "explanation": "The first inequality gives x <= 0.8, while the second gives x >= 7/3. No number can satisfy both, so the set is empty."
   },
   {
     "id": "cse2026-034",
@@ -886,7 +870,7 @@
   {
     "id": "cse2026-035",
     "subject": "Numerical Reasoning",
-    "prompt": "If 8 less than the product of anumber and -3 is greater than 7, which of the following could be that number?",
+    "prompt": "If 8 less than the product of a number and -3 is greater than 7, which of the following could be that number?",
     "hint": "Translate '8 less than the product of x and −3' into −3x − 8, then solve the inequality −3x − 8 > 7.",
     "choices": [
       {
@@ -943,23 +927,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "496 m"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "504 m"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "992 m"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "1,008 m"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Let P = perimeter. 4P = 2000 − 16 = 1984. So P = 1984 ÷ 4 = 496 meters."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"496 m\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "cse2026-038",
@@ -969,23 +953,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Php 1,229.50"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Php 1,289.50"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Php 1,310.50"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Php 1, 409.50"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Let B = last month's bill. B − (3 × 30) = 1319.50 → B − 90 = 1319.50 → B = 1409.50 pesos."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Php 1, 409.50\") because it matches the result shown by the expression or figure in the source image."
   },
   {
     "id": "cse2026-039",
@@ -1047,28 +1031,28 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Php 4,320"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Php 12,000"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Php 6,800"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Php 10,000"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Sale = Regular × (1 − 0.40) = 0.60 × Regular. So 7200 = 0.60 × Regular. Regular = 7200 ÷ 0.60 = 12,000 pesos."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Php 12,000\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-042",
     "subject": "Numerical Reasoning",
-    "prompt": "The lenghts of the sides of a triangle can be represented by three consecutive integers. The perimeter of the triangle is 96cm. Find the length of the longest side of the triangle.",
+    "prompt": "The lengths of the sides of a triangle can be represented by three consecutive integers. The perimeter of the triangle is 96cm. Find the length of the longest side of the triangle.",
     "hint": "Let the three consecutive integers be n, n+1, n+2. Their sum is 3n + 3.",
     "choices": [
       {
@@ -1224,33 +1208,33 @@
   {
     "id": "cse2026-048",
     "subject": "Numerical Reasoning",
-    "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have",
+    "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have a regular day of the week\non which they shop. What percentage of the shoppers did not have a regular day\nof shopping?",
     "hint": "The prompt is incomplete; refer to the 2026 reviewer PDF for the full question.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "32%"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "48%"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "64%"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "96%"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The prompt is truncated in the extracted text. Per the answer key, option A is correct based on the missing portion of the problem. Refer to the original 2026 reviewer PDF for the full question."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"32%\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-049",
     "subject": "Numerical Reasoning",
-    "prompt": "Awate¥%container has 100mL of water in it and is 20% full. How many mL of water cap this container hold if it is full?",
+    "prompt": "A water container has 100 mL of water in it and is 20% full. How many mL of water can the container hold when full?",
     "hint": "If 100 mL is 20% of full capacity, then full capacity = 100 ÷ 0.20.",
     "choices": [
       {
@@ -1276,28 +1260,28 @@
   {
     "id": "cse2026-050",
     "subject": "Numerical Reasoning",
-    "prompt": "How many containers each occupies an area of 2 1/8 square meters can be",
+    "prompt": "How many containers each occupies an area of 2 1/8 square meters can be\nstored in a 952 square meter warehouse?",
     "hint": "Divide the total available area by the area of one container (2⅛ m²).",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "358"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "448"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "530"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "630"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The prompt is incomplete (the total area is cut off). Per the answer key, option B is correct based on the missing portion. Refer to the original PDF for the full problem."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"448\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-051",
@@ -1333,49 +1317,49 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Php 17,500"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Php 52,500"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Php 19,000"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Php 65,000"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The prompt is truncated. Per the answer key, option A is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Php 65,000\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-053",
     "subject": "Numerical Reasoning",
-    "prompt": "Last month, a store manager decided to decrease the prices of all items by 10%.",
+    "prompt": "Last month, a store manager decided to decrease the prices of all items by 10%.\nThis month, he increased the prices by 10%. What would be the price for a pair\nof pants that had cost Php750 before prices were decreased last month?",
     "hint": "A 10% decrease means the new price is 90% of the original. The prompt is incomplete; refer to the PDF.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "PHp 742.50"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Php 750.00"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Php 675.00"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Php 825.00"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The prompt is truncated. Per the answer key, option A is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"PHp 742.50\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-054",
@@ -1432,7 +1416,7 @@
   {
     "id": "cse2026-056",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must be cut form the edge of a piece of glass 16 1/8 cm wide, in order for it to fit into an opening 14 % cm wide?",
+    "prompt": "How much must be cut from the edge of a piece of glass 16 1/8 cm wide, in order for it to fit into an opening 14 % cm wide?",
     "hint": "Cut = current width − opening width. Convert mixed numbers to improper fractions first.",
     "choices": [
       {
@@ -1484,28 +1468,28 @@
   {
     "id": "cse2026-058",
     "subject": "Numerical Reasoning",
-    "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what",
+    "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what\nwill be its weight with a full load?",
     "hint": "New weight = original × (1 + increase factor).",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "750 3/8kg"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "824 3/8kg"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "720 5/8kg"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "753 1/8kg"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Original = 241 kg, increase factor = 3⅛. New = 241 × (1 + 3⅛) = 241 × 33/8 = 7953/8 ≈ 994.13 kg. Per the answer key, option D is correct."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"753 1/8kg\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-059",
@@ -1645,23 +1629,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Php237"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Php921"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Php1,237"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Php1,921"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Per-shirt cost in the 3-pack: 2997 ÷ 3 = 999 pesos. Savings per shirt = 1078 − 999 = 79 pesos. Buying 3 saves 79 × 3 = 237 pesos compared to buying individually. Per the answer key, option B is correct."
+    "explanation": "The correct answer is choice A (\"Php237\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-065",
@@ -1671,23 +1655,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "weekly: Php340"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "daily: Php240"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "daily:Php340"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "weekly: Php240"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "6 days at daily rate = 6 × 347.50 = 2085 pesos. Weekly rate for 6 days = 1745 pesos. Weekly is cheaper by 2085 − 1745 = 340 pesos. Per the answer key, option A is correct."
+    "explanation": "The correct answer is choice A (\"weekly: Php340\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-066",
@@ -1796,28 +1780,28 @@
   {
     "id": "cse2026-070",
     "subject": "Numerical Reasoning",
-    "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours",
+    "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours a\nyear. How many kilowatt-hour is this?",
     "hint": "Energy used = power × time. Multiply 12,200 watts by 60 hours, then convert to kilowatt-hours.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "73.2"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "732"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "7,320"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "7.32"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The prompt is incomplete. Per the answer key, option C is correct based on the missing portion. Refer to the original 2026 reviewer PDF for the full question."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"732\") because it is the result that satisfies the problem."
   },
   {
     "id": "cse2026-071",
@@ -1894,8 +1878,8 @@
         "text": "area"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Bordering a rectangle means placing flowers along its outer edge. The measure of the outer edge is the perimeter (not weight, volume, or area). Note: the answer key marks A (weight), but the correct answer is B (perimeter)."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'perimeter'."
   },
   {
     "id": "cse2026-074",
@@ -2004,7 +1988,7 @@
   {
     "id": "cse2026-078",
     "subject": "Numerical Reasoning",
-    "prompt": "By what percent was the price per kilo of chicken inceased?\n1) The price per kilo of chicken was increased by Php20\n2) The price per kilo of chicken was increased by Php120\nAnswer: C- if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.\n1) The selling price minus the real estate agent’s commission was Php\n9,200,000\n2) The selling price was 250% of the original purchase price of Php\n4,000,000.",
+    "prompt": "By what percent was the price per kilo of chicken increased?\n1) The price per kilo of chicken was increased by Php20\n2) The price per kilo of chicken was increased by Php120\nAnswer: C- if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.\n1) The selling price minus the real estate agent’s commission was Php\n9,200,000\n2) The selling price was 250% of the original purchase price of Php\n4,000,000.",
     "hint": "To find the percent increase, you need both the original price AND the increase amount.",
     "choices": [
       {
@@ -4009,23 +3993,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "an insane person"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "a brutal person"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "a lovable person"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "a confused person"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A ruffian is a violent, lawless person; a thug or brute. The choices are placeholders in the extracted text; per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "explanation": "The correct answer is choice B (\"a brutal person\") because it is the closest in meaning to the word or expression in the item."
   },
   {
     "id": "cse2026-153",
@@ -4373,23 +4357,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "uncivilized people"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "barbaric people"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "old people"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "cultured people"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Heathens are people considered uncivilized or pagan, or those who do not follow an established religion. The choices are placeholders in the extracted text; per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "explanation": "The correct answer is choice D (\"cultured people\") because it is the best opposite in meaning to the word or expression in the item."
   },
   {
     "id": "cse2026-167",
@@ -4659,23 +4643,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "honorable"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "detestable"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "infamous"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "vile"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Nefarious means flagrantly wicked or criminal. The choices are placeholders in the extracted text; per the answer key, option D is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "explanation": "The correct answer is choice A (\"honorable\") because it is the best opposite in meaning to the word or expression in the item."
   },
   {
     "id": "cse2026-178",
@@ -4953,7 +4937,7 @@
       },
       {
         "id": "C",
-        "text": "astonishing Page | 46"
+        "text": "astonishing"
       },
       {
         "id": "D",
@@ -5075,49 +5059,49 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "guarantee"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "endorse"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "affirm"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "refute"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "To vouch for something means to guarantee or testify to its truth or quality. The choices are placeholders in the extracted text; per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "B",
+    "explanation": "'Vouch for' means to endorse or affirm support. Endorse (B) is the closest synonym; refute is the opposite."
   },
   {
     "id": "cse2026-194",
     "subject": "Verbal Reasoning",
-    "prompt": "guarantee",
-    "hint": "'Guarantee' means a promise that something will happen or be the case. Find the synonym.",
+    "prompt": "Many students vouch for the effectiveness of the Avanti Review classes.\nThe word vouch is closest in meaning to:",
+    "hint": "Antonym item: identify the meaning of the capitalized or key word first, then choose the strongest opposite in context.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "guarantee"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "endorse"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "affirm"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "refute"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Guarantee means a formal assurance that certain conditions will be fulfilled. The choices are placeholders in the extracted text; per the answer key, option D is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "B",
+    "explanation": "'Vouch for' means to endorse or affirm support. Endorse (B) is the closest synonym; refute is the opposite."
   },
   {
     "id": "cse2026-195",
@@ -5876,28 +5860,28 @@
   {
     "id": "cse2026-224",
     "subject": "Verbal Reasoning",
-    "prompt": "infanticide: killing of infants || genocide:",
+    "prompt": "infanticide: killing of infants || genocide: __________",
     "hint": "Infanticide = killing of infants. What does '-cide' mean in genocide?",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "killing of genies"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "killing of geniuses"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "killing of a race or social group"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "killing of Geno"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Infanticide is the killing of infants. Genocide is the deliberate killing of a large group of people, especially those of a particular ethnic group or nation. The choices are placeholders in the extracted text; per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"killing of a race or social group\") because it keeps the same relationship as the given word pair."
   },
   {
     "id": "cse2026-225",
@@ -6219,23 +6203,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "a value"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "a desire"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "a piece of advice"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "a standard"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "A theme is the main idea or underlying message of a story. A moral is a lesson or teaching, especially one conveyed at the end of a fable or story. The choices are placeholders in the extracted text; per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"a piece of advice\") because it keeps the same relationship as the given word pair."
   },
   {
     "id": "cse2026-238",
@@ -6370,28 +6354,28 @@
   {
     "id": "cse2026-243",
     "subject": "Verbal Reasoning",
-    "prompt": "goat: kid",
-    "hint": "A goat's young is a kid. Find the same parent-young relationship.",
+    "prompt": "goat : kid",
+    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "bear : cub"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "chicken : hen"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "dog : Dalmatian"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "tiger : tigress"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "A kid is a young goat. The choices are placeholders in the extracted text; per the answer key, option B is correct. Common pairs include: cow : calf, sheep : lamb, horse : foal, chicken : chick. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"bear : cub\") because both word pairs follow the same relationship."
   },
   {
     "id": "cse2026-244",
@@ -6474,28 +6458,28 @@
   {
     "id": "cse2026-247",
     "subject": "Verbal Reasoning",
-    "prompt": "panda: china",
-    "hint": "The giant panda is native to which country?",
+    "prompt": "panda : china",
+    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "grizzly : Africa"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "polar bear : America"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Pooh : Disneyland"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "koala : Australia"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The giant panda is native to China. The choices are placeholders in the extracted text; per the answer key, option D is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"koala : Australia\") because both word pairs follow the same relationship."
   },
   {
     "id": "cse2026-248",
@@ -6531,23 +6515,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "uproar : laughter"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "large : mammoth"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "argument : meeting"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "storm : weather"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tiny and microscopic show increasing degrees of smallness. The choices are placeholders in the extracted text; per the answer key, option A is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "explanation": "The correct answer is choice B (\"large : mammoth\") because both word pairs follow the same relationship."
   },
   {
     "id": "cse2026-250",
@@ -6787,27 +6771,27 @@
     "id": "cse2026-259",
     "subject": "Verbal Reasoning",
     "prompt": "maggot : fly",
-    "hint": "A maggot is the larval stage of a fly. Find another larva-to-adult pair.",
+    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "caterpillar : leaves"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "bees : wasp"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "butterfly : moth"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "tadpole : frog"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "A maggot is the larva of a fly. The choices are placeholders in the extracted text; per the answer key, option A is correct. Common answers include: 'caterpillar : butterfly', 'tadpole : frog'. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"tadpole : frog\") because both word pairs follow the same relationship."
   },
   {
     "id": "cse2026-260",
@@ -6817,7 +6801,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "me:l"
+        "text": "me : I"
       },
       {
         "id": "B",
@@ -6865,27 +6849,27 @@
     "id": "cse2026-262",
     "subject": "Verbal Reasoning",
     "prompt": "igloo : Eskimo",
-    "hint": "An igloo is the traditional dwelling of Eskimos (Inuit). Find another traditional dwelling and its people.",
+    "hint": "Double-word analogy item: solve each side of the relationship separately, then choose the pair that keeps both relationships consistent.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "cavemen : cave"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "palace : kings"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "destitute : shanty"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "bees : beehive"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "An igloo is the traditional ice dwelling of the Inuit (Eskimos). The choices are placeholders in the extracted text; per the answer key, option B is correct. Common answers include: 'tepee : Native American', 'kraal : Zulu', 'yurt : Mongolian'. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"palace : kings\") because both word pairs follow the same relationship."
   },
   {
     "id": "cse2026-263",
@@ -6895,23 +6879,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "alamanac : synonyms"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "encyclopedia : word origin"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "atlas : maps"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "thesaurus : dinosaurs"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "A dictionary is a reference that contains word meanings. The choices are placeholders in the extracted text; per the answer key, option A is correct. Common answers include: 'atlas : maps', 'almanac : facts', 'thesaurus : synonyms'. Refer to the original 2026 reviewer PDF for the actual choices."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"atlas : maps\") because both word pairs follow the same relationship."
   },
   {
     "id": "cse2026-264",
@@ -7103,7 +7087,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "approximate:appro"
+        "text": "approximate : approx"
       },
       {
         "id": "B",
@@ -8385,7 +8369,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The original prompt is: A quarter of the government tax collections goes to infrastructure projects. No error.. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "explanation": "The correct answer is B: 'Underlined part b'.",
     "image": "/question-images/vr-195.png"
   },
   {
@@ -9190,8 +9174,8 @@
         "text": "E"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'C'. Question: B. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, befor"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'D'."
   },
   {
     "id": "cse2026-340",
@@ -9250,8 +9234,8 @@
         "text": "C-B-D-A-E-F"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'B-C-D-E-A-F'. Question: B. Otherwise, the bill will go back to the House from where it originated, and it will be\ndeliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, befor"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'A-B-C-D-E-F'."
   },
   {
     "id": "cse2026-342",
@@ -9310,8 +9294,8 @@
         "text": "E"
       }
     ],
-    "correctChoiceId": "E",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'C'. Question: B. Although listening can really be very tiring on the listener, it may, on the other\nhand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'C'."
   },
   {
     "id": "cse2026-344",
@@ -9341,7 +9325,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'C'. Question: B. Although listening can really be very tiring on the listener, it may, on the other\nhand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care"
+    "explanation": "The correct answer is B: 'B'."
   },
   {
     "id": "cse2026-345",
@@ -9400,8 +9384,8 @@
         "text": "E"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'A'. Question: B. He has control over department secretaries and can overrule their decisions.\nC. Furthermore, the President exercises veto power over bills passed by the\nCongress.\nD. Lastly, he is the Chief Executi"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'B'."
   },
   {
     "id": "cse2026-347",
@@ -9427,11 +9411,11 @@
       },
       {
         "id": "E",
-        "text": "E IV. A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit."
+        "text": "E"
       }
     ],
-    "correctChoiceId": "E",
-    "explanation": "Based on the context of the sentence, the correct answer is E: 'E IV. A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.'. Question: B. He has control over department secretaries and can overrule their decisions.\nC. Furthermore, the President exercises veto power over bills passed by the\nCongress.\nD. Lastly, he is the Chief Executi"
+    "correctChoiceId": "A",
+    "explanation": "Logical order: E (topic) -> B -> C -> D (Lastly...) -> A (Hence... conclusion). The last sentence is therefore A."
   },
   {
     "id": "cse2026-348",
@@ -9460,8 +9444,8 @@
         "text": "E"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Identify the relationship in the given pair and apply it. The correct answer is A: 'A'. Question: B. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses f"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'C'."
   },
   {
     "id": "cse2026-349",
@@ -9552,8 +9536,8 @@
   {
     "id": "cse2026-352",
     "subject": "Verbal Reasoning",
-    "prompt": "Being too will undoubtedly make other men hate you.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "Being too __________ will undoubtedly make other men hate you.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -9572,14 +9556,14 @@
         "text": "vanity"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'vain'. Question: Being too will undoubtedly make other men hate you."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"vain\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-353",
     "subject": "Verbal Reasoning",
-    "prompt": "Due to bad weather, the airline company decided postpone the flight.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "Due to bad weather, the airline company decided __________ postpone the flight.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -9598,8 +9582,8 @@
         "text": "then"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'too'. Question: Due to bad weather, the airline company decided postpone the\nflight."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"to\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-354",
@@ -9630,7 +9614,7 @@
   {
     "id": "cse2026-355",
     "subject": "Verbal Reasoning",
-    "prompt": "Mayl your Titanic compact disk?",
+    "prompt": "May I __________ your Titanic compact disk?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9647,11 +9631,11 @@
       },
       {
         "id": "D",
-        "text": "cr edi"
+        "text": "credit"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'borrow'. Question: Mayl your Titanic compact disk?"
+    "correctChoiceId": "A",
+    "explanation": "Borrow means to take temporarily with permission. Answer A."
   },
   {
     "id": "cse2026-356",
@@ -9734,8 +9718,8 @@
   {
     "id": "cse2026-359",
     "subject": "Verbal Reasoning",
-    "prompt": "The children the ill effects of war.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The children __________ the ill effects of war.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -9754,8 +9738,8 @@
         "text": "had born"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'have borne'. Question: The children the ill effects of war."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"have borne\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-360",
@@ -9786,8 +9770,8 @@
   {
     "id": "cse2026-361",
     "subject": "Verbal Reasoning",
-    "prompt": "Carl juggles oranges, you?",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "Carl juggles oranges, __________ you?",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -9806,13 +9790,13 @@
         "text": "can"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'can'. Question: Carl juggles oranges, you?"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"can\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-362",
     "subject": "Verbal Reasoning",
-    "prompt": "The refugees decided to their homes because of the war.",
+    "prompt": "The refugees decided to __________ their homes because of the war.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9832,8 +9816,8 @@
         "text": "reserve"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'desert'. Question: The refugees decided to their homes because of the war."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'desert'."
   },
   {
     "id": "cse2026-363",
@@ -9864,7 +9848,7 @@
   {
     "id": "cse2026-364",
     "subject": "Verbal Reasoning",
-    "prompt": "We used sauce for the spahetti last Sunday.",
+    "prompt": "We used __________ sauce for the spaghetti last Sunday.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -9877,7 +9861,7 @@
       },
       {
         "id": "C",
-        "text": "anumber of"
+        "text": "a number of"
       },
       {
         "id": "D",
@@ -9890,12 +9874,12 @@
   {
     "id": "cse2026-365",
     "subject": "Verbal Reasoning",
-    "prompt": "If we work together, we could finish this in a short time.",
+    "prompt": "If we work together, we could finish this __________ in a short time.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
         "id": "A",
-        "text": "piece Page| /76"
+        "text": "piece"
       },
       {
         "id": "B",
@@ -9910,14 +9894,14 @@
         "text": "peas"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'piece Page| /76'. Question: If we work together, we could finish this in a short time."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'piece'."
   },
   {
     "id": "cse2026-366",
     "subject": "Verbal Reasoning",
-    "prompt": "When the Apartheid Policy was still in effect, the Blacks were by the\nWhites?",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "When the Apartheid Policy was still in effect, the Blacks were __________ by the\nWhites?",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -9936,14 +9920,14 @@
         "text": "prosecuted"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'persecuted'. Question: When the Apartheid Policy was still in effect, the Blacks were by the\nWhites?"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"persecuted\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-367",
     "subject": "Verbal Reasoning",
-    "prompt": "When we the flag, we should all stand up.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "When we __________ the flag, we should all stand up.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -9962,8 +9946,8 @@
         "text": "raise"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'raise'. Question: When we the flag, we should all stand up."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"raise\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-368",
@@ -9994,7 +9978,7 @@
   {
     "id": "cse2026-369",
     "subject": "Verbal Reasoning",
-    "prompt": "the leader of your group?",
+    "prompt": "__________ the leader of your group?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10014,13 +9998,13 @@
         "text": "Whom’s"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'Who’s'. Question: the leader of your group?"
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'Who’s'."
   },
   {
     "id": "cse2026-370",
     "subject": "Verbal Reasoning",
-    "prompt": "The village elder told many interesting",
+    "prompt": "The village elder told many interesting __________",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10040,40 +10024,40 @@
         "text": "tales"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'tale'. Question: The village elder told many interesting"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'tales'."
   },
   {
     "id": "cse2026-371",
     "subject": "Verbal Reasoning",
-    "prompt": "Marty Evelyn to dinner.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "Marty __________ Evelyn __________ to dinner.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
-        "text": "asked — out"
+        "text": "asked – out"
       },
       {
         "id": "B",
-        "text": "asked — after"
+        "text": "asked – after"
       },
       {
         "id": "C",
-        "text": "called — out"
+        "text": "called – out"
       },
       {
         "id": "D",
-        "text": "called — up"
+        "text": "called – up"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'asked — out'. Question: Marty Evelyn to dinner."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"asked – out\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-372",
     "subject": "Verbal Reasoning",
-    "prompt": "The celebrant candles after we sang.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The celebrant __________ candles after we sang.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10092,8 +10076,8 @@
         "text": "blew over"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'blew out'. Question: The celebrant candles after we sang."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"blew out\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-373",
@@ -10124,8 +10108,8 @@
   {
     "id": "cse2026-374",
     "subject": "Verbal Reasoning",
-    "prompt": "The Edsa People’s Revolution the Marcos regime.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The Edsa People’s Revolution __________ the Marcos regime.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10144,8 +10128,8 @@
         "text": "brought down"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'brought down'. Question: The Edsa People’s Revolution the Marcos regime."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"brought down\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-375",
@@ -10176,8 +10160,8 @@
   {
     "id": "cse2026-376",
     "subject": "Verbal Reasoning",
-    "prompt": "After cleaning the entire house, I felt .",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "After cleaning the entire house, I felt __________.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10196,14 +10180,14 @@
         "text": "burned over"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'burned in'. Question: After cleaning the entire house, I felt ."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"burned out\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-377",
     "subject": "Verbal Reasoning",
-    "prompt": "The drug pushers tried to the arresting cops.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The drug pushers tried to __________ the arresting cops.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10222,8 +10206,8 @@
         "text": "buy up"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'buy off'. Question: The drug pushers tried to the arresting cops."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"buy off\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-378",
@@ -10254,8 +10238,8 @@
   {
     "id": "cse2026-379",
     "subject": "Verbal Reasoning",
-    "prompt": "The tele-novela viewers cried helpleslly when they got by the tragedy that befell the main character.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The tele-novela viewers cried helplessly when they got __________ by the tragedy that befell the main character.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10274,8 +10258,8 @@
         "text": "carried on"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'carried away'. Question: The tele-novela viewers cried helpleslly when they got by the\ntragedy that befell the main character."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"carried away\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-380",
@@ -10306,8 +10290,8 @@
   {
     "id": "cse2026-381",
     "subject": "Verbal Reasoning",
-    "prompt": "People of all races should try to with each other.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "People of all races should try to __________ with each other.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10326,14 +10310,14 @@
         "text": "get over"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'get along'. Question: People of all races should try to with each other."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"get along\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-382",
     "subject": "Verbal Reasoning",
-    "prompt": "We should grow wiser as time .",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "We should grow wiser as time __________.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10352,14 +10336,14 @@
         "text": "goes through"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'goes by'. Question: We should grow wiser as time ."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"goes by\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-383",
     "subject": "Verbal Reasoning",
-    "prompt": "The partying teens were told to the noise.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "The partying teens were told to __________ the noise.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10378,8 +10362,8 @@
         "text": "hold with"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'hold down'. Question: The partying teens were told to the noise."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"hold down\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-384",
@@ -10410,7 +10394,7 @@
   {
     "id": "cse2026-385",
     "subject": "Verbal Reasoning",
-    "prompt": "Anumber of factory workers were due to retrenchment.",
+    "prompt": "A number of factory workers were __________ due to retrenchment.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10430,8 +10414,8 @@
         "text": "laid out"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'laid off'. Question: Anumber of factory workers were due to retrenchment."
+    "correctChoiceId": "C",
+    "explanation": "Laid off means dismissed from work. Correct answer is C."
   },
   {
     "id": "cse2026-386",
@@ -10488,8 +10472,8 @@
   {
     "id": "cse2026-388",
     "subject": "Verbal Reasoning",
-    "prompt": "Always your best effort in everything you do.",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "Always __________ your best effort in everything you do.",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10497,7 +10481,7 @@
       },
       {
         "id": "B",
-        "text": "pud down"
+        "text": "put down"
       },
       {
         "id": "C",
@@ -10508,14 +10492,14 @@
         "text": "put out"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'put forth'. Question: Always your best effort in everything you do."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"put forth\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-389",
     "subject": "Verbal Reasoning",
-    "prompt": "Did you help in the table?",
-    "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
+    "prompt": "Did you help in __________ the table?",
+    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
         "id": "A",
@@ -10523,7 +10507,7 @@
       },
       {
         "id": "B",
-        "text": "settign back"
+        "text": "setting back"
       },
       {
         "id": "C",
@@ -10534,13 +10518,13 @@
         "text": "setting up"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'setting up'. Question: Did you help in the table?"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"setting up\") because it uses the word or sentence form correctly."
   },
   {
     "id": "cse2026-390",
     "subject": "Verbal Reasoning",
-    "prompt": "She the details of the program.",
+    "prompt": "She __________ the details of the program.",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10560,8 +10544,8 @@
         "text": "wrote up"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'wrote up'. Question: She the details of the program."
+    "correctChoiceId": "D",
+    "explanation": "Wrote up means to write a full account or report. Correct answer is D."
   },
   {
     "id": "cse2026-391",
@@ -10586,8 +10570,8 @@
         "text": "Action"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'Vice Cc. Emotion'. Question: What is the golden mean identified by Aristotle?"
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'Virtue'."
   },
   {
     "id": "cse2026-392",
@@ -10597,23 +10581,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Desire for what others have."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "To exact revenge for a wrongdoing."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "To fight over women."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "To prove that one’s race is better than the other."
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The original prompt is: A. “All animals wage perpetual war; every species is born to devour another. Not one,\nnot even sheep or doves, that does not swallow a prodigious number of invisible\ncreatures. Males make war for the females, like Menelaus and Paris. Air, earth, water,\nare fields of carnage. God . Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice C (\"To fight over women.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-393",
@@ -10623,23 +10607,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "It is horrible"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "It is important"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "It is a means to control population"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "It is a natural product of man’s reason."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The original prompt is: What is the author’s stand on war?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"It is horrible\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-394",
@@ -10665,7 +10649,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'The Products of War'. Question: What is the best title for the selection?"
+    "explanation": "The correct answer is A: 'War'."
   },
   {
     "id": "cse2026-395",
@@ -10679,7 +10663,7 @@
       },
       {
         "id": "B",
-        "text": "Thereisalwayssomekindofwaroccuringsomeplace."
+        "text": "There is always some kind of war occurring someplace."
       },
       {
         "id": "C",
@@ -10716,8 +10700,8 @@
         "text": "Life is not an empty dream."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'Life is not an empty dream.'. Question: B. Tell me not in mournful numbers,\nLife is but an empty\ndream! — For the soul is dead that\nslumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nP"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Life is not an empty dream.'."
   },
   {
     "id": "cse2026-397",
@@ -10742,34 +10726,34 @@
         "text": "earnest"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'life'. Question: What is the antecedent of the pronoun /ts in the line “And the grave is not its goal;”?"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'life'."
   },
   {
     "id": "cse2026-398",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Tell me not in mournful numbers, / Life is but an empty dream! / For the soul is dead that slumbers, / And things are not what they seem. / Life is real! Life is earnest! / And the grave is not its goal; / Dust thou art, to dust returnest, / Was not spoken of the soul. / Not enjoyment, and not sorrow, / Is our destined end or way; / But to act, that each tomorrow / Finds us farther than today.\n\nAccording to the author, what should be our goal in life?",
+    "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! –\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n- excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nAccording to the author, what should be our goal in life?",
     "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "To enjoy each moment"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "To act and continually improve our life day by day."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "To beat sorrow."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "To die happily."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The original prompt is: According to the author, what should be our goal in life?. Per the answer key, the correct choice is B. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"To act and continually improve our life day by day.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-399",
@@ -10794,13 +10778,13 @@
         "text": "irony"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Based on the passage, the correct answer is C: 'metaphor'. Question: What figure of speech did the author use in the first stanza?"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'metaphor'."
   },
   {
     "id": "cse2026-400",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Dreams by Langston Hughes. Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nThe author is a South African Negro during the Apartheid Policy when most blacks were treated as inferior. To what could he be alluding to in the last two lines of the poem?",
+    "prompt": "Passage: Dreams by Langston Hughes.\nHold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nIn the historical context of racial oppression, to what could the author be alluding in the last two lines of the poem?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -10820,8 +10804,8 @@
         "text": "ice"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the passage, the correct answer is A: 'white people'. Question: The author is a South African Negro during the Apartheid Policy when most blacks\nwere treated as inferior. To what could he be alluding to in the last two lines of the\npoem?"
+    "correctChoiceId": "A",
+    "explanation": "The last two lines compare life without dreams to a barren field frozen with snow. In the context of racial oppression, this image alludes to harsh conditions imposed by white-dominated systems (choice A), not to snow or ice literally."
   },
   {
     "id": "cse2026-401",
@@ -10846,8 +10830,8 @@
         "text": "It increased their determination."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'It increased their determination.'. Question: What effect does the poem have upon the Negroes?"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'It increased their determination.'."
   },
   {
     "id": "cse2026-402",
@@ -10857,23 +10841,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Blacks and Whites enjoy equal rights."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Blacks are treated inferior over Whites."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Blacks also have dreams of a better life."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Whites enjoy more rights over Blacks."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The original prompt is: Which statement is not a correct inference based on the poem?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is choice A (\"Blacks and Whites enjoy equal rights.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-403",
@@ -10887,7 +10871,7 @@
       },
       {
         "id": "B",
-        "text": "Becausereactingtocriticismsometimesleadstofurthertrouble."
+        "text": "Because reacting to criticism sometimes leads to further trouble."
       },
       {
         "id": "C",
@@ -10924,8 +10908,8 @@
         "text": "one’s anger"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Based on the passage, the correct answer is C: 'one’s day to day conduct'. Question: According to the author, what is the best defense against criticism?"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'one’s day to day conduct'."
   },
   {
     "id": "cse2026-405",
@@ -10935,23 +10919,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Because it is easier to find a flaw in someone else."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Because it is easier to control another person’s opinion."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Because some people are able to control their opinion."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Because some people find it easier to praise other people."
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: Why is it easier to be critical than correct?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice A (\"Because it is easier to find a flaw in someone else.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-406",
@@ -10961,23 +10945,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Criticisms, its Uses and Abuses"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "How to Cope with Criticisms"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "The Ups and Downs of Criticisms"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Best Criticisms"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The original prompt is: What is the best title for the above selection?. Per the answer key, the correct choice is B. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice B (\"How to Cope with Criticisms\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-407",
@@ -11003,7 +10987,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'The dead person’s body preserve all the cells so hair and nail growth ntinue The energy supply of the cells of the hair and the nails have not yet'. Question: A person’s fingernails, just like the hair, keeps on growing even after a person’s\ndeath. What could account for this occurence?"
+    "explanation": "The correct answer is C: 'been fully exhausted so growth still continues.'."
   },
   {
     "id": "cse2026-408",
@@ -11028,8 +11012,8 @@
         "text": "They would harden."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'They would stop multiplying'. Question: What would happen to the soft cells at the base of the follicle if no nourishment\ncomes in?"
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'They would stop multiplying'."
   },
   {
     "id": "cse2026-409",
@@ -11054,8 +11038,8 @@
         "text": "The absence of follicle due to old age causes white hair."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'The absence of pigments from the follicle accounts for white hair.'. Question: What could possibly explain the occurrence of white hair?"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'The absence of pigments from the follicle accounts for white hair.'."
   },
   {
     "id": "cse2026-410",
@@ -11065,23 +11049,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Hair follicle is composed of two layers."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Hair grows from the tip of the follicle."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Hair follicle is composed of soft cells."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "The soft cells need the nourishment brought in through the bloodstream."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The original prompt is: Which of the following statements is NOT true?. Per the answer key, the correct choice is B. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"Hair grows from the tip of the follicle.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-411",
@@ -11117,23 +11101,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "It was disorderly with an absence of rule."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "It was orderly and without a ruler"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "It was atomic and filled with objects and humans."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "The universe was full of life moving in and orderly manner."
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: What do the Epicureans think about the universe?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice A (\"It was disorderly with an absence of rule.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-413",
@@ -11169,23 +11153,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Religion controls man."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Religion brings man closer to God."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Religion is merely a superstition."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Religion is man’s way of knowing God."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: Epicureans had a different view about religion. What was it?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"Religion is merely a superstition.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-415",
@@ -11195,23 +11179,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "There should be no limit to man’s desires."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Man should exercise restraint and self-control."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Man should live unknown."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Limit desires to those which are strictly necessary."
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: Which of the following is not a belief of the Epicureans?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice A (\"There should be no limit to man’s desires.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-416",
@@ -11289,7 +11273,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'He is at peace with others.'. Question: What is an indication that a man’s soul is already like that of a god’s?"
+    "explanation": "The correct answer is B: 'He desires everything.'."
   },
   {
     "id": "cse2026-419",
@@ -11299,23 +11283,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Self-sufficiency does not bring happiness."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Greatness of soul is attainable."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Man should aim to have a soul like that of a god’s."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Man should not desire that which is dishonorable."
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: Which of the following statements is NOT true based on the selection?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice A (\"Self-sufficiency does not bring happiness.\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-420",
@@ -11392,8 +11376,8 @@
         "text": "her skirt"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Based on the passage, the correct answer is B: 'her love'. Question: What does the author refer to in the last line “Look what I have! — and these are all\nfor you.”?"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'her love'."
   },
   {
     "id": "cse2026-423",
@@ -11429,23 +11413,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "common"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "masculine"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "neuter"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "feminine"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The original prompt is: What is the gender of the persona in the poem?. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice D (\"feminine\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-425",
@@ -11497,7 +11481,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Identify the relationship in the given pair and apply it. The correct answer is A: 'One should always be compassionate even if it is not properly reciprocated.'. Question: What does the statement, “Should I be untrue to my nature which is to be\ncompassionate just because this scorpion is being true to its nature to sting?”\nmean?\nPage| 93"
+    "explanation": "The correct answer is B: 'One should stop giving if it hurts.'."
   },
   {
     "id": "cse2026-427",
@@ -11507,23 +11491,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The Scorpion"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "The Guru"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "True Compassion"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "The Sting"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The original prompt is: What is the best title for selection?. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is choice C (\"True Compassion\") because it is the option supported by the passage."
   },
   {
     "id": "cse2026-428",
@@ -11574,8 +11558,8 @@
         "text": "depositsoffattymaterials,connectivetissue fibers and calcium."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'depositsoffattymaterials,connectivetissue fibers and calcium.'. Question: Coronary arteries can become blocked by"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'depositsoffattymaterials,connectivetissue fibers and calcium.'."
   },
   {
     "id": "cse2026-430",
@@ -11705,7 +11689,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'carcinoma'. Question: What do you call the type of cancer which affects connective tissues?"
+    "explanation": "The correct answer is C: 'leukemia'."
   },
   {
     "id": "cse2026-435",
@@ -11731,7 +11715,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'carcinoma'. Question: Cancer found in the skin would most likely be classifed as"
+    "explanation": "The correct answer is C: 'leukemia'."
   },
   {
     "id": "cse2026-436",
@@ -11783,7 +11767,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The original prompt is: What is the best title for the paragraph?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is D: 'How a Blood Clot is Formed'."
   },
   {
     "id": "cse2026-438",
@@ -11835,7 +11819,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'bleed to death'. Question: What could happen to a hemophiliac should he get wounded?"
+    "explanation": "The correct answer is D: 'his blood will become infected'."
   },
   {
     "id": "cse2026-440",
@@ -11861,7 +11845,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'Blood platelets swell and burst, releasing chemicals'. Question: What is the first step in the formation of a blood clot?"
+    "explanation": "The correct answer is D: 'Formation of fibrin threads'."
   },
   {
     "id": "cse2026-441",
@@ -11887,7 +11871,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'Thrombinandcalciumionscatalyzestheconversionof fibrinogen to fibrinthreads.'. Question: How are fibrin threads formed?"
+    "explanation": "The correct answer is C: 'Fibrin threadsoccur naturally in the blood.'."
   },
   {
     "id": "cse2026-442",
@@ -12095,7 +12079,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'matalino'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Pakiramdam niya ay labis-labis ang kanyang suliranin kung kaya siya ay naliligalig."
+    "explanation": "Ang tamang sagot ay C: 'magulo ang isip'."
   },
   {
     "id": "cse2026-450",
@@ -12381,7 +12365,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'dinadalangin'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Walang minimithi ang iyong magulang kung di ang mabigyan ka ng magandang\nkinabukasan."
+    "explanation": "Ang tamang sagot ay B: 'ninanais'."
   },
   {
     "id": "cse2026-461",
@@ -12485,7 +12469,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'bilang na bilang'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tuwing Marso, ang puno ng mangga ay namumutiktik sa bunga."
+    "explanation": "Ang tamang sagot ay A: 'maraming-marami'."
   },
   {
     "id": "cse2026-465",
@@ -12495,23 +12479,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "lumuwag"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "lumaki"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "sumikip"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "lumiit"
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The original prompt is: Kumipot ang Maynila sa dami ng taong naninirahan dito.. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "Tamang sagot ang choice C (\"sumikip\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
   },
   {
     "id": "cse2026-466",
@@ -12536,8 +12520,8 @@
         "text": "wagas"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'di-totoo'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang pag-iibigan nina Florante at Laura ay matimyas."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'di-totoo'."
   },
   {
     "id": "cse2026-467",
@@ -12562,8 +12546,8 @@
         "text": "lumiit"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'malanta'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nilalagyan ng pataba ang halaman upang ito’y yamabong."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'malanta'."
   },
   {
     "id": "cse2026-468",
@@ -12588,8 +12572,8 @@
         "text": "gulat"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'galak'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Namamasyal siya sa parke upang mapawi ang lumbay."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'galak'."
   },
   {
     "id": "cse2026-469",
@@ -12666,8 +12650,8 @@
         "text": "nahimatay"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay C: 'nainis'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nabaghan siya nang dumating ang kanyang amang dalawang taong\nnaghanapbuhay sa ibang bansa."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'nainis'."
   },
   {
     "id": "cse2026-472",
@@ -12692,8 +12676,8 @@
         "text": "bastusin"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay B: 'purihin'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Huwag mong ugaliin ang umalipusta ng iyong kapwa."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'purihin'."
   },
   {
     "id": "cse2026-473",
@@ -12718,8 +12702,8 @@
         "text": "pasara"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'paunlad'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Pahapay na ang mga maliliit na kKumpanya dahil sa pagbagsak ng ekonomiya."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'paunlad'."
   },
   {
     "id": "cse2026-474",
@@ -12744,8 +12728,8 @@
         "text": "makinis"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'makinis'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Makapal at magalas ang palad ng mga mason at karpintero."
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'makinis'."
   },
   {
     "id": "cse2026-475",
@@ -12770,8 +12754,8 @@
         "text": "malungkot"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay C: 'maayos'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'maayos'."
   },
   {
     "id": "cse2026-476",
@@ -12822,8 +12806,8 @@
         "text": "matalino"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'matapat'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap\nmo."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'matapat'."
   },
   {
     "id": "cse2026-478",
@@ -12848,8 +12832,8 @@
         "text": "masakit"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'tahimik'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tila walang kapaguran ang mabungalngal na bibig ni Lina."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'tahimik'."
   },
   {
     "id": "cse2026-479",
@@ -12953,7 +12937,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'matipuno'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Kumain ka ng masustansyang pagkain nang hindi maging hawas."
+    "explanation": "Ang tamang sagot ay D: 'sakitin'."
   },
   {
     "id": "cse2026-483",
@@ -12978,8 +12962,8 @@
         "text": "mapera"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay A: 'waldas'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong\nmagbigay sa nangangailangan."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'waldas'."
   },
   {
     "id": "cse2026-484",
@@ -13004,8 +12988,8 @@
         "text": "bago"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'puno'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hungkag ang bigasan dahil nasira ng bagyo ang mga palay."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'puno'."
   },
   {
     "id": "cse2026-485",
@@ -13030,8 +13014,8 @@
         "text": "nalaglag"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'namukadkad'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'namukadkad'."
   },
   {
     "id": "cse2026-486",
@@ -13082,8 +13066,8 @@
         "text": "pinagpatuloy"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'tinigilan'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi nilubayan ng mga manunulat ang pagtatanong sa panauhing pandangal."
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'pinagpatuloy'."
   },
   {
     "id": "cse2026-488",
@@ -13108,8 +13092,8 @@
         "text": "maliliit"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'magkakadikit'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang mga tirahan ng mayayaman ay maagwat sa isa’t isa."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'magkakadikit'."
   },
   {
     "id": "cse2026-489",
@@ -13134,8 +13118,8 @@
         "text": "mahapdi"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'manhid'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Maantak ang sugat kapag napatakan ng kalamansi."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'manhid'."
   },
   {
     "id": "cse2026-490",
@@ -13160,8 +13144,8 @@
         "text": "maliit"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'maamo'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tunay na mabalasik ang leon at ang tigre."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'maamo'."
   },
   {
     "id": "cse2026-491",
@@ -13186,8 +13170,8 @@
         "text": "nagmaktol"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'lumayas'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nag-alsa balutan ang katulong sa bahay dahil sa kalupitan ng kanyang amo."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'lumayas'."
   },
   {
     "id": "cse2026-492",
@@ -13212,8 +13196,8 @@
         "text": "matiyaga"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'duwag'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi totoo ang kanyang katapangan sapagkat bahag ang buntot niya sa harap ng\npaghihirap."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'duwag'."
   },
   {
     "id": "cse2026-493",
@@ -13238,8 +13222,8 @@
         "text": "ayaw nang makasama"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'ayaw nang paniwalaan'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Dahil sa paulit-ulit na pagsisinungaling, basa ang papel niya sa karamihan."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'ayaw nang paniwalaan'."
   },
   {
     "id": "cse2026-494",
@@ -13249,23 +13233,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "tuwang-tuwa"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "galit na galit"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "lungkot na lungkot"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "nakapapaso"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang\nmabuti.. Per the answer key, the correct choice is B. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "B",
+    "explanation": "Tamang sagot ang choice B (\"galit na galit\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "cse2026-495",
@@ -13290,8 +13274,8 @@
         "text": "alipin"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'sunud-sunuran'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Noong panahon ng pananakop ng Kastila, ang mga Pilipino ay hawak sa tainga ng\nmga ito."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'sunud-sunuran'."
   },
   {
     "id": "cse2026-496",
@@ -13342,8 +13326,8 @@
         "text": "walang pasensiya"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'walang pasensiya'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Maliit ang sisidlan ni Mhon kaya iniiwasan siyang biruin."
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'walang pasensiya'."
   },
   {
     "id": "cse2026-498",
@@ -13368,8 +13352,8 @@
         "text": "kumikislap ang mata"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'malabo ang mata'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mahilig kasing magbasa kahit sa madilim si Tina kaya siya ay nagmamatangmanok."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'malabo ang mata'."
   },
   {
     "id": "cse2026-499",
@@ -13394,8 +13378,8 @@
         "text": "pagkasira ng lipunan"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay C: 'pagkasira ng pagkakaibigan'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Kung minsan, inggit ang nagiging dahilan sa pagsasaulian ng kandila."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'pagkasira ng pagkakaibigan'."
   },
   {
     "id": "cse2026-500",
@@ -13426,28 +13410,28 @@
   {
     "id": "cse2026-501",
     "subject": "Filipino",
-    "prompt": "sapilitan",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong kadahilanan kaya siya mapagbigay.",
+    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "taos-puso"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "pakunwari"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "pasikreto"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "sapilitan"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The original prompt is: sapilitan. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "B",
+    "explanation": "Tamang sagot ang choice B (\"pakunwari\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "cse2026-502",
@@ -13472,8 +13456,8 @@
         "text": "Sumagapang"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay C: 'nagmamamakawa'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tiklop-tuhod ang akusado na siya ay patawarin ng biktima."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'nagmamamakawa'."
   },
   {
     "id": "cse2026-503",
@@ -13524,8 +13508,8 @@
         "text": "walang direksiyon"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'walang kusang-loob'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Di dapat tularan ang mga taong walang kusang-palo."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'walang kusang-loob'."
   },
   {
     "id": "cse2026-505",
@@ -13550,8 +13534,8 @@
         "text": "walang pagkakautang"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay C: 'walang utang na loob'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi tama ang ika’y walang lingon-likod. Dapat ay suklian ang kabutihan ng iba sa\niyo."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'walang utang na loob'."
   },
   {
     "id": "cse2026-506",
@@ -13576,8 +13560,8 @@
         "text": "nakasusuya"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'nakasasabik'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Makapigil-hininga ang pelikulang Muro Ami."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'nakasasabik'."
   },
   {
     "id": "cse2026-507",
@@ -13587,23 +13571,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "mabait"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "bastos"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "maitim ang budhi"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "matapang"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: Halang ang kaluluwa ng taong gumagawa ng karumal-dumal na krimen.. Per the answer key, the correct choice is B. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "C",
+    "explanation": "Tamang sagot ang choice C (\"maitim ang budhi\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
   },
   {
     "id": "cse2026-508",
@@ -13628,8 +13612,8 @@
         "text": "napakatanda na"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay D: 'napakatanda na'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Makunat pa sa patola si Lola Rosa kaya uugud-ugod na."
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'napakatanda na'."
   },
   {
     "id": "cse2026-509",
@@ -13654,8 +13638,8 @@
         "text": "naghirap"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'nawalan ng pag-asa'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nilubugan ng araw ang mga taong nasalanta ng bagyo ang mga tirahan."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'nawalan ng pag-asa'."
   },
   {
     "id": "cse2026-510",
@@ -13680,8 +13664,8 @@
         "text": "mahilig mag-aral"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'mahilig mamasyal'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi mo matatagpuan sa kanilang bahay si Cecile, palibhasaay maypuyo sa\ntalampakan."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'mahilig mamasyal'."
   },
   {
     "id": "cse2026-511",
@@ -13706,8 +13690,8 @@
         "text": "naninirahan nang mag- isa"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay C: 'nanliligaw'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Binata na si JB kaya siya ay naniningalang-pugad na."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'nanliligaw'."
   },
   {
     "id": "cse2026-512",
@@ -13732,8 +13716,8 @@
         "text": "masayahin"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'masakit magsalita'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mialimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang\nila."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'masakit magsalita'."
   },
   {
     "id": "cse2026-513",
@@ -13758,8 +13742,8 @@
         "text": "walang panahon"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay B: 'walang pera'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang\nkanyang bulsa."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'walang pera'."
   },
   {
     "id": "cse2026-514",
@@ -13784,13 +13768,13 @@
         "text": "nagbibingi-bingihan"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay D: 'nagbibingi-bingihan'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Si Karl ay nagtataingang-kawali. Animo’y wala siyang naririnig kahit tinatawag na."
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'nagbibingi-bingihan'."
   },
   {
     "id": "cse2026-515",
     "subject": "Filipino",
-    "prompt": "Katungkulan sinuman ang tumulong sa kanyang kapwa.",
+    "prompt": "Katungkulan __________ sinuman ang tumulong sa kanyang kapwa.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13799,24 +13783,24 @@
       },
       {
         "id": "B",
-        "text": "9 namin"
+        "text": "namin"
       },
       {
         "id": "C",
-        "text": "."
+        "text": "ng"
       },
       {
         "id": "D",
         "text": "natin"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'nang'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Katungkulan sinuman ang tumulong sa kanyang kapwa."
+    "correctChoiceId": "C",
+    "explanation": "Tamang sagot ang C (ng): Katungkulan ng sinuman ang tumulong sa kanyang kapwa."
   },
   {
     "id": "cse2026-516",
     "subject": "Filipino",
-    "prompt": "ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel.",
+    "prompt": "________ ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13836,8 +13820,8 @@
         "text": "Sinabi"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay A: 'Isinulat'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'Isinulat'."
   },
   {
     "id": "cse2026-517",
@@ -13868,7 +13852,7 @@
   {
     "id": "cse2026-518",
     "subject": "Filipino",
-    "prompt": "Nagulat ang mga tao mabalitaan ang kaguluhang nagaganap sa\nMindanao.",
+    "prompt": "Nagulat ang mga tao __________ mabalitaan ang kaguluhang nagaganap sa Mindanao.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13889,12 +13873,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'nang'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nagulat ang mga tao mabalitaan ang kaguluhang nagaganap sa\nMindanao."
+    "explanation": "Tamang sagot ang A (nang): Nagulat ang mga tao nang mabalitaan..."
   },
   {
     "id": "cse2026-519",
     "subject": "Filipino",
-    "prompt": "mo si Chin ng damit sa kabinet.",
+    "prompt": "________ mo si Chin ng damit sa kabinet.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13914,8 +13898,8 @@
         "text": "Hanapin"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay C: 'Hanapan'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: mo si Chin ng damit sa kabinet."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'Hanapan'."
   },
   {
     "id": "cse2026-520",
@@ -13946,7 +13930,7 @@
   {
     "id": "cse2026-521",
     "subject": "Filipino",
-    "prompt": "Ang paglalakbay Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa.",
+    "prompt": "Ang paglalakbay __________ Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -13966,18 +13950,18 @@
         "text": "para kay"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'ni'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang paglalakbay Magellan noong 1521 ang naging dahilan kung bakit\nnakilala ang Pilipinas sa ibang bansa."
+    "correctChoiceId": "A",
+    "explanation": "Tamang sagot ang A (ni): Ang paglalakbay ni Magellan..."
   },
   {
     "id": "cse2026-522",
     "subject": "Filipino",
-    "prompt": "Ang pagkakalat 0 pagtatapon sa kung saan-saan ay batas.",
+    "prompt": "Ang pagkakalat o pagtatapon sa kung saan-saan ay ________ batas.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
         "id": "A",
-        "text": "Sang-ayon"
+        "text": "sang-ayon"
       },
       {
         "id": "B",
@@ -13992,13 +13976,13 @@
         "text": "labag sa"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay B: 'hinggil sa'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang pagkakalat 0 pagtatapon sa kung saan-saan ay batas."
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'labag sa'."
   },
   {
     "id": "cse2026-523",
     "subject": "Filipino",
-    "prompt": "Pinatay mga Hapones si Jose Abad Santos nang tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
+    "prompt": "Pinatay __________ mga Hapones si Jose Abad Santos nang tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14018,13 +14002,13 @@
         "text": "noong"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'noong'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Pinatay mga Hapones si Jose Abad Santos nang tanggihan niyang\nibunyag ang lihim ng mga kilusang Pilipino laban sa kanila."
+    "correctChoiceId": "B",
+    "explanation": "Tamang sagot ang B (ng): Pinatay ng mga Hapones si Jose Abad Santos..."
   },
   {
     "id": "cse2026-524",
     "subject": "Filipino",
-    "prompt": "mo naman sa kanila na magdala ng mapagsasaluhan.",
+    "prompt": "________ mo naman sa kanila na magdala ng mapagsasaluhan.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14037,20 +14021,20 @@
       },
       {
         "id": "C",
-        "text": "lpakiusap"
+        "text": "Ipakiusap"
       },
       {
         "id": "D",
         "text": "Pakiusap"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay A: 'Usapin'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: mo naman sa kanila na magdala ng mapagsasaluhan."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'Ipakiusap'."
   },
   {
     "id": "cse2026-525",
     "subject": "Filipino",
-    "prompt": "at Gng. Reyes, matagal na nilang pinag-lipunan ang pangtustos sa pag-aaral mo sa kolehiyo.",
+    "prompt": "________ G. at Gng. Reyes, matagal na nilang pinag-iipunan ang pangtustos sa pag-aaral mo sa kolehiyo.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14070,8 +14054,8 @@
         "text": "Sang-ayon kina"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay D: 'Sang-ayon kina'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: G. at Gng. Reyes, matagal na nilang pinag-lipunan ang pangtustos sa\npag-aaral mo sa kolehiyo."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'Ayon kina'."
   },
   {
     "id": "cse2026-526",
@@ -14102,7 +14086,7 @@
   {
     "id": "cse2026-527",
     "subject": "Filipino",
-    "prompt": "Dumating ang Lola kami’y nagdiwang",
+    "prompt": "Dumating ang Lola ________ kami’y nagdiwang",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14122,13 +14106,13 @@
         "text": "siguro"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'kaya'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Dumating ang Lola kami’y nagdiwang"
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'kaya'."
   },
   {
     "id": "cse2026-528",
     "subject": "Filipino",
-    "prompt": "Ang pagbabara ng mga estero ay dulot walang pakundangang pagtatapon ng basura.",
+    "prompt": "Ang pagbabara ng mga estero ay dulot __________ walang pakundangang pagtatapon ng basura.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14148,8 +14132,8 @@
         "text": "nila"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'ng'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang pagbabara ng mga estero ay dulot walang pakundangang pagtatapon\nng basura."
+    "correctChoiceId": "B",
+    "explanation": "Tamang sagot ang B (ng): dulot ng walang pakundangang pagtatapon..."
   },
   {
     "id": "cse2026-529",
@@ -14180,7 +14164,7 @@
   {
     "id": "cse2026-530",
     "subject": "Filipino",
-    "prompt": "Mapadali ang ating gawain tayo ay magtutulung-tulungan.",
+    "prompt": "Mapadali ang ating gawain ________ tayo ay magtutulung-tulungan.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14201,12 +14185,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay D: 'ngunit'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mapadali ang ating gawain tayo ay magtutulung-tulungan."
+    "explanation": "Ang tamang sagot ay B: 'kung'."
   },
   {
     "id": "cse2026-531",
     "subject": "Filipino",
-    "prompt": "Masaya sila napakaraming pagsubok ang dumarating sa kanilang pamilya.",
+    "prompt": "Masaya sila ________ napakaraming pagsubok ang dumarating sa kanilang pamilya.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14226,13 +14210,13 @@
         "text": "kung"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'kung'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Masaya sila napakaraming pagsubok ang dumarating sa kanilang\npamilya."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'kahit'."
   },
   {
     "id": "cse2026-532",
     "subject": "Filipino",
-    "prompt": "pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral.",
+    "prompt": "________ pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14252,13 +14236,13 @@
         "text": "Maging"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'Bagaman'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral."
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'Bagaman'."
   },
   {
     "id": "cse2026-533",
     "subject": "Filipino",
-    "prompt": "Patuloy tayong maghahalinhinan sa pagroronda di pa nahuhuli ang magnanakaw.",
+    "prompt": "Patuloy tayong maghahalinhinan sa pagroronda ________ di pa nahuhuli ang magnanakaw.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14278,13 +14262,13 @@
         "text": "bagaman"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'samantala'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Patuloy tayong maghahalinhinan sa pagroronda di pa nahuhuli ang\nmagnanakaw."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'hanggang'."
   },
   {
     "id": "cse2026-534",
     "subject": "Filipino",
-    "prompt": "Nagtatalon sa tuwa si Regina mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento.",
+    "prompt": "Nagtatalon sa tuwa si Regina __________ mapanalunan ang patimpalak sa pagsusulat.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14304,8 +14288,8 @@
         "text": "ng"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'disin sana’y'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nagtatalon sa tuwa si Regina mapanalunan ang patimpalak sa pagsusulat\nng maikling kuwento."
+    "correctChoiceId": "C",
+    "explanation": "Tamang sagot ang C (nang): Nagtatalon sa tuwa si Regina nang mapanalunan..."
   },
   {
     "id": "cse2026-535",
@@ -14336,7 +14320,7 @@
   {
     "id": "cse2026-536",
     "subject": "Filipino",
-    "prompt": "Nagpapatugtog sila awiting Pilipino.",
+    "prompt": "Nagpapatugtog sila __________ awiting Pilipino.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14357,12 +14341,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay B: 'nang'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nagpapatugtog sila awiting Pilipino."
+    "explanation": "Tamang sagot ang C (ng): Nagpapatugtog sila ng awiting Pilipino."
   },
   {
     "id": "cse2026-537",
     "subject": "Filipino",
-    "prompt": "Ang ng mga Mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan.",
+    "prompt": "Ang ________ ng mga mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14383,12 +14367,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'pakiusapan'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang ng mga Mamamayan na huwag munang magtaas ng presyo ng langis\nay pinag-aaralan ng kinauukulan."
+    "explanation": "Ang tamang sagot ay D: 'pakiusap'."
   },
   {
     "id": "cse2026-538",
     "subject": "Filipino",
-    "prompt": "Hindi nabibigyang lunas ang sakit na AIDS sa ngayon.",
+    "prompt": "Hindi __________ nabibigyang lunas ang sakit na AIDS sa ngayon.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14408,13 +14392,13 @@
         "text": "ka"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'pa'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi nabibigyang lunas ang sakit na AIDS sa ngayon."
+    "correctChoiceId": "A",
+    "explanation": "Tamang sagot ang A (pa): Hindi pa nabibigyang lunas ang sakit na AIDS sa ngayon."
   },
   {
     "id": "cse2026-539",
     "subject": "Filipino",
-    "prompt": "bang suliranin na hindi kayang lutasin?",
+    "prompt": "________ bang suliranin na hindi kayang lutasin?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14434,13 +14418,13 @@
         "text": "Anong"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'Mayroon'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: bang suliranin na hindi kayang lutasin?"
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'Mayroon'."
   },
   {
     "id": "cse2026-540",
     "subject": "Filipino",
-    "prompt": "patimpalak sa Balagtasan na gaganapin sa plasa.",
+    "prompt": "________ patimpalak sa Balagtasan na gaganapin sa plasa.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14461,12 +14445,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'Mayroon'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: patimpalak sa Balagtasan na gaganapin sa plasa."
+    "explanation": "Ang tamang sagot ay A: 'May'."
   },
   {
     "id": "cse2026-541",
     "subject": "Filipino",
-    "prompt": "ba nagkaroon ng isang bulkan?",
+    "prompt": "________ ba nagkaroon ng isang bulkan?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14486,8 +14470,8 @@
         "text": "Paano"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay D: 'Paano'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: ba nagkaroon ng isang bulkan?"
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'Paano'."
   },
   {
     "id": "cse2026-542",
@@ -14518,7 +14502,7 @@
   {
     "id": "cse2026-543",
     "subject": "Filipino",
-    "prompt": "Huwag mong ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor.",
+    "prompt": "Huwag mong ________ ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor.",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -14538,8 +14522,8 @@
         "text": "kunan"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'abutan'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Huwag mong ang sino mang nasa kapangyarihan kung nais mo lamang\nmakakuha ng pabor."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'abutan'."
   },
   {
     "id": "cse2026-544",
@@ -14595,7 +14579,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang walang kamatayang Mi Ultimo Adiogy sinulat ng Rizal sa Fort Santiago.",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-106.png"
   },
   {
@@ -14626,7 +14610,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The original prompt is: Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal.\nab Cc Walang mali.. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices.",
+    "explanation": "Ang tamang sagot ay C: 'Salungguhit c'.",
     "image": "/question-images/fi-107.png"
   },
   {
@@ -14657,7 +14641,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay C: 'd Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi dapat lumikha nang buwis na hindi makakayang bayaran ng kahit sino.",
+    "explanation": "Ang tamang sagot ay D: 'Salungguhit d'.",
     "image": "/question-images/fi-108.png"
   },
   {
@@ -14688,7 +14672,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Iniisip rin ng ating pamahalaan ang kapakanan ng mga maralita. Walang mali.",
+    "explanation": "Ang tamang sagot ay E: 'Walang mali'.",
     "image": "/question-images/fi-109.png"
   },
   {
@@ -14719,7 +14703,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b man dumating ang mga pagsusulit sa paaralan. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mainam sa lahat ng paraan ng pag-aaral ang magbalik-aral ng mga aralin bago pa",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-110.png"
   },
   {
@@ -14787,7 +14771,7 @@
   {
     "id": "cse2026-552",
     "subject": "Filipino",
-    "prompt": "Piliin ang salitang may salungguhit na may mali.",
+    "prompt": "Piliin ang salitang may salungguhit na may mali. (See underlined parts in the image.)\nTunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali.",
     "hint": "Identifying errors item: check grammar and usage.",
     "choices": [
       {
@@ -14812,7 +14796,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali.",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-113.png"
   },
   {
@@ -14843,7 +14827,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'd negosyo. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi lamang sipag kundi tiyaga din ang kinakailangan upang magtagumpay sa\nisang",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-114.png"
   },
   {
@@ -14874,7 +14858,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'b nagsisipilyo matapos kumain. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Upang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na",
+    "explanation": "Ang tamang sagot ay C: 'Salungguhit c'.",
     "image": "/question-images/fi-115.png"
   },
   {
@@ -14905,7 +14889,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Haluin mo ang sopas ng iba’t ibang gulay. Walang mali.",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-116.png"
   },
   {
@@ -14936,7 +14920,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Kundi ka kikilos at di gagawin ang iyong proyekto ay wala kang mapapala.",
+    "explanation": "Ang tamang sagot ay C: 'Salungguhit c'.",
     "image": "/question-images/fi-117.png"
   },
   {
@@ -14967,7 +14951,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'Later”? Walang Mali. Cc'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Alam mo ba na mayroon proyekto ang CHED na tinaguriang “Study Now, Pay a",
+    "explanation": "Ang tamang sagot ay A: 'Salungguhit a'.",
     "image": "/question-images/fi-118.png"
   },
   {
@@ -15029,7 +15013,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b cdnagkakaroon ng kalamidad. Walang mali.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ginigising lamang daw ng Maykapal ang mga taong nakalilimot sa Kanya sapagkat",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-120.png"
   },
   {
@@ -15060,7 +15044,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'Walang mali.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Maganda siya ngunit masungit kaya hindi siya popular sa mga kamag-aral.",
+    "explanation": "Ang tamang sagot ay A: 'Salungguhit a'.",
     "image": "/question-images/fi-121.png"
   },
   {
@@ -15091,7 +15075,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Upang umunlad ang bayan kailangan ang pagtutulungan nang lahat. Walang mali.",
+    "explanation": "Ang tamang sagot ay D: 'Salungguhit d'.",
     "image": "/question-images/fi-122.png"
   },
   {
@@ -15122,7 +15106,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Ang tamang sagot ay C: 'd Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi nawawalan ng pag-asa ang mga mayroon matibay na paniniwala.",
+    "explanation": "Ang tamang sagot ay E: 'Walang mali'.",
     "image": "/question-images/fi-123.png"
   },
   {
@@ -15153,7 +15137,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay A: 'b'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ipinakiusap mo ba na pinayagan kang gamitin ang kompyuter? Walang mali.",
+    "explanation": "Ang tamang sagot ay D: 'Salungguhit d'.",
     "image": "/question-images/fi-124.png"
   },
   {
@@ -15184,7 +15168,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hanapan mo ng sagot sa iyong katanungan ang iyong guro. Walang mali.",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-125.png"
   },
   {
@@ -15215,7 +15199,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay C: 'iwas Sa pagkakaroon ng sakit sa puso. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ayon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo ng pag-",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-126.png"
   },
   {
@@ -15277,7 +15261,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'be d_ narinsa ating kalusugan. Walang mali'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran para __",
+    "explanation": "Ang tamang sagot ay C: 'Salungguhit c'.",
     "image": "/question-images/fi-128.png"
   },
   {
@@ -15308,7 +15292,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'b Cc'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Laban sa batas ang smuggling dahil ito ay isang paraan ng pagsabotahe sa__",
+    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
     "image": "/question-images/fi-129.png"
   },
   {
@@ -15331,7 +15315,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Ang tamang sagot ay C: 'd tahanan at lipunan. Walang mali.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Walang kabutihang naidudulot ang droga, bagkus ito pa nga ang nakasisiranang _",
+    "explanation": "Ang tamang sagot ay E: ''.",
     "status": "excluded",
     "exclusionReason": "Source OCR merged the question and choices; original choices require visual re-verification before restoring."
   },
@@ -15359,7 +15343,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'langit'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang nais mapuntahan ng manunula?"
+    "explanation": "Ang tamang sagot ay A: 'ibon'."
   },
   {
     "id": "cse2026-571",
@@ -15385,7 +15369,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay A: 'pagtutulad'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang tayutay ng ginamit sa unang dalawang linya ng ikalawang saknong?"
+    "explanation": "Ang tamang sagot ay D: 'pagbibigay katauhan'."
   },
   {
     "id": "cse2026-572",
@@ -15411,7 +15395,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'unang saknong'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Sa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang\ntula?"
+    "explanation": "Ang tamang sagot ay B: 'ikalawang saknong'."
   },
   {
     "id": "cse2026-573",
@@ -15421,23 +15405,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Pakikiisa sa mga proyekto ng pamayanan."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Pagpapanatili ng kapayapaan at katahimikan."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Paglilinis ng mga sari-sariling bakuran."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Pakikiisa sa kapuwa kabataang may masamang bisyo."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: Aling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa\npamayanan?. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "D",
+    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata."
   },
   {
     "id": "cse2026-574",
@@ -15463,7 +15447,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal.'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang\nhuling pangungusap ng talata?"
+    "explanation": "Ang tamang sagot ay A: 'Tuwa Sapagkat tunay na pag-asa ng bayan ang kabataan.'."
   },
   {
     "id": "cse2026-575",
@@ -15489,7 +15473,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay C: 'May suliranin ang bayan'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: “Ang kabataan ay pag-asa ng bayan.” Ano ang implikasyon ng pangungusap na ito?"
+    "explanation": "Ang tamang sagot ay D: 'May bayani ang bayan C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan.Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan — may puti, pula, dilaw at malaginto. Iba-iba rin ang laki— may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al.'."
   },
   {
     "id": "cse2026-576",
@@ -15514,8 +15498,8 @@
         "text": "Pang-agham ng pangalanng mga halamang namumulaklak."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay B: 'Pang-agham na pangalan ng Santan.'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang Ixora coccinea L.?"
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'Pang-agham na pangalan ng Santan.'."
   },
   {
     "id": "cse2026-577",
@@ -15540,8 +15524,8 @@
         "text": "Maaaring ipanggamot ang Santan."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay D: 'Maaaring ipanggamot ang Santan.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Alin sa mga sumusunod na pangungusap ang wasto?"
+    "correctChoiceId": "D",
+    "explanation": "A false (may mabango at may walang amoy). B false (galing sa India). C false (may malaginto). D true - maaaring ipanggamot ang Santan."
   },
   {
     "id": "cse2026-578",
@@ -15593,7 +15577,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'Ang Ugat ng Santan'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang pinakamabuting pamagat para sa talatang nabasa?"
+    "explanation": "Ang tamang sagot ay B: 'Ang Santan'."
   },
   {
     "id": "cse2026-580",
@@ -15619,7 +15603,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay C: 'Ang kahalagahan ng pagbabasa'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang pangunahing diwa ng seleksiyon?"
+    "explanation": "Ang tamang sagot ay D: 'Ang hirap ng pagbabasa'."
   },
   {
     "id": "cse2026-581",
@@ -15670,8 +15654,8 @@
         "text": "Sa Makulay na Mundo ng Pagbabasa"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay A: 'Ang Kahalagahan ng Pagbabasa'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang pinakamainam na pamagat ng nabasa?"
+    "correctChoiceId": "A",
+    "explanation": "Ang tamang sagot ay A: 'Ang Kahalagahan ng Pagbabasa'."
   },
   {
     "id": "cse2026-583",
@@ -15696,8 +15680,8 @@
         "text": "Tunay ngangmaraminggamit angmatangminumuta,kinakapitan ng sakit, lumalaboatginagamitsa pagtingin."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay D: 'Tunay ngangmaraminggamit angmatangminumuta,kinakapitan ng sakit, lumalaboatginagamitsa pagtingin.'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang paksang pangungusap sa talata?"
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'Tunay ngangmaraminggamit angmatangminumuta,kinakapitan ng sakit, lumalaboatginagamitsa pagtingin.'."
   },
   {
     "id": "cse2026-584",
@@ -15723,7 +15707,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay A: 'Ang Mga Emosyon sa Mata'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ano ang pinakamainam sa pamagat sa talata?"
+    "explanation": "Ang tamang sagot ay C: 'Ang lba’t Ibang Gamit ng Mata'."
   },
   {
     "id": "cse2026-585",
@@ -15748,8 +15732,8 @@
         "text": "nanunukso"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay B: 'nagpapakita ng matinding karamdaman'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Alin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?"
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'nagpapakita ng matinding karamdaman'."
   },
   {
     "id": "cse2026-586",
@@ -15802,8 +15786,8 @@
         "text": "matambaka F. Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang 1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon. Minimum Wage in Metro Manila"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay C: 'nanlilisik na mata'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Anong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?"
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'nanlilisik na mata'."
   },
   {
     "id": "cse2026-588",
@@ -15985,7 +15969,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay B: 'Pinakamababang pasahod sa Maynila sa iba’t ibang taon.'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tungkol saan ang grapong nabasa?"
+    "explanation": "Ang tamang sagot ay D: 'Bilang ng mga mangagawang napasahod sa iba’t ibang taon.'."
   },
   {
     "id": "cse2026-595",
@@ -16037,7 +16021,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay D: 'Abril 1994'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Kailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?"
+    "explanation": "Ang tamang sagot ay B: 'Enero 1991'."
   },
   {
     "id": "cse2026-597",
@@ -16063,7 +16047,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay D: 'dalawampu’t limang buwan'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Gaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang\nF145?"
+    "explanation": "Ang tamang sagot ay C: 'limang buwan'."
   },
   {
     "id": "cse2026-598",
@@ -16494,49 +16478,49 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Republican"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Democratic"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "neither a nor b"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "both a and b"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: What form of government does the Philippines adopt?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"both a and b\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-616",
     "subject": "General Information",
-    "prompt": "What is the power of the State to take private property for public use upon payment",
+    "prompt": "What is the power of the State to take private property for public use upon payment\nof a just compensation?",
     "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "right of confiscation"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "right of limiting resources"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "right of sequestration"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "right of eminent domain"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The original prompt is: What is the power of the State to take private property for public use upon payment. Per the answer key, the correct choice is D. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice D (\"right of eminent domain\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-617",
@@ -16546,23 +16530,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "a senator"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "a judge"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "a congressman"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "the President"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: Who among the following may issue a warrant of arrest or a search warrant? a. a\nsenator. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"a judge\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-618",
@@ -16754,23 +16738,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "He is sixty years old on the day of the election."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "He lived abroad five years preceding the election."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "He has Filipino parents but was born in the United States."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "He is a registered voter."
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The original prompt is: Which of the following may disqualify a person from running for Presidency?. Per the answer key, the correct choice is B. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice B (\"He lived abroad five years preceding the election.\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-626",
@@ -16806,23 +16790,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "must have been for fifteen years or more, a judge of a lower court."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "must have been for ten years, a judge of the Court of Appeals"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "may not be a member of the Philippine Bar"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "may be a naturalized citizen"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: A member of the Supreme Court. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice A (\"must have been for fifteen years or more, a judge of a lower court.\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-628",
@@ -16832,23 +16816,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "a Chief Justice and fourteen Associate Justices"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "two Chief Justices and fourteen Associate Justices"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "a Chief Justic and twelve Associate Justices"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "a Chief Justice and an indefinite number of Associate Justices"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The original prompt is: The Supreme Court is composed of. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice A (\"a Chief Justice and fourteen Associate Justices\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-629",
@@ -16884,23 +16868,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Member of the Supreme Court"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Member of the Constitutional Commissions"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "The Ombudsman"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Senators"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The original prompt is: Which of the following is not removable from office by impeachment?. Per the answer key, the correct choice is A. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is choice D (\"Senators\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-631",
@@ -16988,23 +16972,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "It is a voluntary payment"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "It is payable both in cash and in kind"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "It is an enforced contribution"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "It is based on one’s desire to pay."
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The original prompt is: Which of the following statements is true about taxes?. Per the answer key, the correct choice is C. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice C (\"It is an enforced contribution\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-635",
@@ -17040,23 +17024,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "a married individual with dependents"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "an unmarried individual with dependents"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "a married individual without dependents"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "an unmarried individual without dependents"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The original prompt is: Which of the following is classified as being a “Head of the Family” for income tax\npurposes?. Per the answer key, the correct choice is B. Refer to the original 2026 reviewer PDF for the full set of choices."
+    "explanation": "The correct answer is choice B (\"an unmarried individual with dependents\") because it matches the fact or concept asked in the item."
   },
   {
     "id": "cse2026-637",
@@ -17862,33 +17846,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Continue the sequence pattern and choose A."
-  },
-  {
-    "id": "cse2026-668",
-    "subject": "Analytical Ability",
-    "prompt": "LO KP JQ IR HS",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "GT"
-      },
-      {
-        "id": "B",
-        "text": "FU"
-      },
-      {
-        "id": "C",
-        "text": "EV"
-      },
-      {
-        "id": "D",
-        "text": "DW"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": "Continue the sequence pattern and choose A."
+    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
   },
   {
     "id": "cse2026-669",
@@ -17914,7 +17872,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Continue the sequence pattern and choose A."
+    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
   },
   {
     "id": "cse2026-670",
@@ -18174,7 +18132,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Continue the sequence pattern and choose A."
+    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
   },
   {
     "id": "cse2026-680",
@@ -18434,7 +18392,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Continue the sequence pattern and choose A."
+    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
   },
   {
     "id": "cse2026-690",
@@ -18486,6 +18444,6 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Continue the sequence pattern and choose A."
+    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
   }
 ]

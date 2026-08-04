@@ -1978,7 +1978,7 @@
   {
     "id": "vr-077",
     "subject": "Verbal Reasoning",
-    "prompt": "Many students vouch for the effectiveness of the Avanti Review classes.",
+    "prompt": "Many students vouch for the effectiveness of the Avanti Review classes.\nThe word vouch is closest in meaning to:",
     "hint": "Antonym item: identify the meaning of the capitalized or key word first, then choose the strongest opposite in context.",
     "choices": [
       {
@@ -1998,8 +1998,8 @@
         "text": "refute"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"refute\") because it is the best opposite in meaning to the word or expression in the item."
+    "correctChoiceId": "B",
+    "explanation": "'Vouch for' means to endorse or affirm support. Endorse (B) is the closest synonym; refute is the opposite."
   },
   {
     "id": "vr-078",
@@ -3647,7 +3647,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "caterpilla : leaves"
+        "text": "caterpillar : leaves"
       },
       {
         "id": "B",
@@ -5402,7 +5402,7 @@
   {
     "id": "vr-201",
     "subject": "Verbal Reasoning",
-    "prompt": "Nick Joaquin, one of the exceptional Filipino writers, is also known for Quijano de a. b. c. d.\nManila. No error. e.",
+    "prompt": "Nick Joaquin, one of the exceptional Filipino writers, is also known for Quijano de Manila. No error.\n(Error-identification: choose the underlined part that contains an error, or No error. See image for underlined segments a-e.)",
     "hint": "Identifying errors item: test the underlined parts for subject-verb agreement, tense, pronoun use, modifier placement, and prepositions.",
     "choices": [
       {
@@ -5427,7 +5427,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Underlined part d\") because that underlined part contains the error.",
+    "explanation": "The error is in underlined part d. Enlarge the image if the crop is hard to read.",
     "image": "/question-images/vr-201.png"
   },
   {
@@ -6656,7 +6656,7 @@
   {
     "id": "vr-244",
     "subject": "Verbal Reasoning",
-    "prompt": "We used __________ sauce for the spahetti last Sunday.",
+    "prompt": "We used __________ sauce for the spaghetti last Sunday.",
     "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
@@ -7046,7 +7046,7 @@
   {
     "id": "vr-259",
     "subject": "Verbal Reasoning",
-    "prompt": "The tele-novela viewers cried helpleslly when they got __________ by the tragedy that befell the main character.",
+    "prompt": "The tele-novela viewers cried helplessly when they got __________ by the tragedy that befell the main character.",
     "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
     "choices": [
       {
@@ -7289,7 +7289,7 @@
       },
       {
         "id": "B",
-        "text": "pud down"
+        "text": "put down"
       },
       {
         "id": "C",
@@ -8039,23 +8039,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "by being hypocritical"
+        "text": "by surveying truth in its entirety and acting with order, measure, and reason"
       },
       {
         "id": "B",
-        "text": "by getting what one wants no matter what the cost"
+        "text": "by getting whatever one wants regardless of honor"
       },
       {
         "id": "C",
-        "text": "both a and b"
+        "text": "by weaving the good of the rational soul out of irrational strands"
       },
       {
         "id": "D",
-        "text": "none of the above"
+        "text": "by being hypocritical and malicious"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"none of the above\") because it is the option supported by the passage."
+    "correctChoiceId": "A",
+    "explanation": "Seneca says these attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum, and keeping a will focused on reason. Choice A."
   },
   {
     "id": "vr-298",

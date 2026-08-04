@@ -46,8 +46,47 @@ function isExamEligibleQuestion(question: Question): boolean {
   )
 }
 
+function normalizePromptForDedupe(prompt: string): string {
+  return prompt
+    .toLowerCase()
+    .replace(/_+/g, ' ')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    
+}
+
 function getExamEligibleQuestions(): Question[] {
-  return questionBank.filter(isExamEligibleQuestion)
+  const eligible = questionBank.filter(isExamEligibleQuestion)
+  // Prefer older subject banks over cse2026 duplicates of the same stem.
+  const preferredByPrompt = new Map<string, Question>()
+  for (const question of eligible) {
+    const key = normalizePromptForDedupe(question.prompt)
+    if (key.length < 25) {
+      // Short stems (sequences, single-word items) are often legitimately unique.
+      continue
+    }
+    const existing = preferredByPrompt.get(key)
+    if (!existing) {
+      preferredByPrompt.set(key, question)
+      continue
+    }
+    const existingIsCse = existing.id.startsWith('cse2026-')
+    const candidateIsCse = question.id.startsWith('cse2026-')
+    if (existingIsCse && !candidateIsCse) {
+      preferredByPrompt.set(key, question)
+    }
+  }
+  const suppressed = new Set<string>()
+  for (const question of eligible) {
+    const key = normalizePromptForDedupe(question.prompt)
+    if (key.length < 25) continue
+    const preferred = preferredByPrompt.get(key)
+    if (preferred && preferred.id !== question.id && question.id.startsWith('cse2026-')) {
+      suppressed.add(question.id)
+    }
+  }
+  return eligible.filter((question) => !suppressed.has(question.id))
 }
 
 function shuffle<T>(items: T[]): T[] {

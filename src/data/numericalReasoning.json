@@ -301,11 +301,11 @@
       },
       {
         "id": "C",
-        "text": "If a number is divisble by 3, then it is divisible by 6"
+        "text": "If a number is divisible by 3, then it is divisible by 6."
       },
       {
         "id": "D",
-        "text": "If a number is divisible by 4, then it is divisible by 8"
+        "text": "If a number is divisible by 4, then it is divisible by 8."
       }
     ],
     "correctChoiceId": "B",
@@ -637,7 +637,7 @@
   {
     "id": "nr-026",
     "subject": "Numerical Reasoning",
-    "prompt": "Whic of the following cannot yield an odd integer when divided by 10?",
+    "prompt": "Which of the following cannot yield an odd integer when divided by 10?",
     "hint": "Divisibility item: use remainder rules and factor checks before doing long division.",
     "choices": [
       {
@@ -1001,7 +1001,7 @@
   {
     "id": "nr-040",
     "subject": "Numerical Reasoning",
-    "prompt": "The lenghts of the sides of a triangle can be represented by three consecutive\nintegers. The perimeter of the triangle is 96cm. Find the length of the longest side\nof the triangle.",
+    "prompt": "The lengths of the sides of a triangle can be represented by three consecutive\nintegers. The perimeter of the triangle is 96cm. Find the length of the longest side\nof the triangle.",
     "hint": "Measurement item: write the formula first and confirm the units before substituting the numbers.",
     "choices": [
       {
@@ -1339,7 +1339,7 @@
   {
     "id": "nr-053",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must one has to invest in corporate bonds paying 9.6% in order to\nearn an income of Php12,000 per annum?",
+    "prompt": "How much must one invest in corporate bonds paying 9.6% in order to earn an income of Php 12,000 per annum?",
     "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
     "choices": [
       {
@@ -1360,12 +1360,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Php 125,000\") because it is the result that satisfies the problem."
+    "explanation": "Principal = 12000 / 0.096 = 125000. Correct answer is C (Php 125,000)."
   },
   {
     "id": "nr-054",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must be cut form the edge of a piece of glass 16 1/8 cm wide, in order\nfor it to fit into an opening 14 ¾ cm wide?",
+    "prompt": "How much must be cut from the edge of a piece of glass 16 1/8 cm wide, in order\nfor it to fit into an opening 14 ¾ cm wide?",
     "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
     "choices": [
       {
@@ -1937,7 +1937,7 @@
   {
     "id": "nr-076",
     "subject": "Numerical Reasoning",
-    "prompt": "By what percent was the price per kilo of chicken inceased?\n1) The price per kilo of chicken was increased by Php20\n2) The price per kilo of chicken was increased by Php120",
+    "prompt": "By what percent was the price per kilo of chicken increased?\n1) The price per kilo of chicken was increased by Php20\n2) The price per kilo of chicken was increased by Php120",
     "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {

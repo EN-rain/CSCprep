@@ -231,8 +231,8 @@ h2 {
   line-height: 1.35;
 }
 
-.review-card h2 {
-  font-weight: normal;
+.results .review-card h2 {
+  font-weight: 400;
 }
 
 .prompt-line {
