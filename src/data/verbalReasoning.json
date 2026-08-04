@@ -392,7 +392,7 @@
   {
     "id": "vr-016",
     "subject": "Verbal Reasoning",
-    "prompt": "Regina, being a chilld of three, is oblivious to the world around her.",
+    "prompt": "Regina, being a child of three, is oblivious to the world around her.",
     "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
@@ -11139,7 +11139,7 @@
     "id": "vr-418",
     "subject": "Verbal Reasoning",
     "prompt": "This report leaves much to be DESIRED.",
-    "hint": "\"Leaves much to be desired\" means unsatisfactory or disappointing.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",

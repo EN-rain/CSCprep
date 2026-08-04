@@ -229,6 +229,11 @@ h1 {
 h2 {
   font-size: 1.08rem;
   line-height: 1.35;
+  font-weight: 400;
+}
+
+.question-card h2 {
+  font-weight: 400;
 }
 
 .results .review-card h2 {

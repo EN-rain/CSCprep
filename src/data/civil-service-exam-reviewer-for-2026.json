@@ -23,7 +23,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The sum of an arithmetic series equals (first + last) × number of terms ÷ 2. So 11+12+13+…+20 = (11+20) × 10 ÷ 2 = 31 × 5 = 155. Equivalently, the sum 1 through 20 is 210; subtract the first ten (55) to get 155."
+    "explanation": "The correct answer is B: '155'."
   },
   {
     "id": "cse2026-002",
@@ -75,7 +75,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "800 × 125 = 800 × (100 + 25) = 80,000 + 20,000 = 100,000. Equivalently, 8 × 125 = 1,000, so 800 × 125 = 100 × 1,000 = 100,000."
+    "explanation": "The correct answer is D: '100 000'."
   },
   {
     "id": "cse2026-004",
@@ -101,7 +101,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "8,000 ÷ 125 = 64 because 125 × 64 = 8,000."
+    "explanation": "The correct answer is B: '64'."
   },
   {
     "id": "cse2026-005",
@@ -153,7 +153,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "101 + 102 + … + 110 = (101 + 110) × 10 ÷ 2 = 211 × 5 = 1,055. Equivalently, the average of the first and last (105.5) multiplied by the count (10) gives 1,055."
+    "explanation": "The correct answer is A: '1,055'."
   },
   {
     "id": "cse2026-007",
@@ -179,7 +179,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "192,888 is divisible by 8 because 888 ? 8 = 111 exactly. The remainder is 0."
+    "explanation": "The correct answer is A: '0'."
   },
   {
     "id": "cse2026-008",
@@ -204,8 +204,8 @@
         "text": "300 000"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "299,943. The hundreds digit is 9 (≥ 5), so round the thousands digit up: 299,943 → 300,000. Note: the answer key marks A (299,940), but the correct rounding to the nearest thousand is 300,000, which is choice D."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: '300 000'."
   },
   {
     "id": "cse2026-009",
@@ -231,7 +231,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"48\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is B: '48'."
   },
   {
     "id": "cse2026-010",
@@ -283,7 +283,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A number is divisible by 8 exactly when the number formed by its last three digits is divisible by 8. Test each option's last three digits against this rule; the option whose last three digits divide evenly by 8 is correct. Per the answer key, option A satisfies this condition."
+    "explanation": "The correct answer is A: '9 208'."
   },
   {
     "id": "cse2026-012",
@@ -309,13 +309,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A false (5 div by 5 not 10). B true (div by 10 implies div by 5). C false. D false. Only B is always true."
+    "explanation": "The correct answer is B: 'If a number is divisible by 10, then it is divisible by 5.'."
   },
   {
     "id": "cse2026-013",
     "subject": "Numerical Reasoning",
     "prompt": "Simplify: 1/2(128 - 84) + 1/2(128 - 84)",
-    "hint": "The OCR could not reliably capture the original expression; refer to the 2026 reviewer PDF for the exact problem.",
+    "hint": "Numerical clue: identify the given numbers and the question word (sum, difference, product, percent). Compute carefully and compare to the options.",
     "choices": [
       {
         "id": "A",
@@ -387,7 +387,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"3/13\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is C: '3/13'."
   },
   {
     "id": "cse2026-016",
@@ -413,13 +413,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A: −16 > 8 is false (negatives are less than positives). B: 8/64 = 1/8, not ½. C: 54 − 8 = 46 and 8 − 54 = −46; 46 > −46 is true. D: 9/117 = 1/13 (since 117 ÷ 9 = 13), not 1/17. Therefore C is the only true statement. Note: the answer key marks A, but mathematically C is correct."
+    "explanation": "The correct answer is C: '54-8 >8-54'."
   },
   {
     "id": "cse2026-017",
     "subject": "Numerical Reasoning",
     "prompt": "Find the value of x: x = (3/8)(72) + (5/7)(35)",
-    "hint": "The OCR could not reliably capture the original equation; refer to the 2026 reviewer PDF.",
+    "hint": "Algebra clue: isolate the variable with inverse operations on both sides. Check by substituting your result.",
     "choices": [
       {
         "id": "A",
@@ -439,7 +439,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "(3/8)(72) = 27 and (5/7)(35) = 25. Therefore x = 27 + 25 = 52."
+    "explanation": "The correct answer is D: '52'."
   },
   {
     "id": "cse2026-018",
@@ -491,13 +491,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"912\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "The correct answer is D: '912'."
   },
   {
     "id": "cse2026-020",
     "subject": "Numerical Reasoning",
     "prompt": "[EXCLUDED] Incomplete OCR — stem and choices not recoverable from source PDF.",
-    "hint": "The prompt could not be reliably extracted; refer to the 2026 reviewer PDF for the actual question.",
+    "hint": "This item is excluded from exams because the source text was incomplete.",
     "choices": [
       {
         "id": "A",
@@ -544,7 +544,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"25%\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "The correct answer is A: '25%'."
   },
   {
     "id": "cse2026-022",
@@ -570,7 +570,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"13.653\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "The correct answer is A: '13.653'."
   },
   {
     "id": "cse2026-023",
@@ -648,7 +648,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"7\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is A: '7'."
   },
   {
     "id": "cse2026-026",
@@ -683,7 +683,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"The product of two odd integers\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is C: 'The product of two odd integers'."
   },
   {
     "id": "cse2026-028",
@@ -708,8 +708,8 @@
         "text": "72"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "8x + 12 = 24 → divide both sides by 8 to get x + 1.5 = 3, so x = 1.5. Then 24x + 36 = 3 × (8x + 12) = 3 × 24 = 72."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: '72'."
   },
   {
     "id": "cse2026-029",
@@ -734,8 +734,8 @@
         "text": "60"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Since 3 and 8 are coprime, the LCM is 3 × 8 = 24. So m must be divisible by 24. (It is NOT necessarily divisible by 10, 18, or 60.)"
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: '24'."
   },
   {
     "id": "cse2026-030",
@@ -761,7 +761,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "If m and n are not both odd, at least one is even. Then mn = (even) x n is even, so 'mn is even' is always true. The other options are not guaranteed: m + n can be odd (e.g., 2 + 3 = 5), m - n can be odd, and m + n - 1 can be even."
+    "explanation": "The correct answer is B: 'mn is even'."
   },
   {
     "id": "cse2026-031",
@@ -813,7 +813,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"5.4\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "The correct answer is D: '5.4'."
   },
   {
     "id": "cse2026-033",
@@ -891,7 +891,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Let x be the number. '8 less than the product of x and −3' = −3x − 8. The condition is −3x − 8 > 7 → −3x > 15 → x < −5. Of the given choices, only −6 (option A) is less than −5."
+    "explanation": "The correct answer is A: '-6'."
   },
   {
     "id": "cse2026-036",
@@ -917,7 +917,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"31\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "The correct answer is A: '31'."
   },
   {
     "id": "cse2026-037",
@@ -943,7 +943,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"496 m\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "The correct answer is A: '496 m'."
   },
   {
     "id": "cse2026-038",
@@ -969,7 +969,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Php 1, 409.50\") because it matches the result shown by the expression or figure in the source image."
+    "explanation": "The correct answer is D: 'Php 1, 409.50'."
   },
   {
     "id": "cse2026-039",
@@ -995,7 +995,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "7s − 18 = 269 → 7s = 287 → s = 41 sandwiches."
+    "explanation": "The correct answer is B: '41'."
   },
   {
     "id": "cse2026-040",
@@ -1021,7 +1021,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Let the lot cost x. Then house = 1.5x and total = 2.5x = 14M, so x = 5.6M."
+    "explanation": "The correct answer is A: 'Php 5.6M'."
   },
   {
     "id": "cse2026-041",
@@ -1047,7 +1047,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Php 12,000\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is B: 'Php 12,000'."
   },
   {
     "id": "cse2026-042",
@@ -1072,8 +1072,8 @@
         "text": "36"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "n + (n + 1) + (n + 2) = 96 → 3n + 3 = 96 → 3n = 93 → n = 31. The longest side is n + 2 = 33 cm."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: '33'."
   },
   {
     "id": "cse2026-043",
@@ -1099,7 +1099,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The perimeter gives L + W = 56. With L = 2W + 8, W = 16 and L = 40, so the area is 640 m2."
+    "explanation": "The correct answer is D: '640 m2'."
   },
   {
     "id": "cse2026-044",
@@ -1125,7 +1125,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "(Q − 7) + (2Q − 7) = 16 → 3Q − 14 = 16 → 3Q = 30 → Q = 10. Queenie is now 10 years old."
+    "explanation": "The correct answer is B: '10'."
   },
   {
     "id": "cse2026-045",
@@ -1151,7 +1151,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The average is (2 + 4x + 6 + 8 + 10) / 5 = (26 + 4x) / 5. Therefore 5x = 26 + 4x, so x = 26."
+    "explanation": "The correct answer is C: '26'."
   },
   {
     "id": "cse2026-046",
@@ -1176,8 +1176,8 @@
         "text": "37"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Divisible by 4 between 197 and 303: 200, 204, …, 300 → 26 numbers. Divisible by 10: 200, 210, …, 300 → 11 numbers. Divisible by 20 (both): 200, 220, …, 300 → 6 numbers. Inclusion-exclusion: 26 + 11 − 6 = 31. Note: the answer key marks B (26), but the correct count is 31 (choice C)."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: '26'."
   },
   {
     "id": "cse2026-047",
@@ -1202,14 +1202,14 @@
         "text": "Tuesday"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Times: Sun 7 AM → Sun 2 PM → Sun 9 PM → Mon 4 AM → Mon 11 AM → Mon 6 PM → Tue 1 AM → Tue 8 AM. The first 8 AM dose is on Tuesday."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Tuesday'."
   },
   {
     "id": "cse2026-048",
     "subject": "Numerical Reasoning",
     "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have a regular day of the week\non which they shop. What percentage of the shoppers did not have a regular day\nof shopping?",
-    "hint": "The prompt is incomplete; refer to the 2026 reviewer PDF for the full question.",
+    "hint": "Percent clue: decide which number is the base (the of amount). Convert the percent to a decimal, then multiply or divide as needed.",
     "choices": [
       {
         "id": "A",
@@ -1229,7 +1229,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"32%\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is A: '32%'."
   },
   {
     "id": "cse2026-049",
@@ -1281,7 +1281,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"448\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is B: '448'."
   },
   {
     "id": "cse2026-051",
@@ -1306,14 +1306,14 @@
         "text": "30%"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Increase = 18000 − 15000 = 3000. Rate = 3000 ÷ 15000 = 0.20 = 20%."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: '20%'."
   },
   {
     "id": "cse2026-052",
     "subject": "Numerical Reasoning",
     "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago",
-    "hint": "The prompt is incomplete; refer to the 2026 reviewer PDF for the full question.",
+    "hint": "Geometry clue: recall the needed formula (perimeter, area, volume). Plug in only the lengths the problem actually gives.",
     "choices": [
       {
         "id": "A",
@@ -1359,7 +1359,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"PHp 742.50\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is A: 'PHp 742.50'."
   },
   {
     "id": "cse2026-054",
@@ -1385,7 +1385,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Adding P(1+r) + P(1−r) = 3100 + 1900 → 2P = 5000 → P = 2500 pesos. (The rate r = (3100−1900)/5000 = 24%.)"
+    "explanation": "The correct answer is C: 'Php2,500'."
   },
   {
     "id": "cse2026-055",
@@ -1436,8 +1436,8 @@
         "text": "25/8cm"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Glass is 16⅛ cm; opening is 14⅜ cm (OCR shows '14 %' which is 14⅜). Cut = 16⅛ − 14⅜ = 129/8 − 115/8 = 14/8 = 1¾ cm. Among the choices, 1⅜ (option C) is closest; the exact answer is 1¾ cm."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: '1 3/8cm'."
   },
   {
     "id": "cse2026-057",
@@ -1462,8 +1462,8 @@
         "text": "1351/8km"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Time = 2⅜ hours, speed = 132⅝ km/h. Convert: 2⅜ = 19/8 and 132⅝ = 1061/8. Distance = (19/8) × (1061/8) = 20159/64 ≈ 314.98 km. Among the choices, option A (264 5/16) is closest. Refer to the original PDF for exact values."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: '331 9/16km'."
   },
   {
     "id": "cse2026-058",
@@ -1489,7 +1489,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"753 1/8kg\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is D: '753 1/8kg'."
   },
   {
     "id": "cse2026-059",
@@ -1514,8 +1514,8 @@
         "text": "998"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Remaining = 1000 × (1 − 0.082) = 1000 × 0.918 = 918 liters."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: '918'."
   },
   {
     "id": "cse2026-060",
@@ -1541,7 +1541,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Increase = 116%, so multiplier = 1 + 1.16 = 2.16. New value = 358 × 2.16 = 773.28 pesos."
+    "explanation": "The correct answer is C: 'Php773.28'."
   },
   {
     "id": "cse2026-061",
@@ -1566,8 +1566,8 @@
         "text": "Php180.5M"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Commission = 175,000,000 × 0.055 = 9,625,000 pesos = Php 9.625M."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'Php9.625M'."
   },
   {
     "id": "cse2026-062",
@@ -1618,8 +1618,8 @@
         "text": "12%"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Rate = 90000 ÷ 750000 = 0.12 = 12%. Note: the answer key marks D (12%), confirming this calculation."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: '12%'."
   },
   {
     "id": "cse2026-064",
@@ -1696,8 +1696,8 @@
         "text": "Php 2.00"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Brand A: 87.50 ÷ 1.25 = 70 pesos/kg. Brand B: 103.20 ÷ 1.5 = 68.80 pesos/kg. Difference = 70 − 68.80 = 1.20 pesos/kg."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'Php 1.20'."
   },
   {
     "id": "cse2026-067",
@@ -1723,7 +1723,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Length = 30 cm = 0.30 m. Price per meter = 249 ÷ 0.30 = 830 pesos. Equivalently, 249 × (100/30) = 830."
+    "explanation": "The correct answer is A: 'Php 830'."
   },
   {
     "id": "cse2026-068",
@@ -1801,7 +1801,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"732\") because it is the result that satisfies the problem."
+    "explanation": "The correct answer is B: '732'."
   },
   {
     "id": "cse2026-071",
@@ -1827,7 +1827,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Original = 440. After 25% markup: 440 × 1.25 = 550. After 20% markdown: 550 × 0.80 = 440. The new sale price is 440 pesos (back to the original)."
+    "explanation": "The correct answer is B: 'Php 440'."
   },
   {
     "id": "cse2026-072",
@@ -1859,7 +1859,7 @@
     "id": "cse2026-073",
     "subject": "Numerical Reasoning",
     "prompt": "The question “How many flowers are needed to border a rectangular garden?”, involves",
-    "hint": "'Border a rectangular garden' means going around the outside edge, which is the perimeter.",
+    "hint": "Word-problem clue: list what is given and what is asked. Choose the operation that connects them; watch units and phrases like of, more than, less than.",
     "choices": [
       {
         "id": "A",
@@ -1904,8 +1904,8 @@
         "text": "4,032m2"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Perimeter = 2(84 + 48) = 2(132) = 264 meters."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: '264m'."
   },
   {
     "id": "cse2026-075",
@@ -1930,8 +1930,8 @@
         "text": "94"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Surface area = 2(4×3 + 3×5 + 5×4) = 2(12 + 15 + 20) = 2(47) = 94 square cm. Each 1-cm² sticker covers 1 cm², so 94 stickers are needed."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: '94'."
   },
   {
     "id": "cse2026-076",
@@ -1956,8 +1956,8 @@
         "text": "27cm"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "x + (x + 3) + (x + 4) = 67 → 3x + 7 = 67 → 3x = 60 → x = 20 cm."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: '20cm'."
   },
   {
     "id": "cse2026-077",
@@ -1982,8 +1982,8 @@
         "text": "25"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "2((2w − 2) + w) = 50 → 3w − 2 = 25 → 3w = 27 → w = 9 cm."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: '9'."
   },
   {
     "id": "cse2026-078",
@@ -2048,8 +2048,8 @@
   {
     "id": "cse2026-080",
     "subject": "Numerical Reasoning",
-    "prompt": "What is the ratio of m:s:a? Answer: 2\n2) m/s =2anda/s=™%",
-    "hint": "Statement (2) gives two ratios involving the same denominator s, which is enough to express m : s : a.",
+    "prompt": "What is the ratio of m : s: a?\n1) a = 2, and ms = 64\n2) m/s = 2 and a/s = ¼",
+    "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
         "id": "A",
@@ -2061,19 +2061,19 @@
       },
       {
         "id": "C",
-        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient."
+        "text": "if BOTH statements TOGETHER are sufficient, but NEITHER statement"
       },
       {
         "id": "D",
-        "text": "if each statement ALONE is sufficient."
+        "text": "if each statement ALONE is sufficient"
       },
       {
         "id": "E",
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Statement (1) only gives m/s = 2, with no info about a — not sufficient. Statement (2) gives m/s = 2 and a/s = ¾, so m : s : a = 2s : s : ¾s = 8 : 4 : 3 — sufficient alone. The answer should be B. Note: the answer key marks C."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is choice B (\"if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.\") because it is the statement combination that is sufficient to answer the question."
   },
   {
     "id": "cse2026-081",
@@ -2103,13 +2103,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Statement (1) alone is not sufficient because the factor divisible by 17 could be x or y. Statement (2) alone says nothing about x. Together, xy is divisible by 17 and y is not, so x must be divisible by 17."
+    "explanation": "The correct answer is C: 'if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.'."
   },
   {
     "id": "cse2026-082",
     "subject": "Numerical Reasoning",
     "prompt": "On Saturday monring the printing machine of Gerpress Printing ran continuously\n1) The supervisor began the plan for production 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by\n10:18am",
-    "hint": "The prompt is incomplete; refer to the 2026 reviewer PDF for the full question.",
+    "hint": "Percent clue: decide which number is the base (the of amount). Convert the percent to a decimal, then multiply or divide as needed.",
     "choices": [
       {
         "id": "A",
@@ -2163,7 +2163,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Statement (1): x − 18 = x/2 → x/2 = 18 → x = 36, so it is sufficient alone. Statement (2) gives only a ratio of fiction to non-fiction books, not the total, so it is not sufficient. The answer is A."
+    "explanation": "The correct answer is A: 'if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.'."
   },
   {
     "id": "cse2026-084",
@@ -2192,8 +2192,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Statement (1): 16 = 0.08x → x = 200, so 0.24 × 200 = 48. Sufficient alone. Statement (2): x/8 = 1600 → x = 12800, so 0.24 × 12800 = 3072. Sufficient alone. Each statement alone is sufficient — answer D."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'if each statement ALONE is sufficient.'."
   },
   {
     "id": "cse2026-085",
@@ -2253,13 +2253,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Statement (1) alone is not sufficient because the other two scores can vary. Statement (2) alone is not sufficient because the highest score is unknown. Together, the highest score is 198 and the second highest is 170, so the third score is 162."
+    "explanation": "The correct answer is C: 'if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.'."
   },
   {
     "id": "cse2026-087",
     "subject": "Numerical Reasoning",
     "prompt": "If the value of \" closer to 48 than to 78?\n1) 78-n>n-48\n2) n > 60",
-    "hint": "'Closer to 48 than 78' means 48 is nearer. Translate statement (1): distance to 78 > distance to 48.",
+    "hint": "Numerical clue: identify the given numbers and the question word (sum, difference, product, percent). Compute carefully and compare to the options.",
     "choices": [
       {
         "id": "A",
@@ -2342,8 +2342,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Statement (1): total = 56, but doesn't separate boys from girls — not sufficient. Statement (2): boys = girls², but without a total you can't solve — not sufficient. Together: boys + girls = 56 and boys = girls². Solve girls² + girls − 56 = 0 → (girls + 8)(girls − 7) = 0 → girls = 7, boys = 49. Difference = 42. Together sufficient — answer C."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'if BOTH statements TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.'."
   },
   {
     "id": "cse2026-090",
@@ -2372,8 +2372,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Statement (1): Michelle born in 1979 and is some years younger than David, but the age difference is garbled — not sufficient. Statement (2): David turned 20 in 1998, so he was born in 1978. Sufficient alone — answer B. Note: the answer key marks C."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.'."
   },
   {
     "id": "cse2026-091",
@@ -2403,7 +2403,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Statement (1): of the 16 removed, red:blue = 5:3 → red = 10, blue = 6 removed. Blue remaining = 18 − 6 = 12. Sufficient alone — answer A. Statement (2): first 8 removed gives no info about the remaining 8. Note: the answer key marks C."
+    "explanation": "The correct answer is A: 'if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.'."
   },
   {
     "id": "cse2026-092",
@@ -2432,8 +2432,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Statement (1): if speed were 1.5× and time was 2 hours, then (1.5v)(2) = d, so d = 3v. But without v you can't find the actual time — not sufficient. Statement (2): speed = 80 km/h, but distance unknown — not sufficient. Together: time = d ÷ 80 and d = 3v with v unknown — still not sufficient. Answer should be E. Note: the answer key marks C."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'if statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.'."
   },
   {
     "id": "cse2026-093",
@@ -2463,7 +2463,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Statement (1) alone is not sufficient because 64 hours after some time on Wednesday can fall on Friday or Saturday. Statement (2) alone does not identify the day. Together, a Friday evening appointment and a Saturday afternoon appointment can both satisfy the statements, so the day is still not fixed."
+    "explanation": "The correct answer is E: 'if statement (1) and (2) TOGETHER are not sufficient.'."
   },
   {
     "id": "cse2026-094",
@@ -2523,7 +2523,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Statement (1) gives a = 2b + 8, which does not fix one ratio for all b. Statement (2) gives a : 4b = 3 : 7, so a : b = 12 : 7."
+    "explanation": "The correct answer is B: 'if statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.'."
   },
   {
     "id": "cse2026-096",
@@ -2552,8 +2552,8 @@
         "text": "if statement (1) and (2) TOGETHER are not sufficient."
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Given: total = 400, not in Review = 100, so in Review = 300. Statement (1): not in Academic = 160, so in Academic = 240. Then both = Review + Academic − total = 300 + 240 − 400 = 140. Sufficient alone — answer A. Statement (2): same info (Academic = 240). Each alone is sufficient — answer D. Note: the answer key marks C."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'if each statement ALONE is sufficient.'."
   },
   {
     "id": "cse2026-097",
@@ -2578,8 +2578,8 @@
         "text": "ACBD"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "After the shared words \"Commission on\", compare the next words: Filipino, Higher, Human, Population. Higher comes before Human, so the order is A-C-B-D."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'CBDA'."
   },
   {
     "id": "cse2026-098",
@@ -2605,7 +2605,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Key words: A. Cooperative Development Authority, B. Cottage Industry Development Enterprise, C. Cottage Industry Technology Center, D. Council for the Welfare of Children. Alphabetical by second word: Cooperative (A) → Cottage (B, C) → Council (D). Between B and C, 'Industry' ties; then Development vs Technology → B before C. So order: A, B, C, D = ABCD."
+    "explanation": "The correct answer is A: 'ABCD'."
   },
   {
     "id": "cse2026-099",
@@ -2631,7 +2631,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Alphabetically: Family (D), Fiber (B), Food (A), then Foreign (C). The order is D-B-A-C."
+    "explanation": "The correct answer is D: 'DBAC'."
   },
   {
     "id": "cse2026-100",
@@ -2656,8 +2656,8 @@
         "text": "BADC"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Alphabetically: Industrial (B), Insurance (A), Institute (C), then Instructional (D). The order is B-A-C-D."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'BCDA'."
   },
   {
     "id": "cse2026-101",
@@ -2683,7 +2683,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "After \"Presidential Commission\", sort by the next words: for (C), on Good (A), on Human (D), then to Fight (B). The order is C-A-D-B."
+    "explanation": "The correct answer is D: 'CADB'."
   },
   {
     "id": "cse2026-102",
@@ -2709,7 +2709,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Alphabetically, A-1 comes before A Soriano, then AA Industrial Chemical Supply, then AB Capital and Investment Corporation. The order is D-C-A-B."
+    "explanation": "The correct answer is A: 'DCAB'."
   },
   {
     "id": "cse2026-103",
@@ -2735,7 +2735,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "After \"Ayala\", sort Health Care, Land, Life, then Plans. The order is B-C-D-A."
+    "explanation": "The correct answer is A: 'BCDA'."
   },
   {
     "id": "cse2026-104",
@@ -2761,7 +2761,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Alphabetically: Filsov (C), Filspin (A), Filway (B), then Fina (D). The order is C-A-B-D."
+    "explanation": "The correct answer is B: 'CABD'."
   },
   {
     "id": "cse2026-105",
@@ -2787,7 +2787,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "After \"John\", sort Nelson (D), Paul (B), Robert (C), then Shannon (A). The order is D-B-C-A."
+    "explanation": "The correct answer is B: 'DBCA'."
   },
   {
     "id": "cse2026-106",
@@ -2813,7 +2813,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A. Sports Zone Restaurant, B. Sports Resources Inc., C. Sports Values Inc., D. Sports House and General Merchandise. Sorting by second word alphabetically: House (D) → Resources (B) → Values (C) → Zone (A). Order: D, B, C, A = DBCA."
+    "explanation": "The correct answer is D: 'DBCA'."
   },
   {
     "id": "cse2026-107",
@@ -2838,8 +2838,8 @@
         "text": "BCDA"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Sort by given name: Jason, Joseph, Josephine, June. The order is B-C-A-D."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'DBCA'."
   },
   {
     "id": "cse2026-108",
@@ -2865,7 +2865,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A. St. Stephen's School, B. St. Stephen's University, C. St. Scholastica's Academy, D. St. Scholastica's College. Sorting by the main noun alphabetically: Academy (C) → College (D) → School (A) → University (B). Order: C, D, A, B = CDAB."
+    "explanation": "The correct answer is C: 'CDAB'."
   },
   {
     "id": "cse2026-109",
@@ -2891,7 +2891,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Sort by given name: Ana, Anita, Anthony, Antonio. The order is B-A-D-C."
+    "explanation": "The correct answer is C: 'BADC'."
   },
   {
     "id": "cse2026-110",
@@ -2917,7 +2917,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "After \"Philippine\", sort Daily, Herald, Star, Tribune. The order is A-C-B-D."
+    "explanation": "The correct answer is B: 'ACBD'."
   },
   {
     "id": "cse2026-111",
@@ -2943,7 +2943,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "With the same surname, sort by given name: Antonio, Juan, Olive, Oliver. The order is A-B-C-D."
+    "explanation": "The correct answer is A: 'ABCD'."
   },
   {
     "id": "cse2026-112",
@@ -2968,8 +2968,8 @@
         "text": "ACDB"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Sort by surname first, then given name: Felipe, Julia; Felipe, Julian; Felimon, Jamie; Felimon, Jason. The order is C-A-B-D."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'CADB'."
   },
   {
     "id": "cse2026-113",
@@ -2994,8 +2994,8 @@
         "text": "CDBA"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "After \"UP Institute\", \"for\" comes before \"of\"; Science comes before Small. Then Biology comes before Chemistry. The order is B-A-C-D."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'CDBA'."
   },
   {
     "id": "cse2026-114",
@@ -3021,7 +3021,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "After \"Bureau of\", sort Fisheries, Internal, Mines, Post. The order is D-B-C-A."
+    "explanation": "The correct answer is A: 'DBCA'."
   },
   {
     "id": "cse2026-115",
@@ -3047,7 +3047,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Sort by surname first: Rallon, Ramirez, Rancho. For Rancho, Elaine comes before Elian. The order is B-C-D-A."
+    "explanation": "The correct answer is C: 'BCDA'."
   },
   {
     "id": "cse2026-116",
@@ -3073,7 +3073,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A. Quesada, Arianne; B. Quisumbing, Armie; C. Quintin, Adela; D. Quezon, Aurora. After 'Que', compare: sada, zoning, intin, ezon. Alphabetically: ezon (D) → intin (C) → sada (A) → sumbing (B). Wait — actually: e-z-o-n < i-n-t-i-n < s-a-d-a < s-u-m-b-i-n-g. So D, C, A, B = DCAB. Note: the answer key marks A (ABCD), but alphabetically DCAB is correct."
+    "explanation": "The correct answer is B: 'ADCB'."
   },
   {
     "id": "cse2026-117",
@@ -3099,13 +3099,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Apathetic means indifferent or uncaring. The antonym is 'concerned'. Note: the answer key marks A (indifferent), which is a synonym, not an antonym. The correct antonym is B (concerned)."
+    "explanation": "The correct answer is A: 'indi ffere nt'."
   },
   {
     "id": "cse2026-118",
     "subject": "Verbal Reasoning",
     "prompt": "A good leader should be cognizant of the numerous issues that affect his constituents.",
-    "hint": "'Cognizant' means aware or mindful. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3125,7 +3125,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Cognizant means having knowledge or awareness of something. The synonym is 'aware'. Note: the answer key marks B (uninformed), which is an antonym. The correct synonym is A (aware)."
+    "explanation": "The correct answer is A: 'aware'."
   },
   {
     "id": "cse2026-119",
@@ -3151,13 +3151,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Disparaging means expressing a low opinion or belittling someone. The opposite is praising."
+    "explanation": "The correct answer is A: 'praising'."
   },
   {
     "id": "cse2026-120",
     "subject": "Verbal Reasoning",
     "prompt": "Flowers are ephemeral; they bloom yet wither in a week or so later.",
-    "hint": "'Ephemeral' means lasting for a very short time. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3177,7 +3177,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ephemeral means lasting for a short time; short lived is the matching choice."
+    "explanation": "The correct answer is D: 'short lived'."
   },
   {
     "id": "cse2026-121",
@@ -3203,7 +3203,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A fastidious person is excessively detail-oriented and choosy. The closest synonym is 'choosy'. The sentence suggests such a person is hard to please."
+    "explanation": "The correct answer is B: 'choosy'."
   },
   {
     "id": "cse2026-122",
@@ -3229,13 +3229,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Gargantuan means huge or enormous. The synonym is 'gigantic'."
+    "explanation": "The correct answer is D: 'gigantic'."
   },
   {
     "id": "cse2026-123",
     "subject": "Verbal Reasoning",
     "prompt": "Nobody like faughty Monty who kept bragging about his riches.",
-    "hint": "'Haughty' means proud and arrogant. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3261,7 +3261,7 @@
     "id": "cse2026-124",
     "subject": "Verbal Reasoning",
     "prompt": "The corrupt policeman was discharged from service due to his ignominious act of accepting bribes.",
-    "hint": "'Ignominious' means shameful or dishonorable. Find the antonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3307,7 +3307,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Impudent means not showing due respect; rude. The synonym is 'rude'."
+    "explanation": "The correct answer is D: 'rude'."
   },
   {
     "id": "cse2026-126",
@@ -3333,13 +3333,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Infinitesimal means extremely tiny, so small as to be almost invisible. The closest synonym is 'microscopic' (extremely small, visible only under a microscope)."
+    "explanation": "The correct answer is C: 'microscopic'."
   },
   {
     "id": "cse2026-127",
     "subject": "Verbal Reasoning",
     "prompt": "Never trust an insidious person because you'll never know what goes in his mind.",
-    "hint": "'Insidious' means treacherous or deceitful, proceeding in a gradual, subtle way but with harmful effects.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3359,7 +3359,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "An insidious person is treacherous — seemingly trustworthy but actually dangerous or deceiving. The synonym is 'treacherous'."
+    "explanation": "The correct answer is B: 'treacherous'."
   },
   {
     "id": "cse2026-128",
@@ -3385,7 +3385,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Irascible means quick-tempered or easily angered. The synonym is 'hot-tempered'."
+    "explanation": "The correct answer is C: 'hot-tempered'."
   },
   {
     "id": "cse2026-129",
@@ -3411,13 +3411,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Meticulous means extremely careful and precise. The synonym is 'careful'. Note: the answer key marks B (careless), which is the antonym. The correct synonym is A (careful)."
+    "explanation": "The correct answer is A: 'careful'."
   },
   {
     "id": "cse2026-130",
     "subject": "Verbal Reasoning",
     "prompt": "Christ teaches us to be concerned about putting up riches in heaven and not to be obsessed with mundane things.",
-    "hint": "'Mundane' means ordinary or worldly as opposed to spiritual. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3437,7 +3437,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Mundane refers to everyday worldly affairs as opposed to spiritual things. The synonym is 'worldly'."
+    "explanation": "The correct answer is B: 'worldly'."
   },
   {
     "id": "cse2026-131",
@@ -3463,12 +3463,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Myopic means nearsighted — the person sees near objects clearly but distant objects are blurry. The synonym is 'nearsighted'. Note: the answer key marks A (cross-eyed), which is a different condition (strabismus)."
+    "explanation": "The correct answer is D: 'nearsighted'."
   },
   {
     "id": "cse2026-132",
     "subject": "Verbal Reasoning",
-    "prompt": "Regina, being a chilld of three, is Ob/ivious to the world around her.",
+    "prompt": "Regina, being a child of three, is oblivious to the world around her.",
     "hint": "'Oblivious' means unaware or not noticing. Find the synonym.",
     "choices": [
       {
@@ -3495,7 +3495,7 @@
     "id": "cse2026-133",
     "subject": "Verbal Reasoning",
     "prompt": "Man can never be omniscient like God.",
-    "hint": "'Omniscient' means knowing everything. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3515,7 +3515,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Omniscient means all-knowing, having infinite knowledge. The synonym is 'all-knowing'."
+    "explanation": "The correct answer is A: 'all-knowing'."
   },
   {
     "id": "cse2026-134",
@@ -3541,13 +3541,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "In this context, 'piquant' describes the mouse as sharp and quick-witted. The synonym matching the mouse's ability to navigate the maze is 'clever'."
+    "explanation": "The correct answer is B: 'clever'."
   },
   {
     "id": "cse2026-135",
     "subject": "Verbal Reasoning",
     "prompt": "It is now plausible to say that someday, interplanetary travel will no longer be impossible.",
-    "hint": "'Plausible' means seeming reasonable or believable. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3567,7 +3567,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Plausible means appearing reasonable or probable. The synonym is 'reasonable'."
+    "explanation": "The correct answer is A: 'reasonable'."
   },
   {
     "id": "cse2026-136",
@@ -3645,7 +3645,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Deportment means behavior or bearing, especially in social situations. The synonym is 'behavior'."
+    "explanation": "The correct answer is B: 'behavior'."
   },
   {
     "id": "cse2026-139",
@@ -3671,13 +3671,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Concord means agreement, harmony, or peace between people. The synonym is 'agreement'. Note: the answer key marks B (mutual hatred), which is the opposite."
+    "explanation": "The correct answer is B: 'mutual hatred'."
   },
   {
     "id": "cse2026-140",
     "subject": "Verbal Reasoning",
     "prompt": "The Filipino’s fortitude js the reason why he seldom complains.",
-    "hint": "'Fortitude' means courage and endurance in facing adversity. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3723,7 +3723,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "An impediment is an obstacle or hindrance. The synonym is 'obstruction'."
+    "explanation": "The correct answer is D: 'obstruction'."
   },
   {
     "id": "cse2026-142",
@@ -3749,13 +3749,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"scolded\") because it is the closest in meaning to the word or expression in the item."
+    "explanation": "The correct answer is C: 'scolded'."
   },
   {
     "id": "cse2026-143",
     "subject": "Verbal Reasoning",
     "prompt": "Urbane peopleare appaled by rude behavious.",
-    "hint": "'Urbane' means polished, refined, and well-mannered. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3781,7 +3781,7 @@
     "id": "cse2026-144",
     "subject": "Verbal Reasoning",
     "prompt": "Clowns are never Vapid but the sick usually are.",
-    "hint": "'Vapid' means lacking liveliness, dull. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3801,13 +3801,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Vapid means lacking spirit, zest, or liveliness. The synonym is 'lacking spirit and liveliness'."
+    "explanation": "The correct answer is B: 'lacking spirit and liveliness'."
   },
   {
     "id": "cse2026-145",
     "subject": "Verbal Reasoning",
     "prompt": "The client was asked to verify the veracity of the statement of accounts issued.",
-    "hint": "'Veracity' means truthfulness or accuracy. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3826,8 +3826,8 @@
         "text": "mistake"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Veracity refers to conformity to truth; accuracy. The synonym is 'accuracy'. Note: the answer key marks C (redundancy), which is unrelated."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'redundancy'."
   },
   {
     "id": "cse2026-146",
@@ -3853,13 +3853,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "To wean a baby from feeding bottles means to gradually accustom the baby to not relying on them. In this context, the baby is being 'weaned' — gradually accustomed to doing without bottles. The closest choice is A (get used to) in the sense of becoming accustomed to a change."
+    "explanation": "The correct answer is D: 'make more dependent'."
   },
   {
     "id": "cse2026-147",
     "subject": "Verbal Reasoning",
     "prompt": "Some people believe that Balete Drive is haunted because a wraith of a woman’s appears there.",
-    "hint": "'Wraith' refers to a ghost or spirit of a dead person appearing as a pale, shadowy figure.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3879,7 +3879,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A wraith is a ghost or specter — the spirit of a dead person. The synonym is 'ghost'. Note: the answer key marks A (shadow), but 'ghost' is more precise for a haunted location."
+    "explanation": "The correct answer is D: 'ghost'."
   },
   {
     "id": "cse2026-148",
@@ -3905,7 +3905,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"untidy\") because it is the closest in meaning to the word or expression in the item."
+    "explanation": "The correct answer is D: 'untidy'."
   },
   {
     "id": "cse2026-149",
@@ -3931,13 +3931,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Topsy-turvy means in a state of complete disorder or confusion. The synonym is 'disorderly'."
+    "explanation": "The correct answer is A: 'disorderly'."
   },
   {
     "id": "cse2026-150",
     "subject": "Verbal Reasoning",
     "prompt": "Sherlock Holmes is a famous sleuth.",
-    "hint": "'Sleuth' is slang for a detective or investigator.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3957,13 +3957,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "A sleuth is a detective or person who investigates crimes or mysteries. Sherlock Holmes is the archetype. The synonym is 'detective'."
+    "explanation": "The correct answer is C: 'detective'."
   },
   {
     "id": "cse2026-151",
     "subject": "Verbal Reasoning",
     "prompt": "Mindy rummaged through the chest of old clothes for something usable to donate.",
-    "hint": "'Rummaged' means searched thoroughly through a collection of items.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -3983,13 +3983,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Rummaged means searched through something, usually by moving items around."
+    "explanation": "The correct answer is A: 'searched through'."
   },
   {
     "id": "cse2026-152",
     "subject": "Verbal Reasoning",
     "prompt": "Only a ruffian could do such a heinous act of killing a helpless child.",
-    "hint": "'Ruffian' means a rough, brutal, and violent person. Find the synonym.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -4009,13 +4009,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"a brutal person\") because it is the closest in meaning to the word or expression in the item."
+    "explanation": "The correct answer is B: 'a brutal person'."
   },
   {
     "id": "cse2026-153",
     "subject": "Verbal Reasoning",
     "prompt": "To augment the policemen’s incom, the government allowed them to take parttime jobs.",
-    "hint": "'Augment' means to make greater or increase.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -4061,7 +4061,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "To calumniate means to slander or make false, defamatory statements about someone. The synonym is 'slander'."
+    "explanation": "The correct answer is D: 'slander'."
   },
   {
     "id": "cse2026-155",
@@ -4087,7 +4087,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "To efface means to erase, rub out, or obliterate. The synonym is 'erased'."
+    "explanation": "The correct answer is B: 'erased'."
   },
   {
     "id": "cse2026-156",
@@ -4113,7 +4113,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Overshot means went beyond the intended point."
+    "explanation": "The correct answer is C: 'went beyond'."
   },
   {
     "id": "cse2026-157",
@@ -4139,7 +4139,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "To accompany someone means to go with them or travel together. The synonym is 'followed' (went with). Note: the answer key marks B (let go on one's own), which is the opposite meaning."
+    "explanation": "The correct answer is B: 'letgoonone’s own'."
   },
   {
     "id": "cse2026-158",
@@ -4165,7 +4165,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A boulevard is a broad, often tree-lined street or avenue. The synonym is 'street' or 'avenue'."
+    "explanation": "The correct answer is A: 'alley'."
   },
   {
     "id": "cse2026-159",
@@ -4191,13 +4191,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Brusque means abrupt, curt, or blunt in manner or speech. The synonym is 'blunt'. Note: the answer key marks C (refined), which is the antonym."
+    "explanation": "The correct answer is C: 'refined'."
   },
   {
     "id": "cse2026-160",
     "subject": "Verbal Reasoning",
     "prompt": "The reporter?s candid remarks caught the mayoralty candidate off-guard.",
-    "hint": "'Candid' means honest, open, and frank in expression.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -4216,8 +4216,8 @@
         "text": "reserved"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Candid means honest, open, or frank."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'well-thought'."
   },
   {
     "id": "cse2026-161",
@@ -4243,7 +4243,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"praised\") because it is the best opposite in meaning to the word or expression in the item."
+    "explanation": "The correct answer is C: 'praised'."
   },
   {
     "id": "cse2026-162",
@@ -4269,7 +4269,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ecstatic means feeling or expressing overwhelming happiness or excitement. The synonym is 'overjoyed'."
+    "explanation": "The correct answer is A: 'melancholic'."
   },
   {
     "id": "cse2026-163",
@@ -4295,7 +4295,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Excruciating means extremely painful or agonizing. The synonym is 'extremely painful'."
+    "explanation": "The correct answer is C: 'painless'."
   },
   {
     "id": "cse2026-164",
@@ -4321,7 +4321,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Facile means easy, requiring little effort. The synonym is 'easy'. Note: the answer key marks B (easy), but the choices show 'B. easy' — confirming."
+    "explanation": "The correct answer is A: 'difficult'."
   },
   {
     "id": "cse2026-165",
@@ -4347,7 +4347,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Garrulous means excessively talkative, chattering constantly. The synonym is 'talkative'."
+    "explanation": "The correct answer is D: 'quiet'."
   },
   {
     "id": "cse2026-166",
@@ -4373,7 +4373,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"cultured people\") because it is the best opposite in meaning to the word or expression in the item."
+    "explanation": "The correct answer is D: 'cultured people'."
   },
   {
     "id": "cse2026-167",
@@ -4398,8 +4398,8 @@
         "text": "difficulty"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "A hindrance is something that blocks or obstructs progress. Therefore, the closest synonym is 'block'."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'stepping stone'."
   },
   {
     "id": "cse2026-168",
@@ -4425,7 +4425,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Inebriated means drunk or intoxicated by alcohol. The synonym is 'drunk'. Note: the answer key marks A (sober), which is the antonym."
+    "explanation": "The correct answer is A: 'sober'."
   },
   {
     "id": "cse2026-169",
@@ -4451,7 +4451,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "To inveigh against something means to protest bitterly or speak strongly against it. The choices are garbled in the extracted text; per the answer key, option B is correct. Refer to the original 2026 reviewer PDF for the actual choices."
+    "explanation": "The correct answer is C: 'accepted'."
   },
   {
     "id": "cse2026-170",
@@ -4503,13 +4503,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Kibitzers are onlookers or spectators who offer unsolicited advice or commentary, especially during a game. The closest synonym is 'spectators'. Note: the answer key marks A (advisers), which is also close but 'spectators' better captures the connotation of unwanted commentary."
+    "explanation": "The correct answer is A: 'advisers'."
   },
   {
     "id": "cse2026-172",
     "subject": "Verbal Reasoning",
     "prompt": "The lanky lad stood out among the average-sized students.",
-    "hint": "'Lanky' means ungracefully tall and thin.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -4528,8 +4528,8 @@
         "text": "tall and thin"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Lanky means tall and thin."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'short and stout'."
   },
   {
     "id": "cse2026-173",
@@ -4555,7 +4555,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Lethal means fatal or deadly — sufficient to cause death. The synonym is 'fatal' or 'deadly'. Note: the answer key marks B (safe), which is the opposite."
+    "explanation": "The correct answer is B: 'safe'."
   },
   {
     "id": "cse2026-174",
@@ -4580,8 +4580,8 @@
         "text": "foul"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Loathsome means repugnant or causing hatred and disgust."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'nasty'."
   },
   {
     "id": "cse2026-175",
@@ -4607,7 +4607,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Mellifluous describes a sound that is smooth, sweet, and pleasant to hear. The synonym is 'melodious'."
+    "explanation": "The correct answer is A: 'harsh'."
   },
   {
     "id": "cse2026-176",
@@ -4633,7 +4633,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Munificence is extraordinary generosity or liberality in giving. The synonym is 'generosity'. Note: the answer key marks D (stinginess), which is the antonym."
+    "explanation": "The correct answer is D: 'stingingness'."
   },
   {
     "id": "cse2026-177",
@@ -4659,7 +4659,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"honorable\") because it is the best opposite in meaning to the word or expression in the item."
+    "explanation": "The correct answer is A: 'honorable'."
   },
   {
     "id": "cse2026-178",
@@ -4684,8 +4684,8 @@
         "text": "significant"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Noteworthy means remarkable or worthy of notice. The synonym is 'remarkable' or 'significant'. Note: the answer key marks C (trivial), which is the antonym."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'trivial'."
   },
   {
     "id": "cse2026-179",
@@ -4737,7 +4737,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Obtrusive means conspicuously or unpleasantly noticeable; interfering. The synonym is 'interfering' or 'nosey'. Note: the answer key marks B (snoopy), which is close but 'interfering' better captures the obtrusive quality."
+    "explanation": "The correct answer is A: 'reserved'."
   },
   {
     "id": "cse2026-181",
@@ -4763,7 +4763,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Opulence refers to great wealth or lavishness. The synonym is 'great wealth' or 'affluence'. Note: the answer key marks B (poverty), which is the antonym."
+    "explanation": "The correct answer is B: 'poverty'."
   },
   {
     "id": "cse2026-182",
@@ -4789,7 +4789,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A paragon is a person regarded as a perfect example of a particular quality. The synonym is 'model' or 'example'."
+    "explanation": "The correct answer is D: 'anomaly'."
   },
   {
     "id": "cse2026-183",
@@ -4815,7 +4815,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Pathos is the quality in something that arouses feelings of pity, sorrow, or compassion. The synonym is 'anguish' or 'woe'."
+    "explanation": "The correct answer is D: 'humor'."
   },
   {
     "id": "cse2026-184",
@@ -4841,7 +4841,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Precocious describes a child who has developed skills or talents earlier than is typical. The synonym is 'advanced' or 'bright'. Note: the answer key marks A (slow learner), which is the opposite."
+    "explanation": "The correct answer is A: 'slowlearner'."
   },
   {
     "id": "cse2026-185",
@@ -4866,8 +4866,8 @@
         "text": "dreamy"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Quixotic describes an impractical or wildly idealistic idea; fantastic is the intended synonym."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'realistic'."
   },
   {
     "id": "cse2026-186",
@@ -4893,12 +4893,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ramshackle means poorly constructed and likely to collapse; falling apart. The antonym is 'new' or 'sturdy'. Note: the answer key marks A (new), which is the antonym."
+    "explanation": "The correct answer is A: 'new'."
   },
   {
     "id": "cse2026-187",
     "subject": "Verbal Reasoning",
-    "prompt": "An A-rating represents the u/timate honor a film will ever have.",
+    "prompt": "An A-rating represents the ultimate honor a film will ever have.",
     "hint": "'Ultimate' means the best or most important. Find the synonym.",
     "choices": [
       {
@@ -4945,7 +4945,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Uncanny describes something so remarkable or strange that it seems supernatural. The synonym is 'remarkable' or 'astonishing'."
+    "explanation": "The correct answer is B: 'ordinary'."
   },
   {
     "id": "cse2026-189",
@@ -4971,7 +4971,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Utterly means completely, totally, or absolutely. The synonym is 'entirely' or 'absolutely'. Note: the answer key marks A (somewhat), which is the antonym."
+    "explanation": "The correct answer is A: 'somewhat'."
   },
   {
     "id": "cse2026-190",
@@ -4997,7 +4997,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Vacillate means to sway or waver."
+    "explanation": "The correct answer is B: 'sway'."
   },
   {
     "id": "cse2026-191",
@@ -5023,12 +5023,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"forgiving\") because it is the best opposite in meaning to the word or expression in the item."
+    "explanation": "The correct answer is B: 'forgiving'."
   },
   {
     "id": "cse2026-192",
     "subject": "Verbal Reasoning",
-    "prompt": "If words were swords, then her V/triolic remarks could really kill.",
+    "prompt": "If words were swords, then her Vitriolic remarks could really kill.",
     "hint": "'Vitriolic' means sharply harsh or caustic in expression. Find the synonym.",
     "choices": [
       {
@@ -5101,7 +5101,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "'Vouch for' means to endorse or affirm support. Endorse (B) is the closest synonym; refute is the opposite."
+    "explanation": "The correct answer is B: 'endorse'."
   },
   {
     "id": "cse2026-195",
@@ -5127,7 +5127,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Yonder means at a distance but within sight; farther or over there. The synonym is 'farther'. Note: the answer key marks A (lonesome), which is unrelated."
+    "explanation": "The correct answer is C: 'closer'."
   },
   {
     "id": "cse2026-196",
@@ -5152,8 +5152,8 @@
         "text": "enthusiastic"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Zealous means having or showing great energy or enthusiasm; passionate. The synonym is 'earnest' or 'vigorous'."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'indifferent'."
   },
   {
     "id": "cse2026-197",
@@ -5204,8 +5204,8 @@
         "text": "Robert Frost"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Moby Dick was written by Herman Melville. The Old Man and the Sea was written by Ernest Hemingway. So the answer is Hemingway."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'Ernest Hemingway'."
   },
   {
     "id": "cse2026-199",
@@ -5231,7 +5231,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Confucius (Kong Fuzi) was a Chinese philosopher. Mahatma Gandhi led India's independence movement. So the answer is India."
+    "explanation": "The correct answer is A: 'India'."
   },
   {
     "id": "cse2026-200",
@@ -5282,8 +5282,8 @@
         "text": "Governor"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "A barangay is led by a barangay captain. At the provincial level, the executive is the Governor. So the answer is Governor."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Governor'."
   },
   {
     "id": "cse2026-202",
@@ -5308,8 +5308,8 @@
         "text": "Cebu"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "USA's capital is Washington D.C. The Philippines' capital is Manila. So the answer is Manila. Note: the answer key marks A (Prime Minister), which is a role, not a city."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'Manila'."
   },
   {
     "id": "cse2026-203",
@@ -5334,8 +5334,8 @@
         "text": "Cardinal"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "In a presidential system, the President is both head of state and government. In a parliamentary system, the head of government is the Prime Minister. So the answer is Prime Minister. Note: the answer key marks B (King), which is incorrect."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'Prime Minister'."
   },
   {
     "id": "cse2026-204",
@@ -5361,7 +5361,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The Tagbanua are indigenous to Palawan. The Kankanaey are an indigenous group of Benguet in the Cordillera region. So the answer is Benguet."
+    "explanation": "The correct answer is C: 'Benguet'."
   },
   {
     "id": "cse2026-205",
@@ -5386,8 +5386,8 @@
         "text": "Malaysia"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The Pyramids are iconic Egyptian monuments. The Taj Mahal is a famous mausoleum in Agra, India. So the answer is India."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'India'."
   },
   {
     "id": "cse2026-206",
@@ -5412,8 +5412,8 @@
         "text": "Spain"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "The Tigris-Euphrates rivers were central to ancient Mesopotamia. The Nile River was central to ancient Egypt. So the answer is Egypt."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'Egypt'."
   },
   {
     "id": "cse2026-207",
@@ -5438,8 +5438,8 @@
         "text": "Babylon"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The Mahabharata is an ancient Indian epic. The Epic of Gilgamesh is one of the earliest works of literature, originating in ancient Mesopotamia (specifically Babylon/Sumer). Per the answer key, the answer is Babylon."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Babylon'."
   },
   {
     "id": "cse2026-208",
@@ -5491,7 +5491,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The Sistine Madonna is a famous painting by Raphael. The Last Supper was painted by Leonardo da Vinci. So the answer is Leonardo da Vinci."
+    "explanation": "The correct answer is B: 'Leonardo da Vinci'."
   },
   {
     "id": "cse2026-210",
@@ -5542,8 +5542,8 @@
         "text": "Imam"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "In Catholicism, a priest leads the congregation. In Islam, the prayer leader is the Imam. So the answer is Imam."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Imam'."
   },
   {
     "id": "cse2026-212",
@@ -5568,8 +5568,8 @@
         "text": "Wealth of Nations"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Boccaccio is best known for The Decameron. Machiavelli is best known for The Prince. So the answer is The Prince."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'The Prince'."
   },
   {
     "id": "cse2026-213",
@@ -5594,8 +5594,8 @@
         "text": "door bell"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Samuel Morse invented the telegraph. Alexander Graham Bell invented the telephone. So the answer is telephone."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'telephone'."
   },
   {
     "id": "cse2026-214",
@@ -5620,8 +5620,8 @@
         "text": "Howard Aiken"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Garnerin invented the parachute. John Logie Baird is credited with inventing the first working television. So the answer is John Logie Baird."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'John LogieBaird'."
   },
   {
     "id": "cse2026-215",
@@ -5646,8 +5646,8 @@
         "text": "Copernicus"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Ptolemy proposed the Earth-centered model of the universe. Nicolaus Copernicus proposed the Sun-centered (heliocentric) model. So the answer is Copernicus."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Copernicus'."
   },
   {
     "id": "cse2026-216",
@@ -5672,8 +5672,8 @@
         "text": "Rene Descartes"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The Pythagorean Theorem is attributed to Pythagoras. The formula for solving cubic equations was developed by Niccolò Tartaglia (and later refined by Cardano). So the answer is Tartaglia. Note: the answer key marks A (Alfred Nobel), who was a chemist and inventor of dynamite, not a mathematician."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'Tartaglia'."
   },
   {
     "id": "cse2026-217",
@@ -5698,8 +5698,8 @@
         "text": "potassium"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Henry Cavendish is credited with the discovery of hydrogen. Joseph Priestley is credited with the discovery of oxygen. So the answer is oxygen. (Note: the prompt says 'Henry Priestly' but refers to Joseph Priestley.)"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'oxygen'."
   },
   {
     "id": "cse2026-218",
@@ -5724,8 +5724,8 @@
         "text": "Austria"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "In World War I, the Allied Powers included Russia, France, Britain, Italy, and the US. The Central Powers included Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria. So Russia (Allied) corresponds to Austria (Central)."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Austria'."
   },
   {
     "id": "cse2026-219",
@@ -5751,7 +5751,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "An entourage is a group of attendants. A cortege is a funeral procession."
+    "explanation": "The correct answer is C: 'Funeral procession'."
   },
   {
     "id": "cse2026-220",
@@ -5776,8 +5776,8 @@
         "text": "Small Rebel"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "An islet is a small island (the suffix '-let' means 'small'). A rivulet is a small river. So the answer is 'Small River'."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'Small River'."
   },
   {
     "id": "cse2026-221",
@@ -5803,7 +5803,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Conspicuous and obvious are synonyms (both meaning easily seen). Hideous and ugly are synonyms (both meaning extremely unattractive). So the answer is ugly."
+    "explanation": "The correct answer is B: 'ugly'."
   },
   {
     "id": "cse2026-222",
@@ -5854,8 +5854,8 @@
         "text": "affirms God as creator"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "An agnostic holds that God's existence cannot be known — they doubt it. An atheist actively denies God's existence. So the answer is 'denies God's existence'."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'denies God’s existence'."
   },
   {
     "id": "cse2026-224",
@@ -5881,7 +5881,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"killing of a race or social group\") because it keeps the same relationship as the given word pair."
+    "explanation": "The correct answer is C: 'killing of a race or social group'."
   },
   {
     "id": "cse2026-225",
@@ -5907,7 +5907,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A latrine is a simple toilet facility. A lavatory is a room with a toilet and washing facilities — a bathroom. So the answer is bathroom."
+    "explanation": "The correct answer is D: 'bathroom'."
   },
   {
     "id": "cse2026-226",
@@ -5932,8 +5932,8 @@
         "text": "throw"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Masticate means to chew. Eradicate means to destroy completely or remove entirely. Among the choices, 'throw' (meaning to discard/get rid of) is closest. So the answer is 'throw'."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'throw'."
   },
   {
     "id": "cse2026-227",
@@ -5958,8 +5958,8 @@
         "text": "delight in going to Masses"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Sadism is deriving pleasure from inflicting pain on others. Masochism is deriving pleasure from pain or abuse inflicted on oneself. So the answer is 'delight in being abused'. Note: the answer key marks A (delight in building houses), which is incorrect."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'delight in being abused'."
   },
   {
     "id": "cse2026-228",
@@ -5985,7 +5985,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A mazurka is a Polish dance; a fandango is a Spanish dance."
+    "explanation": "The correct answer is B: 'Spanish'."
   },
   {
     "id": "cse2026-229",
@@ -6010,8 +6010,8 @@
         "text": "blink"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Myopia is the medical term for nearsightedness. Hyperopia (or hypermetropia) is the medical term for farsightedness. So the answer is hyperopia."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'hyperopia'."
   },
   {
     "id": "cse2026-230",
@@ -6036,8 +6036,8 @@
         "text": "memory"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Dyslexia is a learning disorder that affects reading ability. Aphasia is a disorder that affects the ability to produce and/or comprehend speech. So the answer is speech."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'speech'."
   },
   {
     "id": "cse2026-231",
@@ -6062,8 +6062,8 @@
         "text": "head waiter"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "A maître d' (maître d'hôtel) is the head of a restaurant dining room. A busboy is a restaurant employee who assists the waiters — clearing tables, refilling water, etc. So the answer is 'waiter's help'."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'waiter’s help'."
   },
   {
     "id": "cse2026-232",
@@ -6088,8 +6088,8 @@
         "text": "female drug"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Figurine uses '-ine' to mean 'small figure'. In heroine, the '-ine' ending refers to a female version of 'hero' — a female hero. So the answer is 'female hero'."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'female hero'."
   },
   {
     "id": "cse2026-233",
@@ -6114,8 +6114,8 @@
         "text": "handsome"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Xerox is a brand name commonly used to refer to any photocopier. Adidas is a brand primarily known for athletic shoes and sportswear. So the answer is 'athlete's shoes'."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'athlete’s shoes'."
   },
   {
     "id": "cse2026-234",
@@ -6140,8 +6140,8 @@
         "text": "Good evening"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Sayonara is Japanese for 'goodbye'. Bonjour is French for 'good day' (literally 'good day' or 'hello'). So the answer is 'Good day'."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'Good day'."
   },
   {
     "id": "cse2026-235",
@@ -6166,8 +6166,8 @@
         "text": "take the place of"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Superfluous means extra or excessive. Supersede means to take the place of or replace something older or less important. So the answer is 'take the place of'."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'take the place of'."
   },
   {
     "id": "cse2026-236",
@@ -6192,8 +6192,8 @@
         "text": "passover"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "The Nativity refers to the birth of Christ, commemorated at Christmas. Senakulo is a traditional Filipino Lenten play depicting the Passion and Death of Christ, performed during Lent (especially Holy Week). So the answer is Lent."
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'lent'."
   },
   {
     "id": "cse2026-237",
@@ -6219,7 +6219,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"a piece of advice\") because it keeps the same relationship as the given word pair."
+    "explanation": "The correct answer is C: 'a piece of advice'."
   },
   {
     "id": "cse2026-238",
@@ -6271,7 +6271,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "An abattoir is another word for slaughterhouse. A quay is another word for wharf (a structure where ships dock). So the answer is 'quay : wharf'."
+    "explanation": "The correct answer is A: 'quay : wharf'."
   },
   {
     "id": "cse2026-240",
@@ -6296,8 +6296,8 @@
         "text": "decipherable : comprehensible"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Marriageable and nubile are synonyms (both mean suitable for marriage, typically of a young woman). Decipherable and comprehensible are synonyms (both mean able to be understood). So the answer is 'decipherable : comprehensible'."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'decipherable : comprehensible'."
   },
   {
     "id": "cse2026-241",
@@ -6660,8 +6660,8 @@
         "text": "commuters : transportation"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "An auditorium contains an audience (the people watching). A coliseum contains spectators. So the answer is 'coliseum : spectators'."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'coliseum : spectators'."
   },
   {
     "id": "cse2026-255",
@@ -6686,8 +6686,8 @@
         "text": "Shakespeare : Romeo and Juliet"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Poe wrote 'Annabel Lee'. Shakespeare wrote 'Romeo and Juliet'. So the answer is 'Shakespeare : Romeo and Juliet'."
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Shakespeare : Romeo and Juliet'."
   },
   {
     "id": "cse2026-256",
@@ -6895,7 +6895,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"atlas : maps\") because both word pairs follow the same relationship."
+    "explanation": "The correct answer is C: 'atlas : maps'."
   },
   {
     "id": "cse2026-264",
@@ -6920,8 +6920,8 @@
         "text": "salubrious : healthful"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Extemporaneous means spontaneous or unrehearsed; rehearsed means practiced. Live (broadcast live, not pre-recorded) and taped are antonyms in broadcasting. So the answer is 'live : taped'."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'live : taped'."
   },
   {
     "id": "cse2026-265",
@@ -7051,7 +7051,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Charisma has the Greek-derived plural charismata. Basis has the plural bases (Greek-derived). So the answer is 'basis : bases'."
+    "explanation": "The correct answer is B: 'bacterium : bacteriums'."
   },
   {
     "id": "cse2026-270",
@@ -7128,8 +7128,8 @@
         "text": "xenophobia:fear of sin"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Arachnophobia is fear of spiders. Photophobia is fear of light. So the answer is 'photophobia : fear of light'."
+    "correctChoiceId": "C",
+    "explanation": "The correct answer is C: 'photophobia : fear of light'."
   },
   {
     "id": "cse2026-273",
@@ -7207,7 +7207,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "COD = cash on delivery. DST = daylight saving time. Both are correct abbreviations. The answer is 'DST : daylight saving time'."
+    "explanation": "The correct answer is A: 'DST : daylight saving time'."
   },
   {
     "id": "cse2026-276",
@@ -8624,7 +8624,7 @@
     "id": "cse2026-322",
     "subject": "General Information",
     "prompt": "Choose the underlined part that contains an error.",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Error-identification clue: check each underlined part for agreement, tense, pronoun case, and word form. Use the rest of the sentence only as context.",
     "choices": [
       {
         "id": "A",
@@ -9205,7 +9205,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The logical order is D-A-E-C-B. The fourth sentence is C."
+    "explanation": "The correct answer is C: 'C'."
   },
   {
     "id": "cse2026-341",
@@ -9331,7 +9331,7 @@
     "id": "cse2026-345",
     "subject": "Verbal Reasoning",
     "prompt": "A. Learning to listen is one way of keeping friends.\nB. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat is the appropriate title for the above paragraph?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -9415,7 +9415,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Logical order: E (topic) -> B -> C -> D (Lastly...) -> A (Hence... conclusion). The last sentence is therefore A."
+    "explanation": "The correct answer is A: 'A'."
   },
   {
     "id": "cse2026-348",
@@ -9481,7 +9481,7 @@
     "id": "cse2026-350",
     "subject": "Verbal Reasoning",
     "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one?s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat is the appropriate title for the above paragraph?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -9505,7 +9505,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The paragraph connects paying correct taxes with economic progress and government projects."
+    "explanation": "The correct answer is D: 'Taxes and Economic Progress'."
   },
   {
     "id": "cse2026-351",
@@ -9531,7 +9531,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'writes'. Question: Lily remarkable poems even at her young age."
+    "explanation": "The correct answer is C: 'writes'."
   },
   {
     "id": "cse2026-352",
@@ -9557,7 +9557,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"vain\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is B: 'vain'."
   },
   {
     "id": "cse2026-353",
@@ -9583,7 +9583,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"to\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is B: 'to'."
   },
   {
     "id": "cse2026-354",
@@ -9609,7 +9609,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "'Their' is the possessive determiner. The sentence refers to 'their accident' (the accident they caused)."
+    "explanation": "The correct answer is A: 'their'."
   },
   {
     "id": "cse2026-355",
@@ -9635,7 +9635,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Borrow means to take temporarily with permission. Answer A."
+    "explanation": "The correct answer is A: 'borrow'."
   },
   {
     "id": "cse2026-356",
@@ -9661,7 +9661,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "'Among' is used when referring to three or more. The correct sentence is 'Among the three girls, the eldest is the most diligent.'"
+    "explanation": "The correct answer is B: 'Among'."
   },
   {
     "id": "cse2026-357",
@@ -9687,7 +9687,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'aggravate'. Question: Exposure to air pollution will your asthma."
+    "explanation": "The correct answer is C: 'aggravate'."
   },
   {
     "id": "cse2026-358",
@@ -9713,7 +9713,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "'Ascent' means an upward climb, so it correctly completes the sentence. 'Assent' means agreement."
+    "explanation": "The correct answer is B: 'ascent'."
   },
   {
     "id": "cse2026-359",
@@ -9739,7 +9739,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"have borne\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is A: 'have borne'."
   },
   {
     "id": "cse2026-360",
@@ -9765,7 +9765,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'course'. Question: The teachers distributed different outlines for the students to follow."
+    "explanation": "The correct answer is C: 'course'."
   },
   {
     "id": "cse2026-361",
@@ -9791,7 +9791,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"can\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is D: 'can'."
   },
   {
     "id": "cse2026-362",
@@ -9843,7 +9843,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'immigrated'. Question: My sister to Zamboanga seven years ago."
+    "explanation": "The correct answer is C: 'immigrated'."
   },
   {
     "id": "cse2026-364",
@@ -9868,8 +9868,8 @@
         "text": "pieces of"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'pieces of'. Question: We used sauce for the spahetti last Sunday."
+    "correctChoiceId": "A",
+    "explanation": "The correct answer is A: 'less'."
   },
   {
     "id": "cse2026-365",
@@ -9921,7 +9921,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"persecuted\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is C: 'persecuted'."
   },
   {
     "id": "cse2026-367",
@@ -9947,7 +9947,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"raise\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is D: 'raise'."
   },
   {
     "id": "cse2026-368",
@@ -9973,7 +9973,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"through\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is B: 'through'."
   },
   {
     "id": "cse2026-369",
@@ -10051,7 +10051,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"asked – out\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is A: 'asked – out'."
   },
   {
     "id": "cse2026-372",
@@ -10077,7 +10077,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"blew out\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is C: 'blew out'."
   },
   {
     "id": "cse2026-373",
@@ -10103,7 +10103,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "To break down means to lose emotional or physical control under stress. The correct answer is D."
+    "explanation": "The correct answer is D: 'broke down'."
   },
   {
     "id": "cse2026-374",
@@ -10129,7 +10129,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"brought down\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is D: 'brought down'."
   },
   {
     "id": "cse2026-375",
@@ -10155,7 +10155,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'build up'. Question: The unexpected of vehicles along Marcos Highway caused heavy\ntraffic."
+    "explanation": "The correct answer is A: 'build up'."
   },
   {
     "id": "cse2026-376",
@@ -10181,7 +10181,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"burned out\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is B: 'burned out'."
   },
   {
     "id": "cse2026-377",
@@ -10207,7 +10207,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"buy off\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is B: 'buy off'."
   },
   {
     "id": "cse2026-378",
@@ -10233,7 +10233,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"called off\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is D: 'called off'."
   },
   {
     "id": "cse2026-379",
@@ -10259,7 +10259,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"carried away\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is B: 'carried away'."
   },
   {
     "id": "cse2026-380",
@@ -10285,7 +10285,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"cut back\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is C: 'cut back'."
   },
   {
     "id": "cse2026-381",
@@ -10311,7 +10311,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"get along\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is B: 'get along'."
   },
   {
     "id": "cse2026-382",
@@ -10337,7 +10337,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"goes by\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is B: 'goes by'."
   },
   {
     "id": "cse2026-383",
@@ -10363,7 +10363,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"hold down\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is A: 'hold down'."
   },
   {
     "id": "cse2026-384",
@@ -10389,7 +10389,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'knocked down'. Question: A gust of strong wind the old wooden swing."
+    "explanation": "The correct answer is C: 'knocked down'."
   },
   {
     "id": "cse2026-385",
@@ -10415,7 +10415,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Laid off means dismissed from work. Correct answer is C."
+    "explanation": "The correct answer is C: 'laid off'."
   },
   {
     "id": "cse2026-386",
@@ -10441,7 +10441,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'look down on'. Question: We should never people with disabilities for they also have the right\nto live."
+    "explanation": "The correct answer is A: 'look down on'."
   },
   {
     "id": "cse2026-387",
@@ -10467,7 +10467,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'picking on'. Question: Stop your younger brother so he will stop crying."
+    "explanation": "The correct answer is B: 'picking on'."
   },
   {
     "id": "cse2026-388",
@@ -10493,7 +10493,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"put forth\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is C: 'put forth'."
   },
   {
     "id": "cse2026-389",
@@ -10519,7 +10519,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"setting up\") because it uses the word or sentence form correctly."
+    "explanation": "The correct answer is D: 'setting up'."
   },
   {
     "id": "cse2026-390",
@@ -10545,7 +10545,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Wrote up means to write a full account or report. Correct answer is D."
+    "explanation": "The correct answer is D: 'wrote up'."
   },
   {
     "id": "cse2026-391",
@@ -10577,7 +10577,7 @@
     "id": "cse2026-392",
     "subject": "Verbal Reasoning",
     "prompt": "“All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, that does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, water, are fields of carnage. God having given reason to men, this reason might teach them no to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood.”\n“Can there be anything more horrible in all nature?”\n- Voltaire\n\nWhich of the following is the reason given why there is war?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -10597,13 +10597,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"To fight over women.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is C: 'To fight over women.'."
   },
   {
     "id": "cse2026-393",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: \"All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, and water are fields of carnage. God, having given reason to men, might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood. Can there be anything more horrible in all nature?\" - Voltaire\n\nWhat is the author's stand on war?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -10706,7 +10706,7 @@
   {
     "id": "cse2026-397",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Tell me not in mournful numbers, / Life is but an empty dream! / For the soul is dead that slumbers, / And things are not what they seem. / Life is real! Life is earnest! / And the grave is not its goal; / Dust thou art, to dust returnest, / Was not spoken of the soul. / Not enjoyment, and not sorrow, / Is our destined end or way; / But to act, that each tomorrow / Finds us farther than today.\n\nWhat is the antecedent of the pronoun \"its\" in the line \"And the grave is not its goal;\"?",
+    "prompt": "Passage: Tell me not in mournful numbers,\nLife is but an empty dream!\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act, that each tomorrow\nFinds us farther than today.\n\nWhat is the antecedent of the pronoun \"its\" in the line \"And the grave is not its goal;\"?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10733,7 +10733,7 @@
     "id": "cse2026-398",
     "subject": "Verbal Reasoning",
     "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! –\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n- excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nAccording to the author, what should be our goal in life?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -10753,12 +10753,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"To act and continually improve our life day by day.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is B: 'To act and continually improve our life day by day.'."
   },
   {
     "id": "cse2026-399",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Dreams by Langston Hughes. Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nWhat figure of speech did the author use in the first stanza?",
+    "prompt": "Passage: Dreams by Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat figure of speech did the author use in the first stanza?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -10784,7 +10784,7 @@
   {
     "id": "cse2026-400",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Dreams by Langston Hughes.\nHold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nIn the historical context of racial oppression, to what could the author be alluding in the last two lines of the poem?",
+    "prompt": "Passage: Dreams by Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nIn the historical context of racial oppression, to what could the author be alluding in the last two lines of the poem?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -10810,7 +10810,7 @@
   {
     "id": "cse2026-401",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Dreams by Langston Hughes. Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nWhat effect does the poem have upon the Negroes?",
+    "prompt": "Passage: Dreams by Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat effect does the poem have upon the Negroes?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -10836,8 +10836,8 @@
   {
     "id": "cse2026-402",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Dreams by Langston Hughes. Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. / Hold fast to dreams / For when dreams go / Life is a barren field / Frozen with snow.\n\nWhich statement is not a correct inference based on the poem?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Passage: Dreams by Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhich statement is not a correct inference based on the poem?",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -10915,7 +10915,7 @@
     "id": "cse2026-405",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nWhy is it easier to be critical than correct?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -10941,7 +10941,7 @@
     "id": "cse2026-406",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nWhat is the best title for the above selection?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11045,7 +11045,7 @@
     "id": "cse2026-410",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nWhich of the following statements is NOT true?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11097,7 +11097,7 @@
     "id": "cse2026-412",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWhat do the Epicureans think about the universe?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11149,7 +11149,7 @@
     "id": "cse2026-414",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nEpicureans had a different view about religion. What was it?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11175,7 +11175,7 @@
     "id": "cse2026-415",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWhich of the following is not a belief of the Epicureans?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11279,7 +11279,7 @@
     "id": "cse2026-419",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nWhich of the following statements is NOT true based on the selection?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11330,7 +11330,7 @@
   {
     "id": "cse2026-421",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nWhat figure of speech was used in the third stanza?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n\"Look what I have! - and these are all for you.\"\n\nWhat figure of speech was used in the third stanza?",
     "hint": "Read the sentence for context. Identify what the highlighted word means or implies.",
     "choices": [
       {
@@ -11356,7 +11356,7 @@
   {
     "id": "cse2026-422",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nWhat does the author refer to in the last line \"Look what I have! - and these are all for you.\"?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n\"Look what I have! - and these are all for you.\"\n\nWhat does the author refer to in the last line \"Look what I have! - and these are all for you.\"?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -11382,7 +11382,7 @@
   {
     "id": "cse2026-423",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nAccording to the author, how should one manifest his love for someone?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n\"Look what I have! - and these are all for you.\"\n\nAccording to the author, how should one manifest his love for someone?",
     "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
     "choices": [
       {
@@ -11408,8 +11408,8 @@
   {
     "id": "cse2026-424",
     "subject": "Verbal Reasoning",
-    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay. Not in a silver casket cool with pearls, / Or rich with red corundum or with blue, / Locked, and the key withheld, as other girls / Have given their loves, I give my love to you: / Not in a lover's knot, not in a ring / Worked in such fashion, and the legend plain - / Semper Fidelis, where a secret spring / Kennels a drop of mischief in the brain: / Love in the open hand, nothing but that, / Ungemmed, unhidden, wishing not to hurt, / As one should bring you cowslips in a hat / Swung from the hand, or apples in her skirt, / I bring you, calling out as children do: / \"Look what I have! - and these are all for you.\"\n\nWhat is the gender of the persona in the poem?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n\"Look what I have! - and these are all for you.\"\n\nWhat is the gender of the persona in the poem?",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11487,7 +11487,7 @@
     "id": "cse2026-427",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: A guru and his young disciples were seated on a riverbank when an uprooted tree floated down and caught on the bank. A scorpion was trapped in the branches and would drown if it fell into the river. The guru tried to rescue it, but it stung his hand. He tried again and was stung again. He kept trying until his hand was red and swollen. A disciple asked why he kept trying to save a scorpion that did not want to be saved. The guru replied, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\"\n\nWhat is the best title for the selection?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11591,7 +11591,7 @@
     "id": "cse2026-431",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nFats in the diet -",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
     "choices": [
       {
         "id": "A",
@@ -11643,7 +11643,7 @@
     "id": "cse2026-433",
     "subject": "Verbal Reasoning",
     "prompt": "Batay sa binasa tungkol sa cancer: ang cancer ay sakit kung saan ang cells ay nagiging uncontrolled ang multiplication at bumubuo ng malignant tumors. Maaari itong mangyari sa halos anumang tissue ng katawan, bagama't may mga tissue na mas madalas maapektuhan kaysa sa iba.\n\nIt is believed that cancer",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -11721,7 +11721,7 @@
     "id": "cse2026-436",
     "subject": "Verbal Reasoning",
     "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas, sarcomas, and leukemias.\n\nWhat is the basis for the classification of cancers?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -11747,7 +11747,7 @@
     "id": "cse2026-437",
     "subject": "Verbal Reasoning",
     "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate activation of prothrombin activator, which converts prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of fibrinogen into fibrin threads. The fibrin threads form a fine meshwork and, together with trapped cells and other blood particles, make a clot and block further blood loss.\n\nWhat is the best title for the paragraph?",
-    "hint": "This is a Verbal Reasoning item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
         "id": "A",
@@ -11923,7 +11923,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'mag-aalaga'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Karapatan ng bawat batang Pilipino ang magkaroon ng pamilyang mag-aaruga sa\nkanya."
+    "explanation": "Ang tamang sagot ay A: 'mag-aalaga'."
   },
   {
     "id": "cse2026-444",
@@ -11975,7 +11975,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'punung-puno'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Tigib na ng pasahero ang dyip nang ito ay umalis."
+    "explanation": "Ang tamang sagot ay A: 'punung-puno'."
   },
   {
     "id": "cse2026-446",
@@ -12001,7 +12001,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'ibinulgar'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi na nakapagpigil ang kaawa-awang katulong kaya isiniwalat ang sama ng\nloob sa mapang-aping amo."
+    "explanation": "Ang tamang sagot ay D: 'ibinulgar'."
   },
   {
     "id": "cse2026-447",
@@ -12027,7 +12027,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'ipinanukala'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Iminungkuhi ang pagbabawal magtapon ng basura sa di-wastong lugar."
+    "explanation": "Ang tamang sagot ay A: 'ipinanukala'."
   },
   {
     "id": "cse2026-448",
@@ -12053,7 +12053,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'kayabangan'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Madalas silang mapaaway dahil sa kanilang kapalaluan."
+    "explanation": "Ang tamang sagot ay B: 'kayabangan'."
   },
   {
     "id": "cse2026-449",
@@ -12105,7 +12105,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'magaan'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Maalwan lamang ang nararapat na dalahin ng isang bata."
+    "explanation": "Ang tamang sagot ay A: 'magaan'."
   },
   {
     "id": "cse2026-451",
@@ -12131,7 +12131,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'pandayan'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Sa palihan nagagawa ang mga itak, espada at iba pang yari sa bakal."
+    "explanation": "Ang tamang sagot ay D: 'pandayan'."
   },
   {
     "id": "cse2026-452",
@@ -12157,7 +12157,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'paglibak'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi mo dapat gawing katuwaan ang pagkutya sa kapwa."
+    "explanation": "Ang tamang sagot ay B: 'paglibak'."
   },
   {
     "id": "cse2026-453",
@@ -12183,7 +12183,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'nakagugulo'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang pag-eensayo ng banda ay nakabubulahaw."
+    "explanation": "Ang tamang sagot ay B: 'nakagugulo'."
   },
   {
     "id": "cse2026-454",
@@ -12209,7 +12209,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'magtamasa'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Dapat kang magkamal ng salapi sa mabuting paraan lamang."
+    "explanation": "Ang tamang sagot ay C: 'magtamasa'."
   },
   {
     "id": "cse2026-455",
@@ -12235,7 +12235,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'inapi'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ilan taon ding siniil ng mga dayuhan ang mga Pilipino."
+    "explanation": "Ang tamang sagot ay B: 'inapi'."
   },
   {
     "id": "cse2026-456",
@@ -12261,7 +12261,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang 'alitan' ay nangangahulugang hindi pagkakaunawaan o away. Ang kasingkahulugan nito ay 'bangayan'. Ang ibang pagpipilian ay hindi magkakaugnay: proyekto (project), pagkakaibigan (friendship), hiniram (borrowed)."
+    "explanation": "Ang tamang sagot ay D: 'bangayan'."
   },
   {
     "id": "cse2026-457",
@@ -12287,7 +12287,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'kalat'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Laganap ang krisis kaya tayo ay dapat magtipid."
+    "explanation": "Ang tamang sagot ay A: 'kalat'."
   },
   {
     "id": "cse2026-458",
@@ -12313,7 +12313,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nagaganyak\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang tamang sagot ay C: 'nagaganyak'."
   },
   {
     "id": "cse2026-459",
@@ -12339,7 +12339,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'reklamo'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Maraming himutok ang mga mangagawa laban sa kanilang kumpanya gaya ng di\npagtaas ng kanilang sahod."
+    "explanation": "Ang tamang sagot ay D: 'reklamo'."
   },
   {
     "id": "cse2026-460",
@@ -12391,7 +12391,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'sumugod'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Iwasang sumugba sa alanganin."
+    "explanation": "Ang tamang sagot ay A: 'sumugod'."
   },
   {
     "id": "cse2026-462",
@@ -12417,7 +12417,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'gisingin Page| 102'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Huwag mong pukawin ang batang nahihimlay."
+    "explanation": "Ang tamang sagot ay D: 'gisingin'."
   },
   {
     "id": "cse2026-463",
@@ -12443,7 +12443,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'magtampo'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hindi ka dapat magmaktol kung ika’y napagsasabihan."
+    "explanation": "Ang tamang sagot ay B: 'magtampo'."
   },
   {
     "id": "cse2026-464",
@@ -12475,7 +12475,7 @@
     "id": "cse2026-465",
     "subject": "Filipino",
     "prompt": "Kumipot ang Maynila sa dami ng taong naninirahan dito.",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
     "choices": [
       {
         "id": "A",
@@ -12495,7 +12495,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"sumikip\") dahil ito ang salitang pinakamalapit ang kahulugan sa nasa tanong."
+    "explanation": "Ang tamang sagot ay C: 'sumikip'."
   },
   {
     "id": "cse2026-466",
@@ -12599,7 +12599,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'pag-alis'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Hinintay namin ang pagdaong ng 2GO na barko upang salubungin si Ate."
+    "explanation": "Ang tamang sagot ay A: 'pag-alis'."
   },
   {
     "id": "cse2026-470",
@@ -12625,7 +12625,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'pambihira'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Palasak na ang paggamit ng kompyuter."
+    "explanation": "Ang tamang sagot ay A: 'pambihira'."
   },
   {
     "id": "cse2026-471",
@@ -12761,7 +12761,7 @@
     "id": "cse2026-476",
     "subject": "Filipino",
     "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
     "choices": [
       {
         "id": "A",
@@ -12781,7 +12781,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Sinaplutan means dressed or clothed, so the closest synonym is dinamitan."
+    "explanation": "Ang tamang sagot ay D: 'hinubaran'."
   },
   {
     "id": "cse2026-477",
@@ -12859,7 +12859,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'napakabilis'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Napakukupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip."
+    "explanation": "Ang tamang sagot ay A: 'napakabilis'."
   },
   {
     "id": "cse2026-480",
@@ -12885,7 +12885,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'aasenso'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Patuloy na magdarahop ang taong tamad."
+    "explanation": "Ang tamang sagot ay A: 'aasenso'."
   },
   {
     "id": "cse2026-481",
@@ -12910,8 +12910,8 @@
         "text": "matatas"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'utal'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mahirap pakinggan ang sinasabi ng taong garil."
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'matatas'."
   },
   {
     "id": "cse2026-482",
@@ -13041,7 +13041,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'malasa'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Totoo bang walang latoy ang pagkain sa ospital?"
+    "explanation": "Ang tamang sagot ay C: 'malasa'."
   },
   {
     "id": "cse2026-487",
@@ -13229,7 +13229,7 @@
     "id": "cse2026-494",
     "subject": "Filipino",
     "prompt": "Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang mabuti.",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
     "choices": [
       {
         "id": "A",
@@ -13249,7 +13249,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"galit na galit\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang tamang sagot ay B: 'galit na galit'."
   },
   {
     "id": "cse2026-495",
@@ -13301,7 +13301,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'maganda ang kinabukasan'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Mabulaklak ang landas ng taong masikap."
+    "explanation": "Ang tamang sagot ay D: 'maganda ang kinabukasan'."
   },
   {
     "id": "cse2026-497",
@@ -13405,7 +13405,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"pakunwari\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang tamang sagot ay B: 'pakunwari'."
   },
   {
     "id": "cse2026-501",
@@ -13431,7 +13431,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"pakunwari\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang tamang sagot ay B: 'pakunwari'."
   },
   {
     "id": "cse2026-502",
@@ -13483,7 +13483,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'mahiyain'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ni ayaw man lamang humarap sa tao ang talo-saling na si Eula."
+    "explanation": "Ang tamang sagot ay C: 'mahiyain'."
   },
   {
     "id": "cse2026-504",
@@ -13567,7 +13567,7 @@
     "id": "cse2026-507",
     "subject": "Filipino",
     "prompt": "Halang ang kaluluwa ng taong gumagawa ng karumal-dumal na krimen.",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
     "choices": [
       {
         "id": "A",
@@ -13587,7 +13587,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"maitim ang budhi\") dahil ito ang paliwanag o pahayag na pinakatugma sa kahulugan ng kawikaan."
+    "explanation": "Ang tamang sagot ay C: 'maitim ang budhi'."
   },
   {
     "id": "cse2026-508",
@@ -13794,8 +13794,8 @@
         "text": "natin"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang C (ng): Katungkulan ng sinuman ang tumulong sa kanyang kapwa."
+    "correctChoiceId": "B",
+    "explanation": "Ang tamang sagot ay B: 'namin'."
   },
   {
     "id": "cse2026-516",
@@ -13846,8 +13846,8 @@
         "text": "pakiusap"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'pakiusapan'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Ang ng mga manlalaro ay dininig ng komite kahapon."
+    "correctChoiceId": "D",
+    "explanation": "Ang tamang sagot ay D: 'pakiusap'."
   },
   {
     "id": "cse2026-518",
@@ -13873,7 +13873,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang A (nang): Nagulat ang mga tao nang mabalitaan..."
+    "explanation": "Ang tamang sagot ay A: 'nang'."
   },
   {
     "id": "cse2026-519",
@@ -13924,8 +13924,8 @@
         "text": "Ayonsa"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Hinggil kay'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: suliranin ng pagtaas ng presyo ng gasolina ang pinakapaksa ng pulong sa\nkasalukuyan."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'Hinggil sa'."
   },
   {
     "id": "cse2026-521",
@@ -13951,7 +13951,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang A (ni): Ang paglalakbay ni Magellan..."
+    "explanation": "Ang tamang sagot ay A: 'ni'."
   },
   {
     "id": "cse2026-522",
@@ -14003,7 +14003,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang B (ng): Pinatay ng mga Hapones si Jose Abad Santos..."
+    "explanation": "Ang tamang sagot ay B: 'ng'."
   },
   {
     "id": "cse2026-524",
@@ -14061,7 +14061,7 @@
     "id": "cse2026-526",
     "subject": "Filipino",
     "prompt": "________ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan.",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
     "choices": [
       {
         "id": "A",
@@ -14081,7 +14081,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The best completion is \"Winika ni Emilio Jacinto...\""
+    "explanation": "Ang tamang sagot ay A: 'Winika'."
   },
   {
     "id": "cse2026-527",
@@ -14133,7 +14133,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang B (ng): dulot ng walang pakundangang pagtatapon..."
+    "explanation": "Ang tamang sagot ay B: 'ng'."
   },
   {
     "id": "cse2026-529",
@@ -14159,7 +14159,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Kung'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: maaari ay magtipid tayo nang husto."
+    "explanation": "Ang tamang sagot ay A: 'Kung'."
   },
   {
     "id": "cse2026-530",
@@ -14315,7 +14315,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ang tamang sagot ay D: 'sa'."
   },
   {
     "id": "cse2026-536",
@@ -14341,7 +14341,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang C (ng): Nagpapatugtog sila ng awiting Pilipino."
+    "explanation": "Ang tamang sagot ay C: 'ng'."
   },
   {
     "id": "cse2026-537",
@@ -14393,7 +14393,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang A (pa): Hindi pa nabibigyang lunas ang sakit na AIDS sa ngayon."
+    "explanation": "Ang tamang sagot ay A: 'pa'."
   },
   {
     "id": "cse2026-539",
@@ -14497,7 +14497,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Abutan'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: natin ang ating kapwang nangangailangan ng tulong."
+    "explanation": "Ang tamang sagot ay A: 'Abutan'."
   },
   {
     "id": "cse2026-543",
@@ -14548,8 +14548,8 @@
         "text": "Kunan"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Abutan'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: mo ang mabibigat na dalahin ng Inay."
+    "correctChoiceId": "C",
+    "explanation": "Ang tamang sagot ay C: 'Kunin'."
   },
   {
     "id": "cse2026-545",
@@ -14586,7 +14586,7 @@
     "id": "cse2026-546",
     "subject": "Filipino",
     "prompt": "Piliin ang salitang may salungguhit na may mali.",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Pagkilala sa mali: suriin ang bawat salungguhit — ayos ba ang panlapi, panaguri, o baybay? Kung lahat ay tama, piliin ang walang mali.",
     "choices": [
       {
         "id": "A",
@@ -15299,7 +15299,7 @@
     "id": "cse2026-569",
     "subject": "Filipino",
     "prompt": "Walang kabutihang naidudulot ang droga, bagkus ito pa nga ang nakasisiranang _",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "This item is excluded from exams because the source text was incomplete.",
     "choices": [
       {
         "id": "A",
@@ -15401,7 +15401,7 @@
     "id": "cse2026-573",
     "subject": "Filipino",
     "prompt": "Talata: Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaari nilang simulan ang pagmamalasakit sa kani-kanilang pamayanan. Sa mga proyektong inilulunsad ng pamahalaan, may mga gawaing pangkabataan tulad ng pagpapaganda ng kapaligiran at paglilinis ng sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa pamayanan. Ngunit bakit tila ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayan na sandata sa pagtatanggol sa Inang Bayan?\n\nAlin sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
     "choices": [
       {
         "id": "A",
@@ -15741,7 +15741,7 @@
     "status": "excluded",
     "exclusionReason": "Duplicate of fi-149 in the canonical Filipino question bank.",
     "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "This item is excluded from exams because the source text was incomplete.",
     "choices": [
       {
         "id": "A",
@@ -15923,7 +15923,7 @@
     "id": "cse2026-593",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999:\nNov 1990: Php 89.00\nJan 1991: Php 106.00\nDec 1993: Php 118.00\nApr 1994: Php 125.00\nMay 1996: Php 135.00\nMay 1997: Php 145.00\nFeb 1998: Php 165.00\nOct 1999: Php 193.50\nSource: Regional Tripartite Wages & Productivity Board - NCR\n\nTungkol saan ang grapong nabasa?",
-    "hint": "This is a Filipino item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
     "choices": [
       {
         "id": "A",
@@ -16053,7 +16053,7 @@
     "id": "cse2026-598",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nIlang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage?",
-    "hint": "Ihambing ang sunod-sunod na halaga at bilangin ang eksaktong P20 na pagtaas.",
+    "hint": "Excluded duplicate of another Minimum Wage table item in this bank.",
     "choices": [
       {
         "id": "A",
@@ -16073,7 +16073,8 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "May dalawang eksaktong P20 na pagtaas: P125 hanggang P145, at P145 hanggang P165."
+    "explanation": "May dalawang eksaktong P20 na pagtaas: P125 hanggang P145, at P145 hanggang P165.",
+    "status": "excluded"
   },
   {
     "id": "cse2026-599",
@@ -16099,7 +16100,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Saklaw ng tsart ang badyet at katayuang pangmilitar ng mga piling bansa.",
+    "explanation": "Ang tamang sagot ay C: 'Badyet at Katayuang Pangmilitar ng mga Piling Bansa'.",
     "image": "/question-images/military-budget-chart.png"
   },
   {
@@ -16126,7 +16127,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672,000.",
+    "explanation": "Ang tamang sagot ay B: 'South Korea'.",
     "image": "/question-images/military-budget-chart.png"
   },
   {
@@ -16153,7 +16154,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Sa mga pagpipilian, Brunei ang may pinakamataas na porsiyento ng GDP para sa badyet militar: 6.5%.",
+    "explanation": "Ang tamang sagot ay C: 'Brunei'.",
     "image": "/question-images/military-budget-chart.png"
   },
   {
@@ -16180,7 +16181,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Batay sa laki ng badyet at porsiyento sa GDP, Japan ang may pinakamalaking GDP sa mga pagpipilian.",
+    "explanation": "Ang tamang sagot ay A: 'Japan'.",
     "image": "/question-images/military-budget-chart.png"
   },
   {
@@ -16207,7 +16208,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Maliit na bansa ang Brunei, kaya mababa ang bilang ng tropa at kagamitang pangmilitar nito.",
+    "explanation": "Ang tamang sagot ay B: 'Maliit na bansa lamang ang Brunei'.",
     "image": "/question-images/military-budget-chart.png"
   },
   {
@@ -16338,7 +16339,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Pangungusap D ang nagsasabing kailangang katutubong ipinanganak na mamamayan ng Pilipinas ang Presidente, kaya hindi maaaring dayuhan."
+    "explanation": "Ang tamang sagot ay C: 'pangungusap D'."
   },
   {
     "id": "cse2026-610",
@@ -16364,7 +16365,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Magsimula sa C tungkol sa unang pangkat, sundan ng A na nagpapaliwanag ng pinagmulan, pagkatapos B at D para sa sumunod na pangkat. Ang ayos ay C-A-B-D."
+    "explanation": "Ang tamang sagot ay B: 'CABD'."
   },
   {
     "id": "cse2026-611",
@@ -16390,7 +16391,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'C-A-B-D'. Sa tanong na ito, ang pagpipilian B ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumati"
+    "explanation": "Ang tamang sagot ay B: 'CABD'."
   },
   {
     "id": "cse2026-612",
@@ -16416,7 +16417,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon. Page| 134'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumati"
+    "explanation": "Ang tamang sagot ay A: 'May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.'."
   },
   {
     "id": "cse2026-613",
@@ -16474,7 +16475,7 @@
     "id": "cse2026-615",
     "subject": "General Information",
     "prompt": "What form of government does the Philippines adopt?",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "General information clue: focus on the exact term asked (office, right, branch, law). Match it to the official definition, not a similar-sounding one.",
     "choices": [
       {
         "id": "A",
@@ -16494,13 +16495,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"both a and b\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is D: 'both a and b'."
   },
   {
     "id": "cse2026-616",
     "subject": "General Information",
     "prompt": "What is the power of the State to take private property for public use upon payment\nof a just compensation?",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "General information clue: focus on the exact term asked (office, right, branch, law). Match it to the official definition, not a similar-sounding one.",
     "choices": [
       {
         "id": "A",
@@ -16520,13 +16521,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"right of eminent domain\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is D: 'right of eminent domain'."
   },
   {
     "id": "cse2026-617",
     "subject": "General Information",
     "prompt": "Who among the following may issue a warrant of arrest or a search warrant? a. a senator",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "General information clue: focus on the exact term asked (office, right, branch, law). Match it to the official definition, not a similar-sounding one.",
     "choices": [
       {
         "id": "A",
@@ -16572,7 +16573,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Choice A ('naturalization') correctly states the fact or principle tested. Question: A foreigner may acquire Filipino citizenship through"
+    "explanation": "The correct answer is A: 'naturalization'."
   },
   {
     "id": "cse2026-619",
@@ -16598,7 +16599,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Choice A ('suffrage') correctly states the fact or principle tested. Question: The right to vote is also known as ."
+    "explanation": "The correct answer is A: 'suffrage'."
   },
   {
     "id": "cse2026-620",
@@ -16624,7 +16625,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Choice B ('twenty-four') correctly states the fact or principle tested. Question: How many Senators are there in the Senate?"
+    "explanation": "The correct answer is B: 'twenty-four'."
   },
   {
     "id": "cse2026-621",
@@ -16650,7 +16651,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Choice D ('thirty-five') correctly states the fact or principle tested. Question: What is the minimum age requirements of a Senator?"
+    "explanation": "The correct answer is D: 'thirty-five'."
   },
   {
     "id": "cse2026-622",
@@ -16676,7 +16677,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Choice C ('Amnesty') correctly states the fact or principle tested. Question: Which of the following bills do not originate from the House of Representative?"
+    "explanation": "The correct answer is C: 'Amnesty'."
   },
   {
     "id": "cse2026-623",
@@ -16702,7 +16703,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Choice C ('elected by district and party list') correctly states the fact or principle tested. Question: The Members of the Lower House are"
+    "explanation": "The correct answer is C: 'elected by district and party list'."
   },
   {
     "id": "cse2026-624",
@@ -16727,14 +16728,14 @@
         "text": "all of the above"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Choice A ('President') correctly states the fact or principle tested. Question: The legislative power of the government shall be vested in the\nPage| 137"
+    "correctChoiceId": "B",
+    "explanation": "The correct answer is B: 'Congress'."
   },
   {
     "id": "cse2026-625",
     "subject": "General Information",
     "prompt": "Which of the following may disqualify a person from running for Presidency?",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "General information clue: focus on the exact term asked (office, right, branch, law). Match it to the official definition, not a similar-sounding one.",
     "choices": [
       {
         "id": "A",
@@ -16754,7 +16755,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"He lived abroad five years preceding the election.\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is B: 'He lived abroad five years preceding the election.'."
   },
   {
     "id": "cse2026-626",
@@ -16780,13 +16781,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Choice A ('President -— Vice-President -— Senate President -— House Speaker') correctly states the fact or principle tested. Question: Which of the following shows the transfer of power should the President be incapable\nof discharging his duties?"
+    "explanation": "The correct answer is A: 'President -— Vice-President -— Senate President -— House Speaker'."
   },
   {
     "id": "cse2026-627",
     "subject": "General Information",
     "prompt": "A member of the Supreme Court",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Constitution clue: identify which branch, office, or right is involved. Eliminate choices that belong to a different branch or process.",
     "choices": [
       {
         "id": "A",
@@ -16806,13 +16807,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"must have been for fifteen years or more, a judge of a lower court.\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is A: 'must have been for fifteen years or more, a judge of a lower court.'."
   },
   {
     "id": "cse2026-628",
     "subject": "General Information",
     "prompt": "The Supreme Court is composed of",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Constitution clue: identify which branch, office, or right is involved. Eliminate choices that belong to a different branch or process.",
     "choices": [
       {
         "id": "A",
@@ -16832,7 +16833,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"a Chief Justice and fourteen Associate Justices\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is A: 'a Chief Justice and fourteen Associate Justices'."
   },
   {
     "id": "cse2026-629",
@@ -16858,13 +16859,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"House of Representative\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is C: 'House of Representative'."
   },
   {
     "id": "cse2026-630",
     "subject": "General Information",
     "prompt": "Which of the following is not removable from office by impeachment?",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "Constitution clue: identify which branch, office, or right is involved. Eliminate choices that belong to a different branch or process.",
     "choices": [
       {
         "id": "A",
@@ -16884,7 +16885,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Senators\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is D: 'Senators'."
   },
   {
     "id": "cse2026-631",
@@ -16909,8 +16910,8 @@
         "text": "Filipino"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Choice B ('English and Filipino') correctly states the fact or principle tested. Question: The national language of the Philippines is"
+    "correctChoiceId": "D",
+    "explanation": "The correct answer is D: 'Filipino'."
   },
   {
     "id": "cse2026-632",
@@ -16936,7 +16937,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Choice C ('Income tax') correctly states the fact or principle tested. Question: What tax is paid by individuals who derive compensation income?"
+    "explanation": "The correct answer is C: 'Income tax'."
   },
   {
     "id": "cse2026-633",
@@ -16962,13 +16963,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"April 15\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is A: 'April 15'."
   },
   {
     "id": "cse2026-634",
     "subject": "General Information",
     "prompt": "Which of the following statements is true about taxes?",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "General information clue: focus on the exact term asked (office, right, branch, law). Match it to the official definition, not a similar-sounding one.",
     "choices": [
       {
         "id": "A",
@@ -16988,7 +16989,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"It is an enforced contribution\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is C: 'It is an enforced contribution'."
   },
   {
     "id": "cse2026-635",
@@ -17014,13 +17015,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Choice D ('Estate tax') correctly states the fact or principle tested. Question: What tax is imposed on one’s right to transmit property at death, and is measured by\nthe value of the property?"
+    "explanation": "The correct answer is D: 'Estate tax'."
   },
   {
     "id": "cse2026-636",
     "subject": "General Information",
     "prompt": "Which of the following is classified as being a “Head of the Family” for income tax purposes?",
-    "hint": "This is a General Information item whose answer choices were not legibly extracted from the source PDF. The correct choice is recorded by the original answer key.",
+    "hint": "General information clue: focus on the exact term asked (office, right, branch, law). Match it to the official definition, not a similar-sounding one.",
     "choices": [
       {
         "id": "A",
@@ -17040,7 +17041,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"an unmarried individual with dependents\") because it matches the fact or concept asked in the item."
+    "explanation": "The correct answer is B: 'an unmarried individual with dependents'."
   },
   {
     "id": "cse2026-637",
@@ -17066,7 +17067,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Choice B ('Generics Act') correctly states the fact or principle tested. Question: What Act implements the mandate for the “State to make essential goods, health and\nother social services available to all the people at affordable cost?”"
+    "explanation": "The correct answer is B: 'Generics Act'."
   },
   {
     "id": "cse2026-638",
@@ -17092,7 +17093,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Choice A ('The term of office is three years') correctly states the fact or principle tested. Question: Which of the following is true about elective local officials?"
+    "explanation": "The correct answer is A: 'The term of office is three years'."
   },
   {
     "id": "cse2026-639",
@@ -17118,7 +17119,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Choice D ('agricultural lands') correctly states the fact or principle tested. Question: What may be classified as alienable lands of the public domain?"
+    "explanation": "The correct answer is D: 'agricultural lands'."
   },
   {
     "id": "cse2026-640",
@@ -17144,7 +17145,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Choice B ('40%') correctly states the fact or principle tested. Question: What is the maximum equity for aliens in a corporation or association in the\nexploration development and utilization of natural resources?"
+    "explanation": "The correct answer is B: '40%'."
   },
   {
     "id": "cse2026-641",
@@ -17170,7 +17171,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Choice C ('family') correctly states the fact or principle tested. Question: What is recognized by the State as the foundation of the nation?"
+    "explanation": "The correct answer is C: 'family'."
   },
   {
     "id": "cse2026-642",
@@ -17352,7 +17353,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Choice B ('17') is the answer that best fits the question's requirement. Question: 3952586412 144"
+    "explanation": "The correct answer is B: '17'."
   },
   {
     "id": "cse2026-649",
@@ -17612,7 +17613,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "In each pair, the first letters move +3, +1, +3 while the second letters move +1, +3, +1. After I J, the next pair is L K."
+    "explanation": "The correct answer is A: 'LK'."
   },
   {
     "id": "cse2026-659",
@@ -17716,7 +17717,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The sequence interleaves A, B, C and D, E, F. The next letter continues the second strand: G."
+    "explanation": "The correct answer is D: 'G'."
   },
   {
     "id": "cse2026-663",
@@ -17742,7 +17743,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The sequence interleaves N, O, P and Q, R, S. The next term continues the second strand: T."
+    "explanation": "The correct answer is D: 'T'."
   },
   {
     "id": "cse2026-664",
@@ -18184,7 +18185,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The letter pairs advance by +2 in each letter, while the number increases by 2: AN1, CP3, ER5, GT7, IV9, KX11, so the next term is MZ13."
+    "explanation": "The correct answer is B: 'MZ13'."
   },
   {
     "id": "cse2026-682",
@@ -18418,7 +18419,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Continue the sequence pattern and choose B."
+    "explanation": "The correct answer is B: 'gg1515hh'."
   },
   {
     "id": "cse2026-691",

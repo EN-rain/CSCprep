@@ -629,7 +629,7 @@
     "status": "excluded",
     "exclusionReason": "The source expressions and choices are not legible enough to verify safely.",
     "prompt": "Which of the following has the greatest value?",
-    "hint": "Numerical item: identify what is asked, list the given values, choose the correct operation, and estimate once to catch impossible answers.",
+    "hint": "This item is excluded from exams because the source text was incomplete.",
     "choices": [],
     "correctChoiceId": "B",
     "explanation": "Excluded: the original source expression and choices are not legible enough to verify safely."
