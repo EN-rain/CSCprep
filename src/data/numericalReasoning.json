@@ -2417,7 +2417,7 @@
   {
     "id": "nr-092",
     "subject": "Numerical Reasoning",
-    "prompt": "If Lorna had a dentist?s appointment on a certain day, was the appointment on a Friday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
+    "prompt": "If Lorna had a dentist's appointment on a certain day, was the appointment on a Friday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
     "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {

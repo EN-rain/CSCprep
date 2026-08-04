@@ -654,10 +654,11 @@
     "id": "cse2026-026",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following has the greatest value?\n8\n16 l\n_ 168",
-    "hint": "Convert each fraction or mixed number to a decimal to compare values directly.",
+    "hint": "This item is excluded from exams because the source text was incomplete.",
     "choices": [],
     "correctChoiceId": "B",
-    "explanation": "Excluded: the original source expression and choices are not legible enough to verify safely."
+    "explanation": "Excluded: original expression and choices not legible enough to verify safely.",
+    "status": "excluded"
   },
   {
     "id": "cse2026-027",
@@ -1442,7 +1443,7 @@
   {
     "id": "cse2026-057",
     "subject": "Numerical Reasoning",
-    "prompt": "A race car traveled for 2 % hours with an average speed of 132 5/8 km per hour.\nFind the total distance it covered.",
+    "prompt": "A race car traveled for 2 ½ hours with an average speed of 132 5/8 km per hour.\nFind the total distance it covered.",
     "hint": "Distance = speed × time. Convert mixed numbers to improper fractions.",
     "choices": [
       {
@@ -1459,7 +1460,7 @@
       },
       {
         "id": "D",
-        "text": "1351/8km"
+        "text": "135 1/8km"
       }
     ],
     "correctChoiceId": "B",
@@ -2228,7 +2229,7 @@
   {
     "id": "cse2026-086",
     "subject": "Numerical Reasoning",
-    "prompt": "Mary?s total score in the three bowling games was 530. What were her scores?\n1) Mary?s highest score was 198\n2) The sum of Mary?s two highest scores was 368",
+    "prompt": "Mary's total score in the three bowling games was 530. What were her scores?\n1) Mary's highest score was 198\n2) The sum of Mary's two highest scores was 368",
     "hint": "Try to determine each of the three scores from the given information.",
     "choices": [
       {
@@ -2438,7 +2439,7 @@
   {
     "id": "cse2026-093",
     "subject": "Numerical Reasoning",
-    "prompt": "If Lorna had a dentist?s appointment on a certain day, was the appointment on a Friday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
+    "prompt": "If Lorna had a dentist's appointment on a certain day, was the appointment on a Friday?\n1) Exactly 64 hours before the appointment, it was Wednesday.\n2) The appointment is between 2:00pm to 7:00pm",
     "hint": "Statement (1) places the appointment relative to Wednesday; statement (2) restricts the time of day.",
     "choices": [
       {
@@ -4196,7 +4197,7 @@
   {
     "id": "cse2026-160",
     "subject": "Verbal Reasoning",
-    "prompt": "The reporter?s candid remarks caught the mayoralty candidate off-guard.",
+    "prompt": "The reporter's candid remarks caught the mayoralty candidate off-guard.",
     "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
@@ -9420,7 +9421,7 @@
   {
     "id": "cse2026-348",
     "subject": "Verbal Reasoning",
-    "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one?s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the second sentence?",
+    "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one's taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the second sentence?",
     "hint": "Identify the relationship between the first pair of terms, then apply the same relationship to find the missing term.",
     "choices": [
       {
@@ -9450,7 +9451,7 @@
   {
     "id": "cse2026-349",
     "subject": "Verbal Reasoning",
-    "prompt": "Arrange the sentences into a well-organized paragraph.\nA. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one?s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the fourth sentence?",
+    "prompt": "Arrange the sentences into a well-organized paragraph.\nA. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one's taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the fourth sentence?",
     "hint": "Paragraph development item: arrange the topic, support, added support, and conclusion.",
     "choices": [
       {
@@ -9480,7 +9481,7 @@
   {
     "id": "cse2026-350",
     "subject": "Verbal Reasoning",
-    "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one?s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat is the appropriate title for the above paragraph?",
+    "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one's taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat is the appropriate title for the above paragraph?",
     "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
     "choices": [
       {
@@ -9489,7 +9490,7 @@
       },
       {
         "id": "B",
-        "text": "A Citizen?s Duty"
+        "text": "A Citizen's Duty"
       },
       {
         "id": "C",
@@ -15660,7 +15661,7 @@
   {
     "id": "cse2026-583",
     "subject": "Filipino",
-    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAno ang paksang pangungusap sa talata?",
+    "prompt": "Talata: Nakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAno ang paksang pangungusap sa talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15686,7 +15687,7 @@
   {
     "id": "cse2026-584",
     "subject": "Filipino",
-    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAno ang pinakamainam na pamagat sa talata?",
+    "prompt": "Talata: Nakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAno ang pinakamainam na pamagat sa talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15712,7 +15713,7 @@
   {
     "id": "cse2026-585",
     "subject": "Filipino",
-    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
+    "prompt": "Talata: Nakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -15740,7 +15741,7 @@
     "subject": "Filipino",
     "status": "excluded",
     "exclusionReason": "Duplicate of fi-149 in the canonical Filipino question bank.",
-    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
+    "prompt": "Talata: Nakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
     "hint": "This item is excluded from exams because the source text was incomplete.",
     "choices": [
       {
@@ -15766,7 +15767,7 @@
   {
     "id": "cse2026-587",
     "subject": "Filipino",
-    "prompt": "Talata: Nakikita sa mata ang iba?t ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito?y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
+    "prompt": "Talata: Nakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16370,7 +16371,7 @@
   {
     "id": "cse2026-611",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba't ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16396,7 +16397,7 @@
   {
     "id": "cse2026-612",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba't ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {
@@ -16448,7 +16449,7 @@
   {
     "id": "cse2026-614",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba?t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\nE. Ang mga Indones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan.\n\nAno ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba't ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\nE. Ang mga Indones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan.\n\nAno ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
     "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
     "choices": [
       {

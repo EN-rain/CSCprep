@@ -1363,6 +1363,29 @@ function App() {
                   return current.filter((o) => o !== option)
                 }
 
+                // Correct / wrong are mutually exclusive
+                if (option === 'correct' || option === 'wrong') {
+                  return [
+                    ...current.filter((o) => o !== 'correct' && o !== 'wrong'),
+                    option,
+                  ]
+                }
+
+                // Only one subject filter at a time (avoids empty AND combinations)
+                const subjects = [
+                  'Verbal Reasoning',
+                  'Numerical Reasoning',
+                  'Analytical Ability',
+                  'Filipino',
+                  'General Information',
+                ] as const
+                if ((subjects as readonly string[]).includes(option)) {
+                  return [
+                    ...current.filter((o) => !(subjects as readonly string[]).includes(o)),
+                    option,
+                  ]
+                }
+
                 return [...current, option]
               })
             }}
@@ -2837,7 +2860,9 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
         markerChoicesOnly ? 'review-choices--markers' : '',
         choicesHaveImages ? 'review-choices--images' : '',
       ].filter(Boolean).join(' ')}>
-        {item.choices.map((choice, index) => {
+        {item.choices
+          .filter((choice) => choice.id === item.selectedChoiceId || choice.id === item.correctChoiceId)
+          .map((choice) => {
           const isSelected = item.selectedChoiceId === choice.id
           const isCorrect = item.correctChoiceId === choice.id
           const className = [
@@ -2848,7 +2873,8 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
           ]
             .filter(Boolean)
             .join(' ')
-          const displayLetter = markerChoicesOnly ? choice.id.toLowerCase() : String.fromCharCode(97 + index)
+          // Use real choice id so label matches explanation (A/B/C/D)
+          const displayLetter = choice.id.toLowerCase()
           const markerTextOnly = /^(Option [a-e]|[a-e])$/i.test(choice.text.trim())
 
           return (
@@ -2860,8 +2886,8 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
                 !markerChoicesOnly && <p>{choice.text}</p>
               )}
               {choice.image && !markerTextOnly && <p>{choice.text}</p>}
-              {isSelected && <strong>Your answer</strong>}
-              {isCorrect && <strong>Correct</strong>}
+              {isSelected && <span className="review-choice__tag">Your answer</span>}
+              {isCorrect && <span className="review-choice__tag">Correct</span>}
             </div>
           )
         })}

@@ -288,7 +288,7 @@
   {
     "id": "aa-012",
     "subject": "Analytical Ability",
-    "prompt": "A. St. Stephenâ€™s School\nB. St. Stephenâ€™s University\nC. St. Scholasticaâ€™s Academy\nD. St. Scholasticaâ€™s College",
+    "prompt": "A. St. Stephen's School\nB. St. Stephen's University\nC. St. Scholastica's Academy\nD. St. Scholastica's College",
     "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
     "choices": [
       {
@@ -309,7 +309,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = St. Scholasticaâ€™s Academy, D = St. Scholasticaâ€™s College, A = St. Stephenâ€™s School, B = St. Stephenâ€™s University. That matches choice C."
+    "explanation": "Alphabetize the entries by their full names. The correct order is CDAB: C = St. Scholastica's Academy, D = St. Scholastica's College, A = St. Stephen's School, B = St. Stephen's University. That matches choice C."
   },
   {
     "id": "aa-013",
