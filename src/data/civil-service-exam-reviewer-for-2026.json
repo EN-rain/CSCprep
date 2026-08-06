@@ -3,7 +3,7 @@
     "id": "cse2026-002",
     "subject": "Numerical Reasoning",
     "prompt": "Evaluate: 16 + 256 ÷ 8",
-    "hint": "Apply order of operations: divide before adding.",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: Evaluate: 16 + 256 ÷ 8.",
     "choices": [
       {
         "id": "A",
@@ -29,7 +29,7 @@
     "id": "cse2026-005",
     "subject": "Numerical Reasoning",
     "prompt": "Find the sum: 299 + 943 + 398 +101",
-    "hint": "Group numbers that combine to round hundreds: 299 pairs with 101, and 943 pairs with 398 (almost).",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: Find the sum: 299 + 943 + 398 +101.",
     "choices": [
       {
         "id": "A",
@@ -49,13 +49,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "299 + 943 + 398 + 101. Regroup: (299 + 101) + (943 + 398) = 400 + 1,341 = 1,741. Note: the answer key marks B (1,641) but the correct arithmetic sum is 1,741, which is choice C."
+    "explanation": "299 + 943 + 398 + 101 = 1,741. Pair 299+101=400 and 943+398=1,341, then 400+1,341=1,741."
   },
   {
     "id": "cse2026-010",
     "subject": "Numerical Reasoning",
     "prompt": "398.101 is read as",
-    "hint": "A decimal point separates a whole number from its fractional part; it is not a comma between two separate whole numbers.",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: 398.101 is read as.",
     "choices": [
       {
         "id": "A",
@@ -81,7 +81,7 @@
     "id": "cse2026-013",
     "subject": "Numerical Reasoning",
     "prompt": "Simplify: 1/2(128 - 84) + 1/2(128 - 84)",
-    "hint": "Numerical clue: identify the given numbers and the question word (sum, difference, product, percent). Compute carefully and compare to the options.",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: Simplify: 1/2(128 - 84) + 1/2(128 - 84).",
     "choices": [
       {
         "id": "A",
@@ -107,7 +107,7 @@
     "id": "cse2026-014",
     "subject": "Numerical Reasoning",
     "prompt": "Simplify: 33 1/3% of 48 + 12 1/2% of 96 - 44 4/9% of 27",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Percent work: rewrite percentages as fractions or decimals first. Focus on the values in: Simplify: 33 1/3% of 48 + 12 1/2% of 96 - 44 4/9% of 27.",
     "choices": [
       {
         "id": "A",
@@ -133,7 +133,7 @@
     "id": "cse2026-018",
     "subject": "Numerical Reasoning",
     "prompt": "What is 25% of 228?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Percent work: rewrite percentages as fractions or decimals first. Focus on the values in: What is 25% of 228?.",
     "choices": [
       {
         "id": "A",
@@ -153,13 +153,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "25% of 228 = (1/4) × 228 = 57. Note: the answer key marks A (52), but the correct value is 57 (choice B)."
+    "explanation": "25% means one-fourth. 228 ÷ 4 = 57."
   },
   {
     "id": "cse2026-020",
     "subject": "Numerical Reasoning",
     "prompt": "[EXCLUDED] Incomplete OCR — stem and choices not recoverable from source PDF.",
-    "hint": "This item is excluded from exams because the source text was incomplete.",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: [EXCLUDED] Incomplete OCR — stem and choices not recove.",
     "choices": [
       {
         "id": "A",
@@ -187,7 +187,7 @@
     "id": "cse2026-023",
     "subject": "Numerical Reasoning",
     "prompt": "Find 3 1/4 of 16",
-    "hint": "Convert 3¼ to either 3.25 or 13/4 before multiplying by 16.",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: Find 3 1/4 of 16.",
     "choices": [
       {
         "id": "A",
@@ -213,7 +213,7 @@
     "id": "cse2026-024",
     "subject": "Numerical Reasoning",
     "prompt": "Evaluate: 1 + 1/2 + 1/4 + 1/8 =?",
-    "hint": "Find a common denominator for all the fractions before adding them together.",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: Evaluate: 1 + 1/2 + 1/4 + 1/8 =?.",
     "choices": [
       {
         "id": "A",
@@ -239,7 +239,7 @@
     "id": "cse2026-026",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following has the greatest value?\n8\n16 l\n_ 168",
-    "hint": "This item is excluded from exams because the source text was incomplete.",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: Which of the following has the greatest value? 8 16 l _.",
     "choices": [],
     "correctChoiceId": "B",
     "explanation": "Excluded: original expression and choices not legible enough to verify safely.",
@@ -250,7 +250,7 @@
     "id": "cse2026-031",
     "subject": "Numerical Reasoning",
     "prompt": "Find the average temperature change for the 12-day period. Temperature change in degrees Celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2.",
-    "hint": "Average = sum of all values ÷ number of values. Add the eleven visible values and account for the twelfth.",
+    "hint": "Average = total divided by count. Rebuild the total from the listed values before dividing for: Find the average temperature change for the 12-day.",
     "choices": [
       {
         "id": "A",
@@ -276,7 +276,7 @@
     "id": "cse2026-033",
     "subject": "Numerical Reasoning",
     "prompt": "Find the set of all odd numbers x satisfying the conditions 5x - 4< 0 and 3x —\n7=",
-    "hint": "Solve each inequality separately, then keep only the odd integers that satisfy both.",
+    "hint": "Compute carefully; regroup factors if helpful. Target: Find the set of all odd numbers x satisfying the condit.",
     "choices": [
       {
         "id": "A",
@@ -302,7 +302,7 @@
     "id": "cse2026-034",
     "subject": "Numerical Reasoning",
     "prompt": "If 8(6) + 4 = 48 + 4 and 48 + 4 = 52, then 8(6) + 4 = 52.",
-    "hint": "Identify which equality property lets you replace an expression with its computed value (e.g., 8×6 with 48).",
+    "hint": "Identify what is asked, list the givens, then operate once. Item focus: If 8(6) + 4 = 48 + 4 and 48 + 4 = 52, then 8(6) + 4 = 5.",
     "choices": [
       {
         "id": "A",
@@ -328,7 +328,7 @@
     "id": "cse2026-049",
     "subject": "Numerical Reasoning",
     "prompt": "A water container has 100 mL of water in it and is 20% full. How many mL of water can the container hold when full?",
-    "hint": "Percent item: convert the percent to a decimal or fraction first, then identify the base, rate, and amount before computing.",
+    "hint": "Percent work: rewrite percentages as fractions or decimals first. Focus on the values in: A water container has 100 mL of water in it and is 20% full..",
     "choices": [
       {
         "id": "A",
@@ -354,7 +354,7 @@
     "id": "cse2026-055",
     "subject": "Numerical Reasoning",
     "prompt": "How much must one invest in corporate bonds paying 9.6% in order to earn an income of Php12,000 per annum?",
-    "hint": "Income = investment × rate. So investment = income ÷ rate.",
+    "hint": "Percent work: rewrite percentages as fractions or decimals first. Focus on the values in: How much must one invest in corporate bonds paying 9.6% in o.",
     "choices": [
       {
         "id": "A",
@@ -373,14 +373,14 @@
         "text": "Php250,000"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "12000 = Investment × 0.096. Investment = 12000 ÷ 0.096 = 125,000 pesos."
+    "correctChoiceId": "C",
+    "explanation": "Income = investment × rate. Investment = 12,000 ÷ 0.096 = 125,000."
   },
   {
     "id": "cse2026-062",
     "subject": "Numerical Reasoning",
     "prompt": "If 560 out of 700 examinees passed in the recent Career Service exam for Subprofessional level, what percent of the examinees passed?",
-    "hint": "Percent passed = (passed ÷ total) × 100%.",
+    "hint": "Percent work: rewrite percentages as fractions or decimals first. Focus on the values in: If 560 out of 700 examinees passed in the recent Career Serv.",
     "choices": [
       {
         "id": "A",
@@ -406,7 +406,7 @@
     "id": "cse2026-085",
     "subject": "Numerical Reasoning",
     "prompt": "Choose whether statement 1 alone, statement 2 alone, both together, each alone, or neither is sufficient.\n\nWhat was the total amount raised for the Payatas Tragedy from private corporations and personal donations?\n1) Of the amount donated, 48% came from private corporations.\n2) Of the amount donated, Php15M came from personal donations.",
-    "hint": "If 48% came from corporations, then 52% came from personal donations. Use statement (2) to find the total.",
+    "hint": "Data sufficiency: test (1) alone, then (2) alone, then both. For this item about Choose whether statement 1 alone, statement 2 alon, stop once you know if the question is answerable (item cse2026-085).",
     "choices": [
       {
         "id": "A",
@@ -436,7 +436,7 @@
     "id": "cse2026-094",
     "subject": "Numerical Reasoning",
     "prompt": "Choose whether statement 1 alone, statement 2 alone, both together, each alone, or neither is sufficient.\n\nWhat was the average number of kilometers per liter of gasoline a car consumed during a 640-km trip?\n1) The total cost of gasoline used by the car for the 640-km trip was Php1,152.\n2) The cost of gasoline was Php18.00 per liter.",
-    "hint": "Average km/L = total km ÷ total liters. You need both total km and total liters.",
+    "hint": "Data sufficiency: test (1) alone, then (2) alone, then both. For this item about Choose whether statement 1 alone, statement 2 alon, stop once you know if the question is answerable (item cse2026-094).",
     "choices": [
       {
         "id": "A",
@@ -466,7 +466,7 @@
     "id": "cse2026-123",
     "subject": "Verbal Reasoning",
     "prompt": "Nobody like faughty Monty who kept bragging about his riches.",
-    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Nobody like faughty Monty who kept bragging about his r.",
     "choices": [
       {
         "id": "A",
@@ -492,7 +492,7 @@
     "id": "cse2026-124",
     "subject": "Verbal Reasoning",
     "prompt": "The corrupt policeman was discharged from service due to his ignominious act of accepting bribes.",
-    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: The corrupt policeman was discharged from service due t.",
     "choices": [
       {
         "id": "A",
@@ -518,7 +518,7 @@
     "id": "cse2026-137",
     "subject": "Verbal Reasoning",
     "prompt": "“Spare the rod and spoil the child” is acommon aphorism.",
-    "hint": "'Aphorism' is a short, concise statement of a principle. Find the synonym.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: “Spare the rod and spoil the child” is acommon aphorism.",
     "choices": [
       {
         "id": "A",
@@ -544,7 +544,7 @@
     "id": "cse2026-140",
     "subject": "Verbal Reasoning",
     "prompt": "The Filipino’s fortitude js the reason why he seldom complains.",
-    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: The Filipino’s fortitude js the reason why he seldom co.",
     "choices": [
       {
         "id": "A",
@@ -564,13 +564,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Fortitude is the strength to endure hardship or pain. The synonym is 'endurance'. Note: the answer key marks B (peace-loving), which is unrelated."
+    "explanation": "Fortitude is the strength to endure hardship. Closest synonym: endurance—not peace-loving, discontent, or satisfaction."
   },
   {
     "id": "cse2026-143",
     "subject": "Verbal Reasoning",
-    "prompt": "Urbane people are appalled by rude behavior.",
-    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
+    "prompt": "Urbane people are appalled by rude behavior.\n\nThe word URBANE means:",
+    "hint": "Synonym: urbane describes refined, polished manners. Use the contrast with \"rude behavior.\"",
     "choices": [
       {
         "id": "A",
@@ -590,13 +590,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Urbane means suave, refined, and polite in manner. The synonym is 'well-mannered'. Note: the answer key marks B (ill-mannered), which is the antonym."
+    "explanation": "Urbane means refined and polite. Synonym: well-mannered. Ill-mannered is the opposite."
   },
   {
     "id": "cse2026-153",
     "subject": "Verbal Reasoning",
     "prompt": "To augment the policemen’s income, the government allowed them to take part-time jobs.",
-    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: To augment the policemen’s income, the government allow.",
     "choices": [
       {
         "id": "A",
@@ -616,13 +616,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "To augment means to increase or add to. The synonym is 'increase'. Note: the answer key marks B (contribute), which is related but less precise than 'increase'."
+    "explanation": "To augment is to increase or add to. Contribute is related but does not mean increase."
   },
   {
     "id": "cse2026-170",
     "subject": "Verbal Reasoning",
     "prompt": "Some people believe that breaking a mirror is a jinx.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Some people believe that breaking a mirror is a jinx..",
     "choices": [
       {
         "id": "A",
@@ -641,14 +641,14 @@
         "text": "good luck"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "A jinx is something or someone believed to bring bad luck. The synonym is 'bad luck'. Note: the answer key marks B (evil), which is related but less precise."
+    "correctChoiceId": "A",
+    "explanation": "A jinx is believed to bring bad luck. Good luck is the opposite meaning."
   },
   {
     "id": "cse2026-179",
     "subject": "Verbal Reasoning",
     "prompt": "You will never get sufficient nourishment if you are obdurate in refusing to eat vegetables.",
-    "hint": "'Obdurate' means stubbornly refusing to change. Find the synonym.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: You will never get sufficient nourishment if you are ob.",
     "choices": [
       {
         "id": "A",
@@ -674,7 +674,7 @@
     "id": "cse2026-200",
     "subject": "Verbal Reasoning",
     "prompt": "BIR: Taxes || DPWH:",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: BIR: Taxes || DPWH:.",
     "choices": [
       {
         "id": "A",
@@ -693,14 +693,14 @@
         "text": "Churches"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "BIR = Bureau of Internal Revenue, which handles taxes. DPWH = Department of Public Works and Highways, which handles public roads and infrastructure. So the answer is 'Public Roads'. Note: the answer key marks B (Houses), which is incorrect."
+    "correctChoiceId": "A",
+    "explanation": "BIR is the tax agency; DPWH builds and maintains public works—especially roads and highways. Same agency→core duty pattern, so DPWH pairs with Public Roads, not houses, traffic, or churches."
   },
   {
     "id": "cse2026-208",
     "subject": "Verbal Reasoning",
     "prompt": "Italy: Latin || Greece:",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: Italy: Latin || Greece:.",
     "choices": [
       {
         "id": "A",
@@ -719,14 +719,14 @@
         "text": "Greece"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Italy is associated with Latin (the language of ancient Rome). Greece is associated with Greek. So the answer is Greek."
+    "correctChoiceId": "C",
+    "explanation": "Italy is linked with Latin (Rome). Greece is linked with Greek. Same country→language association."
   },
   {
     "id": "cse2026-221",
     "subject": "Verbal Reasoning",
     "prompt": "Conspicuous: Obvious _ || Hideous:",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: Conspicuous: Obvious _ || Hideous:.",
     "choices": [
       {
         "id": "A",
@@ -746,13 +746,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is B: 'ugly'."
+    "explanation": "The keyed answer is B: ugly. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-222",
     "subject": "Verbal Reasoning",
     "prompt": "nose: nasal || abdomen:",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: nose: nasal || abdomen:.",
     "choices": [
       {
         "id": "A",
@@ -771,14 +771,14 @@
         "text": "adenoma"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "The adjective form of 'nose' is 'nasal'. The adjective form of 'abdomen' is 'abdominal'. So the answer is abdominal."
+    "correctChoiceId": "B",
+    "explanation": "Nose → nasal (adjective). Abdomen → abdominal. Abnormal is a different word family."
   },
   {
     "id": "cse2026-238",
     "subject": "Verbal Reasoning",
     "prompt": "blend: mix",
-    "hint": "Find a pair with the same synonym relationship as 'blend: mix'.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: blend: mix.",
     "choices": [
       {
         "id": "A",
@@ -804,7 +804,7 @@
     "id": "cse2026-240",
     "subject": "Verbal Reasoning",
     "prompt": "marriageable: nubile",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: marriageable: nubile.",
     "choices": [
       {
         "id": "A",
@@ -824,13 +824,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is D: 'decipherable: comprehensible'."
+    "explanation": "The keyed answer is D: decipherable: comprehensible. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-241",
     "subject": "Verbal Reasoning",
     "prompt": "numismatist: money",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: numismatist: money.",
     "choices": [
       {
         "id": "A",
@@ -849,14 +849,14 @@
         "text": "scientist: sense"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "A numismatist is an expert on money/coins. A linguist is an expert on language. So the answer is 'linguist: language'."
+    "correctChoiceId": "C",
+    "explanation": "A numismatist is an expert on coins/money. Parallel expert pair: linguist : language."
   },
   {
     "id": "cse2026-242",
     "subject": "Verbal Reasoning",
     "prompt": "anxious: uneasy",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: anxious: uneasy.",
     "choices": [
       {
         "id": "A",
@@ -882,7 +882,7 @@
     "id": "cse2026-243",
     "subject": "Verbal Reasoning",
     "prompt": "goat: kid",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: goat: kid.",
     "choices": [
       {
         "id": "A",
@@ -902,13 +902,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"bear: cub\") because both word pairs follow the same relationship."
+    "explanation": "A kid is the young of a goat. Among the options, only bear:cub pairs an adult animal with its young. Hen is an adult female chicken, Dalmatian is a breed, and tigress is an adult female tiger."
   },
   {
     "id": "cse2026-244",
     "subject": "Verbal Reasoning",
     "prompt": "key: lock",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: key: lock.",
     "choices": [
       {
         "id": "A",
@@ -927,14 +927,14 @@
         "text": "sword: scabbard"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "A key is used to open a lock. A sword is sheathed in a scabbard — the scabbard holds/contains the sword. So the answer is 'sword: scabbard'."
+    "correctChoiceId": "D",
+    "explanation": "A key opens/fits a lock; a sword fits into a scabbard. Object-to-container/fit relationship."
   },
   {
     "id": "cse2026-245",
     "subject": "Verbal Reasoning",
     "prompt": "dog: kennel",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: dog: kennel.",
     "choices": [
       {
         "id": "A",
@@ -953,14 +953,14 @@
         "text": "eagle: barn"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "A dog lives in a kennel. A pig lives in a sty (or pigpen). So the answer is 'pig: sty'."
+    "correctChoiceId": "C",
+    "explanation": "A dog’s home is a kennel; a pig’s home is a sty. Whale:pond is not a standard dwelling pair."
   },
   {
     "id": "cse2026-246",
     "subject": "Verbal Reasoning",
     "prompt": "book: leaves",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: book: leaves.",
     "choices": [
       {
         "id": "A",
@@ -979,14 +979,14 @@
         "text": "chair: sitting"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "A book is composed of pages (called 'leaves' in bibliographic terms). A house contains rooms; the kitchen is one such room. So the answer is 'house: kitchen'."
+    "correctChoiceId": "A",
+    "explanation": "Leaves are parts of a book; a kitchen is a part/room of a house. Same whole–part idea."
   },
   {
     "id": "cse2026-247",
     "subject": "Verbal Reasoning",
     "prompt": "panda: china",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: panda: china.",
     "choices": [
       {
         "id": "A",
@@ -1006,13 +1006,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"koala: Australia\") because both word pairs follow the same relationship."
+    "explanation": "A panda is strongly associated with China as its native region. The matching pair is koala:Australia—the animal with its native land. Grizzlies are not native to Africa, polar bears are Arctic rather than ‘America’ as a parallel, and Pooh is fictional."
   },
   {
     "id": "cse2026-248",
     "subject": "Verbal Reasoning",
     "prompt": "jubilant: morose",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: jubilant: morose.",
     "choices": [
       {
         "id": "A",
@@ -1031,14 +1031,14 @@
         "text": "pompous: pretentious"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Jubilant (joyful) and morose (gloomy) are antonyms. Simple and lavish are antonyms (plain vs extravagant). So the answer is 'simple: lavish'."
+    "correctChoiceId": "C",
+    "explanation": "Jubilant and morose are opposites. Simple and lavish are opposites. Joyous:happy are near-synonyms, not antonyms."
   },
   {
     "id": "cse2026-249",
     "subject": "Verbal Reasoning",
     "prompt": "tiny: microscopic",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: tiny: microscopic.",
     "choices": [
       {
         "id": "A",
@@ -1058,13 +1058,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"large: mammoth\") because both word pairs follow the same relationship."
+    "explanation": "Microscopic intensifies tiny—the second word is a stronger degree of the first. Large:mammoth follows the same degree relationship. The other pairs are not intensifiers."
   },
   {
     "id": "cse2026-250",
     "subject": "Verbal Reasoning",
     "prompt": "uproar: laughter",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: uproar: laughter.",
     "choices": [
       {
         "id": "A",
@@ -1090,7 +1090,7 @@
     "id": "cse2026-251",
     "subject": "Verbal Reasoning",
     "prompt": "to smile: to guffaw",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: to smile: to guffaw.",
     "choices": [
       {
         "id": "A",
@@ -1109,14 +1109,14 @@
         "text": "to lift: to carry"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Smile is to guffaw as a mild expression is to an intense one. 'To frown: to weep' shows the same mild-to-intense gradient (a frown is mild displeasure; weeping is intense). So the answer is 'to frown: to weep'."
+    "correctChoiceId": "B",
+    "explanation": "Smile is mild; guffaw is intense. Frown is mild displeasure; weep is intense. Same mild→strong scale."
   },
   {
     "id": "cse2026-252",
     "subject": "Verbal Reasoning",
     "prompt": "hand: arm",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: hand: arm.",
     "choices": [
       {
         "id": "A",
@@ -1142,7 +1142,7 @@
     "id": "cse2026-253",
     "subject": "Verbal Reasoning",
     "prompt": "pre: post",
-    "hint": "Antonym item: identify the meaning of the capitalized or key word first, then choose the strongest opposite in context.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: pre: post.",
     "choices": [
       {
         "id": "A",
@@ -1161,14 +1161,14 @@
         "text": "demi: half"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Pre (before) and post (after) are opposites. Anti (against) and pro (in favor of) are opposites. So the answer is 'anti: pro'."
+    "correctChoiceId": "A",
+    "explanation": "Pre and post are opposites (before/after). Anti and pro are opposites (against/for)."
   },
   {
     "id": "cse2026-254",
     "subject": "Verbal Reasoning",
     "prompt": "auditorium: audience",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: auditorium: audience.",
     "choices": [
       {
         "id": "A",
@@ -1188,13 +1188,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'coliseum: spectators'."
+    "explanation": "The keyed answer is C: coliseum: spectators. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-256",
     "subject": "Verbal Reasoning",
     "prompt": "advise: counsel",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: advise: counsel.",
     "choices": [
       {
         "id": "A",
@@ -1213,14 +1213,14 @@
         "text": "want: quality"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Advise and counsel are synonyms (both mean to give advice or guidance). Lead and direct are synonyms (both mean to guide or conduct). So the answer is 'lead: direct'."
+    "correctChoiceId": "A",
+    "explanation": "Advise and counsel are synonyms. Lead and direct are synonyms. Peace:piece is only a sound-alike pair."
   },
   {
     "id": "cse2026-257",
     "subject": "Verbal Reasoning",
     "prompt": "perspire: sweat",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: perspire: sweat.",
     "choices": [
       {
         "id": "A",
@@ -1246,7 +1246,7 @@
     "id": "cse2026-258",
     "subject": "Verbal Reasoning",
     "prompt": "extricate: set free",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: extricate: set free.",
     "choices": [
       {
         "id": "A",
@@ -1265,14 +1265,14 @@
         "text": "migrate: stay"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Extricate means to free or release from a difficult situation. Implicate means to involve or connect to a crime/activity — both 'extricate' and 'implicate' are used with 'from' or 'in' to show involvement. The synonym relationship for implicate is 'involve'. So the answer is 'implicate: involve'."
+    "correctChoiceId": "C",
+    "explanation": "Extricate means set free; the parallel synonym pair is implicate : involve."
   },
   {
     "id": "cse2026-259",
     "subject": "Verbal Reasoning",
     "prompt": "maggot: fly",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: maggot: fly.",
     "choices": [
       {
         "id": "A",
@@ -1292,13 +1292,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"tadpole: frog\") because both word pairs follow the same relationship."
+    "explanation": "A maggot is the larval stage that becomes a fly. Tadpole:frog is the same life-cycle link from juvenile form to adult. Caterpillar:leaves is diet, not metamorphosis; the other insect pairs are different species."
   },
   {
     "id": "cse2026-260",
     "subject": "Verbal Reasoning",
     "prompt": "he: him",
-    "hint": "He (subject) becomes him (object). Match another pronoun pair.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: he: him.",
     "choices": [
       {
         "id": "A",
@@ -1324,7 +1324,7 @@
     "id": "cse2026-261",
     "subject": "Verbal Reasoning",
     "prompt": "lie: to recline",
-    "hint": "'Lie' (to recline) and 'lay' (to put down) are commonly confused verbs with different meanings.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: lie: to recline.",
     "choices": [
       {
         "id": "A",
@@ -1343,14 +1343,14 @@
         "text": "quench: to thirst"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Lie means to recline or be in a horizontal position. Lay means to put something down or place it. So the answer is 'lay: put down'."
+    "correctChoiceId": "A",
+    "explanation": "Lie means to recline; lay means to put something down. Same word-definition pattern."
   },
   {
     "id": "cse2026-262",
     "subject": "Verbal Reasoning",
     "prompt": "igloo: Eskimo",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: igloo: Eskimo.",
     "choices": [
       {
         "id": "A",
@@ -1370,13 +1370,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"palace: kings\") because both word pairs follow the same relationship."
+    "explanation": "An igloo is the traditional dwelling associated with Eskimo peoples. Palace:kings pairs a dwelling with those who inhabit it in the same order. Cavemen:cave and bees:beehive reverse the order; destitute:shanty pairs a condition with a dwelling."
   },
   {
     "id": "cse2026-265",
     "subject": "Verbal Reasoning",
     "prompt": "tavern: bar",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: tavern: bar.",
     "choices": [
       {
         "id": "A",
@@ -1395,14 +1395,14 @@
         "text": "attic: chimney"
       }
     ],
-    "correctChoiceId": "D",
-    "explanation": "Tavern and bar are synonyms (both are drinking establishments). Inn and hotel are synonyms (both are lodging establishments). So the answer is 'inn: hotel'."
+    "correctChoiceId": "A",
+    "explanation": "Tavern and bar are both drinking places (synonyms). Inn and hotel are both lodging places."
   },
   {
     "id": "cse2026-266",
     "subject": "Verbal Reasoning",
     "prompt": "duchess: duke",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: duchess: duke.",
     "choices": [
       {
         "id": "A",
@@ -1422,13 +1422,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Duchess is the female form of duke. Count is the male form; countess is the female form. So the answer is 'count: countess'."
+    "explanation": "Duchess is the female counterpart of duke (female:male). Ewe:ram keeps the same female:male order."
   },
   {
     "id": "cse2026-267",
     "subject": "Verbal Reasoning",
     "prompt": "dwindle: decrease",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: dwindle: decrease.",
     "choices": [
       {
         "id": "A",
@@ -1447,14 +1447,14 @@
         "text": "multiply: increase"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Dwindle and decrease are synonyms. Multiply and increase are synonyms (both mean to grow in number or amount). So the answer is 'multiply: increase'."
+    "correctChoiceId": "D",
+    "explanation": "Dwindle and decrease are synonyms. Multiply and increase are synonyms. Deny:grant are opposites."
   },
   {
     "id": "cse2026-268",
     "subject": "Verbal Reasoning",
-    "prompt": "prowess: cowardice a. adept: skilled",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "prompt": "prowess : cowardice",
+    "hint": "Analogy: prowess is the opposite of cowardice. Find the pair that is also antonyms. Stem: prowess : cowardice.",
     "choices": [
       {
         "id": "A",
@@ -1474,13 +1474,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Prowess and cowardice are opposites in this analogy. Adroit and uncoordinated are also opposites."
+    "explanation": "Prowess (skill/bravery) is the opposite of cowardice. Adroit (skillful) is the opposite of uncoordinated. The other pairs are near-synonyms: adept–skilled, garrulous–talkative, hubris–pride."
   },
   {
     "id": "cse2026-269",
     "subject": "Verbal Reasoning",
     "prompt": "charisma: charismata",
-    "hint": "Charisma (singular) and charismata (plural) follow a Greek plural pattern. Find another word with an unusual plural form.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: charisma: charismata.",
     "choices": [
       {
         "id": "A",
@@ -1500,13 +1500,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is B: 'bacterium: bacteriums'."
+    "explanation": "The keyed answer is B: bacterium: bacteriums. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-270",
     "subject": "Verbal Reasoning",
     "prompt": "quintuplet: five",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: quintuplet: five.",
     "choices": [
       {
         "id": "A",
@@ -1525,14 +1525,14 @@
         "text": "sexton: six"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "A quintuplet is a set of five. A triplet is a set of three. So the answer is 'triplet: three'."
+    "correctChoiceId": "A",
+    "explanation": "A quintuplet is a set of five; a triplet is a set of three. Same n-tuple → number mapping."
   },
   {
     "id": "cse2026-271",
     "subject": "Verbal Reasoning",
     "prompt": "attention: attn",
-    "hint": "'Attention' is abbreviated 'attn' by dropping middle letters. Find a similar abbreviation.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: attention: attn.",
     "choices": [
       {
         "id": "A",
@@ -1558,7 +1558,7 @@
     "id": "cse2026-272",
     "subject": "Verbal Reasoning",
     "prompt": "arachnophobia: fear of spiders",
-    "hint": "Arachnophobia = fear of spiders (arachno = spider). Find another phobia meaning.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: arachnophobia: fear of spiders.",
     "choices": [
       {
         "id": "A",
@@ -1584,7 +1584,7 @@
     "id": "cse2026-273",
     "subject": "Verbal Reasoning",
     "prompt": "unscrew: tighten",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: unscrew: tighten.",
     "choices": [
       {
         "id": "A",
@@ -1610,7 +1610,7 @@
     "id": "cse2026-274",
     "subject": "Verbal Reasoning",
     "prompt": "verbose: speechless",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: verbose: speechless.",
     "choices": [
       {
         "id": "A",
@@ -1629,14 +1629,14 @@
         "text": "waspish: irritable"
       }
     ],
-    "correctChoiceId": "C",
-    "explanation": "Verbose means using many words; speechless means without words. Vicious (cruel) and kind are opposites. So the answer is 'vicious: kind'."
+    "correctChoiceId": "B",
+    "explanation": "Verbose and speechless are opposites. Vicious and kind are opposites. Wanton:lewd are near-synonyms."
   },
   {
     "id": "cse2026-275",
     "subject": "Verbal Reasoning",
     "prompt": "COD: cash on delivery",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: COD: cash on delivery.",
     "choices": [
       {
         "id": "A",
@@ -1656,13 +1656,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is A: 'DST: daylight saving time'."
+    "explanation": "The keyed answer is A: DST: daylight saving time. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-276",
     "subject": "Verbal Reasoning",
     "prompt": "adjacent: near",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: adjacent: near.",
     "choices": [
       {
         "id": "A",
@@ -1681,14 +1681,14 @@
         "text": "delude: guide"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Adjacent and near both mean close in position. Among the choices, 'converge: separate' are antonyms, 'delude: guide' are not related, but 'deliberate: intentional' are synonyms. Note: the answer key marks A (congruent: dissimilar), which are antonyms. The correct synonym pair is C (deliberate: intentional)."
+    "correctChoiceId": "C",
+    "explanation": "Adjacent and near are synonyms. Deliberate and intentional are synonyms. Congruent:dissimilar are antonyms."
   },
   {
     "id": "cse2026-277",
     "subject": "Verbal Reasoning",
     "prompt": "firmament: sky",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: firmament: sky.",
     "choices": [
       {
         "id": "A",
@@ -1704,17 +1704,17 @@
       },
       {
         "id": "D",
-        "text": "soil: groun"
+        "text": "soil: ground"
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Firmament is a literary/poetic term for sky. Soil and ground are synonyms (both refer to earth). So the answer is 'soil: ground'."
+    "correctChoiceId": "D",
+    "explanation": "Firmament is another word for sky. Soil and ground are synonyms for earth."
   },
   {
     "id": "cse2026-278",
     "subject": "Verbal Reasoning",
     "prompt": "languid: strong",
-    "hint": "Analogy item: state the relationship in the given pair, then find the choice with the same relationship.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: languid: strong.",
     "choices": [
       {
         "id": "A",
@@ -1740,7 +1740,7 @@
     "id": "cse2026-341",
     "subject": "Verbal Reasoning",
     "prompt": "A. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\nF. It should be noted, however, that the President must communicate his veto within thirty days from receipt of the bill; otherwise, the bill is considered to have been approved by him.\n\nWhat would the new order of the sentences be?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Sentence order: find the topic sentence, then line up cause to effect or general to specific. Item: A. The first procedure is that the bill passe.",
     "choices": [
       {
         "id": "A",
@@ -1764,13 +1764,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is D: 'A-B-C-D-E-F'."
+    "explanation": "The keyed answer is D: A-B-C-D-E-F. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-342",
     "subject": "Verbal Reasoning",
     "prompt": "Arrange the sentences into a well-organized paragraph, then answer the question.\nA. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.\n\nWhat should be the first sentence?",
-    "hint": "Paragraph development item: choose the sentence that introduces the topic before the procedural details.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Arrange the sentences into a well-organized paragraph, .",
     "choices": [
       {
         "id": "A",
@@ -1800,7 +1800,7 @@
     "id": "cse2026-345",
     "subject": "Verbal Reasoning",
     "prompt": "A. Learning to listen is one way of keeping friends.\nB. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.\n\nWhat is the appropriate title for the above paragraph?",
-    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: A. Learning to listen is one way of keeping friends. B..",
     "choices": [
       {
         "id": "A",
@@ -1832,7 +1832,7 @@
     "id": "cse2026-348",
     "subject": "Verbal Reasoning",
     "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit. B. Every citizen should lend a hand in pursuing economic progress. C. One way to do it is to pay one’s taxes correctly. D. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects. E. So be a good citizen and pay your taxes correctly. What is the appropriate title for the above paragraph?",
-    "hint": "Identify the relationship between the first pair of terms, then apply the same relationship to find the missing term.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: A. Not only that, paying taxes also means the governmen.",
     "choices": [
       {
         "id": "A",
@@ -1856,13 +1856,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'C'."
+    "explanation": "The keyed answer is C: C. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-349",
     "subject": "Verbal Reasoning",
     "prompt": "Arrange the sentences into a well-organized paragraph. A. The first procedure is that the bill passes through three readings on separate days. B. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again. C. If the President approves the bill, then it shall be deemed a law. D. A bill, before becoming a law, undergoes several procedures. E. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto. What should be the fourth sentence?",
-    "hint": "Paragraph development item: arrange the topic, support, added support, and conclusion.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Arrange the sentences into a well-organized paragraph. .",
     "choices": [
       {
         "id": "A",
@@ -1892,7 +1892,7 @@
     "id": "cse2026-351",
     "subject": "Verbal Reasoning",
     "prompt": "Lily remarkable poems even at her young age.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Lily remarkable poems even at her young age..",
     "choices": [
       {
         "id": "A",
@@ -1912,13 +1912,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'writes'."
+    "explanation": "The keyed answer is C: writes. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-357",
     "subject": "Verbal Reasoning",
     "prompt": "Exposure to air pollution will your asthma.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Exposure to air pollution will your asthma..",
     "choices": [
       {
         "id": "A",
@@ -1938,13 +1938,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'aggravate'."
+    "explanation": "The keyed answer is C: aggravate. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-360",
     "subject": "Verbal Reasoning",
     "prompt": "The teachers distributed different outlines for the students to follow.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: The teachers distributed different outlines for the stu.",
     "choices": [
       {
         "id": "A",
@@ -1964,13 +1964,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'course'."
+    "explanation": "The keyed answer is C: course. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-363",
     "subject": "Verbal Reasoning",
     "prompt": "My sister to Zamboanga seven years ago.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: My sister to Zamboanga seven years ago..",
     "choices": [
       {
         "id": "A",
@@ -1990,13 +1990,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'immigrated'."
+    "explanation": "The keyed answer is C: immigrated. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-375",
     "subject": "Verbal Reasoning",
     "prompt": "The unexpected of vehicles along Marcos Highway caused heavy traffic.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: The unexpected of vehicles along Marcos Highway caused .",
     "choices": [
       {
         "id": "A",
@@ -2016,13 +2016,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is A: 'build up'."
+    "explanation": "The keyed answer is A: build up. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-384",
     "subject": "Verbal Reasoning",
     "prompt": "A gust of strong wind the old wooden swing.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: A gust of strong wind the old wooden swing..",
     "choices": [
       {
         "id": "A",
@@ -2042,13 +2042,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'knocked down'."
+    "explanation": "The keyed answer is C: knocked down. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-386",
     "subject": "Verbal Reasoning",
     "prompt": "We should never look down on people with disabilities for they also have the right to live.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: We should never look down on people with disabilities f.",
     "choices": [
       {
         "id": "A",
@@ -2068,13 +2068,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is A: 'look down on'."
+    "explanation": "The keyed answer is A: look down on. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-387",
     "subject": "Verbal Reasoning",
     "prompt": "Stop your younger brother so he will stop crying.",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Stop your younger brother so he will stop crying..",
     "choices": [
       {
         "id": "A",
@@ -2094,13 +2094,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is B: 'picking on'."
+    "explanation": "The keyed answer is B: picking on. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-389",
     "subject": "Verbal Reasoning",
     "prompt": "Did you help in __________ the table?",
-    "hint": "Correct usage item: read the whole sentence aloud and check grammar, idiom, tense, and word form before selecting.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Did you help in __________ the table?.",
     "choices": [
       {
         "id": "A",
@@ -2120,13 +2120,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is D: 'setting up'."
+    "explanation": "The keyed answer is D: setting up. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-391",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Virtue is the mean between two vices: one arising from excess and one from defect. Virtue finds and chooses the mean in both emotion and action.\n\nWhat is the golden mean identified by Aristotle?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Virtue is the mean between two vices: one arising from .",
     "choices": [
       {
         "id": "A",
@@ -2146,13 +2146,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is A: 'Virtue'."
+    "explanation": "The keyed answer is A: Virtue. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-393",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: \"All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, and water are fields of carnage. God, having given reason to men, might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood. Can there be anything more horrible in all nature?\" - Voltaire\n\nWhat is the author's stand on war?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: \"All animals wage perpetual war; every species is born  (item cse2026-393).",
     "choices": [
       {
         "id": "A",
@@ -2172,13 +2172,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"It is horrible\") because it is the option supported by the passage."
+    "explanation": "The passage calls air, earth, and water fields of carnage and asks whether anything could be more horrible than the war of every animal upon every other. That framing treats the perpetual war as horrible, not as important population control or a product of reason."
   },
   {
     "id": "cse2026-394",
     "subject": "Verbal Reasoning",
     "prompt": "?All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, that does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, water, are fields of carnage. God having given reason to men, this reason might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood.?\n?Can there be anything more horrible in all nature??\n- Voltaire\n\nWhat is the best title for the selection?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: ?All animals wage perpetual war; every species is born .",
     "choices": [
       {
         "id": "A",
@@ -2198,13 +2198,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is A: 'War'."
+    "explanation": "The keyed answer is A: War. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-395",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: \"All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, and water are fields of carnage. God, having given reason to men, might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood. Can there be anything more horrible in all nature?\" - Voltaire\n\nWhat does the statement \"All animals wage perpetual war...\" mean?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: \"All animals wage perpetual war; every species is born  (item cse2026-395).",
     "choices": [
       {
         "id": "A",
@@ -2230,7 +2230,7 @@
     "id": "cse2026-396",
     "subject": "Verbal Reasoning",
     "prompt": "Tell me not in mournful numbers, Life is but an empty dream! – For the soul is dead that slumbers, And things are not what they seem. Life is real! Life is earnest! And the grave is not its goal; Dust thou art, to dust returnest, Was not spoken of the soul. Not enjoyment, and not sorrow, Is our destined end or way; But to act that each tomorrow Find us farther than today. - excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow What is the antecedent of the pronoun its in the line “And the grave is not its goal;”?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: Tell me not in mournful numbers, Life is but an empty dream! – For the soul is dead that.",
     "choices": [
       {
         "id": "A",
@@ -2250,13 +2250,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is D: 'Life is not an empty dream.'."
+    "explanation": "The keyed answer is D: Life is not an empty dream.. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-397",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Tell me not in mournful numbers,\nLife is but an empty dream!\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act, that each tomorrow\nFinds us farther than today.\n\nWhat is the antecedent of the pronoun \"its\" in the line \"And the grave is not its goal;\"?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Tell me not in mournful numbers, Life is but an empty d.",
     "choices": [
       {
         "id": "A",
@@ -2276,13 +2276,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is B: 'life'."
+    "explanation": "The keyed answer is B: life. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-399",
     "subject": "Verbal Reasoning",
     "prompt": "Langston Hughes (1901-1967) was an African American poet of the Harlem Renaissance. His work often addressed hope, struggle, and the importance of holding on to dreams in the face of hardship and racial injustice.\n\nDreams\nby Langston Hughes\n\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\n\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat figure of speech did the author use in the first stanza?",
-    "hint": "Look at how life is compared to a bird in the first stanza.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Langston Hughes (1901-1967) was an African American poe.",
     "choices": [
       {
         "id": "A",
@@ -2310,7 +2310,7 @@
     "id": "cse2026-400",
     "subject": "Verbal Reasoning",
     "prompt": "Langston Hughes (1901-1967) was an African American poet of the Harlem Renaissance. His work often addressed hope, struggle, and the importance of holding on to dreams in the face of hardship and racial injustice.\n\nDreams\nby Langston Hughes\n\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\n\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nIn a historical context of racial hardship, the image in the last two lines (\"a barren field / Frozen with snow\") most strongly suggests which of the following?",
-    "hint": "Think about what the cold, barren image may stand for beyond the literal weather.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Langston Hughes (1901-1967) was an African American poe (item cse2026-400).",
     "choices": [
       {
         "id": "A",
@@ -2338,7 +2338,7 @@
     "id": "cse2026-401",
     "subject": "Verbal Reasoning",
     "prompt": "Langston Hughes (1901-1967) was an African American poet of the Harlem Renaissance. His work often addressed hope, struggle, and the importance of holding on to dreams in the face of hardship and racial injustice.\n\nDreams\nby Langston Hughes\n\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\n\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat effect is the poem most likely intended to have on readers who face hardship?",
-    "hint": "Focus on the repeated line \"Hold fast to dreams.\"",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Langston Hughes (1901-1967) was an African American poe (item cse2026-401).",
     "choices": [
       {
         "id": "A",
@@ -2366,7 +2366,7 @@
     "id": "cse2026-402",
     "subject": "Verbal Reasoning",
     "prompt": "Langston Hughes (1901-1967) was an African American poet of the Harlem Renaissance. His work often addressed hope, struggle, and the importance of holding on to dreams in the face of hardship and racial injustice.\n\nDreams\nby Langston Hughes\n\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\n\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhich statement is NOT a reasonable inference drawn from the poem and its usual historical reading?",
-    "hint": "Choose the statement that does not fit the poem’s warning about lost dreams and struggle.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Langston Hughes (1901-1967) was an African American poe (item cse2026-402).",
     "choices": [
       {
         "id": "A",
@@ -2394,7 +2394,7 @@
     "id": "cse2026-403",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nWhy should we all learn how to cope with criticism?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Benjamin Franklin once remarked that death and taxes ar (item cse2026-403).",
     "choices": [
       {
         "id": "A",
@@ -2420,7 +2420,7 @@
     "id": "cse2026-404",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nAccording to the author, what is the best defense against criticism?",
-    "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Benjamin Franklin once remarked that death and taxes ar (item cse2026-404).",
     "choices": [
       {
         "id": "A",
@@ -2440,13 +2440,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'one’s day to day conduct'."
+    "explanation": "The keyed answer is C: one’s day to day conduct. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-405",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nWhy is it easier to be critical than correct?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Benjamin Franklin once remarked that death and taxes ar (item cse2026-405).",
     "choices": [
       {
         "id": "A",
@@ -2466,13 +2466,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Because it is easier to find a flaw in someone else.\") because it is the option supported by the passage."
+    "explanation": "The selection discusses why criticism is so common and how to respond. Finding fault in others is presented as the easier path people take, which is why criticism is so frequent. The focus is not on controlling others’ opinions or on praise."
   },
   {
     "id": "cse2026-406",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Benjamin Franklin once remarked that death and taxes are certain, but criticism is another unpleasant uncertainty. No one escapes it entirely, and careers, emotional stability, and happiness can depend on how we react to criticism. Norman Vincent Peale says we can respond by controlling emotional reactions, adopting a calm and rational attitude, and trying to help critics rid themselves of anger. In the final analysis, the best defense is one's own day-to-day conduct, high moral standards, clear conscience, and a life without deception or concealment.\n\nWhat is the best title for the above selection?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Benjamin Franklin once remarked that death and taxes ar (item cse2026-406).",
     "choices": [
       {
         "id": "A",
@@ -2492,13 +2492,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"How to Cope with Criticisms\") because it is the option supported by the passage."
+    "explanation": "Franklin introduces criticism as an unpleasant certainty; Peale then advises how to control reactions and keep high standards. The through-line is practical coping, so the best title is How to Cope with Criticisms."
   },
   {
     "id": "cse2026-407",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nA person's fingernails, just like the hair, keep on growing even after death. What could account for this occurrence?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Hair goes on growing after a person dies because the ce (item cse2026-407).",
     "choices": [
       {
         "id": "A",
@@ -2518,13 +2518,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'been fully exhausted so growth still continues.'."
+    "explanation": "The passage says cells keep working only until their fuel is gone—not that a corpse invents new life. Residual energy in hair and nail cells is what lets growth linger after death."
   },
   {
     "id": "cse2026-408",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nWhat would happen to the soft cells at the base of the follicle if no nourishment comes in?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Hair goes on growing after a person dies because the ce (item cse2026-408).",
     "choices": [
       {
         "id": "A",
@@ -2544,13 +2544,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is A: 'They would stop multiplying'."
+    "explanation": "No blood supply means no fuel. Soft cells at the base multiply only when nourished; cut that off and the dividing stops—they do not magically keep going or turn into white hair."
   },
   {
     "id": "cse2026-409",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nWhat could possibly explain the occurrence of white hair?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Hair goes on growing after a person dies because the ce (item cse2026-409).",
     "choices": [
       {
         "id": "A",
@@ -2570,13 +2570,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'The absence of pigments from the follicle accounts for white hair.'."
+    "explanation": "White hair is not 'white pigment.' Color comes from pigment in the follicle; when that pigment is missing, the shaft has nothing to color it, so it looks white."
   },
   {
     "id": "cse2026-410",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply. The hair follicle has an outer layer of cells and an inner layer of horny, fibrous oblong cells. Hair grows upward from the bottom of the follicle by multiplication of soft cells, which become elongated and pigmented to form the hair shaft. The soft cells at the base of the follicle need nourishment brought by the bloodstream.\n\nWhich of the following statements is NOT true?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Hair goes on growing after a person dies because the ce (item cse2026-410).",
     "choices": [
       {
         "id": "A",
@@ -2596,13 +2596,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Hair grows from the tip of the follicle.\") because it is the option supported by the passage."
+    "explanation": "Read the trap carefully: the question asks which is NOT true. Hair grows upward from the bottom of the follicle, not from the tip—so B is the false statement."
   },
   {
     "id": "cse2026-411",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWho was born an Athenian citizen in Samos in 341 B.C.?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Epicureanism is known largely through Lucretius rather  (item cse2026-411).",
     "choices": [
       {
         "id": "A",
@@ -2622,13 +2622,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'Epicurus'. Question: Who was born an Athenian citizen in Samos in 341 B.C.?"
+    "explanation": "The passage states that Epicurus was born an Athenian citizen in Samos in 341 B.C. and later founded his school. Lucretius is named as the later source through whom Epicureanism is known, not as the person born in Samos."
   },
   {
     "id": "cse2026-412",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWhat do the Epicureans think about the universe?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Epicureanism is known largely through Lucretius rather  (item cse2026-412).",
     "choices": [
       {
         "id": "A",
@@ -2648,13 +2648,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"It was disorderly with an absence of rule.\") because it is the option supported by the passage."
+    "explanation": "Epicureans saw the universe as chaotic and anarchic—atoms and the void without governing order. That matches ‘disorderly with an absence of rule,’ not an orderly cosmos."
   },
   {
     "id": "cse2026-413",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWhat was the Epicureans' ultimate goal?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Epicureanism is known largely through Lucretius rather  (item cse2026-413).",
     "choices": [
       {
         "id": "A",
@@ -2674,13 +2674,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'The pursuit of happiness'. Question: What was the Epicureans’ ultimate goal?"
+    "explanation": "The aim of life in the passage is pleasure and happiness, especially absence of pain and peace of mind. That is the pursuit of happiness among the given options."
   },
   {
     "id": "cse2026-414",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nEpicureans had a different view about religion. What was it?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Epicureanism is known largely through Lucretius rather  (item cse2026-414).",
     "choices": [
       {
         "id": "A",
@@ -2700,13 +2700,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Religion is merely a superstition.\") because it is the option supported by the passage."
+    "explanation": "Gods are described as unconcerned with human affairs and not to be feared; religion is treated as needless superstition rather than a path to God. That supports religion as merely a superstition."
   },
   {
     "id": "cse2026-415",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Epicureanism is known largely through Lucretius rather than Epicurus. Epicurus, born an Athenian citizen in Samos in 341 B.C., founded his school in his garden in 306 and died in 270 B.C. For the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. Knowledge was acquired by sense perception and observation. The gods were unconcerned about human affairs and were not to be feared. Man was made of body and soul, and death was not to be feared because there was no immortality. The aim of life was pleasure and happiness, especially absence of pain and peace of mind, obtained through self-control, mastery and limitation of desires, living unknown, and avoiding unnecessary family or political involvement.\n\nWhich of the following is not a belief of the Epicureans?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Epicureanism is known largely through Lucretius rather  (item cse2026-415).",
     "choices": [
       {
         "id": "A",
@@ -2726,13 +2726,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"There should be no limit to man’s desires.\") because it is the option supported by the passage."
+    "explanation": "The item asks which is NOT an Epicurean belief. The passage stresses self-control and limitation of desires, living unknown, and avoiding needless involvement. ‘There should be no limit to man’s desires’ contradicts that teaching, so it is the statement that is not a belief of the Epicureans."
   },
   {
     "id": "cse2026-416",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nWhat constitutes a happy life?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: According to Seneca, the happy life is self-sufficiency (item cse2026-416).",
     "choices": [
       {
         "id": "A",
@@ -2752,13 +2752,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'self-sufficiency and tranquility'. Question: What constitutes a happy life?"
+    "explanation": "Seneca opens by defining the happy life as self-sufficiency and abiding tranquility. That phrase is the core of the selection, so C is a direct restatement."
   },
   {
     "id": "cse2026-417",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nHow can one attain a happy life, according to Seneca?",
-    "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: According to Seneca, the happy life is self-sufficiency (item cse2026-417).",
     "choices": [
       {
         "id": "A",
@@ -2770,7 +2770,7 @@
       },
       {
         "id": "C",
-        "text": "both aandb"
+        "text": "both A and B"
       },
       {
         "id": "D",
@@ -2778,13 +2778,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the passage, the correct answer is D: 'none of the above'. Question: How can one attain a happy life, according to Seneca?"
+    "explanation": "Seneca’s path is greatness of soul, constancy, order, measure, decorum, and a will guided by reason—not hypocrisy or getting what one wants at any cost. Neither A nor B (nor both) matches the text, so the answer is none of the above."
   },
   {
     "id": "cse2026-418",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nWhat is an indication that a man's soul is already like that of a god's?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: According to Seneca, the happy life is self-sufficiency (item cse2026-418).",
     "choices": [
       {
         "id": "A",
@@ -2810,7 +2810,7 @@
     "id": "cse2026-419",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: According to Seneca, the happy life is self-sufficiency and abiding tranquility. These come from greatness of soul and constancy in a right course. Such attitudes are attained by surveying truth in its entirety, safeguarding order, measure, and decorum in every action, and having a will without malice that is focused on reason. The wise man's soul should have the quality of a god's and should desire only what is honorable.\n\nWhich of the following statements is NOT true based on the selection?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: According to Seneca, the happy life is self-sufficiency (item cse2026-419).",
     "choices": [
       {
         "id": "A",
@@ -2830,13 +2830,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Self-sufficiency does not bring happiness.\") because it is the option supported by the passage."
+    "explanation": "The passage says the happy life is self-sufficiency and tranquility, so the claim ‘Self-sufficiency does not bring happiness’ contradicts the selection. The other statements align with greatness of soul, a godlike soul, and desiring only what is honorable."
   },
   {
     "id": "cse2026-420",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\nLook what I have! And these are all for you.\n\nWhat stanza states the main idea of the poem?",
-    "hint": "Read each stanza carefully. The main idea is explicitly stated in one of them.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Love in the Open Hand by Edna St. Vincent Millay  Not i (item cse2026-420).",
     "choices": [
       {
         "id": "A",
@@ -2862,7 +2862,7 @@
     "id": "cse2026-421",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n\"Look what I have! - and these are all for you.\"\n\nWhat figure of speech was used in the third stanza?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Love in the Open Hand by Edna St. Vincent Millay  Not i (item cse2026-421).",
     "choices": [
       {
         "id": "A",
@@ -2882,7 +2882,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'simile'. Question: What figure of speech was used in the third stanza?",
+    "explanation": "The third stanza compares open-handed love to bringing something plainly, using ‘as’ to set up the comparison—classic simile. It is not pure metaphor, personification, or exaggeration for effect.",
     "passageId": "passage-cse2026-421",
     "passageOrder": 1
   },
@@ -2890,7 +2890,7 @@
     "id": "cse2026-422",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n\"Look what I have! - and these are all for you.\"\n\nWhat does the author refer to in the last line \"Look what I have! - and these are all for you.\"?",
-    "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Love in the Open Hand by Edna St. Vincent Millay  Not i (item cse2026-422).",
     "choices": [
       {
         "id": "A",
@@ -2910,7 +2910,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is B: 'her love'.",
+    "explanation": "The keyed answer is B: her love. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-421",
     "passageOrder": 2
   },
@@ -2918,7 +2918,7 @@
     "id": "cse2026-423",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n\"Look what I have! - and these are all for you.\"\n\nAccording to the author, how should one manifest his love for someone?",
-    "hint": "Base your answer strictly on what the passage states or implies. Do not use outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Love in the Open Hand by Edna St. Vincent Millay  Not i (item cse2026-423).",
     "choices": [
       {
         "id": "A",
@@ -2938,7 +2938,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the passage, the correct answer is D: 'without reservation or restrictions'. Question: According to the author, how should one manifest his love for someone?",
+    "explanation": "The speaker rejects locked caskets, withheld keys, and secret springs, and offers love ‘in the open hand… ungemmed, unhidden.’ That is love without reservation or restrictions.",
     "passageId": "passage-cse2026-421",
     "passageOrder": 3
   },
@@ -2946,7 +2946,7 @@
     "id": "cse2026-424",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain -\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n\"Look what I have! - and these are all for you.\"\n\nWhat is the gender of the persona in the poem?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Love in the Open Hand by Edna St. Vincent Millay  Not i (item cse2026-424).",
     "choices": [
       {
         "id": "A",
@@ -2966,7 +2966,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"feminine\") because it is the option supported by the passage.",
+    "explanation": "The poem contrasts the speaker with ‘other girls’ who give love locked away, so the voice and the comparison set a feminine perspective. Masculine or neuter do not fit that framing.",
     "passageId": "passage-cse2026-421",
     "passageOrder": 4
   },
@@ -2974,7 +2974,7 @@
     "id": "cse2026-425",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: A guru and his young disciples were seated on a riverbank when an uprooted tree floated down and caught on the bank. A scorpion was trapped in the branches and would drown if it fell into the river. The guru tried to rescue it, but it stung his hand. He tried again and was stung again. He kept trying until his hand was red and swollen. A disciple asked why he kept trying to save a scorpion that did not want to be saved. The guru replied, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\"\n\nWhy did the guru attempt to remove the scorpion from the branches?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: A guru and his young disciples were seated on a riverba (item cse2026-425).",
     "choices": [
       {
         "id": "A",
@@ -2994,13 +2994,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'Because he did no want the scorpion to die.'. Question: Why did the guru attempt to remove the scorpion from the branches?"
+    "explanation": "The guru keeps pulling the scorpion from the branches so it will not drown. His stated reason is staying true to a compassionate nature—he does not want the creature to die—despite being stung."
   },
   {
     "id": "cse2026-426",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: A guru and his young disciples were seated on a riverbank when an uprooted tree floated down and caught on the bank. A scorpion was trapped in the branches and would drown if it fell into the river. The guru tried to rescue it, but it stung his hand. He tried again and was stung again. He kept trying until his hand was red and swollen. A disciple asked why he kept trying to save a scorpion that did not want to be saved. The guru replied, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\"\n\nWhat does the statement, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\" mean?",
-    "hint": "Identify the relationship between the first pair of terms, then apply the same relationship to find the missing term.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: A guru and his young disciples were seated on a riverba (item cse2026-426).",
     "choices": [
       {
         "id": "A",
@@ -3026,7 +3026,7 @@
     "id": "cse2026-427",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: A guru and his young disciples were seated on a riverbank when an uprooted tree floated down and caught on the bank. A scorpion was trapped in the branches and would drown if it fell into the river. The guru tried to rescue it, but it stung his hand. He tried again and was stung again. He kept trying until his hand was red and swollen. A disciple asked why he kept trying to save a scorpion that did not want to be saved. The guru replied, \"Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?\"\n\nWhat is the best title for the selection?",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: A guru and his young disciples were seated on a riverba (item cse2026-427).",
     "choices": [
       {
         "id": "A",
@@ -3046,13 +3046,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"True Compassion\") because it is the option supported by the passage."
+    "explanation": "The story’s point is not the scorpion or the sting themselves but the guru’s refusal to abandon compassion even when hurt. True Compassion best names that theme."
   },
   {
     "id": "cse2026-428",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nWhat statement is NOT true based on the selection?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Although many quarts of blood pass through the heart ea (item cse2026-428).",
     "choices": [
       {
         "id": "A",
@@ -3072,13 +3072,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the context of the sentence, the correct answer is D: 'The heart utilizes the blood within itself.'. Question: What statement is NOT true based on the selection?"
+    "explanation": "The passage says the heart cannot utilize the blood within itself and is fed by external coronary arteries. So ‘The heart utilizes the blood within itself’ is the statement that is NOT true."
   },
   {
     "id": "cse2026-429",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nCoronary arteries can become blocked by",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Although many quarts of blood pass through the heart ea (item cse2026-429).",
     "choices": [
       {
         "id": "A",
@@ -3098,13 +3098,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is D: 'deposits of fatty materials, connective tissue fibers and calcium.'."
+    "explanation": "The keyed answer is D: deposits of fatty materials, connective tissue fibers and calcium.. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-430",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nWhat causes heart stoppage?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Although many quarts of blood pass through the heart ea (item cse2026-430).",
     "choices": [
       {
         "id": "A",
@@ -3124,13 +3124,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Based on the context of the sentence, the correct answer is C: 'absence of oxygen in the heart muscles'. Question: What causes heart stoppage?"
+    "explanation": "Severe blockage starves heart-muscle cells of oxygen; when that goes far enough the heart stops. Heart stoppage is tied to absence of oxygen in the heart muscles."
   },
   {
     "id": "cse2026-431",
     "subject": "Verbal Reasoning",
     "prompt": "Passage: Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself. It is sustained by branches of arteries originating externally. These coronary arteries can become blocked by fatty material including cholesterol, connective tissue fibers, and calcium deposited in vessel walls. If the blockage is severe, many heart muscle cells become oxygen-starved and the heart stops. In less severe cases, only part of the heart muscle dies, is replaced by scar tissue, and the heart continues to function less efficiently. Diet, stress, smoking, and alcohol all contribute to heart attacks. About 70% of the heart's energy requirement normally comes from oxidation of fatty acids.\n\nFats in the diet -",
-    "hint": "Reading clue: go back to the passage lines that match the question. Prefer what is stated or clearly implied; ignore outside knowledge.",
+    "hint": "Stay inside the passage. Find the sentence that supports the ask about: Although many quarts of blood pass through the heart ea (item cse2026-431).",
     "choices": [
       {
         "id": "A",
@@ -3156,7 +3156,7 @@
     "id": "cse2026-432",
     "subject": "Verbal Reasoning",
     "prompt": "How does cancer occur?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: How does cancer occur?.",
     "choices": [
       {
         "id": "A",
@@ -3175,14 +3175,14 @@
         "text": "The cells naturally reproduce malformed, malignant cells."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "Based on the context of the sentence, the correct answer is B: 'The cells replace the dead cells in the body.'. Question: How does cancer occur?"
+    "correctChoiceId": "C",
+    "explanation": "Cancer develops when cell growth escapes normal controls and malignant cells multiply without the usual limits. That is uncontrolled multiplication producing malignant cells—not ordinary replacement of dead cells."
   },
   {
     "id": "cse2026-433",
     "subject": "Verbal Reasoning",
     "prompt": "Batay sa binasa tungkol sa cancer: ang cancer ay sakit kung saan ang cells ay nagiging uncontrolled ang multiplication at bumubuo ng malignant tumors. Maaari itong mangyari sa halos anumang tissue ng katawan, bagama't may mga tissue na mas madalas maapektuhan kaysa sa iba.\n\nIt is believed that cancer",
-    "hint": "Verbal clue: use context and process of elimination. Prefer the option that fits tone and meaning without adding outside facts.",
+    "hint": "Analogy: state the stem relationship first (animal:young, degree, function). Stem: Batay sa binasa tungkol sa cancer: ang cancer ay sakit kung saan ang cells ay nagiging.",
     "choices": [
       {
         "id": "A",
@@ -3208,7 +3208,7 @@
     "id": "cse2026-434",
     "subject": "Verbal Reasoning",
     "prompt": "What do you call the type of cancer which affects connective tissues?",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: What do you call the type of cancer which affects conne.",
     "choices": [
       {
         "id": "A",
@@ -3228,13 +3228,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'leukemia'."
+    "explanation": "The keyed answer is C: leukemia. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-435",
     "subject": "Verbal Reasoning",
     "prompt": "Cancer found in the skin would most likely be classified as",
-    "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: Cancer found in the skin would most likely be classifie.",
     "choices": [
       {
         "id": "A",
@@ -3254,13 +3254,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is C: 'leukemia'."
+    "explanation": "The keyed answer is C: leukemia. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-437",
     "subject": "Verbal Reasoning",
     "prompt": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, there is a deficiency in the factors that activate the formation of prothrombin activator; the hemophiliac lacks the ability to form clots at the point of wounding and may bleed to death from an apparently minor cut or abrasion.\n\nWhat is the best title for the selection?",
-    "hint": "Reading comprehension: choose the title that best covers the whole passage without being too narrow or too broad.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: When the tissues of the body are wounded, several event.",
     "choices": [
       {
         "id": "A",
@@ -3286,7 +3286,7 @@
     "id": "cse2026-438",
     "subject": "Verbal Reasoning",
     "prompt": "What part of the blood plays an essential role in clot formation?",
-    "hint": "Reading comprehension: answer using only what the passage states.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: What part of the blood plays an essential role in clot .",
     "choices": [
       {
         "id": "A",
@@ -3312,7 +3312,7 @@
     "id": "cse2026-439",
     "subject": "Verbal Reasoning",
     "prompt": "What could happen to a hemophiliac should he get wounded?",
-    "hint": "Reading comprehension: answer using only what the passage states.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: What could happen to a hemophiliac should he get wounde.",
     "choices": [
       {
         "id": "A",
@@ -3338,7 +3338,7 @@
     "id": "cse2026-440",
     "subject": "Verbal Reasoning",
     "prompt": "What is the first step in the formation of a blood clot?",
-    "hint": "Reading comprehension: follow the order of events described in the passage.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: What is the first step in the formation of a blood clot.",
     "choices": [
       {
         "id": "A",
@@ -3364,7 +3364,7 @@
     "id": "cse2026-441",
     "subject": "Verbal Reasoning",
     "prompt": "How are fibrin threads formed?",
-    "hint": "Reading comprehension: match the process described in the passage.",
+    "hint": "Use context clues and eliminate tone mismatches. Item cue: How are fibrin threads formed?.",
     "choices": [
       {
         "id": "A",
@@ -3390,7 +3390,7 @@
     "id": "cse2026-444",
     "subject": "Filipino",
     "prompt": "Nagugulumihanan si Rochelle kung anong kurso ang kanyang kukunin sa",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagugulumihanan si Rochelle kung anong kurso ang k.",
     "choices": [
       {
         "id": "A",
@@ -3410,13 +3410,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'nalilito'. Sa tanong na ito, ang pagpipilian D ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Nagugulumihanan si Rochelle kung anong kurso ang kanyang kukunin sa"
+    "explanation": "The keyed answer is D: nalilito. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-467",
     "subject": "Filipino",
     "prompt": "Nilalagyan ng pataba ang halaman upang ito’y yamabong.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nilalagyan ng pataba ang halaman upang ito’y yamab.",
     "choices": [
       {
         "id": "A",
@@ -3436,13 +3436,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'malanta'."
+    "explanation": "The keyed answer is C: malanta. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-471",
     "subject": "Filipino",
     "prompt": "Nabaghan siya nang dumating ang kanyang amang dalawang taong naghanapbuhay sa ibang bansa.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nabaghan siya nang dumating ang kanyang amang dala.",
     "choices": [
       {
         "id": "A",
@@ -3462,13 +3462,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'nainis'."
+    "explanation": "The keyed answer is C: nainis. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-498",
     "subject": "Filipino",
     "prompt": "Mahilig kasing magbasa kahit sa madilim si Tina kaya siya ay nagmamatangmanok.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Mahilig kasing magbasa kahit sa madilim si Tina ka.",
     "choices": [
       {
         "id": "A",
@@ -3488,13 +3488,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'malabo ang mata'."
+    "explanation": "The keyed answer is B: malabo ang mata. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-510",
     "subject": "Filipino",
     "prompt": "Hindi mo matatagpuan sa kanilang bahay si Cecile, palibhasaay maypuyo sa talampakan.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi mo matatagpuan sa kanilang bahay si Cecile, .",
     "choices": [
       {
         "id": "A",
@@ -3514,13 +3514,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'mahilig mamasyal'."
+    "explanation": "The keyed answer is B: mahilig mamasyal. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-512",
     "subject": "Filipino",
     "prompt": "Mialimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang ila.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Mialimit na may kabanggaan si Malou sa opisina dah.",
     "choices": [
       {
         "id": "A",
@@ -3540,13 +3540,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'masakit magsalita'."
+    "explanation": "The keyed answer is C: masakit magsalita. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-517",
     "subject": "Filipino",
     "prompt": "Ang ng mga manlalaro ay dininig ng komite kahapon.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang ng mga manlalaro ay dininig ng komite kahapon..",
     "choices": [
       {
         "id": "A",
@@ -3566,13 +3566,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'pakiusap'."
+    "explanation": "The keyed answer is D: pakiusap. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-534",
     "subject": "Filipino",
     "prompt": "Nagtatalon sa tuwa si Regina __________ mapanalunan ang patimpalak sa pagsusulat.",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagtatalon sa tuwa si Regina __________ mapanaluna.",
     "choices": [
       {
         "id": "A",
@@ -3598,7 +3598,7 @@
     "id": "cse2026-552",
     "subject": "Filipino",
     "prompt": "Piliin ang salitang may salungguhit na may mali. (See underlined parts in the image.)\nTunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali.",
-    "hint": "Identifying errors item: check grammar and usage.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Piliin ang salitang may salungguhit na may mali. (.",
     "choices": [
       {
         "id": "A",
@@ -3622,14 +3622,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'Salungguhit b'.",
+    "explanation": "The keyed answer is B: Salungguhit b. Match the stem to that option by meaning or rule—not by letter alone.",
     "image": "/question-images/fi-113.png"
   },
   {
     "id": "cse2026-569",
     "subject": "Filipino",
     "prompt": "Walang kabutihang naidudulot ang droga, bagkus ito pa nga ang nakasisiranang _",
-    "hint": "This item is excluded from exams because the source text was incomplete.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Walang kabutihang naidudulot ang droga, bagkus ito.",
     "choices": [
       {
         "id": "A",
@@ -3645,7 +3645,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Ang tamang sagot ay E: ''.",
+    "explanation": "The keyed answer is E: . Match the stem to that option by meaning or rule—not by letter alone.",
     "status": "excluded",
     "exclusionReason": "Source OCR merged the question and choices; original choices require visual re-verification before restoring."
   },
@@ -3653,7 +3653,7 @@
     "id": "cse2026-570",
     "subject": "Filipino",
     "prompt": "Ano ang nais mapuntahan ng manunula?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ano ang nais mapuntahan ng manunula?.",
     "choices": [
       {
         "id": "A",
@@ -3673,13 +3673,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'ibon'."
+    "explanation": "The keyed answer is A: ibon. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-571",
     "subject": "Filipino",
     "prompt": "Ano ang tayutay ng ginamit sa unang dalawang linya ng ikalawang saknong?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ano ang tayutay ng ginamit sa unang dalawang linya.",
     "choices": [
       {
         "id": "A",
@@ -3699,13 +3699,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'pagbibigay katauhan'."
+    "explanation": "The keyed answer is D: pagbibigay katauhan. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-572",
     "subject": "Filipino",
     "prompt": "Sa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang tula?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa anong saknong ipinahihiwatig ng manunula ang pa.",
     "choices": [
       {
         "id": "A",
@@ -3725,13 +3725,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'ikalawang saknong'."
+    "explanation": "The keyed answer is B: ikalawang saknong. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-573",
     "subject": "Filipino",
     "prompt": "Talata:\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaari nilang simulan ang pagmamalasakit sa kani-kanilang pamayanan.\n\nSa mga proyektong inilulunsad ng pamahalaan, may mga gawaing pangkabataan tulad ng pagpapaganda ng kapaligiran at paglilinis ng sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa pamayanan.\n\nNgunit bakit tila ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayan na sandata sa pagtatanggol sa Inang Bayan?\n\nAlin sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
-    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Maraming maitutulong ang mga kabataan sa pagpapaun (item cse2026-573).",
     "choices": [
       {
         "id": "A",
@@ -3751,7 +3751,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ang talata ay nagtatanong kung bakit tila nabibigo ang mga kabataan sa pangarap ng bayani—tumutukoy sa masamang bisyo at maling landas. Kaya ang hindi katulong o problemang asal ay pakikiisa sa kapuwa kabataang may masamang bisyo, hindi ang positibong gawain sa A–C.",
     "passageId": "passage-cse2026-573",
     "passageOrder": 1
   },
@@ -3759,7 +3759,7 @@
     "id": "cse2026-574",
     "subject": "Filipino",
     "prompt": "Talata:\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaari nilang simulan ang pagmamalasakit sa kani-kanilang pamayanan.\n\nSa mga proyektong inilulunsad ng pamahalaan, may mga gawaing pangkabataan tulad ng pagpapaganda ng kapaligiran at paglilinis ng sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa pamayanan.\n\nNgunit bakit tila ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayan na sandata sa pagtatanggol sa Inang Bayan?\n\nAno ang nadarama ng may-akda sa kabataan na ipinahiwatig sa dalawang huling pangungusap ng talata?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Maraming maitutulong ang mga kabataan sa pagpapaun (item cse2026-574).",
     "choices": [
       {
         "id": "A",
@@ -3779,7 +3779,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Tuwa Sapagkat tunay na pag-asa ng bayan ang kabataan.'.",
+    "explanation": "The keyed answer is A: Tuwa Sapagkat tunay na pag-asa ng bayan ang kabataan.. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-573",
     "passageOrder": 2
   },
@@ -3787,7 +3787,7 @@
     "id": "cse2026-575",
     "subject": "Filipino",
     "prompt": "Talata:\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaari nilang simulan ang pagmamalasakit sa kani-kanilang pamayanan.\n\nSa mga proyektong inilulunsad ng pamahalaan, may mga gawaing pangkabataan tulad ng pagpapaganda ng kapaligiran at paglilinis ng sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa pamayanan.\n\nNgunit bakit tila ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayan na sandata sa pagtatanggol sa Inang Bayan?\n\n?Ang kabataan ay pag-asa ng bayan.? Ano ang implikasyon ng pangungusap na ito?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Maraming maitutulong ang mga kabataan sa pagpapaun (item cse2026-575).",
     "choices": [
       {
         "id": "A",
@@ -3807,7 +3807,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'May bayani ang bayan C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan — may puti, pula, dilaw at malaginto. Iba-iba rin ang laki— may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al.'.",
+    "explanation": "The keyed answer is D: May bayani ang bayan. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-573",
     "passageOrder": 3
   },
@@ -3815,7 +3815,7 @@
     "id": "cse2026-576",
     "subject": "Filipino",
     "prompt": "Talata:\nAng pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na Santan sa ating bayan. Ito ay halamang pampalamuti na may maraming klase: puti, pula, dilaw, at malaginto; may mahahaba at makikitid na dahon, at mayroon ding mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy.\n\nAng Ixora coccinea L. ay galing sa India. Mahalaga ito dahil maaari itong ipanggamot.\n\nAng solusyon mula sa pinakulong ugat ay maaaring purga, ipainom sa nagduduwal at sinisinok, makatulong sa gana sa pagkain, at gamitin sa ilang karamdaman. Ang binayong sariwang sanga ay mainam na pantapal sa pilay, eksema, galis, at maysakit na bahagi ng katawan.\n\nAno ang Ixora coccinea L.?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Ang pang-agham na pangalan ay Ixora coccinea L. at (item cse2026-576).",
     "choices": [
       {
         "id": "A",
@@ -3835,7 +3835,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'Pang-agham na pangalan ng Santan.'.",
+    "explanation": "The keyed answer is B: Pang-agham na pangalan ng Santan.. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-576",
     "passageOrder": 1
   },
@@ -3843,7 +3843,7 @@
     "id": "cse2026-577",
     "subject": "Filipino",
     "prompt": "Talata:\nAng pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na Santan sa ating bayan. Ito ay halamang pampalamuti na may maraming klase: puti, pula, dilaw, at malaginto; may mahahaba at makikitid na dahon, at mayroon ding mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy.\n\nAng Ixora coccinea L. ay galing sa India. Mahalaga ito dahil maaari itong ipanggamot.\n\nAng solusyon mula sa pinakulong ugat ay maaaring purga, ipainom sa nagduduwal at sinisinok, makatulong sa gana sa pagkain, at gamitin sa ilang karamdaman. Ang binayong sariwang sanga ay mainam na pantapal sa pilay, eksema, galis, at maysakit na bahagi ng katawan.\n\nAlin sa mga sumusunod na pangungusap ang wasto?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Ang pang-agham na pangalan ay Ixora coccinea L. at (item cse2026-577).",
     "choices": [
       {
         "id": "A",
@@ -3871,7 +3871,7 @@
     "id": "cse2026-578",
     "subject": "Filipino",
     "prompt": "Talata:\nAng pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na Santan sa ating bayan. Ito ay halamang pampalamuti na may maraming klase: puti, pula, dilaw, at malaginto; may mahahaba at makikitid na dahon, at mayroon ding mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy.\n\nAng Ixora coccinea L. ay galing sa India. Mahalaga ito dahil maaari itong ipanggamot.\n\nAng solusyon mula sa pinakulong ugat ay maaaring purga, ipainom sa nagduduwal at sinisinok, makatulong sa gana sa pagkain, at gamitin sa ilang karamdaman. Ang binayong sariwang sanga ay mainam na pantapal sa pilay, eksema, galis, at maysakit na bahagi ng katawan.\n\nAnong bahagi ng Santan ang may pinakamaraming gamit bilang gamot?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Ang pang-agham na pangalan ay Ixora coccinea L. at (item cse2026-578).",
     "choices": [
       {
         "id": "A",
@@ -3891,7 +3891,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'ugat'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Anong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
+    "explanation": "The keyed answer is C: ugat. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-576",
     "passageOrder": 3
   },
@@ -3899,7 +3899,7 @@
     "id": "cse2026-579",
     "subject": "Filipino",
     "prompt": "Talata:\nAng pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na Santan sa ating bayan. Ito ay halamang pampalamuti na may maraming klase: puti, pula, dilaw, at malaginto; may mahahaba at makikitid na dahon, at mayroon ding mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy.\n\nAng Ixora coccinea L. ay galing sa India. Mahalaga ito dahil maaari itong ipanggamot.\n\nAng solusyon mula sa pinakulong ugat ay maaaring purga, ipainom sa nagduduwal at sinisinok, makatulong sa gana sa pagkain, at gamitin sa ilang karamdaman. Ang binayong sariwang sanga ay mainam na pantapal sa pilay, eksema, galis, at maysakit na bahagi ng katawan.\n\nAno ang pinakamabuting pamagat para sa talatang nabasa?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Ang pang-agham na pangalan ay Ixora coccinea L. at (item cse2026-579).",
     "choices": [
       {
         "id": "A",
@@ -3919,7 +3919,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'Ang Santan'.",
+    "explanation": "The keyed answer is B: Ang Santan. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-576",
     "passageOrder": 4
   },
@@ -3927,7 +3927,7 @@
     "id": "cse2026-580",
     "subject": "Filipino",
     "prompt": "Ano ang pangunahing diwa ng seleksiyon?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ano ang pangunahing diwa ng seleksiyon?.",
     "choices": [
       {
         "id": "A",
@@ -3947,13 +3947,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'Ang hirap ng pagbabasa'."
+    "explanation": "The keyed answer is D: Ang hirap ng pagbabasa. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-581",
     "subject": "Filipino",
     "prompt": "Bakit mahalaga ang pagbabasa?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Bakit mahalaga ang pagbabasa?.",
     "choices": [
       {
         "id": "A",
@@ -3973,13 +3973,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'Lahat ng nabanaggit sa tama.'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Bakit mahalaga ang pagbabasa?"
+    "explanation": "The keyed answer is C: Lahat ng nabanaggit sa tama.. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-582",
     "subject": "Filipino",
     "prompt": "Basahin ang talata:\nBakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao. Sa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan. Dagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, at sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang-pansin sa pagbabasa.\n\nAno ang pinakamainam na pamagat ng nabasa?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Basahin ang talata: Bakit mahalaga ang pagbabasa s.",
     "choices": [
       {
         "id": "A",
@@ -3999,13 +3999,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Ang Kahalagahan ng Pagbabasa'."
+    "explanation": "The keyed answer is A: Ang Kahalagahan ng Pagbabasa. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-583",
     "subject": "Filipino",
     "prompt": "Talata:\nNakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit.\n\nNoon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan.\n\nTunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAno ang paksang pangungusap sa talata?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba't ibang emosyon: tuwa, lu (item cse2026-583).",
     "choices": [
       {
         "id": "A",
@@ -4033,7 +4033,7 @@
     "id": "cse2026-584",
     "subject": "Filipino",
     "prompt": "Talata:\nNakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit.\n\nNoon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan.\n\nTunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAno ang pinakamainam na pamagat sa talata?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba't ibang emosyon: tuwa, lu (item cse2026-584).",
     "choices": [
       {
         "id": "A",
@@ -4053,7 +4053,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'Ang lba’t Ibang Gamit ng Mata'.",
+    "explanation": "The keyed answer is C: Ang lba’t Ibang Gamit ng Mata. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-583",
     "passageOrder": 2
   },
@@ -4061,7 +4061,7 @@
     "id": "cse2026-585",
     "subject": "Filipino",
     "prompt": "Talata:\nNakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit.\n\nNoon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan.\n\nTunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba't ibang emosyon: tuwa, lu (item cse2026-585).",
     "choices": [
       {
         "id": "A",
@@ -4081,7 +4081,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'nagpapakita ng matinding karamdaman'.",
+    "explanation": "The keyed answer is B: nagpapakita ng matinding karamdaman. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-583",
     "passageOrder": 3
   },
@@ -4091,7 +4091,7 @@
     "status": "excluded",
     "exclusionReason": "Duplicate of fi-149 in the canonical Filipino question bank.",
     "prompt": "Talata:\nNakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit.\n\nNoon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan.\n\nTunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
-    "hint": "This item is excluded from exams because the source text was incomplete.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba't ibang emosyon: tuwa, lu (item cse2026-586).",
     "choices": [
       {
         "id": "A",
@@ -4111,7 +4111,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Paano nagbago ang pananaw ng tao hinggil sa mga mata?",
+    "explanation": "The keyed answer is A: Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon.. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-583",
     "passageOrder": 4
   },
@@ -4119,7 +4119,7 @@
     "id": "cse2026-587",
     "subject": "Filipino",
     "prompt": "Talata:\nNakikita sa mata ang iba't ibang emosyon: tuwa, lungkot, pighati, pangamba, pag-asa, at pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit.\n\nNoon, ang mata ay isang bahagi lamang ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan at ginagamit sa kasamaan. Maaari rin itong puhunan sa pagandahan.\n\nTunay ngang maraming gamit ang mata: minumuta, kinakakapitan ng sakit, lumalabo, at ginagamit sa pagtingin.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba't ibang emosyon: tuwa, lu (item cse2026-587).",
     "choices": [
       {
         "id": "A",
@@ -4139,7 +4139,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'nanlilisik na mata'.",
+    "explanation": "The keyed answer is C: nanlilisik na mata. Match the stem to that option by meaning or rule—not by letter alone.",
     "passageId": "passage-cse2026-583",
     "passageOrder": 5
   },
@@ -4147,7 +4147,7 @@
     "id": "cse2026-588",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nTungkol saan ang datos na nabasa?",
-    "hint": "Basahin ang datos at unawain kung tungkol saan ang mga ito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos: Minimum Wage in Metro Manila. M (item cse2026-588).",
     "choices": [
       {
         "id": "A",
@@ -4173,7 +4173,7 @@
     "id": "cse2026-589",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 1996?",
-    "hint": "Kalkulahin ang pagkakaiba ng pasahod sa pagitan ng Oktubre 1999 at Mayo 1996.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos: Minimum Wage in Metro Manila. M (item cse2026-589).",
     "choices": [
       {
         "id": "A",
@@ -4199,7 +4199,7 @@
     "id": "cse2026-590",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod?",
-    "hint": "Kalkulahin ang pagtaas ng pasahod sa bawat pagitan ng petsa. Alamin kung alin ang may pinakamaliit na pagkakaiba.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos: Minimum Wage in Metro Manila. M (item cse2026-590).",
     "choices": [
       {
         "id": "A",
@@ -4225,7 +4225,7 @@
     "id": "cse2026-591",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang P145?",
-    "hint": "Tingnan kung kailan nagsimula at natapos ang halagang P145 ayon sa datos.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos: Minimum Wage in Metro Manila. M (item cse2026-591).",
     "choices": [
       {
         "id": "A",
@@ -4251,7 +4251,7 @@
     "id": "cse2026-592",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos: Minimum Wage in Metro Manila. Mga petsa at sahod: Nov 1990 - P89.00, Jan 1991 - P106.00, Dec 1993 - P118.00, Apr 1994 - P125.00, May 1996 - P145.00, May 1997 - P165.00, Feb 1998 - P198.50, Oct 1999 - P250.00.\n\nIlang beses nagkaroon ng dalawampung piso (P20) pagtaas sa minimum wage?",
-    "hint": "Kalkulahin ang pagkakaiba ng bawat sunod-sunod na halaga at bilangin kung ilan ang eksaktong P20.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos: Minimum Wage in Metro Manila. M (item cse2026-592).",
     "choices": [
       {
         "id": "A",
@@ -4277,7 +4277,7 @@
     "id": "cse2026-593",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999:\nNov 1990: Php89.00\nJan 1991: Php106.00\nDec 1993: Php118.00\nApr 1994: Php125.00\nMay 1996: Php135.00\nMay 1997: Php145.00\nFeb 1998: Php165.00\nOct 1999: Php193.50\nSource: Regional Tripartite Wages & Productivity Board - NCR\n\nTungkol saan ang grapong nabasa?",
-    "hint": "Filipino clue: basahin ang buong pangungusap. Itapon ang opsyong mali ang panlapi o di-angkop ang kahulugan; piliin ang pinakatugma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos ng Minimum Wage in Metro Manila  (item cse2026-593).",
     "choices": [
       {
         "id": "A",
@@ -4305,7 +4305,7 @@
     "id": "cse2026-594",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999: Nov 1990 - Php89.00, Jan 1991 - Php106.00, Dec 1993 - Php118.00, Apr 1994 - Php125.00, May 1996 - Php145.00, May 1997 - Php165.00, Feb 1998 - Php175.00, Oct 1999 - Php223.50.\n\nTungkol saan ang grapong nabasa?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos ng Minimum Wage in Metro Manila  (item cse2026-594).",
     "choices": [
       {
         "id": "A",
@@ -4325,13 +4325,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'Bilang ng mga mangagawang napasahod sa iba’t ibang taon.'."
+    "explanation": "The keyed answer is D: Bilang ng mga mangagawang napasahod sa iba’t ibang taon.. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-595",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999:\nNov 1990: Php89.00\nJan 1991: Php106.00\nDec 1993: Php118.00\nApr 1994: Php125.00\nMay 1996: Php135.00\nMay 1997: Php145.00\nFeb 1998: Php165.00\nOct 1999: Php193.50\nSource: Regional Tripartite Wages & Productivity Board - NCR\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 1996?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos ng Minimum Wage in Metro Manila  (item cse2026-595).",
     "choices": [
       {
         "id": "A",
@@ -4359,7 +4359,7 @@
     "id": "cse2026-596",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999: Nov 1990 - Php89.00, Jan 1991 - Php106.00, Dec 1993 - Php118.00, Apr 1994 - Php125.00, May 1996 - Php145.00, May 1997 - Php165.00, Feb 1998 - Php175.00, Oct 1999 - Php223.50.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos ng Minimum Wage in Metro Manila  (item cse2026-596).",
     "choices": [
       {
         "id": "A",
@@ -4379,13 +4379,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'Enero 1991'."
+    "explanation": "The keyed answer is B: Enero 1991. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-597",
     "subject": "Filipino",
     "prompt": "Gamitin ang datos ng Minimum Wage in Metro Manila mula 1990 hanggang 1999: Nov 1990 - Php89.00, Jan 1991 - Php106.00, Dec 1993 - Php118.00, Apr 1994 - Php125.00, May 1996 - Php145.00, May 1997 - Php165.00, Feb 1998 - Php175.00, Oct 1999 - Php223.50.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang Php145?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang datos ng Minimum Wage in Metro Manila  (item cse2026-597).",
     "choices": [
       {
         "id": "A",
@@ -4405,13 +4405,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'limang buwan'."
+    "explanation": "The keyed answer is C: limang buwan. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-604",
     "subject": "Filipino",
     "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang \"Clean Air Act\" ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng \"tax break\".\nD. Ano nga ba ang \"Clean Air Act\"?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Basahin ang mga pangungusap: A. Ayon sa batas na i (item cse2026-604).",
     "choices": [
       {
         "id": "A",
@@ -4439,7 +4439,7 @@
     "id": "cse2026-605",
     "subject": "Filipino",
     "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang \"Clean Air Act\" ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng \"tax break\".\nD. Ano nga ba ang \"Clean Air Act\"?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Basahin ang mga pangungusap: A. Ayon sa batas na i.",
     "choices": [
       {
         "id": "A",
@@ -4467,7 +4467,7 @@
     "id": "cse2026-606",
     "subject": "Filipino",
     "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang \"Clean Air Act\" ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng \"tax break\".\nD. Ano nga ba ang \"Clean Air Act\"?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Basahin ang mga pangungusap: A. Ayon sa batas na i (item cse2026-606).",
     "choices": [
       {
         "id": "A",
@@ -4495,7 +4495,7 @@
     "id": "cse2026-608",
     "subject": "Filipino",
     "prompt": "Basahin ang mga pangungusap:\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Basahin ang mga pangungusap: A. Ayon sa saligang b.",
     "choices": [
       {
         "id": "A",
@@ -4515,13 +4515,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Magsimula sa paksang pangungusap A, sundan ng pangunahing katangian sa D, pagkatapos ay ang mga karagdagang katangian B, C, at E. Ang wastong ayos ay A-D-B-C-E."
+    "explanation": "Ayusin ang pagkakasunod: A ang pangkalahatang pahayag. D ang unang konkretong katangian (katutubong mamamayan). Sundan ng B (botante, marunong bumasa/sumulat), C (edad 40), at E (residente). Kaya ADBCE."
   },
   {
     "id": "cse2026-612",
     "subject": "Filipino",
     "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas. B. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya. C. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito. D. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya. Kung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga Indones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla.",
     "choices": [
       {
         "id": "A",
@@ -4541,13 +4541,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.'."
+    "explanation": "The keyed answer is A: May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-613",
     "subject": "Filipino",
     "prompt": "Basahin ang mga pangungusap:\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba't ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang angkop na pamagat para sa talata?",
-    "hint": "Basahin nang mabuti ang tanong. Hanapin ang sagot na pinakatugma sa kahulugan, gramatika, o konsepto na sinusuri.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Basahin ang mga pangungusap: A. Ang mga ito ay nag.",
     "choices": [
       {
         "id": "A",
@@ -4573,7 +4573,7 @@
     "id": "cse2026-617",
     "subject": "General Information",
     "prompt": "Who among the following may issue a warrant of arrest or a search warrant? a. a senator",
-    "hint": "General information clue: focus on the exact term asked (office, right, branch, law). Match it to the official definition, not a similar-sounding one.",
+    "hint": "Focus on the key term and its official definition: Who among the following may issue a warrant of arrest o.",
     "choices": [
       {
         "id": "A",
@@ -4593,13 +4593,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"a judge\") because it matches the fact or concept asked in the item."
+    "explanation": "Under the Constitution and the Rules of Court, a warrant of arrest or search warrant is issued by a judge upon probable cause. Senators, congressmen, and the President do not issue such warrants."
   },
   {
     "id": "cse2026-642",
     "subject": "Analytical Ability",
     "prompt": "What number comes next in the sequence: 3, 6, 9, 12, 15, _____?",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: What number comes next in the sequence: 3, 6, 9, 1.",
     "choices": [
       {
         "id": "A",
@@ -4625,7 +4625,7 @@
     "id": "cse2026-643",
     "subject": "Analytical Ability",
     "prompt": "C E G I K",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in C E G I K. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4651,7 +4651,7 @@
     "id": "cse2026-644",
     "subject": "Analytical Ability",
     "prompt": "I K M O Q",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in I K M O Q. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4677,7 +4677,7 @@
     "id": "cse2026-645",
     "subject": "Analytical Ability",
     "prompt": "B D F H J",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in B D F H J. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4703,7 +4703,7 @@
     "id": "cse2026-646",
     "subject": "Analytical Ability",
     "prompt": "10 17 26 37",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in 10 17 26 37. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4729,7 +4729,7 @@
     "id": "cse2026-647",
     "subject": "Analytical Ability",
     "prompt": "37 50 65 82",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in 37 50 65 82. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4755,7 +4755,7 @@
     "id": "cse2026-649",
     "subject": "Analytical Ability",
     "prompt": "AB EF IJ MN",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in AB EF IJ MN. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4781,7 +4781,7 @@
     "id": "cse2026-650",
     "subject": "Analytical Ability",
     "prompt": "ZY WV TS QP",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in ZY WV TS QP. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4807,7 +4807,7 @@
     "id": "cse2026-651",
     "subject": "Analytical Ability",
     "prompt": "DC HG LK PO",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in DC HG LK PO. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4833,7 +4833,7 @@
     "id": "cse2026-652",
     "subject": "Analytical Ability",
     "prompt": "1 2 5 6 11 12 19 20",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in 1 2 5 6 11 12 19 20. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4859,7 +4859,7 @@
     "id": "cse2026-653",
     "subject": "Analytical Ability",
     "prompt": "4 9 5 11 6 13 7 15",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in 4 9 5 11 6 13 7 15. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4885,7 +4885,7 @@
     "id": "cse2026-654",
     "subject": "Analytical Ability",
     "prompt": "6 12 36 72 216",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in 6 12 36 72 216. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4911,7 +4911,7 @@
     "id": "cse2026-655",
     "subject": "Analytical Ability",
     "prompt": "A C C F F F",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in A C C F F F. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4937,7 +4937,7 @@
     "id": "cse2026-656",
     "subject": "Analytical Ability",
     "prompt": "1 2 6 12 36",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in 1 2 6 12 36. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4963,7 +4963,7 @@
     "id": "cse2026-657",
     "subject": "Analytical Ability",
     "prompt": "H H L L P P T T",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in H H L L P P T T. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -4989,7 +4989,7 @@
     "id": "cse2026-659",
     "subject": "Analytical Ability",
     "prompt": "6 12 7 11 8 10",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in 6 12 7 11 8 10. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5015,7 +5015,7 @@
     "id": "cse2026-660",
     "subject": "Analytical Ability",
     "prompt": "A C F J O",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in A C F J O. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5041,7 +5041,7 @@
     "id": "cse2026-661",
     "subject": "Analytical Ability",
     "prompt": "B DE GHI",
-    "hint": "Read the Analytical Ability question carefully. Evaluate each option against the concept, definition, or relationship being tested.",
+    "hint": "Letter or number series: write the step between consecutive terms in B DE GHI. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5067,7 +5067,7 @@
     "id": "cse2026-664",
     "subject": "Analytical Ability",
     "prompt": "3 8 48 55 440",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 3 8 48 55 440. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5093,7 +5093,7 @@
     "id": "cse2026-665",
     "subject": "Analytical Ability",
     "prompt": "16 12 17 11 18",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 16 12 17 11 18. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5119,7 +5119,7 @@
     "id": "cse2026-666",
     "subject": "Analytical Ability",
     "prompt": "29 58 29 145 29",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 29 58 29 145 29. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5145,7 +5145,7 @@
     "id": "cse2026-667",
     "subject": "Analytical Ability",
     "prompt": "MZ KX IV GT",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in MZ KX IV GT. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5171,7 +5171,7 @@
     "id": "cse2026-669",
     "subject": "Analytical Ability",
     "prompt": "G F I H K",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in G F I H K. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5197,7 +5197,7 @@
     "id": "cse2026-670",
     "subject": "Analytical Ability",
     "prompt": "AZ BY CX DW EV",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in AZ BY CX DW EV. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5223,7 +5223,7 @@
     "id": "cse2026-671",
     "subject": "Analytical Ability",
     "prompt": "396 384 370 354 336",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 396 384 370 354 336. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5249,7 +5249,7 @@
     "id": "cse2026-672",
     "subject": "Analytical Ability",
     "prompt": "15 17 18 21 22",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 15 17 18 21 22. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5275,7 +5275,7 @@
     "id": "cse2026-673",
     "subject": "Analytical Ability",
     "prompt": "7 21 14 42 42",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 7 21 14 42 42. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5301,7 +5301,7 @@
     "id": "cse2026-674",
     "subject": "Analytical Ability",
     "prompt": "314 321 322 330 332",
-    "hint": "Look at the alternating increases: +7, +1, +8, +2, then the next larger jump.",
+    "hint": "Letter or number series: write the step between consecutive terms in 314 321 322 330 332. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5327,7 +5327,7 @@
     "id": "cse2026-675",
     "subject": "Analytical Ability",
     "prompt": "F21 H19 K16 O12 T7",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in F21 H19 K16 O12 T7. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5353,7 +5353,7 @@
     "id": "cse2026-676",
     "subject": "Analytical Ability",
     "prompt": "I18 K16 M14 O12",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in I18 K16 M14 O12. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5379,7 +5379,7 @@
     "id": "cse2026-677",
     "subject": "Analytical Ability",
     "prompt": "BO DQ FS HU JW",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in BO DQ FS HU JW. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5405,7 +5405,7 @@
     "id": "cse2026-678",
     "subject": "Analytical Ability",
     "prompt": "BC PQ EF HU JW",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in BC PQ EF HU JW. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5431,7 +5431,7 @@
     "id": "cse2026-679",
     "subject": "Analytical Ability",
     "prompt": "E4 G6 I8 K10 M12",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in E4 G6 I8 K10 M12. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5457,7 +5457,7 @@
     "id": "cse2026-680",
     "subject": "Analytical Ability",
     "prompt": "DQ4 GT7 CP3 HU8 BO2",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in DQ4 GT7 CP3 HU8 BO2. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5477,13 +5477,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"IV9\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Two alternating series run through the list. Odd terms: DQ4, CP3, BO2 (first letter D–C–B; second Q–P–O; number 4–3–2). Even terms: GT7, HU8, then IV9 (first G–H–I; second T–U–V; number 7–8–9). The next term is the third even term: IV9."
   },
   {
     "id": "cse2026-682",
     "subject": "Analytical Ability",
     "prompt": "A1 C3 E5",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in A1 C3 E5. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5508,8 +5508,8 @@
   {
     "id": "cse2026-683",
     "subject": "Analytical Ability",
-    "prompt": "A26 C24 E21 F21",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "prompt": "A26 C24 EF21",
+    "hint": "Series: track the number deltas (−2, −3, −4…) and the letter blocks A, C, EF. Sequence: A26 C24 EF21.",
     "choices": [
       {
         "id": "A",
@@ -5529,13 +5529,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Continue the sequence pattern and choose C."
+    "explanation": "Numbers fall by growing steps: 26 → 24 (−2), 24 → 21 (−3), so next is 21 − 4 = 17. Letters move A → C → EF (single letters, then a two-letter block). The choice that continues with 17 is J17."
   },
   {
     "id": "cse2026-684",
     "subject": "Analytical Ability",
     "prompt": "J10 L12 N14",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in J10 L12 N14. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5561,7 +5561,7 @@
     "id": "cse2026-685",
     "subject": "Analytical Ability",
     "prompt": "8R 6T 4V",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 8R 6T 4V. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5587,7 +5587,7 @@
     "id": "cse2026-686",
     "subject": "Analytical Ability",
     "prompt": "J10 17 L12 15 N14 13",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in J10 17 L12 15 N14 13. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5613,7 +5613,7 @@
     "id": "cse2026-687",
     "subject": "Analytical Ability",
     "prompt": "AC FH KM",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in AC FH KM. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5639,7 +5639,7 @@
     "id": "cse2026-688",
     "subject": "Analytical Ability",
     "prompt": "15 16 18 19 21 22",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 15 16 18 19 21 22. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5665,7 +5665,7 @@
     "id": "cse2026-689",
     "subject": "Analytical Ability",
     "prompt": "1121 2242 3483",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in 1121 2242 3483. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5691,7 +5691,7 @@
     "id": "cse2026-690",
     "subject": "Analytical Ability",
     "prompt": "aa33bb cc77dd ee1111ff",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in aa33bb cc77dd ee1111ff. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -5711,13 +5711,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is B: 'gg1515hh'."
+    "explanation": "The keyed answer is B: gg1515hh. Match the stem to that option by meaning or rule—not by letter alone."
   },
   {
     "id": "cse2026-691",
     "subject": "Analytical Ability",
     "prompt": "b9b9 c7c7 d5d5",
-    "hint": "Sequence item: identify the pattern, then choose the next term.",
+    "hint": "Letter or number series: write the step between consecutive terms in b9b9 c7c7 d5d5. Apply that step once more.",
     "choices": [
       {
         "id": "A",

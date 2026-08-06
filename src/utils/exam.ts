@@ -256,8 +256,29 @@ function getSessionTitle(mode: ExamMode): string {
   return `${mode.subject} Exam`
 }
 
+function isOrderSensitiveChoiceText(text: string): boolean {
+  const normalized = text.trim().toLowerCase()
+  return (
+    /both\s*a\s*and\s*b/.test(normalized) ||
+    /neither\s*a\s*nor\s*b/.test(normalized) ||
+    /all of the above/.test(normalized) ||
+    /none of the above/.test(normalized) ||
+    /statement\s*\(?\s*1\s*\)?/.test(normalized) ||
+    /statement\s*\(?\s*2\s*\)?/.test(normalized) ||
+    /each statement alone is sufficient/.test(normalized) ||
+    /both statements together are sufficient/.test(normalized) ||
+    /statements together are not sufficient/.test(normalized)
+  )
+}
+
 function preservesChoiceOrder(question: Question): boolean {
-  return Boolean(question.image)
+  if (question.image || question.choices.some((choice) => Boolean(choice.image))) {
+    return true
+  }
+
+  // Keep lettered references and standard data-sufficiency stems fixed so
+  // "both A and B" / "statement (1) alone" stay meaningful after load.
+  return question.choices.some((choice) => isOrderSensitiveChoiceText(choice.text || ''))
 }
 
 function allocateProportionately(itemCount: number, subjectCounts: Record<Subject, number>): Record<Subject, number> {

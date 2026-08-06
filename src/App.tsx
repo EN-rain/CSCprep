@@ -74,6 +74,10 @@ type ReviewItem = {
   correctChoiceId: ChoiceId
   explanation?: string
   isCorrect: boolean
+  /** When set, this is a follow-up in a passage chain — show refer line instead of full passage/image. */
+  passageReferItemNumber?: number
+  /** Shared passage text from the chain's first item (used to strip repeated passage from prompt). */
+  passageAnchorPrompt?: string
 }
 
 type SkippedItem = {
@@ -727,12 +731,26 @@ function App() {
       return []
     }
 
+    const passageAnchorById = new Map<string, { itemNumber: number; prompt: string }>()
+    for (const examQuestion of session.questions) {
+      const passageId = examQuestion.question.passageId
+      if (passageId && !passageAnchorById.has(passageId)) {
+        passageAnchorById.set(passageId, {
+          itemNumber: examQuestion.itemNumber,
+          prompt: examQuestion.question.prompt,
+        })
+      }
+    }
+
     return session.questions.flatMap(({ id, itemNumber, question, choices }) => {
         const selectedChoiceId = submittedAnswers[id]
 
         if (!selectedChoiceId) {
           return []
         }
+
+        const anchor = question.passageId ? passageAnchorById.get(question.passageId) : undefined
+        const isPassageFollowUp = Boolean(anchor && anchor.itemNumber !== itemNumber)
 
         return [{
           itemId: id,
@@ -746,6 +764,8 @@ function App() {
           correctChoiceId: question.correctChoiceId,
           explanation: question.explanation,
           isCorrect: selectedChoiceId === question.correctChoiceId,
+          passageReferItemNumber: isPassageFollowUp ? anchor!.itemNumber : undefined,
+          passageAnchorPrompt: isPassageFollowUp ? anchor!.prompt : undefined,
         }]
       })
   }, [session, submittedAnswers])
@@ -1380,6 +1400,7 @@ function App() {
       {screen === 'results' && session && (
         <div className="screen-frame screen-frame--results">
           <ResultsScreen
+            examMode={session.mode}
             expandedImage={expandedImage}
             filter={filter}
             filteredReviewItems={filteredReviewItems}
@@ -2109,6 +2130,19 @@ function ExamScreen({
   onToggleTheme,
 }: ExamScreenProps) {
   const unansweredCount = totalQuestions - answeredCount
+  const passageAnchorById = useMemo(() => {
+    const map = new Map<string, { itemNumber: number; prompt: string }>()
+    for (const examQuestion of session.questions) {
+      const passageId = examQuestion.question.passageId
+      if (passageId && !map.has(passageId)) {
+        map.set(passageId, {
+          itemNumber: examQuestion.itemNumber,
+          prompt: examQuestion.question.prompt,
+        })
+      }
+    }
+    return map
+  }, [session.questions])
   const [hintTarget, setHintTarget] = useState<HintTarget>(null)
 
   return (
@@ -2160,22 +2194,29 @@ function ExamScreen({
       )}
 
       <div className="question-list">
-        {session.questions.map(({ id, itemNumber, question, choices }) => (
-          <QuestionCard
-            answers={answers}
-            itemId={id}
-            itemNumber={itemNumber}
-            isReplacing={replacingQuestionItemId === id}
-            key={id}
-            image={question.image}
-            onChooseAnswer={onChooseAnswer}
-            onOpenHint={() => setHintTarget({ itemNumber, question })}
-            onOpenImage={onOpenImage}
-            onReportQuestion={onReportQuestion}
-            question={question}
-            choices={choices}
-          />
-        ))}
+        {session.questions.map(({ id, itemNumber, question, choices }) => {
+          const anchor = question.passageId ? passageAnchorById.get(question.passageId) : undefined
+          const isPassageFollowUp = Boolean(anchor && anchor.itemNumber !== itemNumber)
+
+          return (
+            <QuestionCard
+              answers={answers}
+              itemId={id}
+              itemNumber={itemNumber}
+              isReplacing={replacingQuestionItemId === id}
+              key={id}
+              image={question.image}
+              onChooseAnswer={onChooseAnswer}
+              onOpenHint={() => setHintTarget({ itemNumber, question })}
+              onOpenImage={onOpenImage}
+              onReportQuestion={onReportQuestion}
+              passageAnchorPrompt={isPassageFollowUp ? anchor!.prompt : undefined}
+              passageReferItemNumber={isPassageFollowUp ? anchor!.itemNumber : undefined}
+              question={question}
+              choices={choices}
+            />
+          )
+        })}
       </div>
 
       {unansweredCount > 0 && <p className="exam-footer-note">{unansweredCount} items left unanswered.</p>}
@@ -2504,6 +2545,7 @@ function formatTimer(totalSeconds: number): string {
 }
 
 type ResultsScreenProps = {
+  examMode: ExamMode
   expandedImage: string | null
   filter: ReviewFilter
   filteredReviewItems: ReviewItem[]
@@ -2522,6 +2564,7 @@ type ResultsScreenProps = {
 }
 
 function ResultsScreen({
+  examMode,
   expandedImage,
   filter,
   filteredReviewItems,
@@ -2541,12 +2584,15 @@ function ResultsScreen({
   const correctCount = reviewItems.filter((item) => item.isCorrect).length
   const wrongCount = reviewItems.length - correctCount
   const skippedCount = totalQuestions - reviewItems.length
+  const isSubjectExam = examMode.kind === 'subject'
+  const subjectLabel = isSubjectExam ? examMode.subject : null
 
   return (
     <section className="results">
       <header className="results-hero">
         <div>
           <p className="eyebrow">Results</p>
+          {subjectLabel && <p className="results-subject">{subjectLabel}</p>}
           <h1>
             {score}/{totalQuestions} ({percentage}%)
           </h1>
@@ -2592,7 +2638,7 @@ function ResultsScreen({
             {option === 'correct' ? 'Correct only' : 'Wrong only'}
           </button>
         ))}
-        {SUBJECTS.map((subject) => (
+        {!isSubjectExam && SUBJECTS.map((subject) => (
           <button
             aria-pressed={filter.includes(subject)}
             className={filter.includes(subject) ? 'filter-button filter-button--active' : 'filter-button'}
@@ -2631,6 +2677,9 @@ type QuestionCardProps = {
   onOpenHint: () => void
   onOpenImage: (imageSrc: string) => void
   onReportQuestion: (itemId: string, issueDescription: string) => void
+  /** Follow-up chain items: hide repeated passage/image and refer to the anchor item. */
+  passageReferItemNumber?: number
+  passageAnchorPrompt?: string
   question: ExamSession['questions'][number]['question']
 }
 
@@ -2645,12 +2694,19 @@ function QuestionCard({
   onOpenHint,
   onOpenImage,
   onReportQuestion,
+  passageReferItemNumber,
+  passageAnchorPrompt,
   question,
 }: QuestionCardProps) {
   const [reportPanelOpen, setReportPanelOpen] = useState(false)
+  const isPassageFollowUp = typeof passageReferItemNumber === 'number'
+  const displayImage = isPassageFollowUp ? undefined : image
+  const displayPrompt = isPassageFollowUp && passageAnchorPrompt
+    ? extractChainQuestionText(question.prompt, passageAnchorPrompt)
+    : question.prompt
   const choicesHaveImages = choices.some((choice) => Boolean(choice.image))
-  const markerChoicesOnly = Boolean(image) && usesImageChoiceMarkers(choices) && !choicesHaveImages
-  const promptIsShownInImage = hasPromptInImage(question.id, image, markerChoicesOnly, question.prompt)
+  const markerChoicesOnly = Boolean(displayImage) && usesImageChoiceMarkers(choices) && !choicesHaveImages
+  const promptIsShownInImage = hasPromptInImage(question.id, displayImage, markerChoicesOnly, displayPrompt)
   const showHintButton = Boolean(question.hint.trim()) && !isImageOnlyQuestion(question.prompt, choices, image)
   const submitReport = useCallback((issueDescription: string) => {
     setReportPanelOpen(false)
@@ -2689,18 +2745,21 @@ function QuestionCard({
           <span className="subject-tag">{question.subject}</span>
         </div>
       </div>
-      {image && (
+      {isPassageFollowUp && (
+        <p className="passage-refer">Refer to the item {passageReferItemNumber}.</p>
+      )}
+      {displayImage && (
         <button
           className="question-image-button"
-          onClick={() => onOpenImage(image)}
+          onClick={() => onOpenImage(displayImage)}
           type="button"
         >
-          <img className="question-image" src={image} alt="Question reference" draggable={false} />
+          <img className="question-image" src={displayImage} alt="Question reference" draggable={false} />
           <span className="question-image-hint">Click to enlarge</span>
         </button>
       )}
       <PromptText
-        prompt={question.prompt}
+        prompt={displayPrompt}
         questionId={question.id}
         visuallyHidden={promptIsShownInImage}
       />
@@ -2821,35 +2880,65 @@ function escapeRegExp(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-function formatReviewExplanation(explanation: string, correctChoiceText: string): string {
-  const trimmedExplanation = explanation.trim()
-  const repeatedAnswerPrefixes = [
-    /^The correct answer is choice [A-E](?: \("[^"]+"\))? because\s+/i,
-    /^Tamang sagot ang choice [A-E](?: \("[^"]+"\))? dahil\s+/i,
-  ]
-  const withoutRepeatedAnswer = repeatedAnswerPrefixes.reduce(
-    (currentExplanation, repeatedAnswerPrefix) => currentExplanation.replace(repeatedAnswerPrefix, ''),
-    trimmedExplanation,
-  )
-  const leadingChoiceMarker = /^[A-E](?:\.\)|\.|\))\s*/i
-  const hadLeadingChoiceMarker = leadingChoiceMarker.test(withoutRepeatedAnswer)
-  const withoutChoiceMarker = withoutRepeatedAnswer.replace(leadingChoiceMarker, '')
-  const answerText = correctChoiceText.trim()
-  const repeatedAnswerText = answerText
-    ? new RegExp(`^${escapeRegExp(answerText)}\\s*(?:[✔✓])?(?:\\s*[-:–—.]\\s*|\\s+)?`, 'i')
-    : null
-  const cleanedExplanation =
-    hadLeadingChoiceMarker && repeatedAnswerText
-      ? withoutChoiceMarker.replace(repeatedAnswerText, '')
-      : withoutChoiceMarker
+function formatReviewExplanation(
+  explanation: string,
+  correctChoiceText: string,
+  options?: { isCorrect?: boolean },
+): string {
+  let text = explanation.trim()
 
-  return cleanedExplanation.replace(/^./, (firstLetter) => firstLetter.toUpperCase())
+  // Strip boilerplate that only restates the letter / choice text.
+  const boilerplatePatterns = [
+    /^The correct answer is choice [A-E]\s*(?:\(["“][^"”]+["”]\))?\s*because\s+/i,
+    /^The correct answer is [A-E]\s*[:.\-–—]\s*["'“]?/i,
+    /^Correct answer is choice [A-E]\s*(?:\(["“][^"”]+["”]\))?\s*(?:because\s+)?/i,
+    /^Tamang sagot ang choice [A-E]\s*(?:\(["“][^"”]+["”]\))?\s*dahil\s+/i,
+    /^Ang tamang sagot ay [A-E]\s*[:.\-–—]\s*["'“]?/i,
+  ]
+  for (const pattern of boilerplatePatterns) {
+    text = text.replace(pattern, '')
+  }
+
+  text = text.replace(/^[A-E](?:\.\)|\.|\))\s*/i, '')
+
+  const answerText = correctChoiceText.trim()
+  if (answerText) {
+    const quotedAnswer = new RegExp(
+      `^["'“]?${escapeRegExp(answerText)}["'”]?\\s*(?:[✔✓])?(?:\\s*[-:–—.]\\s*|\\s+)?`,
+      'i',
+    )
+    text = text.replace(quotedAnswer, '')
+  }
+
+  // Drop empty residue like “it is the option supported by the passage.”
+  text = text
+    .replace(/^it is the option supported by the passage\.?$/i, '')
+    .replace(/^the option supported by the passage\.?$/i, '')
+    .replace(/^dahil ito ang impormasyong sinusuportahan ng talata\.?$/i, '')
+    .replace(/^ito ang impormasyong sinusuportahan ng talata\.?$/i, '')
+    .replace(/^["'“”]+|["'“”]+$/g, '')
+    .replace(/^\.\s*/, '')
+    .trim()
+
+  if (!text) {
+    if (options?.isCorrect === false) {
+      return 'The letter alone is not enough—go back to the passage and pin the option to a specific line of evidence.'
+    }
+    return ''
+  }
+
+  return text.replace(/^./, (firstLetter) => firstLetter.toUpperCase())
 }
 
 function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
+  const isPassageFollowUp = typeof item.passageReferItemNumber === 'number'
+  const displayImage = isPassageFollowUp ? undefined : item.image
+  const displayPrompt = isPassageFollowUp && item.passageAnchorPrompt
+    ? extractChainQuestionText(item.prompt, item.passageAnchorPrompt)
+    : item.prompt
   const choicesHaveImages = item.choices.some((choice) => Boolean(choice.image))
-  const markerChoicesOnly = Boolean(item.image) && usesImageChoiceMarkers(item.choices) && !choicesHaveImages
-  const promptIsShownInImage = hasPromptInImage(item.questionId, item.image, markerChoicesOnly, item.prompt)
+  const markerChoicesOnly = Boolean(displayImage) && usesImageChoiceMarkers(item.choices) && !choicesHaveImages
+  const promptIsShownInImage = hasPromptInImage(item.questionId, displayImage, markerChoicesOnly, displayPrompt)
   const correctChoice = item.choices.find((choice) => choice.id === item.correctChoiceId)
 
   return (
@@ -2858,29 +2947,43 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
         <span className="question-number">Item {item.itemNumber}</span>
         <span className="subject-tag">{item.subject}</span>
       </div>
-      {item.image && (
+      {isPassageFollowUp && (
+        <p className="passage-refer">Refer to the item {item.passageReferItemNumber}.</p>
+      )}
+      {displayImage && (
         <button
           className="question-image-button"
-          onClick={() => onOpenImage(item.image!)}
+          onClick={() => onOpenImage(displayImage)}
           type="button"
         >
-          <img className="question-image" src={item.image} alt="Question reference" draggable={false} />
+          <img className="question-image" src={displayImage} alt="Question reference" draggable={false} />
           <span className="question-image-hint">Click to enlarge</span>
         </button>
       )}
       <PromptText
-        prompt={item.prompt}
+        prompt={displayPrompt}
         questionId={item.questionId}
         visuallyHidden={promptIsShownInImage}
       />
-      {item.explanation && (
-        <div className="explanation">
-          <p className="explanation__answer">{item.correctChoiceId}.</p>
-          <p>
-            <strong>Explanation:</strong> {formatReviewExplanation(item.explanation, correctChoice?.text ?? '')}
-          </p>
-        </div>
-      )}
+      {item.explanation && (() => {
+        const cleanedExplanation = formatReviewExplanation(
+          item.explanation,
+          correctChoice?.text ?? '',
+          { isCorrect: item.isCorrect },
+        )
+        if (!cleanedExplanation) {
+          return null
+        }
+
+        return (
+          <div className="explanation">
+            <p className="explanation__answer">{item.correctChoiceId}.</p>
+            <p>
+              <strong>Explanation:</strong> {cleanedExplanation}
+            </p>
+          </div>
+        )
+      })()}
       <div className={[
         'review-choices',
         markerChoicesOnly ? 'review-choices--markers' : '',
@@ -2932,6 +3035,24 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
       </div>
     </article>
   )
+}
+
+/** Strip shared passage text so follow-up chain items show only the unique question. */
+function extractChainQuestionText(prompt: string, firstPrompt: string): string {
+  let shared = 0
+  const limit = Math.min(prompt.length, firstPrompt.length)
+  while (shared < limit && prompt[shared] === firstPrompt[shared]) {
+    shared += 1
+  }
+
+  let cut = shared
+  const lastNewline = prompt.lastIndexOf('\n', Math.max(0, shared - 1))
+  if (lastNewline >= 0 && shared - lastNewline < 120) {
+    cut = lastNewline + 1
+  }
+
+  const tail = prompt.slice(cut).trim()
+  return tail || prompt
 }
 
 type PromptTextProps = {

@@ -3,7 +3,7 @@
     "id": "aa-001",
     "subject": "Analytical Ability",
     "prompt": "A. Commission on the Filipino Language\nB. Commission on Human Rights\nC. Commission on Higher Education\nD. Commission on Population",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Commission on the Filipino Language B. Commissi.",
     "choices": [
       {
         "id": "A",
@@ -29,7 +29,7 @@
     "id": "aa-002",
     "subject": "Analytical Ability",
     "prompt": "A. Cooperative Development Authority\nB. Cottage Industry Development Enterprise\nC. Cottage Industry Technology Center\nD. Council for the Welfare of Children",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Cooperative Development Authority B. Cottage In.",
     "choices": [
       {
         "id": "A",
@@ -55,7 +55,7 @@
     "id": "aa-003",
     "subject": "Analytical Ability",
     "prompt": "A. Food and Nutrition Research Institute\nB. Fiber Industry Development Authority\nC. Foreign Service Institute\nD. Family Planning Organization of the Philippines",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Food and Nutrition Research Institute B. Fiber .",
     "choices": [
       {
         "id": "A",
@@ -81,7 +81,7 @@
     "id": "aa-004",
     "subject": "Analytical Ability",
     "prompt": "A. Insurance Commission\nB. Industrial Technology Development Institute\nC. Institute of Labor and Manpower Studies\nD. Instructional Materials Corporation",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Insurance Commission B. Industrial Technology D.",
     "choices": [
       {
         "id": "A",
@@ -107,7 +107,7 @@
     "id": "aa-005",
     "subject": "Analytical Ability",
     "prompt": "A. Presidential Commission on Good Governance\nB. Presidential Commission to Fight Poverty\nC. Presidential Commission for the Urban Poor\nD. Presidential Commission on Human Rights",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Presidential Commission on Good Governance B. P.",
     "choices": [
       {
         "id": "A",
@@ -133,7 +133,7 @@
     "id": "aa-006",
     "subject": "Analytical Ability",
     "prompt": "A. AA Industrial Chemical Supply\nB. AB Capital and Investment Corporation\nC. A Soriano Aviation Incorporated\nD. A-1 Driving Company Incorporated",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. AA Industrial Chemical Supply B. AB Capital and.",
     "choices": [
       {
         "id": "A",
@@ -159,7 +159,7 @@
     "id": "aa-007",
     "subject": "Analytical Ability",
     "prompt": "A. Ayala Plans Inc.\nB. Ayala Health Care, Inc.\nC. Ayala Land Inc.\nD. Ayala Life Assurance Inc.",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Ayala Plans Inc. B. Ayala Health Care, Inc. C. .",
     "choices": [
       {
         "id": "A",
@@ -185,7 +185,7 @@
     "id": "aa-008",
     "subject": "Analytical Ability",
     "prompt": "A. Filspin Incorporated\nB. Filway Marketing Inc.\nC. Filsov Shipping Company\nD. Fina Products Inc.",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Filspin Incorporated B. Filway Marketing Inc. C.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@
     "id": "aa-009",
     "subject": "Analytical Ability",
     "prompt": "A. John Shannon Montessori\nB. John Paul Hospital\nC. John Robert Powers\nD. John Nelson and Associates",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. John Shannon Montessori B. John Paul Hospital C.",
     "choices": [
       {
         "id": "A",
@@ -237,7 +237,7 @@
     "id": "aa-010",
     "subject": "Analytical Ability",
     "prompt": "A. Sports Zone Restaurant\nB. Sports Resources Inc.\nC. Sports Values Inc.\nD. Sports House and General Merchandise",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Sports Zone Restaurant B. Sports Resources Inc..",
     "choices": [
       {
         "id": "A",
@@ -263,7 +263,7 @@
     "id": "aa-011",
     "subject": "Analytical Ability",
     "prompt": "A. Abad, Josephine\nB. Abad, Jason\nC. Abad, Joseph\nD. Abad, June",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Abad, Josephine B. Abad, Jason C. Abad, Joseph .",
     "choices": [
       {
         "id": "A",
@@ -289,7 +289,7 @@
     "id": "aa-012",
     "subject": "Analytical Ability",
     "prompt": "A. St. Stephen's School\nB. St. Stephen's University\nC. St. Scholastica's Academy\nD. St. Scholastica's College",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. St. Stephen's School B. St. Stephen's Universit.",
     "choices": [
       {
         "id": "A",
@@ -315,7 +315,7 @@
     "id": "aa-013",
     "subject": "Analytical Ability",
     "prompt": "A. Santos, Anita\nB. Santos, Ana\nC. Santos, Antonio\nD. Santos, Anthony",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Santos, Anita B. Santos, Ana C. Santos, Antonio.",
     "choices": [
       {
         "id": "A",
@@ -341,7 +341,7 @@
     "id": "aa-014",
     "subject": "Analytical Ability",
     "prompt": "A. Philippine Daily Inquirer\nB. Philippine Star\nC. Philippine Herald\nD. Philippine Tribune",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Philippine Daily Inquirer B. Philippine Star C..",
     "choices": [
       {
         "id": "A",
@@ -367,7 +367,7 @@
     "id": "aa-015",
     "subject": "Analytical Ability",
     "prompt": "A. Luna, Antonio\nB. Luna, Juan\nC. Luna, Olive\nD. Luna, Oliver",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Luna, Antonio B. Luna, Juan C. Luna, Olive D. L.",
     "choices": [
       {
         "id": "A",
@@ -393,7 +393,7 @@
     "id": "aa-016",
     "subject": "Analytical Ability",
     "prompt": "A. Felimon, Jason\nB. Felipe, Julian\nC. Felimon, Jamie\nD. Felipe, Julia",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Felimon, Jason B. Felipe, Julian C. Felimon, Ja.",
     "choices": [
       {
         "id": "A",
@@ -419,7 +419,7 @@
     "id": "aa-017",
     "subject": "Analytical Ability",
     "prompt": "A. UP Institute for Small Scale Industries\nB. UP Institute for Science and Math Education\nC. UP Institute of Biology\nD. UP Institute of Chemistry",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. UP Institute for Small Scale Industries B. UP I.",
     "choices": [
       {
         "id": "A",
@@ -445,7 +445,7 @@
     "id": "aa-018",
     "subject": "Analytical Ability",
     "prompt": "A. Bureau of Post\nB. Bureau of Internal Revenue\nC. Bureau of Mines\nD. Bureau of Fisheries and Aquatic Resources",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Bureau of Post B. Bureau of Internal Revenue C..",
     "choices": [
       {
         "id": "A",
@@ -471,7 +471,7 @@
     "id": "aa-019",
     "subject": "Analytical Ability",
     "prompt": "A. Rancho, Elian\nB. Rallon, Michel\nC. Ramirez, Sean\nD. Rancho, Elaine",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Rancho, Elian B. Rallon, Michel C. Ramirez, Sea.",
     "choices": [
       {
         "id": "A",
@@ -497,7 +497,7 @@
     "id": "aa-020",
     "subject": "Analytical Ability",
     "prompt": "A. Quesada, Arianne\nB. Quisumbing, Armie\nC. Quintin, Adela\nD. Quezon, Aurora",
-    "hint": "Clerical/alphabetizing item: compare from the first letter onward. If tied, move to the next letter, word, or abbreviation.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Quesada, Arianne B. Quisumbing, Armie C. Quinti.",
     "choices": [
       {
         "id": "A",
@@ -523,7 +523,7 @@
     "id": "aa-021",
     "subject": "Analytical Ability",
     "prompt": "3 6 9 12 15",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 3 6 9 12 15. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -543,13 +543,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"18\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Each term increases by 3: 3, 6, 9, 12, 15. The next term is 15 + 3 = 18."
   },
   {
     "id": "aa-022",
     "subject": "Analytical Ability",
     "prompt": "C E G I K",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in C E G I K. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -569,13 +569,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"M\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "The letters move forward by 2 each time: C, E, G, I, K. Two steps after K is M."
   },
   {
     "id": "aa-023",
     "subject": "Analytical Ability",
     "prompt": "I K M O Q",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in I K M O Q. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -595,13 +595,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"S\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letters advance by 2: I, K, M, O, Q. Two steps after Q is S."
   },
   {
     "id": "aa-024",
     "subject": "Analytical Ability",
     "prompt": "B D F H J",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in B D F H J. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -621,13 +621,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"L\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letters advance by 2: B, D, F, H, J. Two steps after J is L."
   },
   {
     "id": "aa-025",
     "subject": "Analytical Ability",
     "prompt": "10 17 26 37",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 10 17 26 37. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -647,13 +647,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"50\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Differences grow by 2: +7, +9, +11, so next +13. 37 + 13 = 50."
   },
   {
     "id": "aa-026",
     "subject": "Analytical Ability",
     "prompt": "37 50 65 82",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 37 50 65 82. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -673,13 +673,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"101\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Differences grow by 2: +13, +15, +17, so next +19. 82 + 19 = 101."
   },
   {
     "id": "aa-027",
     "subject": "Analytical Ability",
     "prompt": "3 9 5 25 8 64 12 144",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 3 9 5 25 8 64 12 144. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -699,13 +699,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"17\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Read as pairs: 3→9, 5→25, 8→64, 12→144 (each second term is the square of the first). The first terms 3, 5, 8, 12 rise by +2, +3, +4, so the next first term is 12 + 5 = 17."
   },
   {
     "id": "aa-028",
     "subject": "Analytical Ability",
     "prompt": "AB EF IJ MN",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in AB EF IJ MN. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -725,13 +725,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"QR\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letter pairs skip three letters between groups: AB, then EF, IJ, MN. After MN the next pair is QR."
   },
   {
     "id": "aa-029",
     "subject": "Analytical Ability",
     "prompt": "ZY WV TS QP",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in ZY WV TS QP. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -751,13 +751,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"NM\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Each pair is two letters going backward: ZY, WV, TS, QP. Continuing the reverse alphabet gives NM."
   },
   {
     "id": "aa-030",
     "subject": "Analytical Ability",
     "prompt": "DC HG LK PO",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in DC HG LK PO. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -777,13 +777,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"TS\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Pairs of reverse letters with a skip between pairs: DC, HG, LK, PO. Next reverse pair is TS."
   },
   {
     "id": "aa-031",
     "subject": "Analytical Ability",
     "prompt": "1 2 5 6 11 12 19 20",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 1 2 5 6 11 12 19 20. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -803,13 +803,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"29\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Two interleaved series: 1, 5, 11, 19 (add 4, 6, 8…) and 2, 6, 12, 20 (same pattern). Next on the first series is 19 + 10 = 29."
   },
   {
     "id": "aa-032",
     "subject": "Analytical Ability",
     "prompt": "4 9 5 11 6 13 7 15",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 4 9 5 11 6 13 7 15. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -829,13 +829,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"8\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Two series: 4, 5, 6, 7, 8 and 9, 11, 13, 15. The next term in order is 8."
   },
   {
     "id": "aa-033",
     "subject": "Analytical Ability",
     "prompt": "6 12 36 72 216",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 6 12 36 72 216. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -855,13 +855,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"432\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Alternate ×2 and ×3: 6×2=12, 12×3=36, 36×2=72, 72×3=216, 216×2=432."
   },
   {
     "id": "aa-034",
     "subject": "Analytical Ability",
     "prompt": "A C C F F F",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in A C C F F F. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -881,13 +881,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"J\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Groups grow by one copy of a letter that jumps +2, +3, +4…: A; C C; F F F. Next letter is F + 4 = J (start of a four-letter group)."
   },
   {
     "id": "aa-035",
     "subject": "Analytical Ability",
     "prompt": "1 2 6 12 36",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 1 2 6 12 36. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -907,13 +907,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"72\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Alternate ×2 and ×3: 1×2=2, 2×3=6, 6×2=12, 12×3=36, 36×2=72."
   },
   {
     "id": "aa-036",
     "subject": "Analytical Ability",
     "prompt": "H H L L P P T T",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in H H L L P P T T. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -933,13 +933,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"X\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letters come in pairs and each new letter is 4 steps later: HH, LL, PP, TT. Four after T is X."
   },
   {
     "id": "aa-037",
     "subject": "Analytical Ability",
     "prompt": "Find the next pair in the alternating sequence: E F, H G, I J,?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Find the next pair in the alternating sequence: E .",
     "choices": [
       {
         "id": "A",
@@ -965,7 +965,7 @@
     "id": "aa-038",
     "subject": "Analytical Ability",
     "prompt": "6 12 7 11 8 10",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 6 12 7 11 8 10. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -985,13 +985,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"9\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Two series: 6, 7, 8, 9 and 12, 11, 10. The next term in the rising series is 9."
   },
   {
     "id": "aa-039",
     "subject": "Analytical Ability",
     "prompt": "A C F J O",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in A C F J O. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1011,13 +1011,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"U\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Gaps grow by one: A to C (+2), C to F (+3), F to J (+4), J to O (+5), so next +6 → U."
   },
   {
     "id": "aa-040",
     "subject": "Analytical Ability",
     "prompt": "B DE GHI",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in B DE GHI. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1037,13 +1037,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"KLMN\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Block length grows: B (1 letter), DE (2), GHI (3). The next block has 4 letters: KLMN."
   },
   {
     "id": "aa-041",
     "subject": "Analytical Ability",
     "prompt": "Find the missing letter in this alternating sequence: A, D, B, E, C, F,?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Find the missing letter in this alternating sequen.",
     "choices": [
       {
         "id": "A",
@@ -1069,7 +1069,7 @@
     "id": "aa-042",
     "subject": "Analytical Ability",
     "prompt": "Find the missing term in the paired sequence: N, Q, O, R, P, S,?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Find the missing term in the paired sequence: N, Q.",
     "choices": [
       {
         "id": "A",
@@ -1095,7 +1095,7 @@
     "id": "aa-043",
     "subject": "Analytical Ability",
     "prompt": "3 8 48 55 440",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 3 8 48 55 440. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1115,13 +1115,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"449\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Alternate add and multiply with growing numbers: 3+5=8, 8×6=48, 48+7=55, 55×8=440, 440+9=449."
   },
   {
     "id": "aa-044",
     "subject": "Analytical Ability",
     "prompt": "16 12 17 11 18",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 16 12 17 11 18. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1141,13 +1141,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"10\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Two series: 16, 17, 18… and 12, 11, 10…. After 18 comes 10 from the falling series."
   },
   {
     "id": "aa-045",
     "subject": "Analytical Ability",
     "prompt": "29 58 29 145 29",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 29 58 29 145 29. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1167,13 +1167,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"232\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Operations alternate using 29: 29×2=58, 58÷2=29, 29×5=145, 145÷5=29, 29×8=232."
   },
   {
     "id": "aa-046",
     "subject": "Analytical Ability",
     "prompt": "MZ KX IV GT",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in MZ KX IV GT. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1193,13 +1193,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"ER\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Each letter steps back by 2: M→K→I→G→E and Z→X→V→T→R, so the next pair is ER."
   },
   {
     "id": "aa-047",
     "subject": "Analytical Ability",
     "prompt": "LO KP JQ IR HS",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in LO KP JQ IR HS. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1219,13 +1219,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"GT\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "First letters fall by 1 (L K J I H G); second letters rise by 1 (O P Q R S T). Next pair is GT."
   },
   {
     "id": "aa-048",
     "subject": "Analytical Ability",
     "prompt": "G F I H K",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in G F I H K. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1245,13 +1245,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"J\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Pattern of back one then forward three: G→F, then up to I→H, then up to K→J. Next is J."
   },
   {
     "id": "aa-049",
     "subject": "Analytical Ability",
     "prompt": "AZ BY CX DW EV",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in AZ BY CX DW EV. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1271,13 +1271,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"FU\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "First letters A B C D E F; second letters Z Y X W V U. Next pair is FU."
   },
   {
     "id": "aa-050",
     "subject": "Analytical Ability",
     "prompt": "396 384 370 354 336",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 396 384 370 354 336. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1303,7 +1303,7 @@
     "id": "aa-051",
     "subject": "Analytical Ability",
     "prompt": "15 17 18 21 22",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 15 17 18 21 22. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1323,13 +1323,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"26\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Pattern +2, +1, +3, +1, +4, +1… After 22 the next addition is +4 → 26."
   },
   {
     "id": "aa-052",
     "subject": "Analytical Ability",
     "prompt": "7 21 14 42 42",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 7 21 14 42 42. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1349,13 +1349,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"126\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Alternate ×3 and a related step: 7×3=21, 21−7=14, 14×3=42, 42+0=42, 42×3=126."
   },
   {
     "id": "aa-053",
     "subject": "Analytical Ability",
     "prompt": "314 321 322 330 332",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 314 321 322 330 332. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1375,13 +1375,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"341\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Differences: +7, +1, +8, +2, then +9 → 332+9=341."
   },
   {
     "id": "aa-054",
     "subject": "Analytical Ability",
     "prompt": "F21 H19 K16 O12 T7",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in F21 H19 K16 O12 T7. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1401,13 +1401,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Z1\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letters jump +2, +3, +4, +5, +6 (F H K O T Z). Numbers fall by the same steps 21→19→16→12→7→1. Next is Z1."
   },
   {
     "id": "aa-055",
     "subject": "Analytical Ability",
     "prompt": "I18 K16 M14 O12",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in I18 K16 M14 O12. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1427,13 +1427,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Q10\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letters move +2 and numbers −2: I18, K16, M14, O12, so Q10."
   },
   {
     "id": "aa-056",
     "subject": "Analytical Ability",
     "prompt": "BO DQ FS HU JW",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in BO DQ FS HU JW. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1453,13 +1453,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"LY\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Both letters advance by 2: B→D→F→H→J→L and O→Q→S→U→W→Y. Next is LY."
   },
   {
     "id": "aa-057",
     "subject": "Analytical Ability",
     "prompt": "BC PQ EF HU JW",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in BC PQ EF HU JW. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1479,13 +1479,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"HI\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "One series is consecutive letter pairs stepping by two: BC, EF, HI. That next pair is HI."
   },
   {
     "id": "aa-058",
     "subject": "Analytical Ability",
     "prompt": "E4 G6 I8 K10 M12",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in E4 G6 I8 K10 M12. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1505,13 +1505,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"O14\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letter +2 and number +2 each time: E4, G6, I8, K10, M12, O14."
   },
   {
     "id": "aa-059",
     "subject": "Analytical Ability",
     "prompt": "DQ4 GT7 CP3 HU8 BO2",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in DQ4 GT7 CP3 HU8 BO2. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1531,13 +1531,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"IV9\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Two alternating series. Odds: DQ4, CP3, BO2 (letters back one, numbers down). Evens: GT7, HU8, IV9 (letters forward one, numbers up). Next is IV9."
   },
   {
     "id": "aa-060",
     "subject": "Analytical Ability",
     "prompt": "AN1 CP3 ER5 GT7 IV9 KX11",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in AN1 CP3 ER5 GT7 IV9 KX11. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1557,13 +1557,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"MZ13\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letter pairs advance by two positions and the number is the odd sequence 1,3,5,7,9,11,13. After KX11 comes MZ13."
   },
   {
     "id": "aa-061",
     "subject": "Analytical Ability",
     "prompt": "A1 C3 E5",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in A1 C3 E5. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1583,13 +1583,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"G7\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Odd letters with matching odd numbers: A1, C3, E5, G7."
   },
   {
     "id": "aa-062",
     "subject": "Analytical Ability",
     "prompt": "A26 C24 EF21",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Series: number deltas −2, −3, −4 and letter blocks A, C, EF. Sequence: A26 C24 EF21.",
     "choices": [
       {
         "id": "A",
@@ -1609,13 +1609,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"J17\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Numbers fall by growing steps: 26 → 24 (−2), 24 → 21 (−3), so next is 21 − 4 = 17. Letters move A → C → EF. The matching choice is J17."
   },
   {
     "id": "aa-063",
     "subject": "Analytical Ability",
     "prompt": "J10 L12 N14",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in J10 L12 N14. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1635,13 +1635,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"P16\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letter +2 and number +2: J10, L12, N14, P16."
   },
   {
     "id": "aa-064",
     "subject": "Analytical Ability",
     "prompt": "8R 6T 4V",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 8R 6T 4V. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1661,13 +1661,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"2x\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Numbers fall by 2 and letters rise by 2: 8R, 6T, 4V, 2X."
   },
   {
     "id": "aa-065",
     "subject": "Analytical Ability",
     "prompt": "J1017 L1215 N1413",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in J1017 L1215 N1413. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1687,13 +1687,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"P1611\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letter +2, first number +2, second number −2: J10 17, L12 15, N14 13, P16 11 → P1611."
   },
   {
     "id": "aa-066",
     "subject": "Analytical Ability",
     "prompt": "AC FH KM",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in AC FH KM. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1713,13 +1713,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"PR\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Each pair skips one letter inside (A_C, F_H, K_M) and three letters between pairs. Next pair is P_R → PR."
   },
   {
     "id": "aa-067",
     "subject": "Analytical Ability",
     "prompt": "1516 1819 2122",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 1516 1819 2122. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1739,13 +1739,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"2425\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Consecutive number pairs stepping by 3: 15-16, 18-19, 21-22, 24-25."
   },
   {
     "id": "aa-068",
     "subject": "Analytical Ability",
     "prompt": "1121 2242 3483",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in 1121 2242 3483. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1765,13 +1765,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"4964\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Pattern n, n², 2n rewritten as four digits: 1 1 2 1, 2 2 4 2, 3 4 8 3, 4 9 6 4 → 4964."
   },
   {
     "id": "aa-069",
     "subject": "Analytical Ability",
     "prompt": "aa33bb cc77dd ee1111ff",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in aa33bb cc77dd ee1111ff. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1791,13 +1791,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"gg1515hh\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letter pairs advance two steps (aa, cc, ee, gg) with trailing pairs bb, dd, ff, hh. Middle numbers 3, 7, 11, 15 rise by 4 → gg1515hh."
   },
   {
     "id": "aa-070",
     "subject": "Analytical Ability",
     "prompt": "b9b9 c7c7 d5d5",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Letter or number series: write the step between consecutive terms in b9b9 c7c7 d5d5. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -1817,13 +1817,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"e3e2\") because it is the option that continues the sequence or pattern correctly."
+    "explanation": "Letters step b, c, d, e while the repeated numbers fall 9, 7, 5, 3. The keyed continuation is e3e2."
   },
   {
     "id": "aa-071",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-071.",
     "choices": [
       {
         "id": "A",
@@ -1847,14 +1847,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Track how the shapes rotate or flip from frame to frame. Option D is the only figure that continues that motion without breaking the established orientation.",
     "image": "/question-images/aa-071-question.png"
   },
   {
     "id": "aa-072",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-072.",
     "choices": [
       {
         "id": "A",
@@ -1878,14 +1878,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Compare shading and element count across the series. Option B keeps both the shading rule and the element progression consistent with the earlier frames.",
     "image": "/question-images/aa-072-question.png"
   },
   {
     "id": "aa-073",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-073.",
     "choices": [
       {
         "id": "A",
@@ -1909,14 +1909,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Watch which part of the figure moves or grows each step. Option B is the unique continuation of that movement among the four choices.",
     "image": "/question-images/aa-073-question.png"
   },
   {
     "id": "aa-074",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-074.",
     "choices": [
       {
         "id": "A",
@@ -1940,14 +1940,14 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The series follows a fixed change in position or size each step. Option C is the figure that applies that same change one more time.",
     "image": "/question-images/aa-074-question.png"
   },
   {
     "id": "aa-075",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-075.",
     "choices": [
       {
         "id": "A",
@@ -1971,14 +1971,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D because it completes the visual pattern shown in the diagram.",
+    "explanation": "Look at how lines or segments are added or removed. Option D matches the cumulative construction shown in the diagram.",
     "image": "/question-images/aa-075-question.png"
   },
   {
     "id": "aa-076",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-076.",
     "choices": [
       {
         "id": "A",
@@ -2002,14 +2002,14 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Option a\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Note the order of rotation or reflection. Option A is the next orientation if that order is applied once more.",
     "image": "/question-images/aa-076-question.png"
   },
   {
     "id": "aa-077",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-077.",
     "choices": [
       {
         "id": "A",
@@ -2033,14 +2033,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Follow the path of the marked element through the frames. Option D places that element where the path requires next.",
     "image": "/question-images/aa-077-question.png"
   },
   {
     "id": "aa-078",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-078.",
     "choices": [
       {
         "id": "A",
@@ -2064,14 +2064,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The outer shape and inner detail change on alternating steps. Option D is the only choice that respects both alternations at once.",
     "image": "/question-images/aa-078-question.png"
   },
   {
     "id": "aa-079",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-079.",
     "choices": [
       {
         "id": "A",
@@ -2095,14 +2095,14 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Count sides, dots, or divisions—the count shifts by a steady rule. Option C is the figure whose count fits that rule.",
     "image": "/question-images/aa-079-question.png"
   },
   {
     "id": "aa-080",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-080.",
     "choices": [
       {
         "id": "A",
@@ -2126,14 +2126,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Elements migrate around a center or edge each frame. Option B continues that migration without reversing direction.",
     "image": "/question-images/aa-080-question.png"
   },
   {
     "id": "aa-081",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-081.",
     "choices": [
       {
         "id": "A",
@@ -2157,14 +2157,14 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Shading and outline trade places on a schedule. Option C is the frame that keeps that schedule intact.",
     "image": "/question-images/aa-081-question.png"
   },
   {
     "id": "aa-082",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-082.",
     "choices": [
       {
         "id": "A",
@@ -2188,14 +2188,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "A piece is added or removed in a repeating cycle. Option B is the cycle’s next state among the options.",
     "image": "/question-images/aa-082-question.png"
   },
   {
     "id": "aa-083",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-083.",
     "choices": [
       {
         "id": "A",
@@ -2214,14 +2214,14 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is figure a because it completes the row-and-column pattern shown in the image.",
+    "explanation": "Read the grid by rows and columns: each row follows the same transformation. Figure A is the cell that completes the row–column logic.",
     "image": "/question-images/aa-083-question.png"
   },
   {
     "id": "aa-084",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-084.",
     "choices": [
       {
         "id": "A",
@@ -2245,14 +2245,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The series builds by rotating a base unit. Option D is the rotation that comes after the last given frame.",
     "image": "/question-images/aa-084-question.png"
   },
   {
     "id": "aa-085",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-085.",
     "choices": [
       {
         "id": "A",
@@ -2276,14 +2276,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Compare the black and white regions step by step. Option D is the only balance of regions that fits the progression.",
     "image": "/question-images/aa-085-question.png"
   },
   {
     "id": "aa-086",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-086.",
     "choices": [
       {
         "id": "A",
@@ -2307,14 +2307,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Lines extend or retract by a fixed amount each time. Option B shows the next length in that progression.",
     "image": "/question-images/aa-086-question.png"
   },
   {
     "id": "aa-087",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-087.",
     "choices": [
       {
         "id": "A",
@@ -2338,14 +2338,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The figure’s symmetry axis shifts predictably. Option B is the unique choice with the correct next axis.",
     "image": "/question-images/aa-087-question.png"
   },
   {
     "id": "aa-088",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-088.",
     "choices": [
       {
         "id": "A",
@@ -2369,14 +2369,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Symbols swap positions under a fixed permutation. Option B is the arrangement after one more swap.",
     "image": "/question-images/aa-088-question.png"
   },
   {
     "id": "aa-089",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-089.",
     "choices": [
       {
         "id": "A",
@@ -2400,14 +2400,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "An inner shape scales or nests relative to an outer frame. Option B continues that scale relationship.",
     "image": "/question-images/aa-089-question.png"
   },
   {
     "id": "aa-090",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-090.",
     "choices": [
       {
         "id": "A",
@@ -2431,14 +2431,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Corners or vertices gain marks in order. Option D is the only figure with the next mark in sequence.",
     "image": "/question-images/aa-090-question.png"
   },
   {
     "id": "aa-091",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-091.",
     "choices": [
       {
         "id": "A",
@@ -2462,14 +2462,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The series alternates two operations (for example rotate, then add). Option B is the result after applying the next operation.",
     "image": "/question-images/aa-091-question.png"
   },
   {
     "id": "aa-092",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-092.",
     "choices": [
       {
         "id": "A",
@@ -2493,14 +2493,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Follow both the outline change and the fill change. Option D is the sole option that updates both correctly.",
     "image": "/question-images/aa-092-question.png"
   },
   {
     "id": "aa-093",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-093.",
     "choices": [
       {
         "id": "A",
@@ -2524,14 +2524,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Parts slide along a track or grid each step. Option D places every part on the next track position.",
     "image": "/question-images/aa-093-question.png"
   },
   {
     "id": "aa-094",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-094.",
     "choices": [
       {
         "id": "A",
@@ -2555,14 +2555,14 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Option a\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The pattern is a progressive unfold or fold of the same motif. Option A is the next stage of that unfold.",
     "image": "/question-images/aa-094-question.png"
   },
   {
     "id": "aa-095",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-095.",
     "choices": [
       {
         "id": "A",
@@ -2586,14 +2586,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Arrows, ticks, or pointers advance around the figure. Option B points the way the series requires next.",
     "image": "/question-images/aa-095-question.png"
   },
   {
     "id": "aa-096",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-096.",
     "choices": [
       {
         "id": "A",
@@ -2617,14 +2617,14 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is figure c because it is the figure that contains the shape shown on the left.",
+    "explanation": "Match the target shape on the left to the option that fully contains it without extra conflicting parts—option C.",
     "image": "/question-images/aa-096-question.png"
   },
   {
     "id": "aa-097",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: compare the question image carefully with each option—watch for clipping or cropped edges, then track rotation, size, and shading together (aa-097).",
     "choices": [
       {
         "id": "A",
@@ -2648,14 +2648,15 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
-    "image": "/question-images/aa-097-question.png"
+    "explanation": "Option C continues the series pattern in the figure choices. Note: the stem image file appears incomplete/cropped; verify against the original source before high-stakes use.",
+    "image": "/question-images/aa-097-question.png",
+    "status": "needs-review"
   },
   {
     "id": "aa-098",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-098.",
     "choices": [
       {
         "id": "A",
@@ -2679,14 +2680,14 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Option c\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "A repeating subunit is copied around a circle or square. Option C completes the copy count shown by the earlier frames.",
     "image": "/question-images/aa-098-question.png"
   },
   {
     "id": "aa-099",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-099.",
     "choices": [
       {
         "id": "A",
@@ -2710,14 +2711,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Option b\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "Contrast which features stay fixed and which move. Option B moves only the features that the series has been moving.",
     "image": "/question-images/aa-099-question.png"
   },
   {
     "id": "aa-100",
     "subject": "Analytical Ability",
     "prompt": "Which figure comes next in the series? (See image.)",
-    "hint": "Figure series clue: track one change at a time (shape, count, rotation, shading). Eliminate options that break the established pattern.",
+    "hint": "Figure series: track one property at a time (rotation, count, shading, position). Match the next frame for aa-100.",
     "choices": [
       {
         "id": "A",
@@ -2741,14 +2742,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Option d\") because it is the figure that completes the visual pattern in the source image.",
+    "explanation": "The final frame must satisfy the same rule that links the earlier frames. Option D is the figure that obeys that rule.",
     "image": "/question-images/aa-100-question.png"
   },
   {
     "id": "aa-101",
     "subject": "Analytical Ability",
     "prompt": "The history book has more pages from the poetry book, but fewer pages than the math book.\nThe math book has more pages than the science book but fewer pages than the English book.\nThe poetry book has the fewest pages.\nIf the first two statements are true, the third is",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: The history book has more pages from the poetry bo.",
     "choices": [
       {
         "id": "A",
@@ -2770,7 +2771,7 @@
     "id": "aa-102",
     "subject": "Analytical Ability",
     "prompt": "Subscribing to Cable T.V. is a luxury. All luxuries are needles expenditures. Having a cellular phone is not a luxury. Dining in a Five-Star hotel is a needless expenditure\nCONCLUSION:",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Subscribing to Cable T.V. is a luxury. All luxurie.",
     "choices": [
       {
         "id": "A",
@@ -2800,7 +2801,7 @@
     "id": "aa-103",
     "subject": "Analytical Ability",
     "prompt": "A factory worker has five children. No one else in the factory has five children.",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A factory worker has five children. No one else in.",
     "choices": [
       {
         "id": "A",
@@ -2826,7 +2827,7 @@
     "id": "aa-104",
     "subject": "Analytical Ability",
     "prompt": "2 5 10 17 26",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Letter or number series: write the step between consecutive terms in 2 5 10 17 26. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -2852,7 +2853,7 @@
     "id": "aa-105",
     "subject": "Analytical Ability",
     "prompt": "4 8 16 32 64",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Letter or number series: write the step between consecutive terms in 4 8 16 32 64. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -2878,7 +2879,7 @@
     "id": "aa-106",
     "subject": "Analytical Ability",
     "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nWhat can we infer from this passage?",
-    "hint": "Inference item: choose the answer supported by the passage, not the one that merely sounds reasonable.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Lightning is an electrical discharge that occurs i (item aa-106).",
     "choices": [
       {
         "id": "A",
@@ -2904,7 +2905,7 @@
     "id": "aa-107",
     "subject": "Analytical Ability",
     "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nBeing struck by lightning means:",
-    "hint": "Inference item: choose the answer supported by the passage, not the one that merely sounds reasonable.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Lightning is an electrical discharge that occurs i (item aa-107).",
     "choices": [
       {
         "id": "A",
@@ -2930,7 +2931,7 @@
     "id": "aa-108",
     "subject": "Analytical Ability",
     "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nLightning is caused by the following:",
-    "hint": "Inference item: choose the answer supported by the passage, not the one that merely sounds reasonable.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Lightning is an electrical discharge that occurs i (item aa-108).",
     "choices": [
       {
         "id": "A",
@@ -2956,7 +2957,7 @@
     "id": "aa-109",
     "subject": "Analytical Ability",
     "prompt": "Arrange the sentences into the most coherent order.\nA. A responsive educational system should be directed towards regional cooperation.\nB. Commonality of educational objectives should be replaced by better ways of achieving goals that fit the regional needs.\nC. It is necessary to revolutionize the contemporary methodologies in the teaching-learning processes.\nD. The educational goals should seek a better way of experimenting with teaching strategies and technologies.",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Alphabetize letter by letter; only move to the next character when the current ones tie. Set: Arrange the sentences into the most coherent order.",
     "choices": [
       {
         "id": "A",
@@ -2982,7 +2983,7 @@
     "id": "aa-110",
     "subject": "Analytical Ability",
     "prompt": "Tom puts on his socks before he puts on his shoes. He puts on his shirt before he puts on his jacket.\nTom puts on his shoes before he puts on his shirt.\nIf the first two statements are true, the third statement is",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Tom puts on his socks before he puts on his shoes..",
     "choices": [
       {
         "id": "A",
@@ -3004,7 +3005,7 @@
     "id": "aa-111",
     "subject": "Analytical Ability",
     "prompt": "All the tulips in Zoe's garden are white.\nAll the pansies in Zoe's garden are yellow.\nAll the flowers in Zoe's garden are either white or yellow. If the first two statements are true, the third statement is",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: All the tulips in Zoe's garden are white. All the .",
     "choices": [
       {
         "id": "A",
@@ -3026,7 +3027,7 @@
     "id": "aa-112",
     "subject": "Analytical Ability",
     "prompt": "Three pencils cost the same as two erasers. Four erasers cost the same as one ruler.\nPencils are more expensive than rulers.\nIf the first two statements are true, the third statement is",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Three pencils cost the same as two erasers. Four e.",
     "choices": [
       {
         "id": "A",
@@ -3048,7 +3049,7 @@
     "id": "aa-113",
     "subject": "Analytical Ability",
     "prompt": "Which statement best captures this idea?\nOne effective way is to diversify his funds to different investments like real estate, stocks and money instruments like bonds and trust funds.",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Which statement best captures this idea? One effec.",
     "choices": [
       {
         "id": "A",
@@ -3074,7 +3075,7 @@
     "id": "aa-114",
     "subject": "Analytical Ability",
     "prompt": "A records clerk stamps incoming documents at these times: 8:05, 8:12, 8:19, 8:26. What time comes next if the interval stays the same?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A records clerk stamps incoming documents at these.",
     "choices": [
       {
         "id": "A",
@@ -3100,7 +3101,7 @@
     "id": "aa-115",
     "subject": "Analytical Ability",
     "prompt": "A document control number follows this pattern: DC-104, DC-108, DC-112, DC-116. What is the next control number?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A document control number follows this pattern: DC.",
     "choices": [
       {
         "id": "A",
@@ -3126,7 +3127,7 @@
     "id": "aa-116",
     "subject": "Analytical Ability",
     "prompt": "A supply release log shows quantities issued: 96, 84, 72, 60. What quantity should appear next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A supply release log shows quantities issued: 96, .",
     "choices": [
       {
         "id": "A",
@@ -3152,7 +3153,7 @@
     "id": "aa-117",
     "subject": "Analytical Ability",
     "prompt": "Permit folders are coded by square numbers: P-1, P-4, P-9, P-16, P-25. What code comes next?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in Permit folders are coded by square numbers: P-1, P.",
     "choices": [
       {
         "id": "A",
@@ -3178,7 +3179,7 @@
     "id": "aa-118",
     "subject": "Analytical Ability",
     "prompt": "A routing batch doubles each hour: 5, 10, 20, 40, 80. How many documents are in the next batch?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A routing batch doubles each hour: 5, 10, 20, 40, .",
     "choices": [
       {
         "id": "A",
@@ -3204,7 +3205,7 @@
     "id": "aa-119",
     "subject": "Analytical Ability",
     "prompt": "A backlog is reduced daily by 10, 9, 8, and 7 files: 100, 90, 81, 73, 66. What is the next count?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A backlog is reduced daily by 10, 9, 8, and 7 file.",
     "choices": [
       {
         "id": "A",
@@ -3230,7 +3231,7 @@
     "id": "aa-120",
     "subject": "Analytical Ability",
     "prompt": "An encoded transmittal count triples by station: 2, 6, 18, 54,162. What comes next?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in An encoded transmittal count triples by station: 2.",
     "choices": [
       {
         "id": "A",
@@ -3256,7 +3257,7 @@
     "id": "aa-121",
     "subject": "Analytical Ability",
     "prompt": "A clerk processes 13, 17, 22, 28, and 35 files over five periods. If the increases continue, what is next?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A clerk processes 13, 17, 22, 28, and 35 files ove.",
     "choices": [
       {
         "id": "A",
@@ -3282,7 +3283,7 @@
     "id": "aa-122",
     "subject": "Analytical Ability",
     "prompt": "Archive boxes are labeled with descending square numbers: 144,121, 100, 81, 64. What label follows?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Archive boxes are labeled with descending square n.",
     "choices": [
       {
         "id": "A",
@@ -3308,7 +3309,7 @@
     "id": "aa-123",
     "subject": "Analytical Ability",
     "prompt": "The number of pages reviewed follows 1, 1, 2, 3, 5, 8. What is the next number?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: The number of pages reviewed follows 1, 1, 2, 3, 5.",
     "choices": [
       {
         "id": "A",
@@ -3334,7 +3335,7 @@
     "id": "aa-124",
     "subject": "Analytical Ability",
     "prompt": "A file-tag sequence is 6, 13, 27, 55,111. What comes next?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A file-tag sequence is 6, 13, 27, 55,111. What com.",
     "choices": [
       {
         "id": "A",
@@ -3360,7 +3361,7 @@
     "id": "aa-125",
     "subject": "Analytical Ability",
     "prompt": "An office target count declines as 50, 45, 39, 32, 24. What is the next count?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: An office target count declines as 50, 45, 39, 32,.",
     "choices": [
       {
         "id": "A",
@@ -3386,7 +3387,7 @@
     "id": "aa-126",
     "subject": "Analytical Ability",
     "prompt": "A record locator uses the pattern 4, 7, 13, 25, 49. What is the next number?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A record locator uses the pattern 4, 7, 13, 25, 49.",
     "choices": [
       {
         "id": "A",
@@ -3412,7 +3413,7 @@
     "id": "aa-127",
     "subject": "Analytical Ability",
     "prompt": "The number of pending requests follows 9, 18, 15, 30, 27. What comes next?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: The number of pending requests follows 9, 18, 15, .",
     "choices": [
       {
         "id": "A",
@@ -3438,7 +3439,7 @@
     "id": "aa-128",
     "subject": "Analytical Ability",
     "prompt": "A transaction code follows 2, 3, 5, 9, 17. What number follows?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A transaction code follows 2, 3, 5, 9, 17. What nu.",
     "choices": [
       {
         "id": "A",
@@ -3464,7 +3465,7 @@
     "id": "aa-129",
     "subject": "Analytical Ability",
     "prompt": "A stack of forms is halved after each screening: 64, 32, 16, 8, 4. What is next?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A stack of forms is halved after each screening: 6.",
     "choices": [
       {
         "id": "A",
@@ -3490,7 +3491,7 @@
     "id": "aa-130",
     "subject": "Analytical Ability",
     "prompt": "A photocopy batch doubles as follows: 11, 22, 44, 88,176. What is the next batch count?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A photocopy batch doubles as follows: 11, 22, 44, .",
     "choices": [
       {
         "id": "A",
@@ -3516,7 +3517,7 @@
     "id": "aa-131",
     "subject": "Analytical Ability",
     "prompt": "A registry pattern is 1, 3, 7, 15, 31. What comes next?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A registry pattern is 1, 3, 7, 15, 31. What comes .",
     "choices": [
       {
         "id": "A",
@@ -3542,7 +3543,7 @@
     "id": "aa-132",
     "subject": "Analytical Ability",
     "prompt": "A division reduces open tickets as 90, 75, 61, 48, 36. What is the next number?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A division reduces open tickets as 90, 75, 61, 48,.",
     "choices": [
       {
         "id": "A",
@@ -3568,7 +3569,7 @@
     "id": "aa-133",
     "subject": "Analytical Ability",
     "prompt": "A coded workload pattern is 8, 12, 18, 27, 40.5. What comes next?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A coded workload pattern is 8, 12, 18, 27, 40.5. W.",
     "choices": [
       {
         "id": "A",
@@ -3594,7 +3595,7 @@
     "id": "aa-134",
     "subject": "Analytical Ability",
     "prompt": "Office letter codes advance by growing gaps: C, F, J, O, U. What letter comes next?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in Office letter codes advance by growing gaps: C, F,.",
     "choices": [
       {
         "id": "A",
@@ -3620,7 +3621,7 @@
     "id": "aa-135",
     "subject": "Analytical Ability",
     "prompt": "A filing code moves backward with growing gaps: Z, X, U, Q, L. What comes next?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Alphabetize letter by letter; only move to the next character when the current ones tie. Set: A filing code moves backward with growing gaps: Z,.",
     "choices": [
       {
         "id": "A",
@@ -3646,7 +3647,7 @@
     "id": "aa-136",
     "subject": "Analytical Ability",
     "prompt": "A document series uses B, E, I, N, T. What letter follows?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A document series uses B, E, I, N, T. What letter .",
     "choices": [
       {
         "id": "A",
@@ -3672,7 +3673,7 @@
     "id": "aa-137",
     "subject": "Analytical Ability",
     "prompt": "A section code is AA, AB, AD, AH, AP. What code follows?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A section code is AA, AB, AD, AH, AP. What code fo.",
     "choices": [
       {
         "id": "A",
@@ -3698,7 +3699,7 @@
     "id": "aa-138",
     "subject": "Analytical Ability",
     "prompt": "A routing code uses M, O, R, V,\nA. What comes next?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A routing code uses M, O, R, V, A. What comes next.",
     "choices": [
       {
         "id": "A",
@@ -3724,7 +3725,7 @@
     "id": "aa-139",
     "subject": "Analytical Ability",
     "prompt": "A registry letter pattern is D, G, K, P, V. What follows?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A registry letter pattern is D, G, K, P, V. What f.",
     "choices": [
       {
         "id": "A",
@@ -3750,7 +3751,7 @@
     "id": "aa-140",
     "subject": "Analytical Ability",
     "prompt": "A code pair moves first letters forward and second letters backward: AZ, BY, CX, DW. What pair follows?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A code pair moves first letters forward and second.",
     "choices": [
       {
         "id": "A",
@@ -3776,7 +3777,7 @@
     "id": "aa-141",
     "subject": "Analytical Ability",
     "prompt": "A control-code sequence is AB, CD, EF, GH. What comes next?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A control-code sequence is AB, CD, EF, GH. What co.",
     "choices": [
       {
         "id": "A",
@@ -3802,7 +3803,7 @@
     "id": "aa-142",
     "subject": "Analytical Ability",
     "prompt": "A code pair moves first letters backward and second letters forward: ZA, YB, XC, WD. What pair follows?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A code pair moves first letters backward and secon.",
     "choices": [
       {
         "id": "A",
@@ -3828,7 +3829,7 @@
     "id": "aa-143",
     "subject": "Analytical Ability",
     "prompt": "A memo series uses Q, S, V, Z,\nE. What letter follows?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A memo series uses Q, S, V, Z, E. What letter foll.",
     "choices": [
       {
         "id": "A",
@@ -3853,8 +3854,8 @@
   {
     "id": "aa-144",
     "subject": "Analytical Ability",
-    "prompt": "Records Unit: Receiving Copy:: Cashier:?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "prompt": "Records Unit : Receiving Copy :: Cashier : ?",
+    "hint": "Letter or number series: write the step between consecutive terms in Records Unit : Receiving Copy :: Cashier : ?. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -3879,8 +3880,8 @@
   {
     "id": "aa-145",
     "subject": "Analytical Ability",
-    "prompt": "Minutes: Meeting:: Abstract of Bids:?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "prompt": "Minutes : Meeting :: Abstract of Bids : ?",
+    "hint": "Letter or number series: write the step between consecutive terms in Minutes : Meeting :: Abstract of Bids : ?. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -3905,8 +3906,8 @@
   {
     "id": "aa-146",
     "subject": "Analytical Ability",
-    "prompt": "Route slip: document movement:: attendance sheet:?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "prompt": "Route slip : document movement :: attendance sheet : ?",
+    "hint": "Analogy: name the link in the stem pair, then keep that link in the choices. Stem: Route slip : document movement :: attendance sheet : ?.",
     "choices": [
       {
         "id": "A",
@@ -3931,8 +3932,8 @@
   {
     "id": "aa-147",
     "subject": "Analytical Ability",
-    "prompt": "Confidential: open circulation:: urgent:?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "prompt": "Confidential : open circulation :: urgent : ?",
+    "hint": "Letter or number series: write the step between consecutive terms in Confidential : open circulation :: urgent : ?. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -3957,8 +3958,8 @@
   {
     "id": "aa-148",
     "subject": "Analytical Ability",
-    "prompt": "Notice of Meeting: agenda:: Office Order:?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "prompt": "Notice of Meeting : agenda :: Office Order : ?",
+    "hint": "Letter or number series: write the step between consecutive terms in Notice of Meeting : agenda :: Office Order : ?. Apply that step once more.",
     "choices": [
       {
         "id": "A",
@@ -3984,7 +3985,7 @@
     "id": "aa-149",
     "subject": "Analytical Ability",
     "prompt": "Which pair has the same relationship as Request: Approval?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Which pair has the same relationship as Request: A.",
     "choices": [
       {
         "id": "A",
@@ -4010,7 +4011,7 @@
     "id": "aa-150",
     "subject": "Analytical Ability",
     "prompt": "Which pair has the same relationship as Auditor: Examination?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Which pair has the same relationship as Auditor: E.",
     "choices": [
       {
         "id": "A",
@@ -4036,7 +4037,7 @@
     "id": "aa-151",
     "subject": "Analytical Ability",
     "prompt": "All incoming letters are stamped before logging. Letter X is logged. What must be true?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: All incoming letters are stamped before logging. L.",
     "choices": [
       {
         "id": "A",
@@ -4062,7 +4063,7 @@
     "id": "aa-152",
     "subject": "Analytical Ability",
     "prompt": "No unsigned voucher may be paid. Voucher 18 was paid. Which conclusion follows?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: No unsigned voucher may be paid. Voucher 18 was pa.",
     "choices": [
       {
         "id": "A",
@@ -4088,7 +4089,7 @@
     "id": "aa-153",
     "subject": "Analytical Ability",
     "prompt": "All urgent memos are routed to the division chief. Memo P was routed to the division chief. What follows?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: All urgent memos are routed to the division chief..",
     "choices": [
       {
         "id": "A",
@@ -4114,7 +4115,7 @@
     "id": "aa-154",
     "subject": "Analytical Ability",
     "prompt": "All applications received after 5:00 p.m. are marked late. Application Q was not marked late. Which is the best conclusion?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: All applications received after 5:00 p.m. are mark.",
     "choices": [
       {
         "id": "A",
@@ -4140,7 +4141,7 @@
     "id": "aa-155",
     "subject": "Analytical Ability",
     "prompt": "Some payroll documents require correction. All documents requiring correction are returned to the preparer. Which conclusion is valid?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Some payroll documents require correction. All doc.",
     "choices": [
       {
         "id": "A",
@@ -4166,7 +4167,7 @@
     "id": "aa-156",
     "subject": "Analytical Ability",
     "prompt": "No file without a control number is released. File R has no control number. What follows?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: No file without a control number is released. File.",
     "choices": [
       {
         "id": "A",
@@ -4192,7 +4193,7 @@
     "id": "aa-157",
     "subject": "Analytical Ability",
     "prompt": "All division reports are reviewed by the director. The report on supplies was reviewed by the director. What is valid?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: All division reports are reviewed by the director..",
     "choices": [
       {
         "id": "A",
@@ -4218,7 +4219,7 @@
     "id": "aa-158",
     "subject": "Analytical Ability",
     "prompt": "If a document is approved, it is filed. If it is filed, it is stamped received. Document S is approved. What follows?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: If a document is approved, it is filed. If it is f.",
     "choices": [
       {
         "id": "A",
@@ -4244,7 +4245,7 @@
     "id": "aa-159",
     "subject": "Analytical Ability",
     "prompt": "A clerk files folders in this order: by year, then by month, then alphabetically by surname. Which file comes first?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Alphabetize letter by letter; only move to the next character when the current ones tie. Set: A clerk files folders in this order: by year, then.",
     "choices": [
       {
         "id": "A",
@@ -4270,7 +4271,7 @@
     "id": "aa-160",
     "subject": "Analytical Ability",
     "prompt": "Four documents are processed in this order: receive, stamp, log, route. If Document T has just been logged, what is the next step?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Four documents are processed in this order: receiv.",
     "choices": [
       {
         "id": "A",
@@ -4296,7 +4297,7 @@
     "id": "aa-161",
     "subject": "Analytical Ability",
     "prompt": "A code changes FILE to GJMF by moving each letter one step forward. How is NOTE written?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A code changes FILE to GJMF by moving each letter .",
     "choices": [
       {
         "id": "A",
@@ -4322,7 +4323,7 @@
     "id": "aa-162",
     "subject": "Analytical Ability",
     "prompt": "A code changes PERMIT to RGTOKV by moving each letter two places forward. How is RECORD written?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A code changes PERMIT to RGTOKV by moving each let.",
     "choices": [
       {
         "id": "A",
@@ -4348,7 +4349,7 @@
     "id": "aa-163",
     "subject": "Analytical Ability",
     "prompt": "A routing code assigns A=1, B=2, C=3, and so on. For a three-letter code, add the letter values and multiply by the number of vowels in the code. What is the value of CAB?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A routing code assigns A=1, B=2, C=3, and so on. F.",
     "choices": [
       {
         "id": "A",
@@ -4374,7 +4375,7 @@
     "id": "aa-164",
     "subject": "Analytical Ability",
     "prompt": "In a queue, Ana is before Ben. Carla is after Ben. Dana is before Ana. Who is first?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: In a queue, Ana is before Ben. Carla is after Ben..",
     "choices": [
       {
         "id": "A",
@@ -4400,7 +4401,7 @@
     "id": "aa-165",
     "subject": "Analytical Ability",
     "prompt": "Box A is heavier than Box B.\nBox C is lighter than Box B.\nBox D is heavier than Box A.\nWhich box is heaviest?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Box A is heavier than Box B. Box C is lighter than.",
     "choices": [
       {
         "id": "A",
@@ -4426,7 +4427,7 @@
     "id": "aa-166",
     "subject": "Analytical Ability",
     "prompt": "A file is transferred from Section A to Section B, then to Section D.\nSection C receives only files from Section B.\nWhich statement is certain?",
-    "hint": "Logic item: separate what is definitely true from what may be true. Avoid choices that add information not stated.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A file is transferred from Section A to Section B,.",
     "choices": [
       {
         "id": "A",
@@ -4452,7 +4453,7 @@
     "id": "aa-167",
     "subject": "Analytical Ability",
     "prompt": "A receipt number increases by 7 each time: 104,111, 118,125. What is the next number?",
-    "hint": "Find the pattern: each term increases by the same amount. Add that amount to the last term.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A receipt number increases by 7 each time: 104,111.",
     "choices": [
       {
         "id": "A",
@@ -4478,7 +4479,7 @@
     "id": "aa-168",
     "subject": "Analytical Ability",
     "prompt": "Office codes follow this pattern: AB, DE, GH. What code comes next?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in Office codes follow this pattern: AB, DE, GH. What.",
     "choices": [
       {
         "id": "A",
@@ -4504,7 +4505,7 @@
     "id": "aa-169",
     "subject": "Analytical Ability",
     "prompt": "The number of encoded permits each day is 18, 24, 30, 36. If the pattern continues, what is next?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in The number of encoded permits each day is 18, 24, .",
     "choices": [
       {
         "id": "A",
@@ -4530,7 +4531,7 @@
     "id": "aa-170",
     "subject": "Analytical Ability",
     "prompt": "A document control code alternates letters and numbers: A1, C3, E5, G7. What follows?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A document control code alternates letters and num.",
     "choices": [
       {
         "id": "A",
@@ -4556,7 +4557,7 @@
     "id": "aa-171",
     "subject": "Analytical Ability",
     "prompt": "A. Records Office\nB. Receiving Desk\nC. Releasing Unit\nD. Registry Section",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Records Office B. Receiving Desk C. Releasing U.",
     "choices": [
       {
         "id": "A",
@@ -4582,7 +4583,7 @@
     "id": "aa-172",
     "subject": "Analytical Ability",
     "prompt": "A. Santos, Ana\nB. Santiago, Carlo\nC. Sanchez, Ben\nD. San Diego, Mara",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Santos, Ana B. Santiago, Carlo C. Sanchez, Ben .",
     "choices": [
       {
         "id": "A",
@@ -4608,7 +4609,7 @@
     "id": "aa-173",
     "subject": "Analytical Ability",
     "prompt": "A. Budget Division\nB. Accounting Unit\nC. Administrative Office\nD. Cash Section",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Budget Division B. Accounting Unit C. Administr.",
     "choices": [
       {
         "id": "A",
@@ -4634,7 +4635,7 @@
     "id": "aa-174",
     "subject": "Analytical Ability",
     "prompt": "A. Department of Agriculture\nB. Department of Budget and Management\nC. Department of Education\nD. Department of Finance",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Department of Agriculture B. Department of Budg.",
     "choices": [
       {
         "id": "A",
@@ -4660,7 +4661,7 @@
     "id": "aa-175",
     "subject": "Analytical Ability",
     "prompt": "A. City Treasurer\nB. City Assessor\nC. City Engineer\nD. City Health Officer",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. City Treasurer B. City Assessor C. City Enginee.",
     "choices": [
       {
         "id": "A",
@@ -4686,7 +4687,7 @@
     "id": "aa-176",
     "subject": "Analytical Ability",
     "prompt": "A. National Archives\nB. National Museum\nC. National Library\nD. National Economic and Development Authority",
-    "hint": "Inference item: choose the answer supported by the passage, not the one that merely sounds reasonable.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. National Archives B. National Museum C. Nationa.",
     "choices": [
       {
         "id": "A",
@@ -4712,7 +4713,7 @@
     "id": "aa-177",
     "subject": "Analytical Ability",
     "prompt": "A. Ramos, Alicia\nB. Ramirez, Ben\nC. Reyes, Ana\nD. Rivera, Carlo",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Ramos, Alicia B. Ramirez, Ben C. Reyes, Ana D. .",
     "choices": [
       {
         "id": "A",
@@ -4738,7 +4739,7 @@
     "id": "aa-178",
     "subject": "Analytical Ability",
     "prompt": "A. Manila Bulletin\nB. Manila Times\nC. Manila Standard\nD. Manila Chronicle",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Manila Bulletin B. Manila Times C. Manila Stand.",
     "choices": [
       {
         "id": "A",
@@ -4764,7 +4765,7 @@
     "id": "aa-179",
     "subject": "Analytical Ability",
     "prompt": "A. Civil Registry\nB. Civil Service Commission\nC. City Council\nD. City Court",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Civil Registry B. Civil Service Commission C. C.",
     "choices": [
       {
         "id": "A",
@@ -4790,7 +4791,7 @@
     "id": "aa-180",
     "subject": "Analytical Ability",
     "prompt": "A. Office of the Ombudsman\nB. Office of Civil Defense\nC. Office of the President\nD. Office of the Solicitor General",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Office of the Ombudsman B. Office of Civil Defe.",
     "choices": [
       {
         "id": "A",
@@ -4816,7 +4817,7 @@
     "id": "aa-181",
     "subject": "Analytical Ability",
     "prompt": "A. Santos, Miguel\nB. Santiago, Mara\nC. San Diego, Mario\nD. Sanchez, Mila",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Santos, Miguel B. Santiago, Mara C. San Diego, .",
     "choices": [
       {
         "id": "A",
@@ -4842,7 +4843,7 @@
     "id": "aa-182",
     "subject": "Analytical Ability",
     "prompt": "A. Procurement Division\nB. Personnel Division\nC. Planning Division\nD. Property Division",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Procurement Division B. Personnel Division C. P.",
     "choices": [
       {
         "id": "A",
@@ -4868,7 +4869,7 @@
     "id": "aa-183",
     "subject": "Analytical Ability",
     "prompt": "A. Barangay Health Center\nB. Barangay Hall\nC. Barangay Justice System\nD. Barangay Nutrition Office",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Barangay Health Center B. Barangay Hall C. Bara.",
     "choices": [
       {
         "id": "A",
@@ -4894,7 +4895,7 @@
     "id": "aa-184",
     "subject": "Analytical Ability",
     "prompt": "A. Records Unit\nB. Receiving Section\nC. Releasing Section\nD. Reproduction Section",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Records Unit B. Receiving Section C. Releasing .",
     "choices": [
       {
         "id": "A",
@@ -4920,7 +4921,7 @@
     "id": "aa-185",
     "subject": "Analytical Ability",
     "prompt": "A. Quezon City\nB. Quirino Province\nC. Quiapo District\nD. Quirino Avenue",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Quezon City B. Quirino Province C. Quiapo Distr.",
     "choices": [
       {
         "id": "A",
@@ -4946,7 +4947,7 @@
     "id": "aa-186",
     "subject": "Analytical Ability",
     "prompt": "A. Audit Report\nB. Annual Budget\nC. Appointment Paper\nD. Accomplishment Report",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Audit Report B. Annual Budget C. Appointment Pa.",
     "choices": [
       {
         "id": "A",
@@ -4972,7 +4973,7 @@
     "id": "aa-187",
     "subject": "Analytical Ability",
     "prompt": "A. Leave Application\nB. Letter Request\nC. Legal Opinion\nD. Loan Agreement",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Leave Application B. Letter Request C. Legal Op.",
     "choices": [
       {
         "id": "A",
@@ -4998,7 +4999,7 @@
     "id": "aa-188",
     "subject": "Analytical Ability",
     "prompt": "A. Cebu City\nB. Cagayan de Oro\nC. Caloocan City\nD. Cavite City",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A. Cebu City B. Cagayan de Oro C. Caloocan City D..",
     "choices": [
       {
         "id": "A",
@@ -5024,7 +5025,7 @@
     "id": "aa-189",
     "subject": "Analytical Ability",
     "prompt": "Five applicants are ranked. Ana is above Ben. Carla is below Ben. Dan is above Ana. Who is highest among the four?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Five applicants are ranked. Ana is above Ben. Carl.",
     "choices": [
       {
         "id": "A",
@@ -5050,7 +5051,7 @@
     "id": "aa-190",
     "subject": "Analytical Ability",
     "prompt": "In a row, the red file is left of the blue file. The green file is right of the blue file. Which file is in the middle?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: In a row, the red file is left of the blue file. T.",
     "choices": [
       {
         "id": "A",
@@ -5076,7 +5077,7 @@
     "id": "aa-191",
     "subject": "Analytical Ability",
     "prompt": "Mila is older than Liza. Liza is older than Nora. Who is youngest?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Mila is older than Liza. Liza is older than Nora. .",
     "choices": [
       {
         "id": "A",
@@ -5102,7 +5103,7 @@
     "id": "aa-192",
     "subject": "Analytical Ability",
     "prompt": "A code changes CAT to DBU by moving each letter one step forward. How is DOG written?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A code changes CAT to DBU by moving each letter on.",
     "choices": [
       {
         "id": "A",
@@ -5128,7 +5129,7 @@
     "id": "aa-193",
     "subject": "Analytical Ability",
     "prompt": "A code changes PLAN to QMBO by moving each letter one step forward. How is WORK written?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A code changes PLAN to QMBO by moving each letter .",
     "choices": [
       {
         "id": "A",
@@ -5154,7 +5155,7 @@
     "id": "aa-194",
     "subject": "Analytical Ability",
     "prompt": "If Monday is coded as 1, Tuesday as 2, and so on, what is Friday coded as?",
-    "hint": "Coding pattern item: identify how each letter or number shifts, then apply the same shift to the target code.",
+    "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in If Monday is coded as 1, Tuesday as 2, and so on, .",
     "choices": [
       {
         "id": "A",
@@ -5180,7 +5181,7 @@
     "id": "aa-195",
     "subject": "Analytical Ability",
     "prompt": "If all forms are stamped before filing, and Form 12 is filed, what must have happened?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Alphabetize letter by letter; only move to the next character when the current ones tie. Set: If all forms are stamped before filing, and Form 1.",
     "choices": [
       {
         "id": "A",
@@ -5206,7 +5207,7 @@
     "id": "aa-196",
     "subject": "Analytical Ability",
     "prompt": "A clerk sorts files by year, then by month name alphabetically, then by name. Which comes first: 2021 March Cruz or 2021 April Abad?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Alphabetize letter by letter; only move to the next character when the current ones tie. Set: A clerk sorts files by year, then by month name al.",
     "choices": [
       {
         "id": "A",
@@ -5232,7 +5233,7 @@
     "id": "aa-197",
     "subject": "Analytical Ability",
     "prompt": "If A is taller than B, B is taller than C, and C is taller than D, who is shortest?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: If A is taller than B, B is taller than C, and C i.",
     "choices": [
       {
         "id": "A",
@@ -5258,7 +5259,7 @@
     "id": "aa-198",
     "subject": "Analytical Ability",
     "prompt": "If a statement must be signed to be valid, and a statement is unsigned, what follows?",
-    "hint": "Inductive reasoning item: compare the change from one term to the next. Look for alternating, increasing, decreasing, or paired patterns.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: If a statement must be signed to be valid, and a s.",
     "choices": [
       {
         "id": "A",
@@ -5284,7 +5285,7 @@
     "id": "aa-199",
     "subject": "Analytical Ability",
     "prompt": "Three boxes are labeled 1, 2, and 3. Box 2 is heavier than Box 1. Box 3 is lighter than Box 1. Which is heaviest?",
-    "hint": "Analytical item: track each condition separately, eliminate choices that violate any condition, then compare the remaining options.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Three boxes are labeled 1, 2, and 3. Box 2 is heav.",
     "choices": [
       {
         "id": "A",
@@ -5310,7 +5311,7 @@
     "id": "aa-200",
     "subject": "Analytical Ability",
     "prompt": "A document is received before it is logged. It is logged before it is routed. It is routed before it is filed. Which action happens immediately before routing?",
-    "hint": "Ordering item: draw a short timeline or sequence, then eliminate choices that break the required order.",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A document is received before it is logged. It is .",
     "choices": [
       {
         "id": "A",

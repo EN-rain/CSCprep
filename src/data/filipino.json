@@ -3,7 +3,7 @@
     "id": "fi-001",
     "subject": "Filipino",
     "prompt": "Nauulinigan ang pag-uusap ng grupo dahil sa lakas ng tinig nila.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nauulinigan ang pag-uusap ng grupo dahil sa lakas .",
     "choices": [
       {
         "id": "A",
@@ -29,7 +29,7 @@
     "id": "fi-002",
     "subject": "Filipino",
     "prompt": "Karapatan ng bawat batang Pilipino ang magkaroon ng pamilyang mag-aaruga sa kanya.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Karapatan ng bawat batang Pilipino ang magkaroon n.",
     "choices": [
       {
         "id": "A",
@@ -55,7 +55,7 @@
     "id": "fi-003",
     "subject": "Filipino",
     "prompt": "Nagugulumihanan si Rochelle kung anong kurso ang kanyang kukunin sa kolehiyo.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagugulumihanan si Rochelle kung anong kurso ang k.",
     "choices": [
       {
         "id": "A",
@@ -81,7 +81,7 @@
     "id": "fi-004",
     "subject": "Filipino",
     "prompt": "Tigib na ng pasahero ang dyip nang ito ay umalis.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Tigib na ng pasahero ang dyip nang ito ay umalis..",
     "choices": [
       {
         "id": "A",
@@ -107,7 +107,7 @@
     "id": "fi-005",
     "subject": "Filipino",
     "prompt": "Hindi na nakapagpigil ang kaawa-awang katulong kaya isiniwalat ang sama ng loob sa mapang-aping amo.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi na nakapagpigil ang kaawa-awang katulong kay.",
     "choices": [
       {
         "id": "A",
@@ -133,7 +133,7 @@
     "id": "fi-006",
     "subject": "Filipino",
     "prompt": "Iminungkuhi ang pagbabawal magtapon ng basura sa di-wastong lugar.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Iminungkuhi ang pagbabawal magtapon ng basura sa d.",
     "choices": [
       {
         "id": "A",
@@ -159,7 +159,7 @@
     "id": "fi-007",
     "subject": "Filipino",
     "prompt": "Madalas silang mapaaway dahil sa kanilang kapalaluan.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Madalas silang mapaaway dahil sa kanilang kapalalu.",
     "choices": [
       {
         "id": "A",
@@ -185,7 +185,7 @@
     "id": "fi-008",
     "subject": "Filipino",
     "prompt": "Pakiramdam niya ay labis-labis ang kanyang suliranin kung kaya siya ay naliligalig.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Pakiramdam niya ay labis-labis ang kanyang suliran.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@
     "id": "fi-009",
     "subject": "Filipino",
     "prompt": "Maalwan lamang ang nararapat na dalahin ng isang bata.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Maalwan lamang ang nararapat na dalahin ng isang b.",
     "choices": [
       {
         "id": "A",
@@ -237,7 +237,7 @@
     "id": "fi-010",
     "subject": "Filipino",
     "prompt": "Sa palihan nagagawa ang mga itak, espada at iba pang yari sa bakal.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa palihan nagagawa ang mga itak, espada at iba pa.",
     "choices": [
       {
         "id": "A",
@@ -263,7 +263,7 @@
     "id": "fi-011",
     "subject": "Filipino",
     "prompt": "Hindi mo dapat gawing katuwaan ang pagkutya sa kapwa.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi mo dapat gawing katuwaan ang pagkutya sa kap.",
     "choices": [
       {
         "id": "A",
@@ -289,7 +289,7 @@
     "id": "fi-012",
     "subject": "Filipino",
     "prompt": "Ang pag-eensayo ng banda ay nakabubulahaw.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pag-eensayo ng banda ay nakabubulahaw..",
     "choices": [
       {
         "id": "A",
@@ -315,7 +315,7 @@
     "id": "fi-013",
     "subject": "Filipino",
     "prompt": "Dapat kang magkamal ng salapi sa mabuting paraan lamang.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Dapat kang magkamal ng salapi sa mabuting paraan l.",
     "choices": [
       {
         "id": "A",
@@ -341,7 +341,7 @@
     "id": "fi-014",
     "subject": "Filipino",
     "prompt": "Ilan taon ding siniil ng mga dayuhan ang mga Pilipino.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ilan taon ding siniil ng mga dayuhan ang mga Pilip.",
     "choices": [
       {
         "id": "A",
@@ -367,7 +367,7 @@
     "id": "fi-015",
     "subject": "Filipino",
     "prompt": "Ang anumang alitan ay di dapat hayaang magtagal.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang anumang alitan ay di dapat hayaang magtagal..",
     "choices": [
       {
         "id": "A",
@@ -393,7 +393,7 @@
     "id": "fi-016",
     "subject": "Filipino",
     "prompt": "Laganap ang krisis kaya tayo ay dapat magtipid.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Laganap ang krisis kaya tayo ay dapat magtipid..",
     "choices": [
       {
         "id": "A",
@@ -419,7 +419,7 @@
     "id": "fi-017",
     "subject": "Filipino",
     "prompt": "Madaling nababalino sa lihis na gawain ang mga kabataang laki sa langsangan.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Madaling nababalino sa lihis na gawain ang mga kab.",
     "choices": [
       {
         "id": "A",
@@ -445,7 +445,7 @@
     "id": "fi-018",
     "subject": "Filipino",
     "prompt": "Maraming himutok ang mga mangagawa laban sa kanilang kumpanya gaya ng di pagtaas ng kanilang sahod.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Maraming himutok ang mga mangagawa laban sa kanila.",
     "choices": [
       {
         "id": "A",
@@ -471,7 +471,7 @@
     "id": "fi-019",
     "subject": "Filipino",
     "prompt": "Walang minimithi ang iyong magulang kung di ang mabigyan ka ng magandang kinabukasan.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Walang minimithi ang iyong magulang kung di ang ma.",
     "choices": [
       {
         "id": "A",
@@ -497,7 +497,7 @@
     "id": "fi-020",
     "subject": "Filipino",
     "prompt": "Iwasang sumugba sa alanganin.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Iwasang sumugba sa alanganin..",
     "choices": [
       {
         "id": "A",
@@ -523,7 +523,7 @@
     "id": "fi-021",
     "subject": "Filipino",
     "prompt": "Huwag mong pukawin ang batang nahihimlay.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Huwag mong pukawin ang batang nahihimlay..",
     "choices": [
       {
         "id": "A",
@@ -549,7 +549,7 @@
     "id": "fi-022",
     "subject": "Filipino",
     "prompt": "Hindi ka dapat magmaktol kung ika’y napagsasabihan.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi ka dapat magmaktol kung ika’y napagsasabihan.",
     "choices": [
       {
         "id": "A",
@@ -575,7 +575,7 @@
     "id": "fi-023",
     "subject": "Filipino",
     "prompt": "Tuwing Marso, ang puno ng mangga ay namumutiktik sa bunga.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Tuwing Marso, ang puno ng mangga ay namumutiktik s.",
     "choices": [
       {
         "id": "A",
@@ -601,7 +601,7 @@
     "id": "fi-024",
     "subject": "Filipino",
     "prompt": "Kumipot ang Maynila sa dami ng taong naninirahan dito.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kumipot ang Maynila sa dami ng taong naninirahan d.",
     "choices": [
       {
         "id": "A",
@@ -627,7 +627,7 @@
     "id": "fi-025",
     "subject": "Filipino",
     "prompt": "Patang-pata siya nang marating ang tuktok ng bundok Apo.",
-    "hint": "Kasingkahulugan: unawain muna ang gamit ng salita sa pangungusap, saka piliin ang pinakamalapit na kahulugan.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Patang-pata siya nang marating ang tuktok ng bundo.",
     "choices": [
       {
         "id": "A",
@@ -653,7 +653,7 @@
     "id": "fi-026",
     "subject": "Filipino",
     "prompt": "Ang pag-iibigan nina Florante at Laura ay matimyas.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pag-iibigan nina Florante at Laura ay matimyas.",
     "choices": [
       {
         "id": "A",
@@ -679,7 +679,7 @@
     "id": "fi-027",
     "subject": "Filipino",
     "prompt": "Nilalagyan ng pataba ang halaman upang ito’y yumabong.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nilalagyan ng pataba ang halaman upang ito’y yumab.",
     "choices": [
       {
         "id": "A",
@@ -705,7 +705,7 @@
     "id": "fi-028",
     "subject": "Filipino",
     "prompt": "Namamasyal siya sa parke upang mapawi ang lumbay.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Namamasyal siya sa parke upang mapawi ang lumbay..",
     "choices": [
       {
         "id": "A",
@@ -731,7 +731,7 @@
     "id": "fi-029",
     "subject": "Filipino",
     "prompt": "Hinintay namin ang pagdaong ng 2GO na barko upang salubungin si Ate.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hinintay namin ang pagdaong ng 2GO na barko upang .",
     "choices": [
       {
         "id": "A",
@@ -757,7 +757,7 @@
     "id": "fi-030",
     "subject": "Filipino",
     "prompt": "Palasak na ang paggamit ng kompyuter.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Palasak na ang paggamit ng kompyuter..",
     "choices": [
       {
         "id": "A",
@@ -783,7 +783,7 @@
     "id": "fi-031",
     "subject": "Filipino",
     "prompt": "Nabaghan siya nang dumating ang kanyang amang dalawang taong naghanap- buhay sa ibang bansa.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nabaghan siya nang dumating ang kanyang amang dala.",
     "choices": [
       {
         "id": "A",
@@ -809,7 +809,7 @@
     "id": "fi-032",
     "subject": "Filipino",
     "prompt": "Huwag mong ugaliin ang umalipusta ng iyong kapwa.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Huwag mong ugaliin ang umalipusta ng iyong kapwa..",
     "choices": [
       {
         "id": "A",
@@ -835,7 +835,7 @@
     "id": "fi-033",
     "subject": "Filipino",
     "prompt": "Pahapay na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Pahapay na ang mga maliliit na kumpanya dahil sa p.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +861,7 @@
     "id": "fi-034",
     "subject": "Filipino",
     "prompt": "Makapal at magalas ang palad ng mga mason at karpintero.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makapal at magalas ang palad ng mga mason at karpi.",
     "choices": [
       {
         "id": "A",
@@ -887,7 +887,7 @@
     "id": "fi-035",
     "subject": "Filipino",
     "prompt": "Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Masalimuot man ang buhay natin, di tayo dapat mawa.",
     "choices": [
       {
         "id": "A",
@@ -913,7 +913,7 @@
     "id": "fi-036",
     "subject": "Filipino",
     "prompt": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sinaplutan man lamang sana nila ang sanggol bago i.",
     "choices": [
       {
         "id": "A",
@@ -939,7 +939,7 @@
     "id": "fi-037",
     "subject": "Filipino",
     "prompt": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap mo.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi dapat pagkatiwalaan ang mga taong taksil na .",
     "choices": [
       {
         "id": "A",
@@ -965,7 +965,7 @@
     "id": "fi-038",
     "subject": "Filipino",
     "prompt": "Tila walang kapaguran ang mabungalngal na bibig ni Lina.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Tila walang kapaguran ang mabungalngal na bibig ni.",
     "choices": [
       {
         "id": "A",
@@ -991,7 +991,7 @@
     "id": "fi-039",
     "subject": "Filipino",
     "prompt": "Napakukupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Napakukupad ng takbo ng karitela kung ikukumpara s.",
     "choices": [
       {
         "id": "A",
@@ -1017,7 +1017,7 @@
     "id": "fi-040",
     "subject": "Filipino",
     "prompt": "Patuloy na magdarahop ang taong tamad.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Patuloy na magdarahop ang taong tamad..",
     "choices": [
       {
         "id": "A",
@@ -1043,7 +1043,7 @@
     "id": "fi-041",
     "subject": "Filipino",
     "prompt": "Mahirap pakinggan ang sinasabi ng taong garil.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Mahirap pakinggan ang sinasabi ng taong garil..",
     "choices": [
       {
         "id": "A",
@@ -1069,7 +1069,7 @@
     "id": "fi-042",
     "subject": "Filipino",
     "prompt": "Kumain ka ng masustansyang pagkain nang hindi maging hawas.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kumain ka ng masustansyang pagkain nang hindi magi.",
     "choices": [
       {
         "id": "A",
@@ -1095,7 +1095,7 @@
     "id": "fi-043",
     "subject": "Filipino",
     "prompt": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa’t hindi ka marunong magbigay sa nangangailangan.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang labis na pagiging hidhid ay nakasasama rin lal.",
     "choices": [
       {
         "id": "A",
@@ -1121,7 +1121,7 @@
     "id": "fi-044",
     "subject": "Filipino",
     "prompt": "Hungkag ang bigasan dahil nasira ng bagyo ang mga palay.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hungkag ang bigasan dahil nasira ng bagyo ang mga .",
     "choices": [
       {
         "id": "A",
@@ -1147,7 +1147,7 @@
     "id": "fi-045",
     "subject": "Filipino",
     "prompt": "Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang mga bulaklak ng orkidya ay naluoy sa tindi ng .",
     "choices": [
       {
         "id": "A",
@@ -1173,7 +1173,7 @@
     "id": "fi-046",
     "subject": "Filipino",
     "prompt": "Totoo bang walang latoy ang pagkain sa ospital?",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Totoo bang walang latoy ang pagkain sa ospital?.",
     "choices": [
       {
         "id": "A",
@@ -1199,7 +1199,7 @@
     "id": "fi-047",
     "subject": "Filipino",
     "prompt": "Hindi nilubayan ng mga manunulat ang pagtatanong sa panauhing pandangal.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi nilubayan ng mga manunulat ang pagtatanong s.",
     "choices": [
       {
         "id": "A",
@@ -1225,7 +1225,7 @@
     "id": "fi-048",
     "subject": "Filipino",
     "prompt": "Ang mga tirahan ng mayayaman ay maagwat sa isa’t isa.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang mga tirahan ng mayayaman ay maagwat sa isa’t i.",
     "choices": [
       {
         "id": "A",
@@ -1251,7 +1251,7 @@
     "id": "fi-049",
     "subject": "Filipino",
     "prompt": "Maantak ang sugat kapag napatakan ng kalamansi.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Maantak ang sugat kapag napatakan ng kalamansi..",
     "choices": [
       {
         "id": "A",
@@ -1277,7 +1277,7 @@
     "id": "fi-050",
     "subject": "Filipino",
     "prompt": "Tunay na mabalasik ang leon at ang tigre.",
-    "hint": "Kasalungat: tukuyin muna ang kahulugan ng salita, pagkatapos hanapin ang salitang malinaw na kabaligtaran nito.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Tunay na mabalasik ang leon at ang tigre..",
     "choices": [
       {
         "id": "A",
@@ -1303,7 +1303,7 @@
     "id": "fi-051",
     "subject": "Filipino",
     "prompt": "Nag-alsa balutan ang katulong sa bahay dahil sa kalupitan ng kanyang amo.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nag-alsa balutan ang katulong sa bahay dahil sa ka.",
     "choices": [
       {
         "id": "A",
@@ -1329,7 +1329,7 @@
     "id": "fi-052",
     "subject": "Filipino",
     "prompt": "Hindi totoo ang kanyang katapangan sapagkat bahag ang buntot niya sa harap ng paghihirap.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi totoo ang kanyang katapangan sapagkat bahag .",
     "choices": [
       {
         "id": "A",
@@ -1355,7 +1355,7 @@
     "id": "fi-053",
     "subject": "Filipino",
     "prompt": "Dahil sa paulit-ulit na pagsisinungaling, basa ang papel niya sa karamihan.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Dahil sa paulit-ulit na pagsisinungaling, basa ang.",
     "choices": [
       {
         "id": "A",
@@ -1381,7 +1381,7 @@
     "id": "fi-054",
     "subject": "Filipino",
     "prompt": "Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang mabuti.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kumukulo ang dugo ng ina ni Robin sa kanya sapagka.",
     "choices": [
       {
         "id": "A",
@@ -1407,7 +1407,7 @@
     "id": "fi-055",
     "subject": "Filipino",
     "prompt": "Di-mahapayang gatang ang pagpapalitan ng kuru-kuro ng mga mambabatas.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Di-mahapayang gatang ang pagpapalitan ng kuru-kuro.",
     "choices": [
       {
         "id": "A",
@@ -1433,7 +1433,7 @@
     "id": "fi-056",
     "subject": "Filipino",
     "prompt": "Noong panahon ng pananakop ng Kastila, ang mga Pilipino ay hawak sa tainga ng mga ito.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Noong panahon ng pananakop ng Kastila, ang mga Pil.",
     "choices": [
       {
         "id": "A",
@@ -1459,7 +1459,7 @@
     "id": "fi-057",
     "subject": "Filipino",
     "prompt": "Mabulaklak ang landas ng taong masikap.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Mabulaklak ang landas ng taong masikap..",
     "choices": [
       {
         "id": "A",
@@ -1485,7 +1485,7 @@
     "id": "fi-058",
     "subject": "Filipino",
     "prompt": "Maliit ang sisidlan ni Mhon kaya iniiwasan siyang biruin.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Maliit ang sisidlan ni Mhon kaya iniiwasan siyang .",
     "choices": [
       {
         "id": "A",
@@ -1511,7 +1511,7 @@
     "id": "fi-059",
     "subject": "Filipino",
     "prompt": "Mahilig kasing magbasa kahit sa madilim si Tina kaya siya ay nagmamatang- manok.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Mahilig kasing magbasa kahit sa madilim si Tina ka.",
     "choices": [
       {
         "id": "A",
@@ -1537,7 +1537,7 @@
     "id": "fi-060",
     "subject": "Filipino",
     "prompt": "Kung minsan, inggit ang nagiging dahilan sa pagsasaulian ng kandila.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kung minsan, inggit ang nagiging dahilan sa pagsas.",
     "choices": [
       {
         "id": "A",
@@ -1563,7 +1563,7 @@
     "id": "fi-061",
     "subject": "Filipino",
     "prompt": "Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong kadahilanan kaya siya mapagbigay.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Pabalat-bunga lang pala ang pagiging bukas-palad n.",
     "choices": [
       {
         "id": "A",
@@ -1589,7 +1589,7 @@
     "id": "fi-062",
     "subject": "Filipino",
     "prompt": "Tiklop-tuhod ang akusado na siya ay patawarin ng biktima.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Tiklop-tuhod ang akusado na siya ay patawarin ng b.",
     "choices": [
       {
         "id": "A",
@@ -1615,7 +1615,7 @@
     "id": "fi-063",
     "subject": "Filipino",
     "prompt": "Ni ayaw man lamang humarap sa tao ang talo-saling na si Eula.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ni ayaw man lamang humarap sa tao ang talo-saling .",
     "choices": [
       {
         "id": "A",
@@ -1641,7 +1641,7 @@
     "id": "fi-064",
     "subject": "Filipino",
     "prompt": "Di dapat tularan ang mga taong walang kusang-palo.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Di dapat tularan ang mga taong walang kusang-palo..",
     "choices": [
       {
         "id": "A",
@@ -1667,7 +1667,7 @@
     "id": "fi-065",
     "subject": "Filipino",
     "prompt": "Hindi tama ang ika’y walang lingon-likod. Dapat ay suklian ang kabutihan ng iba sa iyo.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi tama ang ika’y walang lingon-likod. Dapat ay.",
     "choices": [
       {
         "id": "A",
@@ -1693,7 +1693,7 @@
     "id": "fi-066",
     "subject": "Filipino",
     "prompt": "Makapigil-hininga ang pelikulang Muro Ami.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makapigil-hininga ang pelikulang Muro Ami..",
     "choices": [
       {
         "id": "A",
@@ -1719,7 +1719,7 @@
     "id": "fi-067",
     "subject": "Filipino",
     "prompt": "Halang ang kaluluwa ng taong gumagawa ng karumal-dumal na krimen.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Halang ang kaluluwa ng taong gumagawa ng karumal-d.",
     "choices": [
       {
         "id": "A",
@@ -1745,7 +1745,7 @@
     "id": "fi-068",
     "subject": "Filipino",
     "prompt": "Di-maliparan ng uwak ang lupain ng mga Aquino sa Tarlac.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Di-maliparan ng uwak ang lupain ng mga Aquino sa T.",
     "choices": [
       {
         "id": "A",
@@ -1771,7 +1771,7 @@
     "id": "fi-069",
     "subject": "Filipino",
     "prompt": "Makunat pa sa patola si Lola Rosa kaya uugud-ugod na.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makunat pa sa patola si Lola Rosa kaya uugud-ugod .",
     "choices": [
       {
         "id": "A",
@@ -1797,7 +1797,7 @@
     "id": "fi-070",
     "subject": "Filipino",
     "prompt": "Nilubugan ng araw ang mga taong nasalanta ng bagyo ang mga tirahan.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nilubugan ng araw ang mga taong nasalanta ng bagyo.",
     "choices": [
       {
         "id": "A",
@@ -1823,7 +1823,7 @@
     "id": "fi-071",
     "subject": "Filipino",
     "prompt": "Hindi mo matatagpuan sa kanilang bahay si Cecile, palibhasa ay may puyo sa talampakan.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi mo matatagpuan sa kanilang bahay si Cecile, .",
     "choices": [
       {
         "id": "A",
@@ -1849,7 +1849,7 @@
     "id": "fi-072",
     "subject": "Filipino",
     "prompt": "Binata na si JB kaya siya ay naniningalang-pugad na.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Binata na si JB kaya siya ay naniningalang-pugad n.",
     "choices": [
       {
         "id": "A",
@@ -1875,7 +1875,7 @@
     "id": "fi-073",
     "subject": "Filipino",
     "prompt": "Malimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang dila.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Malimit na may kabanggaan si Malou sa opisina dahi.",
     "choices": [
       {
         "id": "A",
@@ -1901,7 +1901,7 @@
     "id": "fi-074",
     "subject": "Filipino",
     "prompt": "Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang kanyang bulsa.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Di napaunlakan ni Ana ang imbitasyong manood sila .",
     "choices": [
       {
         "id": "A",
@@ -1927,7 +1927,7 @@
     "id": "fi-075",
     "subject": "Filipino",
     "prompt": "Si Karl ay nagtataingang-kawali. Animo’y wala siyang naririnig kahit tinatawag na.",
-    "hint": "Kawikaan: isipin ang diwang ipinahihiwatig, hindi ang literal na kahulugan ng bawat salita.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Si Karl ay nagtataingang-kawali. Animo’y wala siya.",
     "choices": [
       {
         "id": "A",
@@ -1953,7 +1953,7 @@
     "id": "fi-076",
     "subject": "Filipino",
     "prompt": "Katungkulan ________ sinuman ang tumulong sa kanyang kapwa.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Katungkulan ________ sinuman ang tumulong sa kanya.",
     "choices": [
       {
         "id": "A",
@@ -1973,13 +1973,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Gamitin ang ng pagkatapos ng pangngalan: Katungkulan ng sinuman—hindi nang."
   },
   {
     "id": "fi-077",
     "subject": "Filipino",
     "prompt": "________ ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ ko kay Inay ang mga kaganapan sa aming pa.",
     "choices": [
       {
         "id": "A",
@@ -1999,13 +1999,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Isinulat\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Isinulat ang wastong aspekto/pokus para sa kilos ng pagsulat tungkol sa kaganapan."
   },
   {
     "id": "fi-078",
     "subject": "Filipino",
     "prompt": "Ang ________ ng mga manlalaro ay dininig ng komite kahapon.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang ________ ng mga manlalaro ay dininig ng komite.",
     "choices": [
       {
         "id": "A",
@@ -2025,13 +2025,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"pakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Pakiusap ang hinihingi o dininig ng komite—hindi paksa o ibang anyo."
   },
   {
     "id": "fi-079",
     "subject": "Filipino",
     "prompt": "Nagulat ang mga tao ________ mabalitaan ang kaguluhang nagaganap sa\nMindanao.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagulat ang mga tao ________ mabalitaan ang kagulu.",
     "choices": [
       {
         "id": "A",
@@ -2051,13 +2051,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"nang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Nang ang pantukoy sa panahon o pangyayari: nagulat nang mabalitaan—hindi ng."
   },
   {
     "id": "fi-080",
     "subject": "Filipino",
     "prompt": "________ mo si Chin ng damit sa kabinet.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ mo si Chin ng damit sa kabinet..",
     "choices": [
       {
         "id": "A",
@@ -2077,13 +2077,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Hanapan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Hanapan ang utos na may layuning hanapin ang damit para kay Chin."
   },
   {
     "id": "fi-081",
     "subject": "Filipino",
     "prompt": "________ suliranin ng pagtaas ng presyo ng gasolina ang pinakapaksa ng pulong sa kasalukuyan.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ suliranin ng pagtaas ng presyo ng gasolin.",
     "choices": [
       {
         "id": "A",
@@ -2103,13 +2103,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Hinggil sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Hinggil sa ang tamang pananda ng paksang pinag-uusapan (pagtaas ng gasolina)."
   },
   {
     "id": "fi-082",
     "subject": "Filipino",
     "prompt": "Ang paglalakbay ________ Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang paglalakbay ________ Magellan noong 1521 ang n.",
     "choices": [
       {
         "id": "A",
@@ -2129,13 +2129,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"ni\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ni ang pananda ng may-ari o ahente: paglalakbay ni Magellan."
   },
   {
     "id": "fi-083",
     "subject": "Filipino",
     "prompt": "Ang pagkakalat o pagtatapon sa kung saan-saan ay ________ batas.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pagkakalat o pagtatapon sa kung saan-saan ay _.",
     "choices": [
       {
         "id": "A",
@@ -2155,13 +2155,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"labag sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Labag sa batas ang pagtatapon kung saan-saan—salungat sa alituntunin."
   },
   {
     "id": "fi-084",
     "subject": "Filipino",
     "prompt": "Pinatay ________ mga Hapones si Jose Abad Santos nang tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Pinatay ________ mga Hapones si Jose Abad Santos n.",
     "choices": [
       {
         "id": "A",
@@ -2181,13 +2181,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ng ang pananda sa pangungusap na pinatay ng mga Hapones si Jose Abad Santos."
   },
   {
     "id": "fi-085",
     "subject": "Filipino",
     "prompt": "________ mo naman sa kanila na magdala ng mapagsasaluhan.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ mo naman sa kanila na magdala ng mapagsas.",
     "choices": [
       {
         "id": "A",
@@ -2207,13 +2207,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ipakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ipakiusap ang wastong utos: ipakiusap mo sa kanila na magdala…"
   },
   {
     "id": "fi-086",
     "subject": "Filipino",
     "prompt": "________ G. at Gng. Reyes, matagal na nilang pinag-iipunan ang pangtustos sa pag-aaral mo sa kolehiyo.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ G. at Gng. Reyes, matagal na nilang pinag.",
     "choices": [
       {
         "id": "A",
@@ -2233,13 +2233,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ayon kina\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Ayon kina G. at Gng. Reyes—pantukoy sa dalawa o higit pang tao."
   },
   {
     "id": "fi-087",
     "subject": "Filipino",
     "prompt": "________ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ ni Emilio Jacinto ang Kartilya na naglala.",
     "choices": [
       {
         "id": "A",
@@ -2259,13 +2259,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Winika\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Winika ni Emilio Jacinto ang Kartilya—wika/sinabi bilang pandiwa sa aspeto."
   },
   {
     "id": "fi-088",
     "subject": "Filipino",
     "prompt": "Dumating ang Lola ________ kami’y nagdiwang",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Dumating ang Lola ________ kami’y nagdiwang.",
     "choices": [
       {
         "id": "A",
@@ -2285,13 +2285,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"kaya\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Kaya ang pangatnig ng resulta: dumating ang Lola kaya kami ay nagdiwang."
   },
   {
     "id": "fi-089",
     "subject": "Filipino",
     "prompt": "Ang pagbabara ng mga estero ay dulot ________ walang pakundangang pagtatapon ng basura.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pagbabara ng mga estero ay dulot ________ wala.",
     "choices": [
       {
         "id": "A",
@@ -2311,13 +2311,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Dulot ng ang sanhi: pagbabara dulot ng walang pakundangang pagtatapon."
   },
   {
     "id": "fi-090",
     "subject": "Filipino",
     "prompt": "________ maaari ay magtipid tayo nang husto.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ maaari ay magtipid tayo nang husto..",
     "choices": [
       {
         "id": "A",
@@ -2337,13 +2337,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Kung\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Kung maaari—pangatnig ng kundisyon para sa pagtitipid."
   },
   {
     "id": "fi-091",
     "subject": "Filipino",
     "prompt": "Mapadali ang ating gawain ________ tayo ay magtutulung-tulungan.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Mapadali ang ating gawain ________ tayo ay magtutu.",
     "choices": [
       {
         "id": "A",
@@ -2363,13 +2363,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"kung\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: kung. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-092",
     "subject": "Filipino",
     "prompt": "Masaya sila ________ napakaraming pagsubok ang dumarating sa kanilang pamilya.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Masaya sila ________ napakaraming pagsubok ang dum.",
     "choices": [
       {
         "id": "A",
@@ -2389,13 +2389,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"kahit\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: kahit. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-093",
     "subject": "Filipino",
     "prompt": "________ pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ pagod na pagod na sa biyahe si Rey ay nag.",
     "choices": [
       {
         "id": "A",
@@ -2415,13 +2415,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Bagaman\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: Bagaman. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-094",
     "subject": "Filipino",
     "prompt": "Patuloy tayong maghahalinhinan sa pagroronda ________ di pa nahuhuli ang magnanakaw.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Patuloy tayong maghahalinhinan sa pagroronda _____.",
     "choices": [
       {
         "id": "A",
@@ -2441,13 +2441,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"hanggang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: hanggang. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-095",
     "subject": "Filipino",
     "prompt": "Nagtatalon sa tuwa si Regina ________ mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagtatalon sa tuwa si Regina ________ mapanalunan .",
     "choices": [
       {
         "id": "A",
@@ -2467,13 +2467,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nang\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: nang. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-096",
     "subject": "Filipino",
     "prompt": "Hindi maaaring ibilanggo ang sino man dahil ________ kanyang pagkakautang.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi maaaring ibilanggo ang sino man dahil ______.",
     "choices": [
       {
         "id": "A",
@@ -2493,13 +2493,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"sa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: sa. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-097",
     "subject": "Filipino",
     "prompt": "Nagpapatugtog sila ________ awiting Pilipino.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagpapatugtog sila ________ awiting Pilipino..",
     "choices": [
       {
         "id": "A",
@@ -2519,13 +2519,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"ng\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: ng. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-098",
     "subject": "Filipino",
     "prompt": "Ang ________ ng mga mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang ________ ng mga mamamayan na huwag munang magt.",
     "choices": [
       {
         "id": "A",
@@ -2545,13 +2545,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"pakiusap\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: pakiusap. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-099",
     "subject": "Filipino",
     "prompt": "Hindi ________ nabibigyang lunas ang sakit na AIDS sa ngayon.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Hindi ________ nabibigyang lunas ang sakit na AIDS.",
     "choices": [
       {
         "id": "A",
@@ -2571,13 +2571,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"pa\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: pa. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-100",
     "subject": "Filipino",
     "prompt": "________ bang suliranin na hindi kayang lutasin?",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ bang suliranin na hindi kayang lutasin?.",
     "choices": [
       {
         "id": "A",
@@ -2597,13 +2597,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Mayroon\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: Mayroon. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-101",
     "subject": "Filipino",
     "prompt": "________ patimpalak sa Balagtasan na gaganapin sa plasa.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ patimpalak sa Balagtasan na gaganapin sa .",
     "choices": [
       {
         "id": "A",
@@ -2623,13 +2623,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"May\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: May. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-102",
     "subject": "Filipino",
     "prompt": "________ ba nagkaroon ng isang bulkan?",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ ba nagkaroon ng isang bulkan?.",
     "choices": [
       {
         "id": "A",
@@ -2649,13 +2649,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Paano\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: Paano. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-103",
     "subject": "Filipino",
     "prompt": "________ natin ang ating kapwang nangangailangan ng tulong.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ natin ang ating kapwang nangangailangan n.",
     "choices": [
       {
         "id": "A",
@@ -2675,13 +2675,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Abutan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: Abutan. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-104",
     "subject": "Filipino",
     "prompt": "Huwag mong ________ ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Huwag mong ________ ang sino mang nasa kapangyarih.",
     "choices": [
       {
         "id": "A",
@@ -2701,13 +2701,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"abutan\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: abutan. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-105",
     "subject": "Filipino",
     "prompt": "________ mo ang mabibigat na dalahin ng Inay.",
-    "hint": "Wastong gamit: basahin ang buong pangungusap at piliin ang salitang tama ang anyo, pokus, at gamit sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: ________ mo ang mabibigat na dalahin ng Inay..",
     "choices": [
       {
         "id": "A",
@@ -2727,13 +2727,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Kunin\") dahil ito ang pagpipiliang may wastong gamit ng salita o kayarian ng pangungusap."
+    "explanation": "Wastong pili: Kunin. Tugma ito sa baybay, pananda, o kayarian na hinihingi ng pangungusap."
   },
   {
     "id": "fi-106",
     "subject": "Filipino",
     "prompt": "Ang walang kamatayang Mi Ultimo Adios ay sinulat ng Rizal sa Fort Santiago. a b c d\nWalang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Ang walang kamatayang Mi Ultimo Adios ay sinulat n.",
     "choices": [
       {
         "id": "A",
@@ -2764,7 +2764,7 @@
     "id": "fi-107",
     "subject": "Filipino",
     "prompt": "Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal. a b c\nWalang mali. d",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Si Teodora Alonzo at Francisco Mercado ang mga mag.",
     "choices": [
       {
         "id": "A",
@@ -2795,7 +2795,7 @@
     "id": "fi-108",
     "subject": "Filipino",
     "prompt": "Hindi dapat lumikha nang buwis na hindi makakayang bayaran ng kahit sino. a b c d\nWalang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Hindi dapat lumikha nang buwis na hindi makakayang.",
     "choices": [
       {
         "id": "A",
@@ -2826,7 +2826,7 @@
     "id": "fi-109",
     "subject": "Filipino",
     "prompt": "Iniisip rin ng ating pamahalaan ang kapakanan ng mga maralita. Walang mali. a b c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Iniisip rin ng ating pamahalaan ang kapakanan ng m.",
     "choices": [
       {
         "id": "A",
@@ -2857,7 +2857,7 @@
     "id": "fi-110",
     "subject": "Filipino",
     "prompt": "Mainam sa lahat ng paraan ng pag-aaral ang magbalik-aral ng mga aralin bago pa a b man dumating ang mga pagsusulit sa paaralan. Walang mali. c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Mainam sa lahat ng paraan ng pag-aaral ang magbali.",
     "choices": [
       {
         "id": "A",
@@ -2888,7 +2888,7 @@
     "id": "fi-111",
     "subject": "Filipino",
     "prompt": "Ang mga payo kung binitawan ay dapat mong pakinggan. Walang mali. a b c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Ang mga payo kung binitawan ay dapat mong pakingga.",
     "choices": [
       {
         "id": "A",
@@ -2919,7 +2919,7 @@
     "id": "fi-112",
     "subject": "Filipino",
     "prompt": "Mag-aral ng mabuti upang hindi masayang ang iyong pera at panahon. Walang mali. a b c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Mag-aral ng mabuti upang hindi masayang ang iyong .",
     "choices": [
       {
         "id": "A",
@@ -2950,7 +2950,7 @@
     "id": "fi-113",
     "subject": "Filipino",
     "prompt": "Tunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali.",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: ang wastong baybay ay \"maalalahanin\" (may dobleng \"la\"), hindi \"maalahanin\".",
     "choices": [
       {
         "id": "A",
@@ -2980,7 +2980,7 @@
     "id": "fi-114",
     "subject": "Filipino",
     "prompt": "Hindi lamang sipag kundi tiyaga din ang kinakailangan upang magtagumpay sa isang a b c d negosyo. Walang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Hindi lamang sipag kundi tiyaga din ang kinakailan.",
     "choices": [
       {
         "id": "A",
@@ -3011,7 +3011,7 @@
     "id": "fi-115",
     "subject": "Filipino",
     "prompt": "Upang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na a b nagsisipilyo matapos kumain. Walang mali. c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Upang maiwasan ang pagkasira ng ngipin, ipinapayo .",
     "choices": [
       {
         "id": "A",
@@ -3042,7 +3042,7 @@
     "id": "fi-116",
     "subject": "Filipino",
     "prompt": "Haluin mo ang sopas ng iba’t ibang gulay. Walang mali. a b c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Haluin mo ang sopas ng iba’t ibang gulay. Walang m.",
     "choices": [
       {
         "id": "A",
@@ -3073,7 +3073,7 @@
     "id": "fi-117",
     "subject": "Filipino",
     "prompt": "Kundi ka kikilos at di gagawin ang iyong proyekto ay wala kang mapapala. a b c d\nWalang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Kundi ka kikilos at di gagawin ang iyong proyekto .",
     "choices": [
       {
         "id": "A",
@@ -3104,7 +3104,7 @@
     "id": "fi-118",
     "subject": "Filipino",
     "prompt": "Alam mo ba na mayroon proyekto ang CHED na tinaguriang “Study Now, Pay a b c d\nLater”? Walang Mali. c",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Alam mo ba na mayroon proyekto ang CHED na tinagur.",
     "choices": [
       {
         "id": "A",
@@ -3135,7 +3135,7 @@
     "id": "fi-119",
     "subject": "Filipino",
     "prompt": "Nagtutulungan ang mga ninuno nating Ifugao kaya nayari ang hagdan-hagdang a b c taniman ng palay. Walang mali d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Nagtutulungan ang mga ninuno nating Ifugao kaya na.",
     "choices": [
       {
         "id": "A",
@@ -3166,7 +3166,7 @@
     "id": "fi-120",
     "subject": "Filipino",
     "prompt": "Ginigising lamang daw ng Maykapal ang mga taong nakalilimot sa Kanya sapagkat a b c d nagkakaroon ng kalamidad. Walang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Ginigising lamang daw ng Maykapal ang mga taong na.",
     "choices": [
       {
         "id": "A",
@@ -3197,7 +3197,7 @@
     "id": "fi-121",
     "subject": "Filipino",
     "prompt": "Maganda siya ngunit masungit kaya hindi siya popular sa mga kamag-aral. a b c d\nWalang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Maganda siya ngunit masungit kaya hindi siya popul.",
     "choices": [
       {
         "id": "A",
@@ -3228,7 +3228,7 @@
     "id": "fi-122",
     "subject": "Filipino",
     "prompt": "Upang umunlad ang bayan kailangan ang pagtutulungan nang lahat. Walang mali. a b c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Upang umunlad ang bayan kailangan ang pagtutulunga.",
     "choices": [
       {
         "id": "A",
@@ -3259,7 +3259,7 @@
     "id": "fi-123",
     "subject": "Filipino",
     "prompt": "Hindi nawawalan ng pag-asa ang mga mayroon matibay na paniniwala. a b c d\nWalang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Hindi nawawalan ng pag-asa ang mga mayroon matibay.",
     "choices": [
       {
         "id": "A",
@@ -3290,7 +3290,7 @@
     "id": "fi-124",
     "subject": "Filipino",
     "prompt": "Ipinakiusap mo ba na pinayagan kang gamitin ang kompyuter? Walang mali. a b c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Ipinakiusap mo ba na pinayagan kang gamitin ang ko.",
     "choices": [
       {
         "id": "A",
@@ -3321,7 +3321,7 @@
     "id": "fi-125",
     "subject": "Filipino",
     "prompt": "Hanapan mo ng sagot sa iyong katanungan ang iyong guro. Walang mali. a b c d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Hanapan mo ng sagot sa iyong katanungan ang iyong .",
     "choices": [
       {
         "id": "A",
@@ -3352,7 +3352,7 @@
     "id": "fi-126",
     "subject": "Filipino",
     "prompt": "Ayon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo ng pag- a b c iwas sa pagkakaroon ng sakit sa puso. Walang mali. d e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Ayon sa mga dalubhasa, malaki raw ang naitutulong .",
     "choices": [
       {
         "id": "A",
@@ -3383,7 +3383,7 @@
     "id": "fi-127",
     "subject": "Filipino",
     "prompt": "Dapat nating iiwasan ang labis na pagkain ng mga maaalat na pagkain. a b c d\nWalang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Dapat nating iiwasan ang labis na pagkain ng mga m.",
     "choices": [
       {
         "id": "A",
@@ -3414,7 +3414,7 @@
     "id": "fi-128",
     "subject": "Filipino",
     "prompt": "Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran para a b c d na rin sa ating kalusugan. Walang mali e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Panatilihin nating laging malinis at malayo sa pol.",
     "choices": [
       {
         "id": "A",
@@ -3445,7 +3445,7 @@
     "id": "fi-129",
     "subject": "Filipino",
     "prompt": "Laban sa batas ang smuggling dahil ito ay isang paraan ng pagsabotahe sa a b c d ekonomiya. Walang mali e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Laban sa batas ang smuggling dahil ito ay isang pa.",
     "choices": [
       {
         "id": "A",
@@ -3476,7 +3476,7 @@
     "id": "fi-130",
     "subject": "Filipino",
     "prompt": "Walang kabutihang naidudulot ang droga, bagkus ito pa nga ang nakasisira nang a b c d tahanan at lipunan. Walang mali. e",
-    "hint": "Pagkilala sa mali: suriin ang bawat bahagi para sa maling baybay, gamit ng salita, panlapi, o ayos ng pangungusap.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Walang kabutihang naidudulot ang droga, bagkus ito.",
     "choices": [
       {
         "id": "A",
@@ -3507,7 +3507,7 @@
     "id": "fi-131",
     "subject": "Filipino",
     "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto\nSa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nAno ang nais mapuntahan ng manunula?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto  (item fi-131).",
     "choices": [
       {
         "id": "A",
@@ -3527,7 +3527,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"langit\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay langit—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-131",
     "passageOrder": 1
   },
@@ -3535,7 +3535,7 @@
     "id": "fi-132",
     "subject": "Filipino",
     "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto\nSa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nAno ang tayutay ng ginamit sa unang dalawang linya ng ikalawang saknong?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto  (item fi-132).",
     "choices": [
       {
         "id": "A",
@@ -3555,7 +3555,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"pagtutulad\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay pagtutulad—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-131",
     "passageOrder": 2
   },
@@ -3563,7 +3563,7 @@
     "id": "fi-133",
     "subject": "Filipino",
     "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto\nSa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nSa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang tula?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto  (item fi-133).",
     "choices": [
       {
         "id": "A",
@@ -3583,7 +3583,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"unang saknong\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay unang saknong—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-131",
     "passageOrder": 3
   },
@@ -3591,7 +3591,7 @@
     "id": "fi-134",
     "subject": "Filipino",
     "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nAling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-a (item fi-134).",
     "choices": [
       {
         "id": "A",
@@ -3611,7 +3611,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Pakikiisa sa kapuwa kabataang may masamang bisyo.—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-134",
     "passageOrder": 1
   },
@@ -3619,7 +3619,7 @@
     "id": "fi-135",
     "subject": "Filipino",
     "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nPaano maiaahon ng kabataan ang bansang Pilipinas sa tiyak na kasawian?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-a (item fi-135).",
     "choices": [
       {
         "id": "A",
@@ -3639,7 +3639,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan.—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-134",
     "passageOrder": 2
   },
@@ -3647,7 +3647,7 @@
     "id": "fi-136",
     "subject": "Filipino",
     "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nAno ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang huling pangungusap ng talata?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-a.",
     "choices": [
       {
         "id": "A",
@@ -3667,7 +3667,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal.—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-134",
     "passageOrder": 3
   },
@@ -3675,7 +3675,7 @@
     "id": "fi-137",
     "subject": "Filipino",
     "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\n“Ang kabataan ay pag-asa ng bayan.” Ano ang implikasyon ng pangungusap na ito?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-a (item fi-137).",
     "choices": [
       {
         "id": "A",
@@ -3695,7 +3695,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"May suliranin ang bayan\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay May suliranin ang bayan—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-134",
     "passageOrder": 4
   },
@@ -3703,7 +3703,7 @@
     "id": "fi-138",
     "subject": "Filipino",
     "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAno ang Ixora coccinea L.?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pang-agham na pangalan ay Ixora coccinea L. at (item fi-138).",
     "choices": [
       {
         "id": "A",
@@ -3723,7 +3723,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Pang-agham na pangalan ng Santan.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Pang-agham na pangalan ng Santan.—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-138",
     "passageOrder": 1
   },
@@ -3731,7 +3731,7 @@
     "id": "fi-139",
     "subject": "Filipino",
     "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAlin sa mga sumusunod na pangungusap ang wasto?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pang-agham na pangalan ay Ixora coccinea L. at (item fi-139).",
     "choices": [
       {
         "id": "A",
@@ -3751,7 +3751,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Maaaring ipanggamot ang Santan.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Maaaring ipanggamot ang Santan.—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-138",
     "passageOrder": 2
   },
@@ -3759,7 +3759,7 @@
     "id": "fi-140",
     "subject": "Filipino",
     "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAnong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pang-agham na pangalan ay Ixora coccinea L. at (item fi-140).",
     "choices": [
       {
         "id": "A",
@@ -3779,7 +3779,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"ugat\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay ugat—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-138",
     "passageOrder": 3
   },
@@ -3787,7 +3787,7 @@
     "id": "fi-141",
     "subject": "Filipino",
     "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAno ang pinakamabuting pamagat para sa talatang nabasa?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Ang pang-agham na pangalan ay Ixora coccinea L. at.",
     "choices": [
       {
         "id": "A",
@@ -3807,7 +3807,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Ang Santan\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Ang Santan—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-138",
     "passageOrder": 4
   },
@@ -3815,7 +3815,7 @@
     "id": "fi-142",
     "subject": "Filipino",
     "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAlin sa mga sumusunod ang wastong gamit ng solusyon mula sa pinakulong ugat ng santan?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pang-agham na pangalan ay Ixora coccinea L. at (item fi-142).",
     "choices": [
       {
         "id": "A",
@@ -3835,7 +3835,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Maaaring pampagana ng pagkain\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Maaaring pampagana ng pagkain—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-138",
     "passageOrder": 5
   },
@@ -3843,7 +3843,7 @@
     "id": "fi-143",
     "subject": "Filipino",
     "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa.\n\nAno ang pangunahing diwa ng seleksiyon?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Bakit mahalaga ang pagbabasa sa ating buhay? Sapag (item fi-143).",
     "choices": [
       {
         "id": "A",
@@ -3863,7 +3863,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ang kahalagahan ng pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Ang kahalagahan ng pagbabasa—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-143",
     "passageOrder": 1
   },
@@ -3871,7 +3871,7 @@
     "id": "fi-144",
     "subject": "Filipino",
     "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa.\n\nBakit mahalaga ang pagbabasa?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Bakit mahalaga ang pagbabasa sa ating buhay? Sapag (item fi-144).",
     "choices": [
       {
         "id": "A",
@@ -3891,7 +3891,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Lahat ng nabanaggit sa tama.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Lahat ng nabanaggit sa tama.—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-143",
     "passageOrder": 2
   },
@@ -3899,7 +3899,7 @@
     "id": "fi-145",
     "subject": "Filipino",
     "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa.\n\nAno ang pinakamainam na pamagat ng nabasa?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Bakit mahalaga ang pagbabasa sa ating buhay? Sapag (item fi-145).",
     "choices": [
       {
         "id": "A",
@@ -3919,7 +3919,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Ang Kahalagahan ng Pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Ang Kahalagahan ng Pagbabasa—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "passageId": "passage-fi-143",
     "passageOrder": 3
   },
@@ -3927,7 +3927,7 @@
     "id": "fi-146",
     "subject": "Filipino",
     "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang paksang pangungusap sa talata?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-146).",
     "choices": [
       {
         "id": "A",
@@ -3947,13 +3947,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ayon sa talata, ang tugon ay Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.—ito ang detalyeng direktang sinusuportahan ng binasa."
   },
   {
     "id": "fi-147",
     "subject": "Filipino",
     "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang pinakamainam na pamagat sa talata?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-147).",
     "choices": [
       {
         "id": "A",
@@ -3973,13 +3973,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ang Iba’t Ibang Gamit ng Mata\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ayon sa talata, ang tugon ay Ang Iba’t Ibang Gamit ng Mata—ito ang detalyeng direktang sinusuportahan ng binasa."
   },
   {
     "id": "fi-148",
     "subject": "Filipino",
     "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-148).",
     "choices": [
       {
         "id": "A",
@@ -3999,13 +3999,13 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"nagpapakita ng matinding karamdaman\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ayon sa talata, ang tugon ay nagpapakita ng matinding karamdaman—ito ang detalyeng direktang sinusuportahan ng binasa."
   },
   {
     "id": "fi-149",
     "subject": "Filipino",
     "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-149).",
     "choices": [
       {
         "id": "A",
@@ -4025,13 +4025,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ayon sa talata, ang tugon ay Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon.—ito ang detalyeng direktang sinusuportahan ng binasa."
   },
   {
     "id": "fi-150",
     "subject": "Filipino",
     "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-150).",
     "choices": [
       {
         "id": "A",
@@ -4051,13 +4051,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"nanlilisik na mata\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Ayon sa talata, ang tugon ay nanlilisik na mata—ito ang detalyeng direktang sinusuportahan ng binasa."
   },
   {
     "id": "fi-151",
     "subject": "Filipino",
     "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nTungkol saan ang grapong nabasa?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-151).",
     "choices": [
       {
         "id": "A",
@@ -4077,14 +4077,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Pinakamababang pasahod sa Maynila sa iba’t ibang taon.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Pinakamababang pasahod sa Maynila sa iba’t ibang taon.—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "image": "/question-images/fi-151.png"
   },
   {
     "id": "fi-152",
     "subject": "Filipino",
     "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo\n1996?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-152).",
     "choices": [
       {
         "id": "A",
@@ -4104,14 +4104,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"₱58.50\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay ₱58.50—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "image": "/question-images/fi-152.png"
   },
   {
     "id": "fi-153",
     "subject": "Filipino",
     "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-153).",
     "choices": [
       {
         "id": "A",
@@ -4131,14 +4131,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Abril 1994\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay Abril 1994—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "image": "/question-images/fi-153.png"
   },
   {
     "id": "fi-154",
     "subject": "Filipino",
     "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang\n₱145?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-154).",
     "choices": [
       {
         "id": "A",
@@ -4158,14 +4158,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"dalawampu’t limang buwan\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay dalawampu’t limang buwan—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "image": "/question-images/fi-154.png"
   },
   {
     "id": "fi-155",
     "subject": "Filipino",
     "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nIlang beses nagkaroon ng dalawampung piso (₱20) pagtaas sa minimum wage?",
-    "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-155).",
     "choices": [
       {
         "id": "A",
@@ -4185,14 +4185,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"dalawa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "explanation": "Ayon sa talata, ang tugon ay dalawa—ito ang detalyeng direktang sinusuportahan ng binasa.",
     "image": "/question-images/fi-155.png"
   },
   {
     "id": "fi-156",
     "subject": "Filipino",
     "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong pamagat ang angkop sa tsart sa itaas?",
-    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-156).",
     "choices": [
       {
         "id": "A",
@@ -4221,7 +4221,7 @@
     "id": "fi-157",
     "subject": "Filipino",
     "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may pinakamataas na bilang ng tropa sa mga pagpipilian?",
-    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-157).",
     "choices": [
       {
         "id": "A",
@@ -4250,7 +4250,7 @@
     "id": "fi-158",
     "subject": "Filipino",
     "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet militar sa mga pagpipilian?",
-    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-158).",
     "choices": [
       {
         "id": "A",
@@ -4279,7 +4279,7 @@
     "id": "fi-159",
     "subject": "Filipino",
     "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may pinakamalaking GDP sa mga pagpipilian?",
-    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-159).",
     "choices": [
       {
         "id": "A",
@@ -4308,7 +4308,7 @@
     "id": "fi-160",
     "subject": "Filipino",
     "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAno ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang pangmilitar ng Brunei?",
-    "hint": "Basahin ang datos sa tsart bago pumili ng sagot.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-160).",
     "choices": [
       {
         "id": "A",
@@ -4337,7 +4337,7 @@
     "id": "fi-161",
     "subject": "Filipino",
     "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ayon sa batas na ito, pagbabayarin ang mga may- (item fi-161).",
     "choices": [
       {
         "id": "A",
@@ -4365,7 +4365,7 @@
     "id": "fi-162",
     "subject": "Filipino",
     "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: A. Ayon sa batas na ito, pagbabayarin ang mga may-.",
     "choices": [
       {
         "id": "A",
@@ -4393,7 +4393,7 @@
     "id": "fi-163",
     "subject": "Filipino",
     "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ayon sa batas na ito, pagbabayarin ang mga may- (item fi-163).",
     "choices": [
       {
         "id": "A",
@@ -4421,7 +4421,7 @@
     "id": "fi-164",
     "subject": "Filipino",
     "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ayon sa saligang batas, maraming mga katangiang (item fi-164).",
     "choices": [
       {
         "id": "A",
@@ -4449,7 +4449,7 @@
     "id": "fi-165",
     "subject": "Filipino",
     "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang pamamaraang ginamit upang mabuo ang talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ayon sa saligang batas, maraming mga katangiang (item fi-165).",
     "choices": [
       {
         "id": "A",
@@ -4477,7 +4477,7 @@
     "id": "fi-166",
     "subject": "Filipino",
     "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa ang isang dayuhan?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: A. Ayon sa saligang batas, maraming mga katangiang.",
     "choices": [
       {
         "id": "A",
@@ -4505,7 +4505,7 @@
     "id": "fi-167",
     "subject": "Filipino",
     "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla (item fi-167).",
     "choices": [
       {
         "id": "A",
@@ -4533,7 +4533,7 @@
     "id": "fi-168",
     "subject": "Filipino",
     "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla (item fi-168).",
     "choices": [
       {
         "id": "A",
@@ -4561,7 +4561,7 @@
     "id": "fi-169",
     "subject": "Filipino",
     "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang angkop na pamagat para sa talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla (item fi-169).",
     "choices": [
       {
         "id": "A",
@@ -4589,7 +4589,7 @@
     "id": "fi-170",
     "subject": "Filipino",
     "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
-    "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla (item fi-170).",
     "choices": [
       {
         "id": "A",
@@ -4617,7 +4617,7 @@
     "id": "fi-171",
     "subject": "Filipino",
     "prompt": "Sila ay nagdadamayan sa hirap at ginhawa. Sila ay totoong \"naghihiramang suklay\"",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sila ay nagdadamayan sa hirap at ginhawa. Sila ay .",
     "choices": [
       {
         "id": "A",
@@ -4643,7 +4643,7 @@
     "id": "fi-172",
     "subject": "Filipino",
     "prompt": "Ang salitang LAGASAW ay pinakamalapit ang kahulugan sa:",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang salitang LAGASAW ay pinakamalapit ang kahuluga.",
     "choices": [
       {
         "id": "A",
@@ -4669,7 +4669,7 @@
     "id": "fi-173",
     "subject": "Filipino",
     "prompt": "Ang salitang DULANG ay pinakamalapit ang kahulugan sa:",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang salitang DULANG ay pinakamalapit ang kahulugan.",
     "choices": [
       {
         "id": "A",
@@ -4695,7 +4695,7 @@
     "id": "fi-174",
     "subject": "Filipino",
     "prompt": "Ano ang ibig sabihin ng GULA-GULANIT?",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ano ang ibig sabihin ng GULA-GULANIT?.",
     "choices": [
       {
         "id": "A",
@@ -4721,7 +4721,7 @@
     "id": "fi-175",
     "subject": "Filipino",
     "prompt": "Nagawang mabago ng mga kasalukuyang awitin ang kamalayan ng Pilipino upang kantahin ang sarili niyang mga awit sa tanging wikang nakapagsasatinig sa kanyang kaluluwa.\nIsinasaad ng pangungusap na __________.",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagawang mabago ng mga kasalukuyang awitin ang kam.",
     "choices": [
       {
         "id": "A",
@@ -4751,7 +4751,7 @@
     "id": "fi-176",
     "subject": "Filipino",
     "prompt": "Ang pagbaba ng halaga ng piso lumikha ng krisis sa maraming industriya ng bansa.\n\nKasunod nito ang pagtitipid at problema sa kawalan ng mapasukang trabaho.\n\nLumikha rin ito ng pagtataas ng presyo ng mga bilihin na labis nakaapekto sa kita ng mga manggagawa.\n\nAyon sa talata __________.",
-    "hint": "Pagtatalata: hanapin ang simula, kasunod na paliwanag, at pangwakas na ideya ng talata.",
+    "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Ang pagbaba ng halaga ng piso lumikha ng krisis sa.",
     "choices": [
       {
         "id": "A",
@@ -4781,7 +4781,7 @@
     "id": "fi-177",
     "subject": "Filipino",
     "prompt": "Piliin ang kasingkahulugan ng \"masinop\".",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasingkahulugan: batay sa gamit sa pangungusap, piliin ang pinakamalapit. Konteksto: Piliin ang kasingkahulugan ng \"masinop\"..",
     "choices": [
       {
         "id": "A",
@@ -4807,7 +4807,7 @@
     "id": "fi-178",
     "subject": "Filipino",
     "prompt": "Piliin ang kasalungat ng \"masipag\".",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasalungat: alamin muna ang kahulugan ng salita, saka hanapin ang kabaligtaran. Konteksto: Piliin ang kasalungat ng \"masipag\"..",
     "choices": [
       {
         "id": "A",
@@ -4833,7 +4833,7 @@
     "id": "fi-179",
     "subject": "Filipino",
     "prompt": "Alin ang wastong baybay?",
-    "hint": "Wastong gamit: piliin ang salitang pinakaangkop sa diwa at estruktura ng pangungusap.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Alin ang wastong baybay?.",
     "choices": [
       {
         "id": "A",
@@ -4859,7 +4859,7 @@
     "id": "fi-180",
     "subject": "Filipino",
     "prompt": "Alin ang pangungusap na may wastong gamit ng panghalip?",
-    "hint": "Wastong gamit: piliin ang salitang pinakaangkop sa diwa at estruktura ng pangungusap.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Alin ang pangungusap na may wastong gamit ng pangh.",
     "choices": [
       {
         "id": "A",
@@ -4885,7 +4885,7 @@
     "id": "fi-181",
     "subject": "Filipino",
     "prompt": "Ano ang ibig sabihin ng sawikaing \"kapit-tuko\"?",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ano ang ibig sabihin ng sawikaing \"kapit-tuko\"?.",
     "choices": [
       {
         "id": "A",
@@ -4911,7 +4911,7 @@
     "id": "fi-182",
     "subject": "Filipino",
     "prompt": "Piliin ang salitang-ugat ng \"pinag-aralan\".",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Piliin ang salitang-ugat ng \"pinag-aralan\"..",
     "choices": [
       {
         "id": "A",
@@ -4937,7 +4937,7 @@
     "id": "fi-183",
     "subject": "Filipino",
     "prompt": "Alin ang pang-abay sa pangungusap: \"Mabilis tumakbo ang bata.\"",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Alin ang pang-abay sa pangungusap: \"Mabilis tumakb.",
     "choices": [
       {
         "id": "A",
@@ -4963,7 +4963,7 @@
     "id": "fi-184",
     "subject": "Filipino",
     "prompt": "Piliin ang wastong gamit ng pang-ukol.",
-    "hint": "Wastong gamit: piliin ang salitang pinakaangkop sa diwa at estruktura ng pangungusap.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Piliin ang wastong gamit ng pang-ukol..",
     "choices": [
       {
         "id": "A",
@@ -4989,7 +4989,7 @@
     "id": "fi-185",
     "subject": "Filipino",
     "prompt": "Ano ang kasalungat ng \"maaliwalas\"?",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasalungat: alamin muna ang kahulugan ng salita, saka hanapin ang kabaligtaran. Konteksto: Ano ang kasalungat ng \"maaliwalas\"?.",
     "choices": [
       {
         "id": "A",
@@ -5015,7 +5015,7 @@
     "id": "fi-186",
     "subject": "Filipino",
     "prompt": "Piliin ang kasingkahulugan ng \"matipid\".",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasingkahulugan: batay sa gamit sa pangungusap, piliin ang pinakamalapit. Konteksto: Piliin ang kasingkahulugan ng \"matipid\"..",
     "choices": [
       {
         "id": "A",
@@ -5041,7 +5041,7 @@
     "id": "fi-187",
     "subject": "Filipino",
     "prompt": "Alin ang wastong pangungusap?",
-    "hint": "Wastong gamit: piliin ang salitang pinakaangkop sa diwa at estruktura ng pangungusap.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Alin ang wastong pangungusap?.",
     "choices": [
       {
         "id": "A",
@@ -5067,7 +5067,7 @@
     "id": "fi-188",
     "subject": "Filipino",
     "prompt": "Ano ang ibig sabihin ng \"bukang-liwayway\"?",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ano ang ibig sabihin ng \"bukang-liwayway\"?.",
     "choices": [
       {
         "id": "A",
@@ -5093,7 +5093,7 @@
     "id": "fi-189",
     "subject": "Filipino",
     "prompt": "Piliin ang kasalungat ng \"payapa\".",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasalungat: alamin muna ang kahulugan ng salita, saka hanapin ang kabaligtaran. Konteksto: Piliin ang kasalungat ng \"payapa\"..",
     "choices": [
       {
         "id": "A",
@@ -5119,7 +5119,7 @@
     "id": "fi-190",
     "subject": "Filipino",
     "prompt": "Alin ang pandiwa sa pangungusap: \"Nagluto si Ana ng hapunan.\"",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Alin ang pandiwa sa pangungusap: \"Nagluto si Ana n.",
     "choices": [
       {
         "id": "A",
@@ -5145,7 +5145,7 @@
     "id": "fi-191",
     "subject": "Filipino",
     "prompt": "Piliin ang wastong baybay.",
-    "hint": "Wastong gamit: piliin ang salitang pinakaangkop sa diwa at estruktura ng pangungusap.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Piliin ang wastong baybay..",
     "choices": [
       {
         "id": "A",
@@ -5171,7 +5171,7 @@
     "id": "fi-192",
     "subject": "Filipino",
     "prompt": "Ano ang ibig sabihin ng \"di-makabasag-pinggan\"?",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ano ang ibig sabihin ng \"di-makabasag-pinggan\"?.",
     "choices": [
       {
         "id": "A",
@@ -5197,7 +5197,7 @@
     "id": "fi-193",
     "subject": "Filipino",
     "prompt": "Piliin ang kasingkahulugan ng \"maralita\".",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasingkahulugan: batay sa gamit sa pangungusap, piliin ang pinakamalapit. Konteksto: Piliin ang kasingkahulugan ng \"maralita\"..",
     "choices": [
       {
         "id": "A",
@@ -5223,7 +5223,7 @@
     "id": "fi-194",
     "subject": "Filipino",
     "prompt": "Alin ang pangngalan sa pangungusap: \"Ang guro ay nagturo.\"",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Alin ang pangngalan sa pangungusap: \"Ang guro ay n.",
     "choices": [
       {
         "id": "A",
@@ -5249,7 +5249,7 @@
     "id": "fi-195",
     "subject": "Filipino",
     "prompt": "Piliin ang kasalungat ng \"matapat\".",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasalungat: alamin muna ang kahulugan ng salita, saka hanapin ang kabaligtaran. Konteksto: Piliin ang kasalungat ng \"matapat\"..",
     "choices": [
       {
         "id": "A",
@@ -5275,7 +5275,7 @@
     "id": "fi-196",
     "subject": "Filipino",
     "prompt": "Ano ang kahulugan ng \"ningas-kugon\"?",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ano ang kahulugan ng \"ningas-kugon\"?.",
     "choices": [
       {
         "id": "A",
@@ -5301,7 +5301,7 @@
     "id": "fi-197",
     "subject": "Filipino",
     "prompt": "Alin ang wastong gamit ng pangatnig?",
-    "hint": "Wastong gamit: piliin ang salitang pinakaangkop sa diwa at estruktura ng pangungusap.",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Alin ang wastong gamit ng pangatnig?.",
     "choices": [
       {
         "id": "A",
@@ -5327,7 +5327,7 @@
     "id": "fi-198",
     "subject": "Filipino",
     "prompt": "Piliin ang kasingkahulugan ng \"masigasig\".",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasingkahulugan: batay sa gamit sa pangungusap, piliin ang pinakamalapit. Konteksto: Piliin ang kasingkahulugan ng \"masigasig\"..",
     "choices": [
       {
         "id": "A",
@@ -5353,7 +5353,7 @@
     "id": "fi-199",
     "subject": "Filipino",
     "prompt": "Ano ang kasalungat ng \"malawak\"?",
-    "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
+    "hint": "Kasalungat: alamin muna ang kahulugan ng salita, saka hanapin ang kabaligtaran. Konteksto: Ano ang kasalungat ng \"malawak\"?.",
     "choices": [
       {
         "id": "A",
@@ -5379,7 +5379,7 @@
     "id": "fi-200",
     "subject": "Filipino",
     "prompt": "Alin ang pangungusap na may wastong ayos ng paksa at pandiwa?",
-    "hint": "Wastong gamit: piliin ang salitang pinakaangkop sa diwa at estruktura ng pangungusap.",
+    "hint": "Pagtatalata: simulan sa paksang pangungusap, sundan ng detalyeng lohikal. Hanay: Alin ang pangungusap na may wastong ayos ng p.",
     "choices": [
       {
         "id": "A",
