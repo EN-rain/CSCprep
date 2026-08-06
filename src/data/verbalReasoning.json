@@ -678,7 +678,7 @@
   {
     "id": "vr-027",
     "subject": "Verbal Reasoning",
-    "prompt": "Urbane people are appaled by rude behavious.",
+    "prompt": "Urbane people are appalled by rude behavior.",
     "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
@@ -4968,7 +4968,7 @@
   {
     "id": "vr-187",
     "subject": "Verbal Reasoning",
-    "prompt": "Choose the underlined part that contains an error:\nGorio and Tekla, in addition to Captain Barbel, was a popular comic book during the?70s. No error.",
+    "prompt": "Choose the underlined part that contains an error:\nGorio and Tekla, in addition to Captain Barbel, was a popular comic book during the '70s. No error.",
     "hint": "Identifying errors item: test the underlined parts for subject-verb agreement, tense, pronoun use, modifier placement, and prepositions.",
     "choices": [
       {
@@ -4993,7 +4993,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The subject is compound (Gorio and Tekla), so the verb should be?were,? not?was.?",
+    "explanation": "The subject is compound (Gorio and Tekla), so the verb should be 'were', not 'was'.",
     "image": "/question-images/vr-187.png"
   },
   {
@@ -7566,8 +7566,8 @@
   {
     "id": "vr-279",
     "subject": "Verbal Reasoning",
-    "prompt": "Dreams by Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat figure of speech did the author use in the first stanza?",
-    "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
+    "prompt": "Langston Hughes (1901-1967) was an African American poet of the Harlem Renaissance. His work often addressed hope, struggle, and the importance of holding on to dreams in the face of hardship and racial injustice.\n\nDreams\nby Langston Hughes\n\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\n\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat figure of speech did the author use in the first stanza?",
+    "hint": "Look at how life is compared to a bird in the first stanza.",
     "choices": [
       {
         "id": "A",
@@ -7587,13 +7587,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"metaphor\") because it is the option supported by the passage."
+    "explanation": "In the first stanza, life without dreams is called \"a broken-winged bird that cannot fly.\" That is a metaphor: a direct comparison without using like or as."
   },
   {
     "id": "vr-280",
     "subject": "Verbal Reasoning",
-    "prompt": "Dreams by Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nThe author is a South African Negro during the Apartheid Policy when most blacks were treated as inferior. To what could he be alluding to in the last two lines of the poem?",
-    "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
+    "prompt": "Langston Hughes (1901-1967) was an African American poet of the Harlem Renaissance. His work often addressed hope, struggle, and the importance of holding on to dreams in the face of hardship and racial injustice.\n\nDreams\nby Langston Hughes\n\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\n\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nIn a historical context of racial hardship, the image in the last two lines (\"a barren field / Frozen with snow\") most strongly suggests which of the following?",
+    "hint": "Think about what the cold, barren image may stand for beyond the literal weather.",
     "choices": [
       {
         "id": "A",
@@ -7613,17 +7613,17 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"white people\") because it is the option supported by the passage."
+    "explanation": "\"Frozen with snow\" presents a cold, lifeless landscape. In readings that place the poem against racial injustice, that bleak image is often taken as alluding to the harsh conditions associated with white-dominated systems (choice A), not to snow or ice as literal subjects."
   },
   {
     "id": "vr-281",
     "subject": "Verbal Reasoning",
-    "prompt": "Dreams by Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat effect does the poem have upon the Negroes?",
-    "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
+    "prompt": "Langston Hughes (1901-1967) was an African American poet of the Harlem Renaissance. His work often addressed hope, struggle, and the importance of holding on to dreams in the face of hardship and racial injustice.\n\nDreams\nby Langston Hughes\n\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\n\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhat effect is the poem most likely intended to have on readers who face hardship?",
+    "hint": "Focus on the repeated line \"Hold fast to dreams.\"",
     "choices": [
       {
         "id": "A",
-        "text": "It made them more sad"
+        "text": "It made them more sad."
       },
       {
         "id": "B",
@@ -7639,13 +7639,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"It increased their determination.\") because it is the option supported by the passage."
+    "explanation": "The repeated command \"Hold fast to dreams\" urges readers not to give up. That message is meant to strengthen determination, not to deepen sadness or anger alone."
   },
   {
     "id": "vr-282",
     "subject": "Verbal Reasoning",
-    "prompt": "Dreams by Langston Hughes\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhich statement is not a correct inference based on the poem?",
-    "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
+    "prompt": "Langston Hughes (1901-1967) was an African American poet of the Harlem Renaissance. His work often addressed hope, struggle, and the importance of holding on to dreams in the face of hardship and racial injustice.\n\nDreams\nby Langston Hughes\n\nHold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\n\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.\n\nWhich statement is NOT a reasonable inference drawn from the poem and its usual historical reading?",
+    "hint": "Choose the statement that does not fit the poem’s warning about lost dreams and struggle.",
     "choices": [
       {
         "id": "A",
@@ -7653,7 +7653,7 @@
       },
       {
         "id": "B",
-        "text": "Blacks are treated inferior over Whites."
+        "text": "Blacks are treated as inferior to Whites."
       },
       {
         "id": "C",
@@ -7665,7 +7665,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Blacks and Whites enjoy equal rights.\") because it is the option supported by the passage."
+    "explanation": "The poem urges people to cling to dreams because life without them is damaged and barren. That fits a world of inequality and struggle. Saying Blacks and Whites already enjoy equal rights contradicts the usual historical reading of the poem, so A is not a correct inference."
   },
   {
     "id": "vr-283",
@@ -8112,7 +8112,7 @@
   {
     "id": "vr-300",
     "subject": "Verbal Reasoning",
-    "prompt": "Love in the Open Han by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nWhat stanza states the main idea of the poem?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain —\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\n\nI bring you, calling out as children do:\n\"Look what I have!\" — and these are all for you.\n\nWhat stanza states the main idea of the poem?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8138,7 +8138,7 @@
   {
     "id": "vr-301",
     "subject": "Verbal Reasoning",
-    "prompt": "Love in the Open Han by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nWhat figure of speech was used in the third stanza?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain —\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\n\nI bring you, calling out as children do:\n\"Look what I have!\" — and these are all for you.\n\nWhat figure of speech was used in the third stanza?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8164,7 +8164,7 @@
   {
     "id": "vr-302",
     "subject": "Verbal Reasoning",
-    "prompt": "Love in the Open Han by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nWhat does the author refer to in the last line “Look what I have! – and these are all for you.”?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain —\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\n\nI bring you, calling out as children do:\n\"Look what I have!\" — and these are all for you.\n\nWhat does the author refer to in the last line \"Look what I have!\" — and these are all for you?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8190,7 +8190,7 @@
   {
     "id": "vr-303",
     "subject": "Verbal Reasoning",
-    "prompt": "Love in the Open Han by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nAccording to the author, how should one manifest his love for someone?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain —\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\n\nI bring you, calling out as children do:\n\"Look what I have!\" — and these are all for you.\n\nAccording to the author, how should one manifest his love for someone?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8203,7 +8203,7 @@
       },
       {
         "id": "C",
-        "text": "witwh fancy trappings"
+        "text": "with fancy trappings"
       },
       {
         "id": "D",
@@ -8216,7 +8216,7 @@
   {
     "id": "vr-304",
     "subject": "Verbal Reasoning",
-    "prompt": "Love in the Open Han by Edna St. Vincent Millay\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls.\nHave given their loves, I give my love to you:\nNot in a lover’s knot, not in a ring\nWorked in such fashion, and the legend plain-\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\nI bring you, calling out as children do:\n“Look what I have! – and these are all of you.”\n\nWhat is the gender of the persona in the poem?",
+    "prompt": "Passage: Love in the Open Hand by Edna St. Vincent Millay\n\nNot in a silver casket cool with pearls,\nOr rich with red corundum or with blue,\nLocked, and the key withheld, as other girls\nHave given their loves, I give my love to you:\n\nNot in a lover's knot, not in a ring\nWorked in such fashion, and the legend plain —\nSemper Fidelis, where a secret spring\nKennels a drop of mischief in the brain:\n\nLove in the open hand, nothing but that,\nUngemmed, unhidden, wishing not to hurt,\nAs one should bring you cowslips in a hat\nSwung from the hand, or apples in her skirt,\n\nI bring you, calling out as children do:\n\"Look what I have!\" — and these are all for you.\n\nWhat is the gender of the persona in the poem?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8281,7 +8281,7 @@
       },
       {
         "id": "C",
-        "text": "One should be compassionate only to hose who know how to appreciate."
+        "text": "One should be compassionate only to those who know how to appreciate."
       },
       {
         "id": "D",
@@ -8667,7 +8667,7 @@
       },
       {
         "id": "B",
-        "text": "Thrombin and calcium ions catalyzes the conversion of fibrinogen to fibrin threads."
+        "text": "Thrombin and calcium ions catalyze the conversion of fibrinogen to fibrin threads."
       },
       {
         "id": "C",
@@ -8679,7 +8679,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Thrombin and calcium ions catalyzes the conversion of fibrinogen to fibrin threads.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"Thrombin and calcium ions catalyze the conversion of fibrinogen to fibrin threads.\") because it is the option supported by the passage."
   },
   {
     "id": "vr-322",

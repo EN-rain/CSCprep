@@ -209,12 +209,25 @@ const LINE_BREAK_PROMPT_IDS = new Set([
 ])
 
 const PRESERVE_PROMPT_LINE_IDS = new Set([
+  'vr-279',
+  'vr-280',
+  'vr-281',
+  'vr-282',
   'vr-300',
   'vr-301',
   'vr-302',
   'vr-303',
   'vr-304',
   'vr-431',
+  'cse2026-399',
+  'cse2026-400',
+  'cse2026-401',
+  'cse2026-402',
+  'cse2026-420',
+  'cse2026-421',
+  'cse2026-422',
+  'cse2026-423',
+  'cse2026-424',
   'csc10-064',
 ])
 
@@ -2624,7 +2637,7 @@ function QuestionCard({
   const [reportPanelOpen, setReportPanelOpen] = useState(false)
   const choicesHaveImages = choices.some((choice) => Boolean(choice.image))
   const markerChoicesOnly = Boolean(image) && usesImageChoiceMarkers(choices) && !choicesHaveImages
-  const promptIsShownInImage = hasPromptInImage(question.id, image, markerChoicesOnly)
+  const promptIsShownInImage = hasPromptInImage(question.id, image, markerChoicesOnly, question.prompt)
   const showHintButton = Boolean(question.hint.trim()) && !isImageOnlyQuestion(question.prompt, choices, image)
   const submitReport = useCallback((issueDescription: string) => {
     setReportPanelOpen(false)
@@ -2823,7 +2836,7 @@ function formatReviewExplanation(explanation: string, correctChoiceText: string)
 function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
   const choicesHaveImages = item.choices.some((choice) => Boolean(choice.image))
   const markerChoicesOnly = Boolean(item.image) && usesImageChoiceMarkers(item.choices) && !choicesHaveImages
-  const promptIsShownInImage = hasPromptInImage(item.questionId, item.image, markerChoicesOnly)
+  const promptIsShownInImage = hasPromptInImage(item.questionId, item.image, markerChoicesOnly, item.prompt)
   const correctChoice = item.choices.find((choice) => choice.id === item.correctChoiceId)
 
   return (
@@ -2979,7 +2992,8 @@ function createReportPrompt(prompt: string): string {
 }
 
 function usesImageChoiceMarkers(choices: { text: string }[]): boolean {
-  const markerChoicePattern = /^(Option [a-e]|Underlined part [a-e]|No error(?: \/ walang mali)?)$/i
+  const markerChoicePattern =
+    /^(Option [a-e]|Underlined part [a-e]|Salungguhit [a-e]|No error(?: \/ walang mali)?|Walang mali)$/i
 
   return choices.length > 0 && choices.every((choice) => markerChoicePattern.test(choice.text.trim()))
 }
@@ -2995,19 +3009,53 @@ function isImageOnlyQuestion(prompt: string, choices: { text: string }[], image:
   return promptPointsToImageOnly && choicesAreOnlyMarkers
 }
 
-function hasPromptInImage(questionId: string, image: string | undefined, markerChoicesOnly: boolean): boolean {
-  return Boolean(image) && (markerChoicesOnly || PROMPT_IN_IMAGE_IDS.has(questionId))
+function hasPromptInImage(
+  questionId: string,
+  image: string | undefined,
+  markerChoicesOnly: boolean,
+  prompt?: string,
+): boolean {
+  if (!image) return false
+  if (markerChoicesOnly || PROMPT_IN_IMAGE_IDS.has(questionId)) return true
+  // Error-identification items: the image already shows the underlined sentence;
+  // hide the (often OCR-broken) text prompt and keep only image + choices.
+  if (
+    prompt &&
+    /Choose the underlined part that contains an error|Piliin ang salitang may salungguhit|Identifying errors item/i.test(
+      prompt,
+    )
+  ) {
+    return true
+  }
+  return false
 }
 
 function formatPromptLines(prompt: string): string[] {
-  return prompt
+  const structured = prompt
     .replace(/^([IVX]+)\.\s+([A-E]\.)/u, '$1.\n$2')
     .replace(/\s+([A-E]\.\s)/gu, '\n$1')
     .replace(/\s+([12]\))\s*/gu, '\n$1 ')
-    // Preserve blank lines (paragraph breaks). Collapse only soft single newlines.
-    .replace(/([^\n])\n(?!\n|[IVX]+\.$|[A-E]\.\s|[12]\)\s|What\b|Alin\b|Ano\b|Basahin\b|Arrange\b|This paragraph\b)/gu, '$1 ')
-    .split('\n')
-    .map((line) => line.trimEnd())
+
+  // Preserve blank lines (paragraph breaks). Collapse only soft single newlines
+  // between long prose lines — never collapse short verse/poem lines.
+  const collapsed = structured.replace(/([^\n])\n(?!\n)/gu, (full, before, offset, whole) => {
+    const afterMatch = whole.slice(offset + full.length).match(/^([^\n]*)/)
+    const after = afterMatch ? afterMatch[1] : ''
+    const beforeLineStart = whole.lastIndexOf('\n', offset - 1) + 1
+    const beforeLine = whole.slice(beforeLineStart, offset) + before
+    const shortVerse = beforeLine.trim().length > 0 && beforeLine.trim().length <= 48
+    const afterShort = after.trim().length > 0 && after.trim().length <= 48
+    const keepBreak =
+      shortVerse ||
+      afterShort ||
+      /^(What|Alin|Ano|Basahin|Arrange|This paragraph)\b/u.test(after.trim()) ||
+      /^[IVX]+\.$/u.test(after.trim()) ||
+      /^[A-E]\.\s/u.test(after.trim()) ||
+      /^[12]\)\s/u.test(after.trim())
+    return keepBreak ? full : before + ' '
+  })
+
+  return collapsed.split('\n').map((line) => line.trimEnd())
 }
 
 

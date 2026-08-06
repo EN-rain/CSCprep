@@ -2087,7 +2087,7 @@
   {
     "id": "nr-081",
     "subject": "Numerical Reasoning",
-    "prompt": "On Saturday monring the printing machine of Gerpress Printing ran continuously\nat uniform rate to fill a production order. At what time did it completely fill the\norder that morning?\n1) The supervisor began the plan for production 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by\n10:18am",
+    "prompt": "On Saturday morning the printing machine of Gerpress Printing ran continuously\nat uniform rate to fill a production order. At what time did it completely fill the\norder that morning?\n1) The supervisor began the plan for production 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by\n10:18am",
     "hint": "Data sufficiency item: do not solve more than needed. Check statement 1 alone, statement 2 alone, then both together.",
     "choices": [
       {
