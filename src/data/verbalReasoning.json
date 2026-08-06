@@ -97,11 +97,11 @@
       },
       {
         "id": "D",
-        "text": "short lived"
+        "text": "short-lived"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"short lived\") because it is the closest in meaning to the word or expression in the item."
+    "explanation": "The correct answer is choice D (\"short-lived\") because it is the closest in meaning to the word or expression in the item."
   },
   {
     "id": "vr-005",
@@ -184,7 +184,7 @@
   {
     "id": "vr-008",
     "subject": "Verbal Reasoning",
-    "prompt": "The corrupt policeman was discharged form service due to his ignominious act of accepting bribes.",
+    "prompt": "The corrupt policeman was discharged from service due to his ignominious act of accepting bribes.",
     "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
@@ -193,7 +193,7 @@
       },
       {
         "id": "B",
-        "text": "disrespectable"
+        "text": "disgraceful"
       },
       {
         "id": "C",
@@ -205,7 +205,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"disrespectable\") because it is the closest in meaning to the word or expression in the item."
+    "explanation": "The correct answer is choice B (\"disgraceful\") because it is the closest in meaning to the word or expression in the item."
   },
   {
     "id": "vr-009",
@@ -1051,7 +1051,7 @@
       },
       {
         "id": "B",
-        "text": "let go on one’s own"
+        "text": "left alone / went unaccompanied"
       },
       {
         "id": "C",
@@ -1063,7 +1063,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"let go on one’s own\") because it is the best opposite in meaning to the word or expression in the item."
+    "explanation": "The correct answer is choice B (\"left alone / went unaccompanied\") because it is the best opposite in meaning to the word or expression in the item."
   },
   {
     "id": "vr-042",
@@ -1133,7 +1133,7 @@
       },
       {
         "id": "C",
-        "text": "well-thought"
+        "text": "well-thought-out"
       },
       {
         "id": "D",
@@ -1141,7 +1141,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"well-thought\") because it is the best opposite in meaning to the word or expression in the item."
+    "explanation": "The correct answer is choice C (\"well-thought-out\") because it is the best opposite in meaning to the word or expression in the item."
   },
   {
     "id": "vr-045",
@@ -1553,11 +1553,11 @@
       },
       {
         "id": "D",
-        "text": "stingingness"
+        "text": "stinginess"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"stingingness\") because it is the best opposite in meaning to the word or expression in the item."
+    "explanation": "The correct answer is choice D (\"stinginess\") because it is the best opposite in meaning to the word or expression in the item."
   },
   {
     "id": "vr-061",
@@ -6027,23 +6027,23 @@
     "choices": [
       {
         "id": "A",
-        "text": "A"
+        "text": "A. The first procedure is that the bill passes through three readings on separate days."
       },
       {
         "id": "B",
-        "text": "B"
+        "text": "B. Otherwise, the bill will go back to the House from where it originated, and it will be ..."
       },
       {
         "id": "C",
-        "text": "C"
+        "text": "C. If the President approves the bill, then it shall be deemed a law."
       },
       {
         "id": "D",
-        "text": "D"
+        "text": "D. A bill, before becoming a law, undergoes several procedures."
       },
       {
         "id": "E",
-        "text": "E"
+        "text": "E. On the third reading, the votes of the lawmakers shall be recorded and if the bill is a..."
       }
     ],
     "correctChoiceId": "D",
@@ -6057,19 +6057,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "A"
+        "text": "A. The first procedure is that the bill passes through three readings on separate days."
       },
       {
         "id": "B",
-        "text": "B"
+        "text": "B. Otherwise, the bill will go back to the House from where it originated, and it will be ..."
       },
       {
         "id": "C",
-        "text": "C"
+        "text": "C. If the President approves the bill, then it shall be deemed a law."
       },
       {
         "id": "D",
-        "text": "D"
+        "text": "D. A bill, before becoming a law, undergoes several procedures."
       }
     ],
     "correctChoiceId": "C",
@@ -6078,7 +6078,7 @@
   {
     "id": "vr-223",
     "subject": "Verbal Reasoning",
-    "prompt": "If the following sentence is added as sentence F:\nIt should be ntoed, however, that the President must communicate his veto within thirty days from receipt of the bill, otherwise, the bill is considered to have been approved by him.\n\nWhat would the new order of the sentences be?",
+    "prompt": "If the following sentence is added as sentence F:\nIt should be noted, however, that the President must communicate his veto within thirty days from receipt of the bill, otherwise, the bill is considered to have been approved by him.\n\nWhat would the new order of the sentences be?",
     "hint": "Paragraph development item: find the topic sentence first, then arrange supporting sentences from general to specific or cause to effect.",
     "choices": [
       {
@@ -6113,27 +6113,29 @@
     "choices": [
       {
         "id": "A",
-        "text": "A"
+        "text": "A. Learning to listen is one way of keeping friends."
       },
       {
         "id": "B",
-        "text": "B"
+        "text": "B. Although listening can really be very tiring on the listener, it may, on the other hand..."
       },
       {
         "id": "C",
-        "text": "C"
+        "text": "C. So learn how to listen, and gain more friends."
       },
       {
         "id": "D",
-        "text": "D"
+        "text": "D. We also show that we care about what goes on in their lives."
       },
       {
         "id": "E",
-        "text": "E"
+        "text": "E. By listening, we show our friends that they are important to us."
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"C\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The correct answer is choice C (\"C\") because it gives the paragraph the most logical order and flow.",
+    "passageId": "passage-vr-224",
+    "passageOrder": 1
   },
   {
     "id": "vr-225",
@@ -6143,27 +6145,29 @@
     "choices": [
       {
         "id": "A",
-        "text": "A"
+        "text": "A. Learning to listen is one way of keeping friends."
       },
       {
         "id": "B",
-        "text": "B"
+        "text": "B. Although listening can really be very tiring on the listener, it may, on the other hand..."
       },
       {
         "id": "C",
-        "text": "C"
+        "text": "C. So learn how to listen, and gain more friends."
       },
       {
         "id": "D",
-        "text": "D"
+        "text": "D. We also show that we care about what goes on in their lives."
       },
       {
         "id": "E",
-        "text": "E"
+        "text": "E. By listening, we show our friends that they are important to us."
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"B\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The correct answer is choice B (\"B\") because it gives the paragraph the most logical order and flow.",
+    "passageId": "passage-vr-224",
+    "passageOrder": 2
   },
   {
     "id": "vr-226",
@@ -6173,27 +6177,29 @@
     "choices": [
       {
         "id": "A",
-        "text": "A"
+        "text": "A. Hence, it can be said that the President really has a lot of duties and responsibilities."
       },
       {
         "id": "B",
-        "text": "B"
+        "text": "B. He has control over department secretaries and can overrule their decisions."
       },
       {
         "id": "C",
-        "text": "C"
+        "text": "C. Furthermore, the President exercises veto power over bills passed by the"
       },
       {
         "id": "D",
-        "text": "D"
+        "text": "D. Lastly, he is the Chief Executive, executing the laws and rules of the country."
       },
       {
         "id": "E",
-        "text": "E"
+        "text": "E. The president in a presidential system is the Head of the State and the Head of"
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"B\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The correct answer is choice B (\"B\") because it gives the paragraph the most logical order and flow.",
+    "passageId": "passage-vr-226",
+    "passageOrder": 1
   },
   {
     "id": "vr-227",
@@ -6203,27 +6209,29 @@
     "choices": [
       {
         "id": "A",
-        "text": "A"
+        "text": "A. Hence, it can be said that the President really has a lot of duties and responsibilities."
       },
       {
         "id": "B",
-        "text": "B"
+        "text": "B. He has control over department secretaries and can overrule their decisions."
       },
       {
         "id": "C",
-        "text": "C"
+        "text": "C. Furthermore, the President exercises veto power over bills passed by the"
       },
       {
         "id": "D",
-        "text": "D"
+        "text": "D. Lastly, he is the Chief Executive, executing the laws and rules of the country."
       },
       {
         "id": "E",
-        "text": "E"
+        "text": "E. The president in a presidential system is the Head of the State and the Head of"
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"A\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The correct answer is choice A (\"A\") because it gives the paragraph the most logical order and flow.",
+    "passageId": "passage-vr-226",
+    "passageOrder": 2
   },
   {
     "id": "vr-228",
@@ -6233,57 +6241,61 @@
     "choices": [
       {
         "id": "A",
-        "text": "A"
+        "text": "A. Not only that, paying taxes also means the government will no longer need to acquire lo..."
       },
       {
         "id": "B",
-        "text": "B"
+        "text": "B. Every citizen should lend a hand in pursuing economic progress."
       },
       {
         "id": "C",
-        "text": "C"
+        "text": "C. One way to do it is to pay one’s taxes correctly."
       },
       {
         "id": "D",
-        "text": "D"
+        "text": "D. Paying correct taxes results in increased revenues that the government uses for infrast..."
       },
       {
         "id": "E",
-        "text": "E"
+        "text": "E. So be a good citizen and pay your taxes correctly."
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"C\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The correct answer is choice C (\"C\") because it gives the paragraph the most logical order and flow.",
+    "passageId": "passage-vr-228",
+    "passageOrder": 1
   },
   {
     "id": "vr-229",
     "subject": "Verbal Reasoning",
-    "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be fourth sentence?",
+    "prompt": "A. Not only that, paying taxes also means the government will no longer need to acquire loans to fill the budget deficit.\nB. Every citizen should lend a hand in pursuing economic progress.\nC. One way to do it is to pay one’s taxes correctly.\nD. Paying correct taxes results in increased revenues that the government uses for infrastructure and other projects.\nE. So be a good citizen and pay your taxes correctly.\n\nWhat should be the fourth sentence?",
     "hint": "Paragraph development item: find the topic sentence first, then arrange supporting sentences from general to specific or cause to effect.",
     "choices": [
       {
         "id": "A",
-        "text": "A"
+        "text": "A. Not only that, paying taxes also means the government will no longer need to acquire lo..."
       },
       {
         "id": "B",
-        "text": "B"
+        "text": "B. Every citizen should lend a hand in pursuing economic progress."
       },
       {
         "id": "C",
-        "text": "C"
+        "text": "C. One way to do it is to pay one’s taxes correctly."
       },
       {
         "id": "D",
-        "text": "D"
+        "text": "D. Paying correct taxes results in increased revenues that the government uses for infrast..."
       },
       {
         "id": "E",
-        "text": "E"
+        "text": "E. So be a good citizen and pay your taxes correctly."
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"A\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The correct answer is choice A (\"A\") because it gives the paragraph the most logical order and flow.",
+    "passageId": "passage-vr-228",
+    "passageOrder": 2
   },
   {
     "id": "vr-230",
@@ -6313,7 +6325,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Taxes and Economic Progress\") because it gives the paragraph the most logical order and flow."
+    "explanation": "The correct answer is choice D (\"Taxes and Economic Progress\") because it gives the paragraph the most logical order and flow.",
+    "passageId": "passage-vr-228",
+    "passageOrder": 3
   },
   {
     "id": "vr-231",
@@ -7405,7 +7419,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"To fight over women.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"To fight over women.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-272",
+    "passageOrder": 1
   },
   {
     "id": "vr-273",
@@ -7431,7 +7447,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"It is horrible\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"It is horrible\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-272",
+    "passageOrder": 2
   },
   {
     "id": "vr-274",
@@ -7457,7 +7475,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"War\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"War\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-272",
+    "passageOrder": 3
   },
   {
     "id": "vr-275",
@@ -7483,12 +7503,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"There is always some kind of war occuring someplace.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"There is always some kind of war occuring someplace.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-272",
+    "passageOrder": 4
   },
   {
     "id": "vr-276",
     "subject": "Verbal Reasoning",
-    "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! –\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n- excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nWhat is the poet’s view on life?",
+    "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! –\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\n\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\n\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n\n- excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nWhat is the poet’s view on life?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7509,12 +7531,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Life is not an empty dream.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice D (\"Life is not an empty dream.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-276",
+    "passageOrder": 1
   },
   {
     "id": "vr-277",
     "subject": "Verbal Reasoning",
-    "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! –\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n- excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nWhat is the antecedent of the pronoun its in the line “And the grave is not its goal;”?",
+    "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! –\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\n\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\n\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n\n- excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nWhat is the antecedent of the pronoun its in the line “And the grave is not its goal;”?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7535,12 +7559,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"life\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"life\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-276",
+    "passageOrder": 2
   },
   {
     "id": "vr-278",
     "subject": "Verbal Reasoning",
-    "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! –\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n- excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nAccording to the author, what should be our goal in life?",
+    "prompt": "Tell me not in mournful numbers,\nLife is but an empty dream! –\nFor the soul is dead that slumbers,\nAnd things are not what they seem.\n\nLife is real! Life is earnest!\nAnd the grave is not its goal;\nDust thou art, to dust returnest,\nWas not spoken of the soul.\n\nNot enjoyment, and not sorrow,\nIs our destined end or way;\nBut to act that each tomorrow\nFind us farther than today.\n\n- excerpt from: A Psalm of Life by Hnery Wadsworth Longfellow\n\nAccording to the author, what should be our goal in life?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7561,7 +7587,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"To act and continually improve our life day by day.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"To act and continually improve our life day by day.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-276",
+    "passageOrder": 3
   },
   {
     "id": "vr-279",
@@ -7587,7 +7615,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "In the first stanza, life without dreams is called \"a broken-winged bird that cannot fly.\" That is a metaphor: a direct comparison without using like or as."
+    "explanation": "In the first stanza, life without dreams is called \"a broken-winged bird that cannot fly.\" That is a metaphor: a direct comparison without using like or as.",
+    "passageId": "passage-vr-279",
+    "passageOrder": 1
   },
   {
     "id": "vr-280",
@@ -7613,7 +7643,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "\"Frozen with snow\" presents a cold, lifeless landscape. In readings that place the poem against racial injustice, that bleak image is often taken as alluding to the harsh conditions associated with white-dominated systems (choice A), not to snow or ice as literal subjects."
+    "explanation": "\"Frozen with snow\" presents a cold, lifeless landscape. In readings that place the poem against racial injustice, that bleak image is often taken as alluding to the harsh conditions associated with white-dominated systems (choice A), not to snow or ice as literal subjects.",
+    "passageId": "passage-vr-279",
+    "passageOrder": 2
   },
   {
     "id": "vr-281",
@@ -7639,7 +7671,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The repeated command \"Hold fast to dreams\" urges readers not to give up. That message is meant to strengthen determination, not to deepen sadness or anger alone."
+    "explanation": "The repeated command \"Hold fast to dreams\" urges readers not to give up. That message is meant to strengthen determination, not to deepen sadness or anger alone.",
+    "passageId": "passage-vr-279",
+    "passageOrder": 3
   },
   {
     "id": "vr-282",
@@ -7665,7 +7699,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The poem urges people to cling to dreams because life without them is damaged and barren. That fits a world of inequality and struggle. Saying Blacks and Whites already enjoy equal rights contradicts the usual historical reading of the poem, so A is not a correct inference."
+    "explanation": "The poem urges people to cling to dreams because life without them is damaged and barren. That fits a world of inequality and struggle. Saying Blacks and Whites already enjoy equal rights contradicts the usual historical reading of the poem, so A is not a correct inference.",
+    "passageId": "passage-vr-279",
+    "passageOrder": 4
   },
   {
     "id": "vr-283",
@@ -7691,7 +7727,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Because reacting to criticism sometimes leads to further trouble.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"Because reacting to criticism sometimes leads to further trouble.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-283",
+    "passageOrder": 1
   },
   {
     "id": "vr-284",
@@ -7717,7 +7755,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"one’s day to day conduct\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"one’s day to day conduct\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-283",
+    "passageOrder": 2
   },
   {
     "id": "vr-285",
@@ -7743,7 +7783,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Because it is easier to find a flaw in someone else.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"Because it is easier to find a flaw in someone else.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-283",
+    "passageOrder": 3
   },
   {
     "id": "vr-286",
@@ -7769,12 +7811,14 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"How to Cope with Criticisms\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"How to Cope with Criticisms\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-283",
+    "passageOrder": 4
   },
   {
     "id": "vr-287",
     "subject": "Verbal Reasoning",
-    "prompt": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, bigrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\n- from Book of Questions and Answers Octopus Press\n\nA person’s fingernails, just like the hair, keeps on growing even after a person’s death. What could account for this occurence?",
+    "prompt": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, fibrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\n- from Book of Questions and Answers Octopus Press\n\nA person’s fingernails, just like the hair, keep on growing even after a person's death. What could account for this occurrence?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7783,7 +7827,7 @@
       },
       {
         "id": "B",
-        "text": "The dead person’s body preserve all the cells so hair and nail growth continue"
+        "text": "The dead person's body preserves all the cells so hair and nail growth continue"
       },
       {
         "id": "C",
@@ -7795,12 +7839,14 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"The energy supply of the cells of the hair and the nails have not yet been fully exhausted so growth still continues.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"The energy supply of the cells of the hair and the nails have not yet been fully exhausted so growth still continues.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-287",
+    "passageOrder": 1
   },
   {
     "id": "vr-288",
     "subject": "Verbal Reasoning",
-    "prompt": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, bigrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\n- from Book of Questions and Answers Octopus Press\n\nWhat would happen to the soft cells at the base of the follicle if no nourishment comes in?",
+    "prompt": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, fibrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\n- from Book of Questions and Answers Octopus Press\n\nWhat would happen to the soft cells at the base of the follicle if no nourishment comes in?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7821,17 +7867,19 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"They would stop multiplying\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"They would stop multiplying\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-287",
+    "passageOrder": 2
   },
   {
     "id": "vr-289",
     "subject": "Verbal Reasoning",
-    "prompt": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, bigrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\n- from Book of Questions and Answers Octopus Press\n\nWhat could possibly explain the occurrence of white hair?",
+    "prompt": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, fibrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\n- from Book of Questions and Answers Octopus Press\n\nWhat could possibly explain the occurrence of white hair?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
         "id": "A",
-        "text": "The soft cells produces white pigment which gives the hair its white color."
+        "text": "The soft cells produce white pigment which gives the hair its white color."
       },
       {
         "id": "B",
@@ -7847,12 +7895,14 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"The absence of pigments from the follicle accounts for white hair.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"The absence of pigments from the follicle accounts for white hair.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-287",
+    "passageOrder": 3
   },
   {
     "id": "vr-290",
     "subject": "Verbal Reasoning",
-    "prompt": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, bigrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\n- from Book of Questions and Answers Octopus Press\n\nWhich of the following statements is NOT true?",
+    "prompt": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers – an outer layer of cells forming the outer root sheath and an inner layer of horny, fibrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\n- from Book of Questions and Answers Octopus Press\n\nWhich of the following statements is NOT true?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -7873,7 +7923,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Hair grows from the tip of the follicle.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"Hair grows from the tip of the follicle.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-287",
+    "passageOrder": 4
   },
   {
     "id": "vr-291",
@@ -7899,7 +7951,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"Epicurus\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice D (\"Epicurus\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-291",
+    "passageOrder": 1
   },
   {
     "id": "vr-292",
@@ -7925,7 +7979,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"It was disorderly with an absence of rule.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"It was disorderly with an absence of rule.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-291",
+    "passageOrder": 2
   },
   {
     "id": "vr-293",
@@ -7951,7 +8007,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"The pursuit of happiness\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"The pursuit of happiness\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-291",
+    "passageOrder": 3
   },
   {
     "id": "vr-294",
@@ -7977,7 +8035,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"Religion is merely a superstition.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"Religion is merely a superstition.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-291",
+    "passageOrder": 4
   },
   {
     "id": "vr-295",
@@ -8003,7 +8063,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"There should be no limit to man’s desires.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"There should be no limit to man’s desires.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-291",
+    "passageOrder": 5
   },
   {
     "id": "vr-296",
@@ -8133,7 +8195,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"stanza 3\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"stanza 3\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-300",
+    "passageOrder": 1
   },
   {
     "id": "vr-301",
@@ -8159,7 +8223,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"simile\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"simile\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-300",
+    "passageOrder": 2
   },
   {
     "id": "vr-302",
@@ -8185,7 +8251,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"her love\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"her love\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-300",
+    "passageOrder": 3
   },
   {
     "id": "vr-303",
@@ -8211,7 +8279,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"without reservation or restrictions\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice D (\"without reservation or restrictions\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-300",
+    "passageOrder": 4
   },
   {
     "id": "vr-304",
@@ -8237,7 +8307,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"feminine\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice D (\"feminine\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-300",
+    "passageOrder": 5
   },
   {
     "id": "vr-305",
@@ -8263,7 +8335,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"Because he did no want the scorpion to die.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"Because he did no want the scorpion to die.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-305",
+    "passageOrder": 1
   },
   {
     "id": "vr-306",
@@ -8289,7 +8363,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"One should always be compassionate even if it is not properly reciprocated.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"One should always be compassionate even if it is not properly reciprocated.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-305",
+    "passageOrder": 2
   },
   {
     "id": "vr-307",
@@ -8315,7 +8391,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"True Compassion\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"True Compassion\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-305",
+    "passageOrder": 3
   },
   {
     "id": "vr-308",
@@ -8346,7 +8424,7 @@
   {
     "id": "vr-309",
     "subject": "Verbal Reasoning",
-    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacks, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. from: Biology by Norstog and Meyerriecks\n\nCoronary arteries can become blocked by",
+    "prompt": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress, smoking, and alcohol all contribute to the problem of heart attacks. Interestingly, although fats in the diet are often blamed for the heart attacks, about 70% of the heart’s energy requirement normally is derived from oxidation of fatty acids. \n\n— from Biology by Norstog and Meyerriecks\n\nCoronary arteries can become blocked by ________.",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8424,7 +8502,7 @@
   {
     "id": "vr-312",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nHow does cancer occur?",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelial tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nHow does cancer occur?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8444,13 +8522,13 @@
         "text": "The cells naturally reproduce malformed, malignant cells."
       }
     ],
-    "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"The cells replace the dead cells in the body.\") because it is the option supported by the passage."
+    "correctChoiceId": "C",
+    "explanation": "Cancer occurs when cells multiply uncontrollably and produce malformed, malignant cells. Choice C matches the passage."
   },
   {
     "id": "vr-313",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nIt is believed that cancer",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelial tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nIt is believed that cancer",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8459,11 +8537,11 @@
       },
       {
         "id": "B",
-        "text": "affects certain tissues of the body more than it does to other tissues"
+        "text": "affects certain tissues of the body more than it does other tissues"
       },
       {
         "id": "C",
-        "text": "borth a and b"
+        "text": "both a and b"
       },
       {
         "id": "D",
@@ -8471,12 +8549,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"borth a and b\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"both a and b\") because it is the option supported by the passage."
   },
   {
     "id": "vr-314",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nWhat do you call the type of cancer which affects connective tissues?",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelial tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nWhat do you call the type of cancer which affects connective tissues?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8502,7 +8580,7 @@
   {
     "id": "vr-315",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nCancer found in the skin would most likely be classifed as",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelial tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nCancer found in the skin would most likely be classified as",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8528,7 +8606,7 @@
   {
     "id": "vr-316",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelila tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nWhat is the basis for the classification of cancers?",
+    "prompt": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelial tissue\n(epidermis and lining membranes); sarcomas (Greek sarkoma, “flesh”), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph. from: Biology by Norstog and Meyerriecks\n\nWhat is the basis for the classification of cancers?",
     "hint": "Reading comprehension item: locate the line or idea in the passage before choosing; avoid answers that go beyond the text.",
     "choices": [
       {
@@ -8575,7 +8653,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"How a Blood Clot is Formed\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice D (\"How a Blood Clot is Formed\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-317",
+    "passageOrder": 1
   },
   {
     "id": "vr-318",
@@ -8601,7 +8681,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The correct answer is choice C (\"platelets\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice C (\"platelets\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-317",
+    "passageOrder": 2
   },
   {
     "id": "vr-319",
@@ -8627,7 +8709,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The correct answer is choice A (\"bleed to death\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice A (\"bleed to death\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-317",
+    "passageOrder": 3
   },
   {
     "id": "vr-320",
@@ -8653,7 +8737,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Blood platelets swell and burst, releasing chemicals\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"Blood platelets swell and burst, releasing chemicals\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-317",
+    "passageOrder": 4
   },
   {
     "id": "vr-321",
@@ -8679,7 +8765,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is choice B (\"Thrombin and calcium ions catalyze the conversion of fibrinogen to fibrin threads.\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice B (\"Thrombin and calcium ions catalyze the conversion of fibrinogen to fibrin threads.\") because it is the option supported by the passage.",
+    "passageId": "passage-vr-317",
+    "passageOrder": 5
   },
   {
     "id": "vr-322",
@@ -9079,19 +9167,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "If someone comes in of their shell, they never stop being shy and withdrawn and become more unfriendly and sociable."
+        "text": "To become more shy and withdrawn"
       },
       {
         "id": "B",
-        "text": "If someone comes out of their shell, they stop being shy and withdrawn and become more friendly and sociable."
+        "text": "To stop being shy and become more friendly and sociable"
       },
       {
         "id": "C",
-        "text": "If someone comes out of their shell, they never stop being shy and withdrawn and become more friendly and sociable."
+        "text": "To leave home permanently"
       },
       {
         "id": "D",
-        "text": "If someone comes in of their shell, they stop being shy and withdrawn and become more un friendly and unsociable."
+        "text": "To hide from other people"
       }
     ],
     "correctChoiceId": "B",
@@ -9105,19 +9193,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "If a person shows derring-do, they show unwillingness."
+        "text": "Unwillingness"
       },
       {
         "id": "B",
-        "text": "If a person shows derring-do, they show shyness."
+        "text": "Shyness"
       },
       {
         "id": "C",
-        "text": "If a person shows derring-do, they show great courage."
+        "text": "Great courage or daring action"
       },
       {
         "id": "D",
-        "text": "If a person shows derring-do, they show pettiness."
+        "text": "Pettiness"
       }
     ],
     "correctChoiceId": "C",
@@ -9131,19 +9219,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "If you get into hot water, you get into trouble."
+        "text": "To get into trouble"
       },
       {
         "id": "B",
-        "text": "If you get into hot water, you get a lucky day."
+        "text": "To have a lucky day"
       },
       {
         "id": "C",
-        "text": "If you get into hot water, you get a bad day."
+        "text": "To take a hot bath"
       },
       {
         "id": "D",
-        "text": "If you get into hot water, you get a burn skin."
+        "text": "To get a burned skin"
       }
     ],
     "correctChoiceId": "A",
@@ -9157,19 +9245,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "If you keep abreast of things, you stay uninformed about developments."
+        "text": "To stay uninformed about developments"
       },
       {
         "id": "B",
-        "text": "If you keep abreast of things, you stay informed about developments."
+        "text": "To stay informed about current developments"
       },
       {
         "id": "C",
-        "text": "If you keep abreast of things, you stay informed about things."
+        "text": "To walk side by side with someone"
       },
       {
         "id": "D",
-        "text": "If you keep abreast of things, you stay informed about life"
+        "text": "To ignore the news"
       }
     ],
     "correctChoiceId": "B",
@@ -10271,7 +10359,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The passage focuses on cave paintings hidden inside caves, so \"Hidden Prehistoric Paintings\" best captures the main idea."
+    "explanation": "The passage focuses on cave paintings hidden inside caves, so \"Hidden Prehistoric Paintings\" best captures the main idea.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 1
   },
   {
     "id": "vr-385",
@@ -10297,7 +10387,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "In the sentence, old cave discoveries are so common that hardly anybody pays heed to them. 'Pays heed to' means notices or gives attention to."
+    "explanation": "In the sentence, old cave discoveries are so common that hardly anybody pays heed to them. 'Pays heed to' means notices or gives attention to.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 2
   },
   {
     "id": "vr-386",
@@ -10323,7 +10415,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The passage discusses caves in southern France and the discovery of cave paintings there, so it is reasonable to infer that the area has many caves."
+    "explanation": "The passage discusses caves in southern France and the discovery of cave paintings there, so it is reasonable to infer that the area has many caves.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 3
   },
   {
     "id": "vr-387",
@@ -10349,7 +10443,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The second paragraph says horses appear in more than 300 wall images and outnumber all other animals. That direct detail makes Horses the answer."
+    "explanation": "The second paragraph says horses appear in more than 300 wall images and outnumber all other animals. That direct detail makes Horses the answer.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 4
   },
   {
     "id": "vr-388",
@@ -10375,7 +10471,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The passage says images depict birds and horses. In that context, depict means show or represent."
+    "explanation": "The passage says images depict birds and horses. In that context, depict means show or represent.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 5
   },
   {
     "id": "vr-389",
@@ -10401,7 +10499,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The passage says some paintings were in places that were hard to reach, which made painting inside the Lascaux complex difficult."
+    "explanation": "The passage says some paintings were in places that were hard to reach, which made painting inside the Lascaux complex difficult.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 6
   },
   {
     "id": "vr-390",
@@ -10427,7 +10527,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "In the passage, \"they\" refers to the people making the cave paintings. Those people are the artists."
+    "explanation": "In the passage, \"they\" refers to the people making the cave paintings. Those people are the artists.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 7
   },
   {
     "id": "vr-391",
@@ -11523,7 +11625,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The passage names water, temperature changes, and air movement as causes of damage. It says natural light would have destroyed the paintings if they were exposed, so light is the exception listed in the choices."
+    "explanation": "The passage names water, temperature changes, and air movement as causes of damage. It says natural light would have destroyed the paintings if they were exposed, so light is the exception listed in the choices.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 8
   },
   {
     "id": "vr-435",
@@ -11549,7 +11653,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The passage states that the Lascaux site was closed to tourists in 1963 to prevent further damage, meaning visitors were prohibited from entering."
+    "explanation": "The passage states that the Lascaux site was closed to tourists in 1963 to prevent further damage, meaning visitors were prohibited from entering.",
+    "passageId": "passage-vr-384",
+    "passageOrder": 9
   },
   {
     "id": "vr-436",

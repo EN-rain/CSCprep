@@ -146,6 +146,68 @@ function questionsBySubject(subject: Subject): Question[] {
   return getExamEligibleQuestions().filter((question) => question.subject === subject)
 }
 
+type QuestionUnit = {
+  /** Stable key for shuffle; passage id or single question id. */
+  key: string
+  questions: Question[]
+}
+
+function isQuestionEligibleNow(
+  question: Question,
+  history: QuestionHistory,
+  examNumber: number,
+): boolean {
+  const entry = history[question.id]
+  return !entry || examNumber > entry.eligibleAgainAfterExamNumber
+}
+
+/** Group shared-passage items into ordered chains; leave standalones alone. */
+function buildQuestionUnits(questions: Question[]): QuestionUnit[] {
+  const byPassage = new Map<string, Question[]>()
+  const standalones: Question[] = []
+
+  for (const question of questions) {
+    if (question.passageId) {
+      const list = byPassage.get(question.passageId) ?? []
+      list.push(question)
+      byPassage.set(question.passageId, list)
+    } else {
+      standalones.push(question)
+    }
+  }
+
+  const units: QuestionUnit[] = []
+
+  for (const [passageId, members] of byPassage) {
+    const ordered = [...members].sort(
+      (a, b) => (a.passageOrder ?? 0) - (b.passageOrder ?? 0) || a.id.localeCompare(b.id),
+    )
+    units.push({ key: passageId, questions: ordered })
+  }
+
+  for (const question of standalones) {
+    units.push({ key: question.id, questions: [question] })
+  }
+
+  return units
+}
+
+function unitIsEligible(unit: QuestionUnit, history: QuestionHistory, examNumber: number): boolean {
+  // Whole chain is eligible only if every member is eligible (keeps set intact).
+  return unit.questions.every((q) => isQuestionEligibleNow(q, history, examNumber))
+}
+
+function unitCooldownScore(unit: QuestionUnit, history: QuestionHistory): number {
+  let maxEligible = 0
+  for (const q of unit.questions) {
+    const entry = history[q.id]
+    if (entry) {
+      maxEligible = Math.max(maxEligible, entry.eligibleAgainAfterExamNumber)
+    }
+  }
+  return maxEligible
+}
+
 function pickQuestions(
   questions: Question[],
   history: QuestionHistory,
@@ -154,18 +216,36 @@ function pickQuestions(
   excludedQuestionIds = new Set<string>(),
 ): Question[] {
   const availableQuestions = questions.filter((question) => !excludedQuestionIds.has(question.id))
-  const eligible = availableQuestions.filter((question) => {
-    const entry = history[question.id]
-    return !entry || examNumber > entry.eligibleAgainAfterExamNumber
-  })
-  const coolingDown = availableQuestions
-    .filter((question) => !eligible.includes(question))
-    .sort((a, b) => byLeastRecentCooldown(history[a.id], history[b.id]))
+  const units = buildQuestionUnits(availableQuestions)
 
-  return [
-    ...shuffle(eligible).slice(0, targetCount),
-    ...coolingDown.slice(0, Math.max(0, targetCount - eligible.length)),
-  ].slice(0, targetCount)
+  const eligibleUnits = units.filter((unit) => unitIsEligible(unit, history, examNumber))
+  const coolingUnits = units
+    .filter((unit) => !eligibleUnits.includes(unit))
+    .sort((a, b) => unitCooldownScore(a, history) - unitCooldownScore(b, history))
+
+  const picked: Question[] = []
+  const tryTake = (pool: QuestionUnit[]) => {
+    for (const unit of shuffle(pool)) {
+      if (picked.length >= targetCount) break
+      const size = unit.questions.length
+      // Never split a passage chain: only take it if it fits fully.
+      if (picked.length + size > targetCount) continue
+      picked.push(...unit.questions)
+    }
+  }
+
+  tryTake(eligibleUnits)
+  if (picked.length < targetCount) {
+    tryTake(coolingUnits)
+  }
+
+  return picked.slice(0, targetCount)
+}
+
+/** Shuffle exam order by unit so passage chains stay consecutive. */
+function shufflePreservingChains(questions: Question[]): Question[] {
+  const units = buildQuestionUnits(questions)
+  return shuffle(units).flatMap((unit) => unit.questions)
 }
 
 function getSessionTitle(mode: ExamMode): string {
@@ -273,7 +353,7 @@ export function createExamSessionWithExclusions(
 
     return pickQuestions(questionsBySubject(mode.subject), history, examNumber, subjectQuestionCount, excludedQuestionIds)
   })()
-  const orderedQuestions = shuffle(questions)
+  const orderedQuestions = shufflePreservingChains(questions)
 
   return {
     examNumber,

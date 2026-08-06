@@ -209,6 +209,9 @@ const LINE_BREAK_PROMPT_IDS = new Set([
 ])
 
 const PRESERVE_PROMPT_LINE_IDS = new Set([
+  'vr-276',
+  'vr-277',
+  'vr-278',
   'vr-279',
   'vr-280',
   'vr-281',
@@ -230,6 +233,16 @@ const PRESERVE_PROMPT_LINE_IDS = new Set([
   'cse2026-424',
   'csc10-064',
 ])
+
+/** Verse/poem-like prompts: many short lines should keep hard line breaks. */
+function looksLikeVersePrompt(prompt: string): boolean {
+  const lines = prompt.split('\n')
+  if (lines.length < 6) return false
+  const nonEmpty = lines.filter((line) => line.trim().length > 0)
+  if (nonEmpty.length < 5) return false
+  const shortCount = nonEmpty.filter((line) => line.trim().length <= 56).length
+  return shortCount / nonEmpty.length >= 0.6
+}
 
 const PROMPT_IN_IMAGE_IDS = new Set([
   'nr-002',
@@ -2890,17 +2903,29 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
           const displayLetter = choice.id.toLowerCase()
           const markerTextOnly = /^(Option [a-e]|[a-e])$/i.test(choice.text.trim())
 
+          const tagLabel =
+            isSelected && isCorrect
+              ? 'Your correct answer'
+              : isSelected
+                ? 'Your answer'
+                : isCorrect
+                  ? 'Correct answer'
+                  : null
+
           return (
             <div className={className} key={choice.id}>
-              <span>{displayLetter}</span>
+              <span className="review-choice__letter">{displayLetter}</span>
               {choice.image ? (
                 <img className="choice-image" src={choice.image} alt={`Choice ${displayLetter}`} draggable={false} />
               ) : (
                 !markerChoicesOnly && <p>{choice.text}</p>
               )}
               {choice.image && !markerTextOnly && <p>{choice.text}</p>}
-              {isSelected && <span className="review-choice__tag">Your answer</span>}
-              {isCorrect && <span className="review-choice__tag">Correct</span>}
+              {tagLabel && (
+                <span className={`review-choice__tag${isCorrect ? ' review-choice__tag--correct' : ''}${isSelected && !isCorrect ? ' review-choice__tag--wrong' : ''}`}>
+                  {tagLabel}
+                </span>
+              )}
             </div>
           )
         })}
@@ -2918,7 +2943,7 @@ type PromptTextProps = {
 function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextProps) {
   const headingClassName = visuallyHidden ? 'sr-only' : undefined
 
-  if (PRESERVE_PROMPT_LINE_IDS.has(questionId)) {
+  if (PRESERVE_PROMPT_LINE_IDS.has(questionId) || looksLikeVersePrompt(prompt)) {
     const lines = prompt.split('\n')
 
     return (

@@ -500,7 +500,7 @@
       },
       {
         "id": "B",
-        "text": "disrespectable"
+        "text": "disgraceful"
       },
       {
         "id": "C",
@@ -511,8 +511,8 @@
         "text": "remarkable"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": "Ignominious means deserving or causing disgrace. The antonym is 'honorable'."
+    "correctChoiceId": "B",
+    "explanation": "Ignominious means shameful or disgraceful. Choice B is the closest synonym."
   },
   {
     "id": "cse2026-137",
@@ -1824,7 +1824,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The paragraph focuses on learning to listen as a way of keeping friends."
+    "explanation": "The paragraph focuses on learning to listen as a way of keeping friends.",
+    "passageId": "passage-vr-224",
+    "passageOrder": 99
   },
   {
     "id": "cse2026-348",
@@ -2300,7 +2302,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "In the first stanza, life without dreams is called \"a broken-winged bird that cannot fly.\" That is a metaphor: a direct comparison without using like or as."
+    "explanation": "In the first stanza, life without dreams is called \"a broken-winged bird that cannot fly.\" That is a metaphor: a direct comparison without using like or as.",
+    "passageId": "passage-vr-279",
+    "passageOrder": 1
   },
   {
     "id": "cse2026-400",
@@ -2326,7 +2330,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "\"Frozen with snow\" presents a cold, lifeless landscape. In readings that place the poem against racial injustice, that bleak image is often taken as alluding to the harsh conditions associated with white-dominated systems (choice A), not to snow or ice as literal subjects."
+    "explanation": "\"Frozen with snow\" presents a cold, lifeless landscape. In readings that place the poem against racial injustice, that bleak image is often taken as alluding to the harsh conditions associated with white-dominated systems (choice A), not to snow or ice as literal subjects.",
+    "passageId": "passage-vr-279",
+    "passageOrder": 2
   },
   {
     "id": "cse2026-401",
@@ -2352,7 +2358,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The repeated command \"Hold fast to dreams\" urges readers not to give up. That message is meant to strengthen determination, not to deepen sadness or anger alone."
+    "explanation": "The repeated command \"Hold fast to dreams\" urges readers not to give up. That message is meant to strengthen determination, not to deepen sadness or anger alone.",
+    "passageId": "passage-vr-279",
+    "passageOrder": 3
   },
   {
     "id": "cse2026-402",
@@ -2378,7 +2386,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The poem urges people to cling to dreams because life without them is damaged and barren. That fits a world of inequality and struggle. Saying Blacks and Whites already enjoy equal rights contradicts the usual historical reading of the poem, so A is not a correct inference."
+    "explanation": "The poem urges people to cling to dreams because life without them is damaged and barren. That fits a world of inequality and struggle. Saying Blacks and Whites already enjoy equal rights contradicts the usual historical reading of the poem, so A is not a correct inference.",
+    "passageId": "passage-vr-279",
+    "passageOrder": 4
   },
   {
     "id": "cse2026-403",
@@ -2872,7 +2882,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Based on the context of the sentence, the correct answer is A: 'simile'. Question: What figure of speech was used in the third stanza?"
+    "explanation": "Based on the context of the sentence, the correct answer is A: 'simile'. Question: What figure of speech was used in the third stanza?",
+    "passageId": "passage-cse2026-421",
+    "passageOrder": 1
   },
   {
     "id": "cse2026-422",
@@ -2898,7 +2910,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The correct answer is B: 'her love'."
+    "explanation": "The correct answer is B: 'her love'.",
+    "passageId": "passage-cse2026-421",
+    "passageOrder": 2
   },
   {
     "id": "cse2026-423",
@@ -2924,7 +2938,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Based on the passage, the correct answer is D: 'without reservation or restrictions'. Question: According to the author, how should one manifest his love for someone?"
+    "explanation": "Based on the passage, the correct answer is D: 'without reservation or restrictions'. Question: According to the author, how should one manifest his love for someone?",
+    "passageId": "passage-cse2026-421",
+    "passageOrder": 3
   },
   {
     "id": "cse2026-424",
@@ -2950,7 +2966,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The correct answer is choice D (\"feminine\") because it is the option supported by the passage."
+    "explanation": "The correct answer is choice D (\"feminine\") because it is the option supported by the passage.",
+    "passageId": "passage-cse2026-421",
+    "passageOrder": 4
   },
   {
     "id": "cse2026-425",
@@ -3215,7 +3233,7 @@
   {
     "id": "cse2026-435",
     "subject": "Verbal Reasoning",
-    "prompt": "Cancer found in the skin would most likely be classifed as",
+    "prompt": "Cancer found in the skin would most likely be classified as",
     "hint": "Synonym item: use the sentence context to find the closest same meaning, then check that the tone also fits.",
     "choices": [
       {
@@ -3733,7 +3751,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-cse2026-573",
+    "passageOrder": 1
   },
   {
     "id": "cse2026-574",
@@ -3759,7 +3779,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Tuwa Sapagkat tunay na pag-asa ng bayan ang kabataan.'."
+    "explanation": "Ang tamang sagot ay A: 'Tuwa Sapagkat tunay na pag-asa ng bayan ang kabataan.'.",
+    "passageId": "passage-cse2026-573",
+    "passageOrder": 2
   },
   {
     "id": "cse2026-575",
@@ -3781,11 +3803,13 @@
       },
       {
         "id": "D",
-        "text": "May bayani ang bayan C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan — may puti, pula, dilaw at malaginto. Iba-iba rin ang laki— may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al."
+        "text": "May bayani ang bayan"
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang tamang sagot ay D: 'May bayani ang bayan C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan — may puti, pula, dilaw at malaginto. Iba-iba rin ang laki— may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al.'."
+    "explanation": "Ang tamang sagot ay D: 'May bayani ang bayan C. Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan — may puti, pula, dilaw at malaginto. Iba-iba rin ang laki— may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al.'.",
+    "passageId": "passage-cse2026-573",
+    "passageOrder": 3
   },
   {
     "id": "cse2026-576",
@@ -3811,7 +3835,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'Pang-agham na pangalan ng Santan.'."
+    "explanation": "Ang tamang sagot ay B: 'Pang-agham na pangalan ng Santan.'.",
+    "passageId": "passage-cse2026-576",
+    "passageOrder": 1
   },
   {
     "id": "cse2026-577",
@@ -3837,7 +3863,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A false (may mabango at may walang amoy). B false (galing sa India). C false (may malaginto). D true - maaaring ipanggamot ang Santan."
+    "explanation": "A false (may mabango at may walang amoy). B false (galing sa India). C false (may malaginto). D true - maaaring ipanggamot ang Santan.",
+    "passageId": "passage-cse2026-576",
+    "passageOrder": 2
   },
   {
     "id": "cse2026-578",
@@ -3863,7 +3891,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'ugat'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Anong bahagi ng Santan ang may pinakamaraming gamit bilang gamot."
+    "explanation": "Ang tamang sagot ay C: 'ugat'. Sa tanong na ito, ang pagpipilian C ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Anong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
+    "passageId": "passage-cse2026-576",
+    "passageOrder": 3
   },
   {
     "id": "cse2026-579",
@@ -3889,7 +3919,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'Ang Santan'."
+    "explanation": "Ang tamang sagot ay B: 'Ang Santan'.",
+    "passageId": "passage-cse2026-576",
+    "passageOrder": 4
   },
   {
     "id": "cse2026-580",
@@ -3993,7 +4025,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang paksang pangungusap ay ang buod na nagsasaad ng iba't ibang gamit ng mata; ang D ang pinakamalawak na pahayag ukol dito."
+    "explanation": "Ang paksang pangungusap ay ang buod na nagsasaad ng iba't ibang gamit ng mata; ang D ang pinakamalawak na pahayag ukol dito.",
+    "passageId": "passage-cse2026-583",
+    "passageOrder": 1
   },
   {
     "id": "cse2026-584",
@@ -4019,7 +4053,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'Ang lba’t Ibang Gamit ng Mata'."
+    "explanation": "Ang tamang sagot ay C: 'Ang lba’t Ibang Gamit ng Mata'.",
+    "passageId": "passage-cse2026-583",
+    "passageOrder": 2
   },
   {
     "id": "cse2026-585",
@@ -4045,7 +4081,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang tamang sagot ay B: 'nagpapakita ng matinding karamdaman'."
+    "explanation": "Ang tamang sagot ay B: 'nagpapakita ng matinding karamdaman'.",
+    "passageId": "passage-cse2026-583",
+    "passageOrder": 3
   },
   {
     "id": "cse2026-586",
@@ -4073,7 +4111,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ang tamang sagot ay A: 'Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Paano nagbago ang pananaw ng tao hinggil sa mga mata?"
+    "explanation": "Ang tamang sagot ay A: 'Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba’t ibang emosyon.'. Sa tanong na ito, ang pagpipilian A ang tumutugma sa pinakapermatematikong o semantikong interpretasyon ng pahayag. Tanong: Paano nagbago ang pananaw ng tao hinggil sa mga mata?",
+    "passageId": "passage-cse2026-583",
+    "passageOrder": 4
   },
   {
     "id": "cse2026-587",
@@ -4099,7 +4139,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Ang tamang sagot ay C: 'nanlilisik na mata'."
+    "explanation": "Ang tamang sagot ay C: 'nanlilisik na mata'.",
+    "passageId": "passage-cse2026-583",
+    "passageOrder": 5
   },
   {
     "id": "cse2026-588",
@@ -4255,7 +4297,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Ipinapakita ng graph ang minimum wage o pasahod sa Maynila sa iba't ibang taon."
+    "explanation": "Ipinapakita ng graph ang minimum wage o pasahod sa Maynila sa iba't ibang taon.",
+    "passageId": "passage-cse2026-593",
+    "passageOrder": 1
   },
   {
     "id": "cse2026-594",
@@ -4307,7 +4351,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Oktubre 1999 is Php193.50 and Mayo 1996 is Php135.00. Difference: 193.50 - 135.00 = Php58.50."
+    "explanation": "Oktubre 1999 is Php193.50 and Mayo 1996 is Php135.00. Difference: 193.50 - 135.00 = Php58.50.",
+    "passageId": "passage-cse2026-593",
+    "passageOrder": 2
   },
   {
     "id": "cse2026-596",
@@ -4385,7 +4431,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Magsimula sa tanong na D, sagutin ito sa B, pagkatapos ay ibigay ang detalye sa A at C. Ang ayos ay D-B-A-C."
+    "explanation": "Magsimula sa tanong na D, sagutin ito sa B, pagkatapos ay ibigay ang detalye sa A at C. Ang ayos ay D-B-A-C.",
+    "passageId": "passage-cse2026-604",
+    "passageOrder": 1
   },
   {
     "id": "cse2026-605",
@@ -4411,7 +4459,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Ang pinakaangkop na pangwakas ay isang panawagan na tumulong mapanatiling malinis ang hangin."
+    "explanation": "Ang pinakaangkop na pangwakas ay isang panawagan na tumulong mapanatiling malinis ang hangin.",
+    "passageId": "passage-cse2026-604",
+    "passageOrder": 2
   },
   {
     "id": "cse2026-606",
@@ -4437,7 +4487,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Ang talata ay tumatalakay sa Clean Air Act, kaya ito ang pinakaangkop na pamagat."
+    "explanation": "Ang talata ay tumatalakay sa Clean Air Act, kaya ito ang pinakaangkop na pamagat.",
+    "passageId": "passage-cse2026-604",
+    "passageOrder": 3
   },
   {
     "id": "cse2026-608",

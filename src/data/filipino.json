@@ -3527,7 +3527,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"langit\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice B (\"langit\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-131",
+    "passageOrder": 1
   },
   {
     "id": "fi-132",
@@ -3553,7 +3555,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"pagtutulad\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice A (\"pagtutulad\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-131",
+    "passageOrder": 2
   },
   {
     "id": "fi-133",
@@ -3579,7 +3583,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"unang saknong\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice A (\"unang saknong\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-131",
+    "passageOrder": 3
   },
   {
     "id": "fi-134",
@@ -3605,7 +3611,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice D (\"Pakikiisa sa kapuwa kabataang may masamang bisyo.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-134",
+    "passageOrder": 1
   },
   {
     "id": "fi-135",
@@ -3631,7 +3639,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice A (\"Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-134",
+    "passageOrder": 2
   },
   {
     "id": "fi-136",
@@ -3657,7 +3667,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice B (\"Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-134",
+    "passageOrder": 3
   },
   {
     "id": "fi-137",
@@ -3683,7 +3695,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"May suliranin ang bayan\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice C (\"May suliranin ang bayan\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-134",
+    "passageOrder": 4
   },
   {
     "id": "fi-138",
@@ -3709,7 +3723,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Pang-agham na pangalan ng Santan.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice B (\"Pang-agham na pangalan ng Santan.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-138",
+    "passageOrder": 1
   },
   {
     "id": "fi-139",
@@ -3735,7 +3751,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Maaaring ipanggamot ang Santan.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice D (\"Maaaring ipanggamot ang Santan.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-138",
+    "passageOrder": 2
   },
   {
     "id": "fi-140",
@@ -3761,7 +3779,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"ugat\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice C (\"ugat\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-138",
+    "passageOrder": 3
   },
   {
     "id": "fi-141",
@@ -3787,7 +3807,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Ang Santan\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice B (\"Ang Santan\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-138",
+    "passageOrder": 4
   },
   {
     "id": "fi-142",
@@ -3813,7 +3835,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Maaaring pampagana ng pagkain\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice A (\"Maaaring pampagana ng pagkain\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-138",
+    "passageOrder": 5
   },
   {
     "id": "fi-143",
@@ -3839,7 +3863,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Ang kahalagahan ng pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice C (\"Ang kahalagahan ng pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-143",
+    "passageOrder": 1
   },
   {
     "id": "fi-144",
@@ -3865,7 +3891,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Lahat ng nabanaggit sa tama.\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice C (\"Lahat ng nabanaggit sa tama.\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-143",
+    "passageOrder": 2
   },
   {
     "id": "fi-145",
@@ -3891,12 +3919,14 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Ang Kahalagahan ng Pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata."
+    "explanation": "Tamang sagot ang choice A (\"Ang Kahalagahan ng Pagbabasa\") dahil ito ang impormasyong sinusuportahan ng talata.",
+    "passageId": "passage-fi-143",
+    "passageOrder": 3
   },
   {
     "id": "fi-146",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag- asam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang paksang pangungusap sa talata?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang paksang pangungusap sa talata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3922,7 +3952,7 @@
   {
     "id": "fi-147",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag- asam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang pinakamainam sa pamagat sa talata?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang pinakamainam na pamagat sa talata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3948,7 +3978,7 @@
   {
     "id": "fi-148",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag- asam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -3974,7 +4004,7 @@
   {
     "id": "fi-149",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag- asam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4000,7 +4030,7 @@
   {
     "id": "fi-150",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag- asam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
     "hint": "Pag-unawa sa binasa: hanapin sa talata ang ebidensya bago pumili; iwasan ang sagot na wala sa binasa.",
     "choices": [
       {
@@ -4183,7 +4213,9 @@
     ],
     "correctChoiceId": "C",
     "explanation": "Saklaw ng tsart ang badyet at katayuang pangmilitar ng mga piling bansa.",
-    "image": "/question-images/military-budget-chart.png"
+    "image": "/question-images/military-budget-chart.png",
+    "passageId": "passage-fi-156",
+    "passageOrder": 1
   },
   {
     "id": "fi-157",
@@ -4210,7 +4242,9 @@
     ],
     "correctChoiceId": "B",
     "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672,000.",
-    "image": "/question-images/military-budget-chart.png"
+    "image": "/question-images/military-budget-chart.png",
+    "passageId": "passage-fi-156",
+    "passageOrder": 2
   },
   {
     "id": "fi-158",
@@ -4237,7 +4271,9 @@
     ],
     "correctChoiceId": "C",
     "explanation": "Sa mga pagpipilian, Brunei ang may pinakamataas na porsiyento ng GDP para sa badyet militar: 6.5%.",
-    "image": "/question-images/military-budget-chart.png"
+    "image": "/question-images/military-budget-chart.png",
+    "passageId": "passage-fi-156",
+    "passageOrder": 3
   },
   {
     "id": "fi-159",
@@ -4264,7 +4300,9 @@
     ],
     "correctChoiceId": "A",
     "explanation": "Batay sa laki ng badyet at porsiyento sa GDP, Japan ang may pinakamalaking GDP sa mga pagpipilian.",
-    "image": "/question-images/military-budget-chart.png"
+    "image": "/question-images/military-budget-chart.png",
+    "passageId": "passage-fi-156",
+    "passageOrder": 4
   },
   {
     "id": "fi-160",
@@ -4291,12 +4329,14 @@
     ],
     "correctChoiceId": "B",
     "explanation": "Maliit na bansa ang Brunei, kaya mababa ang bilang ng tropa at kagamitang pangmilitar nito.",
-    "image": "/question-images/military-budget-chart.png"
+    "image": "/question-images/military-budget-chart.png",
+    "passageId": "passage-fi-156",
+    "passageOrder": 5
   },
   {
     "id": "fi-161",
     "subject": "Filipino",
-    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4317,12 +4357,14 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"D-B-A-C\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice D (\"D-B-A-C\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-161",
+    "passageOrder": 1
   },
   {
     "id": "fi-162",
     "subject": "Filipino",
-    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
+    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4343,12 +4385,14 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Kung ikaw ang may-ari ng kumpanya, sang-ayon kaba sa “Clean Air Act”?\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice C (\"Kung ikaw ang may-ari ng kumpanya, sang-ayon kaba sa “Clean Air Act”?\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-161",
+    "passageOrder": 2
   },
   {
     "id": "fi-163",
     "subject": "Filipino",
-    "prompt": "A. Ayon batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
+    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
     "hint": "Pagtatalata: tukuyin ang paksang pangungusap, pagkatapos ay ayusin ang mga detalye ayon sa lohikal na daloy.",
     "choices": [
       {
@@ -4369,7 +4413,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Ang Clean Air Act\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice B (\"Ang Clean Air Act\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-161",
+    "passageOrder": 3
   },
   {
     "id": "fi-164",
@@ -4395,7 +4441,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"A-D-B-C-E\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice C (\"A-D-B-C-E\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-164",
+    "passageOrder": 1
   },
   {
     "id": "fi-165",
@@ -4421,7 +4469,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"pag-iisa-isa o enumerasyon\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice D (\"pag-iisa-isa o enumerasyon\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-164",
+    "passageOrder": 2
   },
   {
     "id": "fi-166",
@@ -4447,7 +4497,9 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"pangungusap D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice C (\"pangungusap D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-164",
+    "passageOrder": 3
   },
   {
     "id": "fi-167",
@@ -4473,7 +4525,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"C-A-B-D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice B (\"C-A-B-D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-167",
+    "passageOrder": 1
   },
   {
     "id": "fi-168",
@@ -4499,7 +4553,9 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice A (\"May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-167",
+    "passageOrder": 2
   },
   {
     "id": "fi-169",
@@ -4525,7 +4581,9 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Ang mga Unang Pangkat ng mga Pilipino\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice D (\"Ang mga Unang Pangkat ng mga Pilipino\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-167",
+    "passageOrder": 3
   },
   {
     "id": "fi-170",
@@ -4551,7 +4609,9 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"C-A-B-E-D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap."
+    "explanation": "Tamang sagot ang choice B (\"C-A-B-E-D\") dahil ito ang ayos na may pinakalohikal na daloy ng mga pangungusap.",
+    "passageId": "passage-fi-167",
+    "passageOrder": 4
   },
   {
     "id": "fi-171",
@@ -4634,7 +4694,7 @@
   {
     "id": "fi-174",
     "subject": "Filipino",
-    "prompt": "GULA-GULANIT",
+    "prompt": "Ano ang ibig sabihin ng GULA-GULANIT?",
     "hint": "Filipino item: basahin ang buong pangungusap, tukuyin ang hinihingi, at alisin ang mga pagpipiliang hindi akma sa konteksto.",
     "choices": [
       {

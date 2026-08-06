@@ -29,6 +29,10 @@ export type Question = {
   image?: string
   status?: QuestionStatus
   exclusionReason?: string
+  /** Shared reading/passage group. Items with the same id stay consecutive in exams. */
+  passageId?: string
+  /** 1-based order within the passage group. */
+  passageOrder?: number
 }
 
 export type ExamQuestion = {
