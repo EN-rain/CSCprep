@@ -48,3 +48,4 @@ src/data/pdf-image-context-notes.json
 
 # Superseded full-page PDF renders; the app uses per-item crops instead.
 public/question-images/csc*-page-*.png
+nul
