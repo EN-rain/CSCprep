@@ -335,7 +335,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Which of the following shows the transfer of power should the President be\nincap The answer is President -→ Vice-President -→ Senate President -→ House Speaker."
+    "explanation": "Constitutional succession runs President → Vice-President → Senate President → Speaker of the House when the President cannot discharge the duties of the office."
   },
   {
     "id": "gi-014",
@@ -361,7 +361,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A member of the Supreme Court: The answer is must have been for fifteen years or more, a judge of a lower court.."
+    "explanation": "An SC justice must be a natural-born citizen, at least 40 years old, and a judge of a lower court or a law practitioner for 15 years or more."
   },
   {
     "id": "gi-015",
@@ -387,7 +387,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The Supreme Court is composed of: The answer is a Chief Justice and fourteen Associate Justices."
+    "explanation": "The Court is fixed at one Chief Justice and fourteen Associate Justices (fifteen members in all)."
   },
   {
     "id": "gi-016",
@@ -413,7 +413,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Which of the following is a Constitutional Commission? The answer is Civil Service Commission."
+    "explanation": "The Civil Service Commission is one of the three Constitutional Commissions (with COMELEC and COA). CHR and PCGG are not."
   },
   {
     "id": "gi-017",
@@ -439,7 +439,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "What branch of government has the sole right to initiate all cases of impeachmen The answer is House of Representative."
+    "explanation": "Only the House of Representatives may initiate impeachment; the Senate sits as the impeachment court."
   },
   {
     "id": "gi-018",
@@ -465,7 +465,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Which of the following is not removable from office by impeachment? The answer is Senators."
+    "explanation": "Impeachable officers are the President, Vice-President, SC members, Constitutional Commissioners, and the Ombudsman. Ordinary Senators are not on that list."
   },
   {
     "id": "gi-019",
@@ -491,7 +491,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The national language of the Philippines is: The answer is Filipino."
+    "explanation": "Article XIV of the 1987 Constitution designates Filipino as the national language."
   },
   {
     "id": "gi-020",
@@ -517,7 +517,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Who may propose any amendment to, or revision of the Constitution? The answer is Congress or a Constitutional Convention."
+    "explanation": "Article XVII allows proposal by Congress (acting as a constituent assembly) or by a Constitutional Convention—the connector is or, not and."
   },
   {
     "id": "gi-021",
@@ -543,7 +543,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "What tax is paid by individuals who derive compensation income? The answer is Income tax."
+    "explanation": "Compensation (salary) income is subject to income tax under the Tax Code, not VAT or real-property tax."
   },
   {
     "id": "gi-022",
@@ -569,7 +569,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "When is the deadline for filing income tax returns for every taxable year? The answer is April 15."
+    "explanation": "Individual income tax returns for the calendar year are due on or before April 15 of the following year."
   },
   {
     "id": "gi-023",
@@ -595,7 +595,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Which of the following statements is true about taxes? The answer is It is an enforced contribution."
+    "explanation": "A tax is an enforced contribution levied by law for public purposes—not a voluntary gift or optional payment."
   },
   {
     "id": "gi-024",
@@ -621,7 +621,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "What tax is imposed on one’s right to transmit property at death, and is measure The answer is Estate tax."
+    "explanation": "Estate tax falls on the right to transmit property at death and is measured by the estate’s value. Donor’s tax covers gifts while the donor is still alive."
   },
   {
     "id": "gi-025",
@@ -647,7 +647,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Which of the following is classified as being a “Head of the Family” for income  The answer is an unmarried individual with dependents."
+    "explanation": "For income-tax ‘head of the family,’ the taxpayer is unmarried (or legally separated) and supports dependents; a married person with a living spouse is not classified that way."
   },
   {
     "id": "gi-026",
@@ -673,7 +673,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "What Act implements the mandate for the “State to make essential goods, health\na The answer is Generics Act."
+    "explanation": "The Generics Act carries out the policy of making essential medicines widely available and affordable."
   },
   {
     "id": "gi-027",
@@ -699,7 +699,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Which of the following is true about elective local officials? The answer is The term of office is three years."
+    "explanation": "Under the Local Government Code, elective local officials generally serve three-year terms (with limits on consecutive reelection)."
   },
   {
     "id": "gi-028",
@@ -725,7 +725,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "What may be classified as alienable lands of the public domain? The answer is agricultural lands."
+    "explanation": "Of the public domain, only agricultural lands may be classified as alienable and disposable; forest, mineral, and national-park lands are not."
   },
   {
     "id": "gi-029",
@@ -751,7 +751,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "What is the maximum equity for aliens in a corporation or association in the\nexp The answer is 40%."
+    "explanation": "In exploration and utilization of natural resources, foreign equity is limited to 40% so that Filipinos retain at least 60%."
   },
   {
     "id": "gi-030",
@@ -777,7 +777,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "What is recognized by the State as the foundation of the nation? The answer is family."
+    "explanation": "The Constitution recognizes the family as the foundation of the nation."
   },
   {
     "id": "gi-031",

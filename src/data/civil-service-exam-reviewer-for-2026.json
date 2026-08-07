@@ -746,7 +746,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: ugly. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Conspicuous pairs with a clear synonym (obvious). Hideous likewise pairs with ugly—both are strong negative appearance words."
   },
   {
     "id": "cse2026-222",
@@ -824,7 +824,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: decipherable: comprehensible. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Marriageable and nubile are synonyms. Decipherable and comprehensible are the same kind of synonym pair among the options."
   },
   {
     "id": "cse2026-241",
@@ -876,7 +876,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Anxious and uneasy are synonyms (both mean worried or apprehensive). Egocentric and self-centered are synonyms (both mean thinking only of oneself). So the answer is 'egocentric: self-centered'."
+    "explanation": "Anxious and uneasy are near-synonyms. Egocentric and self-centered match that synonym pattern; the other pairs are antonyms or mismatches."
   },
   {
     "id": "cse2026-243",
@@ -1188,7 +1188,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: coliseum: spectators. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "An auditorium is the place for an audience. A coliseum is the place for spectators—same venue-to-people relationship."
   },
   {
     "id": "cse2026-256",
@@ -1318,7 +1318,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "He is the subject pronoun; him is the object pronoun. Similarly, they (subject) becomes them (object). So the answer is 'they: them'."
+    "explanation": "He is nominative (subject); him is objective. The same subject→object pair is they → them."
   },
   {
     "id": "cse2026-261",
@@ -1500,7 +1500,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: bacterium: bacteriums. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Charisma → charismata is an irregular foreign plural. Bacterium → bacteria is the real plural; bacteriums is the parallel wrong form, which is what the key marks among these options."
   },
   {
     "id": "cse2026-270",
@@ -1552,7 +1552,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "'Attention' is shortened to 'attn' by dropping the middle letters. 'Approximate' can be shortened to 'appro' similarly. So the answer is 'approximate: appro'."
+    "explanation": "Attention shortens to attn by clipping the middle. Approximate shortens the same way to approx—not the reversed or misspelled forms."
   },
   {
     "id": "cse2026-272",
@@ -1604,7 +1604,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Unscrew means to loosen; tighten is the opposite. Remove (take away) and restore (put back) are opposites. So the answer is 'remove: restore'."
+    "explanation": "Unscrew and tighten are opposites. Remove and restore reverse each other the same way."
   },
   {
     "id": "cse2026-274",
@@ -1656,7 +1656,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: DST: daylight saving time. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "COD expands to cash on delivery. DST expands to daylight saving time—both are standard initialism expansions."
   },
   {
     "id": "cse2026-276",
@@ -1734,7 +1734,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Languid means weak or sluggish; strong is the opposite. Feeble (weak) and active (energetic) are opposites. So the answer is 'feeble: active'."
+    "explanation": "Languid (weak/sluggish) opposes strong. Feeble opposes active on the same weak↔energetic axis."
   },
   {
     "id": "cse2026-341",
@@ -1764,7 +1764,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: A-B-C-D-E-F. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The sentences already read in natural lawmaking order A through F, so the arrangement A-B-C-D-E-F is the coherent paragraph sequence."
   },
   {
     "id": "cse2026-342",
@@ -1856,7 +1856,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: C. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Choices are letter-only placeholders in this OCR item; the intended title among standard reviewers is the one that links taxes to national progress. Prefer the subject-bank twin (vr-230) when practicing titles."
   },
   {
     "id": "cse2026-349",
@@ -1912,7 +1912,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: writes. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The blank needs a present-tense verb: Lily writes remarkable poems. Rights/rites are nouns; write lacks third-person -s."
   },
   {
     "id": "cse2026-357",
@@ -1938,7 +1938,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: aggravate. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Pollution makes asthma worse—aggravate. Cure is the opposite; deteriorate needs a different structure; annoy is too weak."
   },
   {
     "id": "cse2026-360",
@@ -1964,7 +1964,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: course. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Students follow a course outline. Coarse means rough; corps is a body of people; corpse is a dead body."
   },
   {
     "id": "cse2026-363",
@@ -1990,7 +1990,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: immigrated. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Moving into a place to settle is immigrate (past: immigrated). Migrate is general movement without the ‘into’ sense required here."
   },
   {
     "id": "cse2026-375",
@@ -2016,7 +2016,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: build up. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "A build up of vehicles is an accumulation that causes traffic. Build on/in/over do not fit this traffic sense."
   },
   {
     "id": "cse2026-384",
@@ -2042,7 +2042,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: knocked down. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "A strong gust knocked down the swing—felled it. Knocked out means unconscious; knocked around/back are different idioms."
   },
   {
     "id": "cse2026-386",
@@ -2068,7 +2068,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: look down on. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Look down on means regard with contempt. The sentence already uses that phrase correctly among the idiom options."
   },
   {
     "id": "cse2026-387",
@@ -2094,7 +2094,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: picking on. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Picking on someone means teasing or bullying them. Picking at/out/up are different phrasal meanings."
   },
   {
     "id": "cse2026-389",
@@ -2120,7 +2120,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: setting up. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Setting up the table means arranging it for a meal. Setting apart/back/down mean separate, delay, or put down in writing."
   },
   {
     "id": "cse2026-391",
@@ -2146,7 +2146,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: Virtue. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The passage defines virtue as the mean between excess and defect, so the topic word is Virtue."
   },
   {
     "id": "cse2026-393",
@@ -2198,7 +2198,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: War. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The excerpt’s controlling idea is perpetual struggle among living things—best summed up by the title War."
   },
   {
     "id": "cse2026-395",
@@ -2250,7 +2250,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: Life is not an empty dream.. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Longfellow answers the ‘empty dream’ line with ‘Life is real! Life is earnest!’—so the poem’s stance is that life is not an empty dream."
   },
   {
     "id": "cse2026-397",
@@ -2276,7 +2276,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: life. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "‘Its’ in ‘Dust thou art…’ points back to life: the grave is not life’s goal."
   },
   {
     "id": "cse2026-399",
@@ -2440,7 +2440,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: one’s day to day conduct. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Franklin’s point is that people are judged by everyday behavior—one’s day-to-day conduct—more than by clever replies or anger."
   },
   {
     "id": "cse2026-405",
@@ -2778,7 +2778,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Seneca’s path is greatness of soul, constancy, order, measure, decorum, and a will guided by reason—not hypocrisy or getting what one wants at any cost. Neither A nor B (nor both) matches the text, so the answer is none of the above."
+    "explanation": "Seneca’s happy life is self-sufficiency, tranquility, greatness of soul, and a reason-guided will. Hypocrisy and ruthless desire are the opposite of that path, so neither A nor B works."
   },
   {
     "id": "cse2026-418",
@@ -2910,7 +2910,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: her love. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "Millay’s speaker offers love ‘in the open hand,’ not jewels or objects—so the gift is her love.",
     "passageId": "passage-cse2026-421",
     "passageOrder": 2
   },
@@ -3098,7 +3098,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: deposits of fatty materials, connective tissue fibers and calcium.. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Heart disease risk here is linked to deposits of fatty materials, connective tissue, and calcium in the arteries—not ordinary food or oxygen excess alone."
   },
   {
     "id": "cse2026-430",
@@ -3228,7 +3228,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: leukemia. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Among common exam labels, leukemia is the blood/connective-tissue cancer type keyed here (sarcoma is soft tissue; carcinoma is epithelial)."
   },
   {
     "id": "cse2026-435",
@@ -3254,7 +3254,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: leukemia. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Skin cancers are typically carcinomas (epithelial origin). Leukemia is blood; sarcoma is connective tissue; dermacoma is not a standard class."
   },
   {
     "id": "cse2026-437",
@@ -3410,7 +3410,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: nalilito. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Nagugulumihanan means confused or undecided—nalilito—about which course to take."
   },
   {
     "id": "cse2026-467",
@@ -3436,7 +3436,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: malanta. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Pataba is fertilizer so the plant will grow (lumago), not wither (malanta). The keyed antonym-style distractor malanta is the wrong outcome."
   },
   {
     "id": "cse2026-471",
@@ -3462,7 +3462,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: nainis. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Nabaghan in this context marks irritation/annoyance—nainis—not simple surprise or fainting."
   },
   {
     "id": "cse2026-498",
@@ -3488,7 +3488,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: malabo ang mata. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Matang-manok describes blurred or weak eyesight from reading in the dark—malabo ang mata."
   },
   {
     "id": "cse2026-510",
@@ -3514,7 +3514,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: mahilig mamasyal. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "May puyo sa talampakan is an idiom for someone who cannot stay put—mahilig mamasyal."
   },
   {
     "id": "cse2026-512",
@@ -3540,7 +3540,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: masakit magsalita. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Maanghang ang dila means sharp-tongued—masakit magsalita—which causes office conflicts."
   },
   {
     "id": "cse2026-517",
@@ -3566,7 +3566,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: pakiusap. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The noun form that fits ‘Ang ___ ng mga manlalaro’ is pakiusap (the players’ request/petition)."
   },
   {
     "id": "cse2026-534",
@@ -3622,7 +3622,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: Salungguhit b. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "The error is in the underlined segment marked b in the stem image—salungguhit b—matching the Filipino error-identification pattern.",
     "image": "/question-images/fi-113.png"
   },
   {
@@ -3673,7 +3673,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: ibon. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The poem’s speaker longs to reach the bird (ibon) as the symbolic destination among the choices."
   },
   {
     "id": "cse2026-571",
@@ -3699,7 +3699,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: pagbibigay katauhan. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Giving human traits to non-human things is pagbibigay-katauhan (personification) in the cited lines."
   },
   {
     "id": "cse2026-572",
@@ -3725,7 +3725,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: ikalawang saknong. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The main idea is concentrated in the second stanza (ikalawang saknong) of the poem."
   },
   {
     "id": "cse2026-573",
@@ -3779,7 +3779,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: Tuwa Sapagkat tunay na pag-asa ng bayan ang kabataan.. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "The tone toward the youth as hope of the nation is joyful confidence—Tuwa… pag-asa ng bayan.",
     "passageId": "passage-cse2026-573",
     "passageOrder": 2
   },
@@ -3807,7 +3807,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: May bayani ang bayan. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "The paragraph points to youth who can serve the country—May bayani ang bayan in that civic sense.",
     "passageId": "passage-cse2026-573",
     "passageOrder": 3
   },
@@ -3835,7 +3835,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: Pang-agham na pangalan ng Santan.. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "Ixora coccinea L. is identified as the scientific name of Santan—pang-agham na pangalan ng Santan.",
     "passageId": "passage-cse2026-576",
     "passageOrder": 1
   },
@@ -3891,7 +3891,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: ugat. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "The passage’s detail about the plant part used or described among the options is the root (ugat).",
     "passageId": "passage-cse2026-576",
     "passageOrder": 3
   },
@@ -3919,7 +3919,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: Ang Santan. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "A title covering the whole selection is simply Ang Santan rather than a single part or medical use alone.",
     "passageId": "passage-cse2026-576",
     "passageOrder": 4
   },
@@ -3947,7 +3947,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: Ang hirap ng pagbabasa. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "If the selection stresses difficulty, the controlling idea is ang hirap ng pagbabasa; match the stem’s emphasis to that option."
   },
   {
     "id": "cse2026-581",
@@ -3973,7 +3973,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: Lahat ng nabanaggit sa tama.. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Several listed reasons are valid, so the inclusive choice ‘Lahat ng nabanggit sa itaas/tama’ is the intended key."
   },
   {
     "id": "cse2026-582",
@@ -3999,7 +3999,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: Ang Kahalagahan ng Pagbabasa. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The paragraph answers why reading matters—best titled Ang Kahalagahan ng Pagbabasa."
   },
   {
     "id": "cse2026-583",
@@ -4053,7 +4053,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: Ang lba’t Ibang Gamit ng Mata. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "The passage catalogs many roles of the eyes, so the broad title Ang iba’t ibang gamit ng mata fits.",
     "passageId": "passage-cse2026-583",
     "passageOrder": 2
   },
@@ -4081,7 +4081,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: nagpapakita ng matinding karamdaman. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "Among the functions named, one option is showing serious illness—nagpapakita ng matinding karamdaman.",
     "passageId": "passage-cse2026-583",
     "passageOrder": 3
   },
@@ -4139,7 +4139,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: nanlilisik na mata. Match the stem to that option by meaning or rule—not by letter alone.",
+    "explanation": "Eyes blazing with anger are nanlilisik na mata among the descriptive choices.",
     "passageId": "passage-cse2026-583",
     "passageOrder": 5
   },
@@ -4325,7 +4325,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The keyed answer is D: Bilang ng mga mangagawang napasahod sa iba’t ibang taon.. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Read the chart title carefully: the series is minimum-wage levels over years, not a headcount of workers—pick the label that matches the data type shown."
   },
   {
     "id": "cse2026-595",
@@ -4379,7 +4379,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: Enero 1991. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Compare the listed dates: the jump highlighted by the item is January 1991 (Enero 1991) among the options."
   },
   {
     "id": "cse2026-597",
@@ -4405,7 +4405,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The keyed answer is C: limang buwan. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Count the months between the two referenced wage effectivity dates in the table; the span keyed is five months (limang buwan)."
   },
   {
     "id": "cse2026-604",
@@ -4541,7 +4541,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The keyed answer is A: May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "The sentences describe three early peoples arriving in the islands—so the main idea is that three groups came in early times."
   },
   {
     "id": "cse2026-613",
@@ -5711,7 +5711,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "The keyed answer is B: gg1515hh. Match the stem to that option by meaning or rule—not by letter alone."
+    "explanation": "Letters advance and the doubled numbers follow the same +4/+4 pattern as aa33bb → cc77dd → ee1111ff → gg1515hh."
   },
   {
     "id": "cse2026-691",

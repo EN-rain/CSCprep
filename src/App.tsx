@@ -1283,29 +1283,74 @@ function App() {
   const lenisRef = useRef<Lenis | null>(null)
 
   useEffect(() => {
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)')
 
-    if (prefersReducedMotion) {
-      return
+    let lenis: Lenis | null = null
+    let rafId = 0
+
+    const raf = (time: number) => {
+      lenis?.raf(time)
+      rafId = window.requestAnimationFrame(raf)
     }
 
-    const lenis = new Lenis({
-      autoRaf: true,
-      anchors: true,
-      duration: 1.1,
-      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      lerp: 0.1,
-      smoothWheel: true,
-      touchMultiplier: 1.4,
-    })
+    const startLenis = () => {
+      if (lenis || motionQuery.matches) {
+        return
+      }
 
-    lenisRef.current = lenis
+      lenis = new Lenis({
+        // Drive the loop ourselves for reliable frame updates.
+        autoRaf: false,
+        anchors: true,
+        smoothWheel: true,
+        // Lower lerp = smoother / heavier inertia (0–1).
+        lerp: 0.08,
+        wheelMultiplier: 0.9,
+        touchMultiplier: 1.5,
+        syncTouch: false,
+      })
+
+      lenisRef.current = lenis
+      document.documentElement.classList.add('lenis', 'lenis-smooth')
+      rafId = window.requestAnimationFrame(raf)
+    }
+
+    const stopLenis = () => {
+      if (rafId) {
+        window.cancelAnimationFrame(rafId)
+        rafId = 0
+      }
+      if (lenis) {
+        lenis.destroy()
+        lenis = null
+      }
+      lenisRef.current = null
+      document.documentElement.classList.remove('lenis', 'lenis-smooth', 'lenis-scrolling', 'lenis-stopped')
+    }
+
+    const onMotionChange = () => {
+      stopLenis()
+      if (!motionQuery.matches) {
+        startLenis()
+      }
+    }
+
+    startLenis()
+    motionQuery.addEventListener('change', onMotionChange)
 
     return () => {
-      lenisRef.current = null
-      lenis.destroy()
+      motionQuery.removeEventListener('change', onMotionChange)
+      stopLenis()
     }
   }, [])
+
+  // Keep Lenis dimensions in sync when the active screen changes.
+  useEffect(() => {
+    const id = window.requestAnimationFrame(() => {
+      lenisRef.current?.resize()
+    })
+    return () => window.cancelAnimationFrame(id)
+  }, [screen])
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme
@@ -2964,7 +3009,6 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
   const markerChoicesOnly = Boolean(displayImage) && usesImageChoiceMarkers(item.choices) && !choicesHaveImages
   const promptIsShownInImage = hasPromptInImage(item.questionId, displayImage, markerChoicesOnly, displayPrompt)
   const correctChoice = item.choices.find((choice) => choice.id === item.correctChoiceId)
-  const selectedChoice = item.choices.find((choice) => choice.id === item.selectedChoiceId)
 
   const cleanedExplanation = item.explanation
     ? formatReviewExplanation(
@@ -3011,27 +3055,7 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
         visuallyHidden={promptIsShownInImage}
       />
 
-      <div className="review-summary">
-        <div className={`review-summary__row${item.isCorrect ? ' review-summary__row--ok' : ' review-summary__row--bad'}`}>
-          <span className="review-summary__label">Your answer</span>
-          <span className="review-summary__value">
-            {item.selectedChoiceId}
-            {selectedChoice && !markerChoicesOnly && selectedChoice.text
-              ? ` — ${selectedChoice.text}`
-              : ''}
-            {item.isCorrect ? ' ✓' : ' ✗'}
-          </span>
-        </div>
-        <div className="review-summary__row review-summary__row--ok">
-          <span className="review-summary__label">Correct</span>
-          <span className="review-summary__value">
-            {item.correctChoiceId}
-            {correctChoice && !markerChoicesOnly && correctChoice.text
-              ? ` — ${correctChoice.text}`
-              : ''}
-          </span>
-        </div>
-      </div>
+
 
       <div className={[
         'review-choices',
@@ -3056,7 +3080,7 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
 
           const tagLabel =
             isSelected && isCorrect
-              ? 'Your correct answer'
+              ? 'Correct answer'
               : isSelected
                 ? 'Your answer'
                 : isCorrect
@@ -3101,7 +3125,6 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
             <div className="explanation-collapse__inner">
               {cleanedExplanation && (
                 <div className="explanation">
-                  <p className="explanation__answer">Correct: {item.correctChoiceId}</p>
                   <p>
                     <strong>Explanation:</strong> {cleanedExplanation}
                   </p>
