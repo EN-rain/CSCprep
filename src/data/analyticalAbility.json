@@ -1557,7 +1557,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Letter pairs advance by two positions and the number is the odd sequence 1,3,5,7,9,11,13. After KX11 comes MZ13."
+    "explanation": "Letter pairs advance by two positions and the number is the odd sequence 1, 3, 5, 7, 9, 11, 13. After KX11 comes MZ13."
   },
   {
     "id": "aa-061",
@@ -2770,7 +2770,7 @@
   {
     "id": "aa-102",
     "subject": "Analytical Ability",
-    "prompt": "Subscribing to Cable T.V. is a luxury. All luxuries are needles expenditures. Having a cellular phone is not a luxury. Dining in a Five-Star hotel is a needless expenditure\nCONCLUSION:",
+    "prompt": "Subscribing to Cable T.V. is a luxury. All luxuries are needles expenditures. Having a cellular phone is not a luxury. Dining in a Five-Star hotel is a needless expenditure CONCLUSION:",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Subscribing to Cable T.V. is a luxury. All luxurie.",
     "choices": [
       {
@@ -2878,7 +2878,7 @@
   {
     "id": "aa-106",
     "subject": "Analytical Ability",
-    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nWhat can we infer from this passage?",
+    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface. Although the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment. What can we infer from this passage?",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Lightning is an electrical discharge that occurs i (item aa-106).",
     "choices": [
       {
@@ -2904,7 +2904,7 @@
   {
     "id": "aa-107",
     "subject": "Analytical Ability",
-    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nBeing struck by lightning means:",
+    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface. Although the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment. Being struck by lightning means:",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Lightning is an electrical discharge that occurs i (item aa-107).",
     "choices": [
       {
@@ -2930,7 +2930,7 @@
   {
     "id": "aa-108",
     "subject": "Analytical Ability",
-    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface.\nAlthough the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment.\n\nLightning is caused by the following:",
+    "prompt": "Lightning is an electrical discharge that occurs in a thunderstorm. Often you'll see it in the form of a bright bolt or streak coming from the sky. Lightning occurs when static electricity inside clouds builds up and causes an electrical charge. What causes the static electricity? Water. Specifically, water droplets collide with ice crystals after the temperature in the cloud falls below freezing. Sometimes these collisions are small, but other times they're quite large. Large collisions cause large electrical charges, and when they're large enough, the hyper-charged cloud will emit a burst of lightning. This lightning looks quite impressive for a good reason: a lightning bolt's temperature gets so hot that it is sometimes five times hotter than the sun's surface. Although the lightning bolt is hot, it is also short-lived. Because of that, when a person is unfortunate enough to be struck by lightning, their odds of surviving are pretty good. Statistics show that 90% of victims survive a lightning blast. The old saying, \"Lightning never strikes twice in the same spot,\" is a myth. Many people report surviving lightning blasts three or more times. Lightning also strikes some skyscrapers multiple times. The other prominent feature of lightning storms is thunder. This is caused when the super-heated air around a lightning bolt expands at the speed of sound. We hear thunder after seeing the lightning bolt because sound travels slower than the speed of light. In reality, though, both occur at the same moment. Lightning is caused by the following:",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Lightning is an electrical discharge that occurs i (item aa-108).",
     "choices": [
       {
@@ -3004,7 +3004,7 @@
   {
     "id": "aa-111",
     "subject": "Analytical Ability",
-    "prompt": "All the tulips in Zoe's garden are white.\nAll the pansies in Zoe's garden are yellow.\nAll the flowers in Zoe's garden are either white or yellow. If the first two statements are true, the third statement is",
+    "prompt": "All the tulips in Zoe's garden are white. All the pansies in Zoe's garden are yellow. All the flowers in Zoe's garden are either white or yellow. If the first two statements are true, the third statement is",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: All the tulips in Zoe's garden are white. All the .",
     "choices": [
       {
@@ -3048,7 +3048,7 @@
   {
     "id": "aa-113",
     "subject": "Analytical Ability",
-    "prompt": "Which statement best captures this idea?\nOne effective way is to diversify his funds to different investments like real estate, stocks and money instruments like bonds and trust funds.",
+    "prompt": "Which statement best captures this idea? One effective way is to diversify his funds to different investments like real estate, stocks and money instruments like bonds and trust funds.",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Which statement best captures this idea? One effec.",
     "choices": [
       {
@@ -3121,7 +3121,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The numeric part increases by 4 each time: 104,108, 112,116, then 120."
+    "explanation": "The numeric part increases by 4 each time: 104, 108, 112, 116, then 120."
   },
   {
     "id": "aa-116",
@@ -3230,7 +3230,7 @@
   {
     "id": "aa-120",
     "subject": "Analytical Ability",
-    "prompt": "An encoded transmittal count triples by station: 2, 6, 18, 54,162. What comes next?",
+    "prompt": "An encoded transmittal count triples by station: 2, 6, 18, 54, 162. What comes next?",
     "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in An encoded transmittal count triples by station: 2.",
     "choices": [
       {
@@ -3282,7 +3282,7 @@
   {
     "id": "aa-122",
     "subject": "Analytical Ability",
-    "prompt": "Archive boxes are labeled with descending square numbers: 144,121, 100, 81, 64. What label follows?",
+    "prompt": "Archive boxes are labeled with descending square numbers: 144, 121, 100, 81, 64. What label follows?",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: Archive boxes are labeled with descending square n.",
     "choices": [
       {
@@ -3334,8 +3334,8 @@
   {
     "id": "aa-124",
     "subject": "Analytical Ability",
-    "prompt": "A file-tag sequence is 6, 13, 27, 55,111. What comes next?",
-    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A file-tag sequence is 6, 13, 27, 55,111. What com.",
+    "prompt": "A file-tag sequence is 6, 13, 27, 55, 111. What comes next?",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A file-tag sequence is 6, 13, 27, 55, 111. What com.",
     "choices": [
       {
         "id": "A",
@@ -3490,7 +3490,7 @@
   {
     "id": "aa-130",
     "subject": "Analytical Ability",
-    "prompt": "A photocopy batch doubles as follows: 11, 22, 44, 88,176. What is the next batch count?",
+    "prompt": "A photocopy batch doubles as follows: 11, 22, 44, 88, 176. What is the next batch count?",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A photocopy batch doubles as follows: 11, 22, 44, .",
     "choices": [
       {
@@ -3698,7 +3698,7 @@
   {
     "id": "aa-138",
     "subject": "Analytical Ability",
-    "prompt": "A routing code uses M, O, R, V,\nA. What comes next?",
+    "prompt": "A routing code uses M, O, R, V, A. What comes next?",
     "hint": "Coding: apply the stated shift or rule exactly; eliminate options that break a condition in A routing code uses M, O, R, V, A. What comes next.",
     "choices": [
       {
@@ -3828,7 +3828,7 @@
   {
     "id": "aa-143",
     "subject": "Analytical Ability",
-    "prompt": "A memo series uses Q, S, V, Z,\nE. What letter follows?",
+    "prompt": "A memo series uses Q, S, V, Z, E. What letter follows?",
     "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A memo series uses Q, S, V, Z, E. What letter foll.",
     "choices": [
       {
@@ -4452,8 +4452,8 @@
   {
     "id": "aa-167",
     "subject": "Analytical Ability",
-    "prompt": "A receipt number increases by 7 each time: 104,111, 118,125. What is the next number?",
-    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A receipt number increases by 7 each time: 104,111.",
+    "prompt": "A receipt number increases by 7 each time: 104, 111, 118, 125. What is the next number?",
+    "hint": "Work systematically: note each constraint, drop violators, keep the option that satisfies all. Focus: A receipt number increases by 7 each time: 104, 111.",
     "choices": [
       {
         "id": "A",
@@ -4473,7 +4473,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Each number increases by 7: 104 + 7 = 111,111 + 7 = 118,118 + 7 = 125,125 + 7 = 132."
+    "explanation": "Each number increases by 7: 104 + 7 = 111, 111 + 7 = 118, 118 + 7 = 125, 125 + 7 = 132."
   },
   {
     "id": "aa-168",

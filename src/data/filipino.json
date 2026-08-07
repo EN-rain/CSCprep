@@ -2030,7 +2030,7 @@
   {
     "id": "fi-079",
     "subject": "Filipino",
-    "prompt": "Nagulat ang mga tao ________ mabalitaan ang kaguluhang nagaganap sa\nMindanao.",
+    "prompt": "Nagulat ang mga tao ________ mabalitaan ang kaguluhang nagaganap sa Mindanao.",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagulat ang mga tao ________ mabalitaan ang kagulu.",
     "choices": [
       {
@@ -2732,7 +2732,7 @@
   {
     "id": "fi-106",
     "subject": "Filipino",
-    "prompt": "Ang walang kamatayang Mi Ultimo Adios ay sinulat ng Rizal sa Fort Santiago. a b c d\nWalang mali. e",
+    "prompt": "Ang walang kamatayang Mi Ultimo Adios ay sinulat ng Rizal sa Fort Santiago. a b c d Walang mali. e",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Ang walang kamatayang Mi Ultimo Adios ay sinulat n.",
     "choices": [
       {
@@ -2763,7 +2763,7 @@
   {
     "id": "fi-107",
     "subject": "Filipino",
-    "prompt": "Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal. a b c\nWalang mali. d",
+    "prompt": "Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal. a b c Walang mali. d",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Si Teodora Alonzo at Francisco Mercado ang mga mag.",
     "choices": [
       {
@@ -2794,7 +2794,7 @@
   {
     "id": "fi-108",
     "subject": "Filipino",
-    "prompt": "Hindi dapat lumikha nang buwis na hindi makakayang bayaran ng kahit sino. a b c d\nWalang mali. e",
+    "prompt": "Hindi dapat lumikha nang buwis na hindi makakayang bayaran ng kahit sino. a b c d Walang mali. e",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Hindi dapat lumikha nang buwis na hindi makakayang.",
     "choices": [
       {
@@ -3072,7 +3072,7 @@
   {
     "id": "fi-117",
     "subject": "Filipino",
-    "prompt": "Kundi ka kikilos at di gagawin ang iyong proyekto ay wala kang mapapala. a b c d\nWalang mali. e",
+    "prompt": "Kundi ka kikilos at di gagawin ang iyong proyekto ay wala kang mapapala. a b c d Walang mali. e",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Kundi ka kikilos at di gagawin ang iyong proyekto .",
     "choices": [
       {
@@ -3103,7 +3103,7 @@
   {
     "id": "fi-118",
     "subject": "Filipino",
-    "prompt": "Alam mo ba na mayroon proyekto ang CHED na tinaguriang “Study Now, Pay a b c d\nLater”? Walang Mali. c",
+    "prompt": "Alam mo ba na mayroon proyekto ang CHED na tinaguriang “Study Now, Pay a b c d Later”? Walang Mali. c",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Alam mo ba na mayroon proyekto ang CHED na tinagur.",
     "choices": [
       {
@@ -3196,7 +3196,7 @@
   {
     "id": "fi-121",
     "subject": "Filipino",
-    "prompt": "Maganda siya ngunit masungit kaya hindi siya popular sa mga kamag-aral. a b c d\nWalang mali. e",
+    "prompt": "Maganda siya ngunit masungit kaya hindi siya popular sa mga kamag-aral. a b c d Walang mali. e",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Maganda siya ngunit masungit kaya hindi siya popul.",
     "choices": [
       {
@@ -3258,7 +3258,7 @@
   {
     "id": "fi-123",
     "subject": "Filipino",
-    "prompt": "Hindi nawawalan ng pag-asa ang mga mayroon matibay na paniniwala. a b c d\nWalang mali. e",
+    "prompt": "Hindi nawawalan ng pag-asa ang mga mayroon matibay na paniniwala. a b c d Walang mali. e",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Hindi nawawalan ng pag-asa ang mga mayroon matibay.",
     "choices": [
       {
@@ -3382,7 +3382,7 @@
   {
     "id": "fi-127",
     "subject": "Filipino",
-    "prompt": "Dapat nating iiwasan ang labis na pagkain ng mga maaalat na pagkain. a b c d\nWalang mali. e",
+    "prompt": "Dapat nating iiwasan ang labis na pagkain ng mga maaalat na pagkain. a b c d Walang mali. e",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Dapat nating iiwasan ang labis na pagkain ng mga m.",
     "choices": [
       {
@@ -3506,8 +3506,8 @@
   {
     "id": "fi-131",
     "subject": "Filipino",
-    "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto\nSa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nAno ang nais mapuntahan ng manunula?",
-    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto  (item fi-131).",
+    "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto kong pamunta Sa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto Sa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan. Kung mayroon lang isang hagdan patungo doon Aakyat na ako agad doon Doon sa langit kong gustong mapuntahan. Ano ang nais mapuntahan ng manunula?",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto (item fi-131).",
     "choices": [
       {
         "id": "A",
@@ -3534,8 +3534,8 @@
   {
     "id": "fi-132",
     "subject": "Filipino",
-    "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto\nSa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nAno ang tayutay ng ginamit sa unang dalawang linya ng ikalawang saknong?",
-    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto  (item fi-132).",
+    "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto kong pamunta Sa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto Sa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan. Kung mayroon lang isang hagdan patungo doon Aakyat na ako agad doon Doon sa langit kong gustong mapuntahan. Ano ang tayutay ng ginamit sa unang dalawang linya ng ikalawang saknong?",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto (item fi-132).",
     "choices": [
       {
         "id": "A",
@@ -3562,8 +3562,8 @@
   {
     "id": "fi-133",
     "subject": "Filipino",
-    "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano\nGusto kong pamunta\nSa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto\nSa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan.\nKung mayroon lang isang hagdan patungo doon\nAakyat na ako agad doon\nDoon sa langit kong gustong mapuntahan.\n\nSa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang tula?",
-    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto  (item fi-133).",
+    "prompt": "Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto kong pamunta Sa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto Sa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gusto mapuntahan. Kung mayroon lang isang hagdan patungo doon Aakyat na ako agad doon Doon sa langit kong gustong mapuntahan. Sa anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang tula?",
+    "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Sa Langit Kong Gusto ni Czarmaine Feliciano Gusto (item fi-133).",
     "choices": [
       {
         "id": "A",
@@ -3590,7 +3590,7 @@
   {
     "id": "fi-134",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nAling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
+    "prompt": "Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan. Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan? Mula sa Likha IV nina Samonte, et al. Aling sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-a (item fi-134).",
     "choices": [
       {
@@ -3618,7 +3618,7 @@
   {
     "id": "fi-135",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nPaano maiaahon ng kabataan ang bansang Pilipinas sa tiyak na kasawian?",
+    "prompt": "Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan. Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan? Mula sa Likha IV nina Samonte, et al. Paano maiaahon ng kabataan ang bansang Pilipinas sa tiyak na kasawian?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-a (item fi-135).",
     "choices": [
       {
@@ -3646,7 +3646,7 @@
   {
     "id": "fi-136",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\nAno ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang huling pangungusap ng talata?",
+    "prompt": "Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan. Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan? Mula sa Likha IV nina Samonte, et al. Ano ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang huling pangungusap ng talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-a.",
     "choices": [
       {
@@ -3674,7 +3674,7 @@
   {
     "id": "fi-137",
     "subject": "Filipino",
-    "prompt": "Kabataan: Pag-asa ng Bayan\n“Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\nMula sa Likha IV nina Samonte, et al.\n\n“Ang kabataan ay pag-asa ng bayan.” Ano ang implikasyon ng pangungusap na ito?",
+    "prompt": "Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-asa ng bayan.” Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan. Maraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamaghalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan? Mula sa Likha IV nina Samonte, et al. “Ang kabataan ay pag-asa ng bayan.” Ano ang implikasyon ng pangungusap na ito?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Kabataan: Pag-asa ng Bayan “Ang kabataan ang pag-a (item fi-137).",
     "choices": [
       {
@@ -3702,7 +3702,7 @@
   {
     "id": "fi-138",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAno ang Ixora coccinea L.?",
+    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al. Ano ang Ixora coccinea L.?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pang-agham na pangalan ay Ixora coccinea L. at (item fi-138).",
     "choices": [
       {
@@ -3730,7 +3730,7 @@
   {
     "id": "fi-139",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAlin sa mga sumusunod na pangungusap ang wasto?",
+    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al. Alin sa mga sumusunod na pangungusap ang wasto?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pang-agham na pangalan ay Ixora coccinea L. at (item fi-139).",
     "choices": [
       {
@@ -3758,7 +3758,7 @@
   {
     "id": "fi-140",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAnong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
+    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al. Anong bahagi ng Santan ang may pinakamaraming gamit bilang gamot.",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pang-agham na pangalan ay Ixora coccinea L. at (item fi-140).",
     "choices": [
       {
@@ -3786,7 +3786,7 @@
   {
     "id": "fi-141",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAno ang pinakamabuting pamagat para sa talatang nabasa?",
+    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al. Ano ang pinakamabuting pamagat para sa talatang nabasa?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Ang pang-agham na pangalan ay Ixora coccinea L. at.",
     "choices": [
       {
@@ -3814,7 +3814,7 @@
   {
     "id": "fi-142",
     "subject": "Filipino",
-    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain.\nMabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\nHango sa: Likha IV nina Samonte, et al.\n\nAlin sa mga sumusunod ang wastong gamit ng solusyon mula sa pinakulong ugat ng santan?",
+    "prompt": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan – may puti, pula, dilaw at malaginto. Iba-iba rin ang laki – may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan. Hango sa: Likha IV nina Samonte, et al. Alin sa mga sumusunod ang wastong gamit ng solusyon mula sa pinakulong ugat ng santan?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Ang pang-agham na pangalan ay Ixora coccinea L. at (item fi-142).",
     "choices": [
       {
@@ -3842,7 +3842,7 @@
   {
     "id": "fi-143",
     "subject": "Filipino",
-    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa.\n\nAno ang pangunahing diwa ng seleksiyon?",
+    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao. Sa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan. Dagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa. Ano ang pangunahing diwa ng seleksiyon?",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Bakit mahalaga ang pagbabasa sa ating buhay? Sapag (item fi-143).",
     "choices": [
       {
@@ -3870,7 +3870,7 @@
   {
     "id": "fi-144",
     "subject": "Filipino",
-    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa.\n\nBakit mahalaga ang pagbabasa?",
+    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao. Sa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan. Dagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa. Bakit mahalaga ang pagbabasa?",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Bakit mahalaga ang pagbabasa sa ating buhay? Sapag (item fi-144).",
     "choices": [
       {
@@ -3898,7 +3898,7 @@
   {
     "id": "fi-145",
     "subject": "Filipino",
-    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao.\nSa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan.\nDagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa.\n\nAno ang pinakamainam na pamagat ng nabasa?",
+    "prompt": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao. Sa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan. Dagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya, teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa. Ano ang pinakamainam na pamagat ng nabasa?",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: Bakit mahalaga ang pagbabasa sa ating buhay? Sapag (item fi-145).",
     "choices": [
       {
@@ -3926,7 +3926,7 @@
   {
     "id": "fi-146",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang paksang pangungusap sa talata?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin. Hango sa: Gamiting Pilipino nina Buensuceso, et al. Ano ang paksang pangungusap sa talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-146).",
     "choices": [
       {
@@ -3952,7 +3952,7 @@
   {
     "id": "fi-147",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAno ang pinakamainam na pamagat sa talata?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin. Hango sa: Gamiting Pilipino nina Buensuceso, et al. Ano ang pinakamainam na pamagat sa talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-147).",
     "choices": [
       {
@@ -3978,7 +3978,7 @@
   {
     "id": "fi-148",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAlin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin. Hango sa: Gamiting Pilipino nina Buensuceso, et al. Alin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-148).",
     "choices": [
       {
@@ -4004,7 +4004,7 @@
   {
     "id": "fi-149",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nPaano nagbago ang pananaw ng tao hinggil sa mga mata?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin. Hango sa: Gamiting Pilipino nina Buensuceso, et al. Paano nagbago ang pananaw ng tao hinggil sa mga mata?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-149).",
     "choices": [
       {
@@ -4030,7 +4030,7 @@
   {
     "id": "fi-150",
     "subject": "Filipino",
-    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\nHango sa: Gamiting Pilipino nina Buensuceso, et al.\n\nAnong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
+    "prompt": "Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asa, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito’y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin. Hango sa: Gamiting Pilipino nina Buensuceso, et al. Anong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nakikita sa mata ang iba’t ibang emosyon. Tuwa, lu (item fi-150).",
     "choices": [
       {
@@ -4056,7 +4056,7 @@
   {
     "id": "fi-151",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nTungkol saan ang grapong nabasa?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang 1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon. Tungkol saan ang grapong nabasa?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-151).",
     "choices": [
       {
@@ -4083,7 +4083,7 @@
   {
     "id": "fi-152",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo\n1996?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang 1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon. Gaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 1996?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-152).",
     "choices": [
       {
@@ -4110,7 +4110,7 @@
   {
     "id": "fi-153",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nKailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang 1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon. Kailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-153).",
     "choices": [
       {
@@ -4137,7 +4137,7 @@
   {
     "id": "fi-154",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nGaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang\n₱145?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang 1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon. Gaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang ₱145?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-154).",
     "choices": [
       {
@@ -4164,7 +4164,7 @@
   {
     "id": "fi-155",
     "subject": "Filipino",
-    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang\n1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon.\n\nIlang beses nagkaroon ng dalawampung piso (₱20) pagtaas sa minimum wage?",
+    "prompt": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang 1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba’t ibang taon. Ilang beses nagkaroon ng dalawampung piso (₱20) pagtaas sa minimum wage?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Makikita sa ibaba ang tsart ng Minimum Wage sa May (item fi-155).",
     "choices": [
       {
@@ -4191,7 +4191,7 @@
   {
     "id": "fi-156",
     "subject": "Filipino",
-    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong pamagat ang angkop sa tsart sa itaas?",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5, 000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110, 000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236, 300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2, 480, 000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106, 000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306, 000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672, 000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1, 173, 000 tropa.\nAnong pamagat ang angkop sa tsart sa itaas?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-156).",
     "choices": [
       {
@@ -4220,7 +4220,7 @@
   {
     "id": "fi-157",
     "subject": "Filipino",
-    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may pinakamataas na bilang ng tropa sa mga pagpipilian?",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5, 000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110, 000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236, 300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2, 480, 000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106, 000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306, 000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672, 000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1, 173, 000 tropa.\nAnong bansa ang may pinakamataas na bilang ng tropa sa mga pagpipilian?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-157).",
     "choices": [
       {
@@ -4241,7 +4241,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672,000.",
+    "explanation": "Sa mga pagpipilian, South Korea ang may pinakamataas na bilang ng tropa: 672, 000.",
     "image": "/question-images/military-budget-chart.png",
     "passageId": "passage-fi-156",
     "passageOrder": 2
@@ -4249,7 +4249,7 @@
   {
     "id": "fi-158",
     "subject": "Filipino",
-    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet militar sa mga pagpipilian?",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5, 000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110, 000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236, 300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2, 480, 000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106, 000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306, 000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672, 000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1, 173, 000 tropa.\nAnong bansa ang may inilalaang pinakamalaking porsiyento ng GDP para sa badyet militar sa mga pagpipilian?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-158).",
     "choices": [
       {
@@ -4278,7 +4278,7 @@
   {
     "id": "fi-159",
     "subject": "Filipino",
-    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAnong bansa ang may pinakamalaking GDP sa mga pagpipilian?",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5, 000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110, 000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236, 300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2, 480, 000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106, 000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306, 000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672, 000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1, 173, 000 tropa.\nAnong bansa ang may pinakamalaking GDP sa mga pagpipilian?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-159).",
     "choices": [
       {
@@ -4307,7 +4307,7 @@
   {
     "id": "fi-160",
     "subject": "Filipino",
-    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5,000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110,000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236,300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2,480,000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106,000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306,000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672,000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1,173,000 tropa.\n\nAno ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang pangmilitar ng Brunei?",
+    "prompt": "Gamitin ang tsart tungkol sa badyet at katayuang pangmilitar ng mga piling bansa:\nBrunei: $357M budget, 6.5% ng GDP, 5, 000 tropa.\nRP: $1B budget, 1.5% ng GDP, 110, 000 tropa.\nJapan: $41.1B budget, 1.1% ng GDP, 236, 300 tropa.\nChina: $11B budget, 1.6% ng GDP, 2, 480, 000 tropa.\nMalaysia: $3.3B budget, 3.75% ng GDP, 106, 000 tropa.\nThailand: $2B budget, 1.5% ng GDP, 306, 000 tropa.\nSouth Korea: $13.2B budget, 3.1% ng GDP, 672, 000 tropa.\nIndia: $10B budget, 2.1% ng GDP, 1, 173, 000 tropa.\nAno ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang pangmilitar ng Brunei?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Gamitin ang tsart tungkol sa badyet at katayuang p (item fi-160).",
     "choices": [
       {
@@ -4336,7 +4336,7 @@
   {
     "id": "fi-161",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\nAno ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ayon sa batas na ito, pagbabayarin ang mga may- (item fi-161).",
     "choices": [
       {
@@ -4364,7 +4364,7 @@
   {
     "id": "fi-162",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
+    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\nKung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
     "hint": "Pagkilala sa mali: suriin baybay, panlapi, at ayos. Pangungusap: A. Ayon sa batas na ito, pagbabayarin ang mga may-.",
     "choices": [
       {
@@ -4392,7 +4392,7 @@
   {
     "id": "fi-163",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\n\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
+    "prompt": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang “Clean Air Act” ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng “tax break”.\nD. Ano nga ba ang “Clean Air Act”?\nAno ang pinaka-angkop na pamagat sa nabuong talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ayon sa batas na ito, pagbabayarin ang mga may- (item fi-163).",
     "choices": [
       {
@@ -4420,7 +4420,7 @@
   {
     "id": "fi-164",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
+    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\nAno ang wastong pagkakasunod-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ayon sa saligang batas, maraming mga katangiang (item fi-164).",
     "choices": [
       {
@@ -4448,7 +4448,7 @@
   {
     "id": "fi-165",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang pamamaraang ginamit upang mabuo ang talata?",
+    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\nAno ang pamamaraang ginamit upang mabuo ang talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ayon sa saligang batas, maraming mga katangiang (item fi-165).",
     "choices": [
       {
@@ -4476,7 +4476,7 @@
   {
     "id": "fi-166",
     "subject": "Filipino",
-    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa ang isang dayuhan?",
+    "prompt": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\nAnong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa ang isang dayuhan?",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: A. Ayon sa saligang batas, maraming mga katangiang.",
     "choices": [
       {
@@ -4504,7 +4504,7 @@
   {
     "id": "fi-167",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\nAno ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla (item fi-167).",
     "choices": [
       {
@@ -4532,7 +4532,7 @@
   {
     "id": "fi-168",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\nAno ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla (item fi-168).",
     "choices": [
       {
@@ -4560,7 +4560,7 @@
   {
     "id": "fi-169",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang angkop na pamagat para sa talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\nAno ang angkop na pamagat para sa talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla (item fi-169).",
     "choices": [
       {
@@ -4588,7 +4588,7 @@
   {
     "id": "fi-170",
     "subject": "Filipino",
-    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
+    "prompt": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba’t ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\nKung idaragdag bilang pangungusap E ang sumusunod na pangungusap: “Ang mga\nIndones ay dumating nang dalawang bugso may limang libong taon na ang nakaraan”; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: A. Ang mga ito ay nagmula sa Gitnang Asya at nagla (item fi-170).",
     "choices": [
       {
@@ -4720,7 +4720,7 @@
   {
     "id": "fi-175",
     "subject": "Filipino",
-    "prompt": "Nagawang mabago ng mga kasalukuyang awitin ang kamalayan ng Pilipino upang kantahin ang sarili niyang mga awit sa tanging wikang nakapagsasatinig sa kanyang kaluluwa.\nIsinasaad ng pangungusap na __________.",
+    "prompt": "Nagawang mabago ng mga kasalukuyang awitin ang kamalayan ng Pilipino upang kantahin ang sarili niyang mga awit sa tanging wikang nakapagsasatinig sa kanyang kaluluwa. Isinasaad ng pangungusap na __________.",
     "hint": "Basahin ang buong aytem; piliin ang pinakatugma sa diwa. Pokusan: Nagawang mabago ng mga kasalukuyang awitin ang kam.",
     "choices": [
       {
@@ -4750,7 +4750,7 @@
   {
     "id": "fi-176",
     "subject": "Filipino",
-    "prompt": "Ang pagbaba ng halaga ng piso lumikha ng krisis sa maraming industriya ng bansa.\n\nKasunod nito ang pagtitipid at problema sa kawalan ng mapasukang trabaho.\n\nLumikha rin ito ng pagtataas ng presyo ng mga bilihin na labis nakaapekto sa kita ng mga manggagawa.\n\nAyon sa talata __________.",
+    "prompt": "Ang pagbaba ng halaga ng piso lumikha ng krisis sa maraming industriya ng bansa.\nKasunod nito ang pagtitipid at problema sa kawalan ng mapasukang trabaho.\nLumikha rin ito ng pagtataas ng presyo ng mga bilihin na labis nakaapekto sa kita ng mga manggagawa.\nAyon sa talata __________.",
     "hint": "Pag-unawa: hanapin sa talata ang ebidensya. Tanong tungkol sa: Ang pagbaba ng halaga ng piso lumikha ng krisis sa.",
     "choices": [
       {

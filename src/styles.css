@@ -2136,3 +2136,23 @@ h2 {
     linear-gradient(315deg, rgba(255, 255, 255, 0.03), transparent 38%),
     var(--surface);
 }
+
+
+/* KaTeX math in prompts / choices / explanations */
+.math-text .katex {
+  font-size: 1.05em;
+}
+.math-inline {
+  display: inline;
+  white-space: nowrap;
+}
+.math-display {
+  display: block;
+  margin: 0.35em 0;
+  overflow-x: auto;
+}
+.choice .math-text .katex,
+.hint-panel__text .katex,
+.explanation .katex {
+  font-size: 1em;
+}

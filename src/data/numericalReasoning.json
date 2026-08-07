@@ -2,7 +2,7 @@
   {
     "id": "nr-001",
     "subject": "Numerical Reasoning",
-    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 +\n17 + 18 + 19 + 20 =?",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 =?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 11 + 12 + 13 +.",
     "choices": [
       {
@@ -75,7 +75,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Compute 800 × 125. Rewrite 125 as 1000/8: 800 × 125 = 800 × (1000/8) = (800/8) × 1000 = 100 × 1000 = 100,000."
+    "explanation": "Compute 800 × 125. Rewrite 125 as 1000/8: 800 × 125 = 800 × (1000/8) = (800/8) × 1000 = 100 × 1000 = 100, 000."
   },
   {
     "id": "nr-004",
@@ -101,7 +101,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "8,000 ÷ 125 = 64 because 125 × 64 = 8,000."
+    "explanation": "8, 000 ÷ 125 = 64 because 125 × 64 = 8, 000."
   },
   {
     "id": "nr-005",
@@ -127,12 +127,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "299 + 101 = 400 and 943 + 398 = 1,341, so the total is 1,741."
+    "explanation": "299 + 101 = 400 and 943 + 398 = 1, 341, so the total is 1, 741."
   },
   {
     "id": "nr-006",
     "subject": "Numerical Reasoning",
-    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103 + 104 + 105\n+ 106 + 107 + 108 + 109 + 110 =?",
+    "prompt": "If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103 + 104 + 105 + 106 + 107 + 108 + 109 + 110 =?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: If 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55, then 101 + 102 + 103.",
     "choices": [
       {
@@ -153,7 +153,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The sum 1 through 10 equals 55. Adding 100 to each of those ten terms adds 1,000, so 101 through 110 equals 55 + 1,000 = 1,055."
+    "explanation": "The sum 1 through 10 equals 55. Adding 100 to each of those ten terms adds 1, 000, so 101 through 110 equals 55 + 1, 000 = 1, 055."
   },
   {
     "id": "nr-007",
@@ -179,7 +179,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "A number is divisible by 8 when its last three digits form a multiple of 8. 888 ÷ 8 = 111, so 192,888 leaves remainder 0."
+    "explanation": "A number is divisible by 8 when its last three digits form a multiple of 8. 888 ÷ 8 = 111, so 192, 888 leaves remainder 0."
   },
   {
     "id": "nr-008",
@@ -205,12 +205,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "To round 299,943 to the nearest thousand, look at the hundreds digit (9). Since 9 ≥ 5, round up to 300,000."
+    "explanation": "To round 299, 943 to the nearest thousand, look at the hundreds digit (9). Since 9 ≥ 5, round up to 300, 000."
   },
   {
     "id": "nr-009",
     "subject": "Numerical Reasoning",
-    "prompt": "If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find the value of\nx – y?",
+    "prompt": "If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find the value of x – y?",
     "hint": "Translate to algebra: ‘8 less than 3x’ → 3x − 8; ‘product of n and −3’ → −3n. Then solve. Item: If 23 + 28 + 37 + x + 53 = 168 and 23 + 28 + 40 + y + 50 = 120. Find.",
     "choices": [
       {
@@ -262,7 +262,7 @@
   {
     "id": "nr-011",
     "subject": "Numerical Reasoning",
-    "prompt": "A number is divisible by 8 if its last three digits is divisible by 8. Which of the\nfollowing numbers is divisible by 8?",
+    "prompt": "A number is divisible by 8 if its last three digits is divisible by 8. Which of the following numbers is divisible by 8?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: A number is divisible by 8 if its last three digits is divisible by.",
     "choices": [
       {
@@ -283,7 +283,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Only 9,208 has last three digits 208, and 208 ÷ 8 = 26, so it is divisible by 8."
+    "explanation": "Only 9, 208 has last three digits 208, and 208 ÷ 8 = 26, so it is divisible by 8."
   },
   {
     "id": "nr-012",
@@ -710,12 +710,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "If m is divisible by both 3 and 8, it is divisible by LCM(3,8)=24."
+    "explanation": "If m is divisible by both 3 and 8, it is divisible by LCM(3, 8)=24."
   },
   {
     "id": "nr-029",
     "subject": "Numerical Reasoning",
-    "prompt": "If positive integers m and n are not both odd, which of the following is always\ntrue?",
+    "prompt": "If positive integers m and n are not both odd, which of the following is always true?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: If positive integers m and n are not both odd, which of the following.",
     "choices": [
       {
@@ -741,7 +741,7 @@
   {
     "id": "nr-030",
     "subject": "Numerical Reasoning",
-    "prompt": "Find the average temperature change for the 12-day period. Temperature\nchange in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2",
+    "prompt": "Find the average temperature change for the 12-day period. Temperature change in degree celsius: 2.6, 3.8, 7.0, 4.5, 4.6, 7.9, 5.0, 8.1, 4.4, 5.3, 6.4, 5.2",
     "hint": "Mean formula: average = (sum of values) ÷ (number of values). Total = average × n. Item: Find the average temperature change for the 12-day period..",
     "choices": [
       {
@@ -819,7 +819,7 @@
   {
     "id": "nr-033",
     "subject": "Numerical Reasoning",
-    "prompt": "If 8 less than the product of a number and -3 is greater than 7, which of the\nfollowing could be that number?",
+    "prompt": "If 8 less than the product of a number and -3 is greater than 7, which of the following could be that number?",
     "hint": "Translate to algebra: ‘8 less than 3x’ → 3x − 8; ‘product of n and −3’ → −3n. Then solve. Item: If 8 less than the product of a number and -3 is greater than 7,.",
     "choices": [
       {
@@ -871,8 +871,8 @@
   {
     "id": "nr-035",
     "subject": "Numerical Reasoning",
-    "prompt": "Four times the perimeter of a parking lot is 16 less than 2,000 meters. What is\nthe perimeter of the lot?",
-    "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: Four times the perimeter of a parking lot is 16 less than 2,000.",
+    "prompt": "Four times the perimeter of a parking lot is 16 less than 2, 000 meters. What is the perimeter of the lot?",
+    "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: Four times the perimeter of a parking lot is 16 less than 2, 000.",
     "choices": [
       {
         "id": "A",
@@ -892,12 +892,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Four times the perimeter is 16 less than 2,000: 4P = 2,000 − 16 = 1,984. Divide by 4: P = 496 meters."
+    "explanation": "Four times the perimeter is 16 less than 2, 000: 4P = 2, 000 − 16 = 1, 984. Divide by 4: P = 496 meters."
   },
   {
     "id": "nr-036",
     "subject": "Numerical Reasoning",
-    "prompt": "The amount of last month's telephone bill, decreased by the product of 3 and Php30.00, equals Php1,319.50. What was the amount of last month's telephone bill?",
+    "prompt": "The amount of last month's telephone bill, decreased by the product of 3 and Php30.00, equals Php1, 319.50. What was the amount of last month's telephone bill?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: The amount of last month's telephone bill, decreased by the product.",
     "choices": [
       {
@@ -918,12 +918,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Bill − (3 × 30) = 1,319.50 → Bill − 90 = 1,319.50 → Bill = 1,409.50."
+    "explanation": "Bill − (3 × 30) = 1, 319.50 → Bill − 90 = 1, 319.50 → Bill = 1, 409.50."
   },
   {
     "id": "nr-037",
     "subject": "Numerical Reasoning",
-    "prompt": "Eighteen less than seven times the number of sandwiches is 269. How many\nsandwiches are there?",
+    "prompt": "Eighteen less than seven times the number of sandwiches is 269. How many sandwiches are there?",
     "hint": "Translate to algebra: ‘8 less than 3x’ → 3x − 8; ‘product of n and −3’ → −3n. Then solve. Item: Eighteen less than seven times the number of sandwiches is 269. How.",
     "choices": [
       {
@@ -949,7 +949,7 @@
   {
     "id": "nr-038",
     "subject": "Numerical Reasoning",
-    "prompt": "A house and lot are sold for Php14M. The house costs 1.5 times as much as the\nlot. How much does the lot cost?",
+    "prompt": "A house and lot are sold for Php14M. The house costs 1.5 times as much as the lot. How much does the lot cost?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: A house and lot are sold for Php14M. The house costs 1.5 times as.",
     "choices": [
       {
@@ -975,8 +975,8 @@
   {
     "id": "nr-039",
     "subject": "Numerical Reasoning",
-    "prompt": "The sale price of a television set is Php7,200. The discount rate is 40%. Find its\nregular price.",
-    "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: The sale price of a television set is Php7,200. The discount rate is.",
+    "prompt": "The sale price of a television set is Php7, 200. The discount rate is 40%. Find its regular price.",
+    "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: The sale price of a television set is Php7, 200. The discount rate is.",
     "choices": [
       {
         "id": "A",
@@ -996,12 +996,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "A 40% discount means the sale price is 60% of regular price: 7,200 ÷ 0.60 = 12,000."
+    "explanation": "A 40% discount means the sale price is 60% of regular price: 7, 200 ÷ 0.60 = 12, 000."
   },
   {
     "id": "nr-040",
     "subject": "Numerical Reasoning",
-    "prompt": "The lengths of the sides of a triangle can be represented by three consecutive\nintegers. The perimeter of the triangle is 96cm. Find the length of the longest side\nof the triangle.",
+    "prompt": "The lengths of the sides of a triangle can be represented by three consecutive integers. The perimeter of the triangle is 96cm. Find the length of the longest side of the triangle.",
     "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: The lengths of the sides of a triangle can be represented by three.",
     "choices": [
       {
@@ -1027,7 +1027,7 @@
   {
     "id": "nr-041",
     "subject": "Numerical Reasoning",
-    "prompt": "The length of a rectangle is 8 meters more than twice its width. The perimeter is\n112 meters. Find its area.",
+    "prompt": "The length of a rectangle is 8 meters more than twice its width. The perimeter is 112 meters. Find its area.",
     "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: The length of a rectangle is 8 meters more than twice its width. The.",
     "choices": [
       {
@@ -1053,7 +1053,7 @@
   {
     "id": "nr-042",
     "subject": "Numerical Reasoning",
-    "prompt": "Paula is twice as old as Queenie. Seven years ago the sum of their ages was 16.\nHow old is Queenie now?",
+    "prompt": "Paula is twice as old as Queenie. Seven years ago the sum of their ages was 16. How old is Queenie now?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: Paula is twice as old as Queenie. Seven years ago the sum of their.",
     "choices": [
       {
@@ -1131,7 +1131,7 @@
   {
     "id": "nr-045",
     "subject": "Numerical Reasoning",
-    "prompt": "A patient must take his medication every 7 hours starting at 7:00 AM, Sunday.\nOn what day will the patient first receive his medication at 8 AM?",
+    "prompt": "A patient must take his medication every 7 hours starting at 7:00 AM, Sunday. On what day will the patient first receive his medication at 8 AM?",
     "hint": "Ratio a:b means a/(a+b) of the whole for a’s share. Or set a/b = c/d and cross-multiply. Item: A patient must take his medication every 7 hours starting at 7:00 AM,.",
     "choices": [
       {
@@ -1157,7 +1157,7 @@
   {
     "id": "nr-046",
     "subject": "Numerical Reasoning",
-    "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have a regular day of the week\non which they shop. What percentage of the shoppers did not have a regular day\nof shopping?",
+    "prompt": "Of the 300 grocery shoppers surveyed, 96 did not have a regular day of the week on which they shop. What percentage of the shoppers did not have a regular day of shopping?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: Of the 300 grocery shoppers surveyed, 96 did not have a regular day.",
     "choices": [
       {
@@ -1209,7 +1209,7 @@
   {
     "id": "nr-048",
     "subject": "Numerical Reasoning",
-    "prompt": "How many containers each occupies an area of 2 1/8 square meters can be\nstored in a 952 square meter warehouse?",
+    "prompt": "How many containers each occupies an area of 2 1/8 square meters can be stored in a 952 square meter warehouse?",
     "hint": "Use the stated figure’s formula (circle: C = 2πr, A = πr²; triangle: A = ½bh). Item: How many containers each occupies an area of 2 1/8 square meters can.",
     "choices": [
       {
@@ -1235,7 +1235,7 @@
   {
     "id": "nr-049",
     "subject": "Numerical Reasoning",
-    "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15,000 a\nmonth. Next year the starting salary will be raised to Php18,000. What is the rate\nof increase in the starting salary?",
+    "prompt": "A starting salary of a secretary at ABC Computer Specialists is Php15, 000 a month. Next year the starting salary will be raised to Php18, 000. What is the rate of increase in the starting salary?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: A starting salary of a secretary at ABC Computer Specialists is.",
     "choices": [
       {
@@ -1256,12 +1256,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Rate of increase = (18,000 − 15,000)/15,000 = 20%."
+    "explanation": "Rate of increase = (18, 000 − 15, 000)/15, 000 = 20%."
   },
   {
     "id": "nr-050",
     "subject": "Numerical Reasoning",
-    "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago\nwas Php12,500. There was a 420% increase in the price in the last five years.\nWhat is the price per square meter of that lot today?",
+    "prompt": "The cost of a square meter commercial lot in a certain municipality five years ago was Php12, 500. There was a 420% increase in the price in the last five years. What is the price per square meter of that lot today?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: The cost of a square meter commercial lot in a certain municipality.",
     "choices": [
       {
@@ -1282,12 +1282,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "A 420% increase multiplies the original by 5.20: 12,500 × 5.20 = 65,000."
+    "explanation": "A 420% increase multiplies the original by 5.20: 12, 500 × 5.20 = 65, 000."
   },
   {
     "id": "nr-051",
     "subject": "Numerical Reasoning",
-    "prompt": "Last month, a store manager decided to decrease the prices of all items by 10%.\nThis month, he increased the prices by 10%. What would be the price for a pair\nof pants that had cost Php750 before prices were decreased last month?",
+    "prompt": "Last month, a store manager decided to decrease the prices of all items by 10%. This month, he increased the prices by 10%. What would be the price for a pair of pants that had cost Php750 before prices were decreased last month?",
     "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: Last month, a store manager decided to decrease the prices of all.",
     "choices": [
       {
@@ -1313,7 +1313,7 @@
   {
     "id": "nr-052",
     "subject": "Numerical Reasoning",
-    "prompt": "When the original price of an item is increased by a certain rate, the increased\nprice is Php3,100. When the original price is decreased by the same rate, the\ndecreased price is Php1,900. What is the original price of this item?",
+    "prompt": "When the original price of an item is increased by a certain rate, the increased price is Php3, 100. When the original price is decreased by the same rate, the decreased price is Php1, 900. What is the original price of this item?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: When the original price of an item is increased by a certain rate,.",
     "choices": [
       {
@@ -1334,13 +1334,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "P(1+r)=3,100 and P(1−r)=1,900. Adding gives 2P=5,000 → P=2,500."
+    "explanation": "P(1+r)=3, 100 and P(1−r)=1, 900. Adding gives 2P=5, 000 → P=2, 500."
   },
   {
     "id": "nr-053",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must one invest in corporate bonds paying 9.6% in order to earn an income of Php12,000 per annum?",
-    "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: How much must one invest in corporate bonds paying 9.6% in order to.",
+    "prompt": "How much must one invest in corporate bonds paying 9.6% in order to earn an income of Php12, 000 per annum?",
+    "hint": "Interest/income item: income = principal × rate. Solve for principal: principal = income ÷ rate. Convert 9.6% to 0.096 first.",
     "choices": [
       {
         "id": "A",
@@ -1360,12 +1360,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Principal = 12000 / 0.096 = 125000. Correct answer is C (Php125,000)."
+    "explanation": "Annual income = principal × rate. Principal = 12, 000 ÷ 0.096 = 125, 000. Answer C (Php125, 000)."
   },
   {
     "id": "nr-054",
     "subject": "Numerical Reasoning",
-    "prompt": "How much must be cut from the edge of a piece of glass 16 1/8 cm wide, in order\nfor it to fit into an opening 14 ¾ cm wide?",
+    "prompt": "How much must be cut from the edge of a piece of glass 16 1/8 cm wide, in order for it to fit into an opening 14 ¾ cm wide?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: How much must be cut from the edge of a piece of glass 16 1/8 cm.",
     "choices": [
       {
@@ -1391,7 +1391,7 @@
   {
     "id": "nr-055",
     "subject": "Numerical Reasoning",
-    "prompt": "A race car traveled for 2 ½ hours with an average speed of 132 5/8 km per hour.\nFind the total distance it covered.",
+    "prompt": "A race car traveled for 2 ½ hours with an average speed of 132 5/8 km per hour. Find the total distance it covered.",
     "hint": "Use d = r × t (distance = rate × time). Convert minutes to hours if needed (30 min = 0.5 h). Item: A race car traveled for 2 ½ hours with an average speed of 132 5/8 km.",
     "choices": [
       {
@@ -1412,12 +1412,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Distance = 2½ × 132⅝ = (5/2)×(1,061/8) = 5,305/16 = 331 9/16 km."
+    "explanation": "Distance = 2½ × 132⅝ = (5/2)×(1, 061/8) = 5, 305/16 = 331 9/16 km."
   },
   {
     "id": "nr-056",
     "subject": "Numerical Reasoning",
-    "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what\nwill be its weight with a full load?",
+    "prompt": "If the weight of a 241-kg freight car increases 3 1/8 times when fully loaded, what will be its weight with a full load?",
     "hint": "Fractions: find a common denominator to add/subtract; multiply numerators and denominators straight across. Item: If the weight of a 241-kg freight car increases 3 1/8 times when.",
     "choices": [
       {
@@ -1438,12 +1438,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "241 × 3⅛ = 241 × 25/8 = 7,531.25? 241×25=6,025; 6,025/8 = 753 1/8 kg."
+    "explanation": "241 × 3⅛ = 241 × 25/8 = 7, 531.25? 241×25=6, 025; 6, 025/8 = 753 1/8 kg."
   },
   {
     "id": "nr-057",
     "subject": "Numerical Reasoning",
-    "prompt": "How many liters will remain in 1 1000-liter storage tank if 8.2% of the liquid has\nevaporated due to excessive heat?",
+    "prompt": "How many liters will remain in 1 1000-liter storage tank if 8.2% of the liquid has evaporated due to excessive heat?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: How many liters will remain in 1 1000-liter storage tank if 8.2% of.",
     "choices": [
       {
@@ -1464,12 +1464,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Remaining = 1,000 × (1 − 0.082) = 918 liters."
+    "explanation": "Remaining = 1, 000 × (1 − 0.082) = 918 liters."
   },
   {
     "id": "nr-058",
     "subject": "Numerical Reasoning",
-    "prompt": "Dante recently sold some stocks for which he originally bought for Php358. If it\nhas increased in value by 116%, how much did he receive for the stock?",
+    "prompt": "Dante recently sold some stocks for which he originally bought for Php358. If it has increased in value by 116%, how much did he receive for the stock?",
     "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: Dante recently sold some stocks for which he originally bought for.",
     "choices": [
       {
@@ -1495,7 +1495,7 @@
   {
     "id": "nr-059",
     "subject": "Numerical Reasoning",
-    "prompt": "Mr. Manny Vargas, a real estate broker sold a building for Php175M. How much\ndid he receive if his commission is 5.5% of the sale price of the property?",
+    "prompt": "Mr. Manny Vargas, a real estate broker sold a building for Php175M. How much did he receive if his commission is 5.5% of the sale price of the property?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: Mr. Manny Vargas, a real estate broker sold a building for Php175M..",
     "choices": [
       {
@@ -1516,12 +1516,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "175,000,000 × 5.5% = 9,625,000 = Php9.625M."
+    "explanation": "175, 000, 000 × 5.5% = 9, 625, 000 = Php9.625M."
   },
   {
     "id": "nr-060",
     "subject": "Numerical Reasoning",
-    "prompt": "If 560 out of 700 examinees passed in the recent Career Service exam for Sub-\nProfessional level, what percent of the examinees passed?",
+    "prompt": "If 560 out of 700 examinees passed in the recent Career Service exam for Sub- Professional level, what percent of the examinees passed?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: If 560 out of 700 examinees passed in the recent Career Service exam.",
     "choices": [
       {
@@ -1547,8 +1547,8 @@
   {
     "id": "nr-061",
     "subject": "Numerical Reasoning",
-    "prompt": "Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000\ninterest. What rate of interest did Asian Bank charge for the loan?",
-    "hint": "Simple interest: I = P × r × t (or r = I / P when t = 1 year). Solve for the missing letter. Item: Mr. Cruz borrows Php750,000 from Asian Bank and is charged Php90,000.",
+    "prompt": "Mr. Cruz borrows Php750, 000 from Asian Bank and is charged Php90, 000 interest. What rate of interest did Asian Bank charge for the loan?",
+    "hint": "Simple interest: I = P × r × t (or r = I / P when t = 1 year). Solve for the missing letter. Item: Mr. Cruz borrows Php750, 000 from Asian Bank and is charged Php90, 000.",
     "choices": [
       {
         "id": "A",
@@ -1568,13 +1568,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "90,000 / 750,000 = 12%."
+    "explanation": "90, 000 / 750, 000 = 12%."
   },
   {
     "id": "nr-062",
     "subject": "Numerical Reasoning",
-    "prompt": "A store sells shirts for Php1,078 each or 3 for Php2,997. How much would one save by buying 3 shirts at a time instead of 3 shirts, one at a time?",
-    "hint": "List the givens, name the unknown, pick one clear operation path. Item: A store sells shirts for Php1,078 each or 3 for Php2,997. How much.",
+    "prompt": "A store sells shirts for Php1, 078 each or 3 for Php2, 997. How much would one save by buying 3 shirts at a time instead of 3 shirts, one at a time?",
+    "hint": "List the givens, name the unknown, pick one clear operation path. Item: A store sells shirts for Php1, 078 each or 3 for Php2, 997. How much.",
     "choices": [
       {
         "id": "A",
@@ -1594,13 +1594,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Buying one at a time: 3 × 1,078 = 3,234. Buying the package: 2,997. Savings: 3,234 − 2,997 = 237."
+    "explanation": "Buying one at a time: 3 × 1, 078 = 3, 234. Buying the package: 2, 997. Savings: 3, 234 − 2, 997 = 237."
   },
   {
     "id": "nr-063",
     "subject": "Numerical Reasoning",
-    "prompt": "A computer can be rented for Php1,745 a week or Php347.50 a day. You need the computer only for 6 days. How much do you save by renting weekly instead of daily?",
-    "hint": "List the givens, name the unknown, pick one clear operation path. Item: A computer can be rented for Php1,745 a week or Php347.50 a day. You.",
+    "prompt": "A computer can be rented for Php1, 745 a week or Php347.50 a day. You need the computer only for 6 days. How much do you save by renting weekly instead of daily?",
+    "hint": "List the givens, name the unknown, pick one clear operation path. Item: A computer can be rented for Php1, 745 a week or Php347.50 a day. You.",
     "choices": [
       {
         "id": "A",
@@ -1620,12 +1620,12 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Six days at the daily rate cost 6 × 347.50 = 2,085. The weekly rate is 1,745, which is Php340 cheaper."
+    "explanation": "Six days at the daily rate cost 6 × 347.50 = 2, 085. The weekly rate is 1, 745, which is Php340 cheaper."
   },
   {
     "id": "nr-064",
     "subject": "Numerical Reasoning",
-    "prompt": "A 1.25 kg of box of Brand A detergent sells for Php87.50. A 1.5 kg box of Brand\nB detergent sells for Php103.20. What is the difference in the price per kg.?",
+    "prompt": "A 1.25 kg of box of Brand A detergent sells for Php87.50. A 1.5 kg box of Brand B detergent sells for Php103.20. What is the difference in the price per kg.?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: A 1.25 kg of box of Brand A detergent sells for Php87.50. A 1.5 kg.",
     "choices": [
       {
@@ -1651,7 +1651,7 @@
   {
     "id": "nr-065",
     "subject": "Numerical Reasoning",
-    "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe\nper meter?",
+    "prompt": "A 30-cm long plastic pipe costs Php249. At this rate, what is the price of the pipe per meter?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: A 30-cm long plastic pipe costs Php249. At this rate, what is the.",
     "choices": [
       {
@@ -1677,8 +1677,8 @@
   {
     "id": "nr-066",
     "subject": "Numerical Reasoning",
-    "prompt": "A homeowner can rent a chain saw from a rental agency at Php2,700 a day. A brand-new saw of the same model can be bought for Php18,900. For how many days could the homeowner rent the saw before renting would cost more than buying?",
-    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: A homeowner can rent a chain saw from a rental agency at Php2,700 a.",
+    "prompt": "A homeowner can rent a chain saw from a rental agency at Php2, 700 a day. A brand-new saw of the same model can be bought for Php18, 900. For how many days could the homeowner rent the saw before renting would cost more than buying?",
+    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: A homeowner can rent a chain saw from a rental agency at Php2, 700 a.",
     "choices": [
       {
         "id": "A",
@@ -1698,12 +1698,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "18,900 ÷ 2,700 = 7. After 7 days of renting, cost equals buying; beyond that, renting costs more. Answer C (7)."
+    "explanation": "18, 900 ÷ 2, 700 = 7. After 7 days of renting, cost equals buying; beyond that, renting costs more. Answer C (7)."
   },
   {
     "id": "nr-067",
     "subject": "Numerical Reasoning",
-    "prompt": "Paula uses ten 100-watt bulbs in her house. She uses these bulbs at an average\nof 5 hours each day. How many KWH do these bulbs use each day?",
+    "prompt": "Paula uses ten 100-watt bulbs in her house. She uses these bulbs at an average of 5 hours each day. How many KWH do these bulbs use each day?",
     "hint": "Mean formula: average = (sum of values) ÷ (number of values). Total = average × n. Item: Paula uses ten 100-watt bulbs in her house. She uses these bulbs at.",
     "choices": [
       {
@@ -1729,8 +1729,8 @@
   {
     "id": "nr-068",
     "subject": "Numerical Reasoning",
-    "prompt": "An electric range uses 12,200 watts per hour and is run an average of 60 hours a\nyear. How many kilowatt-hour is this?",
-    "hint": "Mean formula: average = (sum of values) ÷ (number of values). Total = average × n. Item: An electric range uses 12,200 watts per hour and is run an average of.",
+    "prompt": "An electric range uses 12, 200 watts per hour and is run an average of 60 hours a year. How many kilowatt-hour is this?",
+    "hint": "Mean formula: average = (sum of values) ÷ (number of values). Total = average × n. Item: An electric range uses 12, 200 watts per hour and is run an average of.",
     "choices": [
       {
         "id": "A",
@@ -1750,12 +1750,12 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "12,200 W × 60 h = 732,000 Wh = 732 kWh."
+    "explanation": "12, 200 W × 60 h = 732, 000 Wh = 732 kWh."
   },
   {
     "id": "nr-069",
     "subject": "Numerical Reasoning",
-    "prompt": "A DVD movie, purchased for Php440 was marked up 25% on the selling price.\nLater, as retail prices fell, this movie was marked down 20% on the current sale\nprice. Find its new sale price.",
+    "prompt": "A DVD movie, purchased for Php440 was marked up 25% on the selling price. Later, as retail prices fell, this movie was marked down 20% on the current sale price. Find its new sale price.",
     "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: A DVD movie, purchased for Php440 was marked up 25% on the selling.",
     "choices": [
       {
@@ -1781,8 +1781,8 @@
   {
     "id": "nr-070",
     "subject": "Numerical Reasoning",
-    "prompt": "VNS Inc. bought these office supplies last week: 1,320 pens at Php0.125 each; 1,480 packs of paper clips at Php0.625 each; 1,240 boxes of tape at Php0.875 each; and 1,720 boxes of cards at Php0.80 each. A 5% sales tax is added. What was the company's total bill?",
-    "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: VNS Inc. bought these office supplies last week: 1,320 pens at.",
+    "prompt": "VNS Inc. bought these office supplies last week: 1, 320 pens at Php0.125 each; 1, 480 packs of paper clips at Php0.625 each; 1, 240 boxes of tape at Php0.875 each; and 1, 720 boxes of cards at Php0.80 each. A 5% sales tax is added. What was the company's total bill?",
+    "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: VNS Inc. bought these office supplies last week: 1, 320 pens at.",
     "choices": [
       {
         "id": "A",
@@ -1802,7 +1802,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Subtotal = 1,320×0.125 + 1,480×0.625 + 1,240×0.875 + 1,720×0.80 = 3,551. Add 5% sales tax: 3,551 × 1.05 = Php3,728.55."
+    "explanation": "Subtotal = 1, 320×0.125 + 1, 480×0.625 + 1, 240×0.875 + 1, 720×0.80 = 3, 551. Add 5% sales tax: 3, 551 × 1.05 = Php3, 728.55."
   },
   {
     "id": "nr-071",
@@ -1833,7 +1833,7 @@
   {
     "id": "nr-072",
     "subject": "Numerical Reasoning",
-    "prompt": "How many meters of fencing are needed to enclose an 84-meter by 48-meter\nrectangular garden?",
+    "prompt": "How many meters of fencing are needed to enclose an 84-meter by 48-meter rectangular garden?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: How many meters of fencing are needed to enclose an 84-meter by.",
     "choices": [
       {
@@ -1859,7 +1859,7 @@
   {
     "id": "nr-073",
     "subject": "Numerical Reasoning",
-    "prompt": "How many 1-cm square stickers are needed to cover a photo box 4 cm long, 3cm\nwide and 5cm high?",
+    "prompt": "How many 1-cm square stickers are needed to cover a photo box 4 cm long, 3cm wide and 5cm high?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: How many 1-cm square stickers are needed to cover a photo box 4 cm.",
     "choices": [
       {
@@ -1885,7 +1885,7 @@
   {
     "id": "nr-074",
     "subject": "Numerical Reasoning",
-    "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is\n4cm longer than the shortest side. How long is the shortest side if the perimeter\nis 67 cm?",
+    "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is 4cm longer than the shortest side. How long is the shortest side if the perimeter is 67 cm?",
     "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: One side of a triangle is 3cm longer than the shortest side, and the.",
     "choices": [
       {
@@ -1911,7 +1911,7 @@
   {
     "id": "nr-075",
     "subject": "Numerical Reasoning",
-    "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm,\nif its perimeter is 50cm?",
+    "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm, if its perimeter is 50cm?",
     "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: The length of a rectangle is 2cm less than twice its width. What is.",
     "choices": [
       {
@@ -1967,7 +1967,7 @@
   {
     "id": "nr-077",
     "subject": "Numerical Reasoning",
-    "prompt": "A real estate broker received a commission of 8% of the selling price of a certain\nproperty, what was the selling price of the property?\n1) The selling price minus the real estate agent’s commission was Php9,200,000\n2) The selling price was 250% of the original purchase price of Php4,000,000.",
+    "prompt": "A real estate broker received a commission of 8% of the selling price of a certain property, what was the selling price of the property?\n1) The selling price minus the real estate agent’s commission was Php9, 200, 000\n2) The selling price was 250% of the original purchase price of Php4, 000, 000.",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: A real estate broker received a commission of 8% of the selling price.",
     "choices": [
       {
@@ -1992,7 +1992,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Commission is 8% of selling price S. (1) alone: S − 0.08S = 9,200,000 → 0.92S = 9,200,000 → S = 10,000,000. (2) alone: S = 250% of 4,000,000 = 10,000,000. Each statement by itself finds S, so each alone is sufficient."
+    "explanation": "Commission is 8% of selling price S. (1) alone: S − 0.08S = 9, 200, 000 → 0.92S = 9, 200, 000 → S = 10, 000, 000. (2) alone: S = 250% of 4, 000, 000 = 10, 000, 000. Each statement by itself finds S, so each alone is sufficient."
   },
   {
     "id": "nr-078",
@@ -2087,7 +2087,7 @@
   {
     "id": "nr-081",
     "subject": "Numerical Reasoning",
-    "prompt": "On Saturday morning the printing machine of Gerpress Printing ran continuously\nat uniform rate to fill a production order. At what time did it completely fill the\norder that morning?\n1) The supervisor began the plan for production 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by\n10:18am",
+    "prompt": "On Saturday morning the printing machine of Gerpress Printing ran continuously at uniform rate to fill a production order. At what time did it completely fill the order that morning?\n1) The supervisor began the plan for production 8:08am.\n2) The machine had filled 50% of the order at 9:48am and 5/6 of the order by 10:18am",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: On Saturday morning the printing machine of Gerpress Printing ran.",
     "choices": [
       {
@@ -2117,7 +2117,7 @@
   {
     "id": "nr-082",
     "subject": "Numerical Reasoning",
-    "prompt": "How many books does Gerard have?\n1) If Gerard had 18 fewer books, he would have only half as many as he\nactually has.\n2) Gerard has three times as many fiction as non-fiction books.",
+    "prompt": "How many books does Gerard have?\n1) If Gerard had 18 fewer books, he would have only half as many as he actually has.\n2) Gerard has three times as many fiction as non-fiction books.",
     "hint": "Data sufficiency: ask only whether the question can be answered—not the full numeric value. Test (1) alone, (2) alone, then both. Item: How many books does Gerard have? 1) If Gerard had 18 fewer books, he.",
     "choices": [
       {
@@ -2147,8 +2147,8 @@
   {
     "id": "nr-083",
     "subject": "Numerical Reasoning",
-    "prompt": "What number is 24% of x?\n1) 16 is 8% of x\n2) 1/8 of x is 1,600",
-    "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: What number is 24% of x? 1) 16 is 8% of x 2) 1/8 of x is 1,600.",
+    "prompt": "What number is 24% of x?\n1) 16 is 8% of x\n2) 1/8 of x is 1, 600",
+    "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: What number is 24% of x? 1) 16 is 8% of x 2) 1/8 of x is 1, 600.",
     "choices": [
       {
         "id": "A",
@@ -2172,12 +2172,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Need 24% of x. (1) alone: 16 is 8% of x → x = 200 → 24% of x = 48. (2) alone: (1/8)x = 1,600 → x = 12,800 → 24% of x = 3,072. Each statement alone produces a unique value."
+    "explanation": "Need 24% of x. (1) alone: 16 is 8% of x → x = 200 → 24% of x = 48. (2) alone: (1/8)x = 1, 600 → x = 12, 800 → 24% of x = 3, 072. Each statement alone produces a unique value."
   },
   {
     "id": "nr-084",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the total amount raised for the Payatas Tragedy from private\ncorporations and personal donations?\n1) Of the amount donated,48% came from private corporations\n2) Of the amount donated, Php15M came from personal donations.",
+    "prompt": "What was the total amount raised for the Payatas Tragedy from private corporations and personal donations?\n1) Of the amount donated, 48% came from private corporations\n2) Of the amount donated, Php15M came from personal donations.",
     "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: What was the total amount raised for the Payatas Tragedy from private.",
     "choices": [
       {
@@ -2267,7 +2267,7 @@
   {
     "id": "nr-087",
     "subject": "Numerical Reasoning",
-    "prompt": "In last Saturday's Midnight Sale at Gaisano Mall a certain shop sold 75% of the shirts in its inventory. Each shirt was sold for Php358. What was the total revenue from the sale of these shirts on that day?\n\n(1) When the shop opened last Saturday, there were 448 shirts in its inventory.\n(2) All but 112 of the shop's inventory were sold last Saturday.",
+    "prompt": "In last Saturday's Midnight Sale at Gaisano Mall a certain shop sold 75% of the shirts in its inventory. Each shirt was sold for Php358. What was the total revenue from the sale of these shirts on that day? (1) When the shop opened last Saturday, there were 448 shirts in its inventory. (2) All but 112 of the shop's inventory were sold last Saturday.",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: In last Saturday's Midnight Sale at Gaisano Mall a certain shop sold.",
     "choices": [
       {
@@ -2297,7 +2297,7 @@
   {
     "id": "nr-088",
     "subject": "Numerical Reasoning",
-    "prompt": "How many more boys than girls are there in the room?\n1) There is a total of 56 girls and boys in the room.\n2) The number of boys in the room equals the square of the number of girls\nin the room.",
+    "prompt": "How many more boys than girls are there in the room?\n1) There is a total of 56 girls and boys in the room.\n2) The number of boys in the room equals the square of the number of girls in the room.",
     "hint": "Data sufficiency: ask only whether the question can be answered—not the full numeric value. Test (1) alone, (2) alone, then both. Item: How many more boys than girls are there in the room? 1) There is a.",
     "choices": [
       {
@@ -2327,7 +2327,7 @@
   {
     "id": "nr-089",
     "subject": "Numerical Reasoning",
-    "prompt": "In what year was David born?\n1) David’s friend Michelle, who is ½ years younger than him, was born in\n1979.\n2) In 1998, David turned 20 years old",
+    "prompt": "In what year was David born?\n1) David’s friend Michelle, who is ½ years younger than him, was born in 1979.\n2) In 1998, David turned 20 years old",
     "hint": "Data sufficiency: ask only whether the question can be answered—not the full numeric value. Test (1) alone, (2) alone, then both. Item: In what year was David born? 1) David’s friend Michelle, who is ½.",
     "choices": [
       {
@@ -2357,7 +2357,7 @@
   {
     "id": "nr-090",
     "subject": "Numerical Reasoning",
-    "prompt": "A box contains 48 balls, of which 30 are red and 18 are blue. If 16 of the balls are\nremoved, how many of the balls left in the box are blue?\n1) Of the balls removed, the ratio of the number of red ones to the number of\nblue ones is 5:3\n2) Of the first 8 marbles removed, 5 are red",
+    "prompt": "A box contains 48 balls, of which 30 are red and 18 are blue. If 16 of the balls are removed, how many of the balls left in the box are blue?\n1) Of the balls removed, the ratio of the number of red ones to the number of blue ones is 5:3\n2) Of the first 8 marbles removed, 5 are red",
     "hint": "Ratio a:b means a/(a+b) of the whole for a’s share. Or set a/b = c/d and cross-multiply. Item: A box contains 48 balls, of which 30 are red and 18 are blue. If 16.",
     "choices": [
       {
@@ -2387,7 +2387,7 @@
   {
     "id": "nr-091",
     "subject": "Numerical Reasoning",
-    "prompt": "How long did it take Mrs. Lim to drive non-stop on a trip from here home to Ayala\nAlabang?\n1) If Mrs. Lim average speed for the trip had been 1.5 times as fast, the trip\nwould have taken 2 hours.\n2) Mrs. Lim average speed for the trip was 80 km per hour.",
+    "prompt": "How long did it take Mrs. Lim to drive non-stop on a trip from here home to Ayala Alabang?\n1) If Mrs. Lim average speed for the trip had been 1.5 times as fast, the trip would have taken 2 hours.\n2) Mrs. Lim average speed for the trip was 80 km per hour.",
     "hint": "Use d = r × t (distance = rate × time). Convert minutes to hours if needed (30 min = 0.5 h). Item: How long did it take Mrs. Lim to drive non-stop on a trip from here.",
     "choices": [
       {
@@ -2447,7 +2447,7 @@
   {
     "id": "nr-093",
     "subject": "Numerical Reasoning",
-    "prompt": "What was the average number of kilometers per liter of gasoline a car can\nconsume during a certain trip?\n1) The total cost of the gasoline used by the card or the 640-km trip was\nPhp1,152.\n2) The cost for the gasoline used by the car for the trip was Php18.00 per\nliter.",
+    "prompt": "What was the average number of kilometers per liter of gasoline a car can consume during a certain trip?\n1) The total cost of the gasoline used by the card or the 640-km trip was Php1, 152.\n2) The cost for the gasoline used by the car for the trip was Php18.00 per liter.",
     "hint": "Mean formula: average = (sum of values) ÷ (number of values). Total = average × n. Item: What was the average number of kilometers per liter of gasoline a car.",
     "choices": [
       {
@@ -2472,7 +2472,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Need kilometers per liter for the trip. (1) alone: total fuel cost Php1,152 over 640 km—without price per liter, liters used are unknown. (2) alone: Php18 per liter—without total cost or liters, km/L is unknown. Together: liters = 1,152 / 18 = 64, so km per liter = 640 / 64 = 10. Both are required."
+    "explanation": "Need kilometers per liter for the trip. (1) alone: total fuel cost Php1, 152 over 640 km—without price per liter, liters used are unknown. (2) alone: Php18 per liter—without total cost or liters, km/L is unknown. Together: liters = 1, 152 / 18 = 64, so km per liter = 640 / 64 = 10. Both are required."
   },
   {
     "id": "nr-094",
@@ -2507,7 +2507,7 @@
   {
     "id": "nr-095",
     "subject": "Numerical Reasoning",
-    "prompt": "At Avanti Review Center, 400 students are enrolled for the Review Program or\nAcademic Advancement Program or both. If 100 of these students are not\nenrolled in the Review Program, how many of them are enrolled in both Avanti\nReview Program and Avanti Academic Advancement Program?\n1) Of the 400 students, 160 are not enrolled in the Academic Advancement\nProgram.\n2) A total of 240 of the students are enrolled in the Academic Advancement\nProgram.",
+    "prompt": "At Avanti Review Center, 400 students are enrolled for the Review Program or Academic Advancement Program or both. If 100 of these students are not enrolled in the Review Program, how many of them are enrolled in both Avanti Review Program and Avanti Academic Advancement Program?\n1) Of the 400 students, 160 are not enrolled in the Academic Advancement Program.\n2) A total of 240 of the students are enrolled in the Academic Advancement Program.",
     "hint": "Data sufficiency: ask only whether the question can be answered—not the full numeric value. Test (1) alone, (2) alone, then both. Item: At Avanti Review Center, 400 students are enrolled for the Review.",
     "choices": [
       {
@@ -2568,7 +2568,7 @@
   {
     "id": "nr-097",
     "subject": "Numerical Reasoning",
-    "prompt": "It is known that a quarter of the students who passed the exam in 2007, passed it at the first trial. Assuming\neach exam has two trials, what percentage of all the students who took the exam that year passed it in the\nsecond trial?",
+    "prompt": "It is known that a quarter of the students who passed the exam in 2007, passed it at the first trial. Assuming each exam has two trials, what percentage of all the students who took the exam that year passed it in the second trial?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: It is known that a quarter of the students who passed the exam in.",
     "choices": [
       {
@@ -2624,7 +2624,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Insurance has 33,000 bonds and 3,000 stocks, for 36,000 securities. Chinese securities are 30% of 36,000 = 10,800. Chinese stocks are 3.5% of 36,000 = 1,260. Chinese bonds are about 10,800 - 1,260 = 9,540 thousand, closest to 9,500,000.",
+    "explanation": "Insurance has 33, 000 bonds and 3, 000 stocks, for 36, 000 securities. Chinese securities are 30% of 36, 000 = 10, 800. Chinese stocks are 3.5% of 36, 000 = 1, 260. Chinese bonds are about 10, 800 - 1, 260 = 9, 540 thousand, closest to 9, 500, 000.",
     "image": "/question-images/nr-098.png"
   },
   {
@@ -2785,7 +2785,7 @@
   {
     "id": "nr-104",
     "subject": "Numerical Reasoning",
-    "prompt": "If, Education sector in Thailand had 25% of FEI in 1997 and 60% of FEI in 1998, then find the approx ratio of\nthe amounts allocated to Education in 1997 to 1998. (Assume the GDPs of both of these years for Thailand is\nsame.)",
+    "prompt": "If, Education sector in Thailand had 25% of FEI in 1997 and 60% of FEI in 1998, then find the approx ratio of the amounts allocated to Education in 1997 to 1998. (Assume the GDPs of both of these years for Thailand is same.)",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: If, Education sector in Thailand had 25% of FEI in 1997 and 60% of.",
     "choices": [
       {
@@ -2816,7 +2816,7 @@
   {
     "id": "nr-105",
     "subject": "Numerical Reasoning",
-    "prompt": "A rumour about an upcoming recession in Japan has reduced the value of the Yen 7% compared with the\nEuro. How many Euros can you now buy for 500 Yen?",
+    "prompt": "A rumour about an upcoming recession in Japan has reduced the value of the Yen 7% compared with the Euro. How many Euros can you now buy for 500 Yen?",
     "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: A rumour about an upcoming recession in Japan has reduced the value.",
     "choices": [
       {
@@ -2992,7 +2992,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Translate the sentence as 20% x 30% x X = 225. Since 0.20 x 0.30 = 0.06, we get 0.06X = 225, so X = 225 / 0.06 = 3,750."
+    "explanation": "Translate the sentence as 20% x 30% x X = 225. Since 0.20 x 0.30 = 0.06, we get 0.06X = 225, so X = 225 / 0.06 = 3, 750."
   },
   {
     "id": "nr-114",
@@ -3044,7 +3044,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "One-fourth percent is 0.25%, or 0.0025. If 0.0025n = 25, then n = 25 / 0.0025 = 10,000."
+    "explanation": "One-fourth percent is 0.25%, or 0.0025. If 0.0025n = 25, then n = 25 / 0.0025 = 10, 000."
   },
   {
     "id": "nr-116",
@@ -3074,7 +3074,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Write 0.000225 as 225 / 1,000,000. The square root is 15 / 1,000, which is 0.015."
+    "explanation": "Write 0.000225 as 225 / 1, 000, 000. The square root is 15 / 1, 000, which is 0.015."
   },
   {
     "id": "nr-117",
@@ -3104,7 +3104,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Write 0.00000081 as 81 / 100,000,000. The square root is 9 / 10,000, which is 0.0009."
+    "explanation": "Write 0.00000081 as 81 / 100, 000, 000. The square root is 9 / 10, 000, which is 0.0009."
   },
   {
     "id": "nr-118",
@@ -3139,8 +3139,8 @@
   {
     "id": "nr-119",
     "subject": "Numerical Reasoning",
-    "prompt": "Round off to the nearest hundreds place: 9,750",
-    "hint": "List the givens, name the unknown, pick one clear operation path. Item: Round off to the nearest hundreds place: 9,750.",
+    "prompt": "Round off to the nearest hundreds place: 9, 750",
+    "hint": "List the givens, name the unknown, pick one clear operation path. Item: Round off to the nearest hundreds place: 9, 750.",
     "choices": [
       {
         "id": "A",
@@ -3164,13 +3164,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "To round 9,750 to the nearest hundred, look at the tens digit. The tens digit is 5, so round the hundreds digit up from 7 to 8. The result is 9,800."
+    "explanation": "To round 9, 750 to the nearest hundred, look at the tens digit. The tens digit is 5, so round the hundreds digit up from 7 to 8. The result is 9, 800."
   },
   {
     "id": "nr-120",
     "subject": "Numerical Reasoning",
-    "prompt": "Round off to the nearest hundreds place: 9,650",
-    "hint": "List the givens, name the unknown, pick one clear operation path. Item: Round off to the nearest hundreds place: 9,650.",
+    "prompt": "Round off to the nearest hundreds place: 9, 650",
+    "hint": "List the givens, name the unknown, pick one clear operation path. Item: Round off to the nearest hundreds place: 9, 650.",
     "choices": [
       {
         "id": "A",
@@ -3194,7 +3194,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Rounding 9,650 to the nearest hundred uses the tens digit, 5. With the round-half-to-even rule used by this item, the hundreds digit 6 stays even, so the result is 9,600."
+    "explanation": "Rounding 9, 650 to the nearest hundred uses the tens digit, 5. With the round-half-to-even rule used by this item, the hundreds digit 6 stays even, so the result is 9, 600."
   },
   {
     "id": "nr-121",
@@ -3229,8 +3229,8 @@
   {
     "id": "nr-122",
     "subject": "Numerical Reasoning",
-    "prompt": "Number series: 2, 10, 60,420, ____",
-    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number series: 2, 10, 60,420, ____.",
+    "prompt": "Number series: 2, 10, 60, 420, ____",
+    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number series: 2, 10, 60, 420, ____.",
     "choices": [
       {
         "id": "A",
@@ -3254,13 +3254,13 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The multipliers increase by 1 each step: 2 x 5 = 10, 10 x 6 = 60, 60 x 7 = 420. The next multiplier is 8, so 420 x 8 = 3,360."
+    "explanation": "The multipliers increase by 1 each step: 2 x 5 = 10, 10 x 6 = 60, 60 x 7 = 420. The next multiplier is 8, so 420 x 8 = 3, 360."
   },
   {
     "id": "nr-123",
     "subject": "Numerical Reasoning",
-    "prompt": "The mean median and mode of 5 numbers are equal. The numbers are 7, 8, 10, 15. What is the 5th\nnumber?",
-    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: The mean median and mode of 5 numbers are equal. The numbers are 7,.",
+    "prompt": "The mean, median, and mode of 5 numbers are equal. Four of the numbers are 7, 8, 10, and 15. What is the 5th number?",
+    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: The mean, median, and mode of 5 numbers are equal. The numbers are 7,.",
     "choices": [
       {
         "id": "A",
@@ -3289,8 +3289,8 @@
   {
     "id": "nr-124",
     "subject": "Numerical Reasoning",
-    "prompt": "The mean median and mode of 7 numbers are equal. The numbers are 24, 22, 18, 10, 38, 32. What is\nthe 7th number?",
-    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: The mean median and mode of 7 numbers are equal. The numbers are 24,.",
+    "prompt": "The mean, median, and mode of 7 numbers are equal. Six of the numbers are 24, 22, 18, 10, 38, and 32. What is the 7th number?",
+    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: The mean, median, and mode of 7 numbers are equal. The numbers are 24,.",
     "choices": [
       {
         "id": "A",
@@ -3379,8 +3379,8 @@
   {
     "id": "nr-127",
     "subject": "Numerical Reasoning",
-    "prompt": "Round-off 2,833,333 to the nearest hundred thousands",
-    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Round-off 2,833,333 to the nearest hundred thousands.",
+    "prompt": "Round-off 2, 833, 333 to the nearest hundred thousands",
+    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Round-off 2, 833, 333 to the nearest hundred thousands.",
     "choices": [
       {
         "id": "A",
@@ -3404,12 +3404,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "To round 2,833,333 to the nearest hundred thousand, look at the ten-thousands digit, 3. Since it is less than 5, keep the hundred-thousands digit at 8: 2,800,000."
+    "explanation": "To round 2, 833, 333 to the nearest hundred thousand, look at the ten-thousands digit, 3. Since it is less than 5, keep the hundred-thousands digit at 8: 2, 800, 000."
   },
   {
     "id": "nr-128",
     "subject": "Numerical Reasoning",
-    "prompt": "The product of the ages of three sisters is 567. If the two sisters are twins and are 2 years older than their\nyounger sister. What is the age of their younger sister?",
+    "prompt": "The product of the ages of three sisters is 567. If the two sisters are twins and are 2 years older than their younger sister. What is the age of their younger sister?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: The product of the ages of three sisters is 567. If the two sisters.",
     "choices": [
       {
@@ -3469,7 +3469,7 @@
   {
     "id": "nr-130",
     "subject": "Numerical Reasoning",
-    "prompt": "A solution is made of water and pure milk. If 70% of the solution is water, how many milliliters of pure milk\nare in 1 liter of this solution?",
+    "prompt": "A solution is made of water and pure milk. If 70% of the solution is water, how many milliliters of pure milk are in 1 liter of this solution?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: A solution is made of water and pure milk. If 70% of the solution is.",
     "choices": [
       {
@@ -3494,7 +3494,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "If 70% of the solution is water, then 30% is pure milk. One liter is 1,000 milliliters, so pure milk is 30% of 1,000 = 300 milliliters."
+    "explanation": "If 70% of the solution is water, then 30% is pure milk. One liter is 1, 000 milliliters, so pure milk is 30% of 1, 000 = 300 milliliters."
   },
   {
     "id": "nr-131",
@@ -3559,8 +3559,8 @@
   {
     "id": "nr-133",
     "subject": "Numerical Reasoning",
-    "prompt": "When the first and the last digits of 2,836 are interchanged, the new number is _____.",
-    "hint": "List the givens, name the unknown, pick one clear operation path. Item: When the first and the last digits of 2,836 are interchanged, the new.",
+    "prompt": "When the first and the last digits of 2, 836 are interchanged, the new number is _____.",
+    "hint": "List the givens, name the unknown, pick one clear operation path. Item: When the first and the last digits of 2, 836 are interchanged, the new.",
     "choices": [
       {
         "id": "A",
@@ -3584,7 +3584,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Interchanging the first and last digits of 2,836 gives 6,832. The difference is 6,832 - 2,836 = 3,996, so the new number is 3,996 more than 2,836."
+    "explanation": "Interchanging the first and last digits of 2, 836 gives 6, 832. The difference is 6, 832 - 2, 836 = 3, 996, so the new number is 3, 996 more than 2, 836."
   },
   {
     "id": "nr-134",
@@ -3619,7 +3619,7 @@
   {
     "id": "nr-135",
     "subject": "Numerical Reasoning",
-    "prompt": "Genzy's dad is 5 times as old as Genzy and Genzy is twice as old as her sister Zymie. In two years, the\nsum of their ages will be 58. How old is Genzy now?",
+    "prompt": "Genzy's dad is 5 times as old as Genzy and Genzy is twice as old as her sister Zymie. In two years, the sum of their ages will be 58. How old is Genzy now?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: Genzy's dad is 5 times as old as Genzy and Genzy is twice as old as.",
     "choices": [
       {
@@ -3649,7 +3649,7 @@
   {
     "id": "nr-136",
     "subject": "Numerical Reasoning",
-    "prompt": "In a group of 120 persons, there are 32 more women than men. How many women are there in the\ngroup?",
+    "prompt": "In a group of 120 persons, there are 32 more women than men. How many women are there in the group?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: In a group of 120 persons, there are 32 more women than men. How many.",
     "choices": [
       {
@@ -3679,7 +3679,7 @@
   {
     "id": "nr-137",
     "subject": "Numerical Reasoning",
-    "prompt": "If the dimensions of a square change in such a manner that the area remains constant, what must\nhappen to the other side if one side will be increased by 1/4 of itself?",
+    "prompt": "If the dimensions of a square change in such a manner that the area remains constant, what must happen to the other side if one side will be increased by 1/4 of itself?",
     "hint": "Use the stated figure’s formula (circle: C = 2πr, A = πr²; triangle: A = ½bh). Item: If the dimensions of a square change in such a manner that the area.",
     "choices": [
       {
@@ -4039,7 +4039,7 @@
   {
     "id": "nr-149",
     "subject": "Numerical Reasoning",
-    "prompt": "There are 3 numbers whose sum is 54; one number is double and triple times greater than the other\nnumbers, what are those numbers?",
+    "prompt": "There are 3 numbers whose sum is 54; one number is double and triple times greater than the other numbers, what are those numbers?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: There are 3 numbers whose sum is 54; one number is double and triple.",
     "choices": [
       {
@@ -4322,7 +4322,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Convert 3 km to 3,000 m, then compare 750 m: 3,000 m. Dividing both terms by 750 gives 1: 4."
+    "explanation": "Convert 3 km to 3, 000 m, then compare 750 m: 3, 000 m. Dividing both terms by 750 gives 1: 4."
   },
   {
     "id": "nr-159",
@@ -4358,7 +4358,7 @@
     "id": "nr-160",
     "subject": "Numerical Reasoning",
     "prompt": "Four consecutive integers have a mean of 9.5. What is the largest of these integers?",
-    "hint": "Mean formula: average = (sum of values) ÷ (number of values). Total = average × n. Item: Four consecutive integers have a mean of 9.5. What is the largest of.",
+    "hint": "Average item: total = mean × number of values. For four consecutive integers n, n+1, n+2, n+3, set (4n+6)/4 equal to the mean, then solve for n+3.",
     "choices": [
       {
         "id": "A",
@@ -4382,12 +4382,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Four consecutive integers with a mean of 9.5 have a total of 9.5 x 4 = 38. The four consecutive integers that add to 38 are 8, 9, 10, and 11, so the largest is 11."
+    "explanation": "Sum = 9.5 × 4 = 38. Four consecutive integers n+(n+1)+(n+2)+(n+3)=4n+6=38 → 4n=32 → n=8. Largest = n+3 = 11."
   },
   {
     "id": "nr-161",
     "subject": "Numerical Reasoning",
-    "prompt": "A baseball pitcher won 80% of the games he pitched. If he pitched 35 ballgames, how many games did\nhe win?",
+    "prompt": "A baseball pitcher won 80% of the games he pitched. If he pitched 35 ballgames, how many games did he win?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: A baseball pitcher won 80% of the games he pitched. If he pitched 35.",
     "choices": [
       {
@@ -4477,7 +4477,7 @@
   {
     "id": "nr-164",
     "subject": "Numerical Reasoning",
-    "prompt": "Analie took a math test and got 48 correct and 12 incorrect answers. What was the percentage of correct\nanswers?",
+    "prompt": "Analie took a math test and got 48 correct and 12 incorrect answers. What was the percentage of correct answers?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: Analie took a math test and got 48 correct and 12 incorrect answers..",
     "choices": [
       {
@@ -4606,7 +4606,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Two and one-half percent is 2.5%, or 0.025. If 0.025n = 88, then n = 88 / 0.025 = 3,520."
+    "explanation": "Two and one-half percent is 2.5%, or 0.025. If 0.025n = 88, then n = 88 / 0.025 = 3, 520."
   },
   {
     "id": "nr-169",
@@ -4761,7 +4761,7 @@
   {
     "id": "nr-174",
     "subject": "Numerical Reasoning",
-    "prompt": "A solution is made of water and pure orange. If 80% of the solution is water, how many liters of pure\norange are in 25 liters of this solution?",
+    "prompt": "A solution is made of water and pure orange. If 80% of the solution is water, how many liters of pure orange are in 25 liters of this solution?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: A solution is made of water and pure orange. If 80% of the solution.",
     "choices": [
       {
@@ -4851,7 +4851,7 @@
   {
     "id": "nr-177",
     "subject": "Numerical Reasoning",
-    "prompt": "A company makes a profit equal to 25% of its sales. The profit is shared equally among the 4 owners of\nthe company. If the company generates sales of $2,000,000, how much money does each one of the\nowners get?",
+    "prompt": "A company makes a profit equal to 25% of its sales. The profit is shared equally among the 4 owners of the company. If the company generates sales of $2, 000, 000, how much money does each one of the owners get?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: A company makes a profit equal to 25% of its sales. The profit is.",
     "choices": [
       {
@@ -4876,7 +4876,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "The company profit is 25% of $2,000,000, which is $500,000. Shared equally by 4 owners, each owner gets $500,000 / 4 = $125,000."
+    "explanation": "The company profit is 25% of $2, 000, 000, which is $500, 000. Shared equally by 4 owners, each owner gets $500, 000 / 4 = $125, 000."
   },
   {
     "id": "nr-178",
@@ -4971,8 +4971,8 @@
   {
     "id": "nr-181",
     "subject": "Numerical Reasoning",
-    "prompt": "The population of a municipality is 5,000. If it increases by 5% each year, what will be the approximate population at the end of 10 years?",
-    "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: The population of a municipality is 5,000. If it increases by 5% each.",
+    "prompt": "The population of a municipality is 5, 000. If it increases by 5% each year, what will be the approximate population at the end of 10 years?",
+    "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: The population of a municipality is 5, 000. If it increases by 5% each.",
     "choices": [
       {
         "id": "A",
@@ -4996,7 +4996,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Use compound growth: 5,000(1.05)^10. This is about 8,144.47, so the approximate population is 8,144."
+    "explanation": "Use compound growth: 5, 000(1.05)^10. This is about 8, 144.47, so the approximate population is 8, 144."
   },
   {
     "id": "nr-182",
@@ -5031,7 +5031,7 @@
   {
     "id": "nr-183",
     "subject": "Numerical Reasoning",
-    "prompt": "A boat takes 4/5 as much time to travel downstream as to its return. If the rate of the river's current is 6\nkph, what is the rate of the boat in still water?",
+    "prompt": "A boat takes 4/5 as much time to travel downstream as to its return. If the rate of the river's current is 6 kph, what is the rate of the boat in still water?",
     "hint": "Use d = r × t (distance = rate × time). Convert minutes to hours if needed (30 min = 0.5 h). Item: A boat takes 4/5 as much time to travel downstream as to its return..",
     "choices": [
       {
@@ -5091,7 +5091,7 @@
   {
     "id": "nr-185",
     "subject": "Numerical Reasoning",
-    "prompt": "A car travels 120 miles at a speed of 40 miles per hour and makes a return trip at a speed of 60 miles per\nhour. What is its average speed, in miles per hour, of the police car?",
+    "prompt": "A car travels 120 miles at a speed of 40 miles per hour and makes a return trip at a speed of 60 miles per hour. What is its average speed, in miles per hour, of the police car?",
     "hint": "Use d = r × t (distance = rate × time). Convert minutes to hours if needed (30 min = 0.5 h). Item: A car travels 120 miles at a speed of 40 miles per hour and makes a.",
     "choices": [
       {
@@ -5175,7 +5175,7 @@
   {
     "id": "nr-188",
     "subject": "Numerical Reasoning",
-    "prompt": "If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI\nfrom all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was\nthe amount of FDI from the OPEC countries in 1997?",
+    "prompt": "If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI from all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was the amount of FDI from the OPEC countries in 1997?",
     "hint": "Read labels and units first; pull only the cells the question asks for. Item: If Philippine FDI from OPEC countries was proportionately the same in.",
     "choices": [
       {
@@ -5256,7 +5256,7 @@
   {
     "id": "nr-191",
     "subject": "Numerical Reasoning",
-    "prompt": "What are the average marks obtained by the student in all the periodical exams during the last\nsession?",
+    "prompt": "What are the average marks obtained by the student in all the periodical exams during the last session?",
     "hint": "Mean formula: average = (sum of values) ÷ (number of values). Total = average × n. Item: What are the average marks obtained by the student in all the.",
     "choices": [
       {
@@ -5277,13 +5277,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Add the six scores: 360 + 365 + 370 + 385 + 400 + 405 = 2,285. Divide by 6 to get about 380.8, which rounds to 381.",
+    "explanation": "Add the six scores: 360 + 365 + 370 + 385 + 400 + 405 = 2, 285. Divide by 6 to get about 380.8, which rounds to 381.",
     "image": "/question-images/nr-191.png"
   },
   {
     "id": "nr-192",
     "subject": "Numerical Reasoning",
-    "prompt": "In which periodical exams there is a fall in percentage of marks as compared to the previous\nperiodical exams?",
+    "prompt": "In which periodical exams there is a fall in percentage of marks as compared to the previous periodical exams?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: In which periodical exams there is a fall in percentage of marks as.",
     "choices": [
       {
@@ -5304,13 +5304,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Each exam score is higher than the previous one: 360,365, 370,385, 400, then 405. Since there is no drop, the answer is None.",
+    "explanation": "Each exam score is higher than the previous one: 360, 365, 370, 385, 400, then 405. Since there is no drop, the answer is None.",
     "image": "/question-images/nr-192.png"
   },
   {
     "id": "nr-193",
     "subject": "Numerical Reasoning",
-    "prompt": "The total number of marks obtained in Feb. 02 is what percent of the total marks obtained in April 01\n?",
+    "prompt": "The total number of marks obtained in Feb. 02 is what percent of the total marks obtained in April 01 ?",
     "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: The total number of marks obtained in Feb. 02 is what percent of the.",
     "choices": [
       {
@@ -5416,7 +5416,7 @@
   {
     "id": "nr-197",
     "subject": "Numerical Reasoning",
-    "prompt": "Simplify:\n33 1/3 % of 48 + 12 ½ % of 96 - 44 4/9 % of 27",
+    "prompt": "Simplify: 33 1/3 % of 48 + 12 ½ % of 96 - 44 4/9 % of 27",
     "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: Simplify: 33 1/3 % of 48 + 12 ½ % of 96 - 44 4/9 % of 27.",
     "choices": [
       {
@@ -5588,7 +5588,7 @@
   {
     "id": "nr-203",
     "subject": "Numerical Reasoning",
-    "prompt": "A race car travelled for 2 ½ hours with an average speed of 132 5/8 km per hour.\nFind the total distance it covered.",
+    "prompt": "A race car travelled for 2 ½ hours with an average speed of 132 5/8 km per hour. Find the total distance it covered.",
     "hint": "Use d = r × t (distance = rate × time). Convert minutes to hours if needed (30 min = 0.5 h). Item: A race car travelled for 2 ½ hours with an average speed of 132 5/8.",
     "choices": [
       {
@@ -5695,12 +5695,12 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "One-fourth percent is 0.25%, or 0.0025. If 0.0025n = 25, then n = 25 / 0.0025 = 10,000."
+    "explanation": "One-fourth percent is 0.25%, or 0.0025. If 0.0025n = 25, then n = 25 / 0.0025 = 10, 000."
   },
   {
     "id": "nr-207",
     "subject": "Numerical Reasoning",
-    "prompt": "A mini grocery store has a sale of Php6435, Php6927, Php6855, Php7230 and Php6562 for 5\nconsecutive months. How much sale must he have in the sixth month so that he gets an average\nsale of Php6500?",
+    "prompt": "A mini grocery store has a sale of Php6435, Php6927, Php6855, Php7230 and Php6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Php6500?",
     "hint": "Mean formula: average = (sum of values) ÷ (number of values). Total = average × n. Item: A mini grocery store has a sale of Php6435, Php6927, Php6855, Php7230.",
     "choices": [
       {
@@ -5721,13 +5721,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "To average Php6500 over 6 months, the total sales must be 6500 x 6 = Php39,000. The first five months total Php34,009, so the sixth month must be 39,000 - 34,009 = Php4,991."
+    "explanation": "To average Php6500 over 6 months, the total sales must be 6500 x 6 = Php39, 000. The first five months total Php34, 009, so the sixth month must be 39, 000 - 34, 009 = Php4, 991."
   },
   {
     "id": "nr-208",
     "subject": "Numerical Reasoning",
-    "prompt": "The mean median and mode of 9 numbers are equal. The numbers are 12, 22, 10, 15, 14, 11, 19,\n17.\nWhat is the 9th number?",
-    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: The mean median and mode of 9 numbers are equal. The numbers are 12,.",
+    "prompt": "The mean, median, and mode of 9 numbers are equal. Eight of the numbers are 12, 22, 10, 15, 14, 11, 19, and 17. What is the 9th number?",
+    "hint": "Sort the list. Median = middle value; mode = most frequent value; mean = sum ÷ n. Choose the missing number so that all three measures equal the same value.",
     "choices": [
       {
         "id": "A",
@@ -5751,13 +5751,13 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "The existing eight numbers add to 120. Adding 15 gives 135, and 135 / 9 = 15, so the mean is 15. With another 15, the ordered list also has median 15 and mode 15."
+    "explanation": "The eight given numbers sum to 120. If the 9th is 15, the total is 135 and the mean is 135÷9 = 15. Ordered list: 10, 11, 12, 14, 15, 15, 17, 19, 22 — median is 15 and mode is 15. So mean = median = mode = 15. Answer C."
   },
   {
     "id": "nr-209",
     "subject": "Numerical Reasoning",
-    "prompt": "The mean median and mode of 5 numbers are equal. The numbers are 29, 18, 24, 25.\nWhat is the 5th number?",
-    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: The mean median and mode of 5 numbers are equal. The numbers are 29,.",
+    "prompt": "The mean, median, and mode of 5 numbers are equal. The numbers are 29, 18, 24, 25. What is the 5th number?",
+    "hint": "Sort the list. Median = middle value; mode = most frequent; mean = sum ÷ n. Item: The mean, median, and mode of 5 numbers are equal. The numbers are 29,.",
     "choices": [
       {
         "id": "A",
@@ -5841,13 +5841,13 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "If 500 students are 25% of the graduating class, then the whole class is 500 / 0.25 = 2,000 students."
+    "explanation": "If 500 students are 25% of the graduating class, then the whole class is 500 / 0.25 = 2, 000 students."
   },
   {
     "id": "nr-212",
     "subject": "Numerical Reasoning",
-    "prompt": "In a group of 8,000 applicants for a civil service examination, 1600 failed to take the first part of\nthe test. What percent of the total applicants took the first part of the test?",
-    "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: In a group of 8,000 applicants for a civil service examination, 1600.",
+    "prompt": "In a group of 8, 000 applicants for a civil service examination, 1600 failed to take the first part of the test. What percent of the total applicants took the first part of the test?",
+    "hint": "Percent formulas: part = % × whole; % = (part ÷ whole) × 100; whole = part ÷ %. Convert % → decimal (25% = 0.25). Item: In a group of 8, 000 applicants for a civil service examination, 1600.",
     "choices": [
       {
         "id": "A",
@@ -5867,12 +5867,12 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Out of 8,000 applicants, 1,600 did not take the first part, so 8,000 - 1,600 = 6,400 took it. 6,400 / 8,000 = 0.80, or 80%."
+    "explanation": "Out of 8, 000 applicants, 1, 600 did not take the first part, so 8, 000 - 1, 600 = 6, 400 took it. 6, 400 / 8, 000 = 0.80, or 80%."
   },
   {
     "id": "nr-213",
     "subject": "Numerical Reasoning",
-    "prompt": "Cassy's father was 38 years of age when she was born while her mother was 36 years old when\nher brother four years younger to her was born. What is the difference between the ages of her\nparents?",
+    "prompt": "Cassy's father was 38 years of age when she was born while her mother was 36 years old when her brother four years younger to her was born. What is the difference between the ages of her parents?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: Cassy's father was 38 years of age when she was born while her mother.",
     "choices": [
       {
@@ -6024,8 +6024,8 @@
   {
     "id": "nr-219",
     "subject": "Numerical Reasoning",
-    "prompt": "Number Series: 5,16,49,104,____",
-    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number Series: 5,16,49,104,____.",
+    "prompt": "Number Series: 5, 16, 49, 104,____",
+    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number Series: 5, 16, 49, 104,____.",
     "choices": [
       {
         "id": "A",
@@ -6054,8 +6054,8 @@
   {
     "id": "nr-220",
     "subject": "Numerical Reasoning",
-    "prompt": "Number Series: 225,336, 447, ____, 669,7710",
-    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number Series: 225,336, 447, ____, 669,7710.",
+    "prompt": "Number Series: 225, 336, 447, ____, 669, 7710",
+    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number Series: 225, 336, 447, ____, 669, 7710.",
     "choices": [
       {
         "id": "A",
@@ -6080,8 +6080,8 @@
   {
     "id": "nr-221",
     "subject": "Numerical Reasoning",
-    "prompt": "Number Series: 563,647,479,815,____",
-    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number Series: 563,647,479,815,____.",
+    "prompt": "Number Series: 563, 647, 479, 815,____",
+    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number Series: 563, 647, 479, 815,____.",
     "choices": [
       {
         "id": "A",
@@ -6106,8 +6106,8 @@
   {
     "id": "nr-222",
     "subject": "Numerical Reasoning",
-    "prompt": "Number Series: 3, 12, 27, 48,75,108, ____",
-    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number Series: 3, 12, 27, 48,75,108, ____.",
+    "prompt": "Number Series: 3, 12, 27, 48, 75, 108, ____",
+    "hint": "Series: list differences or ratios between terms; check for two interleaved sequences. Item: Number Series: 3, 12, 27, 48, 75, 108, ____.",
     "choices": [
       {
         "id": "A",
@@ -6391,7 +6391,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "The odd numbers from 61 to 119 form an arithmetic series. There are 30 terms, and the average of the first and last is (61 + 119) / 2 = 90. The sum is 30 x 90 = 2,700."
+    "explanation": "The odd numbers from 61 to 119 form an arithmetic series. There are 30 terms, and the average of the first and last is (61 + 119) / 2 = 90. The sum is 30 x 90 = 2, 700."
   },
   {
     "id": "nr-233",
@@ -6447,7 +6447,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Rewrite 0.000025 as 25/1,000,000. The square root is sqrt(25) / sqrt(1,000,000) = 5 / 1000 = 0.005."
+    "explanation": "Rewrite 0.000025 as 25/1, 000, 000. The square root is sqrt(25) / sqrt(1, 000, 000) = 5 / 1000 = 0.005."
   },
   {
     "id": "nr-235",
@@ -6482,7 +6482,7 @@
   {
     "id": "nr-236",
     "subject": "Numerical Reasoning",
-    "prompt": "A chemist has 400 milliliters of a solution of 20% alcohol on hand, and he wants to mix it with\nenough pure alcohol to turn it into a 30% alcohol solution. How much pure alcohol will this\nrequire?",
+    "prompt": "A chemist has 400 milliliters of a solution of 20% alcohol on hand, and he wants to mix it with enough pure alcohol to turn it into a 30% alcohol solution. How much pure alcohol will this require?",
     "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: A chemist has 400 milliliters of a solution of 20% alcohol on hand,.",
     "choices": [
       {
@@ -6632,7 +6632,7 @@
   {
     "id": "nr-241",
     "subject": "Numerical Reasoning",
-    "prompt": "If the price of a book is first decreased by 25% and then increased by 20%, then the net change in\nthe price will be:",
+    "prompt": "If the price of a book is first decreased by 25% and then increased by 20%, then the net change in the price will be:",
     "hint": "Rewrite the percent as a fraction or decimal first (e.g. 25% = 1/4 = 0.25), then multiply or divide. Item: If the price of a book is first decreased by 25% and then increased.",
     "choices": [
       {
@@ -6662,7 +6662,7 @@
   {
     "id": "nr-242",
     "subject": "Numerical Reasoning",
-    "prompt": "In a mixture 60 litres, the ratio of milk and water 2: 1. If this ratio is to be 1: 2, then the quantity\nof water to be further added is:",
+    "prompt": "In a mixture 60 litres, the ratio of milk and water 2: 1. If this ratio is to be 1: 2, then the quantity of water to be further added is:",
     "hint": "Ratio a:b means a/(a+b) of the whole for a’s share. Or set a/b = c/d and cross-multiply. Item: In a mixture 60 litres, the ratio of milk and water 2: 1. If this.",
     "choices": [
       {
@@ -6692,7 +6692,7 @@
   {
     "id": "nr-243",
     "subject": "Numerical Reasoning",
-    "prompt": "Participants in a certain conference from Luzon, Visayas, and Mindanao are in the ratio of 4:3:2. If\nthere are 120 participants from Luzon, how many participants are there in all?",
+    "prompt": "Participants in a certain conference from Luzon, Visayas, and Mindanao are in the ratio of 4:3:2. If there are 120 participants from Luzon, how many participants are there in all?",
     "hint": "Ratio a:b means a/(a+b) of the whole for a’s share. Or set a/b = c/d and cross-multiply. Item: Participants in a certain conference from Luzon, Visayas, and.",
     "choices": [
       {

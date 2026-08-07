@@ -54,7 +54,7 @@
   {
     "id": "gi-003",
     "subject": "General Information",
-    "prompt": "What is the power of the State to take private property for public use upon payment\nof a just compensation?",
+    "prompt": "What is the power of the State to take private property for public use upon payment of a just compensation?",
     "hint": "Taking private land for public use with just compensation is eminent domain, not confiscation or sequestration.",
     "choices": [
       {
@@ -314,7 +314,7 @@
   {
     "id": "gi-013",
     "subject": "General Information",
-    "prompt": "Which of the following shows the transfer of power should the President be\nincapable of discharging his duties?",
+    "prompt": "Which of the following shows the transfer of power should the President be incapable of discharging his duties?",
     "hint": "Succession line: President → Vice-President → Senate President → Speaker of the House.",
     "choices": [
       {
@@ -600,7 +600,7 @@
   {
     "id": "gi-024",
     "subject": "General Information",
-    "prompt": "What tax is imposed on one’s right to transmit property at death, and is measured by\nthe value of the property?",
+    "prompt": "What tax is imposed on one’s right to transmit property at death, and is measured by the value of the property?",
     "hint": "Property transferred because of death is subject to estate tax (donor’s tax is for gifts while alive).",
     "choices": [
       {
@@ -626,7 +626,7 @@
   {
     "id": "gi-025",
     "subject": "General Information",
-    "prompt": "Which of the following is classified as being a “Head of the Family” for income tax\npurposes?",
+    "prompt": "Which of the following is classified as being a “Head of the Family” for income tax purposes?",
     "hint": "For income-tax ‘head of family,’ the person is unmarried (or legally separated) but supporting dependents.",
     "choices": [
       {
@@ -652,7 +652,7 @@
   {
     "id": "gi-026",
     "subject": "General Information",
-    "prompt": "What Act implements the mandate for the “State to make essential goods, health\nand other social services available to all the people at affordable cost?”",
+    "prompt": "What Act implements the mandate for the “State to make essential goods, health and other social services available to all the people at affordable cost?”",
     "hint": "Making essential medicines available at affordable cost is the thrust of the Generics Act.",
     "choices": [
       {
@@ -730,7 +730,7 @@
   {
     "id": "gi-029",
     "subject": "General Information",
-    "prompt": "What is the maximum equity for aliens in a corporation or association in the\nexploration development and utilization of natural resources?",
+    "prompt": "What is the maximum equity for aliens in a corporation or association in the exploration development and utilization of natural resources?",
     "hint": "For natural resources, foreign equity is capped at 40% (Filipinos must hold at least 60%).",
     "choices": [
       {
@@ -782,7 +782,7 @@
   {
     "id": "gi-031",
     "subject": "General Information",
-    "prompt": "This is a type of document issued by a seller to a buyer relating to a sale transaction and indicating the\nproducts, quantities and prices sold to the buyer.",
+    "prompt": "This is a type of document issued by a seller to a buyer relating to a sale transaction and indicating the products, quantities and prices sold to the buyer.",
     "hint": "A seller’s document listing goods, quantities, and prices for a sale is a sales invoice.",
     "choices": [
       {
@@ -834,7 +834,7 @@
   {
     "id": "gi-033",
     "subject": "General Information",
-    "prompt": "One of the responsibilities of a clerical job is answering and tending phone calls. Which is the best way to\nanswer a phone call in a company?",
+    "prompt": "One of the responsibilities of a clerical job is answering and tending phone calls. Which is the best way to answer a phone call in a company?",
     "hint": "Answer promptly, identify your office/name, and offer help — don’t leave callers hanging or race for a pen first.",
     "choices": [
       {
@@ -938,7 +938,7 @@
   {
     "id": "gi-037",
     "subject": "General Information",
-    "prompt": "This is a telephonic transmission of scanned documents of texts and images to a\ntelephone number connected to a printer.",
+    "prompt": "This is a telephonic transmission of scanned documents of texts and images to a telephone number connected to a printer.",
     "hint": "Sending a scanned page over a phone line to a remote printer is what a fax machine does.",
     "choices": [
       {
@@ -990,7 +990,7 @@
   {
     "id": "gi-039",
     "subject": "General Information",
-    "prompt": "Which company role or counter is responsible for cash register operations and payment\nprocessing?",
+    "prompt": "Which company role or counter is responsible for cash register operations and payment processing?",
     "hint": "Cash register and payment handling is the cashier’s role.",
     "choices": [
       {
@@ -1098,7 +1098,7 @@
   {
     "id": "gi-043",
     "subject": "General Information",
-    "prompt": "According to Article III, Section 15 of the Constitution, the writ of habeas corpus may be suspended in\ntimes of rebellion or what?",
+    "prompt": "According to Article III, Section 15 of the Constitution, the writ of habeas corpus may be suspended in times of rebellion or what?",
     "hint": "Habeas corpus may be suspended in invasion or rebellion when public safety requires it.",
     "choices": [
       {
@@ -1150,7 +1150,7 @@
   {
     "id": "gi-045",
     "subject": "General Information",
-    "prompt": "A Member of either house of Congress may be expelled by their fellow Members. For a Member to be\nexpelled, how much of the total number of Members of a house must concur with the expulsion?",
+    "prompt": "A Member of either house of Congress may be expelled by their fellow Members. For a Member to be expelled, how much of the total number of Members of a house must concur with the expulsion?",
     "hint": "Expelling a Member of either house needs a two-thirds vote of the Members of that house.",
     "choices": [
       {
@@ -1176,7 +1176,7 @@
   {
     "id": "gi-046",
     "subject": "General Information",
-    "prompt": "If a President wishes to veto a bill, he/she must communicate it within a certain span of time, otherwise\nthe bill will become a law. How long is this span of time?",
+    "prompt": "If a President wishes to veto a bill, he/she must communicate it within a certain span of time, otherwise the bill will become a law. How long is this span of time?",
     "hint": "The President has 30 days to communicate a veto; otherwise the bill can lapse into law.",
     "choices": [
       {
@@ -1232,7 +1232,7 @@
   {
     "id": "gi-048",
     "subject": "General Information",
-    "prompt": "On August 16,2018, the government announced at least ___ Philippine holidays for 2019 as\ndeclared by virtue of Proclamation No. 555, series of 2018.",
+    "prompt": "On August 16, 2018, the government announced at least ___ Philippine holidays for 2019 as declared by virtue of Proclamation No. 555, series of 2018.",
     "hint": "Proclamation-based holiday counts for 2019 were announced as 18 regular/special non-working days in that notice.",
     "choices": [
       {

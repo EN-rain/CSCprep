@@ -22,6 +22,7 @@ import {
   resetQuestionHistory,
 } from './utils/exam'
 import { questionBank } from './data/questionBank'
+import { MathText } from './utils/mathText'
 
 type Screen = 'home' | 'exam' | 'results' | 'history' | 'reports'
 type Theme = 'light' | 'dark'
@@ -2129,7 +2130,7 @@ function ReportQuestionDetails({ question, onOpenImage }: ReportQuestionDetailsP
                 <img className="choice-image" src={choice.image} alt={`${question.id} choice ${choice.id}`} draggable={false} />
               </button>
             ) : (
-              <p>{choice.text}</p>
+              <p><MathText text={choice.text} /></p>
             )}
           </div>
         ))}
@@ -2927,7 +2928,7 @@ function HintPanel({ itemNumber, onClose, question }: HintPanelProps) {
         <div className="exam-dialog__content hint-panel" data-lenis-prevent onClick={(event) => event.stopPropagation()}>
           <p className="eyebrow">Item {itemNumber}</p>
           <h2 id="hint-panel-title">Hint</h2>
-          <p className="hint-panel__text">{question.hint}</p>
+          <p className="hint-panel__text"><MathText text={question.hint} /></p>
           <div className="exam-dialog__actions">
             <button className="button button--primary" onClick={closePanel} ref={closeButtonRef} type="button">
               Close
@@ -3093,9 +3094,9 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
               {choice.image ? (
                 <img className="choice-image" src={choice.image} alt={`Choice ${displayLetter}`} draggable={false} />
               ) : (
-                !markerChoicesOnly && <p>{choice.text}</p>
+                !markerChoicesOnly && <p><MathText text={choice.text} /></p>
               )}
-              {choice.image && !markerTextOnly && <p>{choice.text}</p>}
+              {choice.image && !markerTextOnly && <p><MathText text={choice.text} /></p>}
               {tagLabel && (
                 <span className={`review-choice__tag${isCorrect ? ' review-choice__tag--correct' : ''}${isSelected && !isCorrect ? ' review-choice__tag--wrong' : ''}`}>
                   {tagLabel}
@@ -3126,7 +3127,7 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
               {cleanedExplanation && (
                 <div className="explanation">
                   <p>
-                    <strong>Explanation:</strong> {cleanedExplanation}
+                    <strong>Explanation:</strong> <MathText text={cleanedExplanation} />
                   </p>
                 </div>
               )}
@@ -3150,7 +3151,7 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
                           {isSelected && !isCorrect ? ' · your answer' : ''}
                           {isSelected && isCorrect ? ' · your answer' : ''}
                         </p>
-                        <p className="choice-explanations__text">{note}</p>
+                        <p className="choice-explanations__text"><MathText text={note} /></p>
                       </li>
                     )
                   })}
@@ -3201,7 +3202,7 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
             className={line.trim() ? 'prompt-line' : 'prompt-line prompt-line--blank'}
             key={`${questionId}-${index}`}
           >
-            {line.trim() ? line : '\u00a0'}
+            {line.trim() ? <MathText text={line} /> : '\u00a0'}
           </span>
         ))}
       </h2>
@@ -3209,7 +3210,7 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
   }
 
   if (!LINE_BREAK_PROMPT_IDS.has(questionId) && !isDataSufficiencyPrompt(prompt) && !prompt.includes('\n')) {
-    return <h2 className={headingClassName}>{prompt}</h2>
+    return <h2 className={headingClassName}><MathText text={prompt} /></h2>
   }
 
   const lines = formatPromptLines(prompt)
@@ -3221,7 +3222,7 @@ function PromptText({ prompt, questionId, visuallyHidden = false }: PromptTextPr
           className={line.trim() ? 'prompt-line' : 'prompt-line prompt-line--blank'}
           key={`${questionId}-${index}`}
         >
-          {line.trim() ? line : ' '}
+          {line.trim() ? <MathText text={line} /> : ' '}
         </span>
       ))}
     </h2>
@@ -3233,14 +3234,14 @@ function ReportPrompt({ prompt }: { prompt: string }) {
   const lines = formatPromptLines(cleanPrompt)
 
   if (lines.length <= 1) {
-    return <p>{cleanPrompt}</p>
+    return <p><MathText text={cleanPrompt} /></p>
   }
 
   return (
     <p>
       {lines.map((line, index) => (
         <span className="prompt-line" key={`${line}-${index}`}>
-          {line}
+          <MathText text={line} />
         </span>
       ))}
     </p>
