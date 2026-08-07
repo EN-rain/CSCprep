@@ -738,7 +738,7 @@ h2 {
 .exam-header__summary h1 {
   font-size: clamp(1.05rem, 2vw, 1.45rem);
   line-height: 1.15;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 .exam-title-row {
@@ -1049,7 +1049,7 @@ h2 {
   color: var(--ink);
   text-align: left;
   cursor: pointer;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 .choice--marker-only {
@@ -2225,11 +2225,22 @@ h2 {
 }
 
 .choice .math-text {
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: manual;
 }
 
 .choice .math-inline {
-  white-space: normal; /* allow wrap inside choice pills if needed */
+  white-space: normal;
+}
+
+/* Choice body text — never split mid-word like "Cannot" */
+.choice p,
+.choice .choice-text {
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: manual;
+  min-width: 0;
 }
 
 /* Prevent KaTeX default black from flashing before inherit applies */
