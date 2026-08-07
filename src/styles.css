@@ -14,6 +14,7 @@
   --danger-soft: #ececec;
   --success: #111111;
   --success-soft: #e8e8e8;
+  --brand-on: #ffffff;
   --shadow: 0 18px 44px rgba(0, 0, 0, 0.08);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -41,6 +42,7 @@
   --danger-soft: rgba(255, 255, 255, 0.08);
   --success: #f0f0f0;
   --success-soft: rgba(255, 255, 255, 0.1);
+  --brand-on: #0a0a0a;
   --shadow: 0 18px 44px rgba(0, 0, 0, 0.5);
 }
 
@@ -325,7 +327,7 @@ h2 {
 
 .button--primary {
   background: var(--brand);
-  color: white;
+  color: var(--brand-on);
 }
 
 .button--primary:disabled {
@@ -341,9 +343,9 @@ h2 {
 }
 
 .button--ghost:hover {
-  border-color: rgba(0, 0, 0, 0.28);
+  border-color: color-mix(in srgb, var(--ink) 28%, transparent);
   background: var(--brand-soft);
-  box-shadow: 0 12px 28px rgba(22, 32, 38, 0.08);
+  box-shadow: var(--shadow);
 }
 
 .button--danger {
@@ -423,13 +425,13 @@ h2 {
 }
 
 .toggle--active {
-  border-color: rgba(0, 0, 0, 0.38);
+  border-color: color-mix(in srgb, var(--ink) 38%, transparent);
   background: var(--brand-soft);
 }
 
 .toggle--active .toggle__state {
   background: var(--brand);
-  color: white;
+  color: var(--brand-on);
 }
 
 .result-stats {
@@ -735,20 +737,20 @@ h2 {
 }
 
 .exam-header__actions .button--danger:hover {
-  border-color: rgba(0, 0, 0, 0.22);
+  border-color: color-mix(in srgb, var(--ink) 22%, transparent);
   background: var(--danger-soft);
-  color: var(--danger);
+  color: var(--ink);
 }
 
 .exam-header__actions .button--primary {
-  border-color: rgba(0, 0, 0, 0.28);
+  border-color: color-mix(in srgb, var(--ink) 28%, transparent);
   background: var(--brand-soft);
   color: var(--brand-strong);
 }
 
 .exam-header__actions .button--primary:hover {
   background: var(--brand);
-  color: white;
+  color: var(--brand-on);
 }
 
 .exam-header__actions .button--primary:disabled {
