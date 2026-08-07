@@ -1040,11 +1040,11 @@
       },
       {
         "id": "C",
-        "text": "28 m2"
+        "text": "28 m²"
       },
       {
         "id": "D",
-        "text": "640 m2"
+        "text": "640 m²"
       }
     ],
     "correctChoiceId": "D",
@@ -1850,7 +1850,7 @@
       },
       {
         "id": "D",
-        "text": "4,032m2"
+        "text": "4,032 m²"
       }
     ],
     "correctChoiceId": "C",
