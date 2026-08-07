@@ -127,3 +127,9 @@
 - Action: Formula-aware unique hints (d=rt, I=Prt, percent triad, P=2(L+W), mean, fraction reciprocal, PEMDAS, DS test order, etc.)
 - Files: all 6 bank JSONs, scripts/_unique_hints.py, progress.md
 - Result: still 1464 unique; math items now surface the working formula in the hint
+
+## 2026-08-08T03:49:00+08:00 — Grok
+- Action: Redesign color + layout (impeccable / operate mode)
+- Files: src/styles.css, progress.md
+- Direction: Academic teal + warm paper; two-column home; frosted exam header; brand focus states
+- Result: Tokens + shell/home/start/exam-header/choice selected updated; mobile collapses home to 1 col.
