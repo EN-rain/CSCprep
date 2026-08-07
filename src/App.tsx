@@ -1690,7 +1690,7 @@ function HomeScreen({
         <div>
           <p className="eyebrow">Civil Service Exam Practice</p>
           <h1>CSCprep</h1>
-          <p className="tagline">Practice with anonymous random exams, subject drills, instant results, and local cooldown tracking.</p>
+          <p className="tagline">Anonymous drills for the Civil Service Exam—mixed sets or one subject, timed if you want, scored the moment you finish.</p>
         </div>
       </div>
 
