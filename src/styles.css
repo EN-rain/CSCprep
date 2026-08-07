@@ -19,6 +19,8 @@
   --warning-soft: #fff4e0;
   --info: #1a6f9c;
   --info-soft: #e5f3fb;
+  --panel: #f7f4ee;
+  --panel-soft: #f0ebe3;
   --brand-on: #fffcf7;
   --shadow: 0 1px 2px rgba(26, 36, 40, 0.05), 0 8px 24px rgba(26, 36, 40, 0.04);
   --radius-sm: 8px;
@@ -56,6 +58,8 @@
   --warning-soft: rgba(161, 92, 0, 0.2);
   --info: #7eb8d8;
   --info-soft: rgba(26, 111, 156, 0.22);
+  --panel: #1a2226;
+  --panel-soft: #151c20;
   --brand-on: #0e1416;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.28);
 }
@@ -362,7 +366,7 @@ h2 {
 }
 
 .button--primary:disabled {
-  background: #8a8a8a;
+  background: var(--muted);
   cursor: not-allowed;
   transform: none;
 }
@@ -2141,66 +2145,95 @@ h2 {
 }
 
 
-/* KaTeX math in prompts / choices / explanations */
-.math-text .katex {
-  font-size: 1.05em;
-}
-.math-inline {
-  display: inline;
-  white-space: nowrap;
-}
-.math-display {
-  display: block;
-  margin: 0.35em 0;
-  overflow-x: auto;
-}
-.choice .math-text .katex,
-.hint-panel__text .katex,
-.explanation .katex {
-  font-size: 1em;
-}
-
+/* ─── KaTeX / MathText: theme-aware colors + no overflow ─── */
 .math-text {
+  color: inherit;
   overflow: visible;
 }
+
+.math-text .katex,
+.math-text .katex * {
+  color: inherit !important;
+  border-color: currentColor;
+}
+
+/* Fraction bars, sqrt rules, accents use borders/backgrounds — force visible on dark/light */
+.math-text .katex .frac-line,
+.math-text .katex .sqrt > .sqrt-line,
+.math-text .katex .overline .overline-line,
+.math-text .katex .underline .underline-line,
+.math-text .katex .hline {
+  border-bottom-color: currentColor !important;
+  background-color: currentColor !important;
+}
+
+.math-text .katex .sqrt > .sqrt-line {
+  border-top-color: currentColor !important;
+}
+
 .math-inline {
   display: inline;
   white-space: nowrap;
   vertical-align: baseline;
+  max-width: 100%;
 }
+
 .math-inline .katex {
   font-size: 1.05em;
   line-height: 1.35;
 }
 
-/* Square roots extend above the baseline — never clip them */
-.math-text,
-.math-inline,
-.math-display,
+.math-display {
+  display: block;
+  margin: 0.4em 0;
+  overflow-x: auto;
+  overflow-y: visible;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.choice .math-text .katex,
+.hint-panel__text .katex,
+.explanation .katex,
+.choice-explanations__text .katex {
+  font-size: 1em;
+}
+
+/* Let radicals/fractions extend without clipping parent chrome */
 .prompt-line,
 .question-card h2,
 .question-card h2 .math-text,
 .question-card h2 .katex,
-.choice .math-text {
-  overflow: visible !important;
-}
-
-.math-text .katex-html {
+.choice .math-text,
+.choice p {
   overflow: visible;
-}
-
-.math-text .katex .sqrt {
-  display: inline-block;
 }
 
 .prompt-line {
   line-height: 1.55;
-  padding-block: 0.15em;
+  padding-block: 0.12em;
 }
-.question-card h2 .math-text,
-.question-card h2 .katex {
+
+.question-card h2 {
+  line-height: 1.55;
   overflow: visible;
 }
-.prompt-line {
+
+/* Choices: keep math inside the card; allow soft wrap for long expressions */
+.choice {
   overflow: visible;
 }
+
+.choice .math-text {
+  overflow-wrap: anywhere;
+}
+
+.choice .math-inline {
+  white-space: normal; /* allow wrap inside choice pills if needed */
+}
+
+/* Prevent KaTeX default black from flashing before inherit applies */
+.katex {
+  color: inherit;
+}
+

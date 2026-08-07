@@ -2859,7 +2859,7 @@ function QuestionCard({
               {choice.image ? (
                 <img className="choice-image" src={choice.image} alt={`Choice ${displayLetter}`} draggable={false} />
               ) : (
-                !markerChoicesOnly && choice.text
+                !markerChoicesOnly && <p><MathText text={choice.text} /></p>
               )}
               {choice.image && !markerTextOnly && <p className="choice-text"><MathText text={choice.text} /></p>}
             </button>
