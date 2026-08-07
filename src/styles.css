@@ -1059,7 +1059,8 @@ h2 {
   text-align: center;
 }
 
-.choice--marker-only span {
+.choice--marker-only > span,
+.choice--marker-only .choice-letter {
   width: 38px;
   height: 38px;
   font-size: 1rem;
@@ -1084,7 +1085,8 @@ h2 {
   margin: 0;
 }
 
-.choice span,
+.choice > span,
+.choice-letter,
 .review-choice__letter {
   display: inline-grid;
   width: 30px;
@@ -1540,7 +1542,8 @@ h2 {
   padding: 10px;
 }
 
-.report-choice span {
+.report-choice > span,
+.report-choice .choice-letter {
   display: inline-grid;
   width: 30px;
   height: 30px;
@@ -2248,3 +2251,47 @@ h2 {
   color: inherit;
 }
 
+
+/* MathText inside choices must not inherit letter-badge sizing */
+.choice .math-text,
+.choice .math-inline,
+.choice .math-display,
+.choice p .math-text {
+  display: inline;
+  width: auto;
+  height: auto;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font-weight: inherit;
+  place-items: unset;
+}
+
+/* MathText must never look like a choice letter badge */
+.choice .math-text,
+.choice .math-inline,
+.choice .math-display,
+.choice .katex,
+.choice .katex span,
+.report-choice .math-text,
+.report-choice .math-inline,
+.report-choice .katex,
+.report-choice .katex span,
+.review-choice .math-text,
+.review-choice .math-inline,
+.review-choice .katex,
+.review-choice .katex span {
+  display: inline !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: inherit !important;
+  font-weight: inherit !important;
+  place-items: unset !important;
+  text-transform: none !important;
+}

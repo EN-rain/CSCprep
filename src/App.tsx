@@ -2120,7 +2120,7 @@ function ReportQuestionDetails({ question, onOpenImage }: ReportQuestionDetailsP
       <div className="report-choice-list">
         {question.choices.map((choice, index) => (
           <div className="report-choice" key={choice.id}>
-            <span>{String.fromCharCode(97 + index)}</span>
+            <span className="choice-letter">{String.fromCharCode(97 + index)}</span>
             {choice.image ? (
               <button
                 className="choice-image-button"
@@ -2855,7 +2855,7 @@ function QuestionCard({
               onClick={() => onChooseAnswer(itemId, choice.id)}
               type="button"
             >
-              <span>{displayLetter}</span>
+              <span className="choice-letter">{displayLetter}</span>
               {choice.image ? (
                 <img className="choice-image" src={choice.image} alt={`Choice ${displayLetter}`} draggable={false} />
               ) : (
