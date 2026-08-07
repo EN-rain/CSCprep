@@ -1,25 +1,28 @@
 import katex from 'katex'
 import type { ReactNode } from 'react'
 
+/** Literal backslash — avoids JS '\f' / '\b' / '\s' escape traps. */
+const BS = String.fromCharCode(92)
+
 const UNICODE_FRAC: Record<string, string> = {
-  '½': '\\frac{1}{2}',
-  '¼': '\\frac{1}{4}',
-  '¾': '\\frac{3}{4}',
-  '⅓': '\\frac{1}{3}',
-  '⅔': '\\frac{2}{3}',
-  '⅕': '\\frac{1}{5}',
-  '⅖': '\\frac{2}{5}',
-  '⅗': '\\frac{3}{5}',
-  '⅘': '\\frac{4}{5}',
-  '⅙': '\\frac{1}{6}',
-  '⅚': '\\frac{5}{6}',
-  '⅛': '\\frac{1}{8}',
-  '⅜': '\\frac{3}{8}',
-  '⅝': '\\frac{5}{8}',
-  '⅞': '\\frac{7}{8}',
-  '⅐': '\\frac{1}{7}',
-  '⅑': '\\frac{1}{9}',
-  '⅒': '\\frac{1}{10}',
+  '½': BS + 'frac{1}{2}',
+  '¼': BS + 'frac{1}{4}',
+  '¾': BS + 'frac{3}{4}',
+  '⅓': BS + 'frac{1}{3}',
+  '⅔': BS + 'frac{2}{3}',
+  '⅕': BS + 'frac{1}{5}',
+  '⅖': BS + 'frac{2}{5}',
+  '⅗': BS + 'frac{3}{5}',
+  '⅘': BS + 'frac{4}{5}',
+  '⅙': BS + 'frac{1}{6}',
+  '⅚': BS + 'frac{5}{6}',
+  '⅛': BS + 'frac{1}{8}',
+  '⅜': BS + 'frac{3}{8}',
+  '⅝': BS + 'frac{5}{8}',
+  '⅞': BS + 'frac{7}{8}',
+  '⅐': BS + 'frac{1}{7}',
+  '⅑': BS + 'frac{1}{9}',
+  '⅒': BS + 'frac{1}{10}',
 }
 
 const UNICODE_SUP: Record<string, string> = {
@@ -36,16 +39,17 @@ const UNICODE_SUP: Record<string, string> = {
 }
 
 function texFrac(num: string, den: string, whole?: string): string {
-  const core = '\\frac{' + num + '}{' + den + '}'
+  // Brace both parts so signs/expressions stay intact: \frac{-6}{a-3}
+  const core = BS + 'frac{' + num + '}{' + den + '}'
   return whole ? '$' + whole + core + '$' : '$' + core + '$'
 }
 
 function texParenFrac(num: string, den: string): string {
-  return '$(' + '\\frac{' + num + '}{' + den + '}' + ')$'
+  return '$(' + BS + 'frac{' + num + '}{' + den + '})$'
 }
 
 function texSqrt(arg: string, coef?: string): string {
-  const core = '\\sqrt{' + arg + '}'
+  const core = BS + 'sqrt{' + arg + '}'
   return coef ? '$' + coef + core + '$' : '$' + core + '$'
 }
 
@@ -93,7 +97,7 @@ export function injectFractionLatex(text: string): string {
     return texParenFrac(num, den)
   })
 
-  // Signed or plain numeric a/b: -1/3, 1/2 (keep sign inside math)
+  // Signed or plain numeric a/b: -1/3, 1/2
   out = out.replace(/(?<!\$)(-?)\b(\d{1,4})\/(\d{1,4})\b(?!\$)/g, (m, sign: string, num: string, den: string) => {
     if (den === '0') return m
     if (
@@ -104,8 +108,7 @@ export function injectFractionLatex(text: string): string {
     ) {
       return m
     }
-    const n = sign ? sign + num : num
-    return texFrac(n, den)
+    return texFrac(sign ? sign + num : num, den)
   })
 
   // Exponents: x^2, 10^3, n^(-1)
@@ -129,8 +132,11 @@ export function injectFractionLatex(text: string): string {
     return texSqrt(inner.replace(/,/g, '').trim())
   })
 
-  // Already written \sqrt{...} without dollars
-  out = out.replace(/(?<!\$)\sqrt\{([^}]+)\}(?!\$)/g, (_m, inner: string) => texSqrt(inner))
+  // Already written \sqrt{...} without dollars (BS + 'sqrt{...}')
+  out = out.replace(
+    new RegExp('(?<!\\$)' + BS.replace(/\\/g, '\\\\') + 'sqrt\\{([^}]+)\\}(?!\\$)', 'g'),
+    (_m, inner: string) => texSqrt(inner),
+  )
 
   // Coefficient + unicode radical: 5√6
   out = out.replace(
@@ -141,13 +147,13 @@ export function injectFractionLatex(text: string): string {
   // Unicode radical with parentheses: √(25 x 6)
   out = out.replace(/(?<!\$)[√∛]\s*\(([^)]+)\)/g, (_m, inner: string) => {
     const texInner = inner
-      .replace(/\s*[x×*]\s*/gi, ' \\times ')
+      .replace(/\s*[x×*]\s*/gi, ' ' + BS + 'times ')
       .replace(/\s+/g, ' ')
       .trim()
     return texSqrt(texInner)
   })
 
-  // Unicode radical + number/decimal: √150, √0.000225
+  // Unicode radical + number/decimal: √150, √0.00000081
   out = out.replace(/(?<!\$)[√∛]\s*(\d+(?:\.\d+)?)/g, (_m, arg: string) => texSqrt(arg))
 
   return out
@@ -160,6 +166,7 @@ function renderKatex(tex: string, displayMode: boolean): string {
       displayMode,
       strict: 'ignore',
       output: 'html',
+      trust: false,
     })
   } catch {
     return tex

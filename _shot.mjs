@@ -2,8 +2,8 @@ import { chromium } from 'playwright-core'
 import path from 'path'
 import fs from 'fs'
 
-const htmlPath = path.resolve('artifacts/math-verify.html')
-const outPath = path.resolve('artifacts/math-verify.png')
+const htmlPath = path.resolve('artifacts/alg-verify.html')
+const outPath = path.resolve('artifacts/alg-verify.png')
 const chrome = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
 const edge = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
 const exe = fs.existsSync(chrome) ? chrome : edge
