@@ -268,7 +268,10 @@ h2 {
 
 .question-card h2 {
   font-weight: 400;
+  line-height: 1.55;
+  overflow: visible;
 }
+
 
 .results .review-card h2 {
   font-weight: 400;
@@ -2167,7 +2170,32 @@ h2 {
 }
 .math-inline .katex {
   font-size: 1.05em;
-  line-height: 1;
+  line-height: 1.35;
+}
+
+/* Square roots extend above the baseline — never clip them */
+.math-text,
+.math-inline,
+.math-display,
+.prompt-line,
+.question-card h2,
+.question-card h2 .math-text,
+.question-card h2 .katex,
+.choice .math-text {
+  overflow: visible !important;
+}
+
+.math-text .katex-html {
+  overflow: visible;
+}
+
+.math-text .katex .sqrt {
+  display: inline-block;
+}
+
+.prompt-line {
+  line-height: 1.55;
+  padding-block: 0.15em;
 }
 .question-card h2 .math-text,
 .question-card h2 .katex {
