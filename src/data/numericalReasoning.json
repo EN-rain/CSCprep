@@ -1001,7 +1001,7 @@
   {
     "id": "nr-040",
     "subject": "Numerical Reasoning",
-    "prompt": "The lengths of the sides of a triangle can be represented by three consecutive integers. The perimeter of the triangle is 96cm. Find the length of the longest side of the triangle.",
+    "prompt": "The lengths of the sides of a triangle can be represented by three consecutive integers. The perimeter of the triangle is 96 cm. Find the length of the longest side of the triangle.",
     "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: The lengths of the sides of a triangle can be represented by three.",
     "choices": [
       {
@@ -1032,11 +1032,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "16m"
+        "text": "16 m"
       },
       {
         "id": "B",
-        "text": "24m"
+        "text": "24 m"
       },
       {
         "id": "C",
@@ -1370,15 +1370,15 @@
     "choices": [
       {
         "id": "A",
-        "text": "2 3/8cm"
+        "text": "2 3/8 cm"
       },
       {
         "id": "B",
-        "text": "1 7/8cm"
+        "text": "1 7/8 cm"
       },
       {
         "id": "C",
-        "text": "1 3/8cm"
+        "text": "1 3/8 cm"
       },
       {
         "id": "D",
@@ -1396,19 +1396,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "264 5/16km"
+        "text": "264 5/16 km"
       },
       {
         "id": "B",
-        "text": "331 9/16km"
+        "text": "331 9/16 km"
       },
       {
         "id": "C",
-        "text": "330 5/16km"
+        "text": "330 5/16 km"
       },
       {
         "id": "D",
-        "text": "135 1/8km"
+        "text": "135 1/8 km"
       }
     ],
     "correctChoiceId": "B",
@@ -1422,19 +1422,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "750 3/8kg"
+        "text": "750 3/8 kg"
       },
       {
         "id": "B",
-        "text": "824 3/8kg"
+        "text": "824 3/8 kg"
       },
       {
         "id": "C",
-        "text": "720 5/8kg"
+        "text": "720 5/8 kg"
       },
       {
         "id": "D",
-        "text": "753 1/8kg"
+        "text": "753 1/8 kg"
       }
     ],
     "correctChoiceId": "D",
@@ -1838,15 +1838,15 @@
     "choices": [
       {
         "id": "A",
-        "text": "132m"
+        "text": "132 m"
       },
       {
         "id": "B",
-        "text": "244m"
+        "text": "244 m"
       },
       {
         "id": "C",
-        "text": "264m"
+        "text": "264 m"
       },
       {
         "id": "D",
@@ -1859,7 +1859,7 @@
   {
     "id": "nr-073",
     "subject": "Numerical Reasoning",
-    "prompt": "How many 1-cm square stickers are needed to cover a photo box 4 cm long, 3cm wide and 5cm high?",
+    "prompt": "How many 1-cm square stickers are needed to cover a photo box 4 cm long, 3 cm wide and 5 cm high?",
     "hint": "List the givens, name the unknown, pick one clear operation path. Item: How many 1-cm square stickers are needed to cover a photo box 4 cm.",
     "choices": [
       {
@@ -1885,8 +1885,8 @@
   {
     "id": "nr-074",
     "subject": "Numerical Reasoning",
-    "prompt": "One side of a triangle is 3cm longer than the shortest side, and the other side is 4cm longer than the shortest side. How long is the shortest side if the perimeter is 67 cm?",
-    "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: One side of a triangle is 3cm longer than the shortest side, and the.",
+    "prompt": "One side of a triangle is 3 cm longer than the shortest side, and the other side is 4 cm longer than the shortest side. How long is the shortest side if the perimeter is 67 cm?",
+    "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: One side of a triangle is 3 cm longer than the shortest side, and the.",
     "choices": [
       {
         "id": "A",
@@ -1911,8 +1911,8 @@
   {
     "id": "nr-075",
     "subject": "Numerical Reasoning",
-    "prompt": "The length of a rectangle is 2cm less than twice its width. What is its width in cm, if its perimeter is 50cm?",
-    "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: The length of a rectangle is 2cm less than twice its width. What is.",
+    "prompt": "The length of a rectangle is 2 cm less than twice its width. What is its width in cm, if its perimeter is 50 cm?",
+    "hint": "Rectangle: P = 2(L + W), A = L × W. Translate the word relation into L and W, then substitute. Item: The length of a rectangle is 2 cm less than twice its width. What is.",
     "choices": [
       {
         "id": "A",
@@ -3674,7 +3674,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Let men be m and women be m + 32. Then m + (m + 32) = 120, so 2m = 88 and m = 44. Women = 44 + 32 = 76."
+    "explanation": "Let men be m and women be m + 32. Then m + (m + 32) = 120, so 2 m = 88 and m = 44. Women = 44 + 32 = 76."
   },
   {
     "id": "nr-137",
@@ -4301,8 +4301,8 @@
   {
     "id": "nr-158",
     "subject": "Numerical Reasoning",
-    "prompt": "Ratio of 750m and 3km is ____",
-    "hint": "Ratio a:b means a/(a+b) of the whole for a’s share. Or set a/b = c/d and cross-multiply. Item: Ratio of 750m and 3km is ____.",
+    "prompt": "Ratio of 750 m and 3 km is ____",
+    "hint": "Ratio a:b means a/(a+b) of the whole for a’s share. Or set a/b = c/d and cross-multiply. Item: Ratio of 750 m and 3 km is ____.",
     "choices": [
       {
         "id": "A",
@@ -4332,19 +4332,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "14cm, 13cm"
+        "text": "14 cm, 13 cm"
       },
       {
         "id": "B",
-        "text": "18cm, 15cm"
+        "text": "18 cm, 15 cm"
       },
       {
         "id": "C",
-        "text": "30cm, 26cm"
+        "text": "30 cm, 26 cm"
       },
       {
         "id": "D",
-        "text": "16cm, 12cm"
+        "text": "16 cm, 12 cm"
       },
       {
         "id": "E",
@@ -5605,7 +5605,7 @@
       },
       {
         "id": "D",
-        "text": "135 1/8km"
+        "text": "135 1/8 km"
       }
     ],
     "correctChoiceId": "B",
