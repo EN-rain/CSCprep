@@ -82,13 +82,25 @@ export function injectFractionLatex(text: string): string {
     },
   )
 
-  // Algebraic fraction: -6/(a - 3) or 3/(a + 2)
+  // Algebraic fraction: -6/(a - 3), 2/(1/7 + 1/a)
+  // Convert inner a/b pieces inside the denominator to LaTeX fracs (no $ wrappers),
+  // then wrap the whole expression once.
   out = out.replace(
     /(?<!\$)(-?\d+)\s*\/\s*\(([^)]+)\)/g,
     (_m, num: string, den: string) => {
-      const cleanDen = den.replace(/\s+/g, '')
-      return texFrac(num, cleanDen)
+      let d = den.replace(/\s+/g, '')
+      // inner numeric fractions: 1/7
+      d = d.replace(/(-?\d+)\/(\d+)/g, (_i, n: string, m: string) => BS + 'frac{' + n + '}{' + m + '}')
+      // inner digit/variable: 1/a
+      d = d.replace(/(-?\d+)\/([A-Za-z])/g, (_i, n: string, v: string) => BS + 'frac{' + n + '}{' + v + '}')
+      return texFrac(num, d)
     },
+  )
+
+  // digit / variable outside parens: 1/a, 3/x
+  out = out.replace(
+    /(?<!\$)(-?)(\d+)\/([A-Za-z])(?!\$)/g,
+    (_m, sign: string, num: string, den: string) => texFrac(sign ? sign + num : num, den),
   )
 
   // Parenthesized numeric fractions: (3/8)
