@@ -111,11 +111,26 @@ export function injectFractionLatex(text: string): string {
     return texFrac(sign ? sign + num : num, den)
   })
 
-  // Exponents: x^2, 10^3, n^(-1)
+  // Exponents — parenthesized bases first: (a + b)^2, (-8)^2, (25)^0
   out = out.replace(
-    /(?<!\$)\b([A-Za-z]|\d+(?:\.\d+)?)\^(\d+|\(\s*-?\d+\s*\))(?!\$)/g,
-    (_m, base: string, exp: string) => texPow(base, exp.replace(/[()]/g, '')),
+    /(?<!\$)\(([^()]{1,60})\)\s*\^(\d+)(?!\$)/g,
+    (_m, inner: string, exp: string) => '$(' + inner.trim() + ')^{' + exp + '}$',
   )
+
+  // Letter bases (incl. 4s^2): a^2, s^2
+  out = out.replace(
+    /(?<!\$)([A-Za-z])\^(\d+)(?!\$)/g,
+    (_m, base: string, exp: string) => texPow(base, exp),
+  )
+
+  // Number bases: 15^0, 10^3, 2^2
+  out = out.replace(
+    /(?<!\$)\b(\d+(?:\.\d+)?)\^(\d+)(?!\$)/g,
+    (_m, base: string, exp: string) => texPow(base, exp),
+  )
+
+  // Unary-minus bases written as -2^2 (keep sign outside math carefully)
+  // Already covered for digit bases via \b; (-2)^2 handled by paren rule above.
 
   // Unicode superscripts: x², 10³
   out = out.replace(
