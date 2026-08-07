@@ -75,7 +75,7 @@ export function injectFractionLatex(text: string): string {
 
   // Mixed numbers: 3 1/8 or 3-1/8
   out = out.replace(
-    /(?<!\$)\b(\d+)[\u00a0\s-](\d+)\/(\d+)\b(?!\$)/g,
+    /(?<!\$)\b(\d+)[\u00a0\s-](\d+)\/(\d+)(?!\d)(?!\$)/g,
     (_m, whole: string, num: string, den: string) => {
       if (den === '0') return _m
       return texFrac(num, den, whole)
@@ -98,7 +98,7 @@ export function injectFractionLatex(text: string): string {
   })
 
   // Signed or plain numeric a/b: -1/3, 1/2
-  out = out.replace(/(?<!\$)(-?)\b(\d{1,4})\/(\d{1,4})\b(?!\$)/g, (m, sign: string, num: string, den: string) => {
+  out = out.replace(/(?<!\$)(-?)\b(\d{1,4})\/(\d{1,4})(?!\d)(?!\$)/g, (m, sign: string, num: string, den: string) => {
     if (den === '0') return m
     if (
       num.length === 4 &&
