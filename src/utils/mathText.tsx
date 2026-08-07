@@ -40,6 +40,11 @@ function texFrac(num: string, den: string, whole?: string): string {
   return whole ? '$' + whole + core + '$' : '$' + core + '$'
 }
 
+function texParenFrac(num: string, den: string): string {
+  // Keep parentheses inside one math atom so layout stays correct.
+  return '$(' + '\\frac{' + num + '}{' + den + '}' + ')$'
+}
+
 function texSqrt(arg: string, coef?: string): string {
   const core = '\\sqrt{' + arg + '}'
   return coef ? '$' + coef + core + '$' : '$' + core + '$'
@@ -73,6 +78,12 @@ export function injectFractionLatex(text: string): string {
       return texFrac(num, den, whole)
     },
   )
+
+  // Parenthesized fractions: (3/8) -> $(\frac{3}{8})$ as one math atom
+  out = out.replace(/(?<!\$)\((\d{1,4})\/(\d{1,4})\)(?!\$)/g, (_m, num: string, den: string) => {
+    if (den === '0') return _m
+    return texParenFrac(num, den)
+  })
 
   // Simple a/b — skip year ranges like 1990/1999
   out = out.replace(/(?<!\$)\b(\d{1,4})\/(\d{1,4})\b(?!\$)/g, (m, num: string, den: string) => {
@@ -194,6 +205,7 @@ export function hasMathContent(text: string): boolean {
   if (/[√∛]/.test(text)) return true
   if (/\bsqrt\s*\(/i.test(text)) return true
   if (/\b\d+[\s-]\d+\/\d+\b/.test(text)) return true
+  if (/\(\d+\/\d+\)/.test(text)) return true
   if (/\b\d{1,4}\/\d{1,4}\b/.test(text)) return true
   if (/\b[A-Za-z0-9]\^\d/.test(text)) return true
   if (/[¹²³⁰⁴⁵⁶⁷⁸⁹]/.test(text)) return true

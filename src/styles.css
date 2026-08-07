@@ -2156,3 +2156,23 @@ h2 {
 .explanation .katex {
   font-size: 1em;
 }
+
+.math-text {
+  overflow: visible;
+}
+.math-inline {
+  display: inline;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+.math-inline .katex {
+  font-size: 1.05em;
+  line-height: 1;
+}
+.question-card h2 .math-text,
+.question-card h2 .katex {
+  overflow: visible;
+}
+.prompt-line {
+  overflow: visible;
+}
