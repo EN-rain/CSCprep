@@ -2,55 +2,81 @@ import katex from 'katex'
 import type { ReactNode } from 'react'
 
 const UNICODE_FRAC: Record<string, string> = {
-  '\u00bd': '\frac{1}{2}',
-  '\u00bc': '\frac{1}{4}',
-  '\u00be': '\frac{3}{4}',
-  '\u2153': '\frac{1}{3}',
-  '\u2154': '\frac{2}{3}',
-  '\u2155': '\frac{1}{5}',
-  '\u2156': '\frac{2}{5}',
-  '\u2157': '\frac{3}{5}',
-  '\u2158': '\frac{4}{5}',
-  '\u2159': '\frac{1}{6}',
-  '\u215a': '\frac{5}{6}',
-  '\u215b': '\frac{1}{8}',
-  '\u215c': '\frac{3}{8}',
-  '\u215d': '\frac{5}{8}',
-  '\u215e': '\frac{7}{8}',
-  '\u2150': '\frac{1}{7}',
-  '\u2151': '\frac{1}{9}',
-  '\u2152': '\frac{1}{10}',
+  '½': '\\frac{1}{2}',
+  '¼': '\\frac{1}{4}',
+  '¾': '\\frac{3}{4}',
+  '⅓': '\\frac{1}{3}',
+  '⅔': '\\frac{2}{3}',
+  '⅕': '\\frac{1}{5}',
+  '⅖': '\\frac{2}{5}',
+  '⅗': '\\frac{3}{5}',
+  '⅘': '\\frac{4}{5}',
+  '⅙': '\\frac{1}{6}',
+  '⅚': '\\frac{5}{6}',
+  '⅛': '\\frac{1}{8}',
+  '⅜': '\\frac{3}{8}',
+  '⅝': '\\frac{5}{8}',
+  '⅞': '\\frac{7}{8}',
+  '⅐': '\\frac{1}{7}',
+  '⅑': '\\frac{1}{9}',
+  '⅒': '\\frac{1}{10}',
 }
 
-/** Convert plain / unicode fractions into $...$ so KaTeX can render them. */
+const UNICODE_SUP: Record<string, string> = {
+  '²': '2',
+  '³': '3',
+  '¹': '1',
+  '⁰': '0',
+  '⁴': '4',
+  '⁵': '5',
+  '⁶': '6',
+  '⁷': '7',
+  '⁸': '8',
+  '⁹': '9',
+}
+
+function texFrac(num: string, den: string, whole?: string): string {
+  const core = '\\frac{' + num + '}{' + den + '}'
+  return whole ? '$' + whole + core + '$' : '$' + core + '$'
+}
+
+function texSqrt(arg: string, coef?: string): string {
+  const core = '\\sqrt{' + arg + '}'
+  return coef ? '$' + coef + core + '$' : '$' + core + '$'
+}
+
+function texPow(base: string, exp: string): string {
+  return '$' + base + '^{' + exp + '}$'
+}
+
+/** Convert plain / unicode math into $...$ so KaTeX can render it. */
 export function injectFractionLatex(text: string): string {
   if (!text) return text
 
   let out = text
 
-  // Unicode vulgar fractions (optionally after a whole number: "3\u00bd")
+  // Unicode vulgar fractions (optionally after a whole number: 3⅛)
   out = out.replace(
-    /(\d+)?([\u00bc\u00bd\u00be\u2150-\u215e])/gu,
+    /(\d+)?([¼½¾⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅐⅑⅒])/gu,
     (_m, whole: string | undefined, frac: string) => {
       const body = UNICODE_FRAC[frac]
       if (!body) return _m
-      return whole ? `$${whole}${body}$` : `$${body}$`
+      return whole ? '$' + whole + body + '$' : '$' + body + '$'
     },
   )
 
-  // Mixed numbers: 3 1/4 or 3-1/4
+  // Mixed numbers: 3 1/8 or 3-1/8
   out = out.replace(
-    /(?<!\$)\b(\d+)[\s-](\d+)\/(\d+)\b(?!\$)/g,
+    /(?<!\$)\b(\d+)[\u00a0\s-](\d+)\/(\d+)\b(?!\$)/g,
     (_m, whole: string, num: string, den: string) => {
       if (den === '0') return _m
-      return `$${whole}\frac{${num}}{${den}}$`
+      return texFrac(num, den, whole)
     },
   )
 
-  // Simple a/b — skip years like 1990/1999 and already-wrapped math
+  // Simple a/b — skip year ranges like 1990/1999
   out = out.replace(/(?<!\$)\b(\d{1,4})\/(\d{1,4})\b(?!\$)/g, (m, num: string, den: string) => {
     if (den === '0') return m
-    // likely date range or code if both look like years
     if (
       num.length === 4 &&
       den.length === 4 &&
@@ -59,11 +85,50 @@ export function injectFractionLatex(text: string): string {
     ) {
       return m
     }
-    return `$\frac{${num}}{${den}}$`
+    return texFrac(num, den)
   })
 
-  // Square roots already written as \sqrt{...} without dollars
-  out = out.replace(/(?<!\$)\sqrt\{([^}]+)\}(?!\$)/g, (_m, inner: string) => `$\sqrt{${inner}}$`)
+  // Exponents: x^2, 10^3, n^(-1)
+  out = out.replace(
+    /(?<!\$)\b([A-Za-z]|\d+(?:\.\d+)?)\^(\d+|\(\s*-?\d+\s*\))(?!\$)/g,
+    (_m, base: string, exp: string) => texPow(base, exp.replace(/[()]/g, '')),
+  )
+
+  // Unicode superscripts: x², 10³
+  out = out.replace(
+    /(?<!\$)([A-Za-z0-9)\]])([¹²³⁰⁴⁵⁶⁷⁸⁹]+)/g,
+    (_m, base: string, sups: string) => {
+      const digits = [...sups].map((ch) => UNICODE_SUP[ch] ?? '').join('')
+      if (!digits) return _m
+      return texPow(base, digits)
+    },
+  )
+
+  // Plain sqrt(...)
+  out = out.replace(/(?<!\$)\bsqrt\s*\(([^)]+)\)/gi, (_m, inner: string) => {
+    return texSqrt(inner.replace(/,/g, '').trim())
+  })
+
+  // Already written \sqrt{...} without dollars
+  out = out.replace(/(?<!\$)\sqrt\{([^}]+)\}(?!\$)/g, (_m, inner: string) => texSqrt(inner))
+
+  // Coefficient + unicode radical: 5√6
+  out = out.replace(
+    /(?<!\$)(\d+)\s*[√∛]\s*(\d+(?:\.\d+)?)/g,
+    (_m, coef: string, arg: string) => texSqrt(arg, coef),
+  )
+
+  // Unicode radical with parentheses: √(25 x 6)
+  out = out.replace(/(?<!\$)[√∛]\s*\(([^)]+)\)/g, (_m, inner: string) => {
+    const texInner = inner
+      .replace(/\s*[x×*]\s*/gi, ' \\times ')
+      .replace(/\s+/g, ' ')
+      .trim()
+    return texSqrt(texInner)
+  })
+
+  // Unicode radical + number/decimal: √150, √0.000225
+  out = out.replace(/(?<!\$)[√∛]\s*(\d+(?:\.\d+)?)/g, (_m, arg: string) => texSqrt(arg))
 
   return out
 }
@@ -81,13 +146,9 @@ function renderKatex(tex: string, displayMode: boolean): string {
   }
 }
 
-/**
- * Split text on $...$ / $$...$$ and return React nodes with KaTeX HTML for math segments.
- */
 export function MathText({ text, as: Comp = 'span' }: { text: string; as?: 'span' | 'p' | 'div' }) {
   const prepared = injectFractionLatex(text)
   const nodes: ReactNode[] = []
-  // Match $$...$$ first, then $...$
   const re = /\$\$([^$]+)\$\$|\$([^$]+)\$/g
   let last = 0
   let match: RegExpExecArray | null
@@ -129,8 +190,12 @@ export function MathText({ text, as: Comp = 'span' }: { text: string; as?: 'span
 export function hasMathContent(text: string): boolean {
   if (!text) return false
   if (/\$[\s\S]+?\$/.test(text)) return true
-  if (/[\u00bc\u00bd\u00be\u2150-\u215e]/.test(text)) return true
+  if (/[¼½¾⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅐⅑⅒]/.test(text)) return true
+  if (/[√∛]/.test(text)) return true
+  if (/\bsqrt\s*\(/i.test(text)) return true
   if (/\b\d+[\s-]\d+\/\d+\b/.test(text)) return true
   if (/\b\d{1,4}\/\d{1,4}\b/.test(text)) return true
+  if (/\b[A-Za-z0-9]\^\d/.test(text)) return true
+  if (/[¹²³⁰⁴⁵⁶⁷⁸⁹]/.test(text)) return true
   return false
 }

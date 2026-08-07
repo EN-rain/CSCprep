@@ -2861,7 +2861,7 @@ function QuestionCard({
               ) : (
                 !markerChoicesOnly && choice.text
               )}
-              {choice.image && !markerTextOnly && <p className="choice-text">{choice.text}</p>}
+              {choice.image && !markerTextOnly && <p className="choice-text"><MathText text={choice.text} /></p>}
             </button>
           )
         })}
