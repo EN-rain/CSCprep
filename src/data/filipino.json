@@ -2757,7 +2757,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang gamit ng \"ng\" sa \"sinulat ng Rizal.\" Kapag tao ang gumawa, gamitin ang \"ni\": \"sinulat ni Rizal sa Fort Santiago.\"",
     "image": "/question-images/fi-106.png"
   },
   {
@@ -2788,7 +2788,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "\"Si\" ay para sa iisang tao. Dalawa ang tinutukoy (Teodora Alonzo at Francisco Mercado), kaya \"Sina Teodora Alonzo at Francisco Mercado…\" ang wasto.",
     "image": "/question-images/fi-107.png"
   },
   {
@@ -2819,7 +2819,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"nang\" sa \"lumikha nang buwis.\" Layon ito ng pandiwa, kaya \"ng\": \"Hindi dapat lumikha ng buwis…\"",
     "image": "/question-images/fi-108.png"
   },
   {
@@ -2850,7 +2850,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Ang unang bahagi ang may mali sa anyo/gamit ng pandiwa sa konteksto ng pangungusap; kailangang itama ang unang salita upang tumugma ang aspekto at diwa (\"Iniisip\" → wastong anyo ayon sa intensyon ng pangungusap).",
     "image": "/question-images/fi-109.png"
   },
   {
@@ -2881,7 +2881,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "May maling pagkakahiwa o pagkakasunod sa unang bahagi ng pangungusap; ayusin ang unang yunit upang malinaw ang \"mainam… ang magbalik-aral…\" bilang buong kaisipan.",
     "image": "/question-images/fi-110.png"
   },
   {
@@ -2912,7 +2912,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"kung\" sa \"Ang mga payo kung binitawan.\" Ang wasto ay \"kapag\" o \"kung\" nang may tamang ugnayan—dito ang inilaan ay \"Ang mga payo kapag binitawan ay dapat mong pakinggan.\"",
     "image": "/question-images/fi-111.png"
   },
   {
@@ -2943,7 +2943,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "May mali sa ikalawang bahagi hinggil sa wastong pantukoy/pang-ukol sa \"pera at panahon\"; tiyaking magkatugma ang \"upang hindi masayang…\" sa buong diwa ng pangungusap.",
     "image": "/question-images/fi-112.png"
   },
   {
@@ -3004,7 +3004,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Sa ikalawang bahagi, ang ugnayan \"hindi lamang… kundi…\" ay dapat buo at wasto ang anyo (\"kundi\" / \"kundi pati\"); ang bahaging iyon ang may mali sa orihinal.",
     "image": "/question-images/fi-114.png"
   },
   {
@@ -3035,7 +3035,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang anyo ng pandiwa sa \"nagsisipilyo.\" Ang wastong pantangi ay \"magsipilyo\" (\"…na magsipilyo matapos kumain\").",
     "image": "/question-images/fi-115.png"
   },
   {
@@ -3066,7 +3066,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "May mali sa unang bahagi: ang pantukoy o anyo ng \"Haluin mo ang sopas…\" ay dapat itugma sa wastong layon (\"ang sopas na may iba’t ibang gulay\" o katumbas na wastong ayos).",
     "image": "/question-images/fi-116.png"
   },
   {
@@ -3097,7 +3097,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "\"Kundi ka\" ay mali. Ang wasto ay \"Kung di ka\" o \"Kung hindi ka kikilos…\"—simula sa unang bahagi ang pagkakamali.",
     "image": "/question-images/fi-117.png"
   },
   {
@@ -3128,7 +3128,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "\"mayroon proyekto\" ay mali. Kasunod ng \"mayroon\" ang \"ng\": \"mayroon ng proyekto\" o mas natural \"may proyektong CHED…\"",
     "image": "/question-images/fi-118.png"
   },
   {
@@ -3159,7 +3159,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"nayari.\" Ang wastong pandiwa ay \"nayari\"→\"nagawa\" / \"nabuo\" o \"nayari\" bilang \"na yari\"—sa aytem, ang unang bahagi ang may maling anyo (\"nagtutulungan… kaya nabuo/nayari\").",
     "image": "/question-images/fi-119.png"
   },
   {
@@ -3190,7 +3190,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Sa ikaapat na bahagi, mali ang ugnayan o anyo ng \"sapagkat nagkakaroon ng kalamidad\" bilang dahilan; itama ang bahaging iyon upang tumugma ang sanhi-bunga sa diwa ng pangungusap.",
     "image": "/question-images/fi-120.png"
   },
   {
@@ -3221,7 +3221,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "explanation": "Walang mali ang pangungusap: wasto ang ugnayan \"ngunit,\" ang mga pang-uri, at ang ayos ng mga salita.",
     "image": "/question-images/fi-121.png"
   },
   {
@@ -3252,7 +3252,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"nang\" sa \"pagtutulungan nang lahat.\" Dapat \"ng\": \"pagtutulungan ng lahat.\"",
     "image": "/question-images/fi-122.png"
   },
   {
@@ -3283,7 +3283,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "\"mayroon matibay\" ay kulang ng \"ng\": wasto ang \"mayroon ng matibay na paniniwala\" o \"may matibay na paniniwala.\"",
     "image": "/question-images/fi-123.png"
   },
   {
@@ -3314,7 +3314,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"pinayagan\" sa konteksto ng \"Ipinakiusap… na pinayagan.\" Ang wastong anyo ay \"payagan\" (\"…na payagan kang gamitin ang kompyuter\").",
     "image": "/question-images/fi-124.png"
   },
   {
@@ -3345,7 +3345,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "explanation": "Wastong buo ang pangungusap—walang mali sa pantukoy, pandiwa, o ayos: \"Hanapan mo ng sagot sa iyong katanungan ang iyong guro.\"",
     "image": "/question-images/fi-125.png"
   },
   {
@@ -3376,7 +3376,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Tamang sagot ang choice C (\"Underlined part c\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"pag-eehersisyo ng pag-iwas.\" Ang wastong ugnayan ay \"sa\" o \"para sa\": \"…naitutulong ng pag-eehersisyo sa pag-iwas sa sakit sa puso.\"",
     "image": "/question-images/fi-126.png"
   },
   {
@@ -3407,7 +3407,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Tamang sagot ang choice B (\"Underlined part b\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"iiwasan.\" Ang wastong anyo ay \"iwasan\": \"Dapat nating iwasan ang labis na pagkain…\"",
     "image": "/question-images/fi-127.png"
   },
   {
@@ -3438,7 +3438,7 @@
       }
     ],
     "correctChoiceId": "E",
-    "explanation": "Tamang sagot ang choice E dahil walang maling bahagi sa pangungusap.",
+    "explanation": "Walang mali: wasto ang \"Panatilihin nating…\" at ang layuning \"para na rin sa ating kalusugan.\"",
     "image": "/question-images/fi-128.png"
   },
   {
@@ -3469,7 +3469,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Tamang sagot ang choice A (\"Underlined part a\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Ang unang bahagi ang may mali sa anyo o baybay ng bawal na gawain sa konteksto ng aytem; ang diwa ay labag sa batas ang smuggling bilang pagsabotahe sa ekonomiya—tiyaking wasto ang unang yunit.",
     "image": "/question-images/fi-129.png"
   },
   {
@@ -3500,7 +3500,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Tamang sagot ang choice D (\"Underlined part d\") dahil ang bahaging iyon ang may mali sa pangungusap.",
+    "explanation": "Mali ang \"nang\" sa \"nakasisira nang tahanan.\" Dapat \"ng\": \"nakasisira ng tahanan at lipunan.\"",
     "image": "/question-images/fi-130.png"
   },
   {

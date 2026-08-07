@@ -1926,3 +1926,143 @@ h2 {
 .review-choice--marker-only .review-choice__tag {
   justify-self: center;
 }
+
+
+/* Results: your answer vs correct + collapsible explanation */
+.review-summary {
+  margin-top: 14px;
+  display: grid;
+  gap: 8px;
+}
+
+.review-summary__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel-soft, var(--panel));
+}
+
+.review-summary__row--ok {
+  border-color: color-mix(in srgb, var(--success) 45%, var(--line));
+  background: var(--success-soft);
+}
+
+.review-summary__row--bad {
+  border-color: color-mix(in srgb, var(--danger) 45%, var(--line));
+  background: var(--danger-soft);
+}
+
+.review-summary__label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  min-width: 5.5rem;
+}
+
+.review-summary__value {
+  font-weight: 700;
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+}
+
+.explanation-panel {
+  margin-top: 14px;
+}
+
+.explanation-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.explanation-toggle:hover,
+.explanation-toggle:focus-visible {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.explanation-toggle__chevron {
+  display: inline-block;
+  transition: transform 220ms ease;
+  opacity: 0.7;
+}
+
+.explanation-toggle__chevron--open {
+  transform: rotate(180deg);
+}
+
+.explanation-collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 280ms ease;
+}
+
+.explanation-collapse--open {
+  grid-template-rows: 1fr;
+}
+
+.explanation-collapse__inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.explanation-collapse--open .explanation-collapse__inner {
+  padding-top: 10px;
+}
+
+.choice-explanations {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.choice-explanations__item {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.choice-explanations__item--correct {
+  border-color: color-mix(in srgb, var(--success) 40%, var(--line));
+  background: var(--success-soft);
+}
+
+.choice-explanations__item--yours {
+  border-color: color-mix(in srgb, var(--danger) 40%, var(--line));
+  background: var(--danger-soft);
+}
+
+.choice-explanations__label {
+  margin: 0 0 4px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.choice-explanations__text {
+  margin: 0;
+  line-height: 1.45;
+}

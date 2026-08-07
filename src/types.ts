@@ -14,6 +14,8 @@ export type Choice = {
   id: ChoiceId
   text: string
   image?: string
+  /** Optional why this choice is right/wrong (shown in results breakdown). */
+  explanation?: string
 }
 
 export type QuestionStatus = 'active' | 'excluded' | 'needs-review'

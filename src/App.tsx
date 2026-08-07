@@ -921,7 +921,15 @@ function App() {
 
   function scrollToExamItem(itemId: string) {
     window.setTimeout(() => {
-      document.getElementById(`exam-item-${itemId}`)?.scrollIntoView({
+      const el = document.getElementById(`exam-item-${itemId}`)
+      if (!el) {
+        return
+      }
+      if (lenisRef.current) {
+        lenisRef.current.scrollTo(el, { offset: -80, duration: 1.0 })
+        return
+      }
+      el.scrollIntoView({
         behavior: 'smooth',
         block: 'center',
       })
@@ -1272,6 +1280,8 @@ function App() {
     })
   }, [activeSkippedItemId, answers, remainingSeconds, screen, session, skippedItemNotice, skippedItemQueue])
 
+  const lenisRef = useRef<Lenis | null>(null)
+
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
@@ -1282,10 +1292,19 @@ function App() {
     const lenis = new Lenis({
       autoRaf: true,
       anchors: true,
-      lerp: 0.08,
+      duration: 1.1,
+      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      lerp: 0.1,
+      smoothWheel: true,
+      touchMultiplier: 1.4,
     })
 
-    return () => lenis.destroy()
+    lenisRef.current = lenis
+
+    return () => {
+      lenisRef.current = null
+      lenis.destroy()
+    }
   }, [])
 
   useEffect(() => {
@@ -1305,7 +1324,11 @@ function App() {
     }
 
     window.requestAnimationFrame(() => {
-      window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+      if (lenisRef.current) {
+        lenisRef.current.scrollTo(0, { immediate: true })
+      } else {
+        window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+      }
     })
   }, [screen])
 
@@ -2931,6 +2954,7 @@ function formatReviewExplanation(
 }
 
 function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
+  const [explanationOpen, setExplanationOpen] = useState(false)
   const isPassageFollowUp = typeof item.passageReferItemNumber === 'number'
   const displayImage = isPassageFollowUp ? undefined : item.image
   const displayPrompt = isPassageFollowUp && item.passageAnchorPrompt
@@ -2940,6 +2964,27 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
   const markerChoicesOnly = Boolean(displayImage) && usesImageChoiceMarkers(item.choices) && !choicesHaveImages
   const promptIsShownInImage = hasPromptInImage(item.questionId, displayImage, markerChoicesOnly, displayPrompt)
   const correctChoice = item.choices.find((choice) => choice.id === item.correctChoiceId)
+  const selectedChoice = item.choices.find((choice) => choice.id === item.selectedChoiceId)
+
+  const cleanedExplanation = item.explanation
+    ? formatReviewExplanation(
+        item.explanation,
+        correctChoice?.text ?? '',
+        { isCorrect: item.isCorrect },
+      )
+    : ''
+
+  const choiceBreakdown = item.choices
+    .map((choice) => {
+      const note = (choice.explanation || '').trim()
+      if (!note) {
+        return null
+      }
+      return { choice, note }
+    })
+    .filter((entry): entry is { choice: (typeof item.choices)[number]; note: string } => Boolean(entry))
+
+  const hasExpandableExplanation = Boolean(cleanedExplanation) || choiceBreakdown.length > 0
 
   return (
     <article className="review-card">
@@ -2965,25 +3010,29 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
         questionId={item.questionId}
         visuallyHidden={promptIsShownInImage}
       />
-      {item.explanation && (() => {
-        const cleanedExplanation = formatReviewExplanation(
-          item.explanation,
-          correctChoice?.text ?? '',
-          { isCorrect: item.isCorrect },
-        )
-        if (!cleanedExplanation) {
-          return null
-        }
 
-        return (
-          <div className="explanation">
-            <p className="explanation__answer">{item.correctChoiceId}.</p>
-            <p>
-              <strong>Explanation:</strong> {cleanedExplanation}
-            </p>
-          </div>
-        )
-      })()}
+      <div className="review-summary">
+        <div className={`review-summary__row${item.isCorrect ? ' review-summary__row--ok' : ' review-summary__row--bad'}`}>
+          <span className="review-summary__label">Your answer</span>
+          <span className="review-summary__value">
+            {item.selectedChoiceId}
+            {selectedChoice && !markerChoicesOnly && selectedChoice.text
+              ? ` — ${selectedChoice.text}`
+              : ''}
+            {item.isCorrect ? ' ✓' : ' ✗'}
+          </span>
+        </div>
+        <div className="review-summary__row review-summary__row--ok">
+          <span className="review-summary__label">Correct</span>
+          <span className="review-summary__value">
+            {item.correctChoiceId}
+            {correctChoice && !markerChoicesOnly && correctChoice.text
+              ? ` — ${correctChoice.text}`
+              : ''}
+          </span>
+        </div>
+      </div>
+
       <div className={[
         'review-choices',
         markerChoicesOnly ? 'review-choices--markers' : '',
@@ -3002,7 +3051,6 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
           ]
             .filter(Boolean)
             .join(' ')
-          // Use real choice id so label matches explanation (A/B/C/D)
           const displayLetter = choice.id.toLowerCase()
           const markerTextOnly = /^(Option [a-e]|[a-e])$/i.test(choice.text.trim())
 
@@ -3033,6 +3081,62 @@ function ReviewCard({ item, onOpenImage }: ReviewCardProps) {
           )
         })}
       </div>
+
+      {hasExpandableExplanation && (
+        <div className="explanation-panel">
+          <button
+            aria-expanded={explanationOpen}
+            className="explanation-toggle"
+            onClick={() => setExplanationOpen((open) => !open)}
+            type="button"
+          >
+            <span>{explanationOpen ? 'Hide explanation' : 'Show explanation'}</span>
+            <span className={`explanation-toggle__chevron${explanationOpen ? ' explanation-toggle__chevron--open' : ''}`} aria-hidden>
+              ▾
+            </span>
+          </button>
+          <div
+            className={`explanation-collapse${explanationOpen ? ' explanation-collapse--open' : ''}`}
+          >
+            <div className="explanation-collapse__inner">
+              {cleanedExplanation && (
+                <div className="explanation">
+                  <p className="explanation__answer">Correct: {item.correctChoiceId}</p>
+                  <p>
+                    <strong>Explanation:</strong> {cleanedExplanation}
+                  </p>
+                </div>
+              )}
+              {choiceBreakdown.length > 0 && (
+                <ul className="choice-explanations">
+                  {choiceBreakdown.map(({ choice, note }) => {
+                    const isCorrect = choice.id === item.correctChoiceId
+                    const isSelected = choice.id === item.selectedChoiceId
+                    return (
+                      <li
+                        className={[
+                          'choice-explanations__item',
+                          isCorrect ? 'choice-explanations__item--correct' : '',
+                          isSelected && !isCorrect ? 'choice-explanations__item--yours' : '',
+                        ].filter(Boolean).join(' ')}
+                        key={choice.id}
+                      >
+                        <p className="choice-explanations__label">
+                          Choice {choice.id}
+                          {isCorrect ? ' · correct' : ''}
+                          {isSelected && !isCorrect ? ' · your answer' : ''}
+                          {isSelected && isCorrect ? ' · your answer' : ''}
+                        </p>
+                        <p className="choice-explanations__text">{note}</p>
+                      </li>
+                    )
+                  })}
+                </ul>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </article>
   )
 }

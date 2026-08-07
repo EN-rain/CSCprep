@@ -4572,8 +4572,8 @@
   {
     "id": "cse2026-617",
     "subject": "General Information",
-    "prompt": "Who among the following may issue a warrant of arrest or a search warrant? a. a senator",
-    "hint": "Focus on the key term and its official definition: Who among the following may issue a warrant of arrest o.",
+    "prompt": "Who among the following may issue a warrant of arrest or a search warrant?",
+    "hint": "Constitution cue: warrants of arrest or search are a judicial function—name the office that may issue them.",
     "choices": [
       {
         "id": "A",
@@ -4593,7 +4593,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Under the Constitution and the Rules of Court, a warrant of arrest or search warrant is issued by a judge upon probable cause. Senators, congressmen, and the President do not issue such warrants."
+    "explanation": "Under the Constitution and the Rules of Court, only a judge may issue a warrant of arrest or a search warrant upon probable cause. A senator, a congressman, and the President cannot issue such warrants."
   },
   {
     "id": "cse2026-642",
@@ -5087,7 +5087,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Continue the sequence pattern and choose B."
+    "explanation": "The rule alternates “add an increasing odd-ish step” with “multiply by a rising integer”: 3+5=8, 8×6=48, 48+7=55, 55×8=440, then 440+9=449."
   },
   {
     "id": "cse2026-665",
@@ -5113,7 +5113,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Continue the sequence pattern and choose C."
+    "explanation": "Two interleaved lists run side by side: 16,17,18… climbing by 1, and 12,11,10… falling by 1. After 18 the next term belongs to the falling list: 10."
   },
   {
     "id": "cse2026-666",
@@ -5139,7 +5139,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Continue the sequence pattern and choose B."
+    "explanation": "Keep 29 as a pivot and alternate multiply / divide by 2,5,8…: 29×2=58, 58÷2=29, 29×5=145, 145÷5=29, 29×8=232."
   },
   {
     "id": "cse2026-667",
@@ -5165,7 +5165,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
+    "explanation": "Each pair retreats two places in the alphabet: M→K→I→G→E and Z→X→V→T→R. The following pair is therefore ER."
   },
   {
     "id": "cse2026-669",
@@ -5191,7 +5191,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
+    "explanation": "Read as “step back one, then jump forward three”: G to F, leap to I, back to H, leap to K, back to J. The missing letter after K is J."
   },
   {
     "id": "cse2026-670",
@@ -5217,7 +5217,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Continue the sequence pattern and choose B."
+    "explanation": "First letters march A,B,C,D,E,F while second letters march Z,Y,X,W,V,U. After EV the next pair is FU."
   },
   {
     "id": "cse2026-671",
@@ -5269,7 +5269,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Continue the sequence pattern and choose D."
+    "explanation": "Adds alternate +2 and +1, then +3 and +1, then +4…: 15→17 (+2), →18 (+1), →21 (+3), →22 (+1), →26 (+4)."
   },
   {
     "id": "cse2026-673",
@@ -5295,7 +5295,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Continue the sequence pattern and choose D."
+    "explanation": "A ×3 move is followed by a related recovery: 7×3=21, 21−7=14, 14×3=42, 42 stays 42, then 42×3=126."
   },
   {
     "id": "cse2026-674",
@@ -5347,7 +5347,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Continue the sequence pattern and choose B."
+    "explanation": "Letters accelerate +2,+3,+4,+5,+6 (F,H,K,O,T,Z) while the attached numbers fall by the same gaps (21,19,16,12,7,1). The last term is Z1."
   },
   {
     "id": "cse2026-676",
@@ -5373,7 +5373,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Continue the sequence pattern and choose C."
+    "explanation": "Steady +2 on the letter and −2 on the number: I18 → K16 → M14 → O12 → Q10."
   },
   {
     "id": "cse2026-677",
@@ -5399,7 +5399,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Continue the sequence pattern and choose C."
+    "explanation": "Both characters in the pair jump two places: B-O, D-Q, F-S, H-U, J-W, so L-Y comes next → LY."
   },
   {
     "id": "cse2026-678",
@@ -5425,7 +5425,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Continue the sequence pattern and choose D."
+    "explanation": "Ignore the middle noise and track the consecutive pairs that advance by two letters: BC, EF, then HI."
   },
   {
     "id": "cse2026-679",
@@ -5451,7 +5451,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
+    "explanation": "Letter and number both rise by 2 each step: E4, G6, I8, K10, M12, O14."
   },
   {
     "id": "cse2026-680",
@@ -5503,7 +5503,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Continue the sequence pattern and choose B."
+    "explanation": "Odd-position letters paired with matching odd numbers: A1, C3, E5, G7."
   },
   {
     "id": "cse2026-683",
@@ -5555,7 +5555,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Continue the sequence pattern and choose B."
+    "explanation": "Same dual +2 rule: J10 → L12 → N14 → P16."
   },
   {
     "id": "cse2026-685",
@@ -5581,7 +5581,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Continue the sequence pattern and choose D."
+    "explanation": "Number drops by 2 while the letter climbs by 2: 8R, 6T, 4V, 2X."
   },
   {
     "id": "cse2026-686",
@@ -5607,7 +5607,7 @@
       }
     ],
     "correctChoiceId": "B",
-    "explanation": "Continue the sequence pattern and choose B."
+    "explanation": "Three streams: letter +2 (J,L,N,P), first number +2 (10,12,14,16), second number −2 (17,15,13,11). Combined next term: P16 11."
   },
   {
     "id": "cse2026-687",
@@ -5633,7 +5633,7 @@
       }
     ],
     "correctChoiceId": "C",
-    "explanation": "Continue the sequence pattern and choose C."
+    "explanation": "Inside each pair one letter is skipped (A_C, F_H, K_M); between pairs three letters are skipped. Next pair is P_R → PR."
   },
   {
     "id": "cse2026-688",
@@ -5659,7 +5659,7 @@
       }
     ],
     "correctChoiceId": "D",
-    "explanation": "Continue the sequence pattern and choose D."
+    "explanation": "Paired consecutive integers that start three higher each time: 15-16, 18-19, 21-22, 24-25."
   },
   {
     "id": "cse2026-689",
@@ -5685,7 +5685,7 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
+    "explanation": "Four-digit blocks encode n, n², 2n: 1121 → 2242 → 3483 → 4964 (for n = 1,2,3,4)."
   },
   {
     "id": "cse2026-690",
@@ -5737,6 +5737,6 @@
       }
     ],
     "correctChoiceId": "A",
-    "explanation": "Identify the letter/number pattern in the series, then select the next term. Correct choice is A."
+    "explanation": "Letters advance b→c→d→e and the mirrored digits fall 9→7→5→3; the listed continuation among the options is e3e2."
   }
 ]

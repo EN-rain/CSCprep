@@ -3,7 +3,7 @@
     "id": "gi-001",
     "subject": "General Information",
     "prompt": "What do you call the introductory part of the Constitution?",
-    "hint": "Constitution or government: name the office, branch, or right in view — What do you call the introductory part of the Constitut.",
+    "hint": "Opening lines of the Constitution that state the ideals of the people — not the Bill of Rights and not a book ‘preface.’.",
     "choices": [
       {
         "id": "A",
@@ -29,7 +29,7 @@
     "id": "gi-002",
     "subject": "General Information",
     "prompt": "What form of government does the Philippines adopt?",
-    "hint": "Focus on the key term and its official definition: What form of government does the Philippines adopt?.",
+    "hint": "Art. II: the Philippines is a democratic and republican State. Both labels apply.",
     "choices": [
       {
         "id": "A",
@@ -55,7 +55,7 @@
     "id": "gi-003",
     "subject": "General Information",
     "prompt": "What is the power of the State to take private property for public use upon payment\nof a just compensation?",
-    "hint": "Taxation: identify the tax type and the taxable event in: What is the power of the State to take private pro.",
+    "hint": "Taking private land for public use with just compensation is eminent domain, not confiscation or sequestration.",
     "choices": [
       {
         "id": "A",
@@ -81,7 +81,7 @@
     "id": "gi-004",
     "subject": "General Information",
     "prompt": "Who among the following may issue a warrant of arrest or a search warrant?",
-    "hint": "Focus on the key term and its official definition: Who among the following may issue a warrant of arrest o.",
+    "hint": "Arrest and search warrants are issued by a judge upon probable cause — not by legislators or the President.",
     "choices": [
       {
         "id": "A",
@@ -107,7 +107,7 @@
     "id": "gi-005",
     "subject": "General Information",
     "prompt": "A foreigner may acquire Filipino citizenship through",
-    "hint": "Focus on the key term and its official definition: A foreigner may acquire Filipino citizenship through.",
+    "hint": "A non-Filipino becomes a citizen through the legal process of naturalization (not a visa alone).",
     "choices": [
       {
         "id": "A",
@@ -133,7 +133,7 @@
     "id": "gi-006",
     "subject": "General Information",
     "prompt": "The right to vote is also known as ____________.",
-    "hint": "Focus on the key term and its official definition: The right to vote is also known as ____________..",
+    "hint": "The constitutional name for the right to vote is suffrage.",
     "choices": [
       {
         "id": "A",
@@ -159,7 +159,7 @@
     "id": "gi-007",
     "subject": "General Information",
     "prompt": "How many Senators are there in the Senate?",
-    "hint": "Constitution or government: name the office, branch, or right in view — How many Senators are there in the Senate?.",
+    "hint": "The Senate is composed of 24 members elected at large.",
     "choices": [
       {
         "id": "A",
@@ -185,7 +185,7 @@
     "id": "gi-008",
     "subject": "General Information",
     "prompt": "What is the minimum age requirements of a Senator?",
-    "hint": "Focus on the key term and its official definition: What is the minimum age requirements of a Senator?.",
+    "hint": "A Senator must be at least 35 years old on election day.",
     "choices": [
       {
         "id": "A",
@@ -211,7 +211,7 @@
     "id": "gi-009",
     "subject": "General Information",
     "prompt": "Which of the following bills do not originate from the House of Representative?",
-    "hint": "Focus on the key term and its official definition: Which of the following bills do not originate from the .",
+    "hint": "Money bills start in the House; amnesty is an executive/constitutional act, not a House-origin bill.",
     "choices": [
       {
         "id": "A",
@@ -237,7 +237,7 @@
     "id": "gi-010",
     "subject": "General Information",
     "prompt": "The Members of the Lower House are:",
-    "hint": "Focus on the key term and its official definition: The Members of the Lower House are:.",
+    "hint": "House members come from legislative districts and the party-list system.",
     "choices": [
       {
         "id": "A",
@@ -263,7 +263,7 @@
     "id": "gi-011",
     "subject": "General Information",
     "prompt": "The legislative power of the government shall be vested in the:",
-    "hint": "Focus on the key term and its official definition: The legislative power of the government shall be vested.",
+    "hint": "Lawmaking power is vested in Congress (Senate + House), not the President or the courts.",
     "choices": [
       {
         "id": "A",
@@ -289,7 +289,7 @@
     "id": "gi-012",
     "subject": "General Information",
     "prompt": "Which of the following may disqualify a person from running for Presidency?",
-    "hint": "Focus on the key term and its official definition: Which of the following may disqualify a person from run.",
+    "hint": "A presidential candidate must be a resident of the Philippines for at least 10 years immediately before the election.",
     "choices": [
       {
         "id": "A",
@@ -315,7 +315,7 @@
     "id": "gi-013",
     "subject": "General Information",
     "prompt": "Which of the following shows the transfer of power should the President be\nincapable of discharging his duties?",
-    "hint": "Constitution or government: name the office, branch, or right in view — Which of the following shows the transfer of power shou.",
+    "hint": "Succession line: President → Vice-President → Senate President → Speaker of the House.",
     "choices": [
       {
         "id": "A",
@@ -341,7 +341,7 @@
     "id": "gi-014",
     "subject": "General Information",
     "prompt": "A member of the Supreme Court:",
-    "hint": "Constitution or government: name the office, branch, or right in view — A member of the Supreme Court:.",
+    "hint": "An SC Justice must be a natural-born citizen, at least 40, and a judge/practice for 15 years or more.",
     "choices": [
       {
         "id": "A",
@@ -367,7 +367,7 @@
     "id": "gi-015",
     "subject": "General Information",
     "prompt": "The Supreme Court is composed of:",
-    "hint": "Constitution or government: name the office, branch, or right in view — The Supreme Court is composed of:.",
+    "hint": "The Supreme Court has one Chief Justice and 14 Associate Justices (15 in all).",
     "choices": [
       {
         "id": "A",
@@ -393,7 +393,7 @@
     "id": "gi-016",
     "subject": "General Information",
     "prompt": "Which of the following is a Constitutional Commission?",
-    "hint": "Constitution or government: name the office, branch, or right in view — Which of the following is a Constitutional Commission?.",
+    "hint": "The three Constitutional Commissions are CSC, COMELEC, and COA — not CHR or PCGG.",
     "choices": [
       {
         "id": "A",
@@ -419,7 +419,7 @@
     "id": "gi-017",
     "subject": "General Information",
     "prompt": "What branch of government has the sole right to initiate all cases of impeachment?",
-    "hint": "Focus on the key term and its official definition: What branch of government has the sole right to initiat.",
+    "hint": "Only the House of Representatives can initiate impeachment cases; the Senate tries them.",
     "choices": [
       {
         "id": "A",
@@ -445,7 +445,7 @@
     "id": "gi-018",
     "subject": "General Information",
     "prompt": "Which of the following is not removable from office by impeachment?",
-    "hint": "Focus on the key term and its official definition: Which of the following is not removable from office by .",
+    "hint": "Impeachable officers include the President, SC members, Constitutional Commissioners, and the Ombudsman — not ordinary Senators.",
     "choices": [
       {
         "id": "A",
@@ -471,7 +471,7 @@
     "id": "gi-019",
     "subject": "General Information",
     "prompt": "The national language of the Philippines is:",
-    "hint": "Focus on the key term and its official definition: The national language of the Philippines is:.",
+    "hint": "The 1987 Constitution names Filipino as the national language.",
     "choices": [
       {
         "id": "A",
@@ -497,7 +497,7 @@
     "id": "gi-020",
     "subject": "General Information",
     "prompt": "Who may propose any amendment to, or revision of the Constitution?",
-    "hint": "Constitution or government: name the office, branch, or right in view — Who may propose any amendment to, or revision of the Co.",
+    "hint": "Amendments may be proposed by Congress (as a constituent body) or by a Constitutional Convention — ‘or,’ not only both together.",
     "choices": [
       {
         "id": "A",
@@ -523,7 +523,7 @@
     "id": "gi-021",
     "subject": "General Information",
     "prompt": "What tax is paid by individuals who derive compensation income?",
-    "hint": "Taxation: identify the tax type and the taxable event in: What tax is paid by individuals who derive compens.",
+    "hint": "Salary and other compensation income are hit by income tax, not VAT or real-property tax.",
     "choices": [
       {
         "id": "A",
@@ -549,7 +549,7 @@
     "id": "gi-022",
     "subject": "General Information",
     "prompt": "When is the deadline for filing income tax returns for every taxable year?",
-    "hint": "Taxation: identify the tax type and the taxable event in: When is the deadline for filing income tax returns.",
+    "hint": "Individual income tax returns are generally due on or before April 15.",
     "choices": [
       {
         "id": "A",
@@ -575,7 +575,7 @@
     "id": "gi-023",
     "subject": "General Information",
     "prompt": "Which of the following statements is true about taxes?",
-    "hint": "Taxation: identify the tax type and the taxable event in: Which of the following statements is true about ta.",
+    "hint": "Tax is an enforced contribution imposed by law — not voluntary and not based on desire to pay.",
     "choices": [
       {
         "id": "A",
@@ -601,7 +601,7 @@
     "id": "gi-024",
     "subject": "General Information",
     "prompt": "What tax is imposed on one’s right to transmit property at death, and is measured by\nthe value of the property?",
-    "hint": "Taxation: identify the tax type and the taxable event in: What tax is imposed on one’s right to transmit pro.",
+    "hint": "Property transferred because of death is subject to estate tax (donor’s tax is for gifts while alive).",
     "choices": [
       {
         "id": "A",
@@ -627,7 +627,7 @@
     "id": "gi-025",
     "subject": "General Information",
     "prompt": "Which of the following is classified as being a “Head of the Family” for income tax\npurposes?",
-    "hint": "Taxation: identify the tax type and the taxable event in: Which of the following is classified as being a “H.",
+    "hint": "For income-tax ‘head of family,’ the person is unmarried (or legally separated) but supporting dependents.",
     "choices": [
       {
         "id": "A",
@@ -653,7 +653,7 @@
     "id": "gi-026",
     "subject": "General Information",
     "prompt": "What Act implements the mandate for the “State to make essential goods, health\nand other social services available to all the people at affordable cost?”",
-    "hint": "Law or public service: link the policy goal to the named rule — What Act implements the mandate for the “State to .",
+    "hint": "Making essential medicines available at affordable cost is the thrust of the Generics Act.",
     "choices": [
       {
         "id": "A",
@@ -679,7 +679,7 @@
     "id": "gi-027",
     "subject": "General Information",
     "prompt": "Which of the following is true about elective local officials?",
-    "hint": "Focus on the key term and its official definition: Which of the following is true about elective local off.",
+    "hint": "Elective local officials generally serve three-year terms (with reelection limits under the Local Government Code).",
     "choices": [
       {
         "id": "A",
@@ -705,7 +705,7 @@
     "id": "gi-028",
     "subject": "General Information",
     "prompt": "What may be classified as alienable lands of the public domain?",
-    "hint": "Focus on the key term and its official definition: What may be classified as alienable lands of the public.",
+    "hint": "Among public domain lands, agricultural lands may be alienable; forests, minerals, and national parks are not.",
     "choices": [
       {
         "id": "A",
@@ -731,7 +731,7 @@
     "id": "gi-029",
     "subject": "General Information",
     "prompt": "What is the maximum equity for aliens in a corporation or association in the\nexploration development and utilization of natural resources?",
-    "hint": "Focus on the key term and its official definition: What is the maximum equity for aliens in a corporation .",
+    "hint": "For natural resources, foreign equity is capped at 40% (Filipinos must hold at least 60%).",
     "choices": [
       {
         "id": "A",
@@ -757,7 +757,7 @@
     "id": "gi-030",
     "subject": "General Information",
     "prompt": "What is recognized by the State as the foundation of the nation?",
-    "hint": "Focus on the key term and its official definition: What is recognized by the State as the foundation of th.",
+    "hint": "The Constitution recognizes the family as the foundation of the nation.",
     "choices": [
       {
         "id": "A",
@@ -783,7 +783,7 @@
     "id": "gi-031",
     "subject": "General Information",
     "prompt": "This is a type of document issued by a seller to a buyer relating to a sale transaction and indicating the\nproducts, quantities and prices sold to the buyer.",
-    "hint": "Law or public service: link the policy goal to the named rule — This is a type of document issued by a seller to a.",
+    "hint": "A seller’s document listing goods, quantities, and prices for a sale is a sales invoice.",
     "choices": [
       {
         "id": "A",
@@ -809,7 +809,7 @@
     "id": "gi-032",
     "subject": "General Information",
     "prompt": "Which of the following is not a usual document used in a sales company?",
-    "hint": "Focus on the key term and its official definition: Which of the following is not a usual document used in .",
+    "hint": "Form 137 is a school permanent record — not a sales-company form like invoices or POs.",
     "choices": [
       {
         "id": "A",
@@ -835,7 +835,7 @@
     "id": "gi-033",
     "subject": "General Information",
     "prompt": "One of the responsibilities of a clerical job is answering and tending phone calls. Which is the best way to\nanswer a phone call in a company?",
-    "hint": "Focus on the key term and its official definition: One of the responsibilities of a clerical job is answer.",
+    "hint": "Answer promptly, identify your office/name, and offer help — don’t leave callers hanging or race for a pen first.",
     "choices": [
       {
         "id": "A",
@@ -861,7 +861,7 @@
     "id": "gi-034",
     "subject": "General Information",
     "prompt": "An example of a hard copy document is:",
-    "hint": "Focus on the key term and its official definition: An example of a hard copy document is:.",
+    "hint": "Hard copy means a physical paper document, not a PDF, email, or USB file.",
     "choices": [
       {
         "id": "A",
@@ -887,7 +887,7 @@
     "id": "gi-035",
     "subject": "General Information",
     "prompt": "What does CC mean in an email message?",
-    "hint": "Focus on the key term and its official definition: What does CC mean in an email message?.",
+    "hint": "CC in email stands for carbon copy — additional recipients see the same message.",
     "choices": [
       {
         "id": "A",
@@ -913,7 +913,7 @@
     "id": "gi-036",
     "subject": "General Information",
     "prompt": "Which computer program should you go if you want to email a company?",
-    "hint": "Office or ICT: match the tool or process named in Which computer program should you go if you want t to its correct purpose.",
+    "hint": "Sending email is handled by a mail client such as Outlook, not Word or Excel.",
     "choices": [
       {
         "id": "A",
@@ -939,7 +939,7 @@
     "id": "gi-037",
     "subject": "General Information",
     "prompt": "This is a telephonic transmission of scanned documents of texts and images to a\ntelephone number connected to a printer.",
-    "hint": "Focus on the key term and its official definition: This is a telephonic transmission of scanned documents .",
+    "hint": "Sending a scanned page over a phone line to a remote printer is what a fax machine does.",
     "choices": [
       {
         "id": "A",
@@ -965,7 +965,7 @@
     "id": "gi-038",
     "subject": "General Information",
     "prompt": "Which corporate officer is commonly responsible for custody of funds and treasury functions?",
-    "hint": "Focus on the key term and its official definition: Which corporate officer is commonly responsible for cus.",
+    "hint": "Custody of corporate funds and treasury work sits with the Treasurer.",
     "choices": [
       {
         "id": "A",
@@ -991,7 +991,7 @@
     "id": "gi-039",
     "subject": "General Information",
     "prompt": "Which company role or counter is responsible for cash register operations and payment\nprocessing?",
-    "hint": "Focus on the key term and its official definition: Which company role or counter is responsible for cash r.",
+    "hint": "Cash register and payment handling is the cashier’s role.",
     "choices": [
       {
         "id": "A",
@@ -1017,7 +1017,7 @@
     "id": "gi-040",
     "subject": "General Information",
     "prompt": "Your boss asked you to send her a soft copy of your latest résumé. An example of a soft copy is:",
-    "hint": "Focus on the key term and its official definition: Your boss asked you to send her a soft copy of your lat.",
+    "hint": "A soft copy is an electronic file (e.g., emailed résumé), not a printout or photocopy.",
     "choices": [
       {
         "id": "A",
@@ -1043,7 +1043,7 @@
     "id": "gi-041",
     "subject": "General Information",
     "prompt": "What is the national language of the Philippines according to 1987 Phil Constitution article XIV section 6?",
-    "hint": "Constitution or government: name the office, branch, or right in view — What is the national language of the Philippines accord.",
+    "hint": "Art. XIV, Sec. 6: the national language is Filipino.",
     "choices": [
       {
         "id": "A",
@@ -1073,7 +1073,7 @@
     "id": "gi-042",
     "subject": "General Information",
     "prompt": "What is regarded by the State as a \"primary social economic force?\"",
-    "hint": "Focus on the key term and its official definition: What is regarded by the State as a \"primary social econ.",
+    "hint": "The Constitution treats labor as a primary social economic force.",
     "choices": [
       {
         "id": "A",
@@ -1099,7 +1099,7 @@
     "id": "gi-043",
     "subject": "General Information",
     "prompt": "According to Article III, Section 15 of the Constitution, the writ of habeas corpus may be suspended in\ntimes of rebellion or what?",
-    "hint": "Constitution or government: name the office, branch, or right in view — According to Article III, Section 15 of the Constitutio.",
+    "hint": "Habeas corpus may be suspended in invasion or rebellion when public safety requires it.",
     "choices": [
       {
         "id": "A",
@@ -1125,7 +1125,7 @@
     "id": "gi-044",
     "subject": "General Information",
     "prompt": "The Lower Chamber of the Congress of the Philippines is known by what name?",
-    "hint": "Constitution or government: name the office, branch, or right in view — The Lower Chamber of the Congress of the Philippines is.",
+    "hint": "Congress’s lower chamber is the House of Representatives; the upper is the Senate.",
     "choices": [
       {
         "id": "A",
@@ -1151,7 +1151,7 @@
     "id": "gi-045",
     "subject": "General Information",
     "prompt": "A Member of either house of Congress may be expelled by their fellow Members. For a Member to be\nexpelled, how much of the total number of Members of a house must concur with the expulsion?",
-    "hint": "Constitution or government: name the office, branch, or right in view — A Member of either house of Congress may be expelled by.",
+    "hint": "Expelling a Member of either house needs a two-thirds vote of the Members of that house.",
     "choices": [
       {
         "id": "A",
@@ -1177,7 +1177,7 @@
     "id": "gi-046",
     "subject": "General Information",
     "prompt": "If a President wishes to veto a bill, he/she must communicate it within a certain span of time, otherwise\nthe bill will become a law. How long is this span of time?",
-    "hint": "Constitution or government: name the office, branch, or right in view — If a President wishes to veto a bill, he/she must commu.",
+    "hint": "The President has 30 days to communicate a veto; otherwise the bill can lapse into law.",
     "choices": [
       {
         "id": "A",
@@ -1203,7 +1203,7 @@
     "id": "gi-047",
     "subject": "General Information",
     "prompt": "The official motto used in 30th Southeast Asian Games is what?",
-    "hint": "Focus on the key term and its official definition: The official motto used in 30th Southeast Asian Games i.",
+    "hint": "The 30th SEA Games (Philippines) used the motto ‘We Play As One.’.",
     "choices": [
       {
         "id": "A",
@@ -1233,7 +1233,7 @@
     "id": "gi-048",
     "subject": "General Information",
     "prompt": "On August 16,2018, the government announced at least ___ Philippine holidays for 2019 as\ndeclared by virtue of Proclamation No. 555, series of 2018.",
-    "hint": "Focus on the key term and its official definition: On August 16,2018, the government announced at least __.",
+    "hint": "Proclamation-based holiday counts for 2019 were announced as 18 regular/special non-working days in that notice.",
     "choices": [
       {
         "id": "A",
@@ -1263,7 +1263,7 @@
     "id": "gi-049",
     "subject": "General Information",
     "prompt": "Which of the following statements best describes the relationship between global warming and ozone depletion?",
-    "hint": "Focus on the key term and its official definition: Which of the following statements best describes the re.",
+    "hint": "Global warming and ozone depletion are different problems, though some gases and policies can relate to both.",
     "choices": [
       {
         "id": "A",
@@ -1289,7 +1289,7 @@
     "id": "gi-050",
     "subject": "General Information",
     "prompt": "It is only Philippine province with an English name.",
-    "hint": "Focus on the key term and its official definition: It is only Philippine province with an English name..",
+    "hint": "Mountain Province is the only province whose official name is in English.",
     "choices": [
       {
         "id": "A",
@@ -1315,7 +1315,7 @@
     "id": "gi-051",
     "subject": "General Information",
     "prompt": "Which DENR-related program is most directly connected with monitoring industrial pollution?",
-    "hint": "Focus on the key term and its official definition: Which DENR-related program is most directly connected w.",
+    "hint": "Industrial EcoWatch is the DENR program aimed at industrial pollution performance ratings.",
     "choices": [
       {
         "id": "A",
@@ -1345,7 +1345,7 @@
     "id": "gi-052",
     "subject": "General Information",
     "prompt": "At what local government level are many free voluntary community services commonly organized?",
-    "hint": "Focus on the key term and its official definition: At what local government level are many free voluntary .",
+    "hint": "Day-to-day voluntary community services are most often organized at the barangay level.",
     "choices": [
       {
         "id": "A",
@@ -1375,7 +1375,7 @@
     "id": "gi-053",
     "subject": "General Information",
     "prompt": "Which is not a ground for impeachment of impeachable officials such as the President, Vice President, members of Constitutional Commissions, and Ombudsman?",
-    "hint": "Constitution or government: name the office, branch, or right in view — Which is not a ground for impeachment of impeachable of.",
+    "hint": "Impeachment grounds are constitutional (graft, culpable violation, betrayal of public trust, etc.) — not ordinary private parenting disputes.",
     "choices": [
       {
         "id": "A",
@@ -1405,7 +1405,7 @@
     "id": "gi-054",
     "subject": "General Information",
     "prompt": "Which term refers to list of topics to be discussed in a meeting?",
-    "hint": "Focus on the key term and its official definition: Which term refers to list of topics to be discussed in .",
+    "hint": "The ordered list of topics for a meeting is the agenda.",
     "choices": [
       {
         "id": "A",
@@ -1431,7 +1431,7 @@
     "id": "gi-055",
     "subject": "General Information",
     "prompt": "Which term refers to official written record of a meeting?",
-    "hint": "Focus on the key term and its official definition: Which term refers to official written record of a meeti.",
+    "hint": "The official written record of what happened in a meeting is the minutes.",
     "choices": [
       {
         "id": "A",
@@ -1457,7 +1457,7 @@
     "id": "gi-056",
     "subject": "General Information",
     "prompt": "Which term refers to short written message used within an office?",
-    "hint": "Focus on the key term and its official definition: Which term refers to short written message used within .",
+    "hint": "A short internal office note is a memorandum (memo).",
     "choices": [
       {
         "id": "A",
@@ -1483,7 +1483,7 @@
     "id": "gi-057",
     "subject": "General Information",
     "prompt": "Which term refers to formal expression of a decision by a body?",
-    "hint": "Focus on the key term and its official definition: Which term refers to formal expression of a decision by.",
+    "hint": "A formal expression of a body’s decision is a resolution.",
     "choices": [
       {
         "id": "A",
@@ -1509,7 +1509,7 @@
     "id": "gi-058",
     "subject": "General Information",
     "prompt": "Which term refers to local law passed by a local legislative body?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to local law passed by a local l.",
+    "hint": "A local legislative body enacts an ordinance (local law), not a national statute.",
     "choices": [
       {
         "id": "A",
@@ -1535,7 +1535,7 @@
     "id": "gi-059",
     "subject": "General Information",
     "prompt": "Which term refers to document requesting payment for goods or services?",
-    "hint": "Focus on the key term and its official definition: Which term refers to document requesting payment for go.",
+    "hint": "A bill/request for payment of goods or services is an invoice.",
     "choices": [
       {
         "id": "A",
@@ -1561,7 +1561,7 @@
     "id": "gi-060",
     "subject": "General Information",
     "prompt": "Which term refers to proof that payment has been received?",
-    "hint": "Focus on the key term and its official definition: Which term refers to proof that payment has been receiv.",
+    "hint": "Proof that money was received is a receipt.",
     "choices": [
       {
         "id": "A",
@@ -1587,7 +1587,7 @@
     "id": "gi-061",
     "subject": "General Information",
     "prompt": "Which term refers to document supporting a disbursement or payment?",
-    "hint": "Focus on the key term and its official definition: Which term refers to document supporting a disbursement.",
+    "hint": "A voucher supports or authorizes a disbursement/payment in the books.",
     "choices": [
       {
         "id": "A",
@@ -1613,7 +1613,7 @@
     "id": "gi-062",
     "subject": "General Information",
     "prompt": "Which term refers to document authorizing a purchase?",
-    "hint": "Focus on the key term and its official definition: Which term refers to document authorizing a purchase?.",
+    "hint": "A purchase order authorizes buying from a supplier.",
     "choices": [
       {
         "id": "A",
@@ -1639,7 +1639,7 @@
     "id": "gi-063",
     "subject": "General Information",
     "prompt": "Which term refers to formal request for supplies or services?",
-    "hint": "Focus on the key term and its official definition: Which term refers to formal request for supplies or ser.",
+    "hint": "A formal internal request for supplies or services is a requisition.",
     "choices": [
       {
         "id": "A",
@@ -1665,7 +1665,7 @@
     "id": "gi-064",
     "subject": "General Information",
     "prompt": "Which term refers to list of property or supplies on hand?",
-    "hint": "Focus on the key term and its official definition: Which term refers to list of property or supplies on ha.",
+    "hint": "A stock list of what is on hand is an inventory.",
     "choices": [
       {
         "id": "A",
@@ -1691,7 +1691,7 @@
     "id": "gi-065",
     "subject": "General Information",
     "prompt": "Which term refers to arranging records for easy retrieval?",
-    "hint": "Focus on the key term and its official definition: Which term refers to arranging records for easy retriev.",
+    "hint": "Putting records in order so they can be found later is filing.",
     "choices": [
       {
         "id": "A",
@@ -1717,7 +1717,7 @@
     "id": "gi-066",
     "subject": "General Information",
     "prompt": "Which term refers to assigning a reference point for locating a record?",
-    "hint": "Focus on the key term and its official definition: Which term refers to assigning a reference point for lo.",
+    "hint": "Indexing assigns the labels/keys used to locate a record.",
     "choices": [
       {
         "id": "A",
@@ -1743,7 +1743,7 @@
     "id": "gi-067",
     "subject": "General Information",
     "prompt": "Which term refers to preserving records for long-term storage?",
-    "hint": "Focus on the key term and its official definition: Which term refers to preserving records for long-term s.",
+    "hint": "Long-term preservation of records is archiving.",
     "choices": [
       {
         "id": "A",
@@ -1769,7 +1769,7 @@
     "id": "gi-068",
     "subject": "General Information",
     "prompt": "Which term refers to protecting information from unauthorized disclosure?",
-    "hint": "Focus on the key term and its official definition: Which term refers to protecting information from unauth.",
+    "hint": "Keeping information from unauthorized eyes is confidentiality.",
     "choices": [
       {
         "id": "A",
@@ -1795,7 +1795,7 @@
     "id": "gi-069",
     "subject": "General Information",
     "prompt": "Which term refers to responsibility for actions and decisions?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to responsibility for actions an.",
+    "hint": "Being answerable for acts and decisions is accountability.",
     "choices": [
       {
         "id": "A",
@@ -1821,7 +1821,7 @@
     "id": "gi-070",
     "subject": "General Information",
     "prompt": "Which term refers to openness in government transactions?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to openness in government transa.",
+    "hint": "Openness of government acts and data is transparency.",
     "choices": [
       {
         "id": "A",
@@ -1847,7 +1847,7 @@
     "id": "gi-071",
     "subject": "General Information",
     "prompt": "Which term refers to fair procedure before deprivation of life, liberty, or property?",
-    "hint": "Taxation: identify the tax type and the taxable event in: Which term refers to fair procedure before depriva.",
+    "hint": "Fair legal steps before taking life, liberty, or property is due process.",
     "choices": [
       {
         "id": "A",
@@ -1873,7 +1873,7 @@
     "id": "gi-072",
     "subject": "General Information",
     "prompt": "Which term refers to rule that persons similarly situated should be treated alike?",
-    "hint": "Focus on the key term and its official definition: Which term refers to rule that persons similarly situat.",
+    "hint": "Treating similarly situated persons the same way is equal protection.",
     "choices": [
       {
         "id": "A",
@@ -1899,7 +1899,7 @@
     "id": "gi-073",
     "subject": "General Information",
     "prompt": "Which term refers to public trust?",
-    "hint": "Focus on the key term and its official definition: Which term refers to public trust?.",
+    "hint": "Public office is a public trust — the phrase itself is constitutional doctrine.",
     "choices": [
       {
         "id": "A",
@@ -1925,7 +1925,7 @@
     "id": "gi-074",
     "subject": "General Information",
     "prompt": "Which term refers to smallest local government unit in the Philippines?",
-    "hint": "Focus on the key term and its official definition: Which term refers to smallest local government unit in .",
+    "hint": "The smallest LGU is the barangay.",
     "choices": [
       {
         "id": "A",
@@ -1951,7 +1951,7 @@
     "id": "gi-075",
     "subject": "General Information",
     "prompt": "Which term refers to local government unit composed of barangays?",
-    "hint": "Focus on the key term and its official definition: Which term refers to local government unit composed of  (item gi-075).",
+    "hint": "A municipality is made up of barangays.",
     "choices": [
       {
         "id": "A",
@@ -1977,7 +1977,7 @@
     "id": "gi-076",
     "subject": "General Information",
     "prompt": "Which term refers to local government unit composed of cities and municipalities?",
-    "hint": "Focus on the key term and its official definition: Which term refers to local government unit composed of  (item gi-076).",
+    "hint": "A province groups cities and municipalities.",
     "choices": [
       {
         "id": "A",
@@ -2003,7 +2003,7 @@
     "id": "gi-077",
     "subject": "General Information",
     "prompt": "Which term refers to local government unit with a charter or city status?",
-    "hint": "Focus on the key term and its official definition: Which term refers to local government unit with a chart.",
+    "hint": "A chartered highly urbanized or component city has city status.",
     "choices": [
       {
         "id": "A",
@@ -2029,7 +2029,7 @@
     "id": "gi-078",
     "subject": "General Information",
     "prompt": "Which term refers to legislative branch of the Philippine government?",
-    "hint": "Focus on the key term and its official definition: Which term refers to legislative branch of the Philippi.",
+    "hint": "The legislative branch is Congress.",
     "choices": [
       {
         "id": "A",
@@ -2055,7 +2055,7 @@
     "id": "gi-079",
     "subject": "General Information",
     "prompt": "Which term refers to highest court of the Philippines?",
-    "hint": "Focus on the key term and its official definition: Which term refers to highest court of the Philippines?.",
+    "hint": "The highest court is the Supreme Court.",
     "choices": [
       {
         "id": "A",
@@ -2081,7 +2081,7 @@
     "id": "gi-080",
     "subject": "General Information",
     "prompt": "Which term refers to chief executive of the Philippines?",
-    "hint": "Focus on the key term and its official definition: Which term refers to chief executive of the Philippines.",
+    "hint": "The chief executive is the President.",
     "choices": [
       {
         "id": "A",
@@ -2107,7 +2107,7 @@
     "id": "gi-081",
     "subject": "General Information",
     "prompt": "Which term refers to official who succeeds the President under constitutional rules?",
-    "hint": "Constitution or government: name the office, branch, or right in view — Which term refers to official who succeeds the Presiden.",
+    "hint": "First in the constitutional line of succession is the Vice-President.",
     "choices": [
       {
         "id": "A",
@@ -2133,7 +2133,7 @@
     "id": "gi-082",
     "subject": "General Information",
     "prompt": "Which term refers to official body that investigates complaints against public officials?",
-    "hint": "Focus on the key term and its official definition: Which term refers to official body that investigates co.",
+    "hint": "Complaints against public officials are investigated by the Office of the Ombudsman.",
     "choices": [
       {
         "id": "A",
@@ -2159,7 +2159,7 @@
     "id": "gi-108",
     "subject": "General Information",
     "prompt": "Which term refers to ethical standards for public officials and employees?",
-    "hint": "Focus on the key term and its official definition: Which term refers to ethical standards for public offic.",
+    "hint": "Ethical rules for public officials are in the Code of Conduct and Ethical Standards (RA 6713).",
     "choices": [
       {
         "id": "A",
@@ -2185,7 +2185,7 @@
     "id": "gi-109",
     "subject": "General Information",
     "prompt": "Which term refers to line of authority in an organization?",
-    "hint": "Focus on the key term and its official definition: Which term refers to line of authority in an organizati.",
+    "hint": "Who reports to whom in an organization is the chain of command.",
     "choices": [
       {
         "id": "A",
@@ -2211,7 +2211,7 @@
     "id": "gi-110",
     "subject": "General Information",
     "prompt": "Which term refers to assigning authority or tasks to another person?",
-    "hint": "Focus on the key term and its official definition: Which term refers to assigning authority or tasks to an.",
+    "hint": "Passing authority or tasks downward is delegation.",
     "choices": [
       {
         "id": "A",
@@ -2237,7 +2237,7 @@
     "id": "gi-111",
     "subject": "General Information",
     "prompt": "Which term refers to harmonizing activities toward a goal?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to harmonizing activities toward.",
+    "hint": "Aligning units so they work toward one goal is coordination.",
     "choices": [
       {
         "id": "A",
@@ -2263,7 +2263,7 @@
     "id": "gi-112",
     "subject": "General Information",
     "prompt": "Which term refers to setting goals and deciding actions in advance?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to setting goals and deciding ac.",
+    "hint": "Deciding goals and steps before acting is planning.",
     "choices": [
       {
         "id": "A",
@@ -2289,7 +2289,7 @@
     "id": "gi-113",
     "subject": "General Information",
     "prompt": "Which term refers to assessing results against standards?",
-    "hint": "Focus on the key term and its official definition: Which term refers to assessing results against standard.",
+    "hint": "Judging outcomes against standards is evaluation.",
     "choices": [
       {
         "id": "A",
@@ -2315,7 +2315,7 @@
     "id": "gi-114",
     "subject": "General Information",
     "prompt": "Which term refers to regular checking of progress or compliance?",
-    "hint": "Focus on the key term and its official definition: Which term refers to regular checking of progress or co.",
+    "hint": "Ongoing checking of progress or compliance is monitoring.",
     "choices": [
       {
         "id": "A",
@@ -2341,7 +2341,7 @@
     "id": "gi-115",
     "subject": "General Information",
     "prompt": "Which term refers to process of obtaining goods or services?",
-    "hint": "Focus on the key term and its official definition: Which term refers to process of obtaining goods or serv.",
+    "hint": "The whole process of obtaining goods or services is procurement.",
     "choices": [
       {
         "id": "A",
@@ -2367,7 +2367,7 @@
     "id": "gi-116",
     "subject": "General Information",
     "prompt": "Which term refers to competitive method for selecting a supplier?",
-    "hint": "Focus on the key term and its official definition: Which term refers to competitive method for selecting a.",
+    "hint": "Choosing a supplier through competition is bidding.",
     "choices": [
       {
         "id": "A",
@@ -2393,7 +2393,7 @@
     "id": "gi-117",
     "subject": "General Information",
     "prompt": "Which term refers to checking prices or suppliers before purchase?",
-    "hint": "Focus on the key term and its official definition: Which term refers to checking prices or suppliers befor.",
+    "hint": "Comparing prices/suppliers before buying is a canvass.",
     "choices": [
       {
         "id": "A",
@@ -2419,7 +2419,7 @@
     "id": "gi-118",
     "subject": "General Information",
     "prompt": "Which term refers to small fund for minor expenses?",
-    "hint": "Focus on the key term and its official definition: Which term refers to small fund for minor expenses?.",
+    "hint": "A small cash fund for minor day-to-day spends is petty cash.",
     "choices": [
       {
         "id": "A",
@@ -2445,7 +2445,7 @@
     "id": "gi-119",
     "subject": "General Information",
     "prompt": "Which term refers to accounting for cash advances or expenses?",
-    "hint": "Focus on the key term and its official definition: Which term refers to accounting for cash advances or ex.",
+    "hint": "Accounting for advances or expenses after the fact is liquidation.",
     "choices": [
       {
         "id": "A",
@@ -2471,7 +2471,7 @@
     "id": "gi-120",
     "subject": "General Information",
     "prompt": "Which term refers to authorization to spend public funds?",
-    "hint": "Focus on the key term and its official definition: Which term refers to authorization to spend public fund.",
+    "hint": "Legal authority to spend public money is an appropriation.",
     "choices": [
       {
         "id": "A",
@@ -2497,7 +2497,7 @@
     "id": "gi-121",
     "subject": "General Information",
     "prompt": "Which term refers to financial plan of expected income and expenses?",
-    "hint": "Taxation: identify the tax type and the taxable event in: Which term refers to financial plan of expected in.",
+    "hint": "A plan of expected income and outlays is a budget.",
     "choices": [
       {
         "id": "A",
@@ -2523,7 +2523,7 @@
     "id": "gi-122",
     "subject": "General Information",
     "prompt": "Which term refers to examination of accounts and transactions?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to examination of accounts and t.",
+    "hint": "Examining accounts and transactions is an audit.",
     "choices": [
       {
         "id": "A",
@@ -2549,7 +2549,7 @@
     "id": "gi-123",
     "subject": "General Information",
     "prompt": "Which term refers to resource owned by an office or entity?",
-    "hint": "Focus on the key term and its official definition: Which term refers to resource owned by an office or ent.",
+    "hint": "Something the office owns is an asset.",
     "choices": [
       {
         "id": "A",
@@ -2575,7 +2575,7 @@
     "id": "gi-124",
     "subject": "General Information",
     "prompt": "Which term refers to obligation or debt?",
-    "hint": "Focus on the key term and its official definition: Which term refers to obligation or debt?.",
+    "hint": "A debt or obligation owed is a liability.",
     "choices": [
       {
         "id": "A",
@@ -2601,7 +2601,7 @@
     "id": "gi-125",
     "subject": "General Information",
     "prompt": "Which term refers to income collected by government or an entity?",
-    "hint": "Taxation: identify the tax type and the taxable event in: Which term refers to income collected by governmen.",
+    "hint": "Money coming in is revenue.",
     "choices": [
       {
         "id": "A",
@@ -2627,7 +2627,7 @@
     "id": "gi-126",
     "subject": "General Information",
     "prompt": "Which term refers to amount spent?",
-    "hint": "Focus on the key term and its official definition: Which term refers to amount spent?.",
+    "hint": "Money going out is expenditure.",
     "choices": [
       {
         "id": "A",
@@ -2653,7 +2653,7 @@
     "id": "gi-127",
     "subject": "General Information",
     "prompt": "Which term refers to employee handling receipt or release of cash?",
-    "hint": "Focus on the key term and its official definition: Which term refers to employee handling receipt or relea.",
+    "hint": "The staff who receives or releases cash is the cashier.",
     "choices": [
       {
         "id": "A",
@@ -2679,7 +2679,7 @@
     "id": "gi-128",
     "subject": "General Information",
     "prompt": "Which term refers to employee performing office and record tasks?",
-    "hint": "Focus on the key term and its official definition: Which term refers to employee performing office and rec.",
+    "hint": "General office and record work is done by a clerk.",
     "choices": [
       {
         "id": "A",
@@ -2705,7 +2705,7 @@
     "id": "gi-129",
     "subject": "General Information",
     "prompt": "Which term refers to documented information kept by an office?",
-    "hint": "Focus on the key term and its official definition: Which term refers to documented information kept by an .",
+    "hint": "Documented information kept by an office is a record.",
     "choices": [
       {
         "id": "A",
@@ -2731,7 +2731,7 @@
     "id": "gi-130",
     "subject": "General Information",
     "prompt": "Which term refers to printed document?",
-    "hint": "Focus on the key term and its official definition: Which term refers to printed document?.",
+    "hint": "A printed paper document is a hard copy.",
     "choices": [
       {
         "id": "A",
@@ -2757,7 +2757,7 @@
     "id": "gi-131",
     "subject": "General Information",
     "prompt": "Which term refers to electronic copy of a document?",
-    "hint": "Focus on the key term and its official definition: Which term refers to electronic copy of a document?.",
+    "hint": "An electronic file version is a soft copy.",
     "choices": [
       {
         "id": "A",
@@ -2783,7 +2783,7 @@
     "id": "gi-132",
     "subject": "General Information",
     "prompt": "Which term refers to electronic mail?",
-    "hint": "Focus on the key term and its official definition: Which term refers to electronic mail?.",
+    "hint": "Messages sent over the internet mail system are email.",
     "choices": [
       {
         "id": "A",
@@ -2809,7 +2809,7 @@
     "id": "gi-135",
     "subject": "General Information",
     "prompt": "Which term refers to brief title of an email message?",
-    "hint": "Focus on the key term and its official definition: Which term refers to brief title of an email message?.",
+    "hint": "The short title field of an email is the subject line.",
     "choices": [
       {
         "id": "A",
@@ -2835,7 +2835,7 @@
     "id": "gi-136",
     "subject": "General Information",
     "prompt": "Which term refers to file sent with an email?",
-    "hint": "Office or ICT: match the tool or process named in Which term refers to file sent with an email? to its correct purpose.",
+    "hint": "A file sent along with an email is an attachment.",
     "choices": [
       {
         "id": "A",
@@ -2861,7 +2861,7 @@
     "id": "gi-137",
     "subject": "General Information",
     "prompt": "Which term refers to program or file used for tables and calculations?",
-    "hint": "Office or ICT: match the tool or process named in Which term refers to program or file used for tabl to its correct purpose.",
+    "hint": "Tables and calculations are done in a spreadsheet (e.g., Excel).",
     "choices": [
       {
         "id": "A",
@@ -2887,7 +2887,7 @@
     "id": "gi-138",
     "subject": "General Information",
     "prompt": "Which term refers to program used to prepare documents?",
-    "hint": "Focus on the key term and its official definition: Which term refers to program used to prepare documents?.",
+    "hint": "Letters and reports are prepared in a word processor (e.g., Word).",
     "choices": [
       {
         "id": "A",
@@ -2913,7 +2913,7 @@
     "id": "gi-139",
     "subject": "General Information",
     "prompt": "Which term refers to organized collection of data?",
-    "hint": "Focus on the key term and its official definition: Which term refers to organized collection of data?.",
+    "hint": "An organized collection of related data is a database.",
     "choices": [
       {
         "id": "A",
@@ -2939,7 +2939,7 @@
     "id": "gi-140",
     "subject": "General Information",
     "prompt": "Which term refers to secret credential used to access a system?",
-    "hint": "Focus on the key term and its official definition: Which term refers to secret credential used to access a.",
+    "hint": "The secret string that unlocks an account is a password.",
     "choices": [
       {
         "id": "A",
@@ -2965,7 +2965,7 @@
     "id": "gi-141",
     "subject": "General Information",
     "prompt": "Which term refers to extra copy of data for recovery?",
-    "hint": "Focus on the key term and its official definition: Which term refers to extra copy of data for recovery?.",
+    "hint": "An extra copy kept for recovery is a backup.",
     "choices": [
       {
         "id": "A",
@@ -2991,7 +2991,7 @@
     "id": "gi-142",
     "subject": "General Information",
     "prompt": "Which term refers to harmful software?",
-    "hint": "Office or ICT: match the tool or process named in Which term refers to harmful software? to its correct purpose.",
+    "hint": "Harmful software in general is called malware.",
     "choices": [
       {
         "id": "A",
@@ -3017,7 +3017,7 @@
     "id": "gi-143",
     "subject": "General Information",
     "prompt": "Which term refers to fraudulent attempt to obtain sensitive information?",
-    "hint": "Focus on the key term and its official definition: Which term refers to fraudulent attempt to obtain sensi.",
+    "hint": "Fake messages that trick you into giving passwords/data are phishing.",
     "choices": [
       {
         "id": "A",
@@ -3043,7 +3043,7 @@
     "id": "gi-144",
     "subject": "General Information",
     "prompt": "Which term refers to security system controlling network traffic?",
-    "hint": "Focus on the key term and its official definition: Which term refers to security system controlling networ.",
+    "hint": "A system that filters network traffic is a firewall.",
     "choices": [
       {
         "id": "A",
@@ -3069,7 +3069,7 @@
     "id": "gi-145",
     "subject": "General Information",
     "prompt": "Which term refers to conversion of data into coded form?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to conversion of data into coded.",
+    "hint": "Turning data into coded form so others can’t read it is encryption.",
     "choices": [
       {
         "id": "A",
@@ -3095,7 +3095,7 @@
     "id": "gi-146",
     "subject": "General Information",
     "prompt": "Which term refers to designing work to fit the worker safely?",
-    "hint": "Focus on the key term and its official definition: Which term refers to designing work to fit the worker s.",
+    "hint": "Fitting tools and workstations to the human body is ergonomics.",
     "choices": [
       {
         "id": "A",
@@ -3121,7 +3121,7 @@
     "id": "gi-147",
     "subject": "General Information",
     "prompt": "Which term refers to date or time by which work must be completed?",
-    "hint": "Focus on the key term and its official definition: Which term refers to date or time by which work must be.",
+    "hint": "The date/time work must be finished is the deadline.",
     "choices": [
       {
         "id": "A",
@@ -3147,7 +3147,7 @@
     "id": "gi-148",
     "subject": "General Information",
     "prompt": "Which term refers to schedule of travel or activities?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to schedule of travel or activit.",
+    "hint": "A planned sequence of travel or activities is an itinerary.",
     "choices": [
       {
         "id": "A",
@@ -3173,7 +3173,7 @@
     "id": "gi-149",
     "subject": "General Information",
     "prompt": "Which term refers to formal designation to a position?",
-    "hint": "Focus on the key term and its official definition: Which term refers to formal designation to a position?.",
+    "hint": "Formal placement into a position is an appointment.",
     "choices": [
       {
         "id": "A",
@@ -3199,7 +3199,7 @@
     "id": "gi-150",
     "subject": "General Information",
     "prompt": "Which term refers to advancement to a higher position?",
-    "hint": "Focus on the key term and its official definition: Which term refers to advancement to a higher position?.",
+    "hint": "Moving up to a higher position is a promotion.",
     "choices": [
       {
         "id": "A",
@@ -3225,7 +3225,7 @@
     "id": "gi-151",
     "subject": "General Information",
     "prompt": "Which term refers to voluntary act of leaving a position?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to voluntary act of leaving a po.",
+    "hint": "Choosing to leave a job on your own is resignation.",
     "choices": [
       {
         "id": "A",
@@ -3251,7 +3251,7 @@
     "id": "gi-152",
     "subject": "General Information",
     "prompt": "Which term refers to authorized absence from work?",
-    "hint": "Focus on the key term and its official definition: Which term refers to authorized absence from work?.",
+    "hint": "Authorized time away from work is leave.",
     "choices": [
       {
         "id": "A",
@@ -3277,7 +3277,7 @@
     "id": "gi-153",
     "subject": "General Information",
     "prompt": "Which term refers to work beyond regular hours?",
-    "hint": "Focus on the key term and its official definition: Which term refers to work beyond regular hours?.",
+    "hint": "Hours worked beyond the regular schedule are overtime.",
     "choices": [
       {
         "id": "A",
@@ -3303,7 +3303,7 @@
     "id": "gi-154",
     "subject": "General Information",
     "prompt": "Which term refers to record of presence at work?",
-    "hint": "Focus on the key term and its official definition: Which term refers to record of presence at work?.",
+    "hint": "The log of who was present at work is attendance.",
     "choices": [
       {
         "id": "A",
@@ -3329,7 +3329,7 @@
     "id": "gi-155",
     "subject": "General Information",
     "prompt": "Which term refers to habit of being on time?",
-    "hint": "Focus on the key term and its official definition: Which term refers to habit of being on time?.",
+    "hint": "Habitually being on time is punctuality.",
     "choices": [
       {
         "id": "A",
@@ -3355,7 +3355,7 @@
     "id": "gi-156",
     "subject": "General Information",
     "prompt": "Which term refers to proper conduct expected in work?",
-    "hint": "Focus on the key term and its official definition: Which term refers to proper conduct expected in work?.",
+    "hint": "Expected proper work behavior is professionalism.",
     "choices": [
       {
         "id": "A",
@@ -3381,7 +3381,7 @@
     "id": "gi-157",
     "subject": "General Information",
     "prompt": "Which term refers to polite behavior toward others?",
-    "hint": "Focus on the key term and its official definition: Which term refers to polite behavior toward others?.",
+    "hint": "Polite treatment of others is courtesy.",
     "choices": [
       {
         "id": "A",
@@ -3407,7 +3407,7 @@
     "id": "gi-158",
     "subject": "General Information",
     "prompt": "Which term refers to honesty and adherence to moral principles?",
-    "hint": "Focus on the key term and its official definition: Which term refers to honesty and adherence to moral pri.",
+    "hint": "Honesty and moral uprightness is integrity.",
     "choices": [
       {
         "id": "A",
@@ -3433,7 +3433,7 @@
     "id": "gi-159",
     "subject": "General Information",
     "prompt": "Which term refers to fairness without bias?",
-    "hint": "Focus on the key term and its official definition: Which term refers to fairness without bias?.",
+    "hint": "Deciding without bias is impartiality.",
     "choices": [
       {
         "id": "A",
@@ -3459,7 +3459,7 @@
     "id": "gi-160",
     "subject": "General Information",
     "prompt": "Which term refers to achieving results with minimal waste?",
-    "hint": "Focus on the key term and its official definition: Which term refers to achieving results with minimal was.",
+    "hint": "Getting results with little waste is efficiency.",
     "choices": [
       {
         "id": "A",
@@ -3485,7 +3485,7 @@
     "id": "gi-161",
     "subject": "General Information",
     "prompt": "Which term refers to achievement of intended results?",
-    "hint": "Focus on the key term and its official definition: Which term refers to achievement of intended results?.",
+    "hint": "Actually achieving the intended goal is effectiveness.",
     "choices": [
       {
         "id": "A",
@@ -3511,7 +3511,7 @@
     "id": "gi-162",
     "subject": "General Information",
     "prompt": "Which term refers to readiness to serve clients and the public?",
-    "hint": "Focus on the key term and its official definition: Which term refers to readiness to serve clients and the.",
+    "hint": "Attitude of readiness to serve the public is service orientation.",
     "choices": [
       {
         "id": "A",
@@ -3537,7 +3537,7 @@
     "id": "gi-163",
     "subject": "General Information",
     "prompt": "Which term refers to comments from service users?",
-    "hint": "Focus on the key term and its official definition: Which term refers to comments from service users?.",
+    "hint": "What clients say about the service is client feedback.",
     "choices": [
       {
         "id": "A",
@@ -3563,7 +3563,7 @@
     "id": "gi-164",
     "subject": "General Information",
     "prompt": "Which term refers to service directly given to clients?",
-    "hint": "Focus on the key term and its official definition: Which term refers to service directly given to clients?.",
+    "hint": "Service given face-to-face to clients is frontline service.",
     "choices": [
       {
         "id": "A",
@@ -3589,7 +3589,7 @@
     "id": "gi-165",
     "subject": "General Information",
     "prompt": "Which term refers to published service standards of an agency?",
-    "hint": "Focus on the key term and its official definition: Which term refers to published service standards of an .",
+    "hint": "Published service standards of an agency are in its citizen charter.",
     "choices": [
       {
         "id": "A",
@@ -3615,7 +3615,7 @@
     "id": "gi-166",
     "subject": "General Information",
     "prompt": "Which term refers to period needed to complete a service?",
-    "hint": "Focus on the key term and its official definition: Which term refers to period needed to complete a servic.",
+    "hint": "How long a service takes end-to-end is turnaround time.",
     "choices": [
       {
         "id": "A",
@@ -3641,7 +3641,7 @@
     "id": "gi-167",
     "subject": "General Information",
     "prompt": "Which term refers to expression of dissatisfaction?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to expression of dissatisfaction.",
+    "hint": "An expression of dissatisfaction is a complaint.",
     "choices": [
       {
         "id": "A",
@@ -3667,7 +3667,7 @@
     "id": "gi-168",
     "subject": "General Information",
     "prompt": "Which term refers to formal workplace complaint?",
-    "hint": "Focus on the key term and its official definition: Which term refers to formal workplace complaint?.",
+    "hint": "A formal workplace complaint process issue is a grievance.",
     "choices": [
       {
         "id": "A",
@@ -3693,7 +3693,7 @@
     "id": "gi-169",
     "subject": "General Information",
     "prompt": "Which term refers to settling disputes with a neutral facilitator?",
-    "hint": "Focus on the key term and its official definition: Which term refers to settling disputes with a neutral f.",
+    "hint": "A neutral helper guides parties to their own settlement in mediation.",
     "choices": [
       {
         "id": "A",
@@ -3719,7 +3719,7 @@
     "id": "gi-170",
     "subject": "General Information",
     "prompt": "Which term refers to settling disputes through a binding decision?",
-    "hint": "Focus on the key term and its official definition: Which term refers to settling disputes through a bindin.",
+    "hint": "A third party issues a binding decision in arbitration.",
     "choices": [
       {
         "id": "A",
@@ -3745,7 +3745,7 @@
     "id": "gi-171",
     "subject": "General Information",
     "prompt": "Which term refers to authority to hear or decide a matter?",
-    "hint": "Focus on the key term and its official definition: Which term refers to authority to hear or decide a matt.",
+    "hint": "Authority to hear and decide a case is jurisdiction.",
     "choices": [
       {
         "id": "A",
@@ -3771,7 +3771,7 @@
     "id": "gi-172",
     "subject": "General Information",
     "prompt": "Which term refers to minimum number required to conduct business?",
-    "hint": "Focus on the key term and its official definition: Which term refers to minimum number required to conduct.",
+    "hint": "The minimum number of members needed to do business is a quorum.",
     "choices": [
       {
         "id": "A",
@@ -3797,7 +3797,7 @@
     "id": "gi-173",
     "subject": "General Information",
     "prompt": "Which term refers to more than half?",
-    "hint": "Focus on the key term and its official definition: Which term refers to more than half?.",
+    "hint": "More than half of a whole is a majority.",
     "choices": [
       {
         "id": "A",
@@ -3823,7 +3823,7 @@
     "id": "gi-174",
     "subject": "General Information",
     "prompt": "Which term refers to highest number of votes when no majority is required?",
-    "hint": "Focus on the key term and its official definition: Which term refers to highest number of votes when no ma.",
+    "hint": "The largest number of votes without needing over 50% is a plurality.",
     "choices": [
       {
         "id": "A",
@@ -3849,7 +3849,7 @@
     "id": "gi-175",
     "subject": "General Information",
     "prompt": "Which term refers to vote of the people on a question or measure?",
-    "hint": "Focus on the key term and its official definition: Which term refers to vote of the people on a question o.",
+    "hint": "People voting yes/no on a measure (often constitutional/local) is a plebiscite.",
     "choices": [
       {
         "id": "A",
@@ -3875,7 +3875,7 @@
     "id": "gi-176",
     "subject": "General Information",
     "prompt": "Which term refers to submission of a law or issue to voters?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to submission of a law or issue .",
+    "hint": "Submitting a law or issue to the voters is a referendum.",
     "choices": [
       {
         "id": "A",
@@ -3901,7 +3901,7 @@
     "id": "gi-177",
     "subject": "General Information",
     "prompt": "Which term refers to process where people propose a law or amendment?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to process where people propose .",
+    "hint": "Citizens themselves propose a law or amendment through initiative.",
     "choices": [
       {
         "id": "A",
@@ -3927,7 +3927,7 @@
     "id": "gi-178",
     "subject": "General Information",
     "prompt": "Which term refers to process of removing an elected local official by voters?",
-    "hint": "Focus on the key term and its official definition: Which term refers to process of removing an elected loc.",
+    "hint": "Voters removing an elected local official is recall.",
     "choices": [
       {
         "id": "A",
@@ -3953,7 +3953,7 @@
     "id": "gi-179",
     "subject": "General Information",
     "prompt": "Which term refers to right to vote?",
-    "hint": "Focus on the key term and its official definition: Which term refers to right to vote?.",
+    "hint": "The right to vote is suffrage.",
     "choices": [
       {
         "id": "A",
@@ -3979,7 +3979,7 @@
     "id": "gi-180",
     "subject": "General Information",
     "prompt": "Which term refers to membership in a state with rights and duties?",
-    "hint": "Focus on the key term and its official definition: Which term refers to membership in a state with rights .",
+    "hint": "Membership in a political community with rights and duties is citizenship.",
     "choices": [
       {
         "id": "A",
@@ -4005,7 +4005,7 @@
     "id": "gi-181",
     "subject": "General Information",
     "prompt": "Which term refers to citizen from birth without having to perform an act to acquire citizenship?",
-    "hint": "Taxation: identify the tax type and the taxable event in: Which term refers to citizen from birth without ha.",
+    "hint": "A citizen from birth (no need to naturalize) is a natural-born citizen.",
     "choices": [
       {
         "id": "A",
@@ -4031,7 +4031,7 @@
     "id": "gi-182",
     "subject": "General Information",
     "prompt": "Which term refers to body of government employees selected under merit and fitness?",
-    "hint": "Focus on the key term and its official definition: Which term refers to body of government employees selec.",
+    "hint": "Government personnel under merit and fitness form the civil service.",
     "choices": [
       {
         "id": "A",
@@ -4057,7 +4057,7 @@
     "id": "gi-183",
     "subject": "General Information",
     "prompt": "Which term refers to selection or promotion based on qualifications and performance?",
-    "hint": "Focus on the key term and its official definition: Which term refers to selection or promotion based on qu.",
+    "hint": "Hiring/promotion by qualification and performance is the merit system.",
     "choices": [
       {
         "id": "A",
@@ -4083,7 +4083,7 @@
     "id": "gi-184",
     "subject": "General Information",
     "prompt": "Which term refers to favoring relatives in appointments?",
-    "hint": "Focus on the key term and its official definition: Which term refers to favoring relatives in appointments.",
+    "hint": "Favoring relatives in appointments is nepotism.",
     "choices": [
       {
         "id": "A",
@@ -4109,7 +4109,7 @@
     "id": "gi-185",
     "subject": "General Information",
     "prompt": "Which term refers to situation where private interest may affect public duty?",
-    "hint": "Taxation: identify the tax type and the taxable event in: Which term refers to situation where private inter.",
+    "hint": "When private interest may sway public duty, that is a conflict of interest.",
     "choices": [
       {
         "id": "A",
@@ -4135,7 +4135,7 @@
     "id": "gi-186",
     "subject": "General Information",
     "prompt": "Which term refers to unnecessary delay or excessive procedure?",
-    "hint": "Focus on the key term and its official definition: Which term refers to unnecessary delay or excessive pro.",
+    "hint": "Needless delay and excessive steps are red tape.",
     "choices": [
       {
         "id": "A",
@@ -4161,7 +4161,7 @@
     "id": "gi-187",
     "subject": "General Information",
     "prompt": "Which term refers to simplifying procedures to improve service?",
-    "hint": "Focus on the key term and its official definition: Which term refers to simplifying procedures to improve .",
+    "hint": "Cutting steps to speed up service is streamlining.",
     "choices": [
       {
         "id": "A",
@@ -4187,7 +4187,7 @@
     "id": "gi-188",
     "subject": "General Information",
     "prompt": "Which term refers to authorized removal of records no longer needed?",
-    "hint": "Focus on the key term and its official definition: Which term refers to authorized removal of records no l.",
+    "hint": "Authorized destruction/removal of unneeded records is records disposal.",
     "choices": [
       {
         "id": "A",
@@ -4213,7 +4213,7 @@
     "id": "gi-189",
     "subject": "General Information",
     "prompt": "Which term refers to protection of personal information?",
-    "hint": "Focus on the key term and its official definition: Which term refers to protection of personal information.",
+    "hint": "Protecting personal information is data privacy.",
     "choices": [
       {
         "id": "A",
@@ -4239,7 +4239,7 @@
     "id": "gi-190",
     "subject": "General Information",
     "prompt": "Which term refers to open competitive procurement process?",
-    "hint": "Focus on the key term and its official definition: Which term refers to open competitive procurement proce.",
+    "hint": "Open competition among suppliers is public bidding.",
     "choices": [
       {
         "id": "A",
@@ -4265,7 +4265,7 @@
     "id": "gi-191",
     "subject": "General Information",
     "prompt": "Which term refers to obtaining price quotations?",
-    "hint": "Focus on the key term and its official definition: Which term refers to obtaining price quotations?.",
+    "hint": "Gathering price quotes is canvassing.",
     "choices": [
       {
         "id": "A",
@@ -4291,7 +4291,7 @@
     "id": "gi-192",
     "subject": "General Information",
     "prompt": "Which term refers to urgent procurement allowed under special conditions?",
-    "hint": "Focus on the key term and its official definition: Which term refers to urgent procurement allowed under s.",
+    "hint": "Buying quickly under urgent conditions is an emergency purchase.",
     "choices": [
       {
         "id": "A",
@@ -4317,7 +4317,7 @@
     "id": "gi-193",
     "subject": "General Information",
     "prompt": "Which term refers to person responsible for supplies and property?",
-    "hint": "Focus on the key term and its official definition: Which term refers to person responsible for supplies an.",
+    "hint": "The person in charge of supplies is the supply officer.",
     "choices": [
       {
         "id": "A",
@@ -4343,7 +4343,7 @@
     "id": "gi-194",
     "subject": "General Information",
     "prompt": "Which term refers to person accountable for government property?",
-    "hint": "Focus on the key term and its official definition: Which term refers to person accountable for government .",
+    "hint": "The person accountable for government property is the property custodian.",
     "choices": [
       {
         "id": "A",
@@ -4369,7 +4369,7 @@
     "id": "gi-195",
     "subject": "General Information",
     "prompt": "Which term refers to authorization for official travel?",
-    "hint": "Focus on the key term and its official definition: Which term refers to authorization for official travel?.",
+    "hint": "Written authority to travel on official business is a travel order.",
     "choices": [
       {
         "id": "A",
@@ -4395,7 +4395,7 @@
     "id": "gi-196",
     "subject": "General Information",
     "prompt": "Which term refers to written directive issued within an office?",
-    "hint": "Focus on the key term and its official definition: Which term refers to written directive issued within an.",
+    "hint": "An internal written directive is an office order.",
     "choices": [
       {
         "id": "A",
@@ -4421,7 +4421,7 @@
     "id": "gi-197",
     "subject": "General Information",
     "prompt": "Which term refers to document used to send or endorse records?",
-    "hint": "Focus on the key term and its official definition: Which term refers to document used to send or endorse r.",
+    "hint": "A cover used to send or forward records is a transmittal.",
     "choices": [
       {
         "id": "A",
@@ -4447,7 +4447,7 @@
     "id": "gi-198",
     "subject": "General Information",
     "prompt": "Which term refers to official forwarding or recommendation?",
-    "hint": "Focus on the key term and its official definition: Which term refers to official forwarding or recommendat.",
+    "hint": "Official forwarding or recommendation is an endorsement.",
     "choices": [
       {
         "id": "A",
@@ -4473,7 +4473,7 @@
     "id": "gi-199",
     "subject": "General Information",
     "prompt": "Which term refers to written confirmation of a fact?",
-    "hint": "Law or public service: link the policy goal to the named rule — Which term refers to written confirmation of a fac.",
+    "hint": "A written statement confirming a fact is a certification.",
     "choices": [
       {
         "id": "A",
@@ -4499,7 +4499,7 @@
     "id": "gi-200",
     "subject": "General Information",
     "prompt": "Which term refers to document showing no pending obligation or accountability?",
-    "hint": "Focus on the key term and its official definition: Which term refers to document showing no pending obliga.",
+    "hint": "A paper showing no pending money/property accountability is a clearance.",
     "choices": [
       {
         "id": "A",
