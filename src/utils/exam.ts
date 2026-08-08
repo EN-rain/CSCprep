@@ -412,7 +412,11 @@ export function createExamSessionWithExclusions(
       id: `${question.id}-${index + 1}`,
       itemNumber: index + 1,
       question,
-      choices: preservesChoiceOrder(question) ? question.choices : shuffle(question.choices),
+      // Extra sets keep fixed choice order so answer-key hints (Answer: E. …) stay accurate.
+      choices:
+        mode.kind === 'extra' || preservesChoiceOrder(question)
+          ? question.choices
+          : shuffle(question.choices),
     })),
   }
 }
