@@ -4529,7 +4529,7 @@
     "id": "extra1-152",
     "subject": "General Information",
     "prompt": "Which law enumerates corrupt practices of public officers (especially Section 3) and is often paired with RA 6713?",
-    "hint": "RA 3019 (Anti-Graft and Corrupt Practices Act)",
+    "hint": "RA 3019",
     "choices": [
       {
         "id": "A",
@@ -4541,7 +4541,7 @@
       },
       {
         "id": "C",
-        "text": "RA 3019 (Anti-Graft and Corrupt Practices Act)"
+        "text": "RA 3019"
       },
       {
         "id": "D",
@@ -4581,7 +4581,7 @@
     "id": "extra1-154",
     "subject": "General Information",
     "prompt": "Which 2018 law streamlines government processes, sets service standards and timelines, and strengthens anti-fixer rules?",
-    "hint": "RA 11032 (Ease of Doing Business and Efficient Government Service Delivery Act)",
+    "hint": "RA 11032",
     "choices": [
       {
         "id": "A",
@@ -4589,7 +4589,7 @@
       },
       {
         "id": "B",
-        "text": "RA 11032 (Ease of Doing Business and Efficient Government Service Delivery Act)"
+        "text": "RA 11032"
       },
       {
         "id": "C",
@@ -4685,11 +4685,11 @@
     "id": "extra1-158",
     "subject": "General Information",
     "prompt": "The powers, functions, and jurisdiction of the Office of the Ombudsman are primarily set out in __________.",
-    "hint": "RA 6770 (Ombudsman Act)",
+    "hint": "RA 6770",
     "choices": [
       {
         "id": "A",
-        "text": "RA 6770 (Ombudsman Act)"
+        "text": "RA 6770"
       },
       {
         "id": "B",

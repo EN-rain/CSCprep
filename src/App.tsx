@@ -2851,10 +2851,11 @@ function ResultsScreen({
   const skippedCount = totalQuestions - reviewItems.length
   const isSubjectExam = examMode.kind === 'subject'
   const subjectLabel = isSubjectExam ? examMode.subject : null
-  // Only show subject filters that actually appear in this exam (e.g. Extra 1 has no Filipino).
+  // Subject filters only when more than one subject is in this exam (e.g. hide for single-subject Extra 1).
   const subjectsInExam = SUBJECTS.filter((subject) =>
     reviewItems.some((item) => item.subject === subject),
   )
+  const showSubjectFilters = !isSubjectExam && subjectsInExam.length > 1
 
   return (
     <section className="results">
@@ -2907,7 +2908,7 @@ function ResultsScreen({
             {option === 'correct' ? 'Correct only' : 'Wrong only'}
           </button>
         ))}
-        {!isSubjectExam && subjectsInExam.map((subject) => (
+        {showSubjectFilters && subjectsInExam.map((subject) => (
           <button
             aria-pressed={filter.includes(subject)}
             className={filter.includes(subject) ? 'filter-button filter-button--active' : 'filter-button'}
