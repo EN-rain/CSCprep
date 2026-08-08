@@ -2462,11 +2462,10 @@ function ExtraSubjectPickerPanel({ onCancel, onStart }: ExtraSubjectPickerPanelP
   }, [])
 
   const selectAll = useCallback(() => {
-    setSelected(new Set(EXTRA1_SUBJECTS))
-  }, [])
-
-  const clearAll = useCallback(() => {
-    setSelected(new Set())
+    setSelected((current) => {
+      const alreadyAll = EXTRA1_SUBJECTS.every((subject) => current.has(subject))
+      return alreadyAll ? new Set() : new Set(EXTRA1_SUBJECTS)
+    })
   }, [])
 
   const confirmStart = useCallback(() => {
@@ -2507,41 +2506,50 @@ function ExtraSubjectPickerPanel({ onCancel, onStart }: ExtraSubjectPickerPanelP
           <p className="eyebrow">Extra 1</p>
           <h2 id="extra-subject-picker-title">Choose subjects</h2>
           <p className="exam-dialog__copy">
-            Pick any combination from the Extra 1 set only. All uses every Extra 1 subject—not the main
-            question bank.
+            Tap subjects on or off. All selects every Extra 1 subject only.
           </p>
 
-          <div className="extra-subject-panel__toolbar">
-            <button className="button button--ghost" onClick={selectAll} type="button">
-              All
-            </button>
-            <button className="button button--ghost" onClick={clearAll} type="button">
-              Clear
-            </button>
-            <span className="extra-subject-panel__count">{selectedCount} items</span>
+          <div className="extra-subject-panel__meta">
+            <span className="extra-subject-panel__count">{selectedCount} items selected</span>
           </div>
 
-          <ul className="extra-subject-panel__list">
+          <div className="extra-subject-panel__toggles" role="group" aria-label="Extra 1 subjects">
+            <button
+              aria-pressed={allSelected}
+              className={`extra-subject-toggle${allSelected ? ' is-active' : ''}`}
+              onClick={selectAll}
+              type="button"
+            >
+              <strong>All</strong>
+              <span>{EXTRA1_TOTAL_ITEMS}</span>
+            </button>
             {EXTRA1_SUBJECTS.map((subject) => {
               const checked = selected.has(subject)
               const count = EXTRA1_SUBJECT_COUNTS[subject]
+              const shortLabel =
+                subject === 'Verbal Reasoning'
+                  ? 'Verbal'
+                  : subject === 'Analytical Ability'
+                    ? 'Analytical'
+                    : subject === 'Numerical Reasoning'
+                      ? 'Numerical'
+                      : subject === 'General Information'
+                        ? 'Gen. Info'
+                        : subject
               return (
-                <li key={subject}>
-                  <label className={`extra-subject-panel__option${checked ? ' is-checked' : ''}`}>
-                    <input
-                      checked={checked}
-                      onChange={() => toggleSubject(subject)}
-                      type="checkbox"
-                    />
-                    <span className="extra-subject-panel__option-text">
-                      <strong>{subject}</strong>
-                      <span>{count} items</span>
-                    </span>
-                  </label>
-                </li>
+                <button
+                  aria-pressed={checked}
+                  className={`extra-subject-toggle${checked ? ' is-active' : ''}`}
+                  key={subject}
+                  onClick={() => toggleSubject(subject)}
+                  type="button"
+                >
+                  <strong>{shortLabel}</strong>
+                  <span>{count}</span>
+                </button>
               )
             })}
-          </ul>
+          </div>
 
           <div className="exam-dialog__actions">
             <button
