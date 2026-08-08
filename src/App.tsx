@@ -2172,9 +2172,9 @@ function ReportQuestionDetails({ question, onOpenImage }: ReportQuestionDetailsP
         </button>
       )}
       <div className="report-choice-list">
-        {question.choices.map((choice, index) => (
+        {question.choices.map((choice) => (
           <div className="report-choice" key={choice.id}>
-            <span className="choice-letter">{String.fromCharCode(97 + index)}</span>
+            <span className="choice-letter">{choice.id.toLowerCase()}</span>
             {choice.image ? (
               <button
                 className="choice-image-button"
@@ -2851,6 +2851,10 @@ function ResultsScreen({
   const skippedCount = totalQuestions - reviewItems.length
   const isSubjectExam = examMode.kind === 'subject'
   const subjectLabel = isSubjectExam ? examMode.subject : null
+  // Only show subject filters that actually appear in this exam (e.g. Extra 1 has no Filipino).
+  const subjectsInExam = SUBJECTS.filter((subject) =>
+    reviewItems.some((item) => item.subject === subject),
+  )
 
   return (
     <section className="results">
@@ -2903,7 +2907,7 @@ function ResultsScreen({
             {option === 'correct' ? 'Correct only' : 'Wrong only'}
           </button>
         ))}
-        {!isSubjectExam && SUBJECTS.map((subject) => (
+        {!isSubjectExam && subjectsInExam.map((subject) => (
           <button
             aria-pressed={filter.includes(subject)}
             className={filter.includes(subject) ? 'filter-button filter-button--active' : 'filter-button'}
@@ -3033,9 +3037,10 @@ function QuestionCard({
         markerChoicesOnly ? 'choice-grid--markers' : '',
         choicesHaveImages ? 'choice-grid--images' : '',
       ].filter(Boolean).join(' ')}>
-        {choices.map((choice, index) => {
+        {choices.map((choice) => {
           const isSelected = answers[itemId] === choice.id
-          const displayLetter = markerChoicesOnly ? choice.id.toLowerCase() : String.fromCharCode(97 + index)
+          // Always use the choice id letter (not position) so hints like "Answer: C. …" stay correct after any shuffle.
+          const displayLetter = choice.id.toLowerCase()
           const markerTextOnly = /^(Option [a-e]|[a-e])$/i.test(choice.text.trim())
 
           return (

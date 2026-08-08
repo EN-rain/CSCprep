@@ -9,14 +9,15 @@
   --brand: #0d7377;
   --brand-strong: #095c5f;
   --brand-soft: #e4f3f3;
-  --accent: #c45c26;
-  --accent-soft: #f8ebe3;
+  /* Accent follows brand teal — no orange in the UI chrome */
+  --accent: #0d7377;
+  --accent-soft: #e4f3f3;
   --danger: #b42318;
   --danger-soft: #fdecea;
   --success: #1f7a46;
   --success-soft: #e8f5ee;
-  --warning: #a15c00;
-  --warning-soft: #fff4e0;
+  --warning: #1a6f9c;
+  --warning-soft: #e5f3fb;
   --info: #1a6f9c;
   --info-soft: #e5f3fb;
   --panel: #f7f4ee;
@@ -48,14 +49,15 @@
   --brand: #3db8bb;
   --brand-strong: #6fd0d2;
   --brand-soft: rgba(61, 184, 187, 0.14);
-  --accent: #e08a52;
-  --accent-soft: rgba(224, 138, 82, 0.14);
+  /* Accent follows brand teal — no orange in the UI chrome */
+  --accent: #3db8bb;
+  --accent-soft: rgba(61, 184, 187, 0.14);
   --danger: #f0a0a0;
   --danger-soft: rgba(180, 35, 24, 0.22);
   --success: #7dcca0;
   --success-soft: rgba(31, 122, 70, 0.22);
-  --warning: #e0b86a;
-  --warning-soft: rgba(161, 92, 0, 0.2);
+  --warning: #7eb8d8;
+  --warning-soft: rgba(26, 111, 156, 0.22);
   --info: #7eb8d8;
   --info-soft: rgba(26, 111, 156, 0.22);
   --panel: #1a2226;
