@@ -1285,6 +1285,8 @@ function App() {
 
   useEffect(() => {
     const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)')
+    // Native scroll is more reliable on phones/tablets; Lenis often fights touch scrolling.
+    const touchQuery = window.matchMedia('(hover: none), (pointer: coarse), (max-width: 900px)')
 
     let lenis: Lenis | null = null
     let rafId = 0
@@ -1294,8 +1296,10 @@ function App() {
       rafId = window.requestAnimationFrame(raf)
     }
 
+    const shouldUseNativeScroll = () => motionQuery.matches || touchQuery.matches
+
     const startLenis = () => {
-      if (lenis || motionQuery.matches) {
+      if (lenis || shouldUseNativeScroll()) {
         return
       }
 
@@ -1329,18 +1333,20 @@ function App() {
       document.documentElement.classList.remove('lenis', 'lenis-smooth', 'lenis-scrolling', 'lenis-stopped')
     }
 
-    const onMotionChange = () => {
+    const onCapabilityChange = () => {
       stopLenis()
-      if (!motionQuery.matches) {
+      if (!shouldUseNativeScroll()) {
         startLenis()
       }
     }
 
     startLenis()
-    motionQuery.addEventListener('change', onMotionChange)
+    motionQuery.addEventListener('change', onCapabilityChange)
+    touchQuery.addEventListener('change', onCapabilityChange)
 
     return () => {
-      motionQuery.removeEventListener('change', onMotionChange)
+      motionQuery.removeEventListener('change', onCapabilityChange)
+      touchQuery.removeEventListener('change', onCapabilityChange)
       stopLenis()
     }
   }, [])
