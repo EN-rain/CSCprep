@@ -1205,21 +1205,20 @@ h2 {
 }
 
 .extra-subject-panel__toggles {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 10px;
   margin: 0 0 18px;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: 2px;
+  /* No overflow clip — hover shadow must stay visible */
+  overflow: visible;
+  padding: 2px;
 }
 
-/* Match landing-page .start-option cards: square corners, brand teal, no orange pills */
+/* Match landing-page .start-option cards: square corners, brand teal */
 .extra-subject-toggle {
-  flex: 1 1 0;
   min-width: 0;
   min-height: 72px;
+  width: 100%;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -1227,14 +1226,13 @@ h2 {
   gap: 4px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 12px 10px;
+  padding: 12px 8px;
   background: var(--surface);
   color: var(--ink);
   cursor: pointer;
   font: inherit;
   text-align: center;
   transition:
-    transform 160ms ease,
     border-color 160ms ease,
     background 160ms ease,
     box-shadow 160ms ease,
@@ -1242,21 +1240,21 @@ h2 {
 }
 
 .extra-subject-toggle strong {
-  font-size: 0.88rem;
+  font-size: 0.86rem;
   font-weight: 700;
   line-height: 1.25;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .extra-subject-toggle span {
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 600;
   line-height: 1.3;
 }
 
 .extra-subject-toggle:hover {
-  transform: translateY(-2px);
   border-color: color-mix(in srgb, var(--brand) 45%, var(--line));
   background:
     linear-gradient(160deg, color-mix(in srgb, var(--brand) 8%, transparent), transparent 65%),
@@ -1287,7 +1285,7 @@ h2 {
 }
 
 .extra-subject-toggle:not(.is-active) {
-  opacity: 0.78;
+  opacity: 0.82;
 }
 
 .extra-subject-toggle:not(.is-active):hover {
@@ -2176,22 +2174,21 @@ h2 {
   }
 
   .extra-subject-panel__toggles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
   }
 
   .extra-subject-toggle {
-    min-height: 64px;
-    min-width: 4.75rem;
-    padding: 10px 8px;
-    border-radius: 8px;
-  }
-
-  .extra-subject-toggle:hover {
-    transform: none;
+    min-height: 58px;
+    padding: 12px 10px;
   }
 
   .extra-subject-toggle strong {
-    font-size: 0.8rem;
+    font-size: 0.84rem;
+  }
+
+  .extra-subject-toggle span {
+    font-size: 0.76rem;
   }
 
   input,

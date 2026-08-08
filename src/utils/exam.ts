@@ -256,7 +256,8 @@ function getSessionTitle(mode: ExamMode): string {
   if (mode.kind === 'extra') {
     if (mode.extraId === 'extra1') {
       const subjects = mode.subjects?.filter(Boolean) ?? []
-      if (subjects.length === 0) return 'Extra 1 (150 Items)'
+      const total = extra1Questions.filter((q) => q.status !== 'excluded').length
+      if (subjects.length === 0) return `Extra 1 (${total} Items)`
       if (subjects.length === 1) return `Extra 1 · ${subjects[0]}`
       return `Extra 1 · ${subjects.length} subjects`
     }
