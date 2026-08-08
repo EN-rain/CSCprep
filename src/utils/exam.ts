@@ -254,7 +254,7 @@ function getSessionTitle(mode: ExamMode): string {
   }
 
   if (mode.kind === 'extra') {
-    if (mode.extraId === 'extra1') return 'Extra 1 (150 Items)'
+    if (mode.extraId === 'extra1') return 'Extra 1 (144 Items)'
     return 'Extra Exam'
   }
 

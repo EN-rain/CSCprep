@@ -1873,7 +1873,7 @@ function HomeScreen({
           >
             <div className="start-option__content">
               <strong>Extra 1</strong>
-              <span className="start-option__meta">150 items · fixed set</span>
+              <span className="start-option__meta">144 items · fixed set</span>
             </div>
           </div>
         </div>

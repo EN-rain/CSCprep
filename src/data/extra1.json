@@ -301,179 +301,179 @@
   },
   {
     "id": "extra1-011",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 11] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Realizing that we were determined to go, our experienced friends __________ that there might be more difficulties along the way than we expect.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "dismissed"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "intimated"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "insisted"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "projected"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "concluded"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-012",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 12] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Ang patuloy na pag-angkat ng mga produktong banyaga, na siya naming tinatangkilik ng mga mamamayan, ang dahilan ng __________ ng mga industriyang local.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "paghinto"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "pagbabago"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "pagtitipid"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "pagkawala"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "pagkalugi"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-013",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 13] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "A strong government is needed to promote __________, not dependency, and to encourage free enterprise.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "self-alienation"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "self-evaluation"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "self reliance"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "self-awaremenss"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "self-determination"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-014",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 14] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Mass media develop in us level of consciousness that keeps us __________, current events.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "interested in"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "adjusting to"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "excited over"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "fearful of"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "abreast of"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-015",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 15] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Failure is the most tiring experience a person can ever have; there is nothing more __________ than not succeeding being blocked, not moving ahead.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Invigorating"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Discouraging"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Exhilarating"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Enervating"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "depressing"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-016",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 16] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "A three-act play or a novel are to be read; a total of two hundred pages of poetry—lyric, dramatic, or narrative—is also required of everyone.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "A three-act play or a novel are to be read;"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "a total of two hundred pages"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "of poetry—lyric, dramatic, or narrative—is"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "also required of everyone."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
     "correctChoiceId": "A",
@@ -481,89 +481,89 @@
   },
   {
     "id": "extra1-017",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 17] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Accuracy of movement, like accuracy of words, are essential to the success of magical rites.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Accuracy of movement,"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "like accuracy of words,"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "are essential to"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "the success of magical rites."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-018",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 18] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "If anybody objects, let them think of a better scheme rather than make fun of the proposed plan.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "If anybody objects,"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "let them think of a better scheme"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "rather than make fun"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "of the proposed plan."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-019",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 19] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "In this modern age of today, most people are too highly educated to believe in superstitions.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "In this modern age of today,"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "most people are"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "too highly educated"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "to believe in superstitions."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
     "correctChoiceId": "A",
@@ -571,89 +571,89 @@
   },
   {
     "id": "extra1-020",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 20] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "College teaches us to form opinions by the result of careful thought\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "College teaches us"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "to form opinions"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "by the result"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "of careful thought"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-021",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 21] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Learners set goals as motivation for learning, and their successes or failures in achieving these goals determine how he sets his future goals.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Learners set goals"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "as motivation for learning,"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "and their successes or failures in achieving these goals determine"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "how he sets his future goals."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-022",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 22] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Labor Secretary will met representatives of the entertainment industry tomorrow to discuss problems affecting the working conditions of Filipino workers abroad.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The Labor Secretary will met representatives"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "of the entertainment industry tomorrow"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "to discuss problems affecting the working conditions"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "of Filipino workers abroad."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
     "correctChoiceId": "A",
@@ -661,59 +661,59 @@
   },
   {
     "id": "extra1-023",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 23] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Some people are simply too opportunities to take a stand on controversial issues.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Some people are"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "simply too opportunities"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "to take a stand"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "on controversial issues."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-024",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 24] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "We were discussing about political issues so her remarks about clothes and fashion were completely beside the point.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "We were discussing about political issues"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "so her remarks"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "about clothes and fashion"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "were completely beside the point."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
     "correctChoiceId": "A",
@@ -721,59 +721,59 @@
   },
   {
     "id": "extra1-025",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 25] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "The best consultants are those who can suggest or apply an array of methods aim at helping their clients understand a situation, diagnose it, and act accordingly under a given situation.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The best consultants are those who can suggest"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "or apply an array of methods aim at helping their clients"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "understand a situation, diagnose it, and"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "act accordingly under a given situation."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-026",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 26] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "We were touch by his generosity when he obviously could ill afford to be so generous.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "We were touch"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "by his generosity"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "when he obviously could ill afford"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "to be so generous."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
     "correctChoiceId": "A",
@@ -781,89 +781,89 @@
   },
   {
     "id": "extra1-027",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 27] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "This is just one approach to a selection system and there are many from whom to choose.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "This is just one approach"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "to a selection system"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "and there are many"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "from whom to choose"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-028",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 28] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Maaaring umabot sa sandaang taon ang buhay ng isang tao kung gugustuhin at susundan lamang ang mga positibong saloobin.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Maaaring umabot sa sandaang taon"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "ang buhay ng isang tao"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "kung gugustuhin at susundan lamang"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "ang mga positibong saloobin."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-029",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 29] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "I use to take a short siesta every afternoon after lunch.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "I use"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "to take a short siesta"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "every afternoon"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "after lunch."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
     "correctChoiceId": "A",
@@ -871,29 +871,29 @@
   },
   {
     "id": "extra1-030",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 30] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "The success of a leader lays not only on the leader's ability to influence people, but also in the sincerity of the purpose that he desires to achieve.\n\nWhich part contains the error?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The success of a leader lays"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "not only on the leader's ability to influence people,"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "but also in the sincerity of the purpose"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "that he desires to achieve."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "NO ERROR"
       }
     ],
     "correctChoiceId": "A",
@@ -901,239 +901,239 @@
   },
   {
     "id": "extra1-031",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 31] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Plumbers who work efficiently from the point of view of a homemaker are worthy of their wages."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Plumbers are worthy of their wages who work efficiently from the point of view off a homemaker."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Plumbers, from the point of view of a homemaker, who work efficiently, are worthy of their wages."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "From the point of view of a homemaker, plumbers who work efficiently are worthy of their wages."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Worthy of their wages are plumbers who work efficiently from the point of view of a homemaker."
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-032",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 32] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The time for most people has come to change their attitudes and lifestyles."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "The time has come when people must change their attitudes and lifestyles."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "The time when the attitudes and lifestyles of the people has come to change."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "The people must change their attitudes and lifestyles and the time had come to change."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "People must change their attitudes and lifestyles, and it is because the time has come to change."
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-033",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 33] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Her brother, whom I met in the party, is more richer than you think."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Her brother, I met him in the party, is very much richer than you think."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Her brother, whom I had met in the party, is richer than you think."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Her brother, whom I met in the party, is much richer than you think."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "I met her brother in the party and he is richer than you think."
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-034",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 34] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The fisher folks decided to go to the nearby hut finally drenched with rain."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "The fisher folks finally decided to go to the nearby hut drenched with rain."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Drenched with rain, the fisher folks finally decided to go the nearby hut."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Finally drenched with rain, the fisher folks decided to go the nearby hut."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Finally deciding to go to the nearby hut, the fisher folks were drenched with rain."
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-035",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 35] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The Filipino people have regained their respect and trust in their government."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "The Filipino people have regained their respect and trust for their government."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "The Filipino people have regained their respect for their government and even their trust in it."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "The Filipino people have regained their respect for and trust in their government."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "The Filipino people have regained, for their government their respect and trust in it."
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-036",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 36] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The education of his children is most paramount in his plans."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "The education of his children is more paramount in his plans."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "The education of his children is paramount in his plans."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "The most paramount of all his plans is how to educate his children."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Paramount in his plans more than any other things is the education of his children."
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-037",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 37] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "As soon as the tabulation of the figures have been completed, someone should check the accuracy."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "As soon as tabulated, someone should check on the accuracy of those figures."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "As soon as the tabulation is finished, someone was to check its accuracy."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Once the tabulation was completed, the accuracy of the figures should be checked."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Someone had ought to check the accuracy of those figures when they have been tabulated."
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-038",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 38] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Sa pamamagitan ng kasaysayan ay natutunghayan muli ang makukulay na lumipas ng magigiting na tao."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Sa pamamagitan ng kasaysayan, ang lumipas na makukulay ng magigiting na tao ay muling natutunghayan."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Ang makukulay na lumipas ay natutunghayan muli ng magigiting na tao sa pamamagitan ng kasaysayan."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Muli ang makukulay na lumipas ng mga taong magigiting ay natutunghayan sa pamamagitan ng kasaysayan."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Natutunhayan muli ang lumipas ng magigiting na tao na makukulay sa pamamagitan ng kasaysayan."
       }
     ],
     "correctChoiceId": "A",
@@ -1141,29 +1141,29 @@
   },
   {
     "id": "extra1-039",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 39] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "One has to be either 65 or blind to claim an extra personal exemption."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "One has either to be 65 or blind to claim an extra personal exemption."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "One either has to be 65 or blind to claim an extra personal exemption."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Either one has to be 65 or blind to claim an extra personal exemption."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "To claim an extra personal exemption, one either has to be 65 or blind."
       }
     ],
     "correctChoiceId": "A",
@@ -1171,509 +1171,509 @@
   },
   {
     "id": "extra1-040",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 40] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "I will never, unless he apologizes first, work with him again."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "I will never, unless he apologized first, work with him again."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "I will never work with him again, unless he asks for an apology."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "I will never work with him again, unless he apologizes first."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Unless he asks for an apology, I will never work with him again."
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-041",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 41] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "For a society to develop, its attitude towards life must not be a fatalistic one; rather, it must have strong faith in its capacity to improve.\n\nThe sentence best supports the statement that _________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "the attitude of a society towards life is indicative of its socio-economic development"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "success in life starts from one’s dissatisfaction with the existing state of affairs"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "a society cannot progress unless it is actively committed to the pursuit of a better life"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "a person develops a healthy attitude towards life through constant efforts to improved oneself."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "a person with an optimistic outlook in life is confident of his capacity for advancement"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-042",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 42] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Freedom and human rights without food are like freeing a prisoner and then not giving the prisoner the key to get out of the cell. The 450 million people who today live in the shadow of hunger and death from malnutrition can never be free men and women, however entrenched their freedom may be. These freedoms are only prospects held out and not realized.\n\nThe paragraph best supports the statement that __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "at times people have to work as one nation to address the problem of malnutrition"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "most of the poor countries in the world today still depend on “super” rich countries for support"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "the satisfaction of one’s basic needs is a prerequisite to the enjoyment of freedom"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "a country which cannot feed its people with its own resources could never be free"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "a country could not be free unless it could prove to the world that it could stand on its own feet"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-043",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 43] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Einstein revolution has produced a paradox; while vastly extending humankind’s reach, it has also exposed the essentially finite nature of the human scale.\n\nThe sentence best supports the statement that Einstein’s discovery _________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "proclaims only the glory of the universe"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "devalues humanity and science"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "involves a real but not obvious contradiction"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "reveals a contradiction between God and his people"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "reveals people’s limitations"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-044",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 44] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "A little ignorance when launching economic development projects may be a fruitful stimulus to ingenious new approaches.\n\nThe sentence best supports the statement that __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "new techniques insure success of development plans"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "new approaches bring about change and success"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "ignorance sometimes gives birth to new knowledge"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "from ingenuity comes successful projects"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "lack of knowledge in economic ventures may lead to better and improved results"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-045",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 45] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "If legislation is to change social attitudes and values, it must come with adequate enforcement and machinery, which should include efforts to educate people on these laws. Otherwise, legal provision not only remain dead letters, but actually promote lack of respect for the law.\n\nThe paragraph best supports the statement that __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "people should respect laws because laws protect them"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "the effectiveness of laws lies in adequate education of the people about them and their proper enforcement."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "laws lose their effectiveness if people do not respect them"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "ignorance of the law does not excuse anyone"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "laws could change the social attitudes and values of people if properly enforced"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-046",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 46] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Two person look out through the same bars; one sees mud and the other, the stars.\n\nThe sentence best supports the statement that __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "some people are more blind than others"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "people see things differently depending on their own perspective"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "people have varied ways of looking at different things"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "people have different tastes and interests"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "people tend to influence one another’s views of things"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-047",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 47] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "An education really suited to the rural environment can become both acceptable and genuinely functional only when the environment begins to offer real opportunities and to require skills and knowledge on a large scale. As long as opportunities lie only in the urban economy, education will remain in servitude to that small section of society.\n\nThe paragraph best supports the statement that __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "migration to the cities result from the lack of real opportunities in the rural areas"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "the rural environment has opportunities that need to be develop"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "we have a concentration of educational opportunities in the urban areas"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "rural occupational opportunities give meaning to rural education"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "our educational system caters mainly to the needs of the urban sector"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-048",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 48] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "No matter how strong and dedicated leaders may be, they must find root and strength among the people. Alone, they cannot save a nation. They may guide, they may set the tone, they may dedicate themselves and risk their lives, but ultimately national survival lies in the people.\n\nThe paragraph best supports the statement that __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "dedication and the right sense of direction enable a leader to guide the people"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "good leadership is essential to effective public administration"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "it is the leader who determines the fate of a nation"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "the people of a nation shape their own destiny with the guidance of a leader"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "the strength of the people comes from a dynamic and forceful leader"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-049",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 49] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Ang pagbaba ng halaga ng piso lumikha ng krisis sa maraming industriya ng bansa. Kasunod nito ang pagtitipid at problema sa kawalan ng mapasukang trabaho. Lumikha rin ito ng pagtataas ng presyo ng mga bilihin na labis nakaapekto sa kita ng mga manggagawa.\n\nAyon sa talata __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "ang kasalukuyang krisis ay bunga ng mga mahal na bilihin at kawalan ng mapasukang trabaho"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "ang krisis ay nakaapekto sa hangarin ng maraming industriya na makapagbigay ng karagdagang sahod sa kanilang mga manggagawa"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "dumarami ang mga walang hanapbuhay at tumataas ang halaga ng mga bilihin dahil sa krisis"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "maraming industriya ang nalulugi dahil sa krisis kaya itinataas din nila ang presyo ng kanilang mga produkto."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "dahil sa krisis, maraming industriya ang napilitang magsara"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-050",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 50] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "The gregariousness of people is mostly due to a fear of remaining alone. It feels safer to be with a group, talk like a group, act like a group. The ramparts of group solidarity give the members security.\n\nThe paragraph best supports the statement that __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "people who belong to a group react to situations in the same manner"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "some people are more gregarious than others"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "people who are gregarious are afraid to be alone"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "people find safety in numbers"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "gregarious people have many fears"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-051",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 51] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Most researchers in needy countries are based on the thinking and approach of the highly developed Western world, and seldom have they been directed toward meeting the countries; own development needs.\n\nThe sentence best supports the statement that _________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "highly developed countries offer the best guide for the development of needy countries"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "most researchers done in needy countries are missing their objectives"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "most researchers have universal application"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "needy countries need researchers to help them reach the status of the western world"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "needy countries spend so much time for conducting researchers"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-052",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 52] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "In a modern economy, the results of long-range planning frequently depend upon the future value of money. The ability then to predict the value of money is a key to economic progress.\n\nThe paragraph best supports the statement that _________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "the value of money is unpredictable at times"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "the unpredictability of money is an obstacle to a nation’s prosperity"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "economic progress is facilitated by properly controlling budgetary expenses"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "long-range planning is unheard of in traditional economies"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "financial planning is indispensable in modern economy"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-053",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 53] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Sixty years ago I know everything ; now I know nothing ; education is a progressive discovery of our own ignorance.\n\nThe sentence best supports the statement that __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "the older we get, the more we forget what we have learned"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "the older we get, the more knowledgeable we become"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "the more we learn, the more we realize that there’s more we need to know"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "we learn more as we grow old"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "ignorance is a lifelong experience"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-054",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 54] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Verbal Reasoning",
+    "prompt": "Nagawang mabago ng mga kasalukuyang awitin ang kamalayan ng Pilipino upang kantahin ang sarili niyang mga awit sa tanging wikang nakapagsasatinig sa kanyang kaluluwa.\n\nIsinasaad ng pangungusap na __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "madamdamin at makabuluhan ang mga awiting isinulat sa wikang Pilipino"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "tagumpay ang mga awiting Pilipino na mabago ang kaugalian ng mga tao Pilipino"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "madaling matutuhan ang mga awiting Pilipino dahil ang mga ito ay nasusulat sa katutubong wika"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "natututuhan nang tangkilikin ng mga Pilipino ang kanilang mga sariling awitin"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "nagkakaroon na ng kamalayan ang mga Pilipino tungkol sa lahat ng mga awitin ngayon"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-055",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 55] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "KAINGIN is to SOIL EROSION as CONTOUR FARMING is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "water distribution"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "wind erosion"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "crop growing"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "over pasturing"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "soil preservation"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-056",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 56] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "IRREFUTABLE is to DISPROVED as IRREPARABLE is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "restored"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "irremediable"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "possible"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "inevitable"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "insoluble"
       }
     ],
     "correctChoiceId": "A",
@@ -1681,89 +1681,89 @@
   },
   {
     "id": "extra1-057",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 57] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "FORE is to AFT as BOW is to ____________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "paddle"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "deck"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "boat"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "arrow"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "stern"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-058",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 58] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "PHOTOGRAPHER is to PICTURE as CARTOGRAPHER is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "plan"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "design"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "graph"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "cartoon"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "map"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-059",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 59] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "TIRADE is to ABUSIVE as EULOGY is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "laudatory"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "flowery"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "necrology"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "belittling"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "censure"
       }
     ],
     "correctChoiceId": "A",
@@ -1771,89 +1771,89 @@
   },
   {
     "id": "extra1-060",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 60] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "PERJURY is to LIE as LARCENY is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "conspire"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "kill"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "steal"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "injure"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "trespass"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-061",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 61] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "OPTICS is to PHYSICS as DIALECTICS is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "dialogue"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "mathematics"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "diction"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "grammar"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "logic"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-062",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 62] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "RUMMAGE is to DISORDER as TENDERFOOT is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "rookie"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "expert"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "student"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "veteran"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "old-timer"
       }
     ],
     "correctChoiceId": "A",
@@ -1861,179 +1861,179 @@
   },
   {
     "id": "extra1-063",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 63] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "COMPASS is to DIRECTION as CALIPER is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "speed"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "pitch"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "diameter"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "altitude"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "volume"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-064",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 64] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "BREWING is to BEER as TANNING is to _________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "rubber"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "cotton"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "tea"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "glass"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "leather"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-065",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 65] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "__________ is to METAMORPHOSIS as CATHARSIS is to ___________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "condition-chapter"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "comparison-effect"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "state-cause"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "process-stage"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "change-purification"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-066",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 66] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "__________ is to SWORD as HOLSTER is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "blade-spin"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "scabbard-pistol"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "duel-bolo"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "sheath-shot"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "hilt-rifle"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-067",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 67] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "__________ is to SCHOOL as STAR is to _________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "student-rock"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "principal-dancer"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "fish-constellation"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "bird-tree"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "thesis-player"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-068",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 68] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "_________ is to LATE as AUTHENTIC is to _________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "punctual-counterfeit"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "prompt-genuine"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "diligent-original"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "absent-false"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "early-real"
       }
     ],
     "correctChoiceId": "A",
@@ -2041,59 +2041,59 @@
   },
   {
     "id": "extra1-069",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 69] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "__________ is to PAPER as WORM is to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "wrap-wriggle"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "tree-silk"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "print-bait"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "sap-tick"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "ink-soil"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-070",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 70] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "A to H are persons compared according to their age and the speed at which they finish a certain job. A is older than B and faster than C. D is younger than E, older than H, and slower than F. G is older than H, younger than C, slower than H, and faster than F. H is older than A and Slower than C. Based on the preceding statements, which of the following is true?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "A is the second oldest and the third fastest."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "G is older than E and Slower than A."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "C is younger than D and fastest than H."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "D is the eldest and slowest"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "H is the older than B and slower than D"
       }
     ],
     "correctChoiceId": "A",
@@ -2101,419 +2101,419 @@
   },
   {
     "id": "extra1-071",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 71] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "Point E, F, G, I are arranged in a line in such a way that F is between G and I, and E is between F and I. If E proceeds G, in what order are they arranged?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "E F G I"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "E I G F"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "F I G E"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "I E F G"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "I G F E"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-072",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 72] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "In a certain examination, 300 competitors passed the first part and 500 passed the second part. The number of competitors who passed both parts of the examination will most likely be __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "800"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "between 500 and 600"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "between 400and 500"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "between 300 and 400"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "not more than 300"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-073",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 73] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "Anna, Karen and Nina take turns in getting the midnight shift at Ward 143 such that no one is assigned two nights in a row. Anna was assigned two nights ago and is assigned again tomorrow evening. If Karen is assigned the night immediately following Anna's duty, who can take tonight's midnight shift?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Only Anna"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Only Karen"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Only Nina"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Either Anna or Karen"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Either Anna or Nina"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-074",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 74] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "Mina, Bing, Amy, and Cel have surnames Folres, Mendez, Presez and Reyex but not respectively. Mina is taller than Amy and Cel. Ms. Mendez is tallest of the four. Ms. Flores is taller than Ms. Reyes but shorter than Ms. Perez. Also, Cel is taller than Amy and Bing. What is the full name of the second tallest person?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Amy Mendez"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Cel Perez"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Cel Flores"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Bing Reyes"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Mina Perez"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-075",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 75] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "Gigi is probably a pianist. She can really stretch her hands and fingers.\n\nASSUMPTION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Only people with big hands and long fingers can be pianists."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Playing the piano helps Gigi stretch her hands and fingers."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Stretching helps pianist perform better"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "A long stretch enables pianists to reach more keys on the piano"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Pianists can really stretch their hands and fingers"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-076",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 76] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "Arlene should not be part of the basketball team because she does not trust her teammates.\n\nASSUMPTION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The Basketball team needs Arlene even if she can has no faith in them"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Team mates should have faith in each other"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Arlene’s team mates are not trustworthy"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Arlene’s team mates do not have faith in the teams"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Arlene is better than her team mates"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-077",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 77] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "If you are so smart, then why aren’t you rich?\n\nASSUMPTION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "To become rich is difficult"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Only the rich are smart"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Only the smart are rich"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "All rich people are smart"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "All smart people are rich"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-078",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 78] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "In order to improve our admission process and get better students, we have decided to include an interview of the applicants as a criterion.\n\nASSUMPTION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Current admission procedures are greatly inadequate"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "current admission criteria need to be updated"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "An interview of the applicants will help draw better students"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "An interview of the applicants will be too time consuming"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "An interview of the applicants will ensure the students success in school"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-079",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 79] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "The present administration helps poor people acquire basic necessities for living that is why it helps quarter dwellers like Aling Rosie\n\nASSUMPTION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The present administration hates rich people"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Aling Rosie asked the present administration to help her"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Squatter dwellers pretended to be poor"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Squatter dwellers compete with poor people for the present administration’s attention"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Squatter dwellers are considered poor people"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-080",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 80] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "Artists are never ham-handed. All artists are inquisitive. Peter is not ham-handed. Florence is not inquisitive.\n\nCONCLUSION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Peter is an artist"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Peter is not an artist"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Florence is not an artists"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Florence is not an artists"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Inquisitive people are not ham-handed"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-081",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 81] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "Subscribing to Cable T.V. is a luxury. All luxuries are needles expenditures. Having a cellular phone is not a luxury. Dining in a Five-Star hotel is a needless expenditure\n\nCONCLUSION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Having a cellular phone is not a needless expenditure"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Subscribing to Cable TV is a needless expenditure"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Subscribing to cable TV is not a needless expenditure"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Dining in a Five-Star hotel is not a luxury"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Dining in a Five-Star hotel is a luxury"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-082",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 82] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "Some managers are not analytical. All managers are ruthless. Vicente is Ruthless.\n\nCONCLUSION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Vicente is a manager but is not analytical"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Vicente is analytical but is not a manager"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Some ruthless managers are not analytical"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Not all analytical managers are ruthless"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "All ruthless people are analytical"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-083",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 83] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "All of my friends believe in marriage. Geraldine is a new friend. She lives with an officemate in an apartment downtown.\n\nCONCLUSION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Her housemate is most likely a good friend"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "She is living-in with her boyfriend"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "She needs a companion in the city"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Geraldine believes in marriage"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Geraldine is not married yet"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-084",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 84] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Analytical Ability",
+    "prompt": "There are fewer juvenile delinquents in communities where the youth participate actively in different socio-civic and religious clubs. Barangay X has a number of youth clubs.\n\nCONCLUSION:",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Barangay X has fewer juvenile delinquents than other barangays"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Parents in Barangay X exert great efforts to prevent juvenile delinquency"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Municipal officials encourage the organization of youth clubs"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Community development workers in Baranggay X give training in organizing youth clubs"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "All young people in Baranggay X are member of at least two youth clubs."
       }
     ],
     "correctChoiceId": "A",
@@ -2521,59 +2521,59 @@
   },
   {
     "id": "extra1-085",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 85] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "3² is to 9 as 9² is to __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "18"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "27"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "72"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "81"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "90"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-086",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 86] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "30% is to 3/5 as 60% is to __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "1 1/5"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "1 1/4"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "3 1/2"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "2 1/3"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "2 3/4"
       }
     ],
     "correctChoiceId": "A",
@@ -2581,89 +2581,89 @@
   },
   {
     "id": "extra1-087",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 87] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "0.25 is to 0.125 as 1.25 is to __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "6.250"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "2.125"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "1.625"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "1.125"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "0.625"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-088",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 88] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "12.5 is to 1/8 as 20 is to __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "1/6"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "1/5"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "1/4"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "1/3"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "1/2"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-089",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 89] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "6 is to 15 as 36 is to ___________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "90"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "82"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "75"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "72"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "60"
       }
     ],
     "correctChoiceId": "A",
@@ -2671,329 +2671,329 @@
   },
   {
     "id": "extra1-090",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 90] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "9.12  18.13  16.15  13.18  9.22  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "3.25"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "4.27"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "5.23"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "6.29"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "5.26"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-091",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 91] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "1  4  13  40  121  364  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "623"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "719"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "865"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "997"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "1093"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-092",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 92] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "5  17  19  6  14  16  7  10  12  8  _________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "17"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "15"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "11"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "9"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "5"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-093",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 93] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "795  2611  684  2722  573  2833  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "543"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "484"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "462"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "446"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "–426"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-094",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 94] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "–6  30  –150  750  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "3750"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "2250"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "–1500"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "–2250"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "–3750"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-095",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 95] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "1/3  3/9  5/15  7/21  9/27  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "11/35"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "11/33"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "9/29"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "8/25"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "4/13"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-096",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 96] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "4  16  8  40  20  120  60  420  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "480"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "360"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "240"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "210"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "140"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-097",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 97] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "2  5  8  10  4  17  5  26  6  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "40"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "38"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "37"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "35"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "33"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-098",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 98] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": ".02  .06  .12  .20  .30  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "0.36"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": ".40"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": ".42"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": ".46"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": ".48"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-099",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 99] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "2  5  12.5  31.25  __________",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "33.75"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "43.25"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "50.75"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "78.125"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "82.125"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-100",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 100] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "If the following quantities were arrange from the least to the greatest, which one would have the second greatest value?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "6/12"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "5/12"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "4/10"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "3/4"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "2/6"
       }
     ],
     "correctChoiceId": "A",
@@ -3001,119 +3001,119 @@
   },
   {
     "id": "extra1-101",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 101] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "The ratio of males to females in an organization is M is to F. How many males are there if there are T females?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "(M × T) + F"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "(F × T) + M"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "T + (F + M)"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "(M × T) / F"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "[M / (M+F)] × T"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-102",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 102] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "Suppose that the time now is 9:30 a.m. What will be the time 16 hours from now?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "12:30 a.m"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "1:30 am"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "2:30 am"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "11:30 pm"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "12:30 pm"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-103",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 103] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "What number when increased by 90% of itself equals 133?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "30"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "43"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "70"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "119"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "120"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-104",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 104] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "If y = –3. Which of the following has the greatest value?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "y²"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "y³"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "1/y²"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "1 + y"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "1 – y"
       }
     ],
     "correctChoiceId": "A",
@@ -3121,29 +3121,29 @@
   },
   {
     "id": "extra1-105",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 105] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "Which of the following has the least numerical value?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "6+3×4"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "4+3×6"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "4×6+3"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "3×6+4"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "3+6×4"
       }
     ],
     "correctChoiceId": "A",
@@ -3151,329 +3151,329 @@
   },
   {
     "id": "extra1-106",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 106] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "A trader bought a watch and sold it at 30% more than its original cost. How much did the trader earn if the original cost of the watch was P?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "P + 30%"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "P – 30%"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "30% × P"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "30% / P"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "P + (P × 30%)"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-107",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 107] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the standard numerical value for 3.54 × 10⁵ ?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "0.000354"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "0.00354"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "3,3540"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "35,400"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "354,000"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-108",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 108] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "Of set S – 4/5, 41/50, 17/20, 75% the element with the largest value is __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "75%"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "4/5"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "41/50"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "17/20"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "None, they are all equal"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-109",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 109] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "What is the smallest positive number that will give a remainder of 3 when it is divided by 4, 5, or 10 ?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "63"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "53"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "43"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "33"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "23"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-110",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 110] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "There are 36 reams of bond paper in a drawer. If 1 1/4 dozens of reams of paper were to be used in printing, how many reams should be left in the drawer?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "15"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "20"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "21"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "22"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "23"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-111",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 111] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "If a poster, which is 3 inches wide and 5 inches long, is enlarged such that the ratio of the width to the length is maintained, how many inches long will it be if the new width is 9 inches?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "11"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "13"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "15"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "25"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "27"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-112",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 112] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "If a worker can wash all the glass windows of a building in 9 days, what part of the job can said workers finish in 6 days?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "1/4"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "1/3"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "2/3"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "3/5"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "3/4"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-113",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 113] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "Ms. Cortez bought 20 blouses for P2,400 and marked them to sell at P145 each. After selling 16 pieces at this rate, She decided to sell the remaining blouses at a lower price. At what price may she sell each remaining blouse and still realize a profit of P480 on the 20 blouses?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "P143"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "P140"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "P138"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "P135"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "P133"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-114",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 114] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "In a room of ten people, how many handshakes will there be if every person shakes hands with everyone else exactly once?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "10"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "45"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "54"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "60"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "81"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-115",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 115] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "The numerator of a fraction is 4 less than its denominator. If 3 added to both the numerator and the denominator the resulting number is 3/4. What is the original fraction?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "8/14"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "9/12"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "10/12"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "9/13"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "10/13"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-116",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 116] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "Mang Gustin can climb a coconut tree at the rate of 10 ft. per minute and return at 20 ft. per minute. If it took him 3 minutes to climb and return, what is the height of the coconut tree?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "20 ft."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "18 ft."
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "15 ft."
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "13 ft."
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "10 ft."
       }
     ],
     "correctChoiceId": "A",
@@ -3481,89 +3481,89 @@
   },
   {
     "id": "extra1-117",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 117] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "A fence is to be on posts 8 meters apart around a rectangular lot that measures 40 meters long and 16 meters wide. How many posts are needed, including the ones placed at each corner, to fence the entire lot?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "20"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "18"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "16"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "14"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "12"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-118",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 118] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "How many degrees are there in the angle made by the hands of a clock at 4 o’clock?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "150°"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "120°"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "95°"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "80°"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "20°"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-119",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 119] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "The co-operative trust fund is P500,000. Part of the fund is invested at an annual interest rate of 6% and the rest is invested at an annual interest rate of 8%. If the income from both investments is P39,000, how much is invested at each rate?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "P100,000 at 6% ; P400,000 at 8%"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "P80,000 at 6% ; P420,000 at 8%"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "P75,000 at 6% ; P425,000 at 8%"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "P50,000 at 6% ; P450,000 at 8%"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "P25,000 at 6% ; P475,000 at 8%"
       }
     ],
     "correctChoiceId": "A",
@@ -3571,419 +3571,419 @@
   },
   {
     "id": "extra1-120",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 120] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "The entrance fee in a carnival is P50 for an adult and P25 for a child. Ferdie pays P225 for the entrance fee of his family. If his family has equal number of adults and children, how many are they in the family?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "12"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "10"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "8"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "6"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "4"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-121",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 121] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "The area of a rectangular field is 9,000 square meters. If the ratio of the width to the length is 5 is to 8, what is the length of the rectangular field in meters?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "112"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "120"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "150"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "225"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "346"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-122",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 122] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "If a patient weighs 105 kg. And is 12.5% underweight, how many more kilograms should the patient weigh?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "5"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "10"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "12"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "13"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "15"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-123",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 123] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "A tenant gets 4 sacks of palay for every 7 sacks harvested. Following this ratio, how many sacks of palay would the tenant get if 560 sacks were harvested?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "140"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "280"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "300"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "320"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "350"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-124",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 124] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "subject": "Numerical Reasoning",
+    "prompt": "A dealer sold a certain number of portable TV sets at P6,400 each. The dealer would have taken in as much money had 3 fewer sets been sold at P7,680. How many sets were sold at P6,400",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "9"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "12"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "14"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "16"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "18"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-125",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 125] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Elective or appointive public officials or employees cannot accept any present, compensation, office or title of any kind from any foreign government without the consent of",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "The President"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "The Ombudsman"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "The Chief Justice"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "The Agency Head"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Congress"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-126",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 126] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Which of the following rights ensure the well-being of the individual and foster preservation, enrichment and dynamic evolution of national culture based on the principle of unity in diversity in a climate of free artistic and intellectual expression?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Political rights"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Civil rights"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Inherent rights"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Cultural rights"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Economic and Social rights"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-127",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 127] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Right that guarantees similar treatment to all persons similarly situated and precludes arbitrary or unjust discrimination to secure and safeguard such right is called the __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "right against double jeopardy"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "right to just compensation"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "right to equal protection of the law"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "right to due process of law"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "right to profess one’s faith or religion"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-128",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 128] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "The right to privacy of a person is defined as one’s right to __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "go where one pleases"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "believe whatever one whishes"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "build a home wherever one chooses"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "be a member of any group"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "be free from unwarranted publicity"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-129",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 129] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "A voter is disqualified from exercising the right to suffrage if said voter __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "is illiterate"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "is poor"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "is a naturalized Filipino citizen"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "turned 20 years old just before the election"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "has been a resident of the Philippine for less than six months"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-130",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 130] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Who may be appointed as member of the Cabinet without needing confirmation from the Commission on Appointments?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Senate President"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Any Senator"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Vice-President"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Speaker of the House"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Any Congress Representative"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-131",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 131] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "The right of private individuals to secure for themselves the enjoyment of their means of happiness such as the right to a name, the right to form a family, and the right to security of personal papers and effects are called __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Economic and Social rights"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Cultural Rights"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Civil Rights"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Inherent rights"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Political rights"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-132",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 132] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "At least how many years after the Constitution has been ratified may the people propose amendments through initiative?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Ten"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Seven"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "six"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Five"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Three"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-133",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 133] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Which of the following sectors is NOT represented in the House of Representatives through the party-list system.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Religious"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Youth"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Women"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Peasant"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Labor"
       }
     ],
     "correctChoiceId": "A",
@@ -3992,28 +3992,28 @@
   {
     "id": "extra1-134",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 134] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Which of the following government agencies exercises original and exclusive jurisdiction over all contests relating to the election returns and the qualifications of the President and the Vice President",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Supreme Court"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Senate Electoral Tribunal"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Judicial Bar Council"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Commission on Elections"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Commission on Appointments"
       }
     ],
     "correctChoiceId": "A",
@@ -4022,118 +4022,118 @@
   {
     "id": "extra1-135",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 135] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Who among the following is responsible for determining the existence of probable cause for the issuance of a warrant of arrest or search warrant?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Lawyer"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Prosecutor"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Plaintiff"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Judge"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Police Investigator"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-136",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 136] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Which of the following statements BEST describes the relationship between global warming ozone depletion?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Global warming contributes to ozone depletion."
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Global warming and ozone depletion have nothing to do with each other"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Excessive build-up of carbon dioxide causes both global warming and ozone depletion"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Ozone depletion contributes to global warming"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Ozone depletion and global warming are synonyms"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-137",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 137] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Monoculture cropping or planting a single crop in a large area is not advisable because it",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "requires more water"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "requires less fertilizers"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "causes drought"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "lowers the water table"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "promotes pest infestation"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-138",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 138] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Which of the following is the major cause of coral reef destruction?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "Dynamite fishing"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "Muro-Ami"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "Oil Spill"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "Sewage pollution"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "Siltation"
       }
     ],
     "correctChoiceId": "A",
@@ -4142,88 +4142,88 @@
   {
     "id": "extra1-139",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 139] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "The lasting environmental impact of a large-scale mining operation comes from",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "air pollution"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "noise pollution"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "deforestation"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "mine railings"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "unrestored mined out areas"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   },
   {
     "id": "extra1-140",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 140] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Jaywalking, throwing garbage anywhere vandalism, not waiting in line, and tardiness are manifestations of __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "disorderliness"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "lack of discipline"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "lack of sense of property"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "lack of punctuality"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "disregard for other people’s property"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "B",
     "explanation": ""
   },
   {
     "id": "extra1-141",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 141] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Fishery resource in marine and coastal waters may be considered as “open access resources” because of the __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "mobile nature of fish and water"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "difficulty in marking sea boundaries"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "proliferation of fish pens"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "overfishing in municipal waters"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "increasing demand for fish, which is rich in protein"
       }
     ],
     "correctChoiceId": "A",
@@ -4232,271 +4232,91 @@
   {
     "id": "extra1-142",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 142] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Every government agency is required to develop, update regularly, and make available to the transacting public __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "the names of action officers"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "the performance targets"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "the rates of service fees"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "a service guide"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "a directory of officials"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "D",
     "explanation": ""
   },
   {
     "id": "extra1-143",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 143] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "Within the provided periods of time, public officials and employees are required to file their statement of assets and liabilities and financial disclosure in the following instances EXCEPT __________.",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "compulsory retirement"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "voluntary resignation"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "acceptance of foreign scholarship"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "assumption to office"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "expiration of the term of office"
       }
     ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "C",
     "explanation": ""
   },
   {
     "id": "extra1-144",
     "subject": "General Information",
-    "prompt": "[Extra 1 Item 144] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
+    "prompt": "For expenditures processing of documents, except otherwise provided by law or regulation, how many initials or signature must any written action or decision contain?",
+    "hint": "Choose the best answer.",
     "choices": [
       {
         "id": "A",
-        "text": "Option A"
+        "text": "6"
       },
       {
         "id": "B",
-        "text": "Option B"
+        "text": "5"
       },
       {
         "id": "C",
-        "text": "Option C"
+        "text": "4"
       },
       {
         "id": "D",
-        "text": "Option D"
+        "text": "3"
       },
       {
         "id": "E",
-        "text": "Option E"
+        "text": "2"
       }
     ],
-    "correctChoiceId": "A",
-    "explanation": ""
-  },
-  {
-    "id": "extra1-145",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 145] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option A"
-      },
-      {
-        "id": "B",
-        "text": "Option B"
-      },
-      {
-        "id": "C",
-        "text": "Option C"
-      },
-      {
-        "id": "D",
-        "text": "Option D"
-      },
-      {
-        "id": "E",
-        "text": "Option E"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": ""
-  },
-  {
-    "id": "extra1-146",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 146] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option A"
-      },
-      {
-        "id": "B",
-        "text": "Option B"
-      },
-      {
-        "id": "C",
-        "text": "Option C"
-      },
-      {
-        "id": "D",
-        "text": "Option D"
-      },
-      {
-        "id": "E",
-        "text": "Option E"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": ""
-  },
-  {
-    "id": "extra1-147",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 147] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option A"
-      },
-      {
-        "id": "B",
-        "text": "Option B"
-      },
-      {
-        "id": "C",
-        "text": "Option C"
-      },
-      {
-        "id": "D",
-        "text": "Option D"
-      },
-      {
-        "id": "E",
-        "text": "Option E"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": ""
-  },
-  {
-    "id": "extra1-148",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 148] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option A"
-      },
-      {
-        "id": "B",
-        "text": "Option B"
-      },
-      {
-        "id": "C",
-        "text": "Option C"
-      },
-      {
-        "id": "D",
-        "text": "Option D"
-      },
-      {
-        "id": "E",
-        "text": "Option E"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": ""
-  },
-  {
-    "id": "extra1-149",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 149] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option A"
-      },
-      {
-        "id": "B",
-        "text": "Option B"
-      },
-      {
-        "id": "C",
-        "text": "Option C"
-      },
-      {
-        "id": "D",
-        "text": "Option D"
-      },
-      {
-        "id": "E",
-        "text": "Option E"
-      }
-    ],
-    "correctChoiceId": "A",
-    "explanation": ""
-  },
-  {
-    "id": "extra1-150",
-    "subject": "General Information",
-    "prompt": "[Extra 1 Item 150] Placeholder — full question text pending import from simulated exam set.",
-    "hint": "Content being imported.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Option A"
-      },
-      {
-        "id": "B",
-        "text": "Option B"
-      },
-      {
-        "id": "C",
-        "text": "Option C"
-      },
-      {
-        "id": "D",
-        "text": "Option D"
-      },
-      {
-        "id": "E",
-        "text": "Option E"
-      }
-    ],
-    "correctChoiceId": "A",
+    "correctChoiceId": "E",
     "explanation": ""
   }
 ]
