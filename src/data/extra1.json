@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "extra1-001",
+    "subject": "Verbal Reasoning",
+    "prompt": "Ang PAGAL na guro ay sandaling tumigil bago muling nagpatuloy sa pagsasalita.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "pagod"
+      },
+      {
+        "id": "B",
+        "text": "galit"
+      },
+      {
+        "id": "C",
+        "text": "pihikan"
+      },
+      {
+        "id": "D",
+        "text": "mabagal"
+      },
+      {
+        "id": "E",
+        "text": "mahinahon"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-002",
+    "subject": "Verbal Reasoning",
+    "prompt": "A special group in the police force is believe to be engage in FURTIVE activities.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "illegal"
+      },
+      {
+        "id": "B",
+        "text": "suspicious"
+      },
+      {
+        "id": "C",
+        "text": "unusual"
+      },
+      {
+        "id": "D",
+        "text": "worthy"
+      },
+      {
+        "id": "E",
+        "text": "secret"
+      }
+    ],
+    "correctChoiceId": "E",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-003",
+    "subject": "Verbal Reasoning",
+    "prompt": "The Defense presented its case to the jury in a TRENCHANT manner.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Legalistic"
+      },
+      {
+        "id": "B",
+        "text": "dignified"
+      },
+      {
+        "id": "C",
+        "text": "vague"
+      },
+      {
+        "id": "D",
+        "text": "Emphatic"
+      },
+      {
+        "id": "E",
+        "text": "Cautious"
+      }
+    ],
+    "correctChoiceId": "D",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-004",
+    "subject": "Verbal Reasoning",
+    "prompt": "Ang mga magbubukid ay NABIHASA sa paggamit ng kalabaw bilang katulong nila sa pagsasaka.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "nagsawa"
+      },
+      {
+        "id": "B",
+        "text": "nagtiwala"
+      },
+      {
+        "id": "C",
+        "text": "nasanay"
+      },
+      {
+        "id": "D",
+        "text": "natuto"
+      },
+      {
+        "id": "E",
+        "text": "nahirapan"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-005",
+    "subject": "Verbal Reasoning",
+    "prompt": "Pilo's insensitivity has created ANIMOSITY to the worker's demands.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "distrust"
+      },
+      {
+        "id": "B",
+        "text": "hostility"
+      },
+      {
+        "id": "C",
+        "text": "fear"
+      },
+      {
+        "id": "D",
+        "text": "distance"
+      },
+      {
+        "id": "E",
+        "text": "dependence"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-006",
+    "subject": "Verbal Reasoning",
+    "prompt": "The baffled owner ACQUIESCED to the worker's demands.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "opposed"
+      },
+      {
+        "id": "B",
+        "text": "reacted"
+      },
+      {
+        "id": "C",
+        "text": "agreed"
+      },
+      {
+        "id": "D",
+        "text": "resisted"
+      },
+      {
+        "id": "E",
+        "text": "listened"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-007",
+    "subject": "Verbal Reasoning",
+    "prompt": "The recommendation of the wage council is REPUGNANT to the employers.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "acceptable"
+      },
+      {
+        "id": "B",
+        "text": "objectionable"
+      },
+      {
+        "id": "C",
+        "text": "beneficial"
+      },
+      {
+        "id": "D",
+        "text": "degrading"
+      },
+      {
+        "id": "E",
+        "text": "embarrassing"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-008",
+    "subject": "Verbal Reasoning",
+    "prompt": "Sanctuaries for wildlife have DWINDLED alarmingly in the last decade.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "disappeared"
+      },
+      {
+        "id": "B",
+        "text": "changed"
+      },
+      {
+        "id": "C",
+        "text": "decreased"
+      },
+      {
+        "id": "D",
+        "text": "multiplied"
+      },
+      {
+        "id": "E",
+        "text": "deteriorated"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-009",
+    "subject": "Verbal Reasoning",
+    "prompt": "Recklessness always entails JEOPARDY.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "danger"
+      },
+      {
+        "id": "B",
+        "text": "crisis"
+      },
+      {
+        "id": "C",
+        "text": "apprehension"
+      },
+      {
+        "id": "D",
+        "text": "control"
+      },
+      {
+        "id": "E",
+        "text": "aggression"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-010",
+    "subject": "Verbal Reasoning",
+    "prompt": "Business, like life, is much too extensive and LEQUESCENT to be wholly contained by any checklist, formula or theory.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "structured"
+      },
+      {
+        "id": "B",
+        "text": "changeable"
+      },
+      {
+        "id": "C",
+        "text": "Complicated"
+      },
+      {
+        "id": "D",
+        "text": "shapeless"
+      },
+      {
+        "id": "E",
+        "text": "confusing"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-011",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 11] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-012",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 12] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-013",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 13] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-014",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 14] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-015",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 15] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-016",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 16] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-017",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 17] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-018",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 18] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-019",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 19] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-020",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 20] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-021",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 21] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-022",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 22] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-023",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 23] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-024",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 24] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-025",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 25] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-026",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 26] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-027",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 27] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-028",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 28] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-029",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 29] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-030",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 30] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-031",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 31] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-032",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 32] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-033",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 33] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-034",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 34] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-035",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 35] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-036",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 36] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-037",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 37] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-038",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 38] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-039",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 39] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-040",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 40] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-041",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 41] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-042",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 42] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-043",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 43] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-044",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 44] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-045",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 45] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-046",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 46] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-047",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 47] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-048",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 48] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-049",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 49] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-050",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 50] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-051",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 51] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-052",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 52] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-053",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 53] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-054",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 54] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-055",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 55] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-056",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 56] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-057",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 57] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-058",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 58] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-059",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 59] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-060",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 60] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-061",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 61] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-062",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 62] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-063",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 63] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-064",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 64] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-065",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 65] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-066",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 66] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-067",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 67] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-068",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 68] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-069",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 69] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-070",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 70] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-071",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 71] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-072",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 72] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-073",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 73] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-074",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 74] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-075",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 75] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-076",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 76] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-077",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 77] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-078",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 78] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-079",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 79] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-080",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 80] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-081",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 81] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-082",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 82] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-083",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 83] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-084",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 84] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-085",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 85] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-086",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 86] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-087",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 87] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-088",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 88] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-089",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 89] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-090",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 90] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-091",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 91] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-092",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 92] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-093",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 93] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-094",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 94] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-095",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 95] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-096",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 96] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-097",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 97] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-098",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 98] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-099",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 99] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-100",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 100] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-101",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 101] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-102",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 102] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-103",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 103] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-104",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 104] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-105",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 105] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-106",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 106] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-107",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 107] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-108",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 108] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-109",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 109] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-110",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 110] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-111",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 111] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-112",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 112] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-113",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 113] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-114",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 114] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-115",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 115] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-116",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 116] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-117",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 117] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-118",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 118] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-119",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 119] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-120",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 120] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-121",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 121] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-122",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 122] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-123",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 123] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-124",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 124] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-125",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 125] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-126",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 126] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-127",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 127] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-128",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 128] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-129",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 129] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-130",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 130] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-131",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 131] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-132",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 132] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-133",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 133] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-134",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 134] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-135",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 135] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-136",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 136] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-137",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 137] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-138",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 138] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-139",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 139] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-140",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 140] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-141",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 141] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-142",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 142] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-143",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 143] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-144",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 144] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-145",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 145] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-146",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 146] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-147",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 147] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-148",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 148] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-149",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 149] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-150",
+    "subject": "General Information",
+    "prompt": "[Extra 1 Item 150] Placeholder — full question text pending import from simulated exam set.",
+    "hint": "Content being imported.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": ""
+  }
+]

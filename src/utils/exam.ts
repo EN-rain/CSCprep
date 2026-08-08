@@ -1,4 +1,4 @@
-import { questionBank } from '../data/questionBank'
+import { extra1Questions, questionBank } from '../data/questionBank'
 import {
   SUBJECTS,
   type AnswerMap,
@@ -253,6 +253,11 @@ function getSessionTitle(mode: ExamMode): string {
     return 'Random Exam'
   }
 
+  if (mode.kind === 'extra') {
+    if (mode.extraId === 'extra1') return 'Extra 1 (150 Items)'
+    return 'Extra Exam'
+  }
+
   return `${mode.subject} Exam`
 }
 
@@ -337,6 +342,12 @@ export function createExamSessionWithExclusions(
   const allEligibleQuestions = getExamEligibleQuestions()
 
   const questions = (() => {
+    if (mode.kind === 'extra') {
+      // Fixed ordered set for Extra exams (no random pick / no shuffle of item order)
+      const source = mode.extraId === 'extra1' ? extra1Questions : []
+      return source.filter((q) => q.status !== 'excluded')
+    }
+
     if (mode.kind === 'mixed') {
       const itemCount = Math.min(
         Math.max(1, Math.floor(mode.itemCount ?? RANDOM_EXAM_ITEMS)),
@@ -374,7 +385,9 @@ export function createExamSessionWithExclusions(
 
     return pickQuestions(questionsBySubject(mode.subject), history, examNumber, subjectQuestionCount, excludedQuestionIds)
   })()
-  const orderedQuestions = shufflePreservingChains(questions)
+  const orderedQuestions = mode.kind === 'extra'
+    ? questions
+    : shufflePreservingChains(questions)
 
   return {
     examNumber,

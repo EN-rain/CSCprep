@@ -1858,6 +1858,24 @@ function HomeScreen({
               </label>
             </div>
           ))}
+
+          <div
+            className="start-option"
+            onClick={() => onStartExam({ kind: 'extra', extraId: 'extra1' })}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault()
+                onStartExam({ kind: 'extra', extraId: 'extra1' })
+              }
+            }}
+            role="button"
+            tabIndex={0}
+          >
+            <div className="start-option__content">
+              <strong>Extra 1</strong>
+              <span className="start-option__meta">150 items · fixed set</span>
+            </div>
+          </div>
         </div>
       </section>
     </section>

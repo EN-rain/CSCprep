@@ -54,6 +54,10 @@ export type ExamMode =
       subject: Subject
       itemCount?: number
     }
+  | {
+      kind: 'extra'
+      extraId: 'extra1'
+    }
 
 export type ExamSession = {
   examNumber: number
