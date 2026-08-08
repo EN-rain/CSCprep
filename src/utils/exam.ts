@@ -254,7 +254,12 @@ function getSessionTitle(mode: ExamMode): string {
   }
 
   if (mode.kind === 'extra') {
-    if (mode.extraId === 'extra1') return 'Extra 1 (150 Items)'
+    if (mode.extraId === 'extra1') {
+      const subjects = mode.subjects?.filter(Boolean) ?? []
+      if (subjects.length === 0) return 'Extra 1 (150 Items)'
+      if (subjects.length === 1) return `Extra 1 · ${subjects[0]}`
+      return `Extra 1 · ${subjects.length} subjects`
+    }
     return 'Extra Exam'
   }
 
@@ -343,9 +348,17 @@ export function createExamSessionWithExclusions(
 
   const questions = (() => {
     if (mode.kind === 'extra') {
-      // Fixed ordered set for Extra exams (no random pick / no shuffle of item order)
+      // Fixed ordered set for Extra exams (no random pick / no shuffle of item order).
+      // Optional subjects filter stays Extra-only — never pulls from main banks.
       const source = mode.extraId === 'extra1' ? extra1Questions : []
-      return source.filter((q) => q.status !== 'excluded')
+      const subjectFilter = mode.subjects?.length
+        ? new Set(mode.subjects)
+        : null
+      return source.filter((q) => {
+        if (q.status === 'excluded') return false
+        if (subjectFilter && !subjectFilter.has(q.subject)) return false
+        return true
+      })
     }
 
     if (mode.kind === 'mixed') {

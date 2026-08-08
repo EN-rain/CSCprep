@@ -4520,5 +4520,317 @@
     ],
     "correctChoiceId": "A",
     "explanation": "A clearance is document showing no pending obligation or accountability."
+  },
+  {
+    "id": "gi-201",
+    "subject": "General Information",
+    "prompt": "Republic Act No. 6713 is more commonly known as the __________.",
+    "hint": "1989 ethics law for public officials and employees; public office as a public trust.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Anti-Graft and Corrupt Practices Act"
+      },
+      {
+        "id": "B",
+        "text": "Code of Conduct and Ethical Standards for Public Officials and Employees"
+      },
+      {
+        "id": "C",
+        "text": "Government Procurement Reform Act"
+      },
+      {
+        "id": "D",
+        "text": "Ombudsman Act"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "RA 6713 (1989) is the Code of Conduct and Ethical Standards for Public Officials and Employees—the main ethics statute after the 1987 Constitution."
+  },
+  {
+    "id": "gi-202",
+    "subject": "General Information",
+    "prompt": "Which law enumerates corrupt practices of public officers (especially under Section 3) and is frequently paired with RA 6713 in ethics questions?",
+    "hint": "1960 anti-corruption statute; perpetual disqualification is among its penalties.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "RA 9184"
+      },
+      {
+        "id": "B",
+        "text": "RA 11032"
+      },
+      {
+        "id": "C",
+        "text": "RA 3019 (Anti-Graft and Corrupt Practices Act)"
+      },
+      {
+        "id": "D",
+        "text": "RA 9416"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "RA 3019 (1960), the Anti-Graft and Corrupt Practices Act, lists corrupt practices and penalties including imprisonment and perpetual disqualification."
+  },
+  {
+    "id": "gi-203",
+    "subject": "General Information",
+    "prompt": "RA 9184 is known as the __________.",
+    "hint": "Unified rules for government procurement of goods, infrastructure, and consulting services; PhilGEPS and BAC.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ease of Doing Business Act"
+      },
+      {
+        "id": "B",
+        "text": "Government Procurement Reform Act"
+      },
+      {
+        "id": "C",
+        "text": "Anti-Red Tape Act"
+      },
+      {
+        "id": "D",
+        "text": "Civil Service Act of 1959"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "RA 9184 (2003) is the Government Procurement Reform Act—transparency, competitiveness, BAC, and PhilGEPS."
+  },
+  {
+    "id": "gi-204",
+    "subject": "General Information",
+    "prompt": "Which law streamlines government processes, sets service standards and timelines, and strengthens anti-fixer rules?",
+    "hint": "2018 law that amends/strengthens earlier anti-red tape rules.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "RA 9485 only, with no later amendment"
+      },
+      {
+        "id": "B",
+        "text": "RA 11032 (Ease of Doing Business and Efficient Government Service Delivery Act)"
+      },
+      {
+        "id": "C",
+        "text": "RA 6770"
+      },
+      {
+        "id": "D",
+        "text": "RA 1379"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "RA 11032 (2018) is the Ease of Doing Business and Efficient Government Service Delivery Act; it builds on the original Anti-Red Tape Act (RA 9485)."
+  },
+  {
+    "id": "gi-205",
+    "subject": "General Information",
+    "prompt": "RA 9485 is the original __________ law, later largely amended in key parts by RA 11032.",
+    "hint": "2007 statute aimed at reducing bureaucratic delay.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Anti-Red Tape Act"
+      },
+      {
+        "id": "B",
+        "text": "Data Privacy Act"
+      },
+      {
+        "id": "C",
+        "text": "Anti-Cheating Law for Civil Service Examinations"
+      },
+      {
+        "id": "D",
+        "text": "Forfeiture of Ill-Gotten Wealth law"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "RA 9485 (2007) is the Anti-Red Tape Act; RA 11032 later strengthened and amended key parts of that framework."
+  },
+  {
+    "id": "gi-206",
+    "subject": "General Information",
+    "prompt": "Which law makes cheating in the Civil Service Examination and unauthorized possession or use of exam materials unlawful?",
+    "hint": "2007 law with CSC jurisdiction; protects exam integrity.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "RA 9416"
+      },
+      {
+        "id": "B",
+        "text": "RA 2260"
+      },
+      {
+        "id": "C",
+        "text": "RA 10173"
+      },
+      {
+        "id": "D",
+        "text": "RA 6713 only"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "RA 9416 (2007) is the Anti-Cheating Law for Civil Service Examinations."
+  },
+  {
+    "id": "gi-207",
+    "subject": "General Information",
+    "prompt": "RA 1379 allows __________ of property unlawfully acquired by public officers.",
+    "hint": "1955 supporting anti-corruption measure.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "automatic amnesty"
+      },
+      {
+        "id": "B",
+        "text": "forfeiture to the State of ill-gotten wealth"
+      },
+      {
+        "id": "C",
+        "text": "private sale without court action"
+      },
+      {
+        "id": "D",
+        "text": "transfer to foreign jurisdictions only"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "RA 1379 (1955) provides for forfeiture to the State of property unlawfully acquired by public officers."
+  },
+  {
+    "id": "gi-208",
+    "subject": "General Information",
+    "prompt": "The powers, functions, and jurisdiction of the Office of the Ombudsman are primarily set out in __________.",
+    "hint": "1989 statute on investigation and accountability of public officials.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "RA 6770 (Ombudsman Act)"
+      },
+      {
+        "id": "B",
+        "text": "RA 9184"
+      },
+      {
+        "id": "C",
+        "text": "RA 9416"
+      },
+      {
+        "id": "D",
+        "text": "RA 2260"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "RA 6770 (1989), the Ombudsman Act, defines the Ombudsman’s powers and jurisdiction over public officials."
+  },
+  {
+    "id": "gi-209",
+    "subject": "General Information",
+    "prompt": "RA 10173, which protects personal and sensitive personal information and created the National Privacy Commission, is known as the __________.",
+    "hint": "2012 law on data subject rights and controller/processor duties.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Freedom of Information Act"
+      },
+      {
+        "id": "B",
+        "text": "Data Privacy Act"
+      },
+      {
+        "id": "C",
+        "text": "Cybercrime Prevention Act"
+      },
+      {
+        "id": "D",
+        "text": "E-Commerce Act"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "RA 10173 (2012) is the Data Privacy Act of 2012; it established the National Privacy Commission (NPC)."
+  },
+  {
+    "id": "gi-210",
+    "subject": "General Information",
+    "prompt": "RA 2260 is the __________ and is mainly a historical reference for the Philippine civil service framework.",
+    "hint": "1959 statute largely superseded by later laws and the 1987 Constitution.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Civil Service Act of 1959"
+      },
+      {
+        "id": "B",
+        "text": "Administrative Code of 1987"
+      },
+      {
+        "id": "C",
+        "text": "Local Government Code"
+      },
+      {
+        "id": "D",
+        "text": "Salary Standardization Law"
+      }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "RA 2260 (1959) is the Civil Service Act of 1959—an older framework largely superseded by later laws and the 1987 Constitution."
+  },
+  {
+    "id": "gi-211",
+    "subject": "General Information",
+    "prompt": "Under the ethics framework associated with RA 6713, public officials must file a __________ disclosing assets, liabilities, and net worth.",
+    "hint": "Required disclosure form often tested with the Code of Conduct.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Certificate of Candidacy only"
+      },
+      {
+        "id": "B",
+        "text": "Statement of Assets, Liabilities, and Net Worth (SALN)"
+      },
+      {
+        "id": "C",
+        "text": "PhilGEPS registration form"
+      },
+      {
+        "id": "D",
+        "text": "Notice of disallowance"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "RA 6713 requires filing of the Statement of Assets, Liabilities, and Net Worth (SALN), among other duties and norms of conduct."
+  },
+  {
+    "id": "gi-212",
+    "subject": "General Information",
+    "prompt": "Which principle is central to both the 1987 Constitution and RA 6713 regarding public office?",
+    "hint": "Public office is a __________.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "private privilege of the appointee"
+      },
+      {
+        "id": "B",
+        "text": "public trust"
+      },
+      {
+        "id": "C",
+        "text": "hereditary right"
+      },
+      {
+        "id": "D",
+        "text": "contractual franchise"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Public office is a public trust—the core constitutional and RA 6713 principle guiding ethical standards for officials and employees."
   }
 ]

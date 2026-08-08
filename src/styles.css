@@ -1187,6 +1187,69 @@ h2 {
   width: min(520px, 100%);
 }
 
+.extra-subject-panel {
+  width: min(480px, 100%);
+}
+
+.extra-subject-panel__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 12px;
+}
+
+.extra-subject-panel__count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.extra-subject-panel__list {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  margin: 0 0 18px;
+  padding: 0;
+}
+
+.extra-subject-panel__option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 14px;
+  background: var(--surface-strong);
+  cursor: pointer;
+}
+
+.extra-subject-panel__option.is-checked {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 16%, transparent);
+}
+
+.extra-subject-panel__option input {
+  margin-top: 3px;
+  accent-color: var(--accent);
+}
+
+.extra-subject-panel__option-text {
+  display: grid;
+  gap: 2px;
+}
+
+.extra-subject-panel__option-text strong {
+  font-size: 0.98rem;
+}
+
+.extra-subject-panel__option-text span {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 .report-panel__field {
   display: grid;
   gap: 10px;

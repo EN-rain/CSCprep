@@ -21,7 +21,7 @@ import {
   replaceExamQuestion,
   resetQuestionHistory,
 } from './utils/exam'
-import { questionBank } from './data/questionBank'
+import { extra1Questions, questionBank } from './data/questionBank'
 import { MathText } from './utils/mathText'
 
 type Screen = 'home' | 'exam' | 'results' | 'history' | 'reports'
@@ -40,6 +40,20 @@ const SCREEN_ENTER_MS = 420
 const POPUP_FADE_MS = 320
 const QUESTION_REPLACE_ANIMATION_MS = 520
 const QUESTION_BANK_BY_ID = new Map(questionBank.map((question) => [question.id, question]))
+const EXTRA1_SUBJECTS = [
+  'Verbal Reasoning',
+  'Analytical Ability',
+  'Numerical Reasoning',
+  'General Information',
+] as const satisfies readonly Subject[]
+const EXTRA1_SUBJECT_COUNTS = EXTRA1_SUBJECTS.reduce(
+  (counts, subject) => {
+    counts[subject] = extra1Questions.filter((question) => question.subject === subject && question.status !== 'excluded').length
+    return counts
+  },
+  {} as Record<(typeof EXTRA1_SUBJECTS)[number], number>,
+)
+const EXTRA1_TOTAL_ITEMS = EXTRA1_SUBJECTS.reduce((total, subject) => total + EXTRA1_SUBJECT_COUNTS[subject], 0)
 const RESOLVED_QUESTION_REPORT_IDS = new Set([
   'cse2026-023',
   'nr-027',
@@ -1691,6 +1705,8 @@ function HomeScreen({
     window.localStorage.setItem(SUBJECT_EXAM_ITEM_COUNTS_KEY, JSON.stringify(subjectExamItemCounts))
   }, [subjectExamItemCounts])
 
+  const [extraSubjectPickerOpen, setExtraSubjectPickerOpen] = useState(false)
+
   return (
     <section className="home">
       <div className="home__content">
@@ -1861,11 +1877,11 @@ function HomeScreen({
 
           <div
             className="start-option"
-            onClick={() => onStartExam({ kind: 'extra', extraId: 'extra1' })}
+            onClick={() => setExtraSubjectPickerOpen(true)}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
-                onStartExam({ kind: 'extra', extraId: 'extra1' })
+                setExtraSubjectPickerOpen(true)
               }
             }}
             role="button"
@@ -1873,11 +1889,25 @@ function HomeScreen({
           >
             <div className="start-option__content">
               <strong>Extra 1</strong>
-              <span className="start-option__meta">150 items · fixed set</span>
+              <span className="start-option__meta">{EXTRA1_TOTAL_ITEMS} items · choose subjects</span>
             </div>
           </div>
         </div>
       </section>
+
+      {extraSubjectPickerOpen ? (
+        <ExtraSubjectPickerPanel
+          onCancel={() => setExtraSubjectPickerOpen(false)}
+          onStart={(subjects) => {
+            setExtraSubjectPickerOpen(false)
+            onStartExam({
+              kind: 'extra',
+              extraId: 'extra1',
+              subjects: subjects.length === EXTRA1_SUBJECTS.length ? undefined : subjects,
+            })
+          }}
+        />
+      ) : null}
     </section>
   )
 }
@@ -2397,6 +2427,140 @@ function usePopupTransition() {
   const overlayClass = isVisible && !isClosing ? 'popup-overlay--open' : 'popup-overlay--closing'
 
   return { closeWith, overlayClass }
+}
+
+type ExtraSubjectPickerPanelProps = {
+  onCancel: () => void
+  onStart: (subjects: Subject[]) => void
+}
+
+function ExtraSubjectPickerPanel({ onCancel, onStart }: ExtraSubjectPickerPanelProps) {
+  const [selected, setSelected] = useState<Set<Subject>>(() => new Set(EXTRA1_SUBJECTS))
+  const startButtonRef = useRef<HTMLButtonElement>(null)
+  const { closeWith, overlayClass } = usePopupTransition()
+
+  const closePanel = useCallback(() => {
+    closeWith(onCancel)
+  }, [closeWith, onCancel])
+
+  const selectedCount = EXTRA1_SUBJECTS.reduce(
+    (total, subject) => total + (selected.has(subject) ? EXTRA1_SUBJECT_COUNTS[subject] : 0),
+    0,
+  )
+  const allSelected = EXTRA1_SUBJECTS.every((subject) => selected.has(subject))
+
+  const toggleSubject = useCallback((subject: Subject) => {
+    setSelected((current) => {
+      const next = new Set(current)
+      if (next.has(subject)) {
+        next.delete(subject)
+      } else {
+        next.add(subject)
+      }
+      return next
+    })
+  }, [])
+
+  const selectAll = useCallback(() => {
+    setSelected(new Set(EXTRA1_SUBJECTS))
+  }, [])
+
+  const clearAll = useCallback(() => {
+    setSelected(new Set())
+  }, [])
+
+  const confirmStart = useCallback(() => {
+    const subjects = EXTRA1_SUBJECTS.filter((subject) => selected.has(subject))
+    if (subjects.length === 0) {
+      return
+    }
+    closeWith(() => onStart(subjects))
+  }, [closeWith, onStart, selected])
+
+  useEffect(() => {
+    startButtonRef.current?.focus({ preventScroll: true })
+
+    function handleKeydown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        closePanel()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeydown)
+    return () => window.removeEventListener('keydown', handleKeydown)
+  }, [closePanel])
+
+  return (
+    <OverlayPortal>
+      <div
+        aria-labelledby="extra-subject-picker-title"
+        aria-modal="true"
+        className={`exam-dialog ${overlayClass}`}
+        onClick={closePanel}
+        role="dialog"
+      >
+        <div
+          className="exam-dialog__content extra-subject-panel"
+          data-lenis-prevent
+          onClick={(event) => event.stopPropagation()}
+        >
+          <p className="eyebrow">Extra 1</p>
+          <h2 id="extra-subject-picker-title">Choose subjects</h2>
+          <p className="exam-dialog__copy">
+            Pick any combination from the Extra 1 set only. All uses every Extra 1 subject—not the main
+            question bank.
+          </p>
+
+          <div className="extra-subject-panel__toolbar">
+            <button className="button button--ghost" onClick={selectAll} type="button">
+              All
+            </button>
+            <button className="button button--ghost" onClick={clearAll} type="button">
+              Clear
+            </button>
+            <span className="extra-subject-panel__count">{selectedCount} items</span>
+          </div>
+
+          <ul className="extra-subject-panel__list">
+            {EXTRA1_SUBJECTS.map((subject) => {
+              const checked = selected.has(subject)
+              const count = EXTRA1_SUBJECT_COUNTS[subject]
+              return (
+                <li key={subject}>
+                  <label className={`extra-subject-panel__option${checked ? ' is-checked' : ''}`}>
+                    <input
+                      checked={checked}
+                      onChange={() => toggleSubject(subject)}
+                      type="checkbox"
+                    />
+                    <span className="extra-subject-panel__option-text">
+                      <strong>{subject}</strong>
+                      <span>{count} items</span>
+                    </span>
+                  </label>
+                </li>
+              )
+            })}
+          </ul>
+
+          <div className="exam-dialog__actions">
+            <button
+              className="button button--primary"
+              disabled={selectedCount === 0}
+              onClick={confirmStart}
+              ref={startButtonRef}
+              type="button"
+            >
+              {allSelected ? `Start all (${selectedCount})` : `Start (${selectedCount})`}
+            </button>
+            <button className="button button--ghost" onClick={closePanel} type="button">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </OverlayPortal>
+  )
 }
 
 type ExitExamPanelProps = {

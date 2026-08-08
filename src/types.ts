@@ -57,6 +57,8 @@ export type ExamMode =
   | {
       kind: 'extra'
       extraId: 'extra1'
+      /** Optional Extra-only subject filter. Omitted or empty = all Extra subjects. */
+      subjects?: Subject[]
     }
 
 export type ExamSession = {
