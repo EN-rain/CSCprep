@@ -1202,6 +1202,186 @@
   {
     "id": "extra1-041",
     "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Neither of the applicants were qualified for the position advertised."
+      },
+      {
+        "id": "B",
+        "text": "Neither of the applicants was qualified for the position advertised."
+      },
+      {
+        "id": "C",
+        "text": "Neither of the applicants are qualified for the position advertised."
+      },
+      {
+        "id": "D",
+        "text": "Neither of the applicant was qualified for the position advertised."
+      },
+      {
+        "id": "E",
+        "text": "Neither applicants were qualified for the position advertised."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-042",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The committee have decided to postpone the meeting until next week."
+      },
+      {
+        "id": "B",
+        "text": "The committee has decided to postpone the meeting until next week."
+      },
+      {
+        "id": "C",
+        "text": "The committee have decide to postpone the meeting until next week."
+      },
+      {
+        "id": "D",
+        "text": "The committee has decide to postpone the meeting until next week."
+      },
+      {
+        "id": "E",
+        "text": "The committee are deciding to postpone the meeting until next week."
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-043",
+    "subject": "Verbal Reasoning",
+    "prompt": "Choose the sentence expressed most satisfactorily in terms of grammar and correct usage.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Each of the students have submitted their assignment on time."
+      },
+      {
+        "id": "B",
+        "text": "Each of the students has submitted their assignment on time."
+      },
+      {
+        "id": "C",
+        "text": "Each of the students has submitted his or her assignment on time."
+      },
+      {
+        "id": "D",
+        "text": "Each of the student has submitted their assignment on time."
+      },
+      {
+        "id": "E",
+        "text": "Each of the students have submitted his or her assignment on time."
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-044",
+    "subject": "Verbal Reasoning",
+    "prompt": "The continuous rise in the prices of basic commodities has caused great hardship among low-income families.\n\nThe sentence best supports the statement that _________.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "low-income families are the only ones affected by price increases"
+      },
+      {
+        "id": "B",
+        "text": "price increases of basic goods burden low-income families the most"
+      },
+      {
+        "id": "C",
+        "text": "basic commodities are no longer affordable to anyone"
+      },
+      {
+        "id": "D",
+        "text": "the government has failed to control the prices of all goods"
+      },
+      {
+        "id": "E",
+        "text": "hardship is caused only by the rise in prices of luxury items"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-045",
+    "subject": "Verbal Reasoning",
+    "prompt": "Effective communication requires not only the ability to speak clearly but also the willingness to listen carefully.\n\nThe sentence best supports the statement that _________.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "speaking clearly is more important than listening"
+      },
+      {
+        "id": "B",
+        "text": "listening carefully is unnecessary if one speaks well"
+      },
+      {
+        "id": "C",
+        "text": "good communication depends on both speaking and listening skills"
+      },
+      {
+        "id": "D",
+        "text": "only trained speakers can communicate effectively"
+      },
+      {
+        "id": "E",
+        "text": "careful listening can replace the need for clear speech"
+      }
+    ],
+    "correctChoiceId": "C",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-046",
+    "subject": "Verbal Reasoning",
+    "prompt": "Many young professionals prefer flexible work arrangements because these allow them to balance career and personal responsibilities more effectively.\n\nThe sentence best supports the statement that _________.",
+    "hint": "Choose the best answer.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "young professionals no longer value traditional office jobs"
+      },
+      {
+        "id": "B",
+        "text": "flexible work arrangements help employees manage work and personal life"
+      },
+      {
+        "id": "C",
+        "text": "personal responsibilities are more important than career growth"
+      },
+      {
+        "id": "D",
+        "text": "only young professionals benefit from flexible schedules"
+      },
+      {
+        "id": "E",
+        "text": "balancing career and personal life is impossible without flexible work"
+      }
+    ],
+    "correctChoiceId": "B",
+    "explanation": ""
+  },
+  {
+    "id": "extra1-047",
+    "subject": "Verbal Reasoning",
     "prompt": "For a society to develop, its attitude towards life must not be a fatalistic one; rather, it must have strong faith in its capacity to improve.\n\nThe sentence best supports the statement that _________.",
     "hint": "Choose the best answer.",
     "choices": [
@@ -1230,7 +1410,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-042",
+    "id": "extra1-048",
     "subject": "Verbal Reasoning",
     "prompt": "Freedom and human rights without food are like freeing a prisoner and then not giving the prisoner the key to get out of the cell. The 450 million people who today live in the shadow of hunger and death from malnutrition can never be free men and women, however entrenched their freedom may be. These freedoms are only prospects held out and not realized.\n\nThe paragraph best supports the statement that __________.",
     "hint": "Choose the best answer.",
@@ -1260,7 +1440,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-043",
+    "id": "extra1-049",
     "subject": "Verbal Reasoning",
     "prompt": "The Einstein revolution has produced a paradox; while vastly extending humankind’s reach, it has also exposed the essentially finite nature of the human scale.\n\nThe sentence best supports the statement that Einstein’s discovery _________.",
     "hint": "Choose the best answer.",
@@ -1290,7 +1470,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-044",
+    "id": "extra1-050",
     "subject": "Verbal Reasoning",
     "prompt": "A little ignorance when launching economic development projects may be a fruitful stimulus to ingenious new approaches.\n\nThe sentence best supports the statement that __________.",
     "hint": "Choose the best answer.",
@@ -1320,7 +1500,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-045",
+    "id": "extra1-051",
     "subject": "Verbal Reasoning",
     "prompt": "If legislation is to change social attitudes and values, it must come with adequate enforcement and machinery, which should include efforts to educate people on these laws. Otherwise, legal provision not only remain dead letters, but actually promote lack of respect for the law.\n\nThe paragraph best supports the statement that __________.",
     "hint": "Choose the best answer.",
@@ -1350,7 +1530,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-046",
+    "id": "extra1-052",
     "subject": "Verbal Reasoning",
     "prompt": "Two person look out through the same bars; one sees mud and the other, the stars.\n\nThe sentence best supports the statement that __________.",
     "hint": "Choose the best answer.",
@@ -1380,7 +1560,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-047",
+    "id": "extra1-053",
     "subject": "Verbal Reasoning",
     "prompt": "An education really suited to the rural environment can become both acceptable and genuinely functional only when the environment begins to offer real opportunities and to require skills and knowledge on a large scale. As long as opportunities lie only in the urban economy, education will remain in servitude to that small section of society.\n\nThe paragraph best supports the statement that __________.",
     "hint": "Choose the best answer.",
@@ -1410,7 +1590,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-048",
+    "id": "extra1-054",
     "subject": "Verbal Reasoning",
     "prompt": "No matter how strong and dedicated leaders may be, they must find root and strength among the people. Alone, they cannot save a nation. They may guide, they may set the tone, they may dedicate themselves and risk their lives, but ultimately national survival lies in the people.\n\nThe paragraph best supports the statement that __________.",
     "hint": "Choose the best answer.",
@@ -1440,7 +1620,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-049",
+    "id": "extra1-055",
     "subject": "Verbal Reasoning",
     "prompt": "Ang pagbaba ng halaga ng piso lumikha ng krisis sa maraming industriya ng bansa. Kasunod nito ang pagtitipid at problema sa kawalan ng mapasukang trabaho. Lumikha rin ito ng pagtataas ng presyo ng mga bilihin na labis nakaapekto sa kita ng mga manggagawa.\n\nAyon sa talata __________.",
     "hint": "Choose the best answer.",
@@ -1470,7 +1650,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-050",
+    "id": "extra1-056",
     "subject": "Verbal Reasoning",
     "prompt": "The gregariousness of people is mostly due to a fear of remaining alone. It feels safer to be with a group, talk like a group, act like a group. The ramparts of group solidarity give the members security.\n\nThe paragraph best supports the statement that __________.",
     "hint": "Choose the best answer.",
@@ -1500,7 +1680,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-051",
+    "id": "extra1-057",
     "subject": "Verbal Reasoning",
     "prompt": "Most researchers in needy countries are based on the thinking and approach of the highly developed Western world, and seldom have they been directed toward meeting the countries; own development needs.\n\nThe sentence best supports the statement that _________.",
     "hint": "Choose the best answer.",
@@ -1530,7 +1710,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-052",
+    "id": "extra1-058",
     "subject": "Verbal Reasoning",
     "prompt": "In a modern economy, the results of long-range planning frequently depend upon the future value of money. The ability then to predict the value of money is a key to economic progress.\n\nThe paragraph best supports the statement that _________.",
     "hint": "Choose the best answer.",
@@ -1560,7 +1740,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-053",
+    "id": "extra1-059",
     "subject": "Verbal Reasoning",
     "prompt": "Sixty years ago I know everything ; now I know nothing ; education is a progressive discovery of our own ignorance.\n\nThe sentence best supports the statement that __________.",
     "hint": "Choose the best answer.",
@@ -1590,7 +1770,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-054",
+    "id": "extra1-060",
     "subject": "Verbal Reasoning",
     "prompt": "Nagawang mabago ng mga kasalukuyang awitin ang kamalayan ng Pilipino upang kantahin ang sarili niyang mga awit sa tanging wikang nakapagsasatinig sa kanyang kaluluwa.\n\nIsinasaad ng pangungusap na __________.",
     "hint": "Choose the best answer.",
@@ -1620,7 +1800,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-055",
+    "id": "extra1-061",
     "subject": "Analytical Ability",
     "prompt": "KAINGIN is to SOIL EROSION as CONTOUR FARMING is to __________.",
     "hint": "Choose the best answer.",
@@ -1650,7 +1830,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-056",
+    "id": "extra1-062",
     "subject": "Analytical Ability",
     "prompt": "IRREFUTABLE is to DISPROVED as IRREPARABLE is to __________.",
     "hint": "Choose the best answer.",
@@ -1680,7 +1860,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-057",
+    "id": "extra1-063",
     "subject": "Analytical Ability",
     "prompt": "FORE is to AFT as BOW is to ____________.",
     "hint": "Choose the best answer.",
@@ -1710,7 +1890,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-058",
+    "id": "extra1-064",
     "subject": "Analytical Ability",
     "prompt": "PHOTOGRAPHER is to PICTURE as CARTOGRAPHER is to __________.",
     "hint": "Choose the best answer.",
@@ -1740,7 +1920,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-059",
+    "id": "extra1-065",
     "subject": "Analytical Ability",
     "prompt": "TIRADE is to ABUSIVE as EULOGY is to __________.",
     "hint": "Choose the best answer.",
@@ -1770,7 +1950,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-060",
+    "id": "extra1-066",
     "subject": "Analytical Ability",
     "prompt": "PERJURY is to LIE as LARCENY is to __________.",
     "hint": "Choose the best answer.",
@@ -1800,7 +1980,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-061",
+    "id": "extra1-067",
     "subject": "Analytical Ability",
     "prompt": "OPTICS is to PHYSICS as DIALECTICS is to __________.",
     "hint": "Choose the best answer.",
@@ -1830,7 +2010,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-062",
+    "id": "extra1-068",
     "subject": "Analytical Ability",
     "prompt": "RUMMAGE is to DISORDER as TENDERFOOT is to __________.",
     "hint": "Choose the best answer.",
@@ -1860,7 +2040,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-063",
+    "id": "extra1-069",
     "subject": "Analytical Ability",
     "prompt": "COMPASS is to DIRECTION as CALIPER is to __________.",
     "hint": "Choose the best answer.",
@@ -1890,7 +2070,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-064",
+    "id": "extra1-070",
     "subject": "Analytical Ability",
     "prompt": "BREWING is to BEER as TANNING is to _________.",
     "hint": "Choose the best answer.",
@@ -1920,7 +2100,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-065",
+    "id": "extra1-071",
     "subject": "Analytical Ability",
     "prompt": "__________ is to METAMORPHOSIS as CATHARSIS is to ___________.",
     "hint": "Choose the best answer.",
@@ -1950,7 +2130,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-066",
+    "id": "extra1-072",
     "subject": "Analytical Ability",
     "prompt": "__________ is to SWORD as HOLSTER is to __________.",
     "hint": "Choose the best answer.",
@@ -1980,7 +2160,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-067",
+    "id": "extra1-073",
     "subject": "Analytical Ability",
     "prompt": "__________ is to SCHOOL as STAR is to _________.",
     "hint": "Choose the best answer.",
@@ -2010,7 +2190,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-068",
+    "id": "extra1-074",
     "subject": "Analytical Ability",
     "prompt": "_________ is to LATE as AUTHENTIC is to _________.",
     "hint": "Choose the best answer.",
@@ -2040,7 +2220,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-069",
+    "id": "extra1-075",
     "subject": "Analytical Ability",
     "prompt": "__________ is to PAPER as WORM is to __________.",
     "hint": "Choose the best answer.",
@@ -2070,7 +2250,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-070",
+    "id": "extra1-076",
     "subject": "Analytical Ability",
     "prompt": "A to H are persons compared according to their age and the speed at which they finish a certain job. A is older than B and faster than C. D is younger than E, older than H, and slower than F. G is older than H, younger than C, slower than H, and faster than F. H is older than A and Slower than C. Based on the preceding statements, which of the following is true?",
     "hint": "Choose the best answer.",
@@ -2100,7 +2280,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-071",
+    "id": "extra1-077",
     "subject": "Analytical Ability",
     "prompt": "Point E, F, G, I are arranged in a line in such a way that F is between G and I, and E is between F and I. If E proceeds G, in what order are they arranged?",
     "hint": "Choose the best answer.",
@@ -2130,7 +2310,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-072",
+    "id": "extra1-078",
     "subject": "Analytical Ability",
     "prompt": "In a certain examination, 300 competitors passed the first part and 500 passed the second part. The number of competitors who passed both parts of the examination will most likely be __________.",
     "hint": "Choose the best answer.",
@@ -2160,7 +2340,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-073",
+    "id": "extra1-079",
     "subject": "Analytical Ability",
     "prompt": "Anna, Karen and Nina take turns in getting the midnight shift at Ward 143 such that no one is assigned two nights in a row. Anna was assigned two nights ago and is assigned again tomorrow evening. If Karen is assigned the night immediately following Anna's duty, who can take tonight's midnight shift?",
     "hint": "Choose the best answer.",
@@ -2190,7 +2370,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-074",
+    "id": "extra1-080",
     "subject": "Analytical Ability",
     "prompt": "Mina, Bing, Amy, and Cel have surnames Folres, Mendez, Presez and Reyex but not respectively. Mina is taller than Amy and Cel. Ms. Mendez is tallest of the four. Ms. Flores is taller than Ms. Reyes but shorter than Ms. Perez. Also, Cel is taller than Amy and Bing. What is the full name of the second tallest person?",
     "hint": "Choose the best answer.",
@@ -2220,7 +2400,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-075",
+    "id": "extra1-081",
     "subject": "Analytical Ability",
     "prompt": "Gigi is probably a pianist. She can really stretch her hands and fingers.\n\nASSUMPTION:",
     "hint": "Choose the best answer.",
@@ -2250,7 +2430,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-076",
+    "id": "extra1-082",
     "subject": "Analytical Ability",
     "prompt": "Arlene should not be part of the basketball team because she does not trust her teammates.\n\nASSUMPTION:",
     "hint": "Choose the best answer.",
@@ -2280,7 +2460,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-077",
+    "id": "extra1-083",
     "subject": "Analytical Ability",
     "prompt": "If you are so smart, then why aren’t you rich?\n\nASSUMPTION:",
     "hint": "Choose the best answer.",
@@ -2310,7 +2490,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-078",
+    "id": "extra1-084",
     "subject": "Analytical Ability",
     "prompt": "In order to improve our admission process and get better students, we have decided to include an interview of the applicants as a criterion.\n\nASSUMPTION:",
     "hint": "Choose the best answer.",
@@ -2340,7 +2520,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-079",
+    "id": "extra1-085",
     "subject": "Analytical Ability",
     "prompt": "The present administration helps poor people acquire basic necessities for living that is why it helps quarter dwellers like Aling Rosie\n\nASSUMPTION:",
     "hint": "Choose the best answer.",
@@ -2370,7 +2550,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-080",
+    "id": "extra1-086",
     "subject": "Analytical Ability",
     "prompt": "Artists are never ham-handed. All artists are inquisitive. Peter is not ham-handed. Florence is not inquisitive.\n\nCONCLUSION:",
     "hint": "Choose the best answer.",
@@ -2400,7 +2580,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-081",
+    "id": "extra1-087",
     "subject": "Analytical Ability",
     "prompt": "Subscribing to Cable T.V. is a luxury. All luxuries are needles expenditures. Having a cellular phone is not a luxury. Dining in a Five-Star hotel is a needless expenditure\n\nCONCLUSION:",
     "hint": "Choose the best answer.",
@@ -2430,7 +2610,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-082",
+    "id": "extra1-088",
     "subject": "Analytical Ability",
     "prompt": "Some managers are not analytical. All managers are ruthless. Vicente is Ruthless.\n\nCONCLUSION:",
     "hint": "Choose the best answer.",
@@ -2460,7 +2640,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-083",
+    "id": "extra1-089",
     "subject": "Analytical Ability",
     "prompt": "All of my friends believe in marriage. Geraldine is a new friend. She lives with an officemate in an apartment downtown.\n\nCONCLUSION:",
     "hint": "Choose the best answer.",
@@ -2490,7 +2670,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-084",
+    "id": "extra1-090",
     "subject": "Analytical Ability",
     "prompt": "There are fewer juvenile delinquents in communities where the youth participate actively in different socio-civic and religious clubs. Barangay X has a number of youth clubs.\n\nCONCLUSION:",
     "hint": "Choose the best answer.",
@@ -2520,7 +2700,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-085",
+    "id": "extra1-091",
     "subject": "Numerical Reasoning",
     "prompt": "3² is to 9 as 9² is to __________",
     "hint": "Choose the best answer.",
@@ -2550,7 +2730,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-086",
+    "id": "extra1-092",
     "subject": "Numerical Reasoning",
     "prompt": "30% is to 3/5 as 60% is to __________",
     "hint": "Choose the best answer.",
@@ -2580,7 +2760,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-087",
+    "id": "extra1-093",
     "subject": "Numerical Reasoning",
     "prompt": "0.25 is to 0.125 as 1.25 is to __________",
     "hint": "Choose the best answer.",
@@ -2610,7 +2790,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-088",
+    "id": "extra1-094",
     "subject": "Numerical Reasoning",
     "prompt": "12.5 is to 1/8 as 20 is to __________",
     "hint": "Choose the best answer.",
@@ -2640,7 +2820,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-089",
+    "id": "extra1-095",
     "subject": "Numerical Reasoning",
     "prompt": "6 is to 15 as 36 is to ___________",
     "hint": "Choose the best answer.",
@@ -2670,7 +2850,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-090",
+    "id": "extra1-096",
     "subject": "Numerical Reasoning",
     "prompt": "9.12  18.13  16.15  13.18  9.22  __________",
     "hint": "Choose the best answer.",
@@ -2700,7 +2880,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-091",
+    "id": "extra1-097",
     "subject": "Numerical Reasoning",
     "prompt": "1  4  13  40  121  364  __________",
     "hint": "Choose the best answer.",
@@ -2730,7 +2910,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-092",
+    "id": "extra1-098",
     "subject": "Numerical Reasoning",
     "prompt": "5  17  19  6  14  16  7  10  12  8  _________",
     "hint": "Choose the best answer.",
@@ -2760,7 +2940,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-093",
+    "id": "extra1-099",
     "subject": "Numerical Reasoning",
     "prompt": "795  2611  684  2722  573  2833  __________",
     "hint": "Choose the best answer.",
@@ -2790,7 +2970,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-094",
+    "id": "extra1-100",
     "subject": "Numerical Reasoning",
     "prompt": "–6  30  –150  750  __________",
     "hint": "Choose the best answer.",
@@ -2820,7 +3000,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-095",
+    "id": "extra1-101",
     "subject": "Numerical Reasoning",
     "prompt": "1/3  3/9  5/15  7/21  9/27  __________",
     "hint": "Choose the best answer.",
@@ -2850,7 +3030,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-096",
+    "id": "extra1-102",
     "subject": "Numerical Reasoning",
     "prompt": "4  16  8  40  20  120  60  420  __________",
     "hint": "Choose the best answer.",
@@ -2880,7 +3060,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-097",
+    "id": "extra1-103",
     "subject": "Numerical Reasoning",
     "prompt": "2  5  8  10  4  17  5  26  6  __________",
     "hint": "Choose the best answer.",
@@ -2910,7 +3090,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-098",
+    "id": "extra1-104",
     "subject": "Numerical Reasoning",
     "prompt": ".02  .06  .12  .20  .30  __________",
     "hint": "Choose the best answer.",
@@ -2940,7 +3120,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-099",
+    "id": "extra1-105",
     "subject": "Numerical Reasoning",
     "prompt": "2  5  12.5  31.25  __________",
     "hint": "Choose the best answer.",
@@ -2970,7 +3150,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-100",
+    "id": "extra1-106",
     "subject": "Numerical Reasoning",
     "prompt": "If the following quantities were arrange from the least to the greatest, which one would have the second greatest value?",
     "hint": "Choose the best answer.",
@@ -3000,7 +3180,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-101",
+    "id": "extra1-107",
     "subject": "Numerical Reasoning",
     "prompt": "The ratio of males to females in an organization is M is to F. How many males are there if there are T females?",
     "hint": "Choose the best answer.",
@@ -3030,7 +3210,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-102",
+    "id": "extra1-108",
     "subject": "Numerical Reasoning",
     "prompt": "Suppose that the time now is 9:30 a.m. What will be the time 16 hours from now?",
     "hint": "Choose the best answer.",
@@ -3060,7 +3240,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-103",
+    "id": "extra1-109",
     "subject": "Numerical Reasoning",
     "prompt": "What number when increased by 90% of itself equals 133?",
     "hint": "Choose the best answer.",
@@ -3090,7 +3270,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-104",
+    "id": "extra1-110",
     "subject": "Numerical Reasoning",
     "prompt": "If y = –3. Which of the following has the greatest value?",
     "hint": "Choose the best answer.",
@@ -3120,7 +3300,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-105",
+    "id": "extra1-111",
     "subject": "Numerical Reasoning",
     "prompt": "Which of the following has the least numerical value?",
     "hint": "Choose the best answer.",
@@ -3150,7 +3330,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-106",
+    "id": "extra1-112",
     "subject": "Numerical Reasoning",
     "prompt": "A trader bought a watch and sold it at 30% more than its original cost. How much did the trader earn if the original cost of the watch was P?",
     "hint": "Choose the best answer.",
@@ -3180,7 +3360,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-107",
+    "id": "extra1-113",
     "subject": "Numerical Reasoning",
     "prompt": "What is the standard numerical value for 3.54 × 10⁵ ?",
     "hint": "Choose the best answer.",
@@ -3210,7 +3390,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-108",
+    "id": "extra1-114",
     "subject": "Numerical Reasoning",
     "prompt": "Of set S – 4/5, 41/50, 17/20, 75% the element with the largest value is __________.",
     "hint": "Choose the best answer.",
@@ -3240,7 +3420,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-109",
+    "id": "extra1-115",
     "subject": "Numerical Reasoning",
     "prompt": "What is the smallest positive number that will give a remainder of 3 when it is divided by 4, 5, or 10 ?",
     "hint": "Choose the best answer.",
@@ -3270,7 +3450,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-110",
+    "id": "extra1-116",
     "subject": "Numerical Reasoning",
     "prompt": "There are 36 reams of bond paper in a drawer. If 1 1/4 dozens of reams of paper were to be used in printing, how many reams should be left in the drawer?",
     "hint": "Choose the best answer.",
@@ -3300,7 +3480,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-111",
+    "id": "extra1-117",
     "subject": "Numerical Reasoning",
     "prompt": "If a poster, which is 3 inches wide and 5 inches long, is enlarged such that the ratio of the width to the length is maintained, how many inches long will it be if the new width is 9 inches?",
     "hint": "Choose the best answer.",
@@ -3330,7 +3510,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-112",
+    "id": "extra1-118",
     "subject": "Numerical Reasoning",
     "prompt": "If a worker can wash all the glass windows of a building in 9 days, what part of the job can said workers finish in 6 days?",
     "hint": "Choose the best answer.",
@@ -3360,7 +3540,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-113",
+    "id": "extra1-119",
     "subject": "Numerical Reasoning",
     "prompt": "Ms. Cortez bought 20 blouses for P2,400 and marked them to sell at P145 each. After selling 16 pieces at this rate, She decided to sell the remaining blouses at a lower price. At what price may she sell each remaining blouse and still realize a profit of P480 on the 20 blouses?",
     "hint": "Choose the best answer.",
@@ -3390,7 +3570,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-114",
+    "id": "extra1-120",
     "subject": "Numerical Reasoning",
     "prompt": "In a room of ten people, how many handshakes will there be if every person shakes hands with everyone else exactly once?",
     "hint": "Choose the best answer.",
@@ -3420,7 +3600,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-115",
+    "id": "extra1-121",
     "subject": "Numerical Reasoning",
     "prompt": "The numerator of a fraction is 4 less than its denominator. If 3 added to both the numerator and the denominator the resulting number is 3/4. What is the original fraction?",
     "hint": "Choose the best answer.",
@@ -3450,7 +3630,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-116",
+    "id": "extra1-122",
     "subject": "Numerical Reasoning",
     "prompt": "Mang Gustin can climb a coconut tree at the rate of 10 ft. per minute and return at 20 ft. per minute. If it took him 3 minutes to climb and return, what is the height of the coconut tree?",
     "hint": "Choose the best answer.",
@@ -3480,7 +3660,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-117",
+    "id": "extra1-123",
     "subject": "Numerical Reasoning",
     "prompt": "A fence is to be on posts 8 meters apart around a rectangular lot that measures 40 meters long and 16 meters wide. How many posts are needed, including the ones placed at each corner, to fence the entire lot?",
     "hint": "Choose the best answer.",
@@ -3510,7 +3690,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-118",
+    "id": "extra1-124",
     "subject": "Numerical Reasoning",
     "prompt": "How many degrees are there in the angle made by the hands of a clock at 4 o’clock?",
     "hint": "Choose the best answer.",
@@ -3540,7 +3720,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-119",
+    "id": "extra1-125",
     "subject": "Numerical Reasoning",
     "prompt": "The co-operative trust fund is P500,000. Part of the fund is invested at an annual interest rate of 6% and the rest is invested at an annual interest rate of 8%. If the income from both investments is P39,000, how much is invested at each rate?",
     "hint": "Choose the best answer.",
@@ -3570,7 +3750,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-120",
+    "id": "extra1-126",
     "subject": "Numerical Reasoning",
     "prompt": "The entrance fee in a carnival is P50 for an adult and P25 for a child. Ferdie pays P225 for the entrance fee of his family. If his family has equal number of adults and children, how many are they in the family?",
     "hint": "Choose the best answer.",
@@ -3600,7 +3780,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-121",
+    "id": "extra1-127",
     "subject": "Numerical Reasoning",
     "prompt": "The area of a rectangular field is 9,000 square meters. If the ratio of the width to the length is 5 is to 8, what is the length of the rectangular field in meters?",
     "hint": "Choose the best answer.",
@@ -3630,7 +3810,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-122",
+    "id": "extra1-128",
     "subject": "Numerical Reasoning",
     "prompt": "If a patient weighs 105 kg. And is 12.5% underweight, how many more kilograms should the patient weigh?",
     "hint": "Choose the best answer.",
@@ -3660,7 +3840,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-123",
+    "id": "extra1-129",
     "subject": "Numerical Reasoning",
     "prompt": "A tenant gets 4 sacks of palay for every 7 sacks harvested. Following this ratio, how many sacks of palay would the tenant get if 560 sacks were harvested?",
     "hint": "Choose the best answer.",
@@ -3690,7 +3870,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-124",
+    "id": "extra1-130",
     "subject": "Numerical Reasoning",
     "prompt": "A dealer sold a certain number of portable TV sets at P6,400 each. The dealer would have taken in as much money had 3 fewer sets been sold at P7,680. How many sets were sold at P6,400",
     "hint": "Choose the best answer.",
@@ -3720,7 +3900,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-125",
+    "id": "extra1-131",
     "subject": "General Information",
     "prompt": "Elective or appointive public officials or employees cannot accept any present, compensation, office or title of any kind from any foreign government without the consent of",
     "hint": "Choose the best answer.",
@@ -3750,7 +3930,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-126",
+    "id": "extra1-132",
     "subject": "General Information",
     "prompt": "Which of the following rights ensure the well-being of the individual and foster preservation, enrichment and dynamic evolution of national culture based on the principle of unity in diversity in a climate of free artistic and intellectual expression?",
     "hint": "Choose the best answer.",
@@ -3780,7 +3960,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-127",
+    "id": "extra1-133",
     "subject": "General Information",
     "prompt": "Right that guarantees similar treatment to all persons similarly situated and precludes arbitrary or unjust discrimination to secure and safeguard such right is called the __________.",
     "hint": "Choose the best answer.",
@@ -3810,7 +3990,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-128",
+    "id": "extra1-134",
     "subject": "General Information",
     "prompt": "The right to privacy of a person is defined as one’s right to __________.",
     "hint": "Choose the best answer.",
@@ -3840,7 +4020,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-129",
+    "id": "extra1-135",
     "subject": "General Information",
     "prompt": "A voter is disqualified from exercising the right to suffrage if said voter __________.",
     "hint": "Choose the best answer.",
@@ -3870,7 +4050,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-130",
+    "id": "extra1-136",
     "subject": "General Information",
     "prompt": "Who may be appointed as member of the Cabinet without needing confirmation from the Commission on Appointments?",
     "hint": "Choose the best answer.",
@@ -3900,7 +4080,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-131",
+    "id": "extra1-137",
     "subject": "General Information",
     "prompt": "The right of private individuals to secure for themselves the enjoyment of their means of happiness such as the right to a name, the right to form a family, and the right to security of personal papers and effects are called __________.",
     "hint": "Choose the best answer.",
@@ -3930,7 +4110,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-132",
+    "id": "extra1-138",
     "subject": "General Information",
     "prompt": "At least how many years after the Constitution has been ratified may the people propose amendments through initiative?",
     "hint": "Choose the best answer.",
@@ -3960,7 +4140,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-133",
+    "id": "extra1-139",
     "subject": "General Information",
     "prompt": "Which of the following sectors is NOT represented in the House of Representatives through the party-list system.",
     "hint": "Choose the best answer.",
@@ -3990,7 +4170,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-134",
+    "id": "extra1-140",
     "subject": "General Information",
     "prompt": "Which of the following government agencies exercises original and exclusive jurisdiction over all contests relating to the election returns and the qualifications of the President and the Vice President",
     "hint": "Choose the best answer.",
@@ -4020,7 +4200,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-135",
+    "id": "extra1-141",
     "subject": "General Information",
     "prompt": "Who among the following is responsible for determining the existence of probable cause for the issuance of a warrant of arrest or search warrant?",
     "hint": "Choose the best answer.",
@@ -4050,7 +4230,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-136",
+    "id": "extra1-142",
     "subject": "General Information",
     "prompt": "Which of the following statements BEST describes the relationship between global warming ozone depletion?",
     "hint": "Choose the best answer.",
@@ -4080,7 +4260,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-137",
+    "id": "extra1-143",
     "subject": "General Information",
     "prompt": "Monoculture cropping or planting a single crop in a large area is not advisable because it",
     "hint": "Choose the best answer.",
@@ -4110,7 +4290,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-138",
+    "id": "extra1-144",
     "subject": "General Information",
     "prompt": "Which of the following is the major cause of coral reef destruction?",
     "hint": "Choose the best answer.",
@@ -4140,7 +4320,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-139",
+    "id": "extra1-145",
     "subject": "General Information",
     "prompt": "The lasting environmental impact of a large-scale mining operation comes from",
     "hint": "Choose the best answer.",
@@ -4170,7 +4350,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-140",
+    "id": "extra1-146",
     "subject": "General Information",
     "prompt": "Jaywalking, throwing garbage anywhere vandalism, not waiting in line, and tardiness are manifestations of __________.",
     "hint": "Choose the best answer.",
@@ -4200,7 +4380,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-141",
+    "id": "extra1-147",
     "subject": "General Information",
     "prompt": "Fishery resource in marine and coastal waters may be considered as “open access resources” because of the __________.",
     "hint": "Choose the best answer.",
@@ -4230,7 +4410,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-142",
+    "id": "extra1-148",
     "subject": "General Information",
     "prompt": "Every government agency is required to develop, update regularly, and make available to the transacting public __________.",
     "hint": "Choose the best answer.",
@@ -4260,7 +4440,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-143",
+    "id": "extra1-149",
     "subject": "General Information",
     "prompt": "Within the provided periods of time, public officials and employees are required to file their statement of assets and liabilities and financial disclosure in the following instances EXCEPT __________.",
     "hint": "Choose the best answer.",
@@ -4290,7 +4470,7 @@
     "explanation": ""
   },
   {
-    "id": "extra1-144",
+    "id": "extra1-150",
     "subject": "General Information",
     "prompt": "For expenditures processing of documents, except otherwise provided by law or regulation, how many initials or signature must any written action or decision contain?",
     "hint": "Choose the best answer.",
