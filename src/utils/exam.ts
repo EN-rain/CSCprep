@@ -349,8 +349,7 @@ export function createExamSessionWithExclusions(
 
   const questions = (() => {
     if (mode.kind === 'extra') {
-      // Fixed ordered set for Extra exams (no random pick / no shuffle of item order).
-      // Optional subjects filter stays Extra-only — never pulls from main banks.
+      // Extra-only pool (never pulls from main banks). Question order is shuffled each run.
       const source = mode.extraId === 'extra1' ? extra1Questions : []
       const subjectFilter = mode.subjects?.length
         ? new Set(mode.subjects)
@@ -399,9 +398,9 @@ export function createExamSessionWithExclusions(
 
     return pickQuestions(questionsBySubject(mode.subject), history, examNumber, subjectQuestionCount, excludedQuestionIds)
   })()
-  const orderedQuestions = mode.kind === 'extra'
-    ? questions
-    : shufflePreservingChains(questions)
+  // Extra 1: reshuffle question order every exam. Other modes keep passage chains intact.
+  const orderedQuestions =
+    mode.kind === 'extra' ? shuffle(questions) : shufflePreservingChains(questions)
 
   return {
     examNumber,
