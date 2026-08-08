@@ -411,11 +411,7 @@ export function createExamSessionWithExclusions(
       id: `${question.id}-${index + 1}`,
       itemNumber: index + 1,
       question,
-      // Extra sets keep fixed choice order so answer-key hints (Answer: E. …) stay accurate.
-      choices:
-        mode.kind === 'extra' || preservesChoiceOrder(question)
-          ? question.choices
-          : shuffle(question.choices),
+      choices: preservesChoiceOrder(question) ? question.choices : shuffle(question.choices),
     })),
   }
 }
